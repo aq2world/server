@@ -1,0 +1,19 @@
+version: "3"
+
+services:
+  server:
+    container_name: AQtion-server
+    build: .
+    ports:
+      - "27910:27910/udp"
+    stdin_open: true
+    tty: true
+    restart: on-failure:5
+    volumes:
+      - type: volume
+        source: maps
+        target: /aq2server/action/maps
+
+volumes:
+  maps:
+
