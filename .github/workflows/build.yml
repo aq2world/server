@@ -14,7 +14,7 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v3
         with:
-          repository: actionquake/server
+          repository: aq2world/server
 
       - name: Git submodule initialization
         run: |
