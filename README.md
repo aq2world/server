@@ -5,8 +5,9 @@ This project contains source codes of what is needed to run AQtion server
 * q2admin https://github.com/actionquake/q2admin
 
 # Setup
-1. Build server `docker-compose build`
-2. Run server `docker-compose up`
+1. `git submodule init && git submodule update`
+2. Build server `docker-compose build`
+3. Run server `docker-compose up`
 
 # Developing
 When you want to test changes just run `docker-compose build` and it'll rebuild the server.

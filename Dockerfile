@@ -1,4 +1,4 @@
-FROM ubuntu:18.04
+FROM ubuntu:18.04 AS buildstage
 
 # Install dependencies
 RUN apt-get update
@@ -35,8 +35,13 @@ RUN cp /q2admin/plugins/* /aq2server/action/plugins/
 RUN cp /q2pro/q2proded /aq2server/q2proded
 
 # Cache hax
-ADD "https://www.random.org/cgi-bin/randbyte?nbytes=10&format=h" skipcache
+#ADD "https://www.random.org/cgi-bin/randbyte?nbytes=10&format=h" skipcache
 
+FROM ubuntu:18.04
+ENV DEBIAN_FRONTEND=noninteractive
+RUN apt-get update && apt-get install lua5.1 liblua5.1-0-dev
+
+COPY --from=buildstage /aq2server /aq2server
 # Copy and set entrypoint
 COPY entrypoint.sh /aq2server
 ENTRYPOINT /aq2server/entrypoint.sh
