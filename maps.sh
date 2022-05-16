@@ -1,6 +1,6 @@
 #!/bin/bash
 
-baseUrl="http://gameassets.aqtiongame.com/quake2/action/maps/"
+baseUrl="http://gameassets.aqtiongame.com/action/maps/"
 
 cat maplist.ini | while read map
 do
