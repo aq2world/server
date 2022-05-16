@@ -46,6 +46,14 @@ echo "set ppl_idletime $PPL_IDLETIME" >> /aq2server/action/config.cfg
 echo "set radiolog $RADIOLOG" >> /aq2server/action/config.cfg
 echo "set use_voice $USE_VOICE" >> /aq2server/action/config.cfg
 echo "set use_ghosts $USE_GHOSTS" >> /aq2server/action/config.cfg
+echo "set master $MASTER" >> /aq2server/action/config.cfg
+echo "sets _admin $_ADMIN" >> /aq2server/action/config.cfg
+
+# Passwords
+echo "set rcon_password $RCON_PASSWORD" >> /aq2server/action/config.cfg
+echo "set sv_password $SV_PASSWORD" >> /aq2server/action/config.cfg
+echo "set sv_mvd_password $SV_MVD_PASSWORD" >> /aq2server/action/config.cfg
+echo "set sv_reserved_password $SV_RESERVED_PASSWORD" >> /aq2server/action/config.cfg
 
 # Map rotation
 echo "set actionmaps $ACTIONMAPS" >> /aq2server/action/config.cfg
