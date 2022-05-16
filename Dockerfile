@@ -39,7 +39,7 @@ RUN cp /q2pro/q2proded /aq2server/q2proded
 
 FROM ubuntu:18.04
 ENV DEBIAN_FRONTEND=noninteractive
-RUN apt-get update && apt-get install lua5.1 liblua5.1-0-dev
+RUN apt-get update && apt-get install lua5.1 liblua5.1-0-dev -y
 
 COPY --from=buildstage /aq2server /aq2server
 # Copy and set entrypoint
