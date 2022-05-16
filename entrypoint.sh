@@ -111,6 +111,10 @@ echo "set allow_download_skins $ALLOW_DOWNLOAD_SKINS" >> /aq2server/action/confi
 echo "set allow_download_players $ALLOW_DOWNLOAD_PLAYERS" >> /aq2server/action/config.cfg
 echo "set allow_download_pics $ALLOW_DOWNLOAD_PICS" >> /aq2server/action/config.cfg
 echo "set allow_download_sounds $ALLOW_DOWNLOAD_SOUNDS" >> /aq2server/action/config.cfg
+echo "set sv_downloadserver \"$SV_DOWNLOADSERVER\"" >> /aq2server/action/config.cfg
+echo "set allow_download_others ${ALLOW_DOWNLOAD_OTHERS}" >> /aq2server/action/config.cfg
+echo "set allow_download_maps ${ALLOW_DOWNLOAD_MAPS}" >> /aq2server/action/config.cfg
+echo "set allow_download_demos ${ALLOW_DOWNLOAD_DEMOS}" >> /aq2server/action/config.cfg
 
 # Video checking
 echo "set video_check $VIDEO_CHECK" >> /aq2server/action/config.cfg
@@ -163,6 +167,31 @@ echo "set tgren $TGREN" >> /aq2server/action/config.cfg
 echo "set dmweapon $DMWEAPON" >> /aq2server/action/config.cfg
 echo "set hc_single $HC_SINGLE" >> /aq2server/action/config.cfg
 echo "set use_classic $USE_CLASSIC" >> /aq2server/action/config.cfg
+
+# Q2proded
+echo "set sv_recycle $SV_RECYCLE" >> /aq2server/action/config.cfg
+echo "set loud_guns $LOUD_GUNS" >> /aq2server/action/config.cfg
+echo "set sv_uptime $SV_UPTIME" >> /aq2server/action/config.cfg
+echo "set sv_calcpings_method $SV_CALCPINGS_METHOD" >> /aq2server/action/config.cfg
+echo "set sv_waterjump_hack $SV_WATERJUMP_HACK" >> /aq2server/action/config.cfg
+echo "set sv_packetdup_hack $SV_PACKETDUP_HACK" >> /aq2server/action/config.cfg
+echo "set net_maxmsglen $NET_MAXMSGLEN" >> /aq2server/action/config.cfg
+echo "set logfile_flush $LOGFILE_FLUSH" >> /aq2server/action/config.cfg
+echo "addstuffcmd begin \"say vers: $version gdrv: $gl_driver \""
+
+# MVD
+echo "set sv_mvd_enable $SV_MVD_ENABLE" >> /aq2server/action/config.cfg
+echo "set sv_mvd_maxclients $SV_MVD_MAXCLIENTS" >> /aq2server/action/config.cfg
+echo "set sv_mvd_begincmd \"putaway; h_cycle\"" >> /aq2server/action/config.cfg
+echo "set sv_mvd_scorecmd \"h_cycle\"" >> /aq2server/action/config.cfg
+echo "alias h_cycle \"h_cycle_sb; h_cycle_sb; h_cycle_sb; h_cycle_sb; h_cycle_sb\"" >> /aq2server/action/config.cfg
+echo "alias h_cycle_sb \"wait; help; wait 75; help; wait 75; putaway;\"" >> /aq2server/action/config.cfg
+echo "set mvd_default_map $MVD_DEFAULT_MAP" >> /aq2server/action/config.cfg
+echo "set sv_mvd_maxtime $SV_MVD_MAXTIME" >> /aq2server/action/config.cfg
+echo "set mvd_snaps $MVD_SNAPS" >> /aq2server/action/config.cfg
+echo "set sv_mvd_nomsgs $SV_MVD_NOMSGS" >> /aq2server/action/config.cfg
+echo "set sv_mvd_nogun $SV_MVD_NOGUN" >> /aq2server/action/config.cfg
+echo "alias mvdrec \"say MVD recording started: ${com_date}_${com_time}_${mapname}.mvd2; mvdrecord -z ${com_date}_${com_time}_${mapname}\""
 
 # Set ini files
 echo "set ininame teamplay.ini" >> /aq2server/action/config.cfg

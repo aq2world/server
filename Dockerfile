@@ -5,7 +5,7 @@ RUN apt-get update
 RUN DEBIAN_FRONTEND=noninteractive apt-get -y install wget build-essential libsdl2-dev libopenal-dev libpng-dev libjpeg-dev zlib1g-dev mesa-common-dev libcurl4-gnutls-dev git lua5.1 libsdl1.2-dev libsdl1.2debian liblua5.1-0-dev git gcc-7 nano
 
 # Cache hax
-# ADD "https://www.random.org/cgi-bin/randbyte?nbytes=10&format=h" skipcache
+#ADD "https://www.random.org/cgi-bin/randbyte?nbytes=10&format=h" skipcache
 
 # Copy stuff
 RUN mkdir /aq2server
@@ -51,6 +51,9 @@ COPY maplist.ini /aq2server/
 COPY maps.sh /aq2server/
 RUN chmod 777 /aq2server/maps.sh
 RUN mkdir /aq2server/action/maps
+
+# Sounds
+COPY sndlist.ini /aq2server/action/
 
 # Create user and add rights to aq2server
 RUN useradd -rm -d /home/admin -s /bin/bash -g root -G sudo -u 1001 admin
@@ -153,6 +156,10 @@ ENV ALLOW_DOWNLOAD_SKINS 1
 ENV ALLOW_DOWNLOAD_PLAYERS 1
 ENV ALLOW_DOWNLOAD_PICS 1
 ENV ALLOW_DOWNLOAD_SOUNDS 1
+ENV SV_DOWNLOADSERVER http://gameassets.aqtiongame.com
+ENV ALLOW_DOWNLOAD_OTHERS 1
+ENV ALLOW_DOWNLOAD_MAPS 1
+ENV ALLOW_DOWNLOAD_DEMOS 1
 
 # Video checking
 ENV VIDEO_CHECK 1
@@ -205,6 +212,26 @@ ENV TGREN 1
 ENV DMWEAPON 'MK23 Pistol'
 ENV HC_SINGLE 1
 ENV USE_CLASSIC 0
+
+# Q2proded
+ENV SV_RECYCLE 1
+ENV LOUD_GUNS 0
+ENV SV_UPTIME 1
+ENV SV_CALCPINGS_METHOD 2
+ENV SV_WATERJUMP_HACK 1
+ENV SV_PACKETDUP_HACK 1
+ENV NET_MAXMSGLEN 0
+ENV LOGFILE_FLUSH 0
+
+# MVD
+ENV SV_MVD_ENABLE 2
+ENV SV_MVD_MAXCLIENTS 2
+ENV MVD_DEFAULT_MAP wfall
+ENV SV_MVD_MAXTIME 30
+ENV MVD_SNAPS 2
+ENV MVD_WAIT_DELAY 12
+ENV SV_MVD_NOMSGS 0
+ENV SV_MVD_NOGUN 0
 
 # Default map
 ENV MAP cloud

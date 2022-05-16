@@ -10,8 +10,8 @@ services:
     stdin_open: true
     tty: true
     restart: on-failure:5
-    env_file:
-      - example.env
+    # env_file:
+    #   - example.env
     volumes:
       - type: volume
         source: maps
