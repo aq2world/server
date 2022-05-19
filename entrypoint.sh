@@ -193,6 +193,10 @@ echo "set sv_mvd_nomsgs $SV_MVD_NOMSGS" >> /aq2server/action/config.cfg
 echo "set sv_mvd_nogun $SV_MVD_NOGUN" >> /aq2server/action/config.cfg
 echo "alias mvdrec \"say MVD recording started: ${com_date}_${com_time}_${mapname}.mvd2; mvdrecord -z ${com_date}_${com_time}_${mapname}\""
 
+# Antilag
+echo "set sv_antilag $SV_ANTILAG" >> /aq2server/action/config.cfg
+echo "set sv_antilag_interp $SV_ANTILAG_INTERP" >> /aq2server/action/config.cfg
+
 # Set ini files
 echo "set ininame teamplay.ini" >> /aq2server/action/config.cfg
 
