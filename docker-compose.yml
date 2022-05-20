@@ -3,7 +3,6 @@ version: "3"
 services:
   server:
     container_name: AQtion-server
-    hostname: tp10
     build: .
     ports:
       - "27910:27910/udp"

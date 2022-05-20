@@ -48,8 +48,6 @@ ENTRYPOINT /aq2server/entrypoint.sh
 
 # Maps
 COPY maplist.ini /aq2server/
-COPY maps.sh /aq2server/
-RUN chmod 777 /aq2server/maps.sh
 RUN mkdir /aq2server/action/maps
 
 # Sounds
