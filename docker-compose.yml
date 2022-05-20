@@ -3,7 +3,7 @@ version: "3"
 services:
   server:
     container_name: AQtion-server
-    build: .
+    image: kaniz0r/aqtion:v1
     ports:
       - "27910:27910/udp"
     stdin_open: true

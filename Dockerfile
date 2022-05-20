@@ -39,7 +39,7 @@ RUN cp /q2pro/q2proded /aq2server/q2proded
 
 FROM ubuntu:18.04
 ENV DEBIAN_FRONTEND=noninteractive
-RUN apt-get update && apt-get install lua5.1 liblua5.1-0-dev -y
+RUN apt-get update && apt-get install wget lua5.1 liblua5.1-0-dev -y
 
 COPY --from=buildstage /aq2server /aq2server
 # Copy and set entrypoint
@@ -154,7 +154,7 @@ ENV ALLOW_DOWNLOAD_SKINS 1
 ENV ALLOW_DOWNLOAD_PLAYERS 1
 ENV ALLOW_DOWNLOAD_PICS 1
 ENV ALLOW_DOWNLOAD_SOUNDS 1
-ENV SV_DOWNLOADSERVER http://gameassets.aqtiongame.com
+ENV SV_DOWNLOADSERVER http://gameassets.aqtiongame.com/
 ENV ALLOW_DOWNLOAD_OTHERS 1
 ENV ALLOW_DOWNLOAD_MAPS 1
 ENV ALLOW_DOWNLOAD_DEMOS 1
@@ -202,7 +202,7 @@ ENV KNIFELIMIT 40
 ENV ALLWEAPON 0
 ENV WEAPONS 1
 ENV WP_FLAGS 511
-ENV ALLITEM 1
+ENV ALLITEM 0
 ENV ITM_FLAGS 63
 ENV IR 1
 ENV NEW_IRVISION 0
