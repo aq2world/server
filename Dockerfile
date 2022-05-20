@@ -47,7 +47,7 @@ COPY entrypoint.sh /aq2server
 ENTRYPOINT /aq2server/entrypoint.sh
 
 # Maps
-COPY maplist.ini /aq2server/
+COPY maplist.ini /aq2server/action/
 RUN mkdir /aq2server/action/maps
 
 # Sounds
@@ -73,7 +73,7 @@ ENV TEAM_3_SKIN 'male/ctf_g'
 
 # config.cfg
 # Server settings
-ENV HOSTNAME 'AQtion Teamplay'
+ENV HOSTNAME AQtion Teamplay
 ENV PORT 27910
 ENV DEDICATED 1
 ENV PUBLIC 1
@@ -90,7 +90,7 @@ ENV RADIOLOG 0
 ENV USE_VOICE 1
 ENV USE_GHOSTS 1
 ENV MASTER 'master.quadaver.org master.q2servers.com'
-ENV _ADMIN 'AQ2WORLD'
+ENV _ADMIN AQ2WORLD
 
 # Passwords
 ENV RCON_PASSWORD aq2world
@@ -102,6 +102,7 @@ ENV SV_RESERVED_PASSWORD ''
 ENV ACTIONMAPS 1
 ENV RROT 0
 ENV VROT 0
+ENV ROTATION urban2,terminal,tjt,rok,city
 
 # Lag settings
 ENV LLSOUND 0
@@ -236,4 +237,4 @@ ENV SV_ANTILAG 1
 ENV SV_ANTILAG_INTERP 0
 
 # Default map
-ENV MAP cloud
+ENV MAP urban2

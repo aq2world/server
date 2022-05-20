@@ -5,7 +5,7 @@ echo SERVER STARTING!
 # DL MAPS
 baseUrl="http://gameassets.aqtiongame.com/action/maps/"
 
-cat maplist.ini | while read map
+cat /aq2server/action/maplist.ini | while read map
 do
     if [ -f "/aq2server/action/maps/${map}.bsp" ]; then
         echo "Map $map exists."
@@ -30,8 +30,13 @@ echo "[team3]" >> /aq2server/action/teamplay.ini
 echo $TEAM_3_NAME >> /aq2server/action/teamplay.ini
 echo $TEAM_3_SKIN >> /aq2server/action/teamplay.ini
 echo "###" >> /aq2server/action/teamplay.ini
+# add map rotation to teamplay.ini
 echo "[maplist]" >> /aq2server/action/teamplay.ini
-echo $MAP >> /aq2server/action/teamplay.ini
+IFS=',' read -r -a rotation <<< "$ROTATION"
+for map in "${rotation[@]}"
+do
+  echo $map >> /aq2server/action/teamplay.ini
+done
 echo "###" >> /aq2server/action/teamplay.ini
 
 # config.cfg
@@ -208,6 +213,7 @@ echo "set sv_antilag_interp $SV_ANTILAG_INTERP" >> /aq2server/action/config.cfg
 
 # Set ini files
 echo "set ininame teamplay.ini" >> /aq2server/action/config.cfg
+echo "set maplistname maplist.ini" >> /aq2server/action/config.cfg
 
 # Display serverinfo in console when server starts up
 echo "hostname" >> /aq2server/action/config.cfg
