@@ -55,7 +55,7 @@ echo "set ppl_idletime $PPL_IDLETIME" >> /aq2server/action/config.cfg
 echo "set radiolog $RADIOLOG" >> /aq2server/action/config.cfg
 echo "set use_voice $USE_VOICE" >> /aq2server/action/config.cfg
 echo "set use_ghosts $USE_GHOSTS" >> /aq2server/action/config.cfg
-echo "set master $MASTER" >> /aq2server/action/config.cfg
+echo "setmaster $MASTER" >> /aq2server/action/config.cfg
 echo "sets _admin $_ADMIN" >> /aq2server/action/config.cfg
 
 # Passwords
