@@ -4,7 +4,7 @@ echo SERVER STARTING!
 
 # DL MAPS
 
-if [ $FULLMAPS = "TRUE" ]; then
+if [ $FULLMAPS == "TRUE" ]; then
 cp /aq2server/action/fullmaplist.ini /aq2server/action/maplist.ini
 else
   IFS=',' read -r -a rotation <<< "$ROTATION"
