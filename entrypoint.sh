@@ -3,6 +3,12 @@
 echo SERVER STARTING!
 
 # DL MAPS
+IFS=',' read -r -a rotation <<< "$ROTATION"
+for map in "${rotation[@]}"
+do
+  echo $map >> /aq2server/action/maplist.ini
+done
+
 baseUrl="http://gameassets.aqtiongame.com/action/maps/"
 
 cat /aq2server/action/maplist.ini | while read map
