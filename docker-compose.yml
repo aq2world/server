@@ -1,21 +1,39 @@
 version: "3"
 
 services:
-  server:
-    container_name: AQtion-server
-    image: kaniz0r/aqtion:v1
+  teamplay1:
+    container_name: teamplay1
+    image: aqtiongame/server:v1
     ports:
-      - "27910:27910/udp"
+      - "27950:27950/udp"
     stdin_open: true
     tty: true
     restart: on-failure:5
-    # env_file:
-    #   - example.env
-    volumes:
-      - type: volume
-        source: maps
-        target: /aq2server/action/maps
+    env_file:
+     - ./tp1.env
+    environment:
+     - PORT=27950
+     - TEAM_1_NAME=Krispy Kreme
+     - TEAM_2_NAME=Dunkin Donuts
+     - TEAM_3_NAME=Tim Hortons
+     - TEAM_1_MODEL=male
+     - TEAM_1_SKIN=cop
+     - TEAM_2_MODEL=male
+     - TEAM_2_SKIN=copper
+     - TEAM_3_MODEL=male
+     - TEAM_3_SKIN=blues
+     - HOSTNAME=[TP1] Cops vs. Cops
+     - MAXCLIENTS=11
+     - RCON_PASSWORD=replaceme!!
+     - TIMELIMIT=20
+     - FRAGLIMIT=50
+     - ROUNDLIMIT=12
+     - FULLMAPS=FALSE
+     - ROTATION=actcity2,wizs,time,teamjungle
 
 volumes:
   maps:
-
+    volumes:
+      - maps:/aq2server/action/maps
+volumes:
+  maps:

@@ -3,6 +3,17 @@
 echo SERVER STARTING!
 
 # DL MAPS
+
+if [ $FULLMAPS == "TRUE" ]; then
+cp /aq2server/action/fullmaplist.ini /aq2server/action/maplist.ini
+else
+  IFS=',' read -r -a rotation <<< "$ROTATION"
+  for map in "${rotation[@]}"
+  do
+    echo $map >> /aq2server/action/maplist.ini
+  done
+fi
+
 baseUrl="http://gameassets.aqtiongame.com/action/maps/"
 
 cat /aq2server/action/maplist.ini | while read map

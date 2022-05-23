@@ -47,7 +47,7 @@ COPY entrypoint.sh /aq2server
 ENTRYPOINT /aq2server/entrypoint.sh
 
 # Maps
-COPY maplist.ini /aq2server/action/
+COPY fullmaplist.ini /aq2server/action/
 RUN mkdir /aq2server/action/maps
 
 # Sounds
