@@ -25,6 +25,7 @@ RUN cp /aq2-tng/source/gamex86_64.so /aq2server/action/gamex86_64.real.so
 
 # Copy configs to aq2server
 RUN cp -r /aq2-tng/action /aq2server/
+RUN cp -r tng /aq2server/action/
 
 # Copy q2admin to aq2server
 RUN cp /q2admin/gamex86_64.so /aq2server/action/gamex86_64.so
