@@ -192,6 +192,8 @@ echo "set tgren $TGREN" >> /aq2server/action/config.cfg
 echo "set dmweapon $DMWEAPON" >> /aq2server/action/config.cfg
 echo "set hc_single $HC_SINGLE" >> /aq2server/action/config.cfg
 echo "set use_classic $USE_CLASSIC" >> /aq2server/action/config.cfg
+echo "set dm_choose $DM_CHOOSE" >> /aq2server/action/config.cfg
+echo "set dm_shield $DM_SHIELD" >> /aq2server/action/config.cfg
 
 # Q2proded
 echo "set sv_recycle $SV_RECYCLE" >> /aq2server/action/config.cfg
