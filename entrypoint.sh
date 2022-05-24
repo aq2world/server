@@ -165,6 +165,7 @@ echo "set auto_menu $AUTO_MENU" >> /aq2server/action/config.cfg
 # Game mode settings
 echo "set deathmatch $DEATHMATCH" >> /aq2server/action/config.cfg
 echo "set teamplay $TEAMPLAY" >> /aq2server/action/config.cfg
+echo "set teamdm $TEAMDM" >> /aq2server/action/config.cfg
 echo "set ctf $CTF" >> /aq2server/action/config.cfg
 echo "set use_3teams $USE_3TEAMS" >> /aq2server/action/config.cfg
 echo "set use_tourney $USE_TOURNEY" >> /aq2server/action/config.cfg
