@@ -36,6 +36,7 @@ IFS=',' read -r -a rotation <<< "$ROTATION"
 for map in "${rotation[@]}"
 do
   echo $map >> /aq2server/action/teamplay.ini
+  default_map=$map
 done
 echo "###" >> /aq2server/action/teamplay.ini
 
@@ -220,6 +221,6 @@ echo "hostname" >> /aq2server/action/config.cfg
 echo "serverinfo" >> /aq2server/action/config.cfg
 
 # Load map
-echo "map $MAP" >> /aq2server/action/config.cfg
+echo "map $default_map" >> /aq2server/action/config.cfg
 
 /aq2server/q2proded +set game action +set net_port $PORT +exec config.cfg +set q2a_config q2admin.lua
