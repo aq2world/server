@@ -3,6 +3,17 @@
 echo SERVER STARTING!
 
 # DL MAPS
+
+if [ $FULLMAPS == "TRUE" ]; then
+cp /aq2server/action/fullmaplist.ini /aq2server/action/maplist.ini
+else
+  IFS=',' read -r -a rotation <<< "$ROTATION"
+  for map in "${rotation[@]}"
+  do
+    echo $map >> /aq2server/action/maplist.ini
+  done
+fi
+
 baseUrl="http://gameassets.aqtiongame.com/action/maps/"
 
 cat /aq2server/action/maplist.ini | while read map
@@ -155,6 +166,7 @@ echo "set auto_menu $AUTO_MENU" >> /aq2server/action/config.cfg
 # Game mode settings
 echo "set deathmatch $DEATHMATCH" >> /aq2server/action/config.cfg
 echo "set teamplay $TEAMPLAY" >> /aq2server/action/config.cfg
+echo "set teamdm $TEAMDM" >> /aq2server/action/config.cfg
 echo "set ctf $CTF" >> /aq2server/action/config.cfg
 echo "set use_3teams $USE_3TEAMS" >> /aq2server/action/config.cfg
 echo "set use_tourney $USE_TOURNEY" >> /aq2server/action/config.cfg
@@ -182,6 +194,8 @@ echo "set tgren $TGREN" >> /aq2server/action/config.cfg
 echo "set dmweapon $DMWEAPON" >> /aq2server/action/config.cfg
 echo "set hc_single $HC_SINGLE" >> /aq2server/action/config.cfg
 echo "set use_classic $USE_CLASSIC" >> /aq2server/action/config.cfg
+echo "set dm_choose $DM_CHOOSE" >> /aq2server/action/config.cfg
+echo "set dm_shield $DM_SHIELD" >> /aq2server/action/config.cfg
 
 # Q2proded
 echo "set sv_recycle $SV_RECYCLE" >> /aq2server/action/config.cfg

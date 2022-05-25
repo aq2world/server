@@ -47,7 +47,7 @@ COPY entrypoint.sh /aq2server
 ENTRYPOINT /aq2server/entrypoint.sh
 
 # Maps
-COPY maplist.ini /aq2server/action/
+COPY fullmaplist.ini /aq2server/action/
 RUN mkdir /aq2server/action/maps
 
 # Sounds
@@ -185,6 +185,7 @@ ENV AUTO_MENU 1
 # Game mode settings
 ENV DEATHMATCH 1
 ENV TEAMPLAY 1
+ENV TEAMDM 0
 ENV CTF 0
 ENV USE_3teams 0
 ENV USE_TOURNEY 0
@@ -211,6 +212,8 @@ ENV TGREN 1
 ENV DMWEAPON 'MK23 Pistol'
 ENV HC_SINGLE 1
 ENV USE_CLASSIC 0
+ENV DM_CHOOSE 1
+ENV DM_SHIELD 30
 
 # Q2proded
 ENV SV_RECYCLE 1
