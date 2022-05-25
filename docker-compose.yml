@@ -17,11 +17,11 @@ services:
      - TEAM_2_NAME=Dunkin Donuts
      - TEAM_3_NAME=Tim Hortons
      - TEAM_1_MODEL=male
-     - TEAM_1_SKIN=cop
+     - TEAM_1_SKIN=male/ctf_r
      - TEAM_2_MODEL=male
-     - TEAM_2_SKIN=copper
+     - TEAM_2_SKIN=male/ctf_b
      - TEAM_3_MODEL=male
-     - TEAM_3_SKIN=blues
+     - TEAM_3_SKIN=male/ctf_g
      - HOSTNAME=[TP1] Cops vs. Cops
      - MAXCLIENTS=11
      - RCON_PASSWORD=replaceme!!
