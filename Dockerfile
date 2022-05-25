@@ -238,6 +238,3 @@ ENV SV_MVD_NOGUN 0
 # Antilag
 ENV SV_ANTILAG 1
 ENV SV_ANTILAG_INTERP 0
-
-# Default map
-ENV MAP teamjungle
