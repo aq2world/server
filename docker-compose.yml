@@ -30,6 +30,7 @@ services:
      - ROUNDLIMIT=12
      - FULLMAPS=FALSE
      - ROTATION=actcity2,wizs,time,teamjungle
+     - MAP=teamjungle
 
 volumes:
   maps:
