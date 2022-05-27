@@ -32,7 +32,7 @@ services:
      - ROTATION=actcity2,wizs,time,teamjungle
      - MAP=teamjungle
     volumes:
-      - ./tp1.motd:/aq2server/action/motd.txt:ro
+     - ./tp1.motd:/aq2server/action/motd.txt:ro
 
 volumes:
   maps:
