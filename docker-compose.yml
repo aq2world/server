@@ -3,7 +3,7 @@ version: "3"
 services:
   teamplay1:
     container_name: teamplay1
-    image: aqtiongame/server:v1
+    image: aqtiongame/server:v3
     ports:
       - "27950:27950/udp"
     stdin_open: true
