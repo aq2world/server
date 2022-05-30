@@ -173,6 +173,8 @@ echo "set use_3teams $USE_3TEAMS" >> /aq2server/action/config.cfg
 echo "set use_tourney $USE_TOURNEY" >> /aq2server/action/config.cfg
 echo "set matchmode $MATCHMODE" >> /aq2server/action/config.cfg
 echo "set darkmatch $DARKMATCH" >> /aq2server/action/config.cfg
+echo "set ltk_loadbots $LTK_LOADBOTS" >> /aq2server/action/config.cfg
+
 
 # Limits
 echo "set fraglimit $FRAGLIMIT" >> /aq2server/action/config.cfg
