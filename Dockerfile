@@ -17,7 +17,7 @@ COPY q2admin.lua /aq2server/
 # Compile stuff
 RUN cd /aq2-tng/source && make
 RUN cd /q2admin && make
-RUN cd /q2pro && make q2proded
+RUN cd /q2pro && CONFIG_FILE=.ci/config_linux make q2proded
 
 # Copy aq2-tng to aq2server
 RUN cp -r /aq2-tng/action /aq2server/action
