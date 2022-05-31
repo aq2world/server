@@ -1,0 +1,31 @@
+SCENARIO "Tit for Tat (CTB)"
+{
+CONTINUOUS
+TARGETS
+{
+  TARGET_AREA "Police Headquarters" ( 45 -1599 814 ) ( 75 -1569 844 ) MODEL "models/objects/dmspot/tris.md2"
+  TARGET_AREA "The Madmen's Hideout" ( 2478 1161 558 ) ( 2508 1191 588 ) MODEL "models/objects/dmspot/tris.md2"
+  TARGET_OBJECT "Evidence" MODEL "models/items/bcase/g_bc1.md2" PIC "i_bc1" VWEP "w_bc1.md2"
+  TARGET_OBJECT "Criminal Profiles" MODEL "models/items/bcase/g_bc2.md2" PIC "i_bc2" VWEP "w_bc2.md2"
+}
+TEAM "Police"
+{
+  SKIN "male/cop"
+  WEAPONS "all"
+  RESPAWN FRACTION 33 AWAY_FROM "The Madmen's Hideout" 3 TOGETHER
+  GOALS
+  {
+  RETRIEVE "Evidence" FROM "The Madmen's Hideout" TO "Police Headquarters" WITH "Criminal Profiles" TOUCH_RETURN
+  }
+}
+TEAM "Madmen" {
+  SKIN "male/nut"
+  WEAPONS "all"
+  RESPAWN FRACTION 33 AWAY_FROM "Police Headquarters" 3 TOGETHER
+  GOALS
+  {
+  RETRIEVE "Criminal Profiles" FROM "Police Headquarters" TO "The Madmen's Hideout" WITH "Evidence" TOUCH_RETURN
+  }
+}
+}
+// By [AMC]Death Mark

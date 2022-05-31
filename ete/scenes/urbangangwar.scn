@@ -1,0 +1,32 @@
+SCENARIO "Urban Gang War (CTB)"
+{
+CONTINUOUS
+TARGETS
+{
+  TARGET_AREA "The Blood's Territory" ( -1188 1453 350 ) ( -1158 1483 380 ) MODEL "models/objects/dmspot/tris.md2"
+  TARGET_AREA "The Crip's Territory" ( -322 -910 702 ) ( -292 -880 732 ) MODEL "models/objects/dmspot/tris.md2"
+  TARGET_OBJECT "The Blood's Pot" MODEL "models/items/bcase/g_bc1.md2" PIC "i_bc1" VWEP "w_bc1.md2"
+  TARGET_OBJECT "The Crip's Weed" MODEL "models/items/bcase/g_bc2.md2" PIC "i_bc2" VWEP "w_bc2.md2"
+}
+TEAM "The Bloods"
+{
+  SKIN "actionmale/blood"
+  WEAPONS "all"
+  RESPAWN FRACTION 33 AWAY_FROM "The Crip's Territory" 3 TOGETHER
+  GOALS
+  {
+  RETRIEVE "The Crip's Weed" FROM "The Crip's Territory" TO "The Blood's Territory" WITH "The Blood's Pot" TOUCH_RETURN
+  }
+}
+TEAM "The Crips" 
+{
+  SKIN "actionmale/crip"
+  WEAPONS "all"
+  RESPAWN FRACTION 33 AWAY_FROM "The Blood's Territory" 3 TOGETHER
+  GOALS
+  {
+  RETRIEVE "The Blood's Pot" FROM "The Blood's Territory" TO "The Crip's Territory" WITH "The Crip's Weed" TOUCH_RETURN
+  }
+}
+}
+// By Che Guevara-MK

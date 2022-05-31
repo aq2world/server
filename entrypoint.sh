@@ -162,6 +162,7 @@ echo "set use_rewards $USE_REWARDS" >> /aq2server/action/config.cfg
 echo "set use_balancer $USE_BALANCER" >> /aq2server/action/config.cfg
 echo "set use_oldspawns $USE_OLDSPAWNS" >> /aq2server/action/config.cfg
 echo "set auto_menu $AUTO_MENU" >> /aq2server/action/config.cfg
+echo "set sv_allow_map $SV_ALLOW_MAP" >> /aq2server/action/config.cfg
 
 # Game mode settings
 echo "set deathmatch $DEATHMATCH" >> /aq2server/action/config.cfg
@@ -174,6 +175,8 @@ echo "set use_tourney $USE_TOURNEY" >> /aq2server/action/config.cfg
 echo "set matchmode $MATCHMODE" >> /aq2server/action/config.cfg
 echo "set darkmatch $DARKMATCH" >> /aq2server/action/config.cfg
 echo "set ltk_loadbots $LTK_LOADBOTS" >> /aq2server/action/config.cfg
+echo "set ltk_skill $LTK_SKILL" >> /aq2server/action/config.cfg
+echo "set ltk_chat $LTK_CHAT" >> /aq2server/action/config.cfg
 
 
 # Limits
@@ -236,6 +239,24 @@ echo "set maplistname maplist.ini" >> /aq2server/action/config.cfg
 # Display serverinfo in console when server starts up
 echo "hostname" >> /aq2server/action/config.cfg
 echo "serverinfo" >> /aq2server/action/config.cfg
+
+# Espionage (non-TNG)
+echo "set scripts $ETE_SCRIPTS" >> /aq2server/action/config.cfg
+echo "set e_maxVolunteers $ETE_MAXVOLUNTEERS" >> /aq2server/action/config.cfg
+echo "set e_mustVolunteer $ETE_MUSTVOLUNTEER" >> /aq2server/action/config.cfg
+echo "set escore $ETE_ESCORE" >> /aq2server/action/config.cfg
+echo "set allowMPELPSuicide $ETE_ALLOWMPELP" >> /aq2server/action/config.cfg
+echo "set e_allRadio $ETE_ALLRADIO" >> /aq2server/action/config.cfg
+echo "set e_useDefaultScenario $ETE_USEDEFSCENARIO" >> /aq2server/action/config.cfg
+echo "set e_defaultScenarioName $ETE_DEFSCENARIONAME" >> /aq2server/action/config.cfg
+echo "set e_carrierReturn $ETE_CARRIERRETURN" >> /aq2server/action/config.cfg
+echo "set e_enhancedSlippers $ETE_ENHANCEDSLIPPERS" >> /aq2server/action/config.cfg
+echo "set allowVotemap $ETE_ALLOWVOTEMAP" >> /aq2server/action/config.cfg
+echo "set votemapPercentage $ETE_VOTEMAPPERCENT" >> /aq2server/action/config.cfg
+echo "set allow_vote $ETE_ALLOWVOTE" >> /aq2server/action/config.cfg
+echo "set e_voteWait $ETE_VOTEWAIT" >> /aq2server/action/config.cfg
+echo "set sv_author $ETE_SVAUTHOR" >> /aq2server/action/config.cfg
+
 
 # Load map
 echo "map $default_map" >> /aq2server/action/config.cfg

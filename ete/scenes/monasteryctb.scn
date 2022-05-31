@@ -1,0 +1,32 @@
+SCENARIO "Monastery Madness! (CTB)"
+{
+CONTINUOUS
+TARGETS
+{
+  TARGET_AREA "Bathing Area" ( 651 -399 -209 ) ( 681 -369 -179 ) MODEL "models/objects/dmspot/tris.md2"
+  TARGET_AREA "Sniper Tower" ( 319 -3133 -81 ) ( 349 -3103 -51 ) MODEL "models/objects/dmspot/tris.md2"
+  TARGET_OBJECT "Black Package" MODEL "models/items/bcase/g_bc1.md2" PIC "i_bc1" VWEP "w_bc1.md2"
+  TARGET_OBJECT "Silver Package" MODEL "models/items/bcase/g_bc2.md2" PIC "i_bc2" VWEP "w_bc2.md2"
+}
+TEAM "The Monks"
+{
+  SKIN "actionmale/bluceree"
+  WEAPONS "all"
+  RESPAWN FRACTION 33 AWAY_FROM "Sniper Tower" 3
+  GOALS
+  {
+  RETRIEVE "Black Package" FROM "Sniper Tower" TO "Bathing Area" WITH "Silver Package" TOUCH_RETURN
+  }
+}
+TEAM "Thieves" 
+{
+  SKIN "terror/skyterr"
+  WEAPONS "all"
+  RESPAWN FRACTION 33 AWAY_FROM "Bathing Area" 3
+  GOALS
+  {
+  RETRIEVE "Silver Package" FROM "Bathing Area" TO "Sniper Tower" WITH "Black Package" TOUCH_RETURN
+  }
+}
+}
+// By [AMC]Death Mark

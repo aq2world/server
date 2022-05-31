@@ -1,0 +1,31 @@
+SCENARIO "Get the Goods (OFC)"
+{
+CONTINUOUS
+TARGETS
+{
+  TARGET_AREA "Waiting Limo" ( 151 701 28 ) ( 191 741 68 )
+  TARGET_AREA "Getaway Truck" ( 1319 -2582 258 ) ( 1359 -2542 298 )
+  TARGET_OBJECT "Package" MODEL "models/items/bcase/g_bc1.md2" PIC "i_bc1" VWEP "w_bc1.md2"
+  TARGET_LOCATION "Studio Apartment" ( 686 -1635 402 )
+}
+TEAM "Hitmen"
+{
+  SKIN "actionmale/invince"
+  WEAPONS "all"
+  RESPAWN FRACTION 33 AWAY_FROM "Waiting Limo" 2 TOGETHER
+  GOALS
+  {
+  RETRIEVE "Package" FROM "Studio Apartment" TO "Getaway Truck"
+  }
+}
+TEAM "Reservoir Dogs" 
+{
+  SKIN "male/resdog"
+  WEAPONS "all"
+  RESPAWN FRACTION 33 AWAY_FROM "Getaway Truck" 2 TOGETHER
+  GOALS
+  {
+  RETRIEVE "Package" FROM "Studio Apartment" TO "Waiting Limo"
+  }
+}
+}

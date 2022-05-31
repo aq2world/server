@@ -1,0 +1,29 @@
+SCENARIO "The Blue Egg (CNH)"
+{
+CONTINUOUS
+TARGETS
+{
+  TARGET_AREA "The Blue Egg" ( 64 4 54 ) ( 64 35 46 ) MODEL "models/objects/laser/tris.md2"
+}
+TEAM "Temple Raiders"
+{
+  SKIN "male/rigs"
+  WEAPONS "all"
+  RESPAWN TIME 10
+  GOALS
+  {
+HOLDALL "The Egg Chamber" 30 "The Blue Egg"
+  }
+}
+TEAM "The Syndicate"
+{
+  SKIN "male/shaft"
+  WEAPONS "all"
+  RESPAWN TIME 10
+  GOALS
+  {
+HOLDALL "The Egg Chamber" 30 "The Blue Egg"
+  }
+}
+}
+

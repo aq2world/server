@@ -1,0 +1,31 @@
+SCENARIO "Welcome to Pain (CTB)"
+{
+CONTINUOUS
+TARGETS
+{
+  TARGET_AREA "AK Home" ( 618 -63 -61 ) ( 648 -33 -31 ) MODEL "models/objects/dmspot/tris.md2"
+  TARGET_AREA "BS Home" ( -680 6 -61 ) ( -650 36 -31 ) MODEL "models/objects/dmspot/tris.md2"
+  TARGET_OBJECT "Black Package" MODEL "models/items/bcase/g_bc1.md2" PIC "i_bc1" VWEP "w_bc1.md2"
+  TARGET_OBJECT "Silver Package" MODEL "models/items/bcase/g_bc2.md2" PIC "i_bc2" VWEP "w_bc2.md2"
+}
+TEAM "Ass Kickers"
+{
+  SKIN "messiah/blade"
+  WEAPONS "all"
+  RESPAWN INSTANT AWAY_FROM "BS Home" 1
+  GOALS
+  {
+  RETRIEVE "Black Package" FROM "BS Home" TO "AK Home" WITH "Silver Package" AUTO_RETURN 20 
+  }
+}
+TEAM "Bitch Slappers" 
+{
+  SKIN "messiah/kindig"
+  WEAPONS "all"
+  RESPAWN INSTANT AWAY_FROM "AK Home" 1
+  GOALS
+  {
+  RETRIEVE "Silver Package" FROM "AK Home" TO "BS Home" WITH "Black Package" AUTO_RETURN 20
+  }
+}
+}

@@ -1,0 +1,77 @@
+MAPS
+{
+//"Capture the Briefcase" and "Assassinate The Leader" are defined
+//in generic scenario definition files, i.e. ctb.scn and atl.scn.  
+//
+//think of this as a "scenario rotation", like a map rotation
+//you associate scenario types with different maps in the order you want
+//
+//mapname	scenario title(first line in the .scn file)
+//
+urbanjungle	"Assassinate The Leader"
+temple		"The Blue Egg (CNH)"
+teamdepo	"Another Day At The Depot (CTB)"
+act2r		"Casino Assassination Enhanced (ETV)"
+bwcity		"Assassinate The Leader"
+ctbcity         "Capture the Briefcase"
+cracked		"House Dispute (CNH)"
+cliff2		"Cliff2 - Slaughter House (OFC)"
+asylum		"Control the Asylum! (CNH)"
+mountain	"Sound the Horn (ETV)"
+monastery	"Assassinate The Leader"
+tequila         "Control the Water Supply! (CNH)"
+urban		"Urban Gang War (CTB)"
+
+//
+//quotes only needed in scenario titles that have spaces in them
+}
+
+//below tells the program what scenarios to process
+//it defines the scenarios you associated above with certain maps
+//
+//#include	"location/filename.scn"
+//
+#include	"scenes/asylumcnh.scn"
+#include	"scenes/act2retv.scn"
+#include	"scenes/actcity2etv.scn"
+#include	"scenes/actcity2ofc.scn"
+#include	"scenes/actcity3ctb.scn"
+#include	"scenes/actcity3etv.scn"
+#include	"scenes/actcity3ofc.scn"
+#include	"scenes/apbaseetv.scn"
+#include	"scenes/atl.scn"
+#include	"scenes/avenue1cnh.scn"
+#include	"scenes/avenue1frd.scn"
+#include	"scenes/avenue1ofc.scn"
+#include	"scenes/basev28ctb.scn"
+#include	"scenes/beachdeadrug.scn"
+#include	"scenes/bldg17ctb.scn"
+#include	"scenes/blockwarcnh.scn"
+#include	"scenes/blockwaretv.scn"
+#include	"scenes/bloodctb.scn"
+#include	"scenes/bloodofc.scn"
+#include	"scenes/blueegg.scn"
+#include	"scenes/brickyardetv.scn"
+#include	"scenes/cliff2ofc.scn"
+#include	"scenes/crackedcnh.scn"
+#include	"scenes/ctb.scn"
+#include	"scenes/desertctb.scn"
+#include	"scenes/dirtctb.scn"
+#include	"scenes/dirtrace.scn"
+#include	"scenes/dockcnh.scn"
+#include	"scenes/hostage2etv.scn"
+#include	"scenes/monasteryctb.scn"
+#include	"scenes/mountainetv.scn"
+#include	"scenes/murderctb.scn"
+#include	"scenes/museumctb.scn"
+#include	"scenes/night_rctb.scn"
+#include	"scenes/teamdepoctb.scn"
+#include	"scenes/teamjunglectb.scn"
+#include	"scenes/tf.scn"
+#include	"scenes/tequilacnh.scn"
+#include	"scenes/urban2ctb.scn"
+#include	"scenes/urbanctb.scn"
+#include	"scenes/urbanetv.scn"
+#include	"scenes/urbangangwar.scn"
+#include	"scenes/urbanjungleetv.scn"
+#include	"scenes/urbanofc.scn"

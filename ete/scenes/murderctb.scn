@@ -1,0 +1,33 @@
+SCENARIO "There's Been A Murder (CTB)"
+{
+CONTINUOUS
+TARGETS
+{
+  TARGET_AREA "Siren House" ( 1207 2636 394 ) ( 1237 2666 424 ) MODEL "models/objects/laser/tris.md2"
+  TARGET_AREA "Pete's Roof" ( -840 1078 442 ) ( -810 1108 472 ) MODEL "models/objects/laser/tris.md2"
+  TARGET_OBJECT "Black Package" MODEL "models/items/bcase/g_bc1.md2" PIC "i_bc1" VWEP "w_bc1.md2"
+  TARGET_OBJECT "Silver Package" MODEL "models/items/bcase/g_bc2.md2" PIC "i_bc2" VWEP "w_bc2.md2"
+}
+TEAM "Police"
+{
+  SKIN "male/police"
+  WEAPONS "all"
+  INITIAL_SPAWN "Siren House"
+  RESPAWN PERIODIC 20 NEAR "Siren House" 1 TOGETHER
+  GOALS
+  {
+  RETRIEVE "Silver Package" FROM "Pete's Roof" TO "Siren House" WITH "Black Package" TOUCH_RETURN
+  }
+}
+TEAM "Robbers" 
+{
+  SKIN "male/robber"
+  WEAPONS "all"
+  INITIAL_SPAWN "Pete's Roof"
+  RESPAWN PERIODIC 20 NEAR "Pete's Roof" 1 TOGETHER
+  GOALS
+  {
+  RETRIEVE "Black Package" FROM "Siren House" TO "Pete's Roof" WITH "Silver Package" TOUCH_RETURN
+  }
+}
+}

@@ -1,0 +1,32 @@
+SCENARIO "Elvis has left the building! (ETV)"
+{
+TARGETS
+{
+  TARGET_AREA "A" ( 475 383 84 ) ( 476 384 85 ) MODEL "models/objects/dmspot/tris.md2"  
+  TARGET_AREA "B" ( -2166 -230 -17 ) ( -2165 -229 -16 ) MODEL "models/objects/dmspot/tris.md2"
+  PLAYER_RANDOM "Elvis" TEAM "The Bodyguards" SKIN "messiah/blade"
+  TARGET_AREA "Limo" ( -1800.0 187.0 -283.0 ) ( -1760.0 227 -263.0 )
+}
+TEAM "The Bodyguards"
+{
+  SKIN "male/grunt"
+  WEAPONS "all"
+  INITIAL_SPAWN "A"
+  RESPAWN
+  GOALS
+  {
+  ESCORT "Elvis" TO "Limo"
+  }
+}
+TEAM "Rabid Fans" 
+{
+  SKIN "female/jungle"
+  WEAPONS "all"
+  INITIAL_SPAWN "B"
+  RESPAWN FRACTION 50
+  GOALS
+  {
+  ASSASSINATE "Elvis" 
+  }
+}
+}

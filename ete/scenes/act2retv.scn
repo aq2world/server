@@ -1,0 +1,33 @@
+SCENARIO "Casino Assassination Enhanced (ETV)"
+{
+TARGETS
+{
+  TARGET_AREA "Hotel" ( 639 -171 222 ) ( 650 -253 222 )
+  TARGET_AREA "CopSpawn" ( -1550 -232 62 ) ( -1454 -264 62 )
+  TARGET_AREA "Street" ( -1073 612 174 ) ( -1033 474 174 )
+  PLAYER_RANDOM "Roger" TEAM "Drug Syndicate" SKIN "male/chow" WEAPONS + SILENCER + SLIPPERS + BANDOLIER + VEST + LASER
+  TARGET_AREA "Casino" ( -623 711 174 ) ( -623 712 174 ) MODEL "models/objects/laser/tris.md2"
+}
+TEAM "Police"
+{
+  SKIN "male/police"
+  WEAPONS "all"
+  INITIAL_SPAWN "CopSpawn"
+  RESPAWN TIME 10 NEAR "Street" 1
+  GOALS
+  {
+  ASSASSINATE "Roger"
+  }
+}
+TEAM "Drug Syndicate"
+{
+  SKIN "male/roger"
+  WEAPONS "all"
+  INITIAL_SPAWN "Hotel"
+  RESPAWN TIME 5 NEAR "Roger" 1
+  GOALS
+  {
+  ESCORT "Roger" TO "Casino"
+  }
+}
+}

@@ -1,0 +1,21 @@
+***********
+AQDT Scenario Depot Script Information
+
+Scenario Name:beachassaultctb
+Author:Che Guevara-MK
+E-Mail Contact:subcomp@flash.net
+
+General Description (what type of game, what map [if any], etc...):
+Its the DEA vs the columbian drug smugglers.
+
+
+Objectives: DEAs gotta steal the drug smugglers cocaine, 
+and the smuggler's gotta steal the evidence that the DEA 
+has on them.  For use with beachassault.
+
+
+Respawn Rule:33 percent of team must be dead.
+Other Notes:Reformatting your HD sucks dick.
+Date Submitted:4/15/99
+***********
+

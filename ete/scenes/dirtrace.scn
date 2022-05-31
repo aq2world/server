@@ -1,0 +1,34 @@
+SCENARIO "Territorial Clash (OFC)"
+{
+TARGETS
+{
+  TARGET_AREA "AK Spawn" ( 955 275 -61 ) ( 985 305 -31 )
+  TARGET_AREA "BS Spawn" ( -988 -267 -61 ) ( -958 -237 -31 )
+  TARGET_AREA "BS Target" ( 970 -33 -85 ) ( 1000 -3 -55 ) MODEL "models/objects/dmspot/tris.md2"
+  TARGET_AREA "AK Target" ( -1006 -22 -85 ) ( -976 8 -55 ) MODEL "models/objects/dmspot/tris.md2"
+  TARGET_OBJECT "Package" MODEL "models/items/bcase/g_bc2.md2" PIC "i_bc2" VWEP "w_bc2.md2"
+  TARGET_LOCATION "Neutral Zone" ( -2 56 -68 )
+}
+TEAM "Ass Kickers"
+{
+  SKIN "messiah/blade"
+  WEAPONS "all"
+  INITIAL_SPAWN "AK Spawn"
+  RESPAWN INSTANT INITIAL_SPAWN
+  GOALS
+  {
+  RETRIEVE "Package" FROM "Neutral Zone" TO "AK Target"
+  }
+}
+TEAM "Bitch Slappers" 
+{
+  SKIN "messiah/kindig"
+  WEAPONS "all"
+  INITIAL_SPAWN "BS Spawn"
+  RESPAWN INSTANT INITIAL_SPAWN
+  GOALS
+  {
+  RETRIEVE "Package" FROM "Neutral Zone" TO "BS Target"
+  }
+}
+}

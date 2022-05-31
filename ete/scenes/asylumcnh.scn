@@ -1,0 +1,30 @@
+SCENARIO "Control the Asylum! (CNH)"
+{
+CONTINUOUS
+TARGETS
+{
+  TARGET_AREA "Torture Chamber" ( -181 -228 -49 ) ( -181 -199 -35 ) MODEL "models/objects/laser/tris.md2"
+  TARGET_AREA "Center Cell" ( 339 -160 -75 ) ( 395 -153 -90 ) MODEL "models/objects/laser/tris.md2"
+  TARGET_AREA "Office" ( 276 -940 -49 ) ( 329 -940 -49 ) MODEL "models/objects/laser/tris.md2"
+}
+TEAM "Police"
+{
+  SKIN "male/police"
+  WEAPONS "all"
+  RESPAWN PERIODIC 20 AWAY_FROM "Torture Chamber" 2 TOGETHER
+  GOALS
+  {
+HOLDALL "Asylum" 15 "Torture Chamber" "Center Cell" "Office"
+  }
+}
+TEAM "Inmates"
+{
+  SKIN "male/robber"
+  WEAPONS "all"
+  RESPAWN PERIODIC 20 AWAY_FROM "Office" 2 TOGETHER
+  GOALS
+  { 
+HOLDALL "Asylum" 15 "Torture Chamber" "Center Cell" "Office"
+  }
+}
+}

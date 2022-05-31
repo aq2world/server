@@ -1,0 +1,32 @@
+SCENARIO "Goodbye, Mister Anderson (ETV)"
+{
+TARGETS
+{
+  TARGET_AREA "Start" ( 858 509 367 ) ( 859 510 368 )
+  TARGET_AREA "Payphones" ( -2543 1551 46 ) ( -2513 1581 76 )
+  PLAYER_RANDOM "Neo" TEAM "Morpheus" SKIN "messiah/neo" WEAPONS + MP5 + AKIMBO + LASER + BANDOLIER + SLIPPERS
+}
+TEAM "Agent Smith"
+{
+  SKIN "suit/betblak1"
+  WEAPONS + SSG + HC + SILENCER + SLIPPERS
+  INITIAL_SPAWN "Payphones"
+  RESPAWN FRACTION 50 AWAY_FROM "Neo" 2 TOGETHER
+  GOALS
+  {
+  ASSASSINATE "Neo"
+  }
+}
+TEAM "Morpheus"
+{
+  SKIN "messiah/blade"
+  WEAPONS + MP5 + M4 + M3 + VEST + LASER
+  INITIAL_SPAWN "Start"
+  RESPAWN INSTANT
+  GOALS
+  {
+  ESCORT "Neo" TO "Payphones"
+  }
+}
+}
+

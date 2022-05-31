@@ -1,0 +1,29 @@
+***********
+AQDT Scenario Depot Script Information
+
+Scenario Name: dirtctb
+Author: inghaw
+E-Mail Contact: inghaw@fear.net
+
+General Description (what type of game, what map [if any], etc...):
+
+Ass Kickers vs. Bitch Slappers
+A match of pure firepower to be played on dirt.
+Each team respawns instantly and must move their flag (a small distance)
+from the enemy base back to their base, where they can cap only if their
+flag is at home.  While this may seem impossible on a small map like
+dirt, the catch is that the packages don't return on touch; you have to
+protect them on the field for 20 full seconds before they return.
+
+This can lead to fun defensive stands.  Maybe hard to capture, but fun. :)
+
+Objectives: Explained above
+
+Respawn Rule: INSTANT
+Other Notes: THIS IS IMPORTANT
+Although the script specifies that the packages should return in 20 seconds,
+until a slight omission is fixed in the next release, it will only return
+in 30.  I realize that this makes it harder to capture, much harder, but
+think of it as a defensive challenge.  :)
+Date Submitted: 4/17/99
+***********

@@ -1,0 +1,31 @@
+SCENARIO "Transport the Drugs (FRD)"
+{
+TARGETS
+{
+  PLAYER_RANDOM "Drug Courier" TEAM "Columbian Cartel" SKIN "male/resdog"
+  TARGET_AREA "Limo Trunk" ( 151 701 28 ) ( 191 741 68 )
+  TARGET_OBJECT "Drug Shipment" MODEL "models/items/bcase/g_bc1.md2" PIC "i_bc1" VWEP "w_bc1.md2" 
+  TARGET_LOCATION "Truck" ( 1452 -2596 258 )
+}
+TEAM "Columbian Cartel"
+{
+  SKIN "suit/betblak4"
+  WEAPONS "all"
+  RESPAWN INSTANT
+  GOALS
+  {
+  ESCORT "Drug Courier" TO "Limo Trunk"
+  RETRIEVE "Drug Shipment" FROM "Truck" TO "Limo Trunk" BY "Drug Courier"
+  }
+}
+TEAM "DEA" 
+{
+  SKIN "sas/sas"
+  WEAPONS "all"
+  RESPAWN FRACTION 50 AWAY_FROM "Drug Courier" 3 TOGETHER
+  GOALS
+  {
+  ASSASSINATE "Drug Courier" 
+  }
+}
+}

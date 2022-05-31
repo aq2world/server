@@ -1,0 +1,33 @@
+SCENARIO "Capture 2 Paintings (CTB)"
+{
+CONTINUOUS
+TARGETS
+{
+  TARGET_AREA "Art Room" ( -813 1269 174 ) ( -783 1299 204 ) MODEL "models/objects/laser/tris.md2"
+  TARGET_AREA "Broken Window" ( 879 -247 46 ) ( 909 -217 76 ) MODEL "models/objects/laser/tris.md2"
+  TARGET_OBJECT "Black Package" MODEL "models/items/bcase/g_bc1.md2" PIC "i_bc1" VWEP "w_bc1.md2"
+  TARGET_OBJECT "Silver Package" MODEL "models/items/bcase/g_bc2.md2" PIC "i_bc2" VWEP "w_bc2.md2"
+}
+TEAM "Police"
+{
+  SKIN "male/police"
+  WEAPONS "all"
+  INITIAL_SPAWN "Art Room"
+  RESPAWN PERIODIC 20 NEAR "Art Room" 1 TOGETHER
+  GOALS
+  {
+  RETRIEVE "Silver Package" FROM "Broken Window" TO "Art Room" WITH "Black Package" TOUCH_RETURN
+  }
+}
+TEAM "Robbers" 
+{
+  SKIN "male/robber"
+  WEAPONS "all"
+  INITIAL_SPAWN "Broken Window"
+  RESPAWN PERIODIC 20 NEAR "Broken Window" 1 TOGETHER
+  GOALS
+  {
+  RETRIEVE "Black Package" FROM "Art Room" TO "Broken Window" WITH "Silver Package" TOUCH_RETURN
+  }
+}
+}

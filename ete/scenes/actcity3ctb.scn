@@ -1,0 +1,31 @@
+SCENARIO "Careful up there! (CTB)"
+{
+CONTINUOUS
+TARGETS
+{
+  TARGET_AREA "Phobos" ( 253 36 0 ) ( 283 66 180 ) MODEL "models/objects/dmspot/tris.md2"
+  TARGET_AREA "Deimos" ( -2824 825 200 ) ( -2794 855 240 ) MODEL "models/objects/dmspot/tris.md2"
+  TARGET_OBJECT "Black Package" MODEL "models/items/bcase/g_bc1.md2" PIC "i_bc1" VWEP "w_bc1.md2"
+  TARGET_OBJECT "Silver Package" MODEL "models/items/bcase/g_bc2.md2" PIC "i_bc2" VWEP "w_bc2.md2"
+}
+TEAM "Antiterrorist Force"
+{
+  SKIN "terror/swatsnipe"
+  WEAPONS "all"
+  RESPAWN PERIODIC 15 AWAY_FROM "Deimos" 1 TOGETHER
+  GOALS
+  {
+  RETRIEVE "Black Package" FROM "Deimos" TO "Phobos" WITH "Silver Package" TOUCH_RETURN
+  }
+}
+TEAM "Terrorists" 
+{
+  SKIN "male/bluebeard"
+  WEAPONS "all"
+  RESPAWN PERIODIC 15 AWAY_FROM "Phobos" 1 TOGETHER
+  GOALS
+  {
+  RETRIEVE "Silver Package" FROM "Phobos" TO "Deimos" WITH "Black Package" TOUCH_RETURN
+  }
+}
+}

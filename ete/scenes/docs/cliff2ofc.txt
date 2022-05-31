@@ -1,0 +1,14 @@
+***********
+AQDT Scenario Depot Script Information
+
+Scenario Name: Cliff2 - Slaughter House
+Author: Blaze
+E-Mail Contact: blaze74@hotmail.com
+
+You spawn in your enemys base, your goal is to run to the 
+top of the cliff and grab the case, and keep going on to the other side.
+
+Respawn Rule: 10 second timer
+Other Notes: Just Remember that you spawn farthest from your base.
+Date Submitted: 1:41 AM 4/18/99
+***********

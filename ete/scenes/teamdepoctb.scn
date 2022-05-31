@@ -1,0 +1,33 @@
+SCENARIO "Another Day At The Depot (CTB)"
+{
+CONTINUOUS
+TARGETS
+{
+  TARGET_AREA "Street Sandbag" ( -1364 790 -177 ) ( -1334 820 -147 ) MODEL "models/objects/laser/tris.md2"
+  TARGET_AREA "Outside Sandbag" ( -91 -1942 -177 ) ( -61 -1912 -147 ) MODEL "models/objects/laser/tris.md2"
+  TARGET_OBJECT "Black Package" MODEL "models/items/bcase/g_bc1.md2" PIC "i_bc1" VWEP "w_bc1.md2"
+  TARGET_OBJECT "Silver Package" MODEL "models/items/bcase/g_bc2.md2" PIC "i_bc2" VWEP "w_bc2.md2"
+}
+TEAM "Police"
+{
+  SKIN "male/police"
+  WEAPONS "all"
+  INITIAL_SPAWN "Street Sandbag"
+  RESPAWN PERIODIC 15 NEAR "Street Sandbag" 1 TOGETHER
+  GOALS
+  {
+  RETRIEVE "Silver Package" FROM "Outside Sandbag" TO "Street Sandbag" WITH "Black Package" TOUCH_RETURN
+  }
+}
+TEAM "Robbers" 
+{
+  SKIN "male/robber"
+  WEAPONS "all"
+  INITIAL_SPAWN "Outside Sandbag"
+  RESPAWN PERIODIC 15 NEAR "Outside Sandbag" 1 TOGETHER
+  GOALS
+  {
+  RETRIEVE "Black Package" FROM "Street Sandbag" TO "Outside Sandbag" WITH "Silver Package" TOUCH_RETURN
+  }
+}
+}

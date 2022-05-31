@@ -1,0 +1,29 @@
+***********
+AQDT Scenario Depot Script Information
+
+Scenario Name: dirtrace
+Author: inghaw
+E-Mail Contact: inghaw@fear.net
+
+General Description (what type of game, what map [if any], etc...):
+
+The package is in the middle.  Both teams start in their fort and race
+to put it in the target area in the opposite fort.  The team who does it
+first wins (kills off the other team).
+
+Note that this is a non-CONTINUOUS scenario, and that you spawn in the area
+*opposite* the area you want to bring the package to, so that these are
+significant differences, significant enough to call it something
+other than OFC, in my opinion.  Anyways, the whole objective is to do
+whatever it takes to put the flag in the other team's base.
+
+Ever play the map "Push" in TCFC?  It's kinda like that, except instead of
+the football (erm soccer ball), you have a package.
+
+Objectives: Explained above
+
+
+Respawn Rule: INSTANT
+Other Notes:
+Date Submitted: 4/19/99
+***********

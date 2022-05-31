@@ -1,0 +1,31 @@
+SCENARIO "Capture the Briefcase"
+{
+CONTINUOUS
+TARGETS
+{
+  TARGET_FLAG1_SPAWN "Deimos"
+  TARGET_FLAG2_SPAWN "Phobos"
+  TARGET_OBJECT "Black Package" MODEL "models/items/bcase/g_bc1.md2" PIC "i_bc1" VWEP "w_bc1.md2"
+  TARGET_OBJECT "Silver Package" MODEL "models/items/bcase/g_bc2.md2" PIC "i_bc2" VWEP "w_bc2.md2"
+}
+TEAM "Antiterrorists Force"
+{
+  SKIN "sas/fbi"
+  WEAPONS "all"
+  RESPAWN PERIODIC 15 AWAY_FROM "Phobos" 1 TOGETHER
+  GOALS
+  {
+RETRIEVE "Black Package" FROM "Phobos" TO "Deimos" WITH "Silver Package" TOUCH_RETURN
+  }
+}
+TEAM "Terrorists" 
+{
+  SKIN "terror/swatsnipe"
+  WEAPONS "all"
+  RESPAWN PERIODIC 15 AWAY_FROM "Deimos" 1 TOGETHER
+  GOALS
+  {
+RETRIEVE "Silver Package" FROM "Deimos" TO "Phobos" WITH "Black Package" TOUCH_RETURN
+  }
+}
+}

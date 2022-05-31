@@ -1,0 +1,33 @@
+SCENARIO "Apartment Run (ETV)"
+{
+TARGETS
+{
+  TARGET_AREA "Alley" ( -1347 1468 366 ) ( -1347 1468 366 ) MODEL "models/objects/dmspot/tris.md2"
+  TARGET_AREA "Coke Sign" ( -1270 -1056 494 ) ( -1270 -1056 494 ) MODEL "models/objects/dmspot/tris.md2"
+  PLAYER_RANDOM "Chief" TEAM "Police" SKIN "male/copper" WEAPONS + SILENCER + SLIPPERS + BANDOLIER + VEST + LASER
+  TARGET_AREA "Appartment" ( -191 -771 702 ) ( -191 -771 702 ) MODEL "models/objects/laser/tris.md2"
+}
+
+TEAM "Police"
+{
+  SKIN "male/police"
+  WEAPONS "all"
+  INITIAL_SPAWN "Alley"
+  RESPAWN TIME 5 NEAR "Chief" 1
+  GOALS
+  {
+  ESCORT "Chief" TO "Appartment"
+  }
+}
+TEAM "Robbers" 
+{
+  SKIN "male/robber"
+  WEAPONS "all"
+  INITIAL_SPAWN "Coke Sign"
+  RESPAWN TIME 15 NEAR "Appartment" 1
+  GOALS
+  {
+  ASSASSINATE "Chief" 
+  }
+}
+}

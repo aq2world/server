@@ -1,0 +1,31 @@
+SCENARIO "Capture the Briefcase TF Rules Variant"
+{
+CONTINUOUS
+TARGETS
+{
+  TARGET_FLAG1_SPAWN "Red Base" MODEL "models/objects/dmspot/tris.md2"
+  TARGET_FLAG2_SPAWN "Blue Base" MODEL "models/objects/dmspot/tris.md2"
+  TARGET_OBJECT "Black Package" MODEL "models/items/bcase/g_bc1.md2" PIC "i_bc1" VWEP "w_bc1.md2"
+  TARGET_OBJECT "Silver Package" MODEL "models/items/bcase/g_bc2.md2" PIC "i_bc2" VWEP "w_bc2.md2"
+}
+TEAM "TF Red"
+{
+  SKIN "male/chow"
+  WEAPONS "all"
+  RESPAWN TIME 15 AWAY_FROM "Blue Base" 1
+  GOALS
+  {
+RETRIEVE "Black Package" FROM "Blue Base" TO "Red Base" AUTO_RETURN 25
+  }
+}
+TEAM "TF Blue"
+{
+  SKIN "male/bluebeard"
+  WEAPONS "all"
+  RESPAWN TIME 15 AWAY_FROM "Red Base" 1
+  GOALS
+  {
+RETRIEVE "Silver Package" FROM "Red Base" TO "Blue Base" AUTO_RETURN 25
+  }
+}
+}

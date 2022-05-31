@@ -1,0 +1,25 @@
+***********
+AQDT Scenario Depot Script Information
+
+Scenario Name: Incrminating Evidence
+Author:Blaze
+E-Mail Contact: blaze74@hotmail.com
+
+FBI:
+
+The FBI has an undercover agent hiden in the local Militia, 
+The last transmition was "****dropping case ***** the bridge 
+**** I have to go **** line bugged"  The FBI has reason to 
+believe that the Militia has intercepted the call and will 
+try and get the case before you can.
+
+Terrorists(Militia):
+
+We intercepted a call from a mole that seems to be inside our 
+organization.  All we caught was that the was dropping off a 
+case at a bridge.  He said that the line was bugged, so the 
+Cops will probably try to beat you to the briefcase.
+
+Respawn Rule: 33% for both teams
+Date Submitted:11:22 PM 4/15/99
+***********

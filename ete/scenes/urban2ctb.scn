@@ -1,0 +1,33 @@
+SCENARIO "More Urban Terror (CTB)"
+{
+CONTINUOUS
+TARGETS
+{
+  TARGET_AREA "Ladder Building" ( -697 1292 415 ) ( -667 1322 445 ) MODEL "models/objects/laser/tris.md2"
+  TARGET_AREA "Fenced Building" ( -187 -840 319 ) ( -157 -810 349 ) MODEL "models/objects/laser/tris.md2"
+  TARGET_OBJECT "Black Package" MODEL "models/items/bcase/g_bc1.md2" PIC "i_bc1" VWEP "w_bc1.md2"
+  TARGET_OBJECT "Silver Package" MODEL "models/items/bcase/g_bc2.md2" PIC "i_bc2" VWEP "w_bc2.md2"
+}
+TEAM "Police"
+{
+  SKIN "male/police"
+  WEAPONS "all"
+  INITIAL_SPAWN "Ladder Building"
+  RESPAWN PERIODIC 15 NEAR "Ladder Building" 1 TOGETHER
+  GOALS
+  {
+  RETRIEVE "Silver Package" FROM "Fenced Building" TO "Ladder Building" WITH "Black Package" TOUCH_RETURN
+  }
+}
+TEAM "Robbers" 
+{
+  SKIN "male/robber"
+  WEAPONS "all"
+  INITIAL_SPAWN "Fenced Building"
+  RESPAWN PERIODIC 15 NEAR "Fenced Building" 1 TOGETHER
+  GOALS
+  {
+  RETRIEVE "Black Package" FROM "Ladder Building" TO "Fenced Building" WITH "Silver Package" TOUCH_RETURN
+  }
+}
+}

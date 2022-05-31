@@ -1,0 +1,31 @@
+SCENARIO "Rooftop Madness! (CTB)"
+{
+CONTINUOUS
+TARGETS
+{
+  TARGET_AREA "Deimos" ( -13 -869 174 ) ( 17 -839 204 ) MODEL "models/objects/dmspot/tris.md2"
+  TARGET_AREA "Phobos" ( -263 2179 174 ) ( -233 2209 204 ) MODEL "models/objects/dmspot/tris.md2"
+  TARGET_OBJECT "Black Package" MODEL "models/items/bcase/g_bc1.md2" PIC "i_bc1" VWEP "w_bc1.md2"
+  TARGET_OBJECT "Silver Package" MODEL "models/items/bcase/g_bc2.md2" PIC "i_bc2" VWEP "w_bc2.md2"
+}
+TEAM "Antiterrorists Force"
+{
+  SKIN "terror/swatsnipe"
+  WEAPONS "all"
+  RESPAWN PERIODIC 15 AWAY_FROM "Phobos" 3 TOGETHER
+  GOALS
+  {
+  RETRIEVE "Black Package" FROM "Phobos" TO "Deimos" WITH "Silver Package" TOUCH_RETURN
+  }
+}
+TEAM "Terrorists" 
+{
+  SKIN "male/bluebeard"
+  WEAPONS "all"
+  RESPAWN PERIODIC 15 AWAY_FROM "Deimos" 3 TOGETHER
+  GOALS
+  {
+  RETRIEVE "Silver Package" FROM "Deimos" TO "Phobos" WITH "Black Package" TOUCH_RETURN
+  }
+}
+}
