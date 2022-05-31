@@ -28,8 +28,8 @@ RUN cp -r /aq2-tng/action /aq2server/
 
 # Copy q2admin to aq2server
 RUN cp /q2admin/gamex86_64.so /aq2server/action/gamex86_64.so
-RUN mkdir /aq2server/action/plugins
-RUN cp /q2admin/plugins/* /aq2server/action/plugins/
+RUN mkdir /aq2server/plugins
+RUN cp /q2admin/plugins/* /aq2server/plugins/
 
 # Copy q2pro to aq2server
 RUN cp /q2pro/q2proded /aq2server/q2proded
