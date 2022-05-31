@@ -162,6 +162,7 @@ echo "set use_rewards $USE_REWARDS" >> /aq2server/action/config.cfg
 echo "set use_balancer $USE_BALANCER" >> /aq2server/action/config.cfg
 echo "set use_oldspawns $USE_OLDSPAWNS" >> /aq2server/action/config.cfg
 echo "set auto_menu $AUTO_MENU" >> /aq2server/action/config.cfg
+echo "set sv_allow_map $SV_ALLOW_MAP" >> /aq2server/action/config.cfg
 
 # Game mode settings
 echo "set deathmatch $DEATHMATCH" >> /aq2server/action/config.cfg

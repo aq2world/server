@@ -18,14 +18,12 @@ COPY q2admin.lua /aq2server/
 RUN cd /q2admin && make
 RUN cd /q2pro && CONFIG_FILE=.ci/config_linux LIN_32BIT=y make q2proded -j4 V=1
 
-# Copy aq2-tng to aq2server
-RUN cp -r /aq2-tng/action /aq2server/action
-
 # Copy configs to aq2server
 RUN cp -r /aq2-tng/action /aq2server/
 
 # Copy ETE library
-RUN cp ete/* /aq2server/action/
+COPY ete/action.scp ete/gamei386.so /aq2server/action/
+COPY ete/scenes /aq2server/action/scenes
 RUN mv /aq2server/action/gamei386.so /aq2server/action/gamei386.real.so
 
 # Copy q2admin to aq2server
@@ -183,6 +181,7 @@ ENV USE_REWARDS 1
 ENV USE_BALANCER 1
 ENV USE_OLDSPAWNS 0
 ENV AUTO_MENU 1
+ENV SV_ALLOW_MAP 1
 
 # Game mode settings
 ENV DEATHMATCH 1
