@@ -1,0 +1,31 @@
+SCENARIO "Groovy, Baby! (ETV)"
+{
+TARGETS
+{
+  TARGET_AREA "Bedroom" ( -764 1086 46 ) ( -763 1087 47 )
+  TARGET_AREA "The Freedom Plane" ( -1438 -463 182 ) ( -1437 -462 183 )
+  PLAYER_RANDOM "Austin Powers" TEAM "Vanessa" SKIN "male/chowda"
+}
+TEAM "Fembots"
+{
+  SKIN "female/tankgirl"
+  WEAPONS "all"
+  RESPAWN FRACTION 50 AWAY_FROM "Austin Powers" 2 TOGETHER
+  GOALS
+  {
+  ASSASSINATE "Austin Powers"
+  }
+}
+TEAM "Vanessa"
+{
+  SKIN "sydney/sydney"
+  WEAPONS "all"
+  INITIAL_SPAWN "Bedroom"
+  RESPAWN INSTANT
+  GOALS
+  {
+  ESCORT "Austin Powers" TO "The Freedom Plane"
+  }
+}
+}
+

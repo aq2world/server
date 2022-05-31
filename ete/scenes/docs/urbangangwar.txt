@@ -1,0 +1,18 @@
+***********
+AQDT Scenario Depot Script Information
+
+Scenario Name:urbangangwar
+Author:Che Guevara-MK
+E-Mail Contact:subcomp@flash.net
+
+General Description (what type of game, what map [if any], etc...):
+Gang War for Urban, CTB
+
+
+Objectives: CAP CAP CAP!!!
+
+Respawn Rule:33 percent of team must be dead.
+Other Notes:Reformatting your HD sucks dick.
+Date Submitted:4/15/99
+***********
+

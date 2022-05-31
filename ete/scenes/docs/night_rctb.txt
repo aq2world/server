@@ -1,0 +1,17 @@
+***********
+AQDT Scenario Depot Script Information
+
+Scenario Name: night_rctb
+Author: [AMC]Death Mark
+E-Mail Contact: deathmark@hotmail.com
+
+General Description (what type of game, what map [if any], etc...):
+Capture The Briefcaseon Night_R
+
+Objectives:
+Capture the enemy's briefcase while protecting your own.
+
+Respawn Rule:33% Fraction
+Other Notes: Good luck.  This will require teamwork.
+Date Submitted: 04/16/99
+***********

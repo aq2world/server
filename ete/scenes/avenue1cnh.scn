@@ -1,0 +1,28 @@
+SCENARIO "Hold The Bank (CNH)"
+{
+CONTINUOUS
+TARGETS
+{
+  TARGET_AREA "Bank" ( 182 -2316 46 ) ( 212 -2286 76 ) MODEL "models/objects/laser/tris.md2"
+}
+TEAM "Police"
+{
+  SKIN "male/police"
+  WEAPONS "all"
+  RESPAWN PERIODIC 15 AWAY_FROM "Bank" 2 TOGETHER
+  GOALS
+  {
+  HOLD "Bank" 60
+  }
+}
+TEAM "Robbers"
+{
+  SKIN "male/robber"
+  WEAPONS "all"
+  RESPAWN PERIODIC 15 AWAY_FROM "Bank" 2 TOGETHER
+  GOALS
+  { 
+  HOLD "Bank" 60
+  }
+}
+}

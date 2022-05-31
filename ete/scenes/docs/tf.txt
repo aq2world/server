@@ -1,0 +1,27 @@
+***********
+AQDT Scenario Depot Script Information
+
+Scenario Name: Capture the Briefcase TF Rules Variant 
+Author: inghaw
+E-Mail Contact: inghaw@fear.net
+
+General Description (what type of game, what map [if any], etc...):
+
+Standard CTB for maps *with flag spawns* (e.g., ctbcity, blockwar), but
+the catch is that the flags don't touch return.  You have to protect them on
+the field for 25 seconds for them to return.  The flip side of the coin is that
+your own flag need not be at home for you to capture.  This can lead to
+some interesting, different defensive/offensive strategies than your
+average game of CTB.
+
+Objectives: Explained above.
+
+Respawn Rule: TIME 15
+Other Notes:
+IMPORTANT: Although the script specifies that your package should return
+after 25 seconds, until a small glitch is corrected in AQ:E, it will only
+return after 30.  But since your own flag need not be home to capture (unlike
+dirtctb, where it does), this shouldn't make too much of a difference.
+
+Date Submitted: 4/15/99
+***********

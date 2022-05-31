@@ -1,0 +1,33 @@
+SCENARIO "Freedom in a Briefcase (OFC)"
+{
+CONTINUOUS
+TARGETS
+{
+  TARGET_AREA "First Floor Waiting Room" ( -129 188 -209 ) ( -264 153 -209 ) MODEL "models/objects/laser/tris.md2"
+  TARGET_AREA "Third Floor Maintenance Room" ( 120 -599 46 ) ( 113 -767 46 ) MODEL "models/objects/laser/tris.md2"
+  TARGET_LOCATION "Padded Room" ( -360 340 -71 )
+  TARGET_LOCATION "Dark Room" ( 260 241 -81 )  
+  TARGET_LOCATION "Second Floor Office" ( 47 -945 -49 )
+  TARGET_OBJECT "Falsified Papers" MODEL "models/items/bcase/g_bc1.md2" PIC "i_bc1" VWEP "w_bc1.md2"
+}
+TEAM "Insane"
+{
+  SKIN "male/nut"
+  WEAPONS "all"
+  RESPAWN PERIODIC 15 NEAR "Padded Room" 1 TOGETHER
+  GOALS
+  {
+  RETRIEVE "Falsified Papers" FROM "Second Floor Office" TO "First Floor Waiting Room"
+  }
+}
+TEAM "Maniacs" 
+{
+  SKIN "male/siris"
+  WEAPONS "all"
+  RESPAWN PERIODIC 15 NEAR "Dark Room" 1 TOGETHER
+  GOALS
+  {
+  RETRIEVE "Falsified Papers" FROM "Second Floor Office" TO "Third Floor Maintenance Room"
+  }
+}
+}

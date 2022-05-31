@@ -1,0 +1,34 @@
+SCENARIO "House Dispute (CNH)"
+{
+CONTINUOUS
+TARGETS
+{
+  TARGET_AREA "Kitchen" ( -1182 119 10 ) ( -1152 89 40 ) MODEL "models/objects/laser/tris.md2"
+  TARGET_AREA "Master Bedroom" ( -441 -108 6 ) ( -411 -88 36 ) MODEL "models/objects/laser/tris.md2"
+  TARGET_AREA "Living Room" ( -333 342 -17 ) ( -303 372 13 ) MODEL "models/objects/laser/tris.md2"
+  TARGET_AREA "Bathroom" ( -588 373 -17 ) ( -558 403 13 ) MODEL "models/objects/laser/tris.md2"
+  TARGET_AREA "Bedroom #1" ( -863 196 -17 ) ( -833 226 13 ) MODEL "models/objects/laser/tris.md2"
+  TARGET_AREA "Bedroom #2" ( -693 -250 6 ) ( -663 -220 -24 ) MODEL "models/objects/laser/tris.md2"
+  TARGET_AREA "Study" ( -243 -509 10 ) ( -213 -489 40 ) MODEL "models/objects/laser/tris.md2"
+}
+TEAM "Police"
+{
+  SKIN "male/police"
+  WEAPONS "all"
+  RESPAWN PERIODIC 20 AWAY_FROM "Kitchen" 2 TOGETHER
+  GOALS
+  {
+HOLDALL "Crack House" 15 "Kitchen" "Master Bedroom" "Living Room" "Bathroom" "Bedroom #1" "Bedroom #2" "Study"
+  }
+}
+TEAM "Robbers"
+{
+  SKIN "male/robber"
+  WEAPONS "all"
+  RESPAWN PERIODIC 20 AWAY_FROM "Kitchen" 2 TOGETHER
+  GOALS
+  { 
+HOLDALL "Crack House" 15 "Kitchen" "Master Bedroom" "Living Room" "Bathroom" "Bedroom #1" "Bedroom #2" "Study"
+  }
+}
+}

@@ -1,0 +1,32 @@
+SCENARIO "Platoon, AQ2 Style (CTB)"
+{
+CONTINUOUS
+TARGETS
+{
+  TARGET_AREA "Marine Camp" ( 8 -1914 -209 ) ( 38 -1884 -179 ) MODEL "models/objects/dmspot/tris.md2"
+  TARGET_AREA "VC Camp" ( -30 1626 46 ) ( 0 1656 76 ) MODEL "models/objects/dmspot/tris.md2"
+  TARGET_OBJECT "Hideout Location Maps" MODEL "models/items/bcase/g_bc1.md2" PIC "i_bc1" VWEP "w_bc1.md2"
+  TARGET_OBJECT "Troop Placement Diagrams" MODEL "models/items/bcase/g_bc2.md2" PIC "i_bc2" VWEP "w_bc2.md2"
+}
+TEAM "The Marines"
+{
+  SKIN "sas/sas-woodland"
+  WEAPONS "all"
+  RESPAWN FRACTION 33 AWAY_FROM "VC Camp" 3 TOGETHER
+  GOALS
+  {
+  RETRIEVE "Hideout Location Maps" FROM "VC Camp" TO "Marine Camp" WITH "Troop Placement Diagrams" TOUCH_RETURN
+  }
+}
+TEAM "The VC" 
+{
+  SKIN "male/kgb"
+  WEAPONS "all"
+  RESPAWN FRACTION 33 AWAY_FROM "Marine Camp" 3 TOGETHER
+  GOALS
+  {
+  RETRIEVE "Troop Placement Diagrams" FROM "Marine Camp" TO "VC Camp" WITH "Hideout Location Maps" TOUCH_RETURN
+  }
+}
+}
+// By [AMC]Death Mark

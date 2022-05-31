@@ -1,0 +1,33 @@
+SCENARIO "Protect the Warez Stash! (CNH)"
+{
+CONTINUOUS
+TARGETS
+{
+  TARGET_AREA "Lobby" ( 369 -3472 102 ) ( 409 -3442 132 ) MODEL "models/objects/laser/tris.md2"
+  TARGET_AREA "Room 101" ( -37 -3473 110 ) ( -7 -3443 140 ) MODEL "models/objects/laser/tris.md2"
+  TARGET_AREA "Room 102" ( -691 -3483 110 ) ( -661 -3453 140 ) MODEL "models/objects/laser/tris.md2"
+  TARGET_AREA "Room 201" ( -39 -3495 286 ) ( -9 -3465 316 ) MODEL "models/objects/laser/tris.md2"
+  TARGET_AREA "Room 202" ( -708 -3488 286 ) ( -678 -3458 316 ) MODEL "models/objects/laser/tris.md2"
+  TARGET_AREA "Roof Top" ( 324 -3434 526 ) ( 354 -3404 556 ) MODEL "models/objects/laser/tris.md2"
+}
+TEAM "Antipiracy Force"
+{
+  SKIN "sas/sas"
+  WEAPONS "all"
+  RESPAWN PERIODIC 5 AWAY_FROM "Lobby" 8 TOGETHER
+  GOALS
+  {
+	HOLDALL "Hondo Arms Hotel" 60 "Lobby" "Room 101" "Room 102" "Room 201" "Room 202" "Roof Top"
+  }
+}
+TEAM "Warez d00dz"
+{
+  SKIN "male/bluebeard"
+  WEAPONS "all"
+  RESPAWN PERIODIC 5 AWAY_FROM "Lobby" 8 TOGETHER
+  GOALS
+  { 
+	HOLDALL "Hondo Arms Hotel" 60 "Lobby" "Room 101" "Room 102" "Room 201" "Room 202" "Roof Top"
+  }
+}
+}

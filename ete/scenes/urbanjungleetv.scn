@@ -1,0 +1,33 @@
+SCENARIO "Urban Jungle Delivery (ETV)"
+{
+TARGETS
+{
+  TARGET_AREA "Jungle" ( 170 540 -769 ) ( 192 288 -769 )
+  TARGET_AREA "CopSpawn" ( 2518 1733 -877 ) ( 2777 1692 -877 )
+  TARGET_AREA "Street" ( 3153 140 -881 ) ( 3161 252 -881 )
+  PLAYER_RANDOM "Rambo" TEAM "Veterans" SKIN "male/rembo" WEAPONS + SILENCER + SLIPPERS + BANDOLIER + VEST + LASER
+  TARGET_AREA "Alley" ( 3938 1021 -881 ) ( 3943 880 -881 ) MODEL "models/objects/laser/tris.md2"
+}
+TEAM "Small Town Police"
+{
+  SKIN "male/police"
+  WEAPONS "all"
+  INITIAL_SPAWN "CopSpawn"
+  RESPAWN TIME 10 NEAR "Street" 1
+  GOALS
+  {
+  ASSASSINATE "Rambo"
+  }
+}
+TEAM "Veterans"
+{
+  SKIN "male/mason"
+  WEAPONS "all"
+  INITIAL_SPAWN "Jungle"
+  RESPAWN TIME 5 NEAR "Rambo" 1
+  GOALS
+  {
+  ESCORT "Rambo" TO "Alley"
+  }
+}
+}

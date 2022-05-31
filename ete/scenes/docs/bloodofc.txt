@@ -1,0 +1,17 @@
+***********
+AQDT Scenario Depot Script Information
+
+Scenario Name: bloodofc
+Author: [AMC]Death Mark
+E-Mail Contact: deathmark@hotmail.com
+
+General Description (what type of game, what map [if any], etc...):
+One Flag Capture on Blood
+
+Objectives:
+Both teams are after one briefcase.  Get it and return to base.
+
+Respawn Rule:33% Fraction
+Other Notes: None
+Date Submitted: 04/16/99
+***********

@@ -1,0 +1,32 @@
+SCENARIO "Guns?  What Guns? (OFC)"
+{
+CONTINUOUS
+TARGETS
+{
+  TARGET_AREA "DEA Headquarters" ( 45 -1599 814 ) ( 2478 1161 558 ) MODEL "models/objects/dmspot/tris.md2"
+  TARGET_AREA "Smuggler Headquarters" ( 1319 -2582 258 ) ( 1359 -2542 298 ) MODEL "models/objects/dmspot/tris.md2"
+  TARGET_OBJECT "Smuggled Weapons" MODEL "models/items/bcase/g_bc1.md2" PIC "i_bc1" VWEP "w_bc1.md2"
+  TARGET_LOCATION "Warehouse" ( 669 514 638 )
+}
+TEAM "The DEA"
+{
+  SKIN "terror/swat"
+  WEAPONS "all"
+  RESPAWN FRACTION 33 AWAY_FROM "Smuggler Headquarters" 3 TOGETHER
+  GOALS
+  {
+  RETRIEVE "Smuggled Weapons" FROM "Warehouse" TO "DEA Headquarters"
+  }
+}
+TEAM "Smugglers" 
+{
+  SKIN "messiah/messiah"
+  WEAPONS "all"
+  RESPAWN FRACTION 33 AWAY_FROM "DEA Headquarters" 3 TOGETHER
+  GOALS
+  {
+  RETRIEVE "Smuggled Weapons" FROM "Warehouse" TO "Smuggler Headquarters"
+  }
+}
+}
+// By [AMC]Death Mark

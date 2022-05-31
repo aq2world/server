@@ -1,0 +1,28 @@
+SCENARIO "Assassinate The Leader"
+{
+TARGETS
+{
+  PLAYER_RANDOM "Ramone" TEAM "The Rojos" SKIN "male/nut" WEAPONS + SILENCER + SLIPPERS + BANDOLIER + VEST + LASER
+  PLAYER_RANDOM "Luis" TEAM "The Baxters" SKIN "male/bluebeard" WEAPONS + SILENCER + SLIPPERS + BANDOLIER + VEST + LASER
+}
+TEAM "The Rojos"
+{
+  SKIN "male/rembo"
+  WEAPONS "all"
+  RESPAWN PERIODIC 20 AWAY_FROM "Luis" 3 TOGETHER
+  GOALS
+  {
+  ASSASSINATE "Luis" 
+  }
+}
+TEAM "The Baxters" 
+{
+  SKIN "male/siris"
+  WEAPONS "all"
+  RESPAWN PERIODIC 20 AWAY_FROM "Ramone" 3 TOGETHER
+  GOALS
+  {
+  ASSASSINATE "Ramone" 
+  }
+}
+}

@@ -1,0 +1,32 @@
+SCENARIO "Trip To Hotel (ETV)"
+{
+TARGETS
+{
+  TARGET_AREA "Robbers Hideout" ( -762 1108 366 ) ( -763 1109 367 ) 
+  TARGET_AREA "Lobby" ( 369 -3472 102 ) ( 409 -3442 132 ) 
+  PLAYER_RANDOM "Cyrus" TEAM "Robbers" SKIN "male/siris" WEAPONS + SILENCER + SLIPPERS + BANDOLIER + VEST + LASER
+  TARGET_AREA "Room 202" ( -708 -3488 286 ) ( -678 -3458 316 ) MODEL "models/objects/laser/tris.md2"
+}
+TEAM "Police"
+{
+  SKIN "male/police"
+  WEAPONS "all"
+  INITIAL_SPAWN "Lobby"
+  RESPAWN TIME 15 NEAR "Room 202" 1 TOGETHER
+  GOALS
+  {
+  ASSASSINATE "Cyrus"
+  }
+}
+TEAM "Robbers"
+{
+  SKIN "male/robber"
+  WEAPONS "all"
+  INITIAL_SPAWN "Robbers Hideout"
+  RESPAWN TIME 5 NEAR "Cyrus" 1
+  GOALS
+  { 
+  ESCORT "Cyrus" TO "Room 202"
+  }
+}
+}
