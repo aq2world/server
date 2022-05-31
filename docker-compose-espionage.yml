@@ -1,0 +1,37 @@
+version: "3"
+
+services:
+  teamplay1:
+    container_name: teamplay1
+    image: aqtiongame/server:v4
+    ports:
+      - "27960:27960/udp"
+    stdin_open: true
+    tty: true
+    restart: on-failure:5
+    env_file:
+     - ./esp1.env
+    environment:
+     - PORT=27960
+     - TEAM_1_NAME=Team1
+     - TEAM_2_NAME=Team2
+     - TEAM_3_NAME=Team3
+     - TEAM_1_SKIN=male/ctf_r
+     - TEAM_2_SKIN=male/ctf_b
+     - TEAM_3_SKIN=male/ctf_g
+     - HOSTNAME=[ESP1] Cops vs. Cops
+     - MAXCLIENTS=13
+     - RCON_PASSWORD=replaceme!!
+     - TIMELIMIT=20
+     - FRAGLIMIT=50
+     - ROUNDLIMIT=12
+     - FULLMAPS=FALSE
+     - ROTATION=act2r,temple,mountain,asylum,teamdepot,museum,tequila,murder,actcity3,avenue1,ctbcity,urban,desert,monastery,hostage2,cracked
+     - MAP=teamjungle
+    volumes:
+     - ./esp1.motd:/aq2server/action/motd.txt:ro
+
+volumes:
+  maps:
+    volumes:
+      - maps:/aq2server/action/maps

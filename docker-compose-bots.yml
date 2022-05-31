@@ -1,0 +1,38 @@
+version: "3"
+
+services:
+  teamplay1:
+    container_name: teamplay1
+    image: aqtiongame/server:v4
+    ports:
+      - "27950:27950/udp"
+    stdin_open: true
+    tty: true
+    restart: on-failure:5
+    env_file:
+     - ./tp1.env
+    environment:
+     - PORT=27950
+     - TEAM_1_NAME=Krispy Kreme
+     - TEAM_2_NAME=Dunkin Donuts
+     - TEAM_3_NAME=Tim Hortons
+     - TEAM_1_SKIN=male/ctf_r
+     - TEAM_2_SKIN=male/ctf_b
+     - TEAM_3_SKIN=male/ctf_g
+     - HOSTNAME=[TP1] Cops vs. Cops
+     - MAXCLIENTS=11
+     - RCON_PASSWORD=replaceme!!
+     - TIMELIMIT=20
+     - FRAGLIMIT=50
+     - ROUNDLIMIT=12
+     - FULLMAPS=FALSE
+     - ROTATION=actcity2,wizs,time,teamjungle
+     - MAP=teamjungle
+    volumes:
+     - ./botdata.cfg:/aq2server/action/bots/botdata.cfg:ro
+     - ./tp1.motd:/aq2server/action/motd.txt:ro
+
+volumes:
+  maps:
+    volumes:
+      - maps:/aq2server/action/maps
