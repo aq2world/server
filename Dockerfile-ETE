@@ -16,13 +16,17 @@ COPY q2admin.lua /aq2server/
 
 # Compile stuff
 RUN cd /q2admin && make
-RUN cd /q2pro && CONFIG_FILE=.ci/config_linux LIN_32BIT=y make server -j4 V=1
+RUN cd /q2pro && CONFIG_FILE=.ci/config_linux LIN_32BIT=y make q2proded -j4 V=1
 
 # Copy aq2-tng to aq2server
 RUN cp -r /aq2-tng/action /aq2server/action
 
 # Copy configs to aq2server
 RUN cp -r /aq2-tng/action /aq2server/
+
+# Copy ETE library
+RUN cp ete/* /aq2server/action/
+RUN mv /aq2server/action/gamei386.so /aq2server/action/gamei386.real.so
 
 # Copy q2admin to aq2server
 RUN cp /q2admin/gamex86_64.so /aq2server/action/gamex86_64.so
@@ -31,9 +35,6 @@ RUN cp /q2admin/plugins/* /aq2server/action/plugins/
 
 # Copy q2pro to aq2server
 RUN cp /q2pro/q2proded /aq2server/q2proded
-
-# Copy ETE library
-RUN cp /ete/gamei386.so /aq2server/action/gamei386.real.so
 
 # Cache hax
 #ADD "https://www.random.org/cgi-bin/randbyte?nbytes=10&format=h" skipcache
