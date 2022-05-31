@@ -21,6 +21,7 @@ RUN cd /q2pro && CONFIG_FILE=.ci/config_linux make q2proded
 
 # Copy aq2-tng contents to aq2server
 RUN cp -r /aq2-tng/action /aq2server/action
+RUN cp /aq2-tng/source/gamex86_64.so /aq2server/action/gamex86_64.real.so
 
 # Copy configs to aq2server
 RUN cp -r /aq2-tng/action /aq2server/
@@ -32,9 +33,6 @@ RUN cp /q2admin/plugins/* /aq2server/action/plugins/
 
 # Copy q2pro to aq2server
 RUN cp /q2pro/q2proded /aq2server/q2proded
-
-# Copy ETE library
-RUN cp /ete/gamei386.so /aq2server/action/gamei386.real.so
 
 # Cache hax
 #ADD "https://www.random.org/cgi-bin/randbyte?nbytes=10&format=h" skipcache
