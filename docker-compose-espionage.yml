@@ -1,9 +1,9 @@
 version: "3"
 
 services:
-  teamplay1:
-    container_name: teamplay1
-    image: aqtiongame/server:v4
+  espionage1:
+    container_name: espionage1
+    image: aqtiongame/espionage:v1
     ports:
       - "27960:27960/udp"
     stdin_open: true
