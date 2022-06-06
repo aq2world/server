@@ -3,9 +3,9 @@ SCENARIO "Captain Ron's Vessel (CNH)"
 CONTINUOUS
 TARGETS
 {
-  TARGET_AREA "Deck Roof" ( 528 2898 -33 ) ( 558 2918 -3 ) MODEL "models/objects/laser/tris.md2"
-  TARGET_AREA "Guns Cargo" ( 570 2896 -505 ) ( 600 2916 -475 ) MODEL "models/objects/laser/tris.md2"
-  TARGET_AREA "Drugs Cargo" ( 165 2881 -649 ) ( 195 2911 -619 ) MODEL "models/objects/laser/tris.md2"
+  TARGET_AREA "Deck Roof" ( 528 2898 -33 ) ( 558 2918 -3 ) MODEL "models/flags/flag1.md2"
+  TARGET_AREA "Guns Cargo" ( 570 2896 -505 ) ( 600 2916 -475 ) MODEL "models/flags/flag1.md2"
+  TARGET_AREA "Drugs Cargo" ( 165 2881 -649 ) ( 195 2911 -619 ) MODEL "models/flags/flag1.md2"
 }
 TEAM "L33t Smugglers"
 {

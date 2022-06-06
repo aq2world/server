@@ -7,7 +7,7 @@ TARGETS
   TARGET_AREA "GoodGuys" ( 236 -707 98 ) ( -218 -733 48 )
   TARGET_AREA "Cliff" ( -637 266 365 ) ( -480 480 380 )
   PLAYER_RANDOM "Ed" TEAM "Rednecks" SKIN "male/mclaine" WEAPONS + SILENCER + SLIPPERS + BANDOLIER + VEST + LASER
-  TARGET_AREA "Tuba" ( 1918 26 188 ) ( 1967 26 186 ) MODEL "models/objects/laser/tris.md2"
+  TARGET_AREA "Tuba" ( 1918 26 188 ) ( 1967 26 186 ) MODEL "models/flags/flag1.md2"
 }
 TEAM "GoodGuys"
 {

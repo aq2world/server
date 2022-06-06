@@ -3,7 +3,7 @@ SCENARIO "Hold The Bank (CNH)"
 CONTINUOUS
 TARGETS
 {
-  TARGET_AREA "Bank" ( 182 -2316 46 ) ( 212 -2286 76 ) MODEL "models/objects/laser/tris.md2"
+  TARGET_AREA "Bank" ( 182 -2316 46 ) ( 212 -2286 76 ) MODEL "models/flags/flag1.md2"
 }
 TEAM "Police"
 {

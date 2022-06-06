@@ -3,8 +3,8 @@ SCENARIO "Another Day At The Depot (CTB)"
 CONTINUOUS
 TARGETS
 {
-  TARGET_AREA "Street Sandbag" ( -1364 790 -177 ) ( -1334 820 -147 ) MODEL "models/objects/laser/tris.md2"
-  TARGET_AREA "Outside Sandbag" ( -91 -1942 -177 ) ( -61 -1912 -147 ) MODEL "models/objects/laser/tris.md2"
+  TARGET_AREA "Street Sandbag" ( -1364 790 -177 ) ( -1334 820 -147 ) MODEL "models/flags/flag1.md2"
+  TARGET_AREA "Outside Sandbag" ( -91 -1942 -177 ) ( -61 -1912 -147 ) MODEL "models/flags/flag2.md2"
   TARGET_OBJECT "Black Package" MODEL "models/items/bcase/g_bc1.md2" PIC "i_bc1" VWEP "w_bc1.md2"
   TARGET_OBJECT "Silver Package" MODEL "models/items/bcase/g_bc2.md2" PIC "i_bc2" VWEP "w_bc2.md2"
 }

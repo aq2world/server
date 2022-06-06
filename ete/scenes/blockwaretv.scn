@@ -5,7 +5,7 @@ TARGETS
   TARGET_AREA "Robbers Hideout" ( -762 1108 366 ) ( -763 1109 367 ) 
   TARGET_AREA "Lobby" ( 369 -3472 102 ) ( 409 -3442 132 ) 
   PLAYER_RANDOM "Cyrus" TEAM "Robbers" SKIN "male/siris" WEAPONS + SILENCER + SLIPPERS + BANDOLIER + VEST + LASER
-  TARGET_AREA "Room 202" ( -708 -3488 286 ) ( -678 -3458 316 ) MODEL "models/objects/laser/tris.md2"
+  TARGET_AREA "Room 202" ( -708 -3488 286 ) ( -678 -3458 316 ) MODEL "models/flags/flag1.md2"
 }
 TEAM "Police"
 {

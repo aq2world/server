@@ -3,7 +3,7 @@ SCENARIO "The Blue Egg (CNH)"
 CONTINUOUS
 TARGETS
 {
-  TARGET_AREA "The Blue Egg" ( 64 4 54 ) ( 64 35 46 ) MODEL "models/objects/laser/tris.md2"
+  TARGET_AREA "The Blue Egg" ( 64 4 54 ) ( 64 35 46 ) MODEL "models/flags/flag1.md2"
 }
 TEAM "Temple Raiders"
 {

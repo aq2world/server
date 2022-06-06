@@ -6,7 +6,7 @@ TARGETS
   TARGET_AREA "CopSpawn" ( -1550 -232 62 ) ( -1454 -264 62 )
   TARGET_AREA "Street" ( -1073 612 174 ) ( -1033 474 174 )
   PLAYER_RANDOM "Roger" TEAM "Drug Syndicate" SKIN "male/chow" WEAPONS + SILENCER + SLIPPERS + BANDOLIER + VEST + LASER
-  TARGET_AREA "Casino" ( -623 711 174 ) ( -623 712 174 ) MODEL "models/objects/laser/tris.md2"
+  TARGET_AREA "Casino" ( -623 711 174 ) ( -623 712 174 ) MODEL "models/flags/flag1.md2"
 }
 TEAM "Police"
 {
