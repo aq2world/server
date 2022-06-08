@@ -24,5 +24,10 @@ jobs:
 
       - name: Docker build and push
         run: |
-          docker build -t aqtiongame/server:${{ github.event.inputs.release_tag }}-arm64 .
+          docker build -f Dockerfile-ARM64 -t aqtiongame/server:${{ github.event.inputs.release_tag }}-arm64 .
           docker push aqtiongame/server:${{ github.event.inputs.release_tag }}-arm64
+      
+      - name: Docker build and push
+        run: |
+          docker build -f Dockerfile-ARM32 -t aqtiongame/server:${{ github.event.inputs.release_tag }}-arm32 .
+          docker push aqtiongame/server:${{ github.event.inputs.release_tag }}-arm32
