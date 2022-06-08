@@ -3,8 +3,8 @@ SCENARIO "Urban Terror (CTB)"
 CONTINUOUS
 TARGETS
 {
-  TARGET_AREA "Alley" ( -1188 1453 350 ) ( -1158 1483 380 ) MODEL "models/objects/laser/tris.md2"
-  TARGET_AREA "Tallest Building" ( -322 -910 702 ) ( -292 -880 732 ) MODEL "models/objects/laser/tris.md2"
+  TARGET_AREA "Alley" ( -1188 1453 350 ) ( -1158 1483 380 ) MODEL "models/flags/flag1.md2"
+  TARGET_AREA "Tallest Building" ( -322 -910 702 ) ( -292 -880 732 ) MODEL "models/flags/flag2.md2"
   TARGET_OBJECT "Black Package" MODEL "models/items/bcase/g_bc1.md2" PIC "i_bc1" VWEP "w_bc1.md2"
   TARGET_OBJECT "Silver Package" MODEL "models/items/bcase/g_bc2.md2" PIC "i_bc2" VWEP "w_bc2.md2"
 }

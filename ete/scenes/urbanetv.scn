@@ -5,7 +5,7 @@ TARGETS
   TARGET_AREA "Alley" ( -1347 1468 366 ) ( -1347 1468 366 ) MODEL "models/objects/dmspot/tris.md2"
   TARGET_AREA "Coke Sign" ( -1270 -1056 494 ) ( -1270 -1056 494 ) MODEL "models/objects/dmspot/tris.md2"
   PLAYER_RANDOM "Chief" TEAM "Police" SKIN "male/copper" WEAPONS + SILENCER + SLIPPERS + BANDOLIER + VEST + LASER
-  TARGET_AREA "Appartment" ( -191 -771 702 ) ( -191 -771 702 ) MODEL "models/objects/laser/tris.md2"
+  TARGET_AREA "Appartment" ( -191 -771 702 ) ( -191 -771 702 ) MODEL "models/flags/flag1.md2"
 }
 
 TEAM "Police"

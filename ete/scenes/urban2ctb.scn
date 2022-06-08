@@ -3,8 +3,8 @@ SCENARIO "More Urban Terror (CTB)"
 CONTINUOUS
 TARGETS
 {
-  TARGET_AREA "Ladder Building" ( -697 1292 415 ) ( -667 1322 445 ) MODEL "models/objects/laser/tris.md2"
-  TARGET_AREA "Fenced Building" ( -187 -840 319 ) ( -157 -810 349 ) MODEL "models/objects/laser/tris.md2"
+  TARGET_AREA "Ladder Building" ( -697 1292 415 ) ( -667 1322 445 ) MODEL "models/flags/flag1.md2"
+  TARGET_AREA "Fenced Building" ( -187 -840 319 ) ( -157 -810 349 ) MODEL "models/flags/flag2.md2"
   TARGET_OBJECT "Black Package" MODEL "models/items/bcase/g_bc1.md2" PIC "i_bc1" VWEP "w_bc1.md2"
   TARGET_OBJECT "Silver Package" MODEL "models/items/bcase/g_bc2.md2" PIC "i_bc2" VWEP "w_bc2.md2"
 }

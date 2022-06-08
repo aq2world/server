@@ -6,7 +6,7 @@ TARGETS
   TARGET_AREA "CopSpawn" ( 2518 1733 -877 ) ( 2777 1692 -877 )
   TARGET_AREA "Street" ( 3153 140 -881 ) ( 3161 252 -881 )
   PLAYER_RANDOM "Rambo" TEAM "Veterans" SKIN "male/rembo" WEAPONS + SILENCER + SLIPPERS + BANDOLIER + VEST + LASER
-  TARGET_AREA "Alley" ( 3938 1021 -881 ) ( 3943 880 -881 ) MODEL "models/objects/laser/tris.md2"
+  TARGET_AREA "Alley" ( 3938 1021 -881 ) ( 3943 880 -881 ) MODEL "models/flags/flag1.md2"
 }
 TEAM "Small Town Police"
 {

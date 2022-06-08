@@ -5,7 +5,7 @@ TARGETS
   TARGET_AREA "Hotel" ( 764 -276 198 ) ( 816 -176 198 )
   TARGET_AREA "Street" ( -895 -420 22 ) ( -932 -357 22 )
   PLAYER_RANDOM "Cyrus" TEAM "Robbers" SKIN "male/siris" WEAPONS + SILENCER + SLIPPERS + BANDOLIER + VEST + LASER
-  TARGET_AREA "Casino" ( -1099 586 150 ) ( -1051 569 150 ) MODEL "models/objects/laser/tris.md2"
+  TARGET_AREA "Casino" ( -1099 586 150 ) ( -1051 569 150 ) MODEL "models/flags/flag1.md2"
 }
 TEAM "Police"
 {

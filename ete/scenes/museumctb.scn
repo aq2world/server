@@ -3,8 +3,8 @@ SCENARIO "Capture 2 Paintings (CTB)"
 CONTINUOUS
 TARGETS
 {
-  TARGET_AREA "Art Room" ( -813 1269 174 ) ( -783 1299 204 ) MODEL "models/objects/laser/tris.md2"
-  TARGET_AREA "Broken Window" ( 879 -247 46 ) ( 909 -217 76 ) MODEL "models/objects/laser/tris.md2"
+  TARGET_AREA "Art Room" ( -813 1269 174 ) ( -783 1299 204 ) MODEL "models/flags/flag1.md2"
+  TARGET_AREA "Broken Window" ( 879 -247 46 ) ( 909 -217 76 ) MODEL "models/flags/flag2.md2"
   TARGET_OBJECT "Black Package" MODEL "models/items/bcase/g_bc1.md2" PIC "i_bc1" VWEP "w_bc1.md2"
   TARGET_OBJECT "Silver Package" MODEL "models/items/bcase/g_bc2.md2" PIC "i_bc2" VWEP "w_bc2.md2"
 }

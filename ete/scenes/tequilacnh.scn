@@ -3,8 +3,8 @@ SCENARIO "Control the Water Supply! (CNH)"
 CONTINUOUS
 TARGETS
 {
-  TARGET_AREA "Fountain" ( 319 692 158 ) ( 334 718 158 ) MODEL "models/objects/laser/tris.md2"
-  TARGET_AREA "Pool" ( 43 -331 30 ) ( -27 -288 30 ) MODEL "models/objects/laser/tris.md2"
+  TARGET_AREA "Fountain" ( 319 692 158 ) ( 334 718 158 ) MODEL "models/flags/flag1.md2"
+  TARGET_AREA "Pool" ( 43 -331 30 ) ( -27 -288 30 ) MODEL "models/flags/flag1.md2"
 }
 TEAM "The FBI"
 {

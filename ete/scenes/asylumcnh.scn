@@ -3,9 +3,9 @@ SCENARIO "Control the Asylum! (CNH)"
 CONTINUOUS
 TARGETS
 {
-  TARGET_AREA "Torture Chamber" ( -181 -228 -49 ) ( -181 -199 -35 ) MODEL "models/objects/laser/tris.md2"
-  TARGET_AREA "Center Cell" ( 339 -160 -75 ) ( 395 -153 -90 ) MODEL "models/objects/laser/tris.md2"
-  TARGET_AREA "Office" ( 276 -940 -49 ) ( 329 -940 -49 ) MODEL "models/objects/laser/tris.md2"
+  TARGET_AREA "Torture Chamber" ( -181 -228 -49 ) ( -181 -199 -35 ) MODEL "models/flags/flag1.md2"
+  TARGET_AREA "Center Cell" ( 339 -160 -75 ) ( 395 -153 -90 ) MODEL "models/flags/flag1.md2"
+  TARGET_AREA "Office" ( 276 -940 -49 ) ( 329 -940 -49 ) MODEL "models/flags/flag1.md2"
 }
 TEAM "Police"
 {

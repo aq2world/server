@@ -5,7 +5,7 @@ TARGETS
   TARGET_AREA "Alley" ( 160 1567 110 ) ( -224 1742 110 )
   TARGET_AREA "Street" ( -161 139 -222 ) ( -1 -104 -222 )
   PLAYER_RANDOM "Chief" TEAM "Police" SKIN "male/copper" WEAPONS + SILENCER + SLIPPERS + BANDOLIER + VEST + LASER
-  TARGET_AREA "Office" ( 1013 -1440 -520 ) ( 1053 -1400 -500 ) MODEL "models/objects/laser/tris.md2"
+  TARGET_AREA "Office" ( 1013 -1440 -520 ) ( 1053 -1400 -500 ) MODEL "models/flags/flag1.md2"
 }
 TEAM "Police"
 {

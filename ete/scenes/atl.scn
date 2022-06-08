@@ -2,27 +2,27 @@ SCENARIO "Assassinate The Leader"
 {
 TARGETS
 {
-  PLAYER_RANDOM "Mr. T" TEAM "The A-Team" SKIN "male/babarracuda" WEAPONS + SILENCER + SLIPPERS + BANDOLIER + VEST + LASER
-  PLAYER_RANDOM "Bill" TEAM "The Crooked Cops" SKIN "male/copper" WEAPONS + SILENCER + SLIPPERS + BANDOLIER + VEST + LASER
+  PLAYER_RANDOM "The Client" TEAM "The A-Team" SKIN "male/mason" WEAPONS + SILENCER + SLIPPERS + BANDOLIER + VEST + LASER
+  PLAYER_RANDOM "The Police Captain" TEAM "The Crooked Cops" SKIN "male/copper" WEAPONS + SILENCER + SLIPPERS + BANDOLIER + VEST + LASER
 }
 TEAM "The Crooked Cops"
 {
   SKIN "male/cop"
   WEAPONS "all"
-  RESPAWN PERIODIC 20 AWAY_FROM "Mr. T" 3 TOGETHER
+  RESPAWN PERIODIC 20 AWAY_FROM "The Client" 3 TOGETHER
   GOALS
   {
-  ASSASSINATE "Mr. T"
+  ASSASSINATE "The Client"
   }
 }
 TEAM "The A-Team"
 {
-  SKIN "male/mason"
+  SKIN "male/babarracuda"
   WEAPONS "all"
   RESPAWN PERIODIC 20 AWAY_FROM "Bill" 3 TOGETHER
   GOALS
   {
-  ASSASSINATE "Bill"
+  ASSASSINATE "The Police Captain"
   }
 }
 }

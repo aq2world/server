@@ -3,8 +3,8 @@ SCENARIO "Incriminating Evidence (OFC)"
 CONTINUOUS
 TARGETS
 {
-  TARGET_AREA "The Tall Building" ( -277 -825 780 ) ( -247 -795 810 ) MODEL "models/objects/laser/tris.md2"
-  TARGET_AREA "The Alley" ( -1393 1517 336 ) ( -1363 1547 366 ) MODEL "models/objects/laser/tris.md2"
+  TARGET_AREA "The Tall Building" ( -277 -825 780 ) ( -247 -795 810 ) MODEL "models/flags/flag1.md2"
+  TARGET_AREA "The Alley" ( -1393 1517 336 ) ( -1363 1547 366 ) MODEL "models/flags/flag2.md2"
   TARGET_OBJECT "The Under Cover Agents Notes" MODEL "models/items/bcase/g_bc1.md2" PIC "i_bc1" VWEP "w_bc1.md2"
   TARGET_LOCATION "The Bridge" ( -557 128 238 )
 }
