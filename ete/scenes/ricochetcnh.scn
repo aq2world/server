@@ -3,10 +3,10 @@ SCENARIO "Own the Town (CNH)"
 CONTINUOUS
 TARGETS
 {
-  TARGET_AREA "Soda Machines" ( -2059 -1912 -114 ) ( -2059 -1990 -114 ) MODEL "models/flags/flag1.md2"
-  TARGET_AREA "Shipping Crate" ( -1592 -2195 54 ) ( -1513 -2262 46 ) MODEL "models/flags/flag1.md2"
-  TARGET_AREA "Loading Dock" ( -1394 -1612 -138 ) ( -1373 -1471 -146 ) MODEL "models/flags/flag1.md2"
-  TARGET_AREA "Apartment" ( -836 -687 308 ) ( -827 -842 308 ) MODEL "models/flags/flag1.md2"
+  TARGET_AREA "Soda Machines" ( -2008 -1963 -128 ) ( -1988 -1933 -158 ) MODEL "models/flags/flag1.md2"
+  TARGET_AREA "Roof Boxes" ( -2510 -1970 414 ) ( -2540 -1940 440 ) MODEL "models/flags/flag1.md2"
+  TARGET_AREA "Loading Dock" ( -1394 -1612 -138 ) ( -1373 -1471 -150 ) MODEL "models/flags/flag1.md2"
+  TARGET_AREA "Apartment" ( -860 -685 286 ) ( -830 -655 316 ) MODEL "models/flags/flag1.md2"
   TARGET_AREA "Respawn Area Topside" ( -2101 -1650 -42 ) ( -1971 -1761 -42 )
   TARGET_AREA "Respawn Area Inside" ( -3047 -1075 -82 ) ( -2773 -1090 -105 )
 }
@@ -17,7 +17,7 @@ TEAM "The Hustlers"
   RESPAWN PERIODIC 20 NEAR "Respawn Area Inside" 2 TOGETHER
   GOALS
   {
-HOLDALL "Town" 15 "Soda Machines" "Shipping Crate" "Loading Dock" "Apartment"
+HOLDALL "Town" 15 "Soda Machines" "Roof Boxes" "Loading Dock" "Apartment"
   }
 }
 TEAM "The Rustlers"
@@ -26,8 +26,8 @@ TEAM "The Rustlers"
   WEAPONS "all"
   RESPAWN PERIODIC 20 NEAR "Respawn Area Topside" 2 TOGETHER
   GOALS
-  { 
-HOLDALL "Town" 15 "Soda Machines" "Shipping Crate" "Loading Dock" "Apartment"
+  {
+HOLDALL "Town" 15 "Soda Machines" "Roof Boxes" "Loading Dock" "Apartment"
   }
 }
 }
