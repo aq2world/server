@@ -1,9 +1,13 @@
 [submodule "aq2-tng"]
 	path = aq2-tng
 	url = git@github.com:actionquake/aq2-tng.git
+        branch = aqtion
 [submodule "q2admin"]
 	path = q2admin
 	url = git@github.com:actionquake/q2admin.git
+        branch = aqtion
 [submodule "q2pro"]
 	path = q2pro
 	url = git@github.com:actionquake/q2pro.git
+        branch = aqtion
+
