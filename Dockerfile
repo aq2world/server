@@ -59,6 +59,8 @@ RUN chown -R admin /aq2server
 USER admin
 WORKDIR /aq2server
 
+# S3CFG for S3 demo uploads
+COPY s3cfg /home/admin/.s3cfg
 
 # motd.txt
 ENV MOTD '==================================\n AQ2 server\n=================================='

@@ -261,4 +261,9 @@ echo "set sv_author $ETE_SVAUTHOR" >> /aq2server/action/config.cfg
 # Load map
 echo "map $default_map" >> /aq2server/action/config.cfg
 
+# Setup S3 vars to allow for demo uploading
+sed -i "s/AWS_ACCESS_KEY/$AWS_ACCESS_KEY/g" /home/admin/.s3cfg
+sed -i "s/AWS_SECRET_KEY/$AWS_SECRET_KEY/g" /home/admin/.s3cfg
+
+# Start the server!
 /aq2server/q2proded +set game action +set net_port $PORT +exec config.cfg +set q2a_config q2admin.lua
