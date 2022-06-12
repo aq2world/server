@@ -21,6 +21,7 @@ mountain	"Sound the Horn (ETV)"
 monastery	"Assassinate The Leader"
 tequila         "Control the Water Supply! (CNH)"
 urban		"Urban Gang War (CTB)"
+ricochet    "Own the Town (CNH)"
 
 //
 //quotes only needed in scenario titles that have spaces in them
@@ -65,6 +66,7 @@ urban		"Urban Gang War (CTB)"
 #include	"scenes/murderctb.scn"
 #include	"scenes/museumctb.scn"
 #include	"scenes/night_rctb.scn"
+#include    "scenes/ricochetcnh.scn"
 #include	"scenes/teamdepoctb.scn"
 #include	"scenes/teamjunglectb.scn"
 #include	"scenes/tf.scn"
