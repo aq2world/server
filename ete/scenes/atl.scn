@@ -19,7 +19,7 @@ TEAM "The A-Team"
 {
   SKIN "male/babarracuda"
   WEAPONS "all"
-  RESPAWN PERIODIC 20 AWAY_FROM "Bill" 3 TOGETHER
+  RESPAWN PERIODIC 20 AWAY_FROM "The Police Captain" 3 TOGETHER
   GOALS
   {
   ASSASSINATE "The Police Captain"
