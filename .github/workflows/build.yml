@@ -18,6 +18,7 @@ jobs:
 
       - name: Checkout aqtion on all submodules
         run: |
+          git submodule foreach git fetch --all
           git submodule foreach git checkout aqtion
           git submodule foreach git pull origin aqtion
 
