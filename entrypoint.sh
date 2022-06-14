@@ -216,6 +216,10 @@ echo "set sv_waterjump_hack $SV_WATERJUMP_HACK" >> /aq2server/action/config.cfg
 echo "set sv_packetdup_hack $SV_PACKETDUP_HACK" >> /aq2server/action/config.cfg
 echo "set net_maxmsglen $NET_MAXMSGLEN" >> /aq2server/action/config.cfg
 echo "set logfile_flush $LOGFILE_FLUSH" >> /aq2server/action/config.cfg
+echo "set logfile $LOGFILE" >> /aq2server/action/config.cfg
+echo "set logfile_name $LOGFILE_NAME" >> /aq2server/action/config.cfg
+echo "set logfile_prefix $LOGFILE_PREFIX" >> /aq2server/action/config.cfg
+
 echo "addstuffcmd begin \"say vers: $version gdrv: $gl_driver \""
 
 # MVD
