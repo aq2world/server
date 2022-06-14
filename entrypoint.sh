@@ -204,6 +204,8 @@ echo "set dm_choose $DM_CHOOSE" >> /aq2server/action/config.cfg
 echo "set dm_shield $DM_SHIELD" >> /aq2server/action/config.cfg
 echo "set items $ITEMS" >> /aq2server/action/config.cfg
 echo "set allow_hoarding $ALLOW_HOARDING" >> /aq2server/action/config.cfg
+echo "set medkit_drop $MEDKIT_DROP" >> /aq2server/action/config.cfg
+echo "set medkit_time $MEDKIT_TIME" >> /aq2server/action/config.cfg
 
 # Q2proded
 echo "set sv_recycle $SV_RECYCLE" >> /aq2server/action/config.cfg
