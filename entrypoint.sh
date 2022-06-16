@@ -114,6 +114,7 @@ echo "set kickvote_pass $KICKVOTE_PASS" >> /aq2server/action/config.cfg
 echo "set kickvote_tempban $KICKVOTE_TEMPBAN" >> /aq2server/action/config.cfg
 echo "set vk_public $VK_PUBLIC" >> /aq2server/action/config.cfg
 echo "set kv_public $KV_PUBLIC" >> /aq2server/action/config.cfg
+echo "set mapvote_next $MAPVOTE_NEXT" >> /aq2server/action/config.cfg
 
 # Flood protection
 echo "set flood_msgs $FLOOD_MSGS" >> /aq2server/action/config.cfg
