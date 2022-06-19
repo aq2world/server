@@ -212,6 +212,7 @@ echo "set medkit_time $MEDKIT_TIME" >> /aq2server/action/config.cfg
 # Q2proded
 echo "set sv_recycle $SV_RECYCLE" >> /aq2server/action/config.cfg
 echo "set loud_guns $LOUD_GUNS" >> /aq2server/action/config.cfg
+echo "set sync_guns $SYNC_GUNS" >> /aq2server/action/config.cfg
 echo "set sv_uptime $SV_UPTIME" >> /aq2server/action/config.cfg
 echo "set sv_calcpings_method $SV_CALCPINGS_METHOD" >> /aq2server/action/config.cfg
 echo "set sv_waterjump_hack $SV_WATERJUMP_HACK" >> /aq2server/action/config.cfg
