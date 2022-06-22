@@ -115,6 +115,10 @@ echo "set kickvote_tempban $KICKVOTE_TEMPBAN" >> /aq2server/action/config.cfg
 echo "set vk_public $VK_PUBLIC" >> /aq2server/action/config.cfg
 echo "set kv_public $KV_PUBLIC" >> /aq2server/action/config.cfg
 echo "set mapvote_next $MAPVOTE_NEXT" >> /aq2server/action/config.cfg
+echo "use_scramblevote $USE_SCRAMBLEVOTE" >> /aq2server/action/config.cfg
+echo "scramblevote_pass $SCRAMBLEVOTE_PASS" >> /aq2server/action/config.cfg
+echo "scramblevote_min $SCRAMBLEVOTE_MIN" >> /aq2server/action/config.cfg
+echo "scramblevote_need $SCRAMBLEVOTE_NEED" >> /aq2server/action/config.cfg
 
 # Flood protection
 echo "set flood_msgs $FLOOD_MSGS" >> /aq2server/action/config.cfg
@@ -165,6 +169,8 @@ echo "set use_oldspawns $USE_OLDSPAWNS" >> /aq2server/action/config.cfg
 echo "set auto_menu $AUTO_MENU" >> /aq2server/action/config.cfg
 echo "set sv_allow_map $SV_ALLOW_MAP" >> /aq2server/action/config.cfg
 echo "set deadtalk $DEADTALK" >> /aq2server/action/config.cfg
+echo "set force_skin $FORCE_SKIN" >> /aq2server/action/config.cfg
+echo "set sv_idlekick $SV_IDLEKICK" >> /aq2server/action/config.cfg
 
 # Game mode settings
 echo "set deathmatch $DEATHMATCH" >> /aq2server/action/config.cfg
@@ -179,7 +185,8 @@ echo "set darkmatch $DARKMATCH" >> /aq2server/action/config.cfg
 echo "set ltk_loadbots $LTK_LOADBOTS" >> /aq2server/action/config.cfg
 echo "set ltk_skill $LTK_SKILL" >> /aq2server/action/config.cfg
 echo "set ltk_chat $LTK_CHAT" >> /aq2server/action/config.cfg
-
+echo "set auto_join $AUTO_JOIN" >> /aq2server/action/config.cfg
+echo "set auto_equip $AUTO_EQUIP" >> /aq2server/action/config.cfg
 
 # Limits
 echo "set fraglimit $FRAGLIMIT" >> /aq2server/action/config.cfg
