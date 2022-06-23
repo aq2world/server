@@ -156,7 +156,7 @@ echo "set video_check_gldynamic $VIDEO_CHECK_GLDYNAMIC" >> /aq2server/action/con
 echo "set video_checktime $VIDEO_CHECKTIME" >> /aq2server/action/config.cfg
 echo "set video_max_3dfx \"$VIDEO_MAX_3DFX\"" >> /aq2server/action/config.cfg
 echo "set video_max_3dfxam \"$VIDEO_MAX_3DFXAM\"" >> /aq2server/action/config.cfg
-echo "set video_max_opengl \"$VIDEO_MAX_OPENFL\"" >> /aq2server/action/config.cfg
+echo "set video_max_opengl \"$VIDEO_MAX_OPENGL\"" >> /aq2server/action/config.cfg
 
 # General settings
 echo "set dmflags $DMFLAGS" >> /aq2server/action/config.cfg
