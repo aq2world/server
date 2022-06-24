@@ -193,7 +193,7 @@ echo "set fraglimit $FRAGLIMIT" >> /aq2server/action/config.cfg
 echo "set timelimit $TIMELIMIT" >> /aq2server/action/config.cfg
 echo "set roundlimit $ROUNDLIMIT" >> /aq2server/action/config.cfg
 echo "set roundtimelimit $ROUNDTIMELIMIT" >> /aq2server/action/config.cfg
-echo "set limechasecam $LIMCHASECAM" >> /aq2server/action/config.cfg
+echo "set limchasecam $LIMCHASECAM" >> /aq2server/action/config.cfg
 echo "set knifelimit $KNIFELIMIT" >> /aq2server/action/config.cfg
 
 # Weapons and items
