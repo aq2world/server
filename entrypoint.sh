@@ -62,7 +62,7 @@ echo "set net_port $PORT" >> /aq2server/action/config.cfg
 echo "set dedicated $DEDICATED" >> /aq2server/action/config.cfg
 echo "set public $PUBLIC" >> /aq2server/action/config.cfg
 echo "set maxclients $MAXCLIENTS" >> /aq2server/action/config.cfg
-echo "set sv_reserved_slots $SV_RESERVED_SLITS" >> /aq2server/action/config.cfg
+echo "set sv_reserved_slots $SV_RESERVED_SLOTS" >> /aq2server/action/config.cfg
 echo "set sv_fps $SV_FPS" >> /aq2server/action/config.cfg
 echo "set warmup $WARMUP" >> /aq2server/action/config.cfg
 echo "set use_newscore $USE_NEWSCORE" >> /aq2server/action/config.cfg
@@ -193,7 +193,7 @@ echo "set fraglimit $FRAGLIMIT" >> /aq2server/action/config.cfg
 echo "set timelimit $TIMELIMIT" >> /aq2server/action/config.cfg
 echo "set roundlimit $ROUNDLIMIT" >> /aq2server/action/config.cfg
 echo "set roundtimelimit $ROUNDTIMELIMIT" >> /aq2server/action/config.cfg
-echo "set limechasecam $LIMCHASECAM" >> /aq2server/action/config.cfg
+echo "set limchasecam $LIMCHASECAM" >> /aq2server/action/config.cfg
 echo "set knifelimit $KNIFELIMIT" >> /aq2server/action/config.cfg
 
 # Weapons and items
