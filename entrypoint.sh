@@ -229,6 +229,7 @@ echo "set logfile_flush $LOGFILE_FLUSH" >> /aq2server/action/config.cfg
 echo "set logfile $LOGFILE" >> /aq2server/action/config.cfg
 echo "set logfile_name $LOGFILE_NAME" >> /aq2server/action/config.cfg
 echo "set logfile_prefix $LOGFILE_PREFIX" >> /aq2server/action/config.cfg
+echo "set stat_logs $STAT_LOGS" >> /aq2server/action/config.cfg
 
 echo "addstuffcmd begin \"say vers: $version gdrv: $gl_driver \""
 
