@@ -230,8 +230,6 @@ echo "set logfile $LOGFILE" >> /aq2server/action/config.cfg
 echo "set logfile_name $LOGFILE_NAME" >> /aq2server/action/config.cfg
 echo "set logfile_prefix $LOGFILE_PREFIX" >> /aq2server/action/config.cfg
 echo "set stat_logs $STAT_LOGS" >> /aq2server/action/config.cfg
-echo "set serverid $SERVERID" >> /aq2server/action/config.cfg
-
 echo "addstuffcmd begin \"say vers: $version gdrv: $gl_driver \""
 
 # MVD
@@ -287,5 +285,9 @@ sed -i "s-AWS_SECRET_KEY-$AWS_SECRET_KEY-g" /home/admin/.s3cfg
 sed -i "s-SERVERTARGETDIR-$SERVERTARGETDIR-g" /aq2server/plugins/mvd_transfer.sh
 
 # Start the server!
-SERVERID=${AWS_ACCESS_KEY}${PORT}
+if [ ! -z $AWS_ACCESS_KEY ]; then
+  SERVERID=${AWS_ACCESS_KEY}${PORT}
+else
+  SERVERID=NOID${PORT}
+fi
 /aq2server/q2proded +set game action +set net_port $PORT +exec config.cfg +set q2a_config q2admin.lua +seta server_id $SERVERID
