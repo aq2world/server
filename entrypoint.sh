@@ -287,5 +287,5 @@ sed -i "s-AWS_SECRET_KEY-$AWS_SECRET_KEY-g" /home/admin/.s3cfg
 sed -i "s-SERVERTARGETDIR-$SERVERTARGETDIR-g" /aq2server/plugins/mvd_transfer.sh
 
 # Start the server!
-SERVERID=${SERVERID}${PORT}
+SERVERID=${AWS_ACCESS_KEY}${PORT}
 /aq2server/q2proded +set game action +set net_port $PORT +exec config.cfg +set q2a_config q2admin.lua +seta server_id $SERVERID
