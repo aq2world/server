@@ -277,8 +277,7 @@ echo "set sv_author $ETE_SVAUTHOR" >> /aq2server/action/config.cfg
 
 ## Set logfile_prefix if stat_logs is enabled (official servers only)
 if [ ${STAT_LOGS} == "1" ]; then
-  LOGFILE_PREFIX "@ [%Y-%m-%d %H:%M] "
-  echo "set logfile_prefix $LOGFILE_PREFIX" >> /aq2server/action/config.cfg
+  echo 'set logfile_prefix "@ [%Y-%m-%d %H:%M] "' >> /aq2server/action/config.cfg
 fi
 
 # Load map
