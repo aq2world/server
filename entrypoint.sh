@@ -275,6 +275,11 @@ echo "set allow_vote $ETE_ALLOWVOTE" >> /aq2server/action/config.cfg
 echo "set e_voteWait $ETE_VOTEWAIT" >> /aq2server/action/config.cfg
 echo "set sv_author $ETE_SVAUTHOR" >> /aq2server/action/config.cfg
 
+## Set logfile_prefix if stat_logs is enabled (official servers only)
+if [ ${STAT_LOGS} == "1" ]; then
+  LOGFILE_PREFIX "@ [%Y-%m-%d %H:%M] "
+  echo "set logfile_prefix $LOGFILE_PREFIX" >> /aq2server/action/config.cfg
+fi
 
 # Load map
 echo "map $default_map" >> /aq2server/action/config.cfg
@@ -285,9 +290,11 @@ sed -i "s-AWS_SECRET_KEY-$AWS_SECRET_KEY-g" /home/admin/.s3cfg
 sed -i "s-SERVERTARGETDIR-$SERVERTARGETDIR-g" /aq2server/plugins/mvd_transfer.sh
 
 # Start the server!
+## Sets the server_id
 if [ ! -z $AWS_ACCESS_KEY ]; then
   SERVERID=${AWS_ACCESS_KEY}${PORT}
 else
   SERVERID=NOID${PORT}
 fi
+
 /aq2server/q2proded +set game action +set net_port $PORT +exec config.cfg +set q2a_config q2admin.lua +seta server_id $SERVERID

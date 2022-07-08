@@ -1,6 +1,7 @@
 FROM arm32v7/ubuntu:18.04 AS buildstage
 
 # Install dependencies
+# If you start running into apt-get issues, clear the cache
 RUN apt-get update && DEBIAN_FRONTEND=noninteractive apt-get -y install wget build-essential libsdl2-dev libopenal-dev libpng-dev libjpeg-dev zlib1g-dev mesa-common-dev libcurl4-gnutls-dev git lua5.1 libsdl1.2-dev libsdl1.2debian liblua5.1-0-dev git gcc-7 uuid-dev nano
 
 # Cache hax
