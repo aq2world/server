@@ -50,8 +50,9 @@ ENTRYPOINT /aq2server/entrypoint.sh
 COPY fullmaplist.ini /aq2server/action/
 RUN mkdir /aq2server/action/maps
 
-# Logs
+# Logs and Demos
 RUN mkdir /aq2server/action/logs
+RUN mkdir /aq2server/action/demos
 
 # Sounds
 COPY sndlist.ini tourney.ini /aq2server/action/
