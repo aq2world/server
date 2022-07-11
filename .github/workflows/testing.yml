@@ -26,7 +26,7 @@ jobs:
         with:
           repository: actionquake/aq2-tng
           path: aq2-tng
-          ref: aqtion
+          ref: stat-refactor
 
       - name: Checkout q2pro
         uses: actions/checkout@v3

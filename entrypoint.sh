@@ -195,6 +195,7 @@ echo "set roundlimit $ROUNDLIMIT" >> /aq2server/action/config.cfg
 echo "set roundtimelimit $ROUNDTIMELIMIT" >> /aq2server/action/config.cfg
 echo "set limchasecam $LIMCHASECAM" >> /aq2server/action/config.cfg
 echo "set knifelimit $KNIFELIMIT" >> /aq2server/action/config.cfg
+echo "set sv_iplimit $IPLIMIT" >> /aq2server/action/config.cfg
 
 # Weapons and items
 echo "set allweapon $ALLWEAPON" >> /aq2server/action/config.cfg

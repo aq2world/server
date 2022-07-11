@@ -50,8 +50,9 @@ ENTRYPOINT /aq2server/entrypoint.sh
 COPY fullmaplist.ini /aq2server/action/
 RUN mkdir /aq2server/action/maps
 
-# Logs
+# Logs and Demos
 RUN mkdir /aq2server/action/logs
+RUN mkdir /aq2server/action/demos
 
 # Sounds
 COPY sndlist.ini tourney.ini /aq2server/action/
@@ -219,6 +220,7 @@ ENV ROUNDLIMIT 0
 ENV ROUNDTIMELIMIT 3
 ENV LIMCHASECAM 0
 ENV KNIFELIMIT 40
+ENV IPLIMIT 0
 
 # Weapons and items
 ENV ALLWEAPON 0
