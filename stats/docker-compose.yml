@@ -1,0 +1,45 @@
+version: "3"
+
+services:
+  tp1:
+    container_name: tp1
+    image: aqtiongame/server:v21
+    ports:
+      - "27910:27910/udp"
+      - "27910:27910/tcp"
+    stdin_open: true
+    tty: true
+    restart: on-failure:5
+    env_file:
+     - ./tp1.env
+    environment:
+      - AWS_ACCESS_KEY=ACCESSKEYHERE
+      - AWS_SECRET_KEY=ACCESSSECRETHERE
+      - SERVERTARGETDIR=aq2world_de/tp1_27910
+      - LOGFILE_NAME=tp1_27910
+      - LOGFILE_FLUSH=2
+      - LOGFILE=2
+    volumes:
+     - ./tp1.motd:/aq2server/action/motd.txt:ro
+     - maps:/aq2server/action/maps
+     - demos:/aq2server/action/demos
+     - logs:/aq2server/action/logs
+
+  stats-pub:
+    container_name: stats-pub
+    image: aqtiongame/publisher:v4
+    stdin_open: true
+    tty: true
+    restart: on-failure:5
+    environment:
+      - AWS_ACCESS_KEY=ACCESSKEYHERE
+      - AWS_SECRET_KEY=ACCESSSECRETHERE
+      - STAT_LOGS=1
+      - LOGLEVEL=INFO
+    volumes:
+     - logs:/aq2server/action/logs
+
+volumes:
+  maps:
+  demos:
+  logs:
