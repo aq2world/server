@@ -239,7 +239,7 @@ echo "set sv_mvd_maxclients $SV_MVD_MAXCLIENTS" >> /aq2server/action/config.cfg
 echo "set sv_mvd_begincmd \"putaway; h_cycle\"" >> /aq2server/action/config.cfg
 echo "set sv_mvd_scorecmd \"h_cycle\"" >> /aq2server/action/config.cfg
 echo "alias h_cycle \"h_cycle_sb; h_cycle_sb; h_cycle_sb; h_cycle_sb; h_cycle_sb\"" >> /aq2server/action/config.cfg
-echo "alias h_cycle_sb \"wait; help; wait 75; help; wait 75; putaway;\"" >> /aq2server/action/config.cfg
+echo "alias h_cycle_sb \"wait; help; wait 40; help; wait 40; putaway;\"" >> /aq2server/action/config.cfg
 echo "set mvd_default_map $MVD_DEFAULT_MAP" >> /aq2server/action/config.cfg
 echo "set sv_mvd_maxtime $SV_MVD_MAXTIME" >> /aq2server/action/config.cfg
 echo "set mvd_snaps $MVD_SNAPS" >> /aq2server/action/config.cfg
