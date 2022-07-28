@@ -261,6 +261,8 @@ echo "serverinfo" >> /aq2server/action/config.cfg
 
 # Espionage (non-TNG)
 echo "set scripts $ETE_SCRIPTS" >> /aq2server/action/config.cfg
+echo "set ogl $ETE_OGL" >> /aq2server/action/config.cfg
+echo "set matchplay $ETE_MATCHPLAY" >> /aq2server/action/config.cfg
 echo "set e_maxVolunteers $ETE_MAXVOLUNTEERS" >> /aq2server/action/config.cfg
 echo "set e_mustVolunteer $ETE_MUSTVOLUNTEER" >> /aq2server/action/config.cfg
 echo "set escore $ETE_ESCORE" >> /aq2server/action/config.cfg
