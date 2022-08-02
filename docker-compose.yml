@@ -1,9 +1,10 @@
 version: "3"
 
 services:
-  tp1:
-    container_name: tp1
-    image: aqtiongame/server:v7
+  server:
+    container_name: server
+    build: .
+    image: aqtiongame/server:v27
     ports:
       - "27910:27910/udp"
       - "27910:27910/tcp"
