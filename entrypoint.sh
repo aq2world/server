@@ -282,6 +282,8 @@ echo "set sv_author $ETE_SVAUTHOR" >> /aq2server/action/config.cfg
 if [ ${STAT_LOGS} == "1" ]; then
   echo 'set logfile_prefix "[%Y-%m-%d %H:%M] "' >> /aq2server/action/config.cfg
 fi
+# stat_log apikey
+echo "set stat_apikey $STAT_APIKEY" >> /aq2server/action/config.cfg
 
 # Load map
 echo "map $default_map" >> /aq2server/action/config.cfg
