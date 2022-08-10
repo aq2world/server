@@ -17,7 +17,7 @@ COPY q2admin.lua /aq2server/
 # Compile stuff
 RUN cd /aq2-tng/source && AQTION=TRUE make -j4
 RUN cd /q2admin && make -j4
-RUN cd /q2pro && CONFIG_FILE=.ci/config_linux make -j4 q2proded
+RUN cd /q2pro && wget https://raw.githubusercontent.com/actionquake/distrib/main/build/linux/config_linux64 && CONFIG_FILE=config_linux64 make -j4 q2proded
 
 # Copy aq2-tng contents to aq2server
 RUN cp -r /aq2-tng/action /aq2server/action
