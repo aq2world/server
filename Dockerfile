@@ -98,7 +98,7 @@ ENV USE_GHOSTS 1
 ENV MASTER 'master.quadaver.org master.q2servers.com'
 ENV _ADMIN AQ2WORLD
 ENV AWS_ACCESS_KEY NONE
-
+ENV STAT_APIKEY ""
 
 # Passwords
 ENV RCON_PASSWORD aq2world
