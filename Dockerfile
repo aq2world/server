@@ -16,13 +16,13 @@ COPY q2admin.lua /aq2server/
 RUN cp -r /aq2-tng/action /aq2server/
 
 # Download and extract latest Q2Pro build
-RUN wget https://github.com/actionquake/q2pro/releases/latest/download/q2pro-lin-gcc.zip && unzip q2pro-lin-gcc.zip && cp q2proded /aq2server/q2proded
+RUN wget -nv https://github.com/actionquake/q2pro/releases/latest/download/q2pro-lin-gcc.zip && unzip q2pro-lin-gcc.zip && cp q2proded /aq2server/q2proded
 RUN chmod +x /aq2server/q2proded
 
 # Download and extract latest TNG build
-RUN wget https://github.com/actionquake/aq2-tng/releases/latest/download/tng-lin-x86_64.zip && unzip tng-lin-x86_64.zip && cp gamex86_64.so /aq2server/action/gamex86_64.real.so
+RUN wget -nv https://github.com/actionquake/aq2-tng/releases/latest/download/tng-lin-x86_64.zip && unzip tng-lin-x86_64.zip && cp gamex86_64.so /aq2server/action/gamex86_64.real.so
 
-RUN wget https://github.com/actionquake/q2admin/releases/latest/download/q2admin-lin-x86_64.zip && unzip q2admin-lin-x86_64.zip && cp -r plugins config.lua /aq2server && cp gamex86_64.so /aq2server/action/gamex86_64.so
+RUN wget -nv https://github.com/actionquake/q2admin/releases/latest/download/q2admin-lin-x86_64.zip && unzip q2admin-lin-x86_64.zip && cp -r plugins config.lua /aq2server && cp gamex86_64.so /aq2server/action/gamex86_64.so
 
 # Cache hax
 ADD "https://www.random.org/cgi-bin/randbyte?nbytes=10&format=h" skipcache
