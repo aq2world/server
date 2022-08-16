@@ -16,13 +16,13 @@ COPY q2admin.lua /aq2server/
 RUN cp -r /aq2-tng/action /aq2server/
 
 # Download and extract latest Q2Pro build
-RUN wget -nv https://github.com/actionquake/q2pro/releases/latest/download/q2pro-lin-gcc.zip && unzip q2pro-lin-gcc.zip && cp q2proded /aq2server/q2proded
+RUN wget -qnv https://github.com/actionquake/q2pro/releases/latest/download/q2pro-lin-gcc.zip && unzip q2pro-lin-gcc.zip && mv q2proded /aq2server/q2proded
 RUN chmod +x /aq2server/q2proded
 
 # Download and extract latest TNG build
-RUN wget -nv https://github.com/actionquake/aq2-tng/releases/latest/download/tng-lin-x86_64.zip && unzip tng-lin-x86_64.zip && cp gamex86_64.so /aq2server/action/gamex86_64.real.so
+RUN wget -qnv https://github.com/actionquake/aq2-tng/releases/latest/download/tng-lin-x86_64.zip && unzip tng-lin-x86_64.zip && mv gamex86_64.so /aq2server/action/gamex86_64.real.so
 
-RUN wget -nv https://github.com/actionquake/q2admin/releases/latest/download/q2admin-lin-x86_64.zip && unzip q2admin-lin-x86_64.zip && cp -r plugins config.lua /aq2server && cp gamex86_64.so /aq2server/action/gamex86_64.so
+RUN wget -qnv https://github.com/actionquake/q2admin/releases/latest/download/q2admin-lin-x86_64.zip && unzip q2admin-lin-x86_64.zip && mv -r plugins /aq2server && mv gamex86_64.so /aq2server/action/gamex86_64.so
 
 # Cache hax
 ADD "https://www.random.org/cgi-bin/randbyte?nbytes=10&format=h" skipcache
@@ -263,3 +263,22 @@ ENV SV_MVD_NOGUN 0
 # Antilag
 ENV SV_ANTILAG 1
 ENV SV_ANTILAG_INTERP 0
+
+# Espionage (non-TNG)
+ENV ETE_SCRIPTS 1
+ENV ETE_OGL 0
+ENV ETE_MATCHPLAY 0
+ENV ETE_MAXVOLUNTEERS 0
+ENV ETE_MUSTVOLUNTEER 0
+ENV ETE_ESCORE 1
+ENV ETE_ALLOWMPELP 1
+ENV ETE_ALLRADIO 1
+ENV ETE_USEDEFSCENARIO 1
+ENV ETE_DEFSCENARIONAME "Assassinate The Leader"
+ENV ETE_CARRIERRETURN 1
+ENV ETE_ENHANCEDSLIPPERS 1
+ENV ETE_ALLOWVOTEMAP 1
+ENV ETE_VOTEMAPPERCENT 50
+ENV ETE_ALLOWVOTE 1
+ENV ETE_VOTEWAIT 120
+ENV ETE_SVAUTHOR 0
