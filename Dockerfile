@@ -1,8 +1,8 @@
-FROM ubuntu:18.04 AS buildstage
+FROM ubuntu:22.04 AS buildstage
 
 # Install dependencies
 RUN apt-get update
-RUN DEBIAN_FRONTEND=noninteractive apt-get -y install wget build-essential libsdl2-dev libopenal-dev libpng-dev libjpeg-dev zlib1g-dev mesa-common-dev libcurl4-gnutls-dev git lua5.1 libsdl1.2-dev libsdl1.2debian liblua5.1-0-dev git gcc-7 uuid-dev nano
+RUN DEBIAN_FRONTEND=noninteractive apt-get -y install wget nano unzip
 
 # Cache hax
 ADD "https://www.random.org/cgi-bin/randbyte?nbytes=10&format=h" skipcache
@@ -10,34 +10,24 @@ ADD "https://www.random.org/cgi-bin/randbyte?nbytes=10&format=h" skipcache
 # Copy stuff
 RUN mkdir /aq2server
 COPY aq2-tng /aq2-tng
-COPY q2admin /q2admin
-COPY q2pro /q2pro
 COPY q2admin.lua /aq2server/
-
-# Compile stuff
-RUN cd /aq2-tng/source && AQTION=TRUE make -j4
-RUN cd /q2admin && make -j4
-RUN cd /q2pro && wget https://raw.githubusercontent.com/actionquake/distrib/main/build/linux/config_linux64 && CONFIG_FILE=config_linux64 make -j4 q2proded
-
-# Copy aq2-tng contents to aq2server
-RUN cp -r /aq2-tng/action /aq2server/action
-RUN cp /aq2-tng/source/gamex86_64.so /aq2server/action/gamex86_64.real.so
 
 # Copy configs to aq2server
 RUN cp -r /aq2-tng/action /aq2server/
 
-# Copy q2admin to aq2server
-RUN cp /q2admin/gamex86_64.so /aq2server/action/gamex86_64.so
-RUN mkdir /aq2server/plugins
-RUN cp /q2admin/plugins/* /aq2server/plugins/
+# Download and extract latest Q2Pro build
+RUN wget https://github.com/actionquake/q2pro/releases/latest/download/q2pro-lin-gcc.zip && unzip q2pro-lin-gcc.zip && cp q2proded /aq2server/q2proded
+RUN chmod +x /aq2server/q2proded
 
-# Copy q2pro to aq2server
-RUN cp /q2pro/q2proded /aq2server/q2proded
+# Download and extract latest TNG build
+RUN wget https://github.com/actionquake/aq2-tng/releases/latest/download/tng-lin-x86_64.zip && unzip tng-lin-x86_64.zip && cp gamex86_64.so /aq2server/action/gamex86_64.real.so
+
+RUN wget https://github.com/actionquake/q2admin/releases/latest/download/q2admin-lin-x86_64.zip && unzip q2admin-lin-x86_64.zip && cp -r plugins config.lua /aq2server && cp gamex86_64.so /aq2server/action/gamex86_64.so
 
 # Cache hax
 ADD "https://www.random.org/cgi-bin/randbyte?nbytes=10&format=h" skipcache
 
-FROM ubuntu:18.04
+FROM ubuntu:22.04
 ENV DEBIAN_FRONTEND=noninteractive
 RUN apt-get update && apt-get install --no-install-recommends nano wget lua5.1 liblua5.1-0-dev libcurl3-gnutls s3cmd -y
 
