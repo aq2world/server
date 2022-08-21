@@ -16,14 +16,21 @@ COPY q2admin.lua /aq2server/
 RUN cp -r /aq2-tng/action /aq2server/
 
 # Download and extract latest Q2Pro build
-RUN wget -qnv https://github.com/actionquake/q2pro/releases/latest/download/q2pro-lin-gcc.zip && unzip q2pro-lin-gcc.zip && mv q2proded /aq2server/q2proded
+RUN wget -qnv https://github.com/actionquake/q2pro/releases/latest/download/q2pro-lin-gcc.zip
+RUN unzip q2pro-lin-gcc.zip
+RUN mv q2proded /aq2server/q2proded
 RUN chmod +x /aq2server/q2proded
 
 # Download and extract latest TNG build
-RUN wget -qnv https://github.com/actionquake/aq2-tng/releases/latest/download/tng-lin-x86_64.zip && unzip tng-lin-x86_64.zip && mv gamex86_64.so /aq2server/action/gamex86_64.real.so
+RUN wget -qnv https://github.com/actionquake/aq2-tng/releases/latest/download/tng-lin-x86_64.zip
+RUN unzip tng-lin-x86_64.zip
+RUN mv gamex86_64.so /aq2server/action/gamex86_64.real.so
 
 # Download and extract latest Q2Admin build
-RUN wget -qnv https://github.com/actionquake/q2admin/releases/latest/download/q2admin-lin-x86_64.zip && unzip q2admin-lin-x86_64.zip && mv plugins /aq2server && mv gamex86_64.so /aq2server/action/gamex86_64.so
+RUN wget -qnv https://github.com/actionquake/q2admin/releases/latest/download/q2admin-lin-x86_64.zip
+RUN unzip q2admin-lin-x86_64.zip
+RUN mv plugins /aq2server
+RUN mv gamex86_64.so /aq2server/action/gamex86_64.so
 
 # Make libraries executable
 RUN chmod +x /aq2server/action/gamex*
