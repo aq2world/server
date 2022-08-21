@@ -22,7 +22,7 @@ RUN chmod +x /aq2server/q2proded
 # Download and extract latest TNG build
 RUN wget -qnv https://github.com/actionquake/aq2-tng/releases/latest/download/tng-lin-x86_64.zip && unzip tng-lin-x86_64.zip && mv gamex86_64.so /aq2server/action/gamex86_64.real.so
 
-RUN wget -qnv https://github.com/actionquake/q2admin/releases/latest/download/q2admin-lin-x86_64.zip && unzip q2admin-lin-x86_64.zip && mv -r plugins /aq2server && mv gamex86_64.so /aq2server/action/gamex86_64.so
+RUN wget -qnv https://github.com/actionquake/q2admin/releases/latest/download/q2admin-lin-x86_64.zip && unzip q2admin-lin-x86_64.zip && mv plugins /aq2server && mv gamex86_64.so /aq2server/action/gamex86_64.so
 
 # Cache hax
 ADD "https://www.random.org/cgi-bin/randbyte?nbytes=10&format=h" skipcache
