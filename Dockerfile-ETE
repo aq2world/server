@@ -34,12 +34,15 @@ RUN cp /q2admin/plugins/* /aq2server/plugins/
 # Copy q2pro to aq2server
 RUN cp /q2pro/q2proded /aq2server/q2proded
 
+# Make items executable
+RUN chmod +x /aq2server/action/game* /aq2server/plugins/mvd_transfer.sh
+
 # Cache hax
 #ADD "https://www.random.org/cgi-bin/randbyte?nbytes=10&format=h" skipcache
 
 FROM i386/ubuntu:18.04
 ENV DEBIAN_FRONTEND=noninteractive
-RUN apt-get update && apt-get install --no-install-recommends nano wget lua5.1 liblua5.1-0-dev s3cmd -y
+RUN apt-get update && apt-get install --no-install-recommends nano wget lua5.1 liblua5.1-0-dev s3cmd ca-certificates -y && update-ca-certificates
 
 COPY --from=buildstage /aq2server /aq2server
 # Copy and set entrypoint
