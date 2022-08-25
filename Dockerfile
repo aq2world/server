@@ -32,15 +32,15 @@ RUN unzip q2admin-lin-x86_64.zip
 RUN mv plugins /aq2server
 RUN mv gamex86_64.so /aq2server/action/gamex86_64.so
 
-# Make libraries executable
-RUN chmod +x /aq2server/action/gamex*
+# Make libraries and scripts executable
+RUN chmod +x /aq2server/action/gamex* /aq2server/plugins/mvd_transfer.sh
 
 # Cache hax
 ADD "https://www.random.org/cgi-bin/randbyte?nbytes=10&format=h" skipcache
 
 FROM ubuntu:22.04
 ENV DEBIAN_FRONTEND=noninteractive
-RUN apt-get update && apt-get install --no-install-recommends nano wget lua5.1 liblua5.1-0-dev libcurl3-gnutls s3cmd -y
+RUN apt-get update && apt-get install --no-install-recommends nano wget lua5.1 liblua5.1-0-dev libcurl3-gnutls s3cmd ca-certificates -y && update-ca-certificates
 
 COPY --from=buildstage /aq2server /aq2server
 # Copy and set entrypoint
