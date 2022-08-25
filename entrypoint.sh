@@ -117,10 +117,10 @@ echo "set vk_public $VK_PUBLIC" >> /aq2server/action/config.cfg
 echo "set kv_public $KV_PUBLIC" >> /aq2server/action/config.cfg
 echo "set mapvote_next $MAPVOTE_NEXT" >> /aq2server/action/config.cfg
 echo "set mapvote_next_time $MAPVOTE_NEXT_TIME" >> /aq2server/action/config.cfg
-echo "use_scramblevote $USE_SCRAMBLEVOTE" >> /aq2server/action/config.cfg
-echo "scramblevote_pass $SCRAMBLEVOTE_PASS" >> /aq2server/action/config.cfg
-echo "scramblevote_min $SCRAMBLEVOTE_MIN" >> /aq2server/action/config.cfg
-echo "scramblevote_need $SCRAMBLEVOTE_NEED" >> /aq2server/action/config.cfg
+echo "set use_scramblevote $USE_SCRAMBLEVOTE" >> /aq2server/action/config.cfg
+echo "set scramblevote_pass $SCRAMBLEVOTE_PASS" >> /aq2server/action/config.cfg
+echo "set scramblevote_min $SCRAMBLEVOTE_MIN" >> /aq2server/action/config.cfg
+echo "set scramblevote_need $SCRAMBLEVOTE_NEED" >> /aq2server/action/config.cfg
 
 # Flood protection
 echo "set flood_msgs $FLOOD_MSGS" >> /aq2server/action/config.cfg
