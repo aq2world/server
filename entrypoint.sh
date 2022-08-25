@@ -74,6 +74,7 @@ echo "set use_voice $USE_VOICE" >> /aq2server/action/config.cfg
 echo "set use_ghosts $USE_GHOSTS" >> /aq2server/action/config.cfg
 echo "setmaster $MASTER" >> /aq2server/action/config.cfg
 echo "sets _admin $_ADMIN" >> /aq2server/action/config.cfg
+echo "set q2a_config $Q2A_CONFIG" >> /aq2server/action/config.cfg
 
 # Passwords
 echo "set rcon_password $RCON_PASSWORD" >> /aq2server/action/config.cfg
@@ -302,4 +303,4 @@ else
   SERVERID=NOID${PORT}
 fi
 
-/aq2server/q2proded +set game action +set net_port $PORT +exec config.cfg +set q2a_config q2admin.lua +seta server_id $SERVERID
+/aq2server/q2proded +set game action +set net_port $PORT +exec config.cfg +set q2a_config $Q2A_CONFIG +seta server_id $SERVERID
