@@ -1,6 +1,6 @@
 --
 -- Q2Admin example configuration
--- 
+--
 -- rename to "config.lua" and place this to quake 2 root
 --
 
@@ -12,4 +12,6 @@ plugins = {
     needs_cvar_q2a_mvd_autorecord = false
   },
   version = {} -- version feedback script
+  mvd2cprints = {}, -- add mising ACC,IMP,EXC centerprints information into mvd2 demos
+  coinflip = {}, -- toss a coin INGAME ;)
 }

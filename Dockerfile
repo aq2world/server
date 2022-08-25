@@ -13,6 +13,7 @@ COPY aq2-tng /aq2-tng
 COPY q2admin /q2admin
 COPY q2pro /q2pro
 COPY q2admin.lua /aq2server/
+COPY q2a_cw.lua /aq2server/
 
 # Compile stuff
 RUN cd /aq2-tng/source && AQTION=TRUE make -j4
