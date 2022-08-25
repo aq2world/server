@@ -99,6 +99,7 @@ ENV MASTER 'master.quadaver.org master.q2servers.com'
 ENV _ADMIN AQ2WORLD
 ENV AWS_ACCESS_KEY NONE
 ENV STAT_APIKEY ""
+ENV Q2A_CONFIG q2admin.lua
 
 # Passwords
 ENV RCON_PASSWORD aq2world
