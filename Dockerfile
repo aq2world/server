@@ -1,11 +1,11 @@
 FROM ubuntu:22.04 AS buildstage
 
+# Cache hax, so we get a fresh build every time
+ADD "https://www.random.org/cgi-bin/randbyte?nbytes=10&format=h" skipcache
+
 # Install dependencies
 RUN apt-get update
 RUN DEBIAN_FRONTEND=noninteractive apt-get -y install wget nano unzip
-
-# Cache hax
-ADD "https://www.random.org/cgi-bin/randbyte?nbytes=10&format=h" skipcache
 
 # Copy stuff
 RUN mkdir /aq2server
@@ -255,7 +255,7 @@ ENV SV_CALCPINGS_METHOD 2
 ENV SV_WATERJUMP_HACK 1
 ENV SV_PACKETDUP_HACK 1
 ENV NET_MAXMSGLEN 0
-ENV LOGFILE_FLUSH 0
+ENV LOGFILE_FLUSH 2
 ENV LOGFILE 2
 ENV LOGFILE_NAME $PORT
 ENV LOGFILE_PREFIX "@ [%Y-%m-%d %H:%M] "
