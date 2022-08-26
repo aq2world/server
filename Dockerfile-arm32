@@ -24,16 +24,16 @@ RUN chmod +x /aq2server/q2proded
 # Download and extract latest TNG build
 RUN wget -qnv https://github.com/actionquake/aq2-tng/releases/latest/download/tng-lin-arm64.zip
 RUN unzip tng-lin-arm64.zip
-RUN mv gameaarch64.so /aq2server/action/gameaarch64.real.so
+RUN mv gameaarch64.so /aq2server/action/gamearm64.real.so
 
 # Download and extract latest Q2Admin build
 RUN wget -qnv https://github.com/actionquake/q2admin/releases/latest/download/q2admin-lin-arm64.zip
 RUN unzip q2admin-lin-arm64.zip
 RUN mv plugins /aq2server
-RUN mv gameaarch64.so /aq2server/action/gameaarch64.so
+RUN mv gameaarch64.so /aq2server/action/gamearm64.so
 
 # Make libraries executable
-RUN chmod +x /aq2server/action/gameaarch64* /aq2server/plugins/mvd_transfer.sh
+RUN chmod +x /aq2server/action/gamearm64* /aq2server/plugins/mvd_transfer.sh
 
 # Cache hax
 ADD "https://www.random.org/cgi-bin/randbyte?nbytes=10&format=h" skipcache
