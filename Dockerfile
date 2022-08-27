@@ -1,11 +1,11 @@
 FROM ubuntu:22.04 AS buildstage
 
+# Cache hax, so we get a fresh build every time
+ADD "https://www.random.org/cgi-bin/randbyte?nbytes=10&format=h" skipcache
+
 # Install dependencies
 RUN apt-get update
 RUN DEBIAN_FRONTEND=noninteractive apt-get -y install wget nano unzip
-
-# Cache hax
-ADD "https://www.random.org/cgi-bin/randbyte?nbytes=10&format=h" skipcache
 
 # Copy stuff
 RUN mkdir /aq2server
@@ -32,15 +32,15 @@ RUN unzip q2admin-lin-x86_64.zip
 RUN mv plugins /aq2server
 RUN mv gamex86_64.so /aq2server/action/gamex86_64.so
 
-# Make libraries executable
-RUN chmod +x /aq2server/action/gamex*
+# Make libraries and scripts executable
+RUN chmod +x /aq2server/action/gamex* /aq2server/plugins/mvd_transfer.sh
 
 # Cache hax
 ADD "https://www.random.org/cgi-bin/randbyte?nbytes=10&format=h" skipcache
 
 FROM ubuntu:22.04
 ENV DEBIAN_FRONTEND=noninteractive
-RUN apt-get update && apt-get install --no-install-recommends nano wget lua5.1 liblua5.1-0-dev libcurl3-gnutls s3cmd -y
+RUN apt-get update && apt-get install --no-install-recommends nano wget lua5.1 liblua5.1-0-dev libcurl3-gnutls s3cmd ca-certificates -y && update-ca-certificates
 
 COPY --from=buildstage /aq2server /aq2server
 # Copy and set entrypoint
@@ -99,7 +99,6 @@ ENV USE_GHOSTS 1
 ENV MASTER 'master.quadaver.org master.q2servers.com'
 ENV _ADMIN AQ2WORLD
 ENV AWS_ACCESS_KEY NONE
-ENV STAT_APIKEY ""
 
 # Passwords
 ENV RCON_PASSWORD aq2world
@@ -121,6 +120,8 @@ ENV SHELLOFF 1
 ENV SV_GIB 1
 ENV BREAKABLEGLASS 0
 ENV GLASSFRAGMENTLIMIT 0
+ENV SV_MIN_RATE 5000
+ENV SV_MAX_RATE 50000
 
 # Voting
 ENV USE_CVOTE 1
@@ -254,7 +255,7 @@ ENV SV_CALCPINGS_METHOD 2
 ENV SV_WATERJUMP_HACK 1
 ENV SV_PACKETDUP_HACK 1
 ENV NET_MAXMSGLEN 0
-ENV LOGFILE_FLUSH 0
+ENV LOGFILE_FLUSH 2
 ENV LOGFILE 2
 ENV LOGFILE_NAME $PORT
 ENV LOGFILE_PREFIX "@ [%Y-%m-%d %H:%M] "

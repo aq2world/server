@@ -94,6 +94,8 @@ echo "set shelloff $SHELLOFF" >> /aq2server/action/config.cfg
 echo "set sv_gib $SV_GIB" >> /aq2server/action/config.cfg
 echo "set breakableglass $BREAKABLEGLASS" >> /aq2server/action/config.cfg
 echo "set glassfragmentlimit $GLASSFRAGMENTLIMIT" >> /aq2server/action/config.cfg
+echo "set sv_min_rate $SV_MIN_RATE" >> /aq2server/action/config.cfg
+echo "set sv_max_rate $SV_MAX_RATE" >> /aq2server/action/config.cfg
 
 #  Voting
 echo "set use_cvote $USE_CVOTE" >> /aq2server/action/config.cfg

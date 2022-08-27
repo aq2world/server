@@ -1,4 +1,8 @@
+<<<<<<< HEAD:Dockerfile-ARM32
 FROM ubuntu:22.04 AS buildstage
+=======
+FROM arm64v8/ubuntu:22.04 AS buildstage
+>>>>>>> 9720c52429e1cbe38c5c008b992f65cee399b8dd:Dockerfile-arm64
 
 # Install dependencies
 RUN apt-get update
@@ -24,23 +28,38 @@ RUN chmod +x /aq2server/q2proded
 # Download and extract latest TNG build
 RUN wget -qnv https://github.com/actionquake/aq2-tng/releases/latest/download/tng-lin-arm64.zip
 RUN unzip tng-lin-arm64.zip
+<<<<<<< HEAD:Dockerfile-ARM32
 RUN mv gameaarch64.so /aq2server/action/gameaarch64.real.so
+=======
+RUN mv gameaarch64.so /aq2server/action/gamearm64.real.so
+>>>>>>> 9720c52429e1cbe38c5c008b992f65cee399b8dd:Dockerfile-arm64
 
 # Download and extract latest Q2Admin build
 RUN wget -qnv https://github.com/actionquake/q2admin/releases/latest/download/q2admin-lin-arm64.zip
 RUN unzip q2admin-lin-arm64.zip
 RUN mv plugins /aq2server
+<<<<<<< HEAD:Dockerfile-ARM32
 RUN mv gameaarch64.so /aq2server/action/gameaarch64.so
 
 # Make libraries executable
 RUN chmod +x /aq2server/action/gameaarch*
+=======
+RUN mv gameaarch64.so /aq2server/action/gamearm64.so
+
+# Make libraries executable
+RUN chmod +x /aq2server/action/gamearm64* /aq2server/plugins/mvd_transfer.sh
+>>>>>>> 9720c52429e1cbe38c5c008b992f65cee399b8dd:Dockerfile-arm64
 
 # Cache hax
 ADD "https://www.random.org/cgi-bin/randbyte?nbytes=10&format=h" skipcache
 
+<<<<<<< HEAD:Dockerfile-ARM32
 FROM arm32v7/ubuntu:22.04
+=======
+FROM arm64v8/ubuntu:22.04
+>>>>>>> 9720c52429e1cbe38c5c008b992f65cee399b8dd:Dockerfile-arm64
 ENV DEBIAN_FRONTEND=noninteractive
-RUN apt-get update && apt-get install --no-install-recommends nano wget lua5.1 liblua5.1-0-dev libcurl3-gnutls s3cmd -y
+RUN apt-get update && apt-get install --no-install-recommends nano wget lua5.1 liblua5.1-0-dev libcurl3-gnutls s3cmd ca-certificates -y && update-ca-certificates
 
 COPY --from=buildstage /aq2server /aq2server
 # Copy and set entrypoint
@@ -98,7 +117,6 @@ ENV USE_VOICE 1
 ENV USE_GHOSTS 1
 ENV MASTER 'master.quadaver.org master.q2servers.com'
 ENV _ADMIN AQ2WORLD
-ENV STAT_APIKEY ''
 
 # Passwords
 ENV RCON_PASSWORD aq2world
@@ -120,6 +138,8 @@ ENV SHELLOFF 1
 ENV SV_GIB 1
 ENV BREAKABLEGLASS 0
 ENV GLASSFRAGMENTLIMIT 0
+ENV SV_MIN_RATE 5000
+ENV SV_MAX_RATE 50000
 
 # Voting
 ENV USE_CVOTE 1
@@ -250,7 +270,7 @@ ENV SV_CALCPINGS_METHOD 2
 ENV SV_WATERJUMP_HACK 1
 ENV SV_PACKETDUP_HACK 1
 ENV NET_MAXMSGLEN 0
-ENV LOGFILE_FLUSH 0
+ENV LOGFILE_FLUSH 2
 ENV LOGFILE 2
 ENV LOGFILE_NAME $PORT
 ENV LOGFILE_PREFIX "@ [%Y-%m-%d %H:%M] "

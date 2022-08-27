@@ -10,6 +10,9 @@ on:
 jobs:      
   docker_build:
     runs-on: [self-hosted, ARM64]
+    strategy:
+      matrix:
+        arch: ["arm64", "arm32"]
     steps:
       - name: 'Cleanup build folder'
         run: |
@@ -50,10 +53,5 @@ jobs:
 
       - name: Docker build and push
         run: |
-          docker build -f Dockerfile-ARM64 -t aqtiongame/server:${{ github.event.inputs.release_tag }}-arm64 .
-          docker push aqtiongame/server:${{ github.event.inputs.release_tag }}-arm64
-      
-      - name: Docker build and push
-        run: |
-          docker build -f Dockerfile-ARM32 -t aqtiongame/server:${{ github.event.inputs.release_tag }}-arm32 .
-          docker push aqtiongame/server:${{ github.event.inputs.release_tag }}-arm32
+          docker build -f Dockerfile-${{ matrix.arch }} -t aqtiongame/server:${{ github.event.inputs.release_tag }}-${{ matrix.arch }} .
+          docker push aqtiongame/server:${{ github.event.inputs.release_tag }}-${{ matrix.arch }}
