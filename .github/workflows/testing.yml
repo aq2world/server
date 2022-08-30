@@ -7,16 +7,16 @@ on:
         description: "Release version tag"
         required: true
       q2pro_branch:
-          description: 'q2pro branch to build from'     
-          required: true
-          default: 'aqtion'
+        description: 'q2pro branch to build from'     
+        required: true
+        default: 'aqtion'
       tng_branch:
-          description: 'TNG branch to build from'     
-          required: true
-          default: 'aqtion'
+        description: 'TNG branch to build from'     
+        required: true
+        default: 'aqtion'
       q2a_branch:
-          description: 'q2admin branch to build from'     
-          required: true
+        description: 'q2admin branch to build from'     
+        required: true
         default: 'aqtion'
 
 jobs:      
