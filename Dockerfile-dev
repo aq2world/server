@@ -1,46 +1,46 @@
-FROM ubuntu:22.04 AS buildstage
-
-# Cache hax, so we get a fresh build every time
-ADD "https://www.random.org/cgi-bin/randbyte?nbytes=10&format=h" skipcache
+FROM ubuntu:18.04 AS buildstage
 
 # Install dependencies
 RUN apt-get update
-RUN DEBIAN_FRONTEND=noninteractive apt-get -y install wget nano unzip
-
-# Copy stuff
-RUN mkdir /aq2server
-COPY aq2-tng /aq2-tng
-COPY q2admin.lua /aq2server/
-
-# Copy configs to aq2server
-RUN cp -r /aq2-tng/action /aq2server/
-
-# Download and extract latest Q2Pro build
-RUN wget -qnv https://github.com/actionquake/q2pro/releases/latest/download/q2pro-lin-gcc.zip
-RUN unzip q2pro-lin-gcc.zip
-RUN mv q2proded /aq2server/q2proded
-RUN chmod +x /aq2server/q2proded
-
-# Download and extract latest TNG build
-RUN wget -qnv https://github.com/actionquake/aq2-tng/releases/latest/download/tng-lin-x86_64.zip
-RUN unzip tng-lin-x86_64.zip
-RUN mv gamex86_64.so /aq2server/action/gamex86_64.real.so
-
-# Download and extract latest Q2Admin build
-RUN wget -qnv https://github.com/actionquake/q2admin/releases/latest/download/q2admin-lin-x86_64.zip
-RUN unzip q2admin-lin-x86_64.zip
-RUN mv plugins /aq2server
-RUN mv gamex86_64.so /aq2server/action/gamex86_64.so
-
-# Make libraries and scripts executable
-RUN chmod +x /aq2server/action/gamex* /aq2server/plugins/mvd_transfer.sh
+RUN DEBIAN_FRONTEND=noninteractive apt-get -y install wget build-essential libsdl2-dev libopenal-dev libpng-dev libjpeg-dev zlib1g-dev mesa-common-dev libcurl4-gnutls-dev git lua5.1 libsdl1.2-dev libsdl1.2debian liblua5.1-0-dev git gcc-7 uuid-dev nano meson
 
 # Cache hax
 ADD "https://www.random.org/cgi-bin/randbyte?nbytes=10&format=h" skipcache
 
-FROM ubuntu:22.04
+# Copy stuff
+RUN mkdir /aq2server
+COPY aq2-tng /aq2-tng
+COPY q2admin /q2admin
+COPY q2pro /q2pro
+COPY q2admin.lua /aq2server/
+COPY q2a_cw.lua /aq2server/
+
+# Compile stuff
+RUN cd /aq2-tng/source && USE_AQTION=TRUE make -j4
+RUN cd /q2admin && USE_AQTION=TRUE make -j4
+RUN cd /q2pro && meson setup --werror --fatal-meson-warnings -Danticheat-server=true -Dclient-gtv=true -Doss=auto -Dpacketdup-hack=true -Dtests=true -Dvariable-fps=true -Daqtion-build=true -Ddiscord-sdk=true builddir
+
+# Copy aq2-tng contents to aq2server
+RUN cp -r /aq2-tng/action /aq2server/action
+RUN cp /aq2-tng/source/gamex86_64.so /aq2server/action/gamex86_64.real.so
+
+# Copy configs to aq2server
+RUN cp -r /aq2-tng/action /aq2server/
+
+# Copy q2admin to aq2server
+RUN cp /q2admin/gamex86_64.so /aq2server/action/gamex86_64.so
+RUN mkdir /aq2server/plugins
+RUN cp /q2admin/plugins/* /aq2server/plugins/
+
+# Copy q2pro to aq2server
+RUN cp /q2pro/q2proded /aq2server/q2proded
+
+# Cache hax
+ADD "https://www.random.org/cgi-bin/randbyte?nbytes=10&format=h" skipcache
+
+FROM ubuntu:18.04
 ENV DEBIAN_FRONTEND=noninteractive
-RUN apt-get update && apt-get install --no-install-recommends nano wget lua5.1 liblua5.1-0-dev libcurl3-gnutls s3cmd ca-certificates -y && update-ca-certificates
+RUN apt-get update && apt-get install --no-install-recommends nano wget lua5.1 liblua5.1-0-dev libcurl3-gnutls s3cmd -y
 
 COPY --from=buildstage /aq2server /aq2server
 # Copy and set entrypoint
@@ -99,6 +99,8 @@ ENV USE_GHOSTS 1
 ENV MASTER 'master.quadaver.org master.q2servers.com master.aq2world.com'
 ENV _ADMIN AQ2WORLD
 ENV AWS_ACCESS_KEY NONE
+ENV STAT_APIKEY ""
+ENV Q2A_CONFIG q2admin.lua
 
 # Passwords
 ENV RCON_PASSWORD aq2world
@@ -120,8 +122,6 @@ ENV SHELLOFF 1
 ENV SV_GIB 1
 ENV BREAKABLEGLASS 0
 ENV GLASSFRAGMENTLIMIT 0
-ENV SV_MIN_RATE 5000
-ENV SV_MAX_RATE 50000
 
 # Voting
 ENV USE_CVOTE 1
@@ -255,7 +255,7 @@ ENV SV_CALCPINGS_METHOD 2
 ENV SV_WATERJUMP_HACK 1
 ENV SV_PACKETDUP_HACK 1
 ENV NET_MAXMSGLEN 0
-ENV LOGFILE_FLUSH 2
+ENV LOGFILE_FLUSH 0
 ENV LOGFILE 2
 ENV LOGFILE_NAME $PORT
 ENV LOGFILE_PREFIX "@ [%Y-%m-%d %H:%M] "
@@ -275,22 +275,3 @@ ENV SV_MVD_NOGUN 0
 # Antilag
 ENV SV_ANTILAG 1
 ENV SV_ANTILAG_INTERP 0
-
-# Espionage (non-TNG)
-ENV ETE_SCRIPTS 1
-ENV ETE_OGL 0
-ENV ETE_MATCHPLAY 0
-ENV ETE_MAXVOLUNTEERS 0
-ENV ETE_MUSTVOLUNTEER 0
-ENV ETE_ESCORE 1
-ENV ETE_ALLOWMPELP 1
-ENV ETE_ALLRADIO 1
-ENV ETE_USEDEFSCENARIO 1
-ENV ETE_DEFSCENARIONAME "Assassinate The Leader"
-ENV ETE_CARRIERRETURN 1
-ENV ETE_ENHANCEDSLIPPERS 1
-ENV ETE_ALLOWVOTEMAP 1
-ENV ETE_VOTEMAPPERCENT 50
-ENV ETE_ALLOWVOTE 1
-ENV ETE_VOTEWAIT 120
-ENV ETE_SVAUTHOR 0
