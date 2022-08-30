@@ -4,7 +4,7 @@ FROM ubuntu:22.04 AS buildstage
 RUN apt-get update
 RUN DEBIAN_FRONTEND=noninteractive apt-get -y install wget build-essential libsdl2-dev libopenal-dev libpng-dev \
     libjpeg-dev zlib1g-dev mesa-common-dev libcurl4-gnutls-dev git lua5.1 libsdl1.2-dev libsdl1.2debian liblua5.1-0-dev \
-    git gcc uuid-dev nano python3-pip \
+    git gcc uuid-dev nano tree python3-pip \
     && pip3 install --no-input meson ninja
 
 # Cache hax
@@ -39,6 +39,7 @@ RUN mkdir /aq2server/plugins
 RUN cp /q2admin/plugins/* /aq2server/plugins/
 
 # Copy q2pro to aq2server
+RUN tree /q2pro
 RUN cp /q2pro/builddir/q2proded /aq2server/q2proded
 
 # Cache hax
