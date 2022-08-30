@@ -1,9 +1,11 @@
-FROM ubuntu:18.04 AS buildstage
+FROM ubuntu:22.04 AS buildstage
 
 # Install dependencies
 RUN apt-get update
-RUN DEBIAN_FRONTEND=noninteractive apt-get -y install python-pip && pip install --global meson
-RUN DEBIAN_FRONTEND=noninteractive apt-get -y install wget build-essential libsdl2-dev libopenal-dev libpng-dev libjpeg-dev zlib1g-dev mesa-common-dev libcurl4-gnutls-dev git lua5.1 libsdl1.2-dev libsdl1.2debian liblua5.1-0-dev git gcc-7 uuid-dev nano
+RUN DEBIAN_FRONTEND=noninteractive apt-get -y install wget build-essential libsdl2-dev libopenal-dev libpng-dev \
+    libjpeg-dev zlib1g-dev mesa-common-dev libcurl4-gnutls-dev git lua5.1 libsdl1.2-dev libsdl1.2debian liblua5.1-0-dev \
+    git gcc uuid-dev nano python3-pip \
+    && pip install meson
 
 # Cache hax
 ADD "https://www.random.org/cgi-bin/randbyte?nbytes=10&format=h" skipcache
@@ -19,7 +21,10 @@ COPY q2a_cw.lua /aq2server/
 # Compile stuff
 RUN cd /aq2-tng/source && USE_AQTION=TRUE make -j4
 RUN cd /q2admin && USE_AQTION=TRUE make -j4
-RUN cd /q2pro && meson setup --werror --fatal-meson-warnings -Danticheat-server=true -Dclient-gtv=true -Doss=auto -Dpacketdup-hack=true -Dtests=true -Dvariable-fps=true -Daqtion-build=true -Ddiscord-sdk=true builddir
+RUN cd /q2pro \
+    && meson setup --werror --fatal-meson-warnings -Danticheat-server=true -Dclient-gtv=true \
+    -Doss=auto -Dpacketdup-hack=true -Dtests=true -Dvariable-fps=true -Daqtion-build=true -Ddiscord-sdk=true \
+    builddir
 
 # Copy aq2-tng contents to aq2server
 RUN cp -r /aq2-tng/action /aq2server/action
@@ -39,7 +44,7 @@ RUN cp /q2pro/q2proded /aq2server/q2proded
 # Cache hax
 ADD "https://www.random.org/cgi-bin/randbyte?nbytes=10&format=h" skipcache
 
-FROM ubuntu:18.04
+FROM ubuntu:22.04
 ENV DEBIAN_FRONTEND=noninteractive
 RUN apt-get update && apt-get install --no-install-recommends nano wget lua5.1 liblua5.1-0-dev libcurl3-gnutls s3cmd -y
 
