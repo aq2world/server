@@ -1,45 +1,47 @@
-FROM ubuntu:22.04 AS buildstage
-
-# Cache hax, so we get a fresh build every time
-ADD "https://www.random.org/cgi-bin/randbyte?nbytes=10&format=h" skipcache
+FROM arm32v7/ubuntu:22.04 AS buildstage
 
 # Install dependencies
 RUN apt-get update
 RUN DEBIAN_FRONTEND=noninteractive apt-get -y install wget nano unzip
 
+# Cache hax
+ADD "https://www.random.org/cgi-bin/randbyte?nbytes=10&format=h" skipcache
+
 # Copy stuff
 RUN mkdir /aq2server
 COPY aq2-tng /aq2-tng
 COPY q2admin.lua /aq2server/
-COPY q2a_cw.lua /aq2server/
 
 # Copy configs to aq2server
 RUN cp -r /aq2-tng/action /aq2server/
 
 # Download and extract latest Q2Pro build
-RUN wget -qnv https://github.com/actionquake/q2pro/releases/latest/download/q2pro-lin-gcc.zip
-RUN unzip q2pro-lin-gcc.zip
+RUN wget -qnv https://github.com/actionquake/q2pro/releases/latest/download/q2pro-lin-arm64.zip
+RUN unzip q2pro-lin-arm64.zip
 RUN mv q2proded /aq2server/q2proded
 RUN chmod +x /aq2server/q2proded
 
 # Download and extract latest TNG build
-RUN wget -qnv https://github.com/actionquake/aq2-tng/releases/latest/download/tng-lin-x86_64.zip
-RUN unzip tng-lin-x86_64.zip
-RUN mv gamex86_64.so /aq2server/action/gamex86_64.real.so
+RUN wget -qnv https://github.com/actionquake/aq2-tng/releases/latest/download/tng-lin-arm64.zip
+RUN unzip tng-lin-arm64.zip
+RUN mv gameaarch64.so /aq2server/action/gamearm64.real.so
 
 # Download and extract latest Q2Admin build
-RUN wget -qnv https://github.com/actionquake/q2admin/releases/latest/download/q2admin-lin-x86_64.zip
-RUN unzip q2admin-lin-x86_64.zip
+RUN wget -qnv https://github.com/actionquake/q2admin/releases/latest/download/q2admin-lin-arm64.zip
+RUN unzip q2admin-lin-arm64.zip
 RUN mv plugins /aq2server
-RUN mv gamex86_64.so /aq2server/action/gamex86_64.so
 
-# Make libraries and scripts executable
-RUN chmod +x /aq2server/action/gamex* /aq2server/plugins/mvd_transfer.sh
+# Make libraries executable
+RUN chmod +x /aq2server/action/gameaarch*
+RUN mv gameaarch64.so /aq2server/action/gamearm64.so
+
+# Make libraries executable
+RUN chmod +x /aq2server/action/gamearm64* /aq2server/plugins/mvd_transfer.sh
 
 # Cache hax
 ADD "https://www.random.org/cgi-bin/randbyte?nbytes=10&format=h" skipcache
 
-FROM ubuntu:22.04
+FROM arm32v7/ubuntu:22.04
 ENV DEBIAN_FRONTEND=noninteractive
 RUN apt-get update && apt-get install --no-install-recommends nano wget lua5.1 liblua5.1-0-dev libcurl3-gnutls s3cmd ca-certificates -y && update-ca-certificates
 
@@ -99,9 +101,6 @@ ENV USE_VOICE 1
 ENV USE_GHOSTS 1
 ENV MASTER 'master.quadaver.org master.q2servers.com master.aq2world.com'
 ENV _ADMIN AQ2WORLD
-ENV AWS_ACCESS_KEY NONE
-ENV STAT_APIKEY ""
-ENV Q2A_CONFIG q2admin.lua
 
 # Passwords
 ENV RCON_PASSWORD aq2world
@@ -146,7 +145,6 @@ ENV KICKVOTE_TEMPBAN 1
 ENV VK_PUBLIC 1
 ENV KV_PUBLIC 1
 ENV MAPVOTE_NEXT 0
-ENV MAPVOTE_NEXT_TIME 0
 ENV USE_SCRAMBLEVOTE 1
 ENV SCRAMBLEVOTE_PASS 75
 ENV SCRAMBLEVOTE_MIN 4
@@ -246,8 +244,6 @@ ENV DM_CHOOSE 1
 ENV DM_SHIELD 30
 ENV ITEMS 1
 ENV ALLOW_HOARDING 0
-ENV MEDKIT_TIME 0
-ENV MEDKIT_DROP 0
 
 # Q2proded
 ENV SV_RECYCLE 1

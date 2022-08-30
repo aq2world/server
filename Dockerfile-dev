@@ -1,8 +1,8 @@
 FROM ubuntu:18.04 AS buildstage
 
 # Install dependencies
-# If you start running into apt-get issues, clear the cache
-RUN apt-get update && DEBIAN_FRONTEND=noninteractive apt-get -y install wget build-essential libsdl2-dev libopenal-dev libpng-dev libjpeg-dev zlib1g-dev mesa-common-dev libcurl4-gnutls-dev git lua5.1 libsdl1.2-dev libsdl1.2debian liblua5.1-0-dev git gcc-7 uuid-dev nano
+RUN apt-get update
+RUN DEBIAN_FRONTEND=noninteractive apt-get -y install wget build-essential libsdl2-dev libopenal-dev libpng-dev libjpeg-dev zlib1g-dev mesa-common-dev libcurl4-gnutls-dev git lua5.1 libsdl1.2-dev libsdl1.2debian liblua5.1-0-dev git gcc-7 uuid-dev nano meson
 
 # Cache hax
 ADD "https://www.random.org/cgi-bin/randbyte?nbytes=10&format=h" skipcache
@@ -16,19 +16,19 @@ COPY q2admin.lua /aq2server/
 COPY q2a_cw.lua /aq2server/
 
 # Compile stuff
-RUN cd /aq2-tng/source && AQTION=TRUE make -j4
-RUN cd /q2admin && make -j4
-RUN cd /q2pro && wget https://raw.githubusercontent.com/actionquake/distrib/main/build/linux/config_linux64 && CONFIG_FILE=config_linux64 make -j4 q2proded
+RUN cd /aq2-tng/source && USE_AQTION=TRUE make -j4
+RUN cd /q2admin && USE_AQTION=TRUE make -j4
+RUN cd /q2pro && meson setup --werror --fatal-meson-warnings -Danticheat-server=true -Dclient-gtv=true -Doss=auto -Dpacketdup-hack=true -Dtests=true -Dvariable-fps=true -Daqtion-build=true -Ddiscord-sdk=true builddir
 
 # Copy aq2-tng contents to aq2server
 RUN cp -r /aq2-tng/action /aq2server/action
-RUN cp /aq2-tng/source/gameaarch64.so /aq2server/action/gameaarch64.real.so
+RUN cp /aq2-tng/source/gamex86_64.so /aq2server/action/gamex86_64.real.so
 
 # Copy configs to aq2server
 RUN cp -r /aq2-tng/action /aq2server/
 
 # Copy q2admin to aq2server
-RUN cp /q2admin/gameaarch64.so /aq2server/action/gameaarch64.so
+RUN cp /q2admin/gamex86_64.so /aq2server/action/gamex86_64.so
 RUN mkdir /aq2server/plugins
 RUN cp /q2admin/plugins/* /aq2server/plugins/
 
@@ -68,7 +68,7 @@ WORKDIR /aq2server
 COPY s3cfg /home/admin/.s3cfg
 
 # motd.txt
-ENV MOTD '==================================\n AQ2 server\n=================================='
+ENV MOTD '======= Welcome!  Play nice. ======='
 
 # teamplay.ini
 ENV TEAM_1_NAME 'Team 1'
@@ -96,8 +96,9 @@ ENV CHECK_TIME 5
 ENV RADIOLOG 0
 ENV USE_VOICE 1
 ENV USE_GHOSTS 1
-ENV MASTER 'master.quadaver.org master.q2servers.com'
+ENV MASTER 'master.quadaver.org master.q2servers.com master.aq2world.com'
 ENV _ADMIN AQ2WORLD
+ENV AWS_ACCESS_KEY NONE
 ENV STAT_APIKEY ''
 ENV Q2A_CONFIG q2admin.lua
 
@@ -121,6 +122,8 @@ ENV SHELLOFF 1
 ENV SV_GIB 1
 ENV BREAKABLEGLASS 0
 ENV GLASSFRAGMENTLIMIT 0
+ENV SV_MIN_RATE 5000
+ENV SV_MAX_RATE 50000
 
 # Voting
 ENV USE_CVOTE 1
@@ -142,6 +145,7 @@ ENV KICKVOTE_TEMPBAN 1
 ENV VK_PUBLIC 1
 ENV KV_PUBLIC 1
 ENV MAPVOTE_NEXT 0
+ENV MAPVOTE_NEXT_TIME 0
 ENV USE_SCRAMBLEVOTE 1
 ENV SCRAMBLEVOTE_PASS 75
 ENV SCRAMBLEVOTE_MIN 4
@@ -241,6 +245,8 @@ ENV DM_CHOOSE 1
 ENV DM_SHIELD 30
 ENV ITEMS 1
 ENV ALLOW_HOARDING 0
+ENV MEDKIT_TIME 0
+ENV MEDKIT_DROP 0
 
 # Q2proded
 ENV SV_RECYCLE 1
