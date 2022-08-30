@@ -11,6 +11,7 @@ RUN DEBIAN_FRONTEND=noninteractive apt-get -y install wget nano unzip
 RUN mkdir /aq2server
 COPY aq2-tng /aq2-tng
 COPY q2admin.lua /aq2server/
+COPY q2a_cw.lua /aq2server/
 
 # Copy configs to aq2server
 RUN cp -r /aq2-tng/action /aq2server/
@@ -99,6 +100,8 @@ ENV USE_GHOSTS 1
 ENV MASTER 'master.quadaver.org master.q2servers.com master.aq2world.com'
 ENV _ADMIN AQ2WORLD
 ENV AWS_ACCESS_KEY NONE
+ENV STAT_APIKEY ""
+ENV Q2A_CONFIG q2admin.lua
 
 # Passwords
 ENV RCON_PASSWORD aq2world
