@@ -4,7 +4,7 @@ FROM ubuntu:22.04 AS buildstage
 RUN apt-get update
 RUN DEBIAN_FRONTEND=noninteractive apt-get -y install wget build-essential libsdl2-dev libopenal-dev libpng-dev \
     libjpeg-dev zlib1g-dev mesa-common-dev libcurl4-gnutls-dev git lua5.1 libsdl1.2-dev libsdl1.2debian liblua5.1-0-dev \
-    git gcc uuid-dev nano python3-pip \
+    git gcc uuid-dev nano python3-pip ninja \
     && pip install meson
 
 # Cache hax
