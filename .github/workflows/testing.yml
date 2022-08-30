@@ -19,8 +19,9 @@ on:
         required: true
         default: 'aqtion'
 
-jobs:      
+jobs:
   docker_build:
+    name: "aqtiongame/test:${{ github.event.inputs.release_tag }} - ${{ github.event.inputs.q2pro_branch }} / ${{ github.event.inputs.tng_branch }} / ${{ github.event.inputs.q2a_branch }}"
     runs-on: ubuntu-latest
     steps:
       - name: 'Cleanup build folder'
