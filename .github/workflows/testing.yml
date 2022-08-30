@@ -63,5 +63,5 @@ jobs:
 
       - name: Docker build and push
         run: |
-          docker build -t aqtiongame/test:${{ github.event.inputs.release_tag }} .
+          docker build -t aqtiongame/test:${{ github.event.inputs.release_tag }} -f Dockerfile-dev .
           docker push aqtiongame/test:${{ github.event.inputs.release_tag }}
