@@ -24,7 +24,8 @@ RUN cd /q2admin && USE_AQTION=TRUE make -j4
 RUN cd /q2pro \
     && meson setup --werror --fatal-meson-warnings -Danticheat-server=true -Dclient-gtv=true \
     -Doss=auto -Dpacketdup-hack=true -Dtests=true -Dvariable-fps=true -Daqtion-build=true -Ddiscord-sdk=true \
-    builddir
+    builddir \
+    && ninja -vC builddir
 
 # Copy aq2-tng contents to aq2server
 RUN cp -r /aq2-tng/action /aq2server/action
