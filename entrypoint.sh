@@ -192,6 +192,7 @@ echo "set ltk_chat $LTK_CHAT" >> /aq2server/action/config.cfg
 echo "set auto_join $AUTO_JOIN" >> /aq2server/action/config.cfg
 echo "set auto_equip $AUTO_EQUIP" >> /aq2server/action/config.cfg
 
+
 # Limits
 echo "set fraglimit $FRAGLIMIT" >> /aq2server/action/config.cfg
 echo "set timelimit $TIMELIMIT" >> /aq2server/action/config.cfg
