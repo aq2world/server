@@ -68,7 +68,6 @@ echo "set warmup $WARMUP" >> /aq2server/action/config.cfg
 echo "set use_newscore $USE_NEWSCORE" >> /aq2server/action/config.cfg
 echo "set skipmotd $SKIPMOTD" >> /aq2server/action/config.cfg
 echo "set motd_time $MOTD_TIME" >> /aq2server/action/config.cfg
-echo "set ppl_idletime $PPL_IDLETIME" >> /aq2server/action/config.cfg
 echo "set radiolog $RADIOLOG" >> /aq2server/action/config.cfg
 echo "set use_voice $USE_VOICE" >> /aq2server/action/config.cfg
 echo "set use_ghosts $USE_GHOSTS" >> /aq2server/action/config.cfg
@@ -174,7 +173,10 @@ echo "set auto_menu $AUTO_MENU" >> /aq2server/action/config.cfg
 echo "set sv_allow_map $SV_ALLOW_MAP" >> /aq2server/action/config.cfg
 echo "set deadtalk $DEADTALK" >> /aq2server/action/config.cfg
 echo "set force_skin $FORCE_SKIN" >> /aq2server/action/config.cfg
+echo "set ppl_idletime $PPL_IDLETIME" >> /aq2server/action/config.cfg
+echo "set sv_idleremove $SV_IDLEREMOVE" >> /aq2server/action/config.cfg
 echo "set sv_idlekick $SV_IDLEKICK" >> /aq2server/action/config.cfg
+echo "set g_spawn_items $G_SPAWN_ITEMS" >> /aq2server/action/config.cfg
 
 # Game mode settings
 echo "set deathmatch $DEATHMATCH" >> /aq2server/action/config.cfg
@@ -191,6 +193,7 @@ echo "set ltk_skill $LTK_SKILL" >> /aq2server/action/config.cfg
 echo "set ltk_chat $LTK_CHAT" >> /aq2server/action/config.cfg
 echo "set auto_join $AUTO_JOIN" >> /aq2server/action/config.cfg
 echo "set auto_equip $AUTO_EQUIP" >> /aq2server/action/config.cfg
+
 
 # Limits
 echo "set fraglimit $FRAGLIMIT" >> /aq2server/action/config.cfg
