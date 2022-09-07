@@ -9,6 +9,7 @@ on:
 
 jobs:      
   docker_build:
+    name: "arm64-arm32:${{ github.event.inputs.release_tag }}"
     runs-on: [self-hosted, ARM64]
     strategy:
       matrix:

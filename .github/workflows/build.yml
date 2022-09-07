@@ -9,6 +9,7 @@ name: Docker Build
 
 jobs:
   docker_build:
+    name: "server:${{ github.event.inputs.release_tag }}"
     runs-on: ubuntu-latest
     steps:
       - name: 'Cleanup build folder'
