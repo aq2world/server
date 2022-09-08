@@ -10,7 +10,7 @@ plugins = {
       cvars = {
       -- server
       'password', 'maxclients', 'timelimit', 'dmflags', 'sv_gravity', 'sv_iplimit', 'fraglimit',
-      'sv_anticheat_required','sv_fps',
+      'sv_anticheat_required','sv_fps','e_enhancedSlippers',
 
       -- mod
       'teamplay', 'ctf', 'matchmode', 'roundtimelimit', 'tgren', 'limchasecam', 'forcedteamtalk',
