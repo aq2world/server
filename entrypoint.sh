@@ -311,11 +311,11 @@ sed -i "s-SERVERTARGETDIR-$SERVERTARGETDIR-g" /aq2server/plugins/mvd_transfer.sh
 # Start the server!
 ## Sets the server_id
 if [ ip2dec > 0 ]; then
-  SERVERID=$(ip2dec)${PORT}
+  SERVERID="S$(ip2dec)${PORT}"
 else
   echo "I could not find your public IP!"
   removewhitespace=$(echo ${HOSTNAME} | tr -d '[:space:]')
-  SERVERID=${removewhitespace}${PORT}
+  SERVERID="S${removewhitespace}${PORT}"
 fi
 echo "My server_id is ${SERVERID}"
 
