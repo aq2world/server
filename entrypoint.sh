@@ -25,6 +25,13 @@ do
     fi
 done
 
+# Get IP address and convert it into a decimal + port (server_id uniqueness)
+ip2dec () {
+    local a b c d ip=$(curl -q -s http://checkip.amazonaws.com/)
+    IFS=. read -r a b c d <<< "$ip"
+    printf '%d\n' "$((a * 256 ** 3 + b * 256 ** 2 + c * 256 + d))"
+}
+
 # motd.txt
 echo $MOTD > /aq2server/action/motd.txt
 
@@ -194,7 +201,6 @@ echo "set ltk_chat $LTK_CHAT" >> /aq2server/action/config.cfg
 echo "set auto_join $AUTO_JOIN" >> /aq2server/action/config.cfg
 echo "set auto_equip $AUTO_EQUIP" >> /aq2server/action/config.cfg
 
-
 # Limits
 echo "set fraglimit $FRAGLIMIT" >> /aq2server/action/config.cfg
 echo "set timelimit $TIMELIMIT" >> /aq2server/action/config.cfg
@@ -303,10 +309,20 @@ sed -i "s-SERVERTARGETDIR-$SERVERTARGETDIR-g" /aq2server/plugins/mvd_transfer.sh
 
 # Start the server!
 ## Sets the server_id
-if [ ! -z $AWS_ACCESS_KEY ]; then
-  SERVERID=${AWS_ACCESS_KEY}${PORT}
+if [ ip2dec > 0 ]; then
+  SERVERID=$(ip2dec)${PORT}
 else
-  SERVERID=NOID${PORT}
+  echo "I could not find your public IP!"
+  removewhitespace=$(echo ${HOSTNAME} | tr -d '[:space:]')
+  SERVERID=${removewhitespace}${PORT}
 fi
+echo "My server_id is ${SERVERID}"
+
+# TNG IRC Bot
+echo "set ircserver $IRC_SERVER" >> /aq2server/action/config.cfg
+echo "set ircchannel $IRC_CHANNEL" >> /aq2server/action/config.cfg
+echo "set ircuser $SERVERID" >> /aq2server/action/config.cfg
+echo "set ircbot $IRC_BOT" >> /aq2server/action/config.cfg
+
 
 /aq2server/q2proded +set game action +set net_port $PORT +exec config.cfg +set q2a_config $Q2A_CONFIG +seta server_id $SERVERID
