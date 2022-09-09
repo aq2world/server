@@ -41,7 +41,7 @@ ADD "https://www.random.org/cgi-bin/randbyte?nbytes=10&format=h" skipcache
 
 FROM arm32v7/ubuntu:22.04
 ENV DEBIAN_FRONTEND=noninteractive
-RUN apt-get update && apt-get install --no-install-recommends nano wget lua5.1 liblua5.1-0-dev libcurl3-gnutls s3cmd ca-certificates -y && update-ca-certificates
+RUN apt-get update && apt-get install --no-install-recommends nano wget curl lua5.1 liblua5.1-0-dev libcurl3-gnutls s3cmd ca-certificates -y && update-ca-certificates
 
 COPY --from=buildstage /aq2server /aq2server
 # Copy and set entrypoint
