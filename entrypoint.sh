@@ -246,7 +246,7 @@ echo "set logfile $LOGFILE" >> /aq2server/action/config.cfg
 echo "set logfile_name $LOGFILE_NAME" >> /aq2server/action/config.cfg
 echo "set logfile_prefix $LOGFILE_PREFIX" >> /aq2server/action/config.cfg
 echo "set stat_logs $STAT_LOGS" >> /aq2server/action/config.cfg
-echo "addstuffcmd begin \"say vers: $version gdrv: $gl_driver \""
+echo "addstuffcmd begin \"say vers: \$version gdrv: \$gl_driver \"" >> /aq2server/action/config.cfg
 
 # MVD
 echo "set sv_mvd_enable $SV_MVD_ENABLE" >> /aq2server/action/config.cfg
