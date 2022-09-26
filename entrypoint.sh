@@ -110,7 +110,7 @@ echo "set use_cvote $USE_CVOTE" >> /aq2server/action/config.cfg
 echo "set cvote_min $CVOTE_MIN" >> /aq2server/action/config.cfg
 echo "set cvote_need $CVOTE_NEED" >> /aq2server/action/config.cfg
 echo "set cvote_pass $CVOTE_PASS" >> /aq2server/action/config.cfg
-#echo "set configlistname $CONFIGLISTNAME" >> /aq2server/action/config.cfg
+echo "set configlistname $CONFIGLISTNAME" >> /aq2server/action/config.cfg
 echo "set use_mapvote $USE_MAPVOTE" >> /aq2server/action/config.cfg
 echo "set mapvote_min $MAPVOTE_MIN" >> /aq2server/action/config.cfg
 echo "set mapvote_need $MAPVOTE_NEED" >> /aq2server/action/config.cfg
