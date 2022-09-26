@@ -10,8 +10,7 @@ ADD "https://www.random.org/cgi-bin/randbyte?nbytes=10&format=h" skipcache
 # Copy stuff
 RUN mkdir /aq2server
 COPY aq2-tng /aq2-tng
-COPY q2admin.lua /aq2server/
-COPY q2a_cw.lua /aq2server/
+COPY q2admin.lua q2a_cw.lua q2a_cw_docker.lua /aq2server/
 
 # Copy configs to aq2server
 RUN cp -r /aq2-tng/action /aq2server/

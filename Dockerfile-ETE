@@ -12,8 +12,7 @@ RUN mkdir /aq2server
 COPY aq2-tng /aq2-tng
 COPY q2admin /q2admin
 COPY q2pro /q2pro
-COPY q2admin.lua /aq2server/
-COPY q2a_cw.lua /aq2server/
+COPY q2admin.lua q2a_cw.lua q2a_cw_docker.lua /aq2server/
 
 # Compile stuff
 RUN cd /q2admin && make
