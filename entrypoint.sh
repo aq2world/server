@@ -185,6 +185,7 @@ echo "set ppl_idletime $PPL_IDLETIME" >> /aq2server/action/config.cfg
 echo "set sv_idleremove $SV_IDLEREMOVE" >> /aq2server/action/config.cfg
 echo "set sv_idlekick $SV_IDLEKICK" >> /aq2server/action/config.cfg
 echo "set g_spawn_items $G_SPAWN_ITEMS" >> /aq2server/action/config.cfg
+echo "set mm_forceteamtalk $MM_FORCETEAMTALK" >> /aq2server/action/config.cfg
 
 # Game mode settings
 echo "set deathmatch $DEATHMATCH" >> /aq2server/action/config.cfg
