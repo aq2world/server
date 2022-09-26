@@ -14,7 +14,7 @@ COPY q2admin.lua q2a_cw.lua q2a_cw_docker.lua /aq2server/
 
 # Copy configs to aq2server
 RUN cp -r /aq2-tng/action /aq2server/
-COPY config/* /aq2server/action/
+COPY config/* /aq2server/action/config/
 
 # Download and extract latest Q2Pro build
 RUN wget -qnv https://github.com/actionquake/q2pro/releases/latest/download/q2pro-lin-gcc.zip
@@ -128,10 +128,10 @@ ENV SV_MAX_RATE 50000
 
 # Voting
 ENV USE_CVOTE 1
-ENV CVOTE_MIN 3
-ENV CVOTE_NEED 49
-ENV CVOTE_PASS 65
-ENV CONFIGLISTNAME configlist.ini
+ENV CVOTE_MIN 2
+ENV CVOTE_NEED 50
+ENV CVOTE_PASS 50
+ENV CONFIGLISTNAME config/configlist.ini
 ENV USE_MAPVOTE 1
 ENV MAPVOTE_MIN 2
 ENV MAPVOTE_NEED 66
