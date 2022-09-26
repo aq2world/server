@@ -198,6 +198,7 @@ echo "set use_tourney $USE_TOURNEY" >> /aq2server/action/config.cfg
 echo "set matchmode $MATCHMODE" >> /aq2server/action/config.cfg
 echo "set darkmatch $DARKMATCH" >> /aq2server/action/config.cfg
 echo "set ltk_loadbots $LTK_LOADBOTS" >> /aq2server/action/config.cfg
+echo "set ltk_botfile $LTK_BOTFILE" >> /aq2server/action/config.cfg
 echo "set ltk_skill $LTK_SKILL" >> /aq2server/action/config.cfg
 echo "set ltk_chat $LTK_CHAT" >> /aq2server/action/config.cfg
 echo "set auto_join $AUTO_JOIN" >> /aq2server/action/config.cfg
