@@ -20,6 +20,7 @@ RUN cd /q2pro && wget https://raw.githubusercontent.com/actionquake/distrib/main
 
 # Copy configs to aq2server
 RUN cp -r /aq2-tng/action /aq2server/
+COPY config/* /aq2server/action/
 
 # Copy ETE library
 COPY ete/action.scp ete/gamei386.so /aq2server/action/
