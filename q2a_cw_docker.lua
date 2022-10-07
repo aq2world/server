@@ -18,8 +18,8 @@ plugins = {
       'allitem', 'allweapon', 'use_3teams','sv_antilag',
       },
       modes = {
-      '2v2-ladder-cl','2v2-ladder-eu','2v2-ladder-na','2v2-ladder-oc',
-      'matchmode-cl','matchmode-eu','matchmode-na','matchmode-oc',
+      '2v2-ldr-cl','2v2-ldr-eu','2v2-ldr-na','2v2-ldr-oc',
+      'mm-cl','mm-eu','mm-na','mm-oc',
       }
     },
   mvd = {
