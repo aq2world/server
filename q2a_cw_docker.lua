@@ -16,6 +16,10 @@ plugins = {
       'teamplay', 'ctf', 'matchmode', 'roundtimelimit', 'tgren', 'limchasecam', 'forcedteamtalk',
       'mm_forceteamtalk', 'ir', 'wp_flags', 'itm_flags', 'hc_single', 'use_punch',  'darkmatch',
       'allitem', 'allweapon', 'use_3teams','sv_antilag',
+      },
+      modes = {
+      '2v2-ldr-cl','2v2-ldr-eu','2v2-ldr-na','2v2-ldr-oc',
+      'mm-cl','mm-eu','mm-na','mm-oc',
       }
     },
   mvd = {

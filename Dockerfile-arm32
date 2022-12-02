@@ -5,7 +5,7 @@ RUN apt-get update
 RUN DEBIAN_FRONTEND=noninteractive apt-get -y install wget nano unzip
 
 # Cache hax
-ADD "https://www.random.org/cgi-bin/randbyte?nbytes=10&format=h" skipcache
+#ADD "https://www.random.org/cgi-bin/randbyte?nbytes=10&format=h" skipcache
 
 # Copy stuff
 RUN mkdir /aq2server
@@ -38,7 +38,7 @@ RUN chmod +x /aq2server/action/gameaarch*
 RUN chmod +x /aq2server/action/game*.so /aq2server/plugins/mvd_transfer.sh
 
 # Cache hax
-ADD "https://www.random.org/cgi-bin/randbyte?nbytes=10&format=h" skipcache
+#ADD "https://www.random.org/cgi-bin/randbyte?nbytes=10&format=h" skipcache
 
 FROM arm32v7/ubuntu:22.04
 ENV DEBIAN_FRONTEND=noninteractive
