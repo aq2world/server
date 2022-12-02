@@ -60,8 +60,9 @@ echo "###" >> /aq2server/action/teamplay.ini
 
 # config.cfg
 # locked parameters
-echo "game action" > /aq2server/action/config.cfg
-echo "gamedir action" >> /aq2server/action/config.cfg
+## No longer needed after v42 (q2pro changes)
+#echo "game action" > /aq2server/action/config.cfg
+#echo "gamedir action" >> /aq2server/action/config.cfg
 
 # Server settings
 echo "set hostname \"${HOSTNAME}\"" >> /aq2server/action/config.cfg
