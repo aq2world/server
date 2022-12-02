@@ -149,12 +149,12 @@ echo "set twbanrounds $twbanrounds" >> /aq2server/action/config.cfg
 echo "set ff_afterround $FF_AFTERROUND" >> /aq2server/action/config.cfg
 
 # Download settings
+echo "set sv_downloadserver \"$SV_DOWNLOADSERVER\"" >> /aq2server/action/config.cfg
 echo "set allow_download $ALLOW_DOWNLOAD" >> /aq2server/action/config.cfg
 echo "set allow_download_skins $ALLOW_DOWNLOAD_SKINS" >> /aq2server/action/config.cfg
 echo "set allow_download_players $ALLOW_DOWNLOAD_PLAYERS" >> /aq2server/action/config.cfg
 echo "set allow_download_pics $ALLOW_DOWNLOAD_PICS" >> /aq2server/action/config.cfg
 echo "set allow_download_sounds $ALLOW_DOWNLOAD_SOUNDS" >> /aq2server/action/config.cfg
-echo "set sv_downloadserver \"$SV_DOWNLOADSERVER\"" >> /aq2server/action/config.cfg
 echo "set allow_download_others ${ALLOW_DOWNLOAD_OTHERS}" >> /aq2server/action/config.cfg
 echo "set allow_download_maps ${ALLOW_DOWNLOAD_MAPS}" >> /aq2server/action/config.cfg
 echo "set allow_download_demos ${ALLOW_DOWNLOAD_DEMOS}" >> /aq2server/action/config.cfg
@@ -198,12 +198,14 @@ echo "set use_3teams $USE_3TEAMS" >> /aq2server/action/config.cfg
 echo "set use_tourney $USE_TOURNEY" >> /aq2server/action/config.cfg
 echo "set matchmode $MATCHMODE" >> /aq2server/action/config.cfg
 echo "set darkmatch $DARKMATCH" >> /aq2server/action/config.cfg
+echo "set auto_join $AUTO_JOIN" >> /aq2server/action/config.cfg
+echo "set auto_equip $AUTO_EQUIP" >> /aq2server/action/config.cfg
+
+# LTK (bot) settings
 echo "set ltk_loadbots $LTK_LOADBOTS" >> /aq2server/action/config.cfg
 echo "set ltk_botfile $LTK_BOTFILE" >> /aq2server/action/config.cfg
 echo "set ltk_skill $LTK_SKILL" >> /aq2server/action/config.cfg
 echo "set ltk_chat $LTK_CHAT" >> /aq2server/action/config.cfg
-echo "set auto_join $AUTO_JOIN" >> /aq2server/action/config.cfg
-echo "set auto_equip $AUTO_EQUIP" >> /aq2server/action/config.cfg
 
 # Limits
 echo "set fraglimit $FRAGLIMIT" >> /aq2server/action/config.cfg
