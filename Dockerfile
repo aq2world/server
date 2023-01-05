@@ -24,7 +24,7 @@ RUN chmod +x /aq2server/q2proded
 
 # Download and extract latest TNG build
 RUN wget -qnv https://github.com/actionquake/aq2-tng/releases/latest/download/tng-lin-x86_64.zip
-RUN unzip tng-lin-x86_64.zip
+RUN unzip -o tng-lin-x86_64.zip
 RUN mv gamex86_64.so /aq2server/action/gamex86_64.real.so
 
 # Download and extract latest Q2Admin build
