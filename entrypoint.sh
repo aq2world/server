@@ -30,10 +30,10 @@ done
 mkdir -p /aq2server/action/players/{male,female,actionmale,aqmarine,messiah,sas,sydney,terror}
 cat /aq2server/action/skinlist.ini | while read skin
 do
-    if [ -f "/aq2server/action/players/male/${skin}.pcx" ]; then
+    if [ -f "/aq2server/action/players/male/${skin}" ]; then
         echo "Skin $skin exists."
     else 
-       wget "${baseUrl}/players/male/${skin}.pcx" -O "/aq2server/action/players/male/${skin}.pcx"
+       wget "${baseUrl}/players/male/${skin}" -O "/aq2server/action/players/male/${skin}"
     fi
 done
 
