@@ -48,9 +48,11 @@ COPY --from=buildstage /aq2server /aq2server
 COPY entrypoint.sh /aq2server
 ENTRYPOINT /aq2server/entrypoint.sh
 
-# Maps
+# Maps and skins
 COPY fullmaplist.ini /aq2server/action/
+COPY skinlist.ini /aq2server/action/
 RUN mkdir /aq2server/action/maps
+RUN mkdir /aq2server/action/players
 
 # Logs and Demos
 RUN mkdir /aq2server/action/logs
@@ -208,6 +210,7 @@ ENV SV_IDLEREMOVE 0
 ENV SV_IDLEKICK 0
 ENV G_SPAWN_ITEMS 0
 ENV MM_FORCETEAMTALK 0
+ENV TRUE_HITBOX 0
 
 # Game mode settings
 ENV DEATHMATCH 1

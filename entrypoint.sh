@@ -27,6 +27,7 @@ done
 
 ## Adapt this for other models skins once true_hitbox supports them
 
+mkdir -p /aq2server/action/players/{male,female,actionmale,aqmarine,messiah,sas,sydney,terror}
 cat /aq2server/action/skinlist.ini | while read skin
 do
     if [ -f "/aq2server/action/players/male/${skin}.pcx" ]; then

@@ -49,10 +49,11 @@ COPY --from=buildstage /aq2server /aq2server
 COPY entrypoint.sh /aq2server
 ENTRYPOINT /aq2server/entrypoint.sh
 
-# Maps
+# Maps and skins
 COPY fullmaplist.ini /aq2server/action/
+COPY skinlist.ini /aq2server/action/
 RUN mkdir /aq2server/action/maps
-
+RUN mkdir /aq2server/action/players
 # Logs and Demos
 RUN mkdir /aq2server/action/logs
 RUN mkdir /aq2server/action/demos
