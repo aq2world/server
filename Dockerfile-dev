@@ -59,7 +59,6 @@ ENTRYPOINT /aq2server/entrypoint.sh
 COPY fullmaplist.ini /aq2server/action/
 COPY skinlist.ini /aq2server/action/
 RUN mkdir /aq2server/action/maps
-RUN mkdir /aq2server/action/players
 
 # Logs and Demos
 RUN mkdir /aq2server/action/logs
