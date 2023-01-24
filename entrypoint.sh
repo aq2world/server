@@ -14,14 +14,25 @@ else
   done
 fi
 
-baseUrl="http://gameassets.aqtiongame.com/action/maps/"
+baseUrl="http://gameassets.aqtiongame.com/action"
 
 cat /aq2server/action/maplist.ini | while read map
 do
     if [ -f "/aq2server/action/maps/${map}.bsp" ]; then
         echo "Map $map exists."
     else 
-       wget "${baseUrl}${map}.bsp" -O "/aq2server/action/maps/${map}.bsp"
+       wget "${baseUrl}/maps/${map}.bsp" -O "/aq2server/action/maps/${map}.bsp"
+    fi
+done
+
+## Adapt this for other models skins once true_hitbox supports them
+
+cat /aq2server/action/skinlist.ini | while read skin
+do
+    if [ -f "/aq2server/action/players/male/${skin}.pcx" ]; then
+        echo "Skin $skin exists."
+    else 
+       wget "${baseUrl}/players/male/${skin}.pcx" -O "/aq2server/action/players/male/${skin}.pcx"
     fi
 done
 
@@ -187,6 +198,7 @@ echo "set sv_idleremove $SV_IDLEREMOVE" >> /aq2server/action/config.cfg
 echo "set sv_idlekick $SV_IDLEKICK" >> /aq2server/action/config.cfg
 echo "set g_spawn_items $G_SPAWN_ITEMS" >> /aq2server/action/config.cfg
 echo "set mm_forceteamtalk $MM_FORCETEAMTALK" >> /aq2server/action/config.cfg
+echo "set true_hitbox $TRUE_HITBOX" >> /aq2server/action/config.cfg
 
 # Game mode settings
 echo "set deathmatch $DEATHMATCH" >> /aq2server/action/config.cfg
