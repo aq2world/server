@@ -101,6 +101,7 @@ echo "set rcon_password $RCON_PASSWORD" >> /aq2server/action/config.cfg
 echo "set sv_password $SV_PASSWORD" >> /aq2server/action/config.cfg
 echo "set sv_mvd_password $SV_MVD_PASSWORD" >> /aq2server/action/config.cfg
 echo "set sv_reserved_password $SV_RESERVED_PASSWORD" >> /aq2server/action/config.cfg
+echo "set needpass $NEEDPASS" >> /aq2server/action/config.cfg
 
 # Map rotation
 echo "set actionmaps $ACTIONMAPS" >> /aq2server/action/config.cfg
@@ -110,8 +111,12 @@ echo "set vrot $VROT" >> /aq2server/action/config.cfg
 # Lag settings
 echo "set llsound $LLSOUND" >> /aq2server/action/config.cfg
 echo "set bholelimit $BHOLELIMIT" >> /aq2server/action/config.cfg
+echo "set bholelife $BHOLELIFE" >> /aq2server/action/config.cfg
 echo "set splatlimit $SPLATLIMIT" >> /aq2server/action/config.cfg
+echo "set splatlife $SPLATLIFE" >> /aq2server/action/config.cfg
 echo "set shelloff $SHELLOFF" >> /aq2server/action/config.cfg
+echo "set shelllimit $SHELLLIMIT" >> /aq2server/action/config.cfg
+echo "set shelllife $SHELLLIFE" >> /aq2server/action/config.cfg
 echo "set sv_gib $SV_GIB" >> /aq2server/action/config.cfg
 echo "set breakableglass $BREAKABLEGLASS" >> /aq2server/action/config.cfg
 echo "set glassfragmentlimit $GLASSFRAGMENTLIMIT" >> /aq2server/action/config.cfg
@@ -153,6 +158,7 @@ echo "set radio_ban $RADIO_BAN" >> /aq2server/action/config.cfg
 echo "set radio_time $RADIO_TIME" >> /aq2server/action/config.cfg
 echo "set radio_max $RADIO_MAX" >> /aq2server/action/config.cfg
 echo "set sv_crlf $SV_CRLF" >> /aq2server/action/config.cfg
+echo "set silenceban $SILENCEBAN" >> /aq2server/action/config.cfg
 
 # Teamkill parameters
 echo "set maxteamkills $MAXTEAMKILLS" >> /aq2server/action/config.cfg
@@ -199,19 +205,48 @@ echo "set sv_idleremove $SV_IDLEREMOVE" >> /aq2server/action/config.cfg
 echo "set sv_idlekick $SV_IDLEKICK" >> /aq2server/action/config.cfg
 echo "set g_spawn_items $G_SPAWN_ITEMS" >> /aq2server/action/config.cfg
 echo "set mm_forceteamtalk $MM_FORCETEAMTALK" >> /aq2server/action/config.cfg
+echo "set mm_adminpwd $MM_ADMINPWD" >> /aq2server/action/config.cfg
+echo "set mm_allowlock $MM_ALLOWLOCK" >> /aq2server/action/config.cfg
+echo "set mm_allowcount $MM_ALLOWCOUNT" >> /aq2server/action/config.cfg
+echo "set mm_pausetime $MM_PAUSETIME" >> /aq2server/action/config.cfg
+
 echo "set true_hitbox $TRUE_HITBOX" >> /aq2server/action/config.cfg
+echo "set hearall $HEARALL" >> /aq2server/action/config.cfg
+echo "set silentwalk $SILENTWALK" >> /aq2server/action/config.cfg
+
+# Misc
+echo "set use_buggy_bandolier $USE_BUGGY_BANDOLIER" >> /aq2server/action/config.cfg
+echo "set use_oldspawns $USE_OLDSPAWNS" >> /aq2server/action/config.cfg
+echo "set medkit_drop $MEDKIT_DROP" >> /aq2server/action/config.cfg
+echo "set medkit_time $MEDKIT_TIME" >> /aq2server/action/config.cfg
+echo "set medkit_instant $MEDKIT_INSTANT" >> /aq2server/action/config.cfg
+echo "set respawn_effect $RESPAWN_EFFECT" >> /aq2server/action/config.cfg
+echo "set item_respawnmode $ITEM_RESPAWNMODE" >> /aq2server/action/config.cfg
+echo "set item_respawn $ITEM_RESPAWN" >> /aq2server/action/config.cfg
+echo "set ammo_respawn $AMMO_RESPAWN" >> /aq2server/action/config.cfg
+echo "set weapon_respawn $WEAPON_RESPAWN" >> /aq2server/action/config.cfg
+echo "set wave_time $WAVE_TIME" >> /aq2server/action/config.cfg
+echo "set spectator_hud $SPECTATOR_HUD" >> /aq2server/action/config.cfg
 
 # Game mode settings
 echo "set deathmatch $DEATHMATCH" >> /aq2server/action/config.cfg
 echo "set teamplay $TEAMPLAY" >> /aq2server/action/config.cfg
 echo "set teamdm $TEAMDM" >> /aq2server/action/config.cfg
+echo "set teamdm_respawn $TEAMDM_RESPAWN" >> /aq2server/action/config.cfg
 echo "set ctf $CTF" >> /aq2server/action/config.cfg
 echo "set ctf_mode $CTF_MODE" >> /aq2server/action/config.cfg
+echo "set ctf_forcejoin $CTF_FORCEJOIN" >> /aq2server/action/config.cfg
+echo "set ctf_dropflag $CTF_DROPFLAG" >> /aq2server/action/config.cfg
+echo "set ctf_respawn $CTF_RESPAWN" >> /aq2server/action/config.cfg
+echo "set ctf_model $CTF_MODEL" >> /aq2server/action/config.cfg
+
 echo "set use_3teams $USE_3TEAMS" >> /aq2server/action/config.cfg
 echo "set use_tourney $USE_TOURNEY" >> /aq2server/action/config.cfg
+echo "set tourney_lca $TOURNEY_LCA" >> /aq2server/action/config.cfg
 echo "set matchmode $MATCHMODE" >> /aq2server/action/config.cfg
 echo "set darkmatch $DARKMATCH" >> /aq2server/action/config.cfg
 echo "set day_cycle $DAY_CYCLE" >> /aq2server/action/config.cfg
+echo "set auto_menu $AUTO_MENU" >> /aq2server/action/config.cfg
 echo "set auto_join $AUTO_JOIN" >> /aq2server/action/config.cfg
 echo "set auto_equip $AUTO_EQUIP" >> /aq2server/action/config.cfg
 
@@ -220,6 +255,8 @@ echo "set ltk_loadbots $LTK_LOADBOTS" >> /aq2server/action/config.cfg
 echo "set ltk_botfile $LTK_BOTFILE" >> /aq2server/action/config.cfg
 echo "set ltk_skill $LTK_SKILL" >> /aq2server/action/config.cfg
 echo "set ltk_chat $LTK_CHAT" >> /aq2server/action/config.cfg
+echo "set ltk_jumpy $LTK_JUMPY" >> /aq2server/action/config.cfg
+echo "set ltk_routing $LTK_ROUTING" >> /aq2server/action/config.cfg
 
 # Limits
 echo "set fraglimit $FRAGLIMIT" >> /aq2server/action/config.cfg
@@ -250,6 +287,8 @@ echo "set allow_hoarding $ALLOW_HOARDING" >> /aq2server/action/config.cfg
 echo "set medkit_drop $MEDKIT_DROP" >> /aq2server/action/config.cfg
 echo "set medkit_time $MEDKIT_TIME" >> /aq2server/action/config.cfg
 echo "set use_randoms $USE_RANDOMS" >> /aq2server/action/config.cfg
+echo "set unique_weapons $UNIQUE_WEAPONS" >> /aq2server/action/config.cfg
+echo "set unique_items $UNIQUE_ITEMS" >> /aq2server/action/config.cfg
 
 # Q2proded
 echo "set sv_recycle $SV_RECYCLE" >> /aq2server/action/config.cfg
