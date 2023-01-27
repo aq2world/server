@@ -211,6 +211,7 @@ echo "set use_3teams $USE_3TEAMS" >> /aq2server/action/config.cfg
 echo "set use_tourney $USE_TOURNEY" >> /aq2server/action/config.cfg
 echo "set matchmode $MATCHMODE" >> /aq2server/action/config.cfg
 echo "set darkmatch $DARKMATCH" >> /aq2server/action/config.cfg
+echo "set day_cycle $DAY_CYCLE" >> /aq2server/action/config.cfg
 echo "set auto_join $AUTO_JOIN" >> /aq2server/action/config.cfg
 echo "set auto_equip $AUTO_EQUIP" >> /aq2server/action/config.cfg
 
