@@ -275,7 +275,6 @@ echo "set allitem $ALLITEM" >> /aq2server/action/config.cfg
 echo "set items $ITEMS" >> /aq2server/action/config.cfg
 echo "set itm_flags $ITM_FLAGS" >> /aq2server/action/config.cfg
 echo "set ir $IR" >> /aq2server/action/config.cfg
-echo "set new_irvision $NEW_IRVISION" >> /aq2server/action/config.cfg
 echo "set tgren $TGREN" >> /aq2server/action/config.cfg
 echo "set dmweapon $DMWEAPON" >> /aq2server/action/config.cfg
 echo "set hc_single $HC_SINGLE" >> /aq2server/action/config.cfg
@@ -327,6 +326,8 @@ echo "set sv_antilag_interp $SV_ANTILAG_INTERP" >> /aq2server/action/config.cfg
 # Protocol 38
 echo "set use_indicators $USE_INDICATORS" >> /aq2server/action/config.cfg
 echo "set use_xerp $USE_XERP" >> /aq2server/action/config.cfg
+echo "set spectator_hud $SPECTATOR_HUD" >> /aq2server/action/config.cfg
+echo "set new_irvision $NEW_IRVISION" >> /aq2server/action/config.cfg
 
 # Set ini files
 echo "set ininame teamplay.ini" >> /aq2server/action/config.cfg
