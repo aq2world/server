@@ -324,6 +324,10 @@ echo "alias mvdrec \"say MVD recording started: ${com_date}_${com_time}_${mapnam
 echo "set sv_antilag $SV_ANTILAG" >> /aq2server/action/config.cfg
 echo "set sv_antilag_interp $SV_ANTILAG_INTERP" >> /aq2server/action/config.cfg
 
+# Protocol 38
+echo "set use_indicators $USE_INDICATORS" >> /aq2server/action/config.cfg
+echo "set use_xerp $USE_XERP" >> /aq2server/action/config.cfg
+
 # Set ini files
 echo "set ininame teamplay.ini" >> /aq2server/action/config.cfg
 echo "set maplistname maplist.ini" >> /aq2server/action/config.cfg
