@@ -107,6 +107,8 @@ echo "set needpass $NEEDPASS" >> /aq2server/action/config.cfg
 echo "set actionmaps $ACTIONMAPS" >> /aq2server/action/config.cfg
 echo "set rrot $RROT" >> /aq2server/action/config.cfg
 echo "set vrot $VROT" >> /aq2server/action/config.cfg
+echo "set empty_rotate $EMPTY_ROTATE" >> /aq2server/action/config.cfg
+echo "set empty_exec $EMPTY_EXEC" >> /aq2server/action/config.cfg
 
 # Lag settings
 echo "set llsound $LLSOUND" >> /aq2server/action/config.cfg
