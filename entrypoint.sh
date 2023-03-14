@@ -95,6 +95,7 @@ echo "setmaster $MASTER" >> /aq2server/action/config.cfg
 echo "sets _admin $_ADMIN" >> /aq2server/action/config.cfg
 echo "set q2a_config $Q2A_CONFIG" >> /aq2server/action/config.cfg
 echo "set scoreboard $SCOREBOARD" >> /aq2server/action/config.cfg
+echo "set map_override_path $MAP_OVERRIDE" >> /aq2server/action/config.cfg
 
 # Passwords
 echo "set rcon_password $RCON_PASSWORD" >> /aq2server/action/config.cfg
