@@ -74,7 +74,7 @@ ENV MOTD '======= Welcome!  Play nice. ======='
 
 # teamplay.ini
 ENV TEAM_1_NAME 'Team 1'
-ENV TEAM_1_SKIN 'male/ctf_r'
+ENV TEAM_1_SKIN 'male/_r'
 ENV TEAM_2_NAME 'Team 2'
 ENV TEAM_2_SKIN 'male/ctf_b'
 ENV TEAM_3_NAME 'Team 3'
@@ -268,6 +268,7 @@ ENV CTF_FORCEJOIN ""
 ENV CTF_DROPFLAG 1
 ENV CTF_RESPAWN 4
 ENV CTF_MODEL "sas"
+ENV CAPTURELIMIT 0
 
 # LTK Bots
 ENV LTK_LOADBOTS 0
