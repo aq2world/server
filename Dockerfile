@@ -74,7 +74,7 @@ ENV MOTD '======= Welcome!  Play nice. ======='
 
 # teamplay.ini
 ENV TEAM_1_NAME 'Team 1'
-ENV TEAM_1_SKIN 'male/_r'
+ENV TEAM_1_SKIN 'male/ctf_r'
 ENV TEAM_2_NAME 'Team 2'
 ENV TEAM_2_SKIN 'male/ctf_b'
 ENV TEAM_3_NAME 'Team 3'
