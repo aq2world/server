@@ -261,7 +261,7 @@ echo "set ltk_skill $LTK_SKILL" >> /aq2server/action/config.cfg
 echo "set ltk_chat $LTK_CHAT" >> /aq2server/action/config.cfg
 echo "set ltk_jumpy $LTK_JUMPY" >> /aq2server/action/config.cfg
 echo "set ltk_routing $LTK_ROUTING" >> /aq2server/action/config.cfg
-echo "set ltk_classic $LTK_BOTFILE" >> /aq2server/action/config.cfg
+echo "set ltk_classic $LTK_CLASSIC" >> /aq2server/action/config.cfg
 echo "set attract_mode $ATTRACT_MODE" >> /aq2server/action/config.cfg
 echo "set attract_mode_botcount $ATTRACT_MODE_BOTCOUNT" >> /aq2server/action/config.cfg
 echo "set attract_mode_team $ATTRACT_MODE_TEAM" >> /aq2server/action/config.cfg
