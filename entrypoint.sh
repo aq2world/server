@@ -44,10 +44,15 @@ ip2dec () {
     printf '%d\n' "$((a * 256 ** 3 + b * 256 ** 2 + c * 256 + d))"
 }
 
-# Source all of the env vars
-source /aq2server/all_env_vars.env
+# Copy existing env to preserve environment
+env >> /aq2server/custom.env
 
-# Proceed with replacing all vars
+# Source all of the baseline env vars, then override and remove
+source /aq2server/all_env_vars.env
+source /aq2server/custom.env
+rm -rf /aq2server/custom.env
+
+# Proceed with setting all vars
 
 # motd.txt
 echo $MOTD > /aq2server/action/motd.txt
