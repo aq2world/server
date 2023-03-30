@@ -240,6 +240,8 @@ echo "set ammo_respawn $AMMO_RESPAWN" >> /aq2server/action/config.cfg
 echo "set weapon_respawn $WEAPON_RESPAWN" >> /aq2server/action/config.cfg
 echo "set wave_time $WAVE_TIME" >> /aq2server/action/config.cfg
 echo "set spectator_hud $SPECTATOR_HUD" >> /aq2server/action/config.cfg
+echo "set zoom_comp $ZOOM_COMP" >> /aq2server/action/config.cfg
+
 
 # Game mode settings
 echo "set deathmatch $DEATHMATCH" >> /aq2server/action/config.cfg
@@ -271,6 +273,10 @@ echo "set ltk_skill $LTK_SKILL" >> /aq2server/action/config.cfg
 echo "set ltk_chat $LTK_CHAT" >> /aq2server/action/config.cfg
 echo "set ltk_jumpy $LTK_JUMPY" >> /aq2server/action/config.cfg
 echo "set ltk_routing $LTK_ROUTING" >> /aq2server/action/config.cfg
+echo "set am $AM" >> /aq2server/action/config.cfg
+echo "set am_botcount $AM_BOTCOUNT" >> /aq2server/action/config.cfg
+echo "set am_team $AM_TEAM" >> /aq2server/action/config.cfg
+echo "set am_newnames $AM_NEWNAMES" >> /aq2server/action/config.cfg
 
 # Limits
 echo "set fraglimit $FRAGLIMIT" >> /aq2server/action/config.cfg
