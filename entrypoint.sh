@@ -85,6 +85,7 @@ echo "set maxclients $MAXCLIENTS" >> /aq2server/action/config.cfg
 echo "set sv_reserved_slots $SV_RESERVED_SLOTS" >> /aq2server/action/config.cfg
 echo "set sv_fps $SV_FPS" >> /aq2server/action/config.cfg
 echo "set warmup $WARMUP" >> /aq2server/action/config.cfg
+echo "set warmup_bots $WARMUP_BOTS" >> /aq2server/action/config.cfg
 echo "set use_newscore $USE_NEWSCORE" >> /aq2server/action/config.cfg
 echo "set skipmotd $SKIPMOTD" >> /aq2server/action/config.cfg
 echo "set motd_time $MOTD_TIME" >> /aq2server/action/config.cfg
