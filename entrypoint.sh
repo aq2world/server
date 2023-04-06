@@ -263,10 +263,10 @@ echo "set ltk_chat $LTK_CHAT" >> /aq2server/action/config.cfg
 echo "set ltk_jumpy $LTK_JUMPY" >> /aq2server/action/config.cfg
 echo "set ltk_routing $LTK_ROUTING" >> /aq2server/action/config.cfg
 echo "set ltk_classic $LTK_CLASSIC" >> /aq2server/action/config.cfg
-echo "set attract_mode $ATTRACT_MODE" >> /aq2server/action/config.cfg
-echo "set attract_mode_botcount $ATTRACT_MODE_BOTCOUNT" >> /aq2server/action/config.cfg
-echo "set attract_mode_team $ATTRACT_MODE_TEAM" >> /aq2server/action/config.cfg
-echo "set attract_mode_newnames $ATTRACT_MODE_NEWNAMES" >> /aq2server/action/config.cfg
+echo "set am $AM" >> /aq2server/action/config.cfg
+echo "set am_botcount $AM_BOTCOUNT" >> /aq2server/action/config.cfg
+echo "set am_team $AM_TEAM" >> /aq2server/action/config.cfg
+echo "set am_newnames $AM_NEWNAMES" >> /aq2server/action/config.cfg
 
 # Limits
 echo "set fraglimit $FRAGLIMIT" >> /aq2server/action/config.cfg
