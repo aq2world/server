@@ -1,7 +1,7 @@
 FROM ubuntu:22.04 AS buildstage
 
 # Cache hax, so we get a fresh build every time
-##ADD "https://www.random.org/cgi-bin/randbyte?nbytes=10&format=h" skipcache
+ADD "https://www.random.org/cgi-bin/randbyte?nbytes=10&format=h" skipcache
 
 # Install dependencies
 RUN apt-get update
