@@ -1,7 +1,7 @@
 FROM ubuntu:22.04 AS buildstage
 
 # Cache hax, so we get a fresh build every time
-##ADD "https://www.random.org/cgi-bin/randbyte?nbytes=10&format=h" skipcache
+ADD "https://www.random.org/cgi-bin/randbyte?nbytes=10&format=h" skipcache
 
 # Install dependencies
 RUN apt-get update
@@ -91,6 +91,7 @@ ENV MAXCLIENTS 18
 ENV SV_RESERVED_SLOTS 2
 ENV SV_FPS 10
 ENV WARMUP 20
+ENV WARMUP_BOTS 0
 ENV USE_NEWSCORE 3
 ENV SKIPMOTD 0
 ENV MOTD_TIME 5
@@ -122,7 +123,7 @@ ENV EMPTY_ROTATE 0
 ENV EMPTY_EXEC ''
 
 # Lag settings
-ENV LLSOUND 0
+ENV llsound 1
 ENV BHOLELIMIT 0
 ENV BHOLELIFE 20
 ENV SPLATLIMIT 0
@@ -236,6 +237,8 @@ ENV AMMO_RESPAWN 30
 ENV WEAPON_RESPAWN 74
 ENV WAVE_TIME 5
 ENV SPECTATOR_HUD 0
+ENV ITEM_KIT_MODE 0
+ENV ZOOM_COMP 0
 
 ## Game mode settings
 ENV DEATHMATCH 1
@@ -371,4 +374,4 @@ ENV NEW_IRVISION 1
 # TNG IRC Bot
 ENV IRC_SERVER "irc.aq2world.com"
 ENV IRC_CHANNEL "#servermsg"
-ENV IRC_BOT 1
+ENV IRC_BOT 0
