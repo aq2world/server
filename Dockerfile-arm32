@@ -99,7 +99,7 @@ ENV CHECK_TIME 5
 ENV RADIOLOG 0
 ENV USE_VOICE 1
 ENV USE_GHOSTS 1
-ENV MASTER 'master.quadaver.org master.q2servers.com master.aq2world.com'
+ENV MASTER  "master.quadaver.org master.q2servers.com master.aq2world.com netdome.biz master.quakeservers.net"
 ENV _ADMIN AQ2WORLD
 ENV AWS_ACCESS_KEY NONE
 ENV STAT_APIKEY ""
