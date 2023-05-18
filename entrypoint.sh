@@ -213,8 +213,8 @@ echo "set mm_adminpwd $MM_ADMINPWD" >> /aq2server/action/config.cfg
 echo "set mm_allowlock $MM_ALLOWLOCK" >> /aq2server/action/config.cfg
 echo "set mm_allowcount $MM_ALLOWCOUNT" >> /aq2server/action/config.cfg
 echo "set mm_pausetime $MM_PAUSETIME" >> /aq2server/action/config.cfg
-
 echo "set true_hitbox $TRUE_HITBOX" >> /aq2server/action/config.cfg
+echo "set use_killcounts $USE_KILLCOUNTS" >> /aq2server/action/config.cfg
 echo "set hearall $HEARALL" >> /aq2server/action/config.cfg
 echo "set silentwalk $SILENTWALK" >> /aq2server/action/config.cfg
 
