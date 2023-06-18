@@ -52,4 +52,5 @@ jobs:
       - name: Docker build and push
         run: |
           docker build -t aqtiongame/server:${{ github.event.inputs.release_tag }} .
+          docker tag aqtiongame/server:${{ github.event.inputs.release_tag }} aqtiongame/server:latest
           docker push aqtiongame/server:${{ github.event.inputs.release_tag }}
