@@ -57,3 +57,4 @@ jobs:
           docker build -f Dockerfile-${{ matrix.arch }} -t aqtiongame/server:${{ github.event.inputs.release_tag }}-${{ matrix.arch }} .
           docker tag aqtiongame/server:${{ github.event.inputs.release_tag }}-${{ matrix.arch }} aqtiongame/server:latest-${{ matrix.arch }}
           docker push aqtiongame/server:${{ github.event.inputs.release_tag }}-${{ matrix.arch }}
+          docker push aqtiongame/server:latest-${{ matrix.arch }}
