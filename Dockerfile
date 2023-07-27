@@ -377,3 +377,6 @@ ENV NEW_IRVISION 1
 ENV IRC_SERVER "irc.aq2world.com"
 ENV IRC_CHANNEL "#servermsg"
 ENV IRC_BOT 0
+
+# Stuffcmd
+ENV ADDSTUFFCMD_BEGIN="say vers: \$version"
