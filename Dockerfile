@@ -379,4 +379,4 @@ ENV IRC_CHANNEL "#servermsg"
 ENV IRC_BOT 0
 
 # Stuffcmd
-ENV ADDSTUFFCMD_BEGIN="say vers: $$$version gdrv: $$$gl_driver="
+ENV ADDSTUFFCMD_BEGIN="say vers: \$version gdrv: \$gl_driver="
