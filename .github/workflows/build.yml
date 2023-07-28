@@ -5,7 +5,7 @@ on:
         description: "Release version tag"
         required: true
 
-name: Docker Build
+name: server:${{ github.event.inputs.release_tag }
 
 jobs:
   docker_build:
