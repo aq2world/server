@@ -6,7 +6,7 @@ on:
         required: true
 
 name: Docker Build
-run-name: server:${{ github.event.inputs.release_tag }
+run-name: server:${{ github.event.inputs.release_tag }}
 
 jobs:
   docker_build:
