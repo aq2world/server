@@ -259,6 +259,8 @@ echo "set auto_menu $AUTO_MENU" >> /aq2server/action/config.cfg
 echo "set auto_join $AUTO_JOIN" >> /aq2server/action/config.cfg
 echo "set auto_equip $AUTO_EQUIP" >> /aq2server/action/config.cfg
 
+echo "set jump $JUMP" >> /aq2server/action/config.cfg
+
 # LTK (bot) settings
 echo "set ltk_loadbots $LTK_LOADBOTS" >> /aq2server/action/config.cfg
 echo "set ltk_botfile $LTK_BOTFILE" >> /aq2server/action/config.cfg
