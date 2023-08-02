@@ -168,7 +168,7 @@ echo "set silenceban $SILENCEBAN" >> /aq2server/action/config.cfg
 # Teamkill parameters
 echo "set maxteamkills $MAXTEAMKILLS" >> /aq2server/action/config.cfg
 echo "set tkbanrounds $TKBANROUNDS" >> /aq2server/action/config.cfg
-echo "set twbanrounds $twbanrounds" >> /aq2server/action/config.cfg
+echo "set twbanrounds $TWBANROUNDS" >> /aq2server/action/config.cfg
 echo "set ff_afterround $FF_AFTERROUND" >> /aq2server/action/config.cfg
 
 # Download settings
