@@ -167,7 +167,7 @@ echo "set silenceban $SILENCEBAN" >> /aq2server/action/config.cfg
 # Teamkill parameters
 echo "set maxteamkills $MAXTEAMKILLS" >> /aq2server/action/config.cfg
 echo "set tkbanrounds $TKBANROUNDS" >> /aq2server/action/config.cfg
-echo "set twbanrounds $twbanrounds" >> /aq2server/action/config.cfg
+echo "set twbanrounds $TWBANROUNDS" >> /aq2server/action/config.cfg
 echo "set ff_afterround $FF_AFTERROUND" >> /aq2server/action/config.cfg
 
 # Download settings
@@ -303,7 +303,6 @@ echo "set unique_weapons $UNIQUE_WEAPONS" >> /aq2server/action/config.cfg
 echo "set unique_items $UNIQUE_ITEMS" >> /aq2server/action/config.cfg
 
 # Q2proded
-echo "set sv_recycle $SV_RECYCLE" >> /aq2server/action/config.cfg
 echo "set loud_guns $LOUD_GUNS" >> /aq2server/action/config.cfg
 echo "set sync_guns $SYNC_GUNS" >> /aq2server/action/config.cfg
 echo "set sv_uptime $SV_UPTIME" >> /aq2server/action/config.cfg
