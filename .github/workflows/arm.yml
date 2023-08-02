@@ -1,4 +1,5 @@
 name: ARMv7/v8
+run-name: server:${{ github.event.inputs.release_tag }}-arm64 and arm32
 
 on:
   workflow_dispatch:
@@ -9,11 +10,11 @@ on:
 
 jobs:      
   docker_build:
-    name: "arm64-arm32:${{ github.event.inputs.release_tag }}"
     runs-on: [self-hosted, ARM64]
     strategy:
       matrix:
         arch: ["arm64", "arm32"]
+    name: "${{ matrix.arch }}:${{ github.event.inputs.release_tag }}"
     steps:
       - name: 'Cleanup build folder'
         run: |
@@ -55,4 +56,6 @@ jobs:
       - name: Docker build and push
         run: |
           docker build -f Dockerfile-${{ matrix.arch }} -t aqtiongame/server:${{ github.event.inputs.release_tag }}-${{ matrix.arch }} .
+          docker tag aqtiongame/server:${{ github.event.inputs.release_tag }}-${{ matrix.arch }} aqtiongame/server:latest-${{ matrix.arch }}
           docker push aqtiongame/server:${{ github.event.inputs.release_tag }}-${{ matrix.arch }}
+          docker push aqtiongame/server:latest-${{ matrix.arch }}

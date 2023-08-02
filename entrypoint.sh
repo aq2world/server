@@ -97,6 +97,7 @@ echo "sets _admin $_ADMIN" >> /aq2server/action/config.cfg
 echo "set q2a_config $Q2A_CONFIG" >> /aq2server/action/config.cfg
 echo "set scoreboard $SCOREBOARD" >> /aq2server/action/config.cfg
 echo "set map_override_path $MAP_OVERRIDE" >> /aq2server/action/config.cfg
+echo "set sv_changemapcmd $SV_CHANGEMAPCMD" >> /aq2server/action/config.cfg
 
 # Passwords
 echo "set rcon_password $RCON_PASSWORD" >> /aq2server/action/config.cfg
@@ -258,6 +259,8 @@ echo "set auto_menu $AUTO_MENU" >> /aq2server/action/config.cfg
 echo "set auto_join $AUTO_JOIN" >> /aq2server/action/config.cfg
 echo "set auto_equip $AUTO_EQUIP" >> /aq2server/action/config.cfg
 
+echo "set jump $JUMP" >> /aq2server/action/config.cfg
+
 # LTK (bot) settings
 echo "set ltk_loadbots $LTK_LOADBOTS" >> /aq2server/action/config.cfg
 echo "set ltk_botfile $LTK_BOTFILE" >> /aq2server/action/config.cfg
@@ -294,6 +297,7 @@ echo "set hc_single $HC_SINGLE" >> /aq2server/action/config.cfg
 echo "set use_classic $USE_CLASSIC" >> /aq2server/action/config.cfg
 echo "set dm_choose $DM_CHOOSE" >> /aq2server/action/config.cfg
 echo "set dm_shield $DM_SHIELD" >> /aq2server/action/config.cfg
+echo "set uvtime $UVTIME" >> /aq2server/action/config.cfg
 echo "set items $ITEMS" >> /aq2server/action/config.cfg
 echo "set allow_hoarding $ALLOW_HOARDING" >> /aq2server/action/config.cfg
 echo "set medkit_drop $MEDKIT_DROP" >> /aq2server/action/config.cfg
@@ -315,7 +319,7 @@ echo "set logfile $LOGFILE" >> /aq2server/action/config.cfg
 echo "set logfile_name $LOGFILE_NAME" >> /aq2server/action/config.cfg
 echo "set logfile_prefix $LOGFILE_PREFIX" >> /aq2server/action/config.cfg
 echo "set stat_logs $STAT_LOGS" >> /aq2server/action/config.cfg
-echo "addstuffcmd begin \"say vers: \$version gdrv: \$gl_driver \"" >> /aq2server/action/config.cfg
+echo "addstuffcmd begin \"$ADDSTUFFCMD_BEGIN\"" >> /aq2server/action/config.cfg
 
 # MVD
 echo "set sv_mvd_enable $SV_MVD_ENABLE" >> /aq2server/action/config.cfg
