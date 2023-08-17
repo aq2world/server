@@ -234,7 +234,7 @@ echo "set wave_time $WAVE_TIME" >> /aq2server/action/config.cfg
 echo "set spectator_hud $SPECTATOR_HUD" >> /aq2server/action/config.cfg
 echo "set zoom_comp $ZOOM_COMP" >> /aq2server/action/config.cfg
 echo "set item_kit_mode $ITEM_KIT_MODE" >> /aq2server/action/config.cfg
-
+echo "set sv_redirect_server \"$SV_REDIRECT_SERVER\"" >> /aq2server/action/config.cfg
 
 # Game mode settings
 echo "set deathmatch $DEATHMATCH" >> /aq2server/action/config.cfg
