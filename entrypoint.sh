@@ -5,7 +5,10 @@ echo SERVER STARTING!
 # DL MAPS
 
 if [ $FULLMAPS == "TRUE" ]; then
-cp /aq2server/action/fullmaplist.ini /aq2server/action/maplist.ini
+# Old method
+#cp /aq2server/action/fullmaplist.ini /aq2server/action/maplist.ini
+# New method downloads from https://github.com/actionquake/distrib/blob/main/server/fullmaplist.ini
+wget "https://raw.githubusercontent.com/actionquake/distrib/main/server/fullmaplist.ini" -O "/aq2server/action/maplist.ini"
 else
   IFS=',' read -r -a rotation <<< "$ROTATION"
   for map in "${rotation[@]}"
