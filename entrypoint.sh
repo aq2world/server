@@ -204,7 +204,6 @@ echo "set use_warnings $USE_WARNINGS" >> /aq2server/action/config.cfg
 echo "set use_rewards $USE_REWARDS" >> /aq2server/action/config.cfg
 echo "set use_balancer $USE_BALANCER" >> /aq2server/action/config.cfg
 echo "set use_oldspawns $USE_OLDSPAWNS" >> /aq2server/action/config.cfg
-echo "set auto_menu $AUTO_MENU" >> /aq2server/action/config.cfg
 echo "set sv_allow_map $SV_ALLOW_MAP" >> /aq2server/action/config.cfg
 echo "set deadtalk $DEADTALK" >> /aq2server/action/config.cfg
 echo "set force_skin $FORCE_SKIN" >> /aq2server/action/config.cfg
