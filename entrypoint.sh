@@ -80,7 +80,7 @@ echo "###" >> /aq2server/action/teamplay.ini
 #echo "gamedir action" >> /aq2server/action/config.cfg
 
 # Server settings
-echo "set hostname \"${HOSTNAME}\"" >> /aq2server/action/config.cfg
+echo "set hostname \"${HOSTNAME}\"" > /aq2server/action/config.cfg
 echo "set net_port $PORT" >> /aq2server/action/config.cfg
 echo "set dedicated $DEDICATED" >> /aq2server/action/config.cfg
 echo "set public $PUBLIC" >> /aq2server/action/config.cfg
