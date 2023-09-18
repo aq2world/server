@@ -10,12 +10,12 @@ plugins = {
       cvars = {
       -- server
       'password', 'maxclients', 'timelimit', 'dmflags', 'sv_gravity', 'sv_iplimit', 'fraglimit',
-      'sv_anticheat_required','sv_fps','e_enhancedSlippers',
+      'sv_anticheat_required','sv_fps','e_enhancedSlippers','sv_antilag','use_xerp',
 
       -- mod
       'teamplay', 'ctf', 'matchmode', 'roundtimelimit', 'tgren', 'limchasecam', 'forcedteamtalk',
       'mm_forceteamtalk', 'ir', 'wp_flags', 'itm_flags', 'hc_single', 'use_punch',  'darkmatch',
-      'allitem', 'allweapon', 'use_3teams','sv_antilag',
+      'allitem', 'allweapon', 'use_3teams','medkit_drop','medkit_instant',
       },
       modes = {
       '2v2-ldr-cl','2v2-ldr-eu','2v2-ldr-na','2v2-ldr-oc',
