@@ -1,5 +1,5 @@
 name: ARMv7/v8
-run-name: server:${{ github.event.inputs.release_tag }}-arm64 and arm32
+run-name: server:${{ github.event.inputs.release_tag }}-arm64
 
 on:
   workflow_dispatch:
@@ -13,7 +13,8 @@ jobs:
     runs-on: [self-hosted, ARM64]
     strategy:
       matrix:
-        arch: ["arm64", "arm32"]
+        #arch: ["arm64", "arm32"]
+        arch: ["arm64"]
     name: "${{ matrix.arch }}:${{ github.event.inputs.release_tag }}"
     steps:
       - name: 'Cleanup build folder'
