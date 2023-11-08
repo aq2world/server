@@ -15,6 +15,7 @@ COPY q2admin.lua q2a_cw.lua q2a_cw_docker.lua /aq2server/
 # Copy configs to aq2server
 RUN cp -r /aq2-tng/action /aq2server/
 COPY config/* /aq2server/action/
+COPY tng/* /aq2server/action/tng/
 
 # Download and extract latest Q2Pro build
 RUN wget -qnv https://github.com/actionquake/q2pro/releases/latest/download/q2pro-lin-arm64.zip
