@@ -40,16 +40,17 @@ do
 done
 
 ## Adapt this for other models skins once true_hitbox supports them
+# Don't download skins for now, this was just a test
 
-mkdir -p /aq2server/action/players/{male,female,actionmale,aqmarine,messiah,sas,sydney,terror}
-cat /aq2server/action/skinlist.ini | while read skin
-do
-    if [ -f "/aq2server/action/players/male/${skin}" ]; then
-        echo "Skin $skin exists."
-    else 
-       wget "${baseUrl}/players/male/${skin}" -O "/aq2server/action/players/male/${skin}"
-    fi
-done
+# mkdir -p /aq2server/action/players/{male,female,actionmale,aqmarine,messiah,sas,sydney,terror}
+# cat /aq2server/action/skinlist.ini | while read skin
+# do
+#     if [ -f "/aq2server/action/players/male/${skin}" ]; then
+#         echo "Skin $skin exists."
+#     else 
+#        wget "${baseUrl}/players/male/${skin}" -O "/aq2server/action/players/male/${skin}"
+#     fi
+# done
 
 # Get IP address and convert it into a decimal + port (server_id uniqueness)
 ip2dec () {
