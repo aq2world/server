@@ -28,6 +28,17 @@ do
     fi
 done
 
+## Download the latest Espionage scenes
+wget --timestamping "https://raw.githubusercontent.com/actionquake/distrib/main/server/fullscenelist.ini" -O "/aq2server/action/scenelist.ini"
+
+## `aqtion` branch has the latest scenes.  Not using Amazon S3 because it caches files and doesn't always get the latest.
+baseUrl="https://raw.githubusercontent.com/actionquake/aq2-tng/aqtion/action"
+
+cat /aq2server/action/scenelist.ini | while read scene
+do
+  wget --timestamping "${baseUrl}/tng/${scene}.esp" -O "/aq2server/action/tng/${scene}.esp"
+done
+
 ## Adapt this for other models skins once true_hitbox supports them
 
 mkdir -p /aq2server/action/players/{male,female,actionmale,aqmarine,messiah,sas,sydney,terror}
