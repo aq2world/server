@@ -377,6 +377,7 @@ echo "set esp_leaderequip $ESP_LEADEREQUIP" >> /aq2server/action/config.cfg
 echo "set esp_leaderenhance $ESP_LEADERENHANCE" >> /aq2server/action/config.cfg
 echo "set esp_matchmode $ESP_MATCHMODE" >> /aq2server/action/config.cfg
 echo "set esp_respawn_uvtime $ESP_RESPAWN_UVTIME" >> /aq2server/action/config.cfg
+echo "set esp_atl $ESP_ATL" >> /aq2server/action/config.cfg
 echo "set medkit_max $MEDKIT_MAX" >> /aq2server/action/config.cfg
 echo "set medkit_value $MEDKIT_VALUE" >> /aq2server/action/config.cfg
 
