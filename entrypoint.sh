@@ -234,6 +234,7 @@ echo "set use_killcounts $USE_KILLCOUNTS" >> /aq2server/action/config.cfg
 echo "set hearall $HEARALL" >> /aq2server/action/config.cfg
 echo "set silentwalk $SILENTWALK" >> /aq2server/action/config.cfg
 echo "set printrules $PRINTRULES" >> /aq2server/action/config.cfg
+echo "set timedmsgs $TIMEDMSGS" >> /aq2server/action/config.cfg
 
 # Misc
 echo "set use_buggy_bandolier $USE_BUGGY_BANDOLIER" >> /aq2server/action/config.cfg
@@ -379,6 +380,8 @@ echo "set esp_leaderenhance $ESP_LEADERENHANCE" >> /aq2server/action/config.cfg
 echo "set esp_matchmode $ESP_MATCHMODE" >> /aq2server/action/config.cfg
 echo "set esp_respawn_uvtime $ESP_RESPAWN_UVTIME" >> /aq2server/action/config.cfg
 echo "set esp_atl $ESP_ATL" >> /aq2server/action/config.cfg
+echo "set esp_etv_halftime $ESP_ETV_HALFTIME" >> /aq2server/action/config.cfg
+echo "set esp_debug $ESP_DEBUG" >> /aq2server/action/config.cfg
 echo "set medkit_max $MEDKIT_MAX" >> /aq2server/action/config.cfg
 echo "set medkit_value $MEDKIT_VALUE" >> /aq2server/action/config.cfg
 
