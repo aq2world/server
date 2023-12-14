@@ -15,7 +15,6 @@ COPY q2admin.lua q2a_cw.lua q2a_cw_docker.lua /aq2server/
 # Copy configs to aq2server
 RUN cp -r /aq2-tng/action /aq2server/
 COPY config/* /aq2server/action/
-RUN mkdir /aq2server/action/maps
 COPY map_overrides/* /aq2server/action/maps/
 # tng file contents should be in the aq2-tng repo
 #COPY tng/* /aq2server/action/tng/
