@@ -139,6 +139,7 @@ echo "set shelloff $SHELLOFF" >> /aq2server/action/config.cfg
 echo "set shelllimit $SHELLLIMIT" >> /aq2server/action/config.cfg
 echo "set shelllife $SHELLLIFE" >> /aq2server/action/config.cfg
 echo "set sv_gib $SV_GIB" >> /aq2server/action/config.cfg
+echo "set sv_killgib $SV_KILLGIB" >> /aq2server/action/config.cfg
 echo "set breakableglass $BREAKABLEGLASS" >> /aq2server/action/config.cfg
 echo "set glassfragmentlimit $GLASSFRAGMENTLIMIT" >> /aq2server/action/config.cfg
 echo "set sv_min_rate $SV_MIN_RATE" >> /aq2server/action/config.cfg
@@ -275,6 +276,7 @@ echo "set day_cycle $DAY_CYCLE" >> /aq2server/action/config.cfg
 echo "set auto_menu $AUTO_MENU" >> /aq2server/action/config.cfg
 echo "set auto_join $AUTO_JOIN" >> /aq2server/action/config.cfg
 echo "set auto_equip $AUTO_EQUIP" >> /aq2server/action/config.cfg
+echo "set mm_captain_teamname $MM_CAPTAIN_TEAMNAME" >> /aq2server/action/config.cfg
 
 echo "set jump $JUMP" >> /aq2server/action/config.cfg
 
