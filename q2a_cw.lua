@@ -29,6 +29,5 @@ plugins = {
     needs_cvar_q2a_mvd_autorecord = false
   },
   version = {}, -- version feedback script
-  mvd2cprints = {}, -- add mising ACC,IMP,EXC into mvd2 demos
   coinflip = {}, -- toss a coin INGAME ;)
 }

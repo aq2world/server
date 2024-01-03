@@ -14,7 +14,6 @@ plugins = {
   coinflip = {}, -- Heads & Tails script
   broadcast = {}, -- Broadcast script
   version = {}, -- version feedback script
-  mvd2cprints = {}, -- store centerprints from AQ2 into MVD2
   scoreboardStore = {}, -- store scoreboard at match end into MVD2
   cvarbans = {
     root_dir = '/aq2server/',  -- rootdir of this server
