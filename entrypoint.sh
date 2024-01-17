@@ -278,6 +278,8 @@ echo "set auto_join $AUTO_JOIN" >> /aq2server/action/config.cfg
 echo "set auto_equip $AUTO_EQUIP" >> /aq2server/action/config.cfg
 echo "set mm_captain_teamname $MM_CAPTAIN_TEAMNAME" >> /aq2server/action/config.cfg
 
+echo "set highlander $HIGHLANDER" >> /aq2server/action/config.cfg
+
 echo "set jump $JUMP" >> /aq2server/action/config.cfg
 
 # LTK (bot) settings
@@ -394,6 +396,12 @@ if [ ${STAT_LOGS} == "1" ]; then
 fi
 # stat_log apikey
 echo "set stat_apikey $STAT_APIKEY" >> /aq2server/action/config.cfg
+
+## Server/Discord announcement info
+echo "set sv_curl_enable $SV_CURL_ENABLE" >> /aq2server/action/config.cfg
+echo "set server_announce_url $SERVER_ANNOUNCE_URL" >> /aq2server/action/config.cfg
+echo "set sv_curl_discord_chat_url $SV_CURL_DISCORD_CHAT_URL" >> /aq2server/action/config.cfg
+echo "set sv_curl_stat_api_url $SV_CURL_STAT_API_URL" >> /aq2server/action/config.cfg
 
 # Load map
 echo "map $default_map" >> /aq2server/action/config.cfg
