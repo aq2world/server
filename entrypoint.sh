@@ -2,13 +2,17 @@
 
 echo SERVER STARTING!
 
-# DL MAPS
+
+## Downloading assets for the server
+baseUrl="http://gameassets.aqtiongame.com/action"
+# DL MAPS and map overrides
 
 if [ $FULLMAPS == "TRUE" ]; then
 # Old method
 #cp /aq2server/action/fullmaplist.ini /aq2server/action/maplist.ini
-# New method downloads from https://github.com/actionquake/distrib/blob/main/server/fullmaplist.ini
-wget "https://raw.githubusercontent.com/actionquake/distrib/main/server/fullmaplist.ini" -O "/aq2server/action/maplist.ini"
+# Old method downloaded from https://github.com/actionquake/distrib/blob/main/server/fullmaplist.ini
+wget "${baseUrl}/server/fullmaplist.ini" -O "/aq2server/action/maplist.ini"
+wget "${baseUrl}/server/mapoverridelist.ini" -O "/aq2server/action/mapoverridelist.ini"
 else
   IFS=',' read -r -a rotation <<< "$ROTATION"
   for map in "${rotation[@]}"
@@ -16,9 +20,6 @@ else
     echo $map >> /aq2server/action/maplist.ini
   done
 fi
-
-baseUrl="http://gameassets.aqtiongame.com/action"
-
 cat /aq2server/action/maplist.ini | while read map
 do
     if [ -f "/aq2server/action/maps/${map}.bsp" ]; then
@@ -28,15 +29,26 @@ do
     fi
 done
 
+mkdir -p /aq2server/action/map_overrides
+cat /aq2server/action/mapoverridelist.ini | while read map
+do
+    if [ -f "/aq2server/action/map_overrides/${map}.bsp.override" ]; then
+        echo "Map $map override exists."
+    else 
+       wget "${baseUrl}/map_overrides/${map}.bsp.override" -O "/aq2server/action/map_overrides/${map}.bsp.override"
+    fi
+done
+# End map downloads
+
 ## Download the latest Espionage scenes
-wget --timestamping "https://raw.githubusercontent.com/actionquake/distrib/main/server/fullscenelist.ini" -O "/aq2server/action/scenelist.ini"
+wget --timestamping "${baseUrl}/server/fullscenelist.ini" -O "/aq2server/action/scenelist.ini"
 
 ## `aqtion` branch has the latest scenes.  Not using Amazon S3 because it caches files and doesn't always get the latest.
-baseUrl="https://raw.githubusercontent.com/actionquake/aq2-tng/aqtion/action"
+scenebaseUrl="https://raw.githubusercontent.com/actionquake/aq2-tng/aqtion/action"
 
 cat /aq2server/action/scenelist.ini | while read scene
 do
-  wget --timestamping "${baseUrl}/tng/${scene}.esp" -O "/aq2server/action/tng/${scene}.esp"
+  wget --timestamping "${scenebaseUrl}/tng/${scene}.esp" -O "/aq2server/action/tng/${scene}.esp"
 done
 
 ## Adapt this for other models skins once true_hitbox supports them
