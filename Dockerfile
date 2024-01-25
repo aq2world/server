@@ -282,6 +282,9 @@ ENV CTF_RESPAWN 4
 ENV CTF_MODEL "male"
 ENV CAPTURELIMIT 0
 
+# Highlander
+ENV HIGHLANDER 0
+
 # JUMP / JMOD
 ENV JUMP 0
 
@@ -380,6 +383,12 @@ ENV NEW_IRVISION 1
 ENV IRC_SERVER "irc.aq2world.com"
 ENV IRC_CHANNEL "#servermsg"
 ENV IRC_BOT 0
+
+# Stats/Discord/API related
+ENV SV_CURL_ENABLE 0
+ENV SERVER_ANNOUNCE_URL "disabled"
+ENV SV_CURL_DISCORD_CHAT_URL "disabled"
+ENV SV_CURL_STAT_API_URL "disabled"
 
 # Stuffcmd
 ENV ADDSTUFFCMD_BEGIN="say vers: \$version"
