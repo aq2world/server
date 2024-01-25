@@ -8,7 +8,7 @@ baseUrl="http://gameassets.aqtiongame.com/action"
 # DL MAPS and map overrides
 
 if [ $FULLMAPS == "TRUE" ]; then
-# Old method
+# Old methods
 #cp /aq2server/action/fullmaplist.ini /aq2server/action/maplist.ini
 # Old method downloaded from https://github.com/actionquake/distrib/blob/main/server/fullmaplist.ini
 wget "${baseUrl}/server/fullmaplist.ini" -O "/aq2server/action/maplist.ini"
@@ -28,14 +28,14 @@ do
        wget "${baseUrl}/maps/${map}.bsp" -O "/aq2server/action/maps/${map}.bsp"
     fi
 done
-
+# Map overrides
 mkdir -p /aq2server/action/map_overrides
-cat /aq2server/action/mapoverridelist.ini | while read map
+cat /aq2server/action/mapoverridelist.ini | while read mapo
 do
-    if [ -f "/aq2server/action/map_overrides/${map}.bsp.override" ]; then
-        echo "Map $map override exists."
+    if [ -f "/aq2server/action/map_overrides/${mapo}.bsp.override" ]; then
+        echo "Map $mapo override exists."
     else 
-       wget "${baseUrl}/map_overrides/${map}.bsp.override" -O "/aq2server/action/map_overrides/${map}.bsp.override"
+       wget "${baseUrl}/map_overrides/${mapo}.bsp.override" -O "/aq2server/action/map_overrides/${mapo}.bsp.override"
     fi
 done
 # End map downloads
