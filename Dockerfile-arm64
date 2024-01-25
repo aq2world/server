@@ -10,14 +10,8 @@ RUN DEBIAN_FRONTEND=noninteractive apt-get -y install wget nano unzip
 # Copy stuff
 RUN mkdir /aq2server
 COPY aq2-tng /aq2-tng
-COPY q2admin.lua q2a_cw.lua q2a_cw_docker.lua /aq2server/
-
-# Copy configs to aq2server
 RUN cp -r /aq2-tng/action /aq2server/
-COPY config/* /aq2server/action/
-COPY map_overrides/* /aq2server/action/maps/
-# tng file contents should be in the aq2-tng repo
-#COPY tng/* /aq2server/action/tng/
+COPY q2admin.lua q2a_cw.lua q2a_cw_docker.lua /aq2server/
 
 # Download and extract latest Q2Pro build
 RUN wget -qnv https://github.com/actionquake/q2pro/releases/latest/download/q2pro-lin-arm64.zip
@@ -55,6 +49,11 @@ ENTRYPOINT /aq2server/entrypoint.sh
 COPY fullmaplist.ini /aq2server/action/
 COPY skinlist.ini /aq2server/action/
 RUN mkdir -p /aq2server/action/maps
+
+# Copy configs to aq2server
+RUN cp -r /aq2-tng/action /aq2server/
+COPY config/* /aq2server/action/config/
+COPY map_overrides/* /aq2server/action/maps/
 
 # Logs and Demos
 RUN mkdir /aq2server/action/logs
