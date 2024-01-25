@@ -52,7 +52,7 @@ RUN mkdir -p /aq2server/action/maps
 
 # Copy configs to aq2server
 COPY config/* /aq2server/action/config/
-COPY map_overrides/* /aq2server/action/maps/
+COPY map_overrides/ /aq2server/action/
 
 # Logs and Demos
 RUN mkdir /aq2server/action/logs
@@ -105,7 +105,7 @@ ENV AWS_ACCESS_KEY NONE
 ENV STAT_APIKEY ""
 ENV Q2A_CONFIG q2admin.lua
 ENV SCOREBOARD TNMPKDIA
-ENV MAP_OVERRIDE "maps/"
+ENV MAP_OVERRIDE "map_overrides/"
 ENV SV_CHANGEMAPCMD ""
 ENV ROUND_BEGIN 20
 
