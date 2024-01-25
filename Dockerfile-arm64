@@ -51,7 +51,6 @@ COPY skinlist.ini /aq2server/action/
 RUN mkdir -p /aq2server/action/maps
 
 # Copy configs to aq2server
-RUN cp -r /aq2-tng/action /aq2server/
 COPY config/* /aq2server/action/config/
 COPY map_overrides/ /aq2server/action/map_overrides/
 
