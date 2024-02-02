@@ -5,7 +5,7 @@ on:
         description: "Release version tag"
         required: true
 
-name: Docker Build
+name: Docker Build - Multiarch
 run-name: server:${{ github.event.inputs.release_tag }}
 
 jobs:
