@@ -1,7 +1,8 @@
 # Dockerfile
-FROM --platform=$BUILDPLATFORM ubuntu:22.04 AS buildstage
-ARG ARCH
-RUN echo "I am running for ${ARCH} and ${BUILDPLATFORM}"
+FROM ubuntu:22.04 AS buildstage
+ARG TARGETPLATFORM
+
+RUN echo "Building for $TARGETPLATFORM"
 
 # Install dependencies
 RUN apt-get update
