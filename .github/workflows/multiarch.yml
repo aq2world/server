@@ -12,9 +12,6 @@ jobs:
   docker_build:
     name: "server:${{ github.event.inputs.release_tag }}"
     runs-on: ubuntu-latest
-    strategy:
-      matrix:
-        arch: [x86_64, arm64]
     steps:
       - name: 'Cleanup build folder'
         run: |
@@ -55,8 +52,6 @@ jobs:
           file: ./Dockerfile-multiarch
           platforms: linux/amd64,linux/arm64
           push: true
-          build-args: |
-            ARCH=${{ matrix.arch }}
           tags: |
             aqtiongame/server:${{ github.event.inputs.release_tag }}
             aqtiongame/server:latest
