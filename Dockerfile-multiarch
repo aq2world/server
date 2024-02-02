@@ -2,14 +2,9 @@
 FROM ubuntu:22.04 AS buildstage
 ARG TARGETPLATFORM
 
-RUN if [ "$TARGETPLATFORM" = "linux/amd64" ]; then echo "ARCH=x86_64" > /tmp/env; elif [ "$TARGETPLATFORM" = "linux/arm64" ]; then echo "ARCH=arm64" > /tmp/env; fi
-RUN echo "Building for $TARGETPLATFORM"
-RUN cat /tmp/env >> /etc/environment
-RUN . /etc/environment
-
 # Install dependencies
-RUN apt-get update
-RUN DEBIAN_FRONTEND=noninteractive apt-get -y install wget nano unzip
+RUN apt-get update && \
+    DEBIAN_FRONTEND=noninteractive apt-get -y install wget nano unzip
 
 # Copy stuff
 RUN mkdir /aq2server
@@ -17,22 +12,23 @@ COPY aq2-tng /aq2-tng
 RUN cp -r /aq2-tng/action /aq2server/
 COPY q2admin.lua q2a_cw.lua q2a_cw_docker.lua /aq2server/
 
-# Download and extract latest Q2Pro build
-RUN wget -qnv https://github.com/actionquake/q2pro/releases/latest/download/q2pro-lin-${ARCH}.zip
-RUN unzip q2pro-lin-${ARCH}.zip
-RUN mv q2proded /aq2server/q2proded
-RUN chmod +x /aq2server/q2proded
-
-# Download and extract latest TNG build
-RUN wget -qnv https://github.com/actionquake/aq2-tng/releases/latest/download/tng-lin-${ARCH}.zip
-RUN unzip -o tng-lin-${ARCH}.zip
-RUN mv game${ARCH}.so /aq2server/action/game${ARCH}.real.so
-
-# Download and extract latest Q2Admin build
-RUN wget -qnv https://github.com/actionquake/q2admin/releases/latest/download/q2admin-lin-${ARCH}.zip
-RUN unzip q2admin-lin-${ARCH}.zip
-RUN mv plugins /aq2server
-RUN mv game${ARCH}.so /aq2server/action/game${ARCH}.so
+# Download and extract latest Q2Pro, TNG, and Q2Admin builds
+RUN if [ "$TARGETPLATFORM" = "linux/amd64" ]; then \
+        ARCH=x86_64; \
+    elif [ "$TARGETPLATFORM" = "linux/arm64" ]; then \
+        ARCH=arm64; \
+    fi && \
+    wget -qnv https://github.com/actionquake/q2pro/releases/latest/download/q2pro-lin-${ARCH}.zip && \
+    unzip q2pro-lin-${ARCH}.zip && \
+    mv q2proded /aq2server/q2proded && \
+    chmod +x /aq2server/q2proded && \
+    wget -qnv https://github.com/actionquake/aq2-tng/releases/latest/download/tng-lin-${ARCH}.zip && \
+    unzip -o tng-lin-${ARCH}.zip && \
+    mv game${ARCH}.so /aq2server/action/game${ARCH}.real.so && \
+    wget -qnv https://github.com/actionquake/q2admin/releases/latest/download/q2admin-lin-${ARCH}.zip && \
+    unzip q2admin-lin-${ARCH}.zip && \
+    mv plugins /aq2server && \
+    mv game${ARCH}.so /aq2server/action/game${ARCH}.so
 
 # Make stuff executable
 RUN chmod +x /aq2server/action/game*.so /aq2server/plugins/mvd_transfer.sh
