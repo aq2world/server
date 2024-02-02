@@ -1,7 +1,6 @@
 # Dockerfile
-ARG ARCH
 FROM ubuntu:22.04 AS buildstage
-ENV ARCH=$ARCH
+ARG ARCH
 RUN echo "I am running for $ARCH"
 
 # Install dependencies
