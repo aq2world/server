@@ -52,7 +52,6 @@ RUN mkdir -p /aq2server/action/maps
 
 # Copy configs to aq2server
 COPY config/* /aq2server/action/config/
-COPY map_overrides/ /aq2server/action/map_overrides/
 
 # Logs and Demos
 RUN mkdir /aq2server/action/logs
