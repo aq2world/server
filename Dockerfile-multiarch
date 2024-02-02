@@ -1,6 +1,7 @@
 # Dockerfile
 ARG ARCH
 FROM ubuntu:22.04 AS buildstage
+ENV ARCH=$ARCH
 
 # Install dependencies
 RUN apt-get update
