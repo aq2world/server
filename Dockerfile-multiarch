@@ -2,7 +2,8 @@
 FROM ubuntu:22.04 AS buildstage
 ARG TARGETPLATFORM
 
-RUN echo "Building for $TARGETPLATFORM"
+RUN if [ "$TARGETPLATFORM" = "linux/amd64" ]; then export ARCH=x86_64; elif [ "$TARGETPLATFORM" = "linux/arm64" ]; then export ARCH=arm64; fi
+RUN echo "Building for $TARGETPLATFORM, ARCH set to $ARCH"
 
 # Install dependencies
 RUN apt-get update
