@@ -51,7 +51,7 @@ COPY skinlist.ini /aq2server/action/
 RUN mkdir -p /aq2server/action/maps
 
 # Copy configs to aq2server
-COPY config/* /aq2server/action/config/
+COPY config/* /aq2server/action/
 
 # Logs and Demos
 RUN mkdir /aq2server/action/logs
