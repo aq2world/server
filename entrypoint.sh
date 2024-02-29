@@ -22,9 +22,7 @@ else
 fi
 cat /aq2server/action/maplist.ini | while read map
 do
-    if [ -f "/aq2server/action/maps/${map}.bsp" ]; then
-        echo "Map $map exists."
-    else 
+    if [ ! -f "/aq2server/action/maps/${map}.bsp" ]; then
        wget "${baseUrl}/maps/${map}.bsp" -O "/aq2server/action/maps/${map}.bsp"
     fi
 done
@@ -35,7 +33,7 @@ do
     if [ -f "/aq2server/action/map_overrides/${mapo}.bsp.override" ]; then
         echo "Map $mapo override exists."
     else 
-       wget "${baseUrl}/map_overrides/${mapo}.bsp.override" -O "/aq2server/action/map_overrides/${mapo}.bsp.override"
+       wget -q "${baseUrl}/map_overrides/${mapo}.bsp.override" -O "/aq2server/action/map_overrides/${mapo}.bsp.override"
     fi
 done
 # End map downloads
@@ -48,7 +46,7 @@ scenebaseUrl="https://raw.githubusercontent.com/actionquake/aq2-tng/aqtion/actio
 
 cat /aq2server/action/scenelist.ini | while read scene
 do
-  wget --timestamping "${scenebaseUrl}/tng/${scene}.esp" -O "/aq2server/action/tng/${scene}.esp"
+  wget -q --timestamping "${scenebaseUrl}/tng/${scene}.esp" -O "/aq2server/action/tng/${scene}.esp"
 done
 
 ## Adapt this for other models skins once true_hitbox supports them
