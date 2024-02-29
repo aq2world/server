@@ -15,7 +15,7 @@ plugins = {
       -- mod
       'teamplay', 'ctf', 'matchmode', 'roundtimelimit', 'tgren', 'limchasecam', 'forcedteamtalk',
       'mm_forceteamtalk', 'ir', 'wp_flags', 'itm_flags', 'hc_single', 'use_punch',  'darkmatch',
-      'allitem', 'allweapon', 'use_3teams','sv_antilag',
+      'allitem', 'allweapon', 'use_3teams','sv_antilag', 'teamdm', 'esp', 'dom'
 
       -- new features
       'gun_dualmk23_enhance', 'use_xerp', 'esp_enhancedslippers', 'item_kit_mode', 'g_spawn_items',
