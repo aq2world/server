@@ -48,6 +48,7 @@ ENTRYPOINT /aq2server/entrypoint.sh
 COPY fullmaplist.ini /aq2server/action/
 COPY skinlist.ini /aq2server/action/
 RUN mkdir -p /aq2server/action/maps
+RUN mkdir -p /aq2server/action/map_overrides
 
 # Copy configs to aq2server
 COPY config/* /aq2server/action/
