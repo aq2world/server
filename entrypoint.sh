@@ -13,6 +13,7 @@ if [ $FULLMAPS == "TRUE" ]; then
 # Old method downloaded from https://github.com/actionquake/distrib/blob/main/server/fullmaplist.ini
 wget "${baseUrl}/server/fullmaplist.ini" -O "/aq2server/action/maplist.ini"
 wget "${baseUrl}/server/mapoverridelist.ini" -O "/aq2server/action/mapoverridelist.ini"
+wget "${baseUrl}/server/entoverridelist.ini" -O "/aq2server/action/entoverridelist.ini"
 else
   IFS=',' read -r -a rotation <<< "$ROTATION"
   for map in "${rotation[@]}"
@@ -32,11 +33,22 @@ cat /aq2server/action/mapoverridelist.ini | while read mapo
 do
     if [ -f "/aq2server/action/map_overrides/${mapo}.bsp.override" ]; then
         echo "Map $mapo override exists."
-    else 
+    else
        wget -q "${baseUrl}/map_overrides/${mapo}.bsp.override" -O "/aq2server/action/map_overrides/${mapo}.bsp.override"
     fi
 done
-# End map downloads
+# End map overrides
+
+# Ent overrides
+cat /aq2server/action/entoverridelist.ini | while read mape
+do
+    if [ -f "/aq2server/action/map_overrides/${mape}.ent" ]; then
+        echo "Ent $mape override exists."
+    else
+       wget -q "${baseUrl}/ents/${mape}.ent" -O "/aq2server/action/map_overrides/${mape}.ent"
+    fi
+done
+# End ent downloads
 
 ## Download the latest Espionage scenes
 wget --timestamping "${baseUrl}/server/fullscenelist.ini" -O "/aq2server/action/scenelist.ini"
