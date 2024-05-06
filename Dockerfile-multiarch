@@ -102,7 +102,7 @@ ENV MASTER  "master.quadaver.org master.q2servers.com master.aq2world.com netdom
 ENV _ADMIN AQ2WORLD
 ENV AWS_ACCESS_KEY NONE
 ENV STAT_APIKEY ""
-ENV Q2A_CONFIG q2admin.lua
+ENV Q2A_CONFIG q2admin_public.lua
 ENV SCOREBOARD TNMPKDIA
 ENV MAP_OVERRIDE "map_overrides"
 ENV SV_CHANGEMAPCMD ""

@@ -18,8 +18,10 @@ plugins = {
       'allitem', 'allweapon', 'use_3teams','medkit_drop','medkit_instant',
       },
       modes = {
-      '2v2-ldr-cl','2v2-ldr-eu','2v2-ldr-na','2v2-ldr-oc',
-      'mm-cl','mm-eu','mm-na','mm-oc',
+        '2v2-ldr-cl','2v2-ldr-eu','2v2-ldr-na','2v2-ldr-oc',
+        'mm-cl','mm-eu','mm-na','mm-oc',
+        'enhanced-dualmk23', 'enhanced-slippers-1', 'enhanced-slippers-2',
+        'espionage', 'g-spawn-items', 'item-kit-mode',
       }
     },
   mvd = {
