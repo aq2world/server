@@ -1,39 +1,40 @@
-# Dockerfile
 FROM ubuntu:22.04 AS buildstage
-ARG TARGETPLATFORM
 
-RUN echo "Building for $TARGETPLATFORM"
+# Cache hax, so we get a fresh build every time
+ADD "https://www.random.org/cgi-bin/randbyte?nbytes=10&format=h" skipcache
 
 # Install dependencies
-RUN apt-get update && \
-    DEBIAN_FRONTEND=noninteractive apt-get -y install wget nano unzip
+RUN apt-get update
+RUN DEBIAN_FRONTEND=noninteractive apt-get -y install wget nano unzip
 
 # Copy stuff
 RUN mkdir /aq2server
 COPY aq2-tng /aq2-tng
 RUN cp -r /aq2-tng/action /aq2server/
-COPY q2a/* /aq2server/
+COPY q2admin.lua q2a_cw.lua q2a_cw_docker.lua /aq2server/
 
-# Download and extract latest Q2Pro, TNG, and Q2Admin builds
-RUN if [ "$TARGETPLATFORM" = "linux/amd64" ]; then \
-        ARCH=x86_64; \
-    elif [ "$TARGETPLATFORM" = "linux/arm64" ]; then \
-        ARCH=arm64; \
-    fi && \
-    wget -qnv https://github.com/actionquake/q2pro/releases/latest/download/q2pro-lin-${ARCH}.zip && \
-    unzip q2pro-lin-${ARCH}.zip && \
-    mv q2proded /aq2server/q2proded && \
-    chmod +x /aq2server/q2proded && \
-    wget -qnv https://github.com/actionquake/aq2-tng/releases/latest/download/tng-lin-${ARCH}.zip && \
-    unzip -o tng-lin-${ARCH}.zip && \
-    mv game${ARCH}.so /aq2server/action/game${ARCH}.real.so && \
-    wget -qnv https://github.com/actionquake/q2admin/releases/latest/download/q2admin-lin-${ARCH}.zip && \
-    unzip q2admin-lin-${ARCH}.zip && \
-    mv plugins /aq2server && \
-    mv game${ARCH}.so /aq2server/action/game${ARCH}.so
+# Download and extract latest Q2Pro build
+RUN wget -qnv https://github.com/actionquake/q2pro/releases/latest/download/q2pro-lin-gcc.zip
+RUN unzip q2pro-lin-gcc.zip
+RUN mv q2proded /aq2server/q2proded
+RUN chmod +x /aq2server/q2proded
 
-# Make stuff executable
-RUN chmod +x /aq2server/action/game*.so /aq2server/plugins/mvd_transfer.sh
+# Download and extract latest TNG build
+RUN wget -qnv https://github.com/actionquake/aq2-tng/releases/latest/download/tng-lin-x86_64.zip
+RUN unzip -o tng-lin-x86_64.zip
+RUN mv gamex86_64.so /aq2server/action/gamex86_64.real.so
+
+# Download and extract latest Q2Admin build
+RUN wget -qnv https://github.com/actionquake/q2admin/releases/latest/download/q2admin-lin-x86_64.zip
+RUN unzip q2admin-lin-x86_64.zip
+RUN mv plugins /aq2server
+RUN mv gamex86_64.so /aq2server/action/gamex86_64.so
+
+# Make libraries and scripts executable
+RUN chmod +x /aq2server/action/gamex* /aq2server/plugins/mvd_transfer.sh
+
+# Cache hax
+##ADD "https://www.random.org/cgi-bin/randbyte?nbytes=10&format=h" skipcache
 
 FROM ubuntu:22.04
 ENV DEBIAN_FRONTEND=noninteractive
@@ -48,7 +49,6 @@ ENTRYPOINT /aq2server/entrypoint.sh
 COPY fullmaplist.ini /aq2server/action/
 COPY skinlist.ini /aq2server/action/
 RUN mkdir -p /aq2server/action/maps
-RUN mkdir -p /aq2server/action/map_overrides
 
 # Copy configs to aq2server
 COPY config/* /aq2server/action/
@@ -102,9 +102,9 @@ ENV MASTER  "master.quadaver.org master.q2servers.com master.aq2world.com netdom
 ENV _ADMIN AQ2WORLD
 ENV AWS_ACCESS_KEY NONE
 ENV STAT_APIKEY ""
-ENV Q2A_CONFIG q2admin_public.lua
+ENV Q2A_CONFIG q2admin.lua
 ENV SCOREBOARD TNMPKDIA
-ENV MAP_OVERRIDE "map_overrides"
+ENV MAP_OVERRIDE "map_overrides/"
 ENV SV_CHANGEMAPCMD ""
 ENV ROUND_BEGIN 20
 
