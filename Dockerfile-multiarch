@@ -12,7 +12,7 @@ RUN apt-get update && \
 RUN mkdir /aq2server
 COPY aq2-tng /aq2-tng
 RUN cp -r /aq2-tng/action /aq2server/
-COPY q2admin.lua q2a_cw.lua q2a_cw_docker.lua /aq2server/
+COPY q2a/* /aq2server/
 
 # Download and extract latest Q2Pro, TNG, and Q2Admin builds
 RUN if [ "$TARGETPLATFORM" = "linux/amd64" ]; then \
