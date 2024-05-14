@@ -4,7 +4,7 @@ services:
   server:
     container_name: server
     build: .
-    image: aqtiongame/server:v27
+    image: aqtiongame/server:v49
     ports:
       - "27910:27910/udp"
       - "27910:27910/tcp"
