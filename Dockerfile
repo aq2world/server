@@ -23,9 +23,6 @@ RUN if [ "$TARGETPLATFORM" = "linux/amd64" ]; then \
     wget -qnv https://github.com/actionquake/q2pro/releases/latest/download/q2pro-lin-${ARCH}.zip && \
     unzip q2pro-lin-${ARCH}.zip && \
     mv q2proded /aq2server/q2proded && \
-    chmod +x /aq2server/q2proded && \
-    wget -qnv https://github.com/actionquake/aq2-tng/releases/latest/download/tng-lin-${ARCH}.zip && \
-    unzip -o tng-lin-${ARCH}.zip && \
     mv game${ARCH}.so /aq2server/action/game${ARCH}.real.so && \
     wget -qnv https://github.com/actionquake/q2admin/releases/latest/download/q2admin-lin-${ARCH}.zip && \
     unzip q2admin-lin-${ARCH}.zip && \
@@ -33,7 +30,7 @@ RUN if [ "$TARGETPLATFORM" = "linux/amd64" ]; then \
     mv game${ARCH}.so /aq2server/action/game${ARCH}.so
 
 # Make stuff executable
-RUN chmod +x /aq2server/action/game*.so /aq2server/plugins/mvd_transfer.sh
+RUN chmod +x /aq2server/q2proded /aq2server/action/game*.so /aq2server/plugins/mvd_transfer.sh
 
 FROM ubuntu:22.04
 ENV DEBIAN_FRONTEND=noninteractive

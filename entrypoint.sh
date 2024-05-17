@@ -108,11 +108,6 @@ done
 echo "###" >> /aq2server/action/teamplay.ini
 
 # config.cfg
-# locked parameters
-## No longer needed after v42 (q2pro changes)
-#echo "game action" > /aq2server/action/config.cfg
-#echo "gamedir action" >> /aq2server/action/config.cfg
-
 # Server settings
 echo "set hostname \"${HOSTNAME}\"" > /aq2server/action/config.cfg
 echo "set net_port $PORT" >> /aq2server/action/config.cfg
@@ -397,7 +392,7 @@ echo "set maplistname maplist.ini" >> /aq2server/action/config.cfg
 echo "hostname" >> /aq2server/action/config.cfg
 echo "serverinfo" >> /aq2server/action/config.cfg
 
-# Espionage (non-TNG)
+# Espionage settings
 echo "set esp $ESP" >> /aq2server/action/config.cfg
 echo "set esp_enhancedslippers $ESP_ENHANCEDSLIPPERS" >> /aq2server/action/config.cfg
 echo "set esp_punish $ESP_PUNISH" >> /aq2server/action/config.cfg
