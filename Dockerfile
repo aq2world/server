@@ -16,9 +16,9 @@ COPY q2a/* /aq2server/
 
 # Download and extract latest Q2Pro, TNG, and Q2Admin builds
 RUN if [ "$TARGETPLATFORM" = "linux/amd64" ]; then \
-        ARCH=x86_64; \
+        export ARCH=gcc; \
     elif [ "$TARGETPLATFORM" = "linux/arm64" ]; then \
-        ARCH=arm64; \
+        export ARCH=arm64; \
     fi && \
     wget -qnv https://github.com/actionquake/q2pro/releases/latest/download/q2pro-lin-${ARCH}.zip && \
     unzip q2pro-lin-${ARCH}.zip && \
