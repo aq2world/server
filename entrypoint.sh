@@ -344,10 +344,11 @@ echo "set use_randoms $USE_RANDOMS" >> /aq2server/action/config.cfg
 echo "set unique_weapons $UNIQUE_WEAPONS" >> /aq2server/action/config.cfg
 echo "set unique_items $UNIQUE_ITEMS" >> /aq2server/action/config.cfg
 echo "set gun_dualmk23_enhance $GUN_DUALMK23_ENHANCE" >> /aq2server/action/config.cfg
-
-# Q2proded
 echo "set loud_guns $LOUD_GUNS" >> /aq2server/action/config.cfg
 echo "set sync_guns $SYNC_GUNS" >> /aq2server/action/config.cfg
+
+# Q2proded
+echo "set g_protocol_extensions $G_PROTOCOL_EXTENSIONS" >> /aq2server/action/config.cfg
 echo "set sv_uptime $SV_UPTIME" >> /aq2server/action/config.cfg
 echo "set sv_calcpings_method $SV_CALCPINGS_METHOD" >> /aq2server/action/config.cfg
 echo "set sv_waterjump_hack $SV_WATERJUMP_HACK" >> /aq2server/action/config.cfg

@@ -17,17 +17,25 @@ COPY q2a/* /aq2server/
 # Download and extract latest Q2Pro, TNG, and Q2Admin builds
 RUN if [ "$TARGETPLATFORM" = "linux/amd64" ]; then \
         export ARCH=x86_64; \
+        wget -qnv https://github.com/actionquake/q2pro/releases/latest/download/q2pro-lin-gcc-${ARCH}.zip && \
+        unzip q2pro-lin-gcc-${ARCH}.zip && \
+        mv q2proded /aq2server/q2proded && \
+        mv game${ARCH}.so /aq2server/action/game${ARCH}.real.so && \
+        wget -qnv https://github.com/actionquake/q2admin/releases/latest/download/q2admin-lin-${ARCH}.zip && \
+        unzip q2admin-lin-${ARCH}.zip && \
+        mv plugins /aq2server && \
+        mv game${ARCH}.so /aq2server/action/game${ARCH}.so; \
     elif [ "$TARGETPLATFORM" = "linux/arm64" ]; then \
         export ARCH=arm64; \
-    fi && \
-    wget -qnv https://github.com/actionquake/q2pro/releases/latest/download/q2pro-lin-gcc-${ARCH}.zip && \
-    unzip q2pro-lin-gcc-${ARCH}.zip && \
-    mv q2proded /aq2server/q2proded && \
-    mv game${ARCH}.so /aq2server/action/game${ARCH}.real.so && \
-    wget -qnv https://github.com/actionquake/q2admin/releases/latest/download/q2admin-lin-${ARCH}.zip && \
-    unzip q2admin-lin-${ARCH}.zip && \
-    mv plugins /aq2server && \
-    mv game${ARCH}.so /aq2server/action/game${ARCH}.so
+        wget -qnv https://github.com/actionquake/q2pro/releases/latest/download/q2pro-lin-${ARCH}.zip && \
+        unzip q2pro-lin-${ARCH}.zip && \
+        mv q2proded /aq2server/q2proded && \
+        mv game${ARCH}.so /aq2server/action/game${ARCH}.real.so && \
+        wget -qnv https://github.com/actionquake/q2admin/releases/latest/download/q2admin-lin-${ARCH}.zip && \
+        unzip q2admin-lin-${ARCH}.zip && \
+        mv plugins /aq2server && \
+        mv game${ARCH}.so /aq2server/action/game${ARCH}.so; \
+    fi
 
 # Make stuff executable
 RUN chmod +x /aq2server/q2proded /aq2server/action/game*.so /aq2server/plugins/mvd_transfer.sh
@@ -325,10 +333,11 @@ ENV USE_RANDOMS 0
 ENV UNIQUE_WEAPONS 1
 ENV UNIQUE_ITEMS 1
 ENV GUN_DUALMK23_ENHANCE 1
-
-# Q2proded
 ENV LOUD_GUNS 0
 ENV SYNC_GUNS 2
+
+# Q2proded
+ENV G_PROTOCOL_EXTENSIONS 0
 ENV SV_UPTIME 1
 ENV SV_CALCPINGS_METHOD 2
 ENV SV_WATERJUMP_HACK 1
