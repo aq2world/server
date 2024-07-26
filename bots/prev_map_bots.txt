@@ -1,0 +1,29 @@
+// Bots from a previous map
+1
+6
+0
+deathmatch
+0
+0
+|!Jv!| Micah
+male/jewels
+1
+0
+Lashaunda
+female/athena
+0
+0
+Flynn
+actionmale/RCMP
+0
+0
+Finley
+aqmarine/urban
+1
+0
+Joanie
+sydney/sydney
+0
+0
+Kolby
+male/kw_black

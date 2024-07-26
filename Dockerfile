@@ -13,6 +13,8 @@ RUN mkdir /aq2server
 COPY aq2-tng /aq2-tng
 RUN cp -r /aq2-tng/action /aq2server/
 COPY q2a/* /aq2server/
+RUN mkdir /aq2server/bots
+COPY bots/* /aq2server/bots/
 
 # Download and extract latest Q2Pro, TNG, and Q2Admin builds
 RUN if [ "$TARGETPLATFORM" = "linux/amd64" ]; then \
@@ -304,6 +306,18 @@ ENV AM 0
 ENV AM_BOTCOUNT 6
 ENV AM_TEAM 0
 ENV AM_NEWNAMES 1
+
+# ReKTek's Botlib bots
+ENV BOT_SKILL 7
+ENV BOT_SKILL_THRESHOLD 0
+ENV BOT_REMEMBER 15
+ENV BOT_REACTION 0.5
+ENV BOT_MAXTEAM 0
+ENV BOT_RUSH 0
+ENV BOT_RANDVOICE 1
+ENV BOT_RANDSKILL 10
+ENV BOT_RANDNAME 1
+ENV BOT_CHAT 0
 
 # Limits
 ENV FRAGLIMIT 0
