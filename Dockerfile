@@ -13,7 +13,8 @@ RUN mkdir /aq2server
 COPY aq2-tng /aq2-tng
 RUN cp -r /aq2-tng/action /aq2server/
 COPY q2a/* /aq2server/
-COPY bots/ /aq2server/action/bots/
+# Copy bots stuff, but don't overwrite existing unless file names are the same
+COPY ./bots/. /aq2server/action/bots/
 
 # Download and extract latest Q2Pro, TNG, and Q2Admin builds
 RUN if [ "$TARGETPLATFORM" = "linux/amd64" ]; then \
