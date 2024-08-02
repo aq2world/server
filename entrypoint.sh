@@ -312,6 +312,18 @@ echo "set am_botcount $AM_BOTCOUNT" >> /aq2server/action/config.cfg
 echo "set am_team $AM_TEAM" >> /aq2server/action/config.cfg
 echo "set am_newnames $AM_NEWNAMES" >> /aq2server/action/config.cfg
 
+# Rektek bot settings
+echo "set bot_skill $BOT_SKILL" >> /aq2server/action/config.cfg
+echo "set bot_skill_threshold $BOT_SKILL_THRESHOLD" >> /aq2server/action/config.cfg
+echo "set bot_remember $BOT_REMEMBER" >> /aq2server/action/config.cfg
+echo "set bot_reaction $BOT_REACTION" >> /aq2server/action/config.cfg
+echo "set bot_maxteam $BOT_MAXTEAM" >> /aq2server/action/config.cfg
+echo "set bot_rush $BOT_RUSH" >> /aq2server/action/config.cfg
+echo "set bot_randvoice $BOT_RANDVOICE" >> /aq2server/action/config.cfg
+echo "set bot_randskill $BOT_RANDSKILL" >> /aq2server/action/config.cfg
+echo "set bot_randname $BOT_RANDNAME" >> /aq2server/action/config.cfg
+echo "set bot_chat $BOT_CHAT" >> /aq2server/action/config.cfg
+
 # Limits
 echo "set fraglimit $FRAGLIMIT" >> /aq2server/action/config.cfg
 echo "set timelimit $TIMELIMIT" >> /aq2server/action/config.cfg
