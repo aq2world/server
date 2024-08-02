@@ -18,17 +18,17 @@ COPY ./bots/. /aq2server/action/bots/
 
 # Download and extract latest Q2Pro, TNG, and Q2Admin builds
 RUN if [ "$TARGETPLATFORM" = "linux/amd64" ]; then \
-        ARCH=gcc; \
+        export ARCH=x86_64; \
         wget -qnv https://github.com/actionquake/q2pro/releases/latest/download/q2pro-lin-gcc-${ARCH}.zip && \
         unzip q2pro-lin-gcc-${ARCH}.zip && \
         mv q2proded /aq2server/q2proded && \
-        mv game${ARCH}.so /aq2server/action/game${ARCH}.so; \
+        mv game${ARCH}.so /aq2server/action/game${ARCH}.real.so \
     elif [ "$TARGETPLATFORM" = "linux/arm64" ]; then \
-        ARCH=arm64; \
+        export ARCH=arm64; \
         wget -qnv https://github.com/actionquake/q2pro/releases/latest/download/q2pro-lin-${ARCH}.zip && \
         unzip q2pro-lin-${ARCH}.zip && \
         mv q2proded /aq2server/q2proded && \
-        mv game${ARCH}.so /aq2server/action/game${ARCH}.so; \
+        mv game${ARCH}.so /aq2server/action/game${ARCH}.real.so \
     fi
 
 # Make stuff executable
