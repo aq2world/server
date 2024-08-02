@@ -19,7 +19,7 @@ COPY ./bots/. /aq2server/action/bots/
 # Download and extract latest Q2Pro, TNG, and Q2Admin builds
 RUN if [ "$TARGETPLATFORM" = "linux/amd64" ]; then \
         ARCH=gcc; \
-        wget -qnv https://github.com/actionquake/q2pro/releases/latest/download/q2pro-lin-${ARCH}.zip && \
+        wget -qnv https://github.com/actionquake/q2pro/releases/latest/download/q2pro-lin-gcc-${ARCH}.zip && \
         unzip q2pro-lin-${ARCH}.zip && \
         mv q2proded /aq2server/q2proded && \
         mv game${ARCH}.so /aq2server/action/game${ARCH}.so; \
