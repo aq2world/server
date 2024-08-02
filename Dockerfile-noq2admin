@@ -22,13 +22,13 @@ RUN if [ "$TARGETPLATFORM" = "linux/amd64" ]; then \
         wget -qnv https://github.com/actionquake/q2pro/releases/latest/download/q2pro-lin-gcc-${ARCH}.zip && \
         unzip q2pro-lin-gcc-${ARCH}.zip && \
         mv q2proded /aq2server/q2proded && \
-        mv game${ARCH}.so /aq2server/action/game${ARCH}.real.so \
+        mv game${ARCH}.so /aq2server/action/game${ARCH}.so; \
     elif [ "$TARGETPLATFORM" = "linux/arm64" ]; then \
         export ARCH=arm64; \
         wget -qnv https://github.com/actionquake/q2pro/releases/latest/download/q2pro-lin-${ARCH}.zip && \
         unzip q2pro-lin-${ARCH}.zip && \
         mv q2proded /aq2server/q2proded && \
-        mv game${ARCH}.so /aq2server/action/game${ARCH}.real.so \
+        mv game${ARCH}.so /aq2server/action/game${ARCH}.so; \
     fi
 
 # Make stuff executable
