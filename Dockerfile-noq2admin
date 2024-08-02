@@ -32,7 +32,7 @@ RUN if [ "$TARGETPLATFORM" = "linux/amd64" ]; then \
     fi
 
 # Make stuff executable
-RUN chmod +x /aq2server/q2proded /aq2server/action/game*.so /aq2server/plugins/mvd_transfer.sh
+RUN chmod +x /aq2server/q2proded /aq2server/action/game*.so
 
 FROM ubuntu:22.04
 ENV DEBIAN_FRONTEND=noninteractive
