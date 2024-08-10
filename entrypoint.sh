@@ -323,6 +323,9 @@ echo "set bot_randvoice $BOT_RANDVOICE" >> /aq2server/action/config.cfg
 echo "set bot_randskill $BOT_RANDSKILL" >> /aq2server/action/config.cfg
 echo "set bot_randname $BOT_RANDNAME" >> /aq2server/action/config.cfg
 echo "set bot_chat $BOT_CHAT" >> /aq2server/action/config.cfg
+echo "set bot_personality $BOT_PERSONALITY" >> /aq2server/action/config.cfg
+echo "set bot_ragequit $BOT_RAGEQUIT" >> /aq2server/action/config.cfg
+echo "set bot_teamplay $BOT_TEAMPLAY" >> /aq2server/action/config.cfg
 
 # Limits
 echo "set fraglimit $FRAGLIMIT" >> /aq2server/action/config.cfg
