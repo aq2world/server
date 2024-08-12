@@ -44,7 +44,7 @@ RUN chmod +x /aq2server/q2proded /aq2server/action/game*.so /aq2server/plugins/m
 
 FROM ubuntu:22.04
 ENV DEBIAN_FRONTEND=noninteractive
-RUN apt-get update && apt-get install --no-install-recommends nano wget curl lua5.1 liblua5.1-0-dev libcurl3-gnutls s3cmd ca-certificates -y && update-ca-certificates
+RUN apt-get update && apt-get install --no-install-recommends nano wget curl lua5.1 liblua5.1-0-dev libcurl3-gnutls s3cmd ca-certificates libjansson-dev -y && update-ca-certificates
 
 COPY --from=buildstage /aq2server /aq2server
 # Copy and set entrypoint
@@ -318,6 +318,9 @@ ENV BOT_RANDVOICE 1
 ENV BOT_RANDSKILL 10
 ENV BOT_RANDNAME 1
 ENV BOT_CHAT 0
+ENV BOT_PERSONALITY 0
+ENV BOT_RAGEQUIT 0
+ENV BOT_TEAMPLAY 1
 
 # Limits
 ENV FRAGLIMIT 0

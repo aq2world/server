@@ -1,0 +1,61 @@
+{
+    "bots": {
+      "Mister Tee": {
+        "skin": "male/babarracuda",
+        "weapon_prefs": [-0.6, 0.2, 0.5, -0.7, 0.1, -0.8, 0.4, -0.9, 0.3],
+        "item_prefs": [0.6, 0.7, 0.8, 0.9, 1.0, 1.0],
+        "map_prefs": {
+          "teamjungle": 0.11,
+          "plaza": 0.67
+        },
+        "combat_demeanor": 0.35,
+        "chat_demeanor": -0.89
+      },
+      "jewelz": {
+        "skin": "male/jules",
+        "weapon_prefs": [-0.6, 0.2, 0.5, -0.7, 0.1, -0.8, 0.4, -0.9, 0.3],
+        "item_prefs": [0.6, 0.7, 0.8, 0.9, 1.0, 1.0],
+        "map_prefs": {
+          "teamjungle": 0.11,
+          "plaza": 0.67
+        },
+        "combat_demeanor": -0.45,
+        "chat_demeanor": 0.41
+      },
+      "dreamer": {
+        "skin": "male/adidas",
+        "weapon_prefs": [-0.6, 0.2, 0.5, -0.7, 0.1, -0.8, 0.4, -0.9, 0.3],
+        "item_prefs": [0.6, 0.7, 0.8, 0.9, 1.0, 1.0],
+        "map_prefs": {
+          "teamjungle": 0.11,
+          "plaza": 0.67,
+          "kingslanding": 0.9
+        },
+        "combat_demeanor": 0.45,
+        "chat_demeanor": -0.3
+      },
+      "Maple": {
+        "skin": "male/leaf",
+        "weapon_prefs": [-0.6, 0.2, 0.5, -0.7, 0.1, -0.8, 0.4, -0.9, 0.3],
+        "item_prefs": [0.6, 0.7, 0.8, 0.9, 1.0, 1.0],
+        "map_prefs": {
+          "teamjungle": 0.11,
+          "plaza": 0.67
+        },
+        "combat_demeanor": -0.45,
+        "chat_demeanor": 0.41
+      },
+      "RussianAgent": {
+        "skin": "male/kgb",
+        "weapon_prefs": [-0.6, 0.2, 0.5, -0.7, 0.1, -0.8, 0.4, -0.9, 0.3],
+        "item_prefs": [0.6, 0.7, 0.8, 0.9, 1.0, 1.0],
+        "map_prefs": {
+          "teamjungle": 0.11,
+          "plaza": 0.67,
+          "kingslanding": 0.9
+        },
+        "combat_demeanor": 0.45,
+        "chat_demeanor": -0.3
+      }
+    }
+  }
