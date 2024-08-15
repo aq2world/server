@@ -7315,7 +7315,6 @@ Oloxina
 Pabanise
 Parge
 Reyanna
-Reyanna
 Rina
 Sesa
 Shaed
@@ -8220,7 +8219,6 @@ Zanna
 Zara
 Zaria
 Zarina
-Zelda
 Zelda
 Zelia
 Zelie
