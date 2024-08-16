@@ -36,7 +36,8 @@ jobs:
           aws-region: 'us-east-1'
           aws-bucket: ${{ secrets.AWS_BUCKET }}
           file-path: 'navmesh.zip'
-          destination-dir: '/action/bots/'
+          destination-dir: 'action/bots/'
+          bucket-root: '/'
       
       - name: Checkout aq2-tng
         uses: actions/checkout@v4
