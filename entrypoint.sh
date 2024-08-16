@@ -62,7 +62,7 @@ do
 done
 
 ## Download and extract the bot navmesh zip file from S3
-wget --timestamping "${baseUrl}/bots/nav/navmesh.zip" -O "/aq2server/navmesh.zip"
+wget --timestamping "${baseUrl}/bots/navmesh.zip" -O "/aq2server/navmesh.zip"
 unzip -o /aq2server/navmesh.zip -d /aq2server/action/
 
 ## Adapt this for other models skins once true_hitbox supports them
