@@ -23,6 +23,22 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
       
+      ## Generate navmesh zip file and upload to S3
+      - name: Generate navmesh archive
+        run: |
+          zip -r navmesh.zip bots/nav
+
+      - name: Upload navmesh to S3
+        uses: hkusu/s3-upload-action@v2
+        with:
+          aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY }}
+          aws-secret-access-key: ${{ secrets.AWS_SECRET_KEY}}
+          aws-region: 'us-east-1'
+          aws-bucket: ${{ secrets.AWS_BUCKET }}
+          file-path: 'navmesh.zip'
+          destination-dir: 'action/bots/'
+          bucket-root: '/'
+      
       - name: Checkout aq2-tng
         uses: actions/checkout@v4
         with:

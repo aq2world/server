@@ -61,6 +61,10 @@ do
   wget -q --timestamping "${scenebaseUrl}/tng/${scene}.esp" -O "/aq2server/action/tng/${scene}.esp"
 done
 
+## Download and extract the bot navmesh zip file from S3
+wget --timestamping "${baseUrl}/bots/nav/navmesh.zip" -O "/aq2server/navmesh.zip"
+unzip -o /aq2server/navmesh.zip -d /aq2server/action/
+
 ## Adapt this for other models skins once true_hitbox supports them
 # Don't download skins for now, this was just a test
 
