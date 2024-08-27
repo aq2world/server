@@ -4,9 +4,9 @@ author=darksaint
 name=Urban Gang Wars
 
 [respawn]
-red=10
-blue=10
-green=10
+red=7
+blue=7
+green=7
 
 [spawns]
 red=<274 1165 446 -148>,<553 -293 277 90>,<-783 -64 444 -60>,<342 632 319 180>
@@ -19,18 +19,18 @@ name=Tower Window
 
 [red_team]
 name=The B-Team
-leader_name=B.A. Barracuda
+leader_name=Mister Rogers
 skin=male/ctf_r
-leader_skin=male/babarracuda
+leader_skin=male/ctf_vip_r
 
 [blue_team]
 name=Peacekeepers
-leader_name=Frank The Cop
+leader_name=Mister McFeely
 skin=male/ctf_b
-leader_skin=male/blues
+leader_skin=male/ctf_vip_b
 
 [green_team]
 name=Landscaping Crew
-leader_name=The Incredible Chulk
+leader_name=King Friday
 skin=male/ctf_g
-leader_skin=male/hulk2
+leader_skin=male/ctf_vip_g

@@ -50,19 +50,23 @@ do
 done
 # End ent downloads
 
-## Download the latest Espionage scenes
-wget --timestamping "${baseUrl}/server/fullscenelist.ini" -O "/aq2server/action/scenelist.ini"
+# ## Download the latest Espionage scenes
+# wget --timestamping "${baseUrl}/server/fullscenelist.ini" -O "/aq2server/action/scenelist.ini"
 
-## `aqtion` branch has the latest scenes.  Not using Amazon S3 because it caches files and doesn't always get the latest.
-scenebaseUrl="https://raw.githubusercontent.com/actionquake/aq2-tng/aqtion/action"
+# ## `aqtion` branch has the latest scenes.  Not using Amazon S3 because it caches files and doesn't always get the latest.
+# scenebaseUrl="https://raw.githubusercontent.com/actionquake/aq2-tng/aqtion/action"
 
-cat /aq2server/action/scenelist.ini | while read scene
-do
-  wget -q --timestamping "${scenebaseUrl}/tng/${scene}.esp" -O "/aq2server/action/tng/${scene}.esp"
-done
+# cat /aq2server/action/scenelist.ini | while read scene
+# do
+#   wget -q --timestamping "${scenebaseUrl}/tng/${scene}.esp" -O "/aq2server/action/tng/${scene}.esp"
+# done
+
+## Download the latest Espionage, Domination and CTF files
+wget "${baseUrl}/tng/tng.zip" -O "/aq2server/tng.zip"
+unzip -oq /aq2server/tng.zip -d /aq2server/action/
 
 ## Download and extract the bot navmesh zip file from S3
-wget --timestamping "${baseUrl}/bots/navmesh.zip" -O "/aq2server/navmesh.zip"
+wget "${baseUrl}/bots/navmesh.zip" -O "/aq2server/navmesh.zip"
 unzip -oq /aq2server/navmesh.zip -d /aq2server/action/
 
 ## Adapt this for other models skins once true_hitbox supports them

@@ -4,9 +4,9 @@ author=darksaint
 name=Get the Fish!
 
 [respawn]
-red=10
-blue=10
-green=10
+red=8
+blue=8
+green=8
 
 [spawns]
 red=<1079 206 -660 180>,<1043 -496 -570 140>
@@ -24,6 +24,6 @@ leader_skin=male/aqgvillain
 
 [blue_team]
 name=The EPA
-leader_name=Frank The Cop
+leader_name=Gordon
 skin=male/ctf_b
-leader_skin=male/bravo
+leader_skin=male/ctf_vip_b
