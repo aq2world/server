@@ -441,9 +441,14 @@ echo "set stat_apikey $STAT_APIKEY" >> /aq2server/action/config.cfg
 
 ## Server/Discord announcement info
 echo "set sv_curl_enable $SV_CURL_ENABLE" >> /aq2server/action/config.cfg
-echo "set server_announce_url $SERVER_ANNOUNCE_URL" >> /aq2server/action/config.cfg
-echo "set sv_curl_discord_chat_url $SV_CURL_DISCORD_CHAT_URL" >> /aq2server/action/config.cfg
+echo "set sv_curl_stat_enable $SV_CURL_STAT_ENABLE" >> /aq2server/action/config.cfg
+echo "set sv_discord_announce_enable $SV_DISCORD_ANNOUNCE_ENABLE" >> /aq2server/action/config.cfg
+echo "set sv_aws_access_key $SV_AWS_ACCESS_KEY" >> /aq2server/action/config.cfg
+echo "set sv_aws_secret_key $SV_AWS_SECRET_KEY" >> /aq2server/action/config.cfg
+echo "set sv_curl_discord_info_url $SV_CURL_DISCORD_INFO_URL" >> /aq2server/action/config.cfg
+echo "set sv_curl_discord_pickup_url $SV_CURL_DISCORD_PICKUP_URL" >> /aq2server/action/config.cfg
 echo "set sv_curl_stat_api_url $SV_CURL_STAT_API_URL" >> /aq2server/action/config.cfg
+echo "set msgflags $MSGFLAGS" >> /aq2server/action/config.cfg
 
 # Load map
 echo "map $default_map" >> /aq2server/action/config.cfg
