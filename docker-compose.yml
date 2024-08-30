@@ -2,9 +2,8 @@ version: "3"
 
 services:
   server:
-    container_name: server
-    build: .
-    image: aqtiongame/server:v49
+    container_name: tp1
+    image: aqtiongame/server:v50
     ports:
       - "27910:27910/udp"
       - "27910:27910/tcp"
@@ -31,8 +30,12 @@ services:
      - ROTATION=actcity2,wizs,time,teamjungle
      - MAP=teamjungle
     volumes:
-     - ./tp1.motd:/aq2server/action/motd.txt:ro
      - maps:/aq2server/action/maps
+     - logs:/aq2server/action/logs
+     - ./skins:/aq2server/action/players/
+     - ./demos:/aq2server/action/demos
+     - ./motds/comm.motd:/aq2server/action/motd.txt
+     - ./highscores:/aq2server/action/highscores
 
 volumes:
   maps:
