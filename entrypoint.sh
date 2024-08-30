@@ -83,11 +83,34 @@ unzip -oq /aq2server/navmesh.zip -d /aq2server/action/
 # done
 
 # Get IP address and convert it into a decimal + port (server_id uniqueness)
+# Function to get the server IP in decimal format
 ip2dec () {
-    local a b c d ip=$(curl -q -s http://checkip.amazonaws.com/)
-    IFS=. read -r a b c d <<< "$ip"
+    local a b c d
+    IFS=. read -r a b c d <<< "$1"
     printf '%d\n' "$((a * 256 ** 3 + b * 256 ** 2 + c * 256 + d))"
 }
+
+# Function to get the server IP in dotted-decimal notation
+get_server_ip () {
+    echo "$1"
+}
+
+# Retrieve the IP address once
+server_ip=$(curl -q -s http://checkip.amazonaws.com/)
+
+# Get the decimal representation of the IP address
+decimal_ip=$(ip2dec "$server_ip")
+
+# Sets the server_id
+if [ "$decimal_ip" -gt 0 ]; then
+  server_id="S${decimal_ip}${PORT}"
+else
+  echo "I could not find your public IP!"
+  removewhitespace=$(echo ${HOSTNAME} | tr -d '[:space:]')
+  server_id="S${removewhitespace}${PORT}"
+fi
+echo "My server_id is ${server_id}"
+echo "My server_ip is ${server_ip}"
 
 # motd.txt
 echo $MOTD > /aq2server/action/motd.txt
@@ -458,22 +481,11 @@ sed -i "s-AWS_ACCESS_KEY-$AWS_ACCESS_KEY-g" /home/admin/.s3cfg
 sed -i "s-AWS_SECRET_KEY-$AWS_SECRET_KEY-g" /home/admin/.s3cfg
 sed -i "s%SERVERTARGETDIR%$SERVERTARGETDIR%g" /aq2server/plugins/mvd_transfer.sh
 
-# Start the server!
-## Sets the server_id
-if [ ip2dec > 0 ]; then
-  SERVERID="S$(ip2dec)${PORT}"
-else
-  echo "I could not find your public IP!"
-  removewhitespace=$(echo ${HOSTNAME} | tr -d '[:space:]')
-  SERVERID="S${removewhitespace}${PORT}"
-fi
-echo "My server_id is ${SERVERID}"
-
 # TNG IRC Bot
 echo "set ircserver $IRC_SERVER" >> /aq2server/action/config.cfg
 echo "set ircchannel $IRC_CHANNEL" >> /aq2server/action/config.cfg
-echo "set ircuser $SERVERID" >> /aq2server/action/config.cfg
+echo "set ircuser $server_id" >> /aq2server/action/config.cfg
 echo "set ircbot $IRC_BOT" >> /aq2server/action/config.cfg
 
-
-/aq2server/q2proded +set game action +set net_port $PORT +exec config.cfg +set q2a_config $Q2A_CONFIG +seta server_id $SERVERID
+# Start the server!
+/aq2server/q2proded +set game action +set net_port $PORT +exec config.cfg +set q2a_config $Q2A_CONFIG +seta server_id $server_id +seta server_ip $server_ip
