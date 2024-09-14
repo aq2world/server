@@ -7,7 +7,7 @@ name: Packaging
 
 jobs:
   packaging:
-    name: "Zip up navmesh and bots"
+    name: "Zip up content and upload to S3"
     runs-on: ubuntu-latest
     steps:
       - name: 'Cleanup build folder'
@@ -25,6 +25,11 @@ jobs:
         run: |
           zip -r navmesh.zip bots
 
+      ## Package CTF, DOM and ESP files into zip file and upload to S3
+      - name: Generate CTF, DOM and ESP archive
+        run: |
+          zip -r tng.zip tng
+
       - name: Upload navmesh to S3
         uses: hkusu/s3-upload-action@v2
         with:
@@ -34,4 +39,15 @@ jobs:
           aws-bucket: ${{ secrets.AWS_BUCKET }}
           file-path: 'navmesh.zip'
           destination-dir: 'action/bots/'
+          bucket-root: '/'
+
+      - name: Upload tng files to S3
+        uses: hkusu/s3-upload-action@v2
+        with:
+          aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY }}
+          aws-secret-access-key: ${{ secrets.AWS_SECRET_KEY}}
+          aws-region: 'us-east-1'
+          aws-bucket: ${{ secrets.AWS_BUCKET }}
+          file-path: 'tng.zip'
+          destination-dir: 'action/tng/'
           bucket-root: '/'

@@ -19,19 +19,19 @@ name=Casino
 
 [red_team]
 name=The B-Team
-leader_name=B.A. Barracuda
+leader_name=Mister Bigtime
 skin=male/ctf_r
-leader_skin=male/babarracuda
+leader_skin=male/ctf_vip_r
 
 [blue_team]
 name=Peacekeepers
-leader_name=Frank The Cop
+leader_name=Frankie Blueshoes
 skin=male/ctf_b
-leader_skin=male/blues
+leader_skin=male/ctf_vip_b
 
 [green_team]
 name=Landscaping Crew
-leader_name=The Incredible Chulk
+leader_name=Professor G
 skin=male/ctf_g
-leader_skin=male/hulk2
+leader_skin=male/ctf_vip_g
 

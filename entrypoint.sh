@@ -50,20 +50,24 @@ do
 done
 # End ent downloads
 
-## Download the latest Espionage scenes
-wget --timestamping "${baseUrl}/server/fullscenelist.ini" -O "/aq2server/action/scenelist.ini"
+# ## Download the latest Espionage scenes
+# wget --timestamping "${baseUrl}/server/fullscenelist.ini" -O "/aq2server/action/scenelist.ini"
 
-## `aqtion` branch has the latest scenes.  Not using Amazon S3 because it caches files and doesn't always get the latest.
-scenebaseUrl="https://raw.githubusercontent.com/actionquake/aq2-tng/aqtion/action"
+# ## `aqtion` branch has the latest scenes.  Not using Amazon S3 because it caches files and doesn't always get the latest.
+# scenebaseUrl="https://raw.githubusercontent.com/actionquake/aq2-tng/aqtion/action"
 
-cat /aq2server/action/scenelist.ini | while read scene
-do
-  wget -q --timestamping "${scenebaseUrl}/tng/${scene}.esp" -O "/aq2server/action/tng/${scene}.esp"
-done
+# cat /aq2server/action/scenelist.ini | while read scene
+# do
+#   wget -q --timestamping "${scenebaseUrl}/tng/${scene}.esp" -O "/aq2server/action/tng/${scene}.esp"
+# done
+
+## Download the latest Espionage, Domination and CTF files
+wget "${baseUrl}/tng/tng.zip" -O "/aq2server/tng.zip"
+unzip -oq /aq2server/tng.zip -d /aq2server/action/
 
 ## Download and extract the bot navmesh zip file from S3
-wget --timestamping "${baseUrl}/bots/navmesh.zip" -O "/aq2server/navmesh.zip"
-unzip -oq /aq2server/navmesh.zip -d /aq2server/action/ && rm -rf /aq2server/navmesh.zip
+wget "${baseUrl}/bots/navmesh.zip" -O "/aq2server/navmesh.zip"
+unzip -oq /aq2server/navmesh.zip -d /aq2server/action/
 
 ## Adapt this for other models skins once true_hitbox supports them
 # Don't download skins for now, this was just a test
@@ -79,11 +83,34 @@ unzip -oq /aq2server/navmesh.zip -d /aq2server/action/ && rm -rf /aq2server/navm
 # done
 
 # Get IP address and convert it into a decimal + port (server_id uniqueness)
+# Function to get the server IP in decimal format
 ip2dec () {
-    local a b c d ip=$(curl -q -s http://checkip.amazonaws.com/)
-    IFS=. read -r a b c d <<< "$ip"
+    local a b c d
+    IFS=. read -r a b c d <<< "$1"
     printf '%d\n' "$((a * 256 ** 3 + b * 256 ** 2 + c * 256 + d))"
 }
+
+# Function to get the server IP in dotted-decimal notation
+get_server_ip () {
+    echo "$1"
+}
+
+# Retrieve the IP address once
+server_ip=$(curl -q -s http://checkip.amazonaws.com/)
+
+# Get the decimal representation of the IP address
+decimal_ip=$(ip2dec "$server_ip")
+
+# Sets the server_id
+if [ "$decimal_ip" -gt 0 ]; then
+  server_id="S${decimal_ip}${PORT}"
+else
+  echo "I could not find your public IP!"
+  removewhitespace=$(echo ${HOSTNAME} | tr -d '[:space:]')
+  server_id="S${removewhitespace}${PORT}"
+fi
+echo "My server_id is ${server_id}"
+echo "My server_ip is ${server_ip}"
 
 # motd.txt
 echo $MOTD > /aq2server/action/motd.txt
@@ -329,7 +356,8 @@ echo "set bot_randname $BOT_RANDNAME" >> /aq2server/action/config.cfg
 echo "set bot_chat $BOT_CHAT" >> /aq2server/action/config.cfg
 echo "set bot_personality $BOT_PERSONALITY" >> /aq2server/action/config.cfg
 echo "set bot_ragequit $BOT_RAGEQUIT" >> /aq2server/action/config.cfg
-echo "set bot_teamplay $BOT_TEAMPLAY" >> /aq2server/action/config.cfg
+echo "set bot_countashuman $BOT_COUNTASHUMAN" >> /aq2server/action/config.cfg
+echo "set bot_debug $BOT_DEBUG" >> /aq2server/action/config.cfg
 
 # Limits
 echo "set fraglimit $FRAGLIMIT" >> /aq2server/action/config.cfg
@@ -436,9 +464,14 @@ echo "set stat_apikey $STAT_APIKEY" >> /aq2server/action/config.cfg
 
 ## Server/Discord announcement info
 echo "set sv_curl_enable $SV_CURL_ENABLE" >> /aq2server/action/config.cfg
-echo "set server_announce_url $SERVER_ANNOUNCE_URL" >> /aq2server/action/config.cfg
-echo "set sv_curl_discord_chat_url $SV_CURL_DISCORD_CHAT_URL" >> /aq2server/action/config.cfg
+echo "set sv_curl_stat_enable $SV_CURL_STAT_ENABLE" >> /aq2server/action/config.cfg
+echo "set sv_discord_announce_enable $SV_DISCORD_ANNOUNCE_ENABLE" >> /aq2server/action/config.cfg
+echo "set sv_aws_access_key $SV_AWS_ACCESS_KEY" >> /aq2server/action/config.cfg
+echo "set sv_aws_secret_key $SV_AWS_SECRET_KEY" >> /aq2server/action/config.cfg
+echo "set sv_curl_discord_info_url $SV_CURL_DISCORD_INFO_URL" >> /aq2server/action/config.cfg
+echo "set sv_curl_discord_pickup_url $SV_CURL_DISCORD_PICKUP_URL" >> /aq2server/action/config.cfg
 echo "set sv_curl_stat_api_url $SV_CURL_STAT_API_URL" >> /aq2server/action/config.cfg
+echo "set msgflags $MSGFLAGS" >> /aq2server/action/config.cfg
 
 # Load map
 echo "map $default_map" >> /aq2server/action/config.cfg
@@ -448,22 +481,11 @@ sed -i "s-AWS_ACCESS_KEY-$AWS_ACCESS_KEY-g" /home/admin/.s3cfg
 sed -i "s-AWS_SECRET_KEY-$AWS_SECRET_KEY-g" /home/admin/.s3cfg
 sed -i "s%SERVERTARGETDIR%$SERVERTARGETDIR%g" /aq2server/plugins/mvd_transfer.sh
 
-# Start the server!
-## Sets the server_id
-if [ ip2dec > 0 ]; then
-  SERVERID="S$(ip2dec)${PORT}"
-else
-  echo "I could not find your public IP!"
-  removewhitespace=$(echo ${HOSTNAME} | tr -d '[:space:]')
-  SERVERID="S${removewhitespace}${PORT}"
-fi
-echo "My server_id is ${SERVERID}"
-
 # TNG IRC Bot
 echo "set ircserver $IRC_SERVER" >> /aq2server/action/config.cfg
 echo "set ircchannel $IRC_CHANNEL" >> /aq2server/action/config.cfg
-echo "set ircuser $SERVERID" >> /aq2server/action/config.cfg
+echo "set ircuser $server_id" >> /aq2server/action/config.cfg
 echo "set ircbot $IRC_BOT" >> /aq2server/action/config.cfg
 
-
-/aq2server/q2proded +set game action +set net_port $PORT +exec config.cfg +set q2a_config $Q2A_CONFIG +seta server_id $SERVERID
+# Start the server!
+/aq2server/q2proded +set game action +set net_port $PORT +exec config.cfg +set q2a_config $Q2A_CONFIG +seta server_id $server_id +seta server_ip $server_ip
