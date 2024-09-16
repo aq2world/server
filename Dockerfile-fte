@@ -23,8 +23,7 @@ RUN wget -qnv https://github.com/actionquake/q2pro/releases/latest/download/q2pr
     mv gamex86_64.so /aq2server/action/gamex86_64.so && \
     wget -qnv https://github.com/actionquake/fteqw/releases/latest/download/fteqw-linux64.zip && \
     unzip fteqw-linux64.zip && \
-    mv fteqw-sv64 /aq2server/fteqw-sv64; \
-
+    mv fteqw-sv64 /aq2server/fteqw-sv64;
 
 # Make stuff executable
 RUN chmod +x /aq2server/q2proded /aq2server/fteqw-sv64 /aq2server/action/game*.so
