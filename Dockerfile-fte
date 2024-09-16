@@ -25,7 +25,6 @@ RUN if [ "$TARGETPLATFORM" = "linux/amd64" ]; then \
         mv q2proded /aq2server/q2proded && \
         wget -qnv https://gameassets.aq2world.com/action/aqtion/gamex86_64.so && \
         mv gamex86_64.so /aq2server/action/gamex86_64.so && \
-        mv game${ARCH}.so /aq2server/action/game${ARCH}.so && \
         wget -qnv https://github.com/actionquake/fteqw/releases/latest/download/fteqw-linux64.zip && \
         unzip fteqw-linux64.zip && \
         mv fteqw-sv64 /aq2server/fteqw-sv64; \
