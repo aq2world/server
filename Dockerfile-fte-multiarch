@@ -1,5 +1,8 @@
 # Dockerfile
 FROM ubuntu:22.04 AS buildstage
+ARG TARGETPLATFORM
+
+RUN echo "Building for $TARGETPLATFORM"
 
 # Install dependencies
 RUN apt-get update && \
@@ -15,16 +18,27 @@ COPY q2a/* /aq2server/
 # COPY ./bots/. /aq2server/action/bots/
 
 # Download and extract latest Q2Pro, TNG, and Q2Admin builds
-
-RUN wget -qnv https://github.com/actionquake/q2pro/releases/latest/download/q2pro-lin-gcc-x86_64.zip && \
-    unzip q2pro-lin-gcc-x86_64.zip && \
-    mv q2proded /aq2server/q2proded && \
-    wget -qnv https://gameassets.aq2world.com/action/aqtion/gamex86_64.so && \
-    mv gamex86_64.so /aq2server/action/gamex86_64.so && \
-    wget -qnv https://github.com/actionquake/fteqw/releases/latest/download/fteqw-linux64.zip && \
-    unzip fteqw-linux64.zip && \
-    mv fteqw-sv64 /aq2server/fteqw-sv64; \
-
+RUN if [ "$TARGETPLATFORM" = "linux/amd64" ]; then \
+        export ARCH=x86_64; \
+        wget -qnv https://github.com/actionquake/q2pro/releases/latest/download/q2pro-lin-gcc-${ARCH}.zip && \
+        unzip q2pro-lin-gcc-${ARCH}.zip && \
+        mv q2proded /aq2server/q2proded && \
+        wget -qnv https://gameassets.aq2world.com/action/aqtion/gamex86_64.so && \
+        mv gamex86_64.so /aq2server/action/gamex86_64.so && \
+        wget -qnv https://github.com/actionquake/fteqw/releases/latest/download/fteqw-linux64.zip && \
+        unzip fteqw-linux64.zip && \
+        mv fteqw-sv64 /aq2server/fteqw-sv64; \
+    elif [ "$TARGETPLATFORM" = "linux/arm64" ]; then \
+        export ARCH=arm64; \
+        wget -qnv https://github.com/actionquake/q2pro/releases/latest/download/q2pro-lin-${ARCH}.zip && \
+        unzip q2pro-lin-${ARCH}.zip && \
+        mv q2proded /aq2server/q2proded && \
+        wget -qnv https://gameassets.aq2world.com/action/aqtion/gameaarch64.so && \
+        mv gameaarch64.so /aq2server/action/gameaarch64.so && \
+        wget -qnv https://github.com/actionquake/fteqw/releases/latest/download/fteqw-linuxaarch64.zip && \
+        unzip fteqw-linuxaarch64.zip && \
+        mv fteqw-sv64 /aq2server/fteqw-sv64; \
+    fi
 
 # Make stuff executable
 RUN chmod +x /aq2server/q2proded /aq2server/fteqw-sv64 /aq2server/action/game*.so
