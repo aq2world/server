@@ -6,11 +6,11 @@ on:
         required: true
 
 name: Docker Build - Multiarch FTE
-run-name: server:${{ github.event.inputs.release_tag }}
+run-name: server_fte:${{ github.event.inputs.release_tag }}
 
 jobs:
   docker_build:
-    name: "server:${{ github.event.inputs.release_tag }}"
+    name: "server_fte:${{ github.event.inputs.release_tag }}"
     runs-on: ubuntu-latest
     steps:
       - name: 'Cleanup build folder'

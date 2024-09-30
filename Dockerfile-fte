@@ -34,8 +34,8 @@ RUN apt-get update && apt-get install --no-install-recommends nano wget curl lua
 
 COPY --from=buildstage /aq2server /aq2server
 # Copy and set entrypoint
-COPY entrypoint.sh /aq2server
-ENTRYPOINT /aq2server/entrypoint.sh
+COPY entrypoint-fte.sh /aq2server
+ENTRYPOINT /aq2server/entrypoint-fte.sh
 
 # Maps and skins
 COPY fullmaplist.ini /aq2server/action/
@@ -403,6 +403,7 @@ ENV SV_CURL_DISCORD_INFO_URL "disabled"
 ENV SV_CURL_DISCORD_PICKUP_URL "disabled"
 ENV SV_CURL_STAT_API_URL "disabled"
 ENV MSGFLAGS 32
+ENV USE_PICKUP 0
 
 # Stuffcmd
 ENV ADDSTUFFCMD_BEGIN="say vers: \$version"

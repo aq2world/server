@@ -472,6 +472,7 @@ echo "set sv_curl_discord_info_url $SV_CURL_DISCORD_INFO_URL" >> /aq2server/acti
 echo "set sv_curl_discord_pickup_url $SV_CURL_DISCORD_PICKUP_URL" >> /aq2server/action/config.cfg
 echo "set sv_curl_stat_api_url $SV_CURL_STAT_API_URL" >> /aq2server/action/config.cfg
 echo "set msgflags $MSGFLAGS" >> /aq2server/action/config.cfg
+echo "set use_pickup $USE_PICKUP" >> /aq2server/action/config.cfg
 
 # Load map
 echo "map $default_map" >> /aq2server/action/config.cfg
