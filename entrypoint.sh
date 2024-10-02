@@ -395,6 +395,7 @@ echo "set unique_items $UNIQUE_ITEMS" >> /aq2server/action/config.cfg
 echo "set gun_dualmk23_enhance $GUN_DUALMK23_ENHANCE" >> /aq2server/action/config.cfg
 echo "set loud_guns $LOUD_GUNS" >> /aq2server/action/config.cfg
 echo "set sync_guns $SYNC_GUNS" >> /aq2server/action/config.cfg
+echo "set use_gren_bonk $USE_GREN_BONK" >> /aq2server/action/config.cfg
 
 # Q2proded
 echo "set g_protocol_extensions $G_PROTOCOL_EXTENSIONS" >> /aq2server/action/config.cfg
