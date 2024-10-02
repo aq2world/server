@@ -358,6 +358,7 @@ echo "set bot_chat $BOT_CHAT" >> /aq2server/action/config.cfg
 echo "set bot_personality $BOT_PERSONALITY" >> /aq2server/action/config.cfg
 echo "set bot_ragequit $BOT_RAGEQUIT" >> /aq2server/action/config.cfg
 echo "set bot_countashuman $BOT_COUNTASHUMAN" >> /aq2server/action/config.cfg
+echo "set bot_navautogen $BOT_NAVAUTOGEN" >> /aq2server/action/config.cfg
 echo "set bot_debug $BOT_DEBUG" >> /aq2server/action/config.cfg
 echo "set bot_reportasclient $BOT_REPORTASCLIENT" >> /aq2server/action/config.cfg
 
@@ -428,6 +429,7 @@ echo "alias mvdrec \"say MVD recording started: ${com_date}_${com_time}_${mapnam
 # Antilag
 echo "set sv_antilag $SV_ANTILAG" >> /aq2server/action/config.cfg
 echo "set sv_antilag_interp $SV_ANTILAG_INTERP" >> /aq2server/action/config.cfg
+echo "set sv_limp_highping $SV_LIMP_HIGHPING" >> /aq2server/action/config.cfg
 
 # Protocol 38
 echo "set use_indicators $USE_INDICATORS" >> /aq2server/action/config.cfg
