@@ -284,6 +284,7 @@ echo "set hearall $HEARALL" >> /aq2server/action/config.cfg
 echo "set silentwalk $SILENTWALK" >> /aq2server/action/config.cfg
 echo "set printrules $PRINTRULES" >> /aq2server/action/config.cfg
 echo "set timedmsgs $TIMEDMSGS" >> /aq2server/action/config.cfg
+echo "set g_highscores_dir $G_HIGHSCORES_DIR" >> /aq2server/action/config.cfg
 
 # Misc
 echo "set use_buggy_bandolier $USE_BUGGY_BANDOLIER" >> /aq2server/action/config.cfg
@@ -301,6 +302,7 @@ echo "set spectator_hud $SPECTATOR_HUD" >> /aq2server/action/config.cfg
 echo "set zoom_comp $ZOOM_COMP" >> /aq2server/action/config.cfg
 echo "set item_kit_mode $ITEM_KIT_MODE" >> /aq2server/action/config.cfg
 echo "set sv_redirect_address $SV_REDIRECT_ADDRESS" >> /aq2server/action/config.cfg
+echo "set sv_load_ent $SV_LOAD_ENT" >> /aq2server/action/config.cfg
 
 # Game mode settings
 echo "set deathmatch $DEATHMATCH" >> /aq2server/action/config.cfg
@@ -397,6 +399,7 @@ echo "set gun_dualmk23_enhance $GUN_DUALMK23_ENHANCE" >> /aq2server/action/confi
 echo "set loud_guns $LOUD_GUNS" >> /aq2server/action/config.cfg
 echo "set sync_guns $SYNC_GUNS" >> /aq2server/action/config.cfg
 echo "set use_gren_bonk $USE_GREN_BONK" >> /aq2server/action/config.cfg
+echo "set lca_grenade $LCA_GRENADE" >> /aq2server/action/config.cfg
 
 # Q2proded
 echo "set g_protocol_extensions $G_PROTOCOL_EXTENSIONS" >> /aq2server/action/config.cfg
