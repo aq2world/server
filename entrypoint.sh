@@ -347,6 +347,7 @@ echo "set am_newnames $AM_NEWNAMES" >> /aq2server/action/config.cfg
 
 # Rektek bot settings
 echo "set bot_enable $BOT_ENABLE" >> /aq2server/action/config.cfg
+echo "set bot_playercount $BOT_PLAYERCOUNT" >> /aq2server/action/config.cfg
 echo "set bot_skill $BOT_SKILL" >> /aq2server/action/config.cfg
 echo "set bot_skill_threshold $BOT_SKILL_THRESHOLD" >> /aq2server/action/config.cfg
 echo "set bot_remember $BOT_REMEMBER" >> /aq2server/action/config.cfg
