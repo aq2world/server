@@ -316,6 +316,7 @@ echo "set ctf_dropflag $CTF_DROPFLAG" >> /aq2server/action/config.cfg
 echo "set ctf_respawn $CTF_RESPAWN" >> /aq2server/action/config.cfg
 echo "set ctf_model $CTF_MODEL" >> /aq2server/action/config.cfg
 echo "set capturelimit $CAPTURELIMIT" >> /aq2server/action/config.cfg
+echo "set ctf_dyn_respawn $CTF_DYN_RESPAWN" >> /aq2server/action/config.cfg
 
 echo "set use_3teams $USE_3TEAMS" >> /aq2server/action/config.cfg
 echo "set use_tourney $USE_TOURNEY" >> /aq2server/action/config.cfg
