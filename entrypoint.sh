@@ -285,6 +285,7 @@ echo "set silentwalk $SILENTWALK" >> /aq2server/action/config.cfg
 echo "set printrules $PRINTRULES" >> /aq2server/action/config.cfg
 echo "set timedmsgs $TIMEDMSGS" >> /aq2server/action/config.cfg
 echo "set g_highscores_dir $G_HIGHSCORES_DIR" >> /aq2server/action/config.cfg
+echo "set g_highscores_countbots $G_HIGHSCORES_COUNTBOTS" >> /aq2server/action/config.cfg
 
 # Misc
 echo "set use_buggy_bandolier $USE_BUGGY_BANDOLIER" >> /aq2server/action/config.cfg
