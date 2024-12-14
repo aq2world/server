@@ -285,6 +285,7 @@ echo "set silentwalk $SILENTWALK" >> /aq2server/action/config.cfg
 echo "set printrules $PRINTRULES" >> /aq2server/action/config.cfg
 echo "set timedmsgs $TIMEDMSGS" >> /aq2server/action/config.cfg
 echo "set g_highscores_dir $G_HIGHSCORES_DIR" >> /aq2server/action/config.cfg
+echo "set g_highscores_countbots $G_HIGHSCORES_COUNTBOTS" >> /aq2server/action/config.cfg
 
 # Misc
 echo "set use_buggy_bandolier $USE_BUGGY_BANDOLIER" >> /aq2server/action/config.cfg
@@ -316,6 +317,7 @@ echo "set ctf_dropflag $CTF_DROPFLAG" >> /aq2server/action/config.cfg
 echo "set ctf_respawn $CTF_RESPAWN" >> /aq2server/action/config.cfg
 echo "set ctf_model $CTF_MODEL" >> /aq2server/action/config.cfg
 echo "set capturelimit $CAPTURELIMIT" >> /aq2server/action/config.cfg
+echo "set ctf_dyn_respawn $CTF_DYN_RESPAWN" >> /aq2server/action/config.cfg
 
 echo "set use_3teams $USE_3TEAMS" >> /aq2server/action/config.cfg
 echo "set use_tourney $USE_TOURNEY" >> /aq2server/action/config.cfg
@@ -347,6 +349,7 @@ echo "set am_newnames $AM_NEWNAMES" >> /aq2server/action/config.cfg
 
 # Rektek bot settings
 echo "set bot_enable $BOT_ENABLE" >> /aq2server/action/config.cfg
+echo "set bot_playercount $BOT_PLAYERCOUNT" >> /aq2server/action/config.cfg
 echo "set bot_skill $BOT_SKILL" >> /aq2server/action/config.cfg
 echo "set bot_skill_threshold $BOT_SKILL_THRESHOLD" >> /aq2server/action/config.cfg
 echo "set bot_remember $BOT_REMEMBER" >> /aq2server/action/config.cfg

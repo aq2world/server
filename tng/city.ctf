@@ -1,0 +1,16 @@
+[ctf]
+type=balanced
+author=darksaint
+grapple=no
+
+[respawn]
+red=6
+blue=6
+
+[flags]
+red=<-1573 -956 46>
+blue=<1942 -905 38>
+
+[spawns]
+red=<-2006 -193 50 -56>,<-825 -197 435 -164>,<-983 303 50 83>
+blue=<1647 -1746 310 17>,<966 -377 135 30>,<1059 217 183 -180>
