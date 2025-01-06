@@ -1,0 +1,16 @@
+[ctf]
+type=balanced
+author=tek^^^valkyrie
+grapple=no
+
+[respawn]
+red=6
+blue=6
+
+[flags]
+red=<764 704 238>
+blue=<2965 3249 190>
+
+[spawns]
+red=<1892 813 131 -10>,<1705 1078 238 -150>
+blue=<2519 2093 110 60>,<3317 2663 366 -80>
