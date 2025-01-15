@@ -21,6 +21,13 @@ jobs:
 
       - name: Checkout repository
         uses: actions/checkout@v3
+        
+      - name: Checkout aq2-tng
+        uses: actions/checkout@v3
+        with:
+          repository: actionquake/aq2-tng
+          path: aq2-tng
+          ref: aqtion
 
       - name: Checkout q2pro
         uses: actions/checkout@v3
