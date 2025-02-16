@@ -39,7 +39,7 @@ jobs:
           aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY }}
           aws-secret-access-key: ${{ secrets.AWS_SECRET_KEY}}
           aws-region: 'us-east-1'
-          aws-bucket: ${{ secrets.AWS_BUCKET }}
-          file-path: 'uberpak_client.pkz'
-          destination-dir: 'action/'
+          aws-bucket: ${{ secrets.AWS_BUCKET_FILES }}
+          file-path: 'uberpaks/uberpak_client.pkz'
+          destination-dir: 'files/'
           bucket-root: '/'
