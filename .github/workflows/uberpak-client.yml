@@ -21,6 +21,11 @@ jobs:
 
       - name: Checkout repository
         uses: actions/checkout@v4
+        with:
+          sparse-checkout: |
+            bots
+            tng
+            uberpaks
 
       - name: Generate client uberpak
         run: |
@@ -35,6 +40,6 @@ jobs:
           aws-secret-access-key: ${{ secrets.AWS_SECRET_KEY}}
           aws-region: 'us-east-1'
           aws-bucket: ${{ secrets.AWS_BUCKET }}
-          file-path: 'uberpak_client.zip'
+          file-path: 'uberpak_client.pkz'
           destination-dir: 'action/'
           bucket-root: '/'
