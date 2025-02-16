@@ -1,0 +1,303 @@
+FROM i386/ubuntu:18.04 AS buildstage
+
+# Install dependencies
+RUN apt-get update
+RUN DEBIAN_FRONTEND=noninteractive apt-get -y install wget build-essential libsdl2-dev libopenal-dev libpng-dev libjpeg-dev zlib1g-dev mesa-common-dev libcurl4-gnutls-dev git lua5.1 libsdl1.2-dev libsdl1.2debian liblua5.1-0-dev git gcc-7 nano
+
+# Cache hax
+#ADD "https://www.random.org/cgi-bin/randbyte?nbytes=10&format=h" skipcache
+
+# Copy stuff
+RUN mkdir /aq2server
+COPY aq2-tng /aq2-tng
+COPY q2admin /q2admin
+COPY q2pro /q2pro
+COPY q2admin.lua q2a_cw.lua q2a_cw_docker.lua /aq2server/
+
+# Compile stuff
+RUN cd /q2admin && make
+
+# Copy configs to aq2server
+RUN cp -r /aq2-tng/action /aq2server/
+COPY config/* /aq2server/action/
+
+# Copy ETE library
+COPY ete/action.scp ete/gamei386.so /aq2server/action/
+COPY ete/scenes /aq2server/action/scenes
+RUN mv /aq2server/action/gamei386.so /aq2server/action/gamei386.real.so
+
+# Copy q2admin to aq2server
+RUN cp /q2admin/gamex86_64.so /aq2server/action/gamex86_64.so
+RUN mkdir /aq2server/plugins
+RUN cp /q2admin/plugins/* /aq2server/plugins/
+
+# Copy q2pro to aq2server
+RUN cp ete/q2proded /aq2server/q2proded
+
+# Make items executable
+RUN chmod +x /aq2server/action/game* /aq2server/plugins/mvd_transfer.sh
+
+# Cache hax
+#ADD "https://www.random.org/cgi-bin/randbyte?nbytes=10&format=h" skipcache
+
+FROM i386/ubuntu:18.04
+ENV DEBIAN_FRONTEND=noninteractive
+RUN apt-get update && apt-get install --no-install-recommends nano wget curl lua5.1 liblua5.1-0-dev s3cmd ca-certificates -y && update-ca-certificates
+
+COPY --from=buildstage /aq2server /aq2server
+# Copy and set entrypoint
+COPY entrypoint.sh /aq2server
+ENTRYPOINT /aq2server/entrypoint.sh
+
+# Maps and skins
+COPY fullmaplist.ini /aq2server/action/
+COPY skinlist.ini /aq2server/action/
+RUN mkdir -p /aq2server/action/maps
+
+# Logs and Demos
+RUN mkdir /aq2server/action/logs
+RUN mkdir /aq2server/action/demos
+
+# Sounds
+COPY sndlist.ini tourney.ini /aq2server/action/
+
+# Create user and add rights to aq2server
+RUN useradd -rm -d /home/admin -s /bin/bash -g root -G sudo -u 1001 admin
+RUN chown -R admin /aq2server
+USER admin
+WORKDIR /aq2server
+
+# S3CFG for S3 demo uploads
+COPY s3cfg /home/admin/.s3cfg
+
+# motd.txt
+ENV MOTD '==================================\n AQ2 server\n=================================='
+
+# teamplay.ini
+ENV TEAM_1_NAME 'Team 1'
+ENV TEAM_1_SKIN 'male/ctf_r'
+ENV TEAM_2_NAME 'Team 2'
+ENV TEAM_2_SKIN 'male/ctf_b'
+ENV TEAM_3_NAME 'Team 3'
+ENV TEAM_3_SKIN 'male/ctf_g'
+
+# config.cfg
+# Server settings
+ENV HOSTNAME AQtion Teamplay
+ENV PORT 27910
+ENV DEDICATED 1
+ENV PUBLIC 1
+ENV MAXCLIENTS 18
+ENV SV_RESERVED_SLOTS 2
+ENV SV_FPS 10
+ENV WARMUP 20
+ENV USE_NEWSCORE 3
+ENV SKIPMOTD 0
+ENV MOTD_TIME 5
+ENV CHECK_TIME 5
+ENV RADIOLOG 0
+ENV USE_VOICE 1
+ENV USE_GHOSTS 1
+ENV MASTER  "master.quadaver.org master.q2servers.com master.aq2world.com netdome.biz master.quakeservers.net"
+ENV _ADMIN AQ2WORLD
+ENV AWS_ACCESS_KEY NONE
+ENV STAT_APIKEY ""
+ENV Q2A_CONFIG q2admin.lua
+ENV SCOREBOARD TNMPKDIA
+ENV SV_CHANGEMAPCMD ""
+
+# Passwords
+ENV RCON_PASSWORD aq2world
+ENV SV_PASSWORD ''
+ENV SV_MVD_PASSWORD aq2world
+ENV SV_RESERVED_PASSWORD ''
+
+# Map rotation
+ENV ACTIONMAPS 1
+ENV RROT 0
+ENV VROT 0
+ENV ROTATION urban2,terminal,tjt,rok,city
+
+# Lag settings
+ENV LLSOUND 1
+ENV BHOLELIMIT 0
+ENV SPLATLIMIT 0
+ENV SHELLOFF 1
+ENV SV_GIB 1
+ENV BREAKABLEGLASS 0
+ENV GLASSFRAGMENTLIMIT 0
+ENV SV_MIN_RATE 5000
+ENV SV_MAX_RATE 50000
+
+# Voting
+ENV USE_CVOTE 1
+ENV CVOTE_MIN 2
+ENV CVOTE_NEED 50
+ENV CVOTE_PASS 50
+ENV CONFIGLISTNAME configlist.ini
+ENV USE_MAPVOTE 1
+ENV MAPVOTE_MIN 2
+ENV MAPVOTE_NEED 66
+ENV MAPVOTE_PASS 50
+ENV MAPVOTE_WAITTIME 8
+ENV MV_PUBLIC 1
+ENV USE_KICKVOTE 1
+ENV KICKVOTE_MIN 2
+ENV KICKVOTE_NEED 32
+ENV KICKVOTE_PASS 29
+ENV KICKVOTE_TEMPBAN 1
+ENV VK_PUBLIC 1
+ENV KV_PUBLIC 1
+ENV MAPVOTE_NEXT 0
+ENV MAPVOTE_NEXT_TIME 0
+ENV USE_SCRAMBLEVOTE 1
+ENV SCRAMBLEVOTE_PASS 75
+ENV SCRAMBLEVOTE_MIN 4
+ENV SCRAMBLEVOTE_NEED 0
+
+# Flood protection
+ENV FLOOD_MSGS 0
+ENV FLOOD_PERSECOND 4
+ENV FLOOD_WAITDELAY 10
+ENV RADIO_REPEAT 3
+ENV RADIO_BAN 15
+ENV RADIO_TIME 2
+ENV RADIO_MAX 4
+ENV SV_CRLF 1
+
+# Teamkill parameters
+ENV MAXTEAMKILLS 3
+ENV TKBANROUNDS 0
+ENV TWBANROUNDS 0
+ENV FF_AFTERROUND 1
+
+# Download settings
+ENV ALLOW_DOWNLOAD 1
+ENV ALLOW_DOWNLOAD_SKINS 1
+ENV ALLOW_DOWNLOAD_PLAYERS 1
+ENV ALLOW_DOWNLOAD_PICS 1
+ENV ALLOW_DOWNLOAD_SOUNDS 1
+ENV SV_REDIRECT_ADDRESS ""
+ENV SV_DOWNLOADSERVER http://gameassets.aqtiongame.com/
+ENV ALLOW_DOWNLOAD_OTHERS 1
+ENV ALLOW_DOWNLOAD_MAPS 1
+ENV ALLOW_DOWNLOAD_DEMOS 1
+
+# Video checking
+ENV VIDEO_CHECK 1
+ENV VIDEO_FORCE_RESTART 0
+ENV VIDEO_CHECK_LOCKPVS 1
+ENV VIDEO_CHECK_GLCLEAR 1
+ENV VIDEO_CHECK_GLDYNAMIC 0
+ENV VIDEO_CHECKTIME 35
+ENV VIDEO_MAX_3DFX 3.5
+ENV VIDEO_MAX_3DFXAM 3.5
+ENV VIDEO_MAX_OPENGL 7.0
+
+# General settings
+ENV DMFLAGS 768
+ENV PUNISHKILLS 1
+ENV NOSCORE 0
+ENV NOHUD 0
+ENV USE_WARNINGS 1
+ENV USE_REWARDS 1
+ENV USE_BALANCER 1
+ENV USE_OLDSPAWNS 0
+ENV AUTO_MENU 1
+ENV SV_ALLOW_MAP 1
+ENV DEADTALK 0
+ENV FORCE_SKIN ""
+
+# Game mode settings
+ENV DEATHMATCH 1
+ENV TEAMPLAY 1
+ENV TEAMDM 0
+ENV CTF 0
+ENV CTF_MODE 2
+ENV USE_3TEAMS 0
+ENV USE_TOURNEY 0
+ENV MATCHMODE 0
+ENV DARKMATCH 0
+ENV DAY_CYCLE 30
+ENV AUTO_JOIN 0
+ENV AUTO_EQUIP 0
+ENV PPL_IDLETIME 10
+ENV SV_IDLEREMOVE 0
+ENV SV_IDLEKICK 0
+ENV G_SPAWN_ITEMS 0
+ENV MM_FORCETEAMTALK 0
+ENV TRUE_HITBOX 0
+
+# Limits
+ENV FRAGLIMIT 0
+ENV TIMELIMIT 20
+ENV ROUNDLIMIT 0
+ENV ROUNDTIMELIMIT 3
+ENV LIMCHASECAM 0
+ENV KNIFELIMIT 40
+ENV IPLIMIT 0
+
+# Weapons and items
+ENV ALLWEAPON 0
+ENV WEAPONS 1
+ENV WP_FLAGS 511
+ENV ALLITEM 0
+ENV ITM_FLAGS 63
+ENV IR 1
+ENV NEW_IRVISION 0
+ENV TGREN 1
+ENV DMWEAPON 'MK23 Pistol'
+ENV HC_SINGLE 1
+ENV USE_CLASSIC 0
+ENV DM_CHOOSE 1
+ENV DM_SHIELD 30
+
+# Q2proded
+ENV LOUD_GUNS 0
+ENV SV_UPTIME 1
+ENV SV_CALCPINGS_METHOD 2
+ENV SV_WATERJUMP_HACK 1
+ENV SV_PACKETDUP_HACK 1
+ENV NET_MAXMSGLEN 0
+ENV LOGFILE_FLUSH 2
+ENV LOGFILE 2
+ENV LOGFILE_NAME $PORT
+ENV LOGFILE_PREFIX "@ [%Y-%m-%d %H:%M] "
+
+# MVD
+ENV SV_MVD_ENABLE 2
+ENV SV_MVD_MAXCLIENTS 2
+ENV MVD_DEFAULT_MAP wfall
+ENV SV_MVD_MAXTIME 30
+ENV MVD_SNAPS 2
+ENV MVD_WAIT_DELAY 12
+ENV SV_MVD_NOMSGS 0
+ENV SV_MVD_NOGUN 0
+
+# Antilag
+ENV SV_ANTILAG 1
+ENV SV_ANTILAG_INTERP 0
+
+# Espionage (non-TNG)
+ENV ETE_SCRIPTS 1
+ENV ETE_OGL 0
+ENV ETE_MATCHPLAY 0
+ENV ETE_MAXVOLUNTEERS 0
+ENV ETE_MUSTVOLUNTEER 0
+ENV ETE_ESCORE 1
+ENV ETE_ALLOWMPELP 1
+ENV ETE_ALLRADIO 1
+ENV ETE_USEDEFSCENARIO 1
+ENV ETE_DEFSCENARIONAME "Assassinate The Leader"
+ENV ETE_CARRIERRETURN 1
+ENV ETE_ENHANCEDSLIPPERS 1
+ENV ETE_ALLOWVOTEMAP 1
+ENV ETE_VOTEMAPPERCENT 50
+ENV ETE_ALLOWVOTE 1
+ENV ETE_VOTEWAIT 120
+ENV ETE_SVAUTHOR 0
+
+# TNG IRC Bot
+ENV IRC_SERVER "irc.aq2world.com"
+ENV IRC_CHANNEL "#servermsg"
+ENV IRC_BOT 0
