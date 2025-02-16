@@ -1,0 +1,40 @@
+on:
+  workflow_dispatch:
+  push:
+    branches: [master]
+    paths:
+      - 'uberpaks/maps/**'
+
+name: Server Uberpak
+
+jobs:
+  packaging:
+    name: "Zip up content and upload to S3"
+    runs-on: ubuntu-latest
+    steps:
+      - name: 'Cleanup build folder'
+        run: |
+          ls -la ./
+          rm -rf ./* || true
+          rm -rf ./.??* || true
+          ls -la ./
+
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Generate server uberpak
+        run: |
+          cd uberpaks
+          mv ../bots ../tng .
+          zip -r uberpak_server.pkz bots tng maps
+
+      - name: Upload uberpak_server to S3
+        uses: hkusu/s3-upload-action@v2
+        with:
+          aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY }}
+          aws-secret-access-key: ${{ secrets.AWS_SECRET_KEY}}
+          aws-region: 'us-east-1'
+          aws-bucket: ${{ secrets.AWS_BUCKET }}
+          file-path: 'uberpak_server.zip'
+          destination-dir: 'action/'
+          bucket-root: '/'

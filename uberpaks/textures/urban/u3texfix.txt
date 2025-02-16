@@ -1,0 +1,10 @@
+
+01-25-99
+
+=====================================================
+The wal file in this zip (wall1.wal) is missing from the current version of Urban3. Extract the texture from this zip file making sure that you select "Extract to the \Quake2\action\" on your system and check the "Use Directory Names" box so that the file ends up in the right folder.  The texture should end up in the "Quake2\action\textures\urban\" folder/dir on your system.
+=====================================================
+Negative Creep
+AQMD
+
+Please contact the AQMD Help Desk (mapdepot@hotmail.com) if you have any problems regarding this or any other map on AQMD.
