@@ -42,7 +42,7 @@ jobs:
 
       - name: Upload uberpak_client to S3
         run: |
-          s3cmd put uberpak_client.pkz s3://${{ secrets.AWS_BUCKET_FILES }}/files/
+          s3cmd put uberpaks/uberpak_client.pkz s3://${{ secrets.AWS_BUCKET_FILES }}/files/
 
       # - name: Upload uberpak_client to S3
       #   uses: hkusu/s3-upload-action@v2
