@@ -1,0 +1,53 @@
+-----<CEMAL>---------------------------------------------------------
+-----<General Information>-------------------------------------------
+
+Title		: Hard Core runnings in Cemalia
+Filename	: cemal.zip
+Date		: 1.07.2004
+Author		: Genie
+Author Email	: genie@tukikohta.net
+BSPname		: cemal.bsp
+ZIP Size (KB)	: 4942
+
+-----<Map Information>-----------------------------------------------
+
+Map Description		: A small map
+How Many Players	: 4-12(8)
+New Textures		: Yes
+Single Player   	: No
+Cooperative     	: No
+Deathmatch     		: No
+ActionQuake DM  	: Yes
+ActionQuake Teams       : Yes
+DM Spawn Points         : 7
+Difficulty Settings     : No
+New Sounds              : No
+New Textures            : Yes
+New Music               : Yes
+Demos Replaced          : None
+
+------<Construction>-------------------------------------------------
+
+Editor(s) used	: Worldcraft 1.6
+Compile Machine	: P2 466 MHz / 480 MB RAM
+VIS time	: 4 min
+RAD time	: 28 min
+Build Time	: 2 weeks
+Other programs	: ARGH!RAD, Wally, Paintshop pro, Soundforge
+
+-----<Credits and Thanks>--------------------------------------------
+
+I'd like to thank everyone who has made some good new textures to Q2.
+People like Wetwired, Wizardext, Makro..
+Thanks for the best game ever goes to ID.
+And the best mod ever thanks goes to A-team.
+Thanks to aq2 scene for not playing any new maps.
+
+-----<Installation>---------------------------------------------------------
+
+Extract files to quake2/action
+
+-----<Notes>----------------------------------------------------------------
+
+Don't modify this map without asking me first.
+Don't shell this map in any way.

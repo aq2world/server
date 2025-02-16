@@ -1,0 +1,29 @@
+15.5.1999
+ 
+
+Title              : Cloudcity
+Filename           : Cloud.bsp
+Game               : AQ2
+Author             : Antti "MaXy" Mäkelä
+Email Address      : antti.makela@pp4.inet.fi
+Description        : City in the Clouds
+Additional Credits : Jason Abbot "Woebane" for his AWESOME city sky.
+                     Gerbil for his GREAT textures.
+                     Cryptr for his GREAT city textures.
+                     And for everybody else whose textures i've used. 
+
+Base               : Scratch
+Editor used        : Qoole 2.50 
+Build time         : Couple of days
+Compile time       : Hours
+
+
+
+
+
+
+
+*Copyright/Permissions*
+
+Just don't re-edit my map.
+ 

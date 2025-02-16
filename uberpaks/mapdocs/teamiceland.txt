@@ -1,0 +1,32 @@
+================================================================
+Title                   : Teamin' in da Iceland
+Filename                : teamiceland.bsp
+Author                  : TWiSTeD[TDm]      originaly made by Timm 'timm' Stokke
+Email Address           : twistedtdm@hotmail.com
+Description             : A mirrored version of teamjungle with Ice textures
+
+================================================================
+
+ 
+
+* Construction *
+
+Base                    : Teamjungle
+Editor(s) used          : Worldcraft 1.6 unregged'
+
+Build Time              : around 1 hour.
+Compile Time		: QBSP3: 14 seconds
+			  QVIS3: 60 hours blank
+			  QRAD3: 9 hours I think
+
+
+* Legal Crap *
+
+You can do whatever you want with this level, AS LONG AS YOU GIMME CREDITS.
+Fair enough, ain't it?    -timm
+
+whelp thanks to timm for letting me use his map while only having to give him credit, here is your credit.  *
+credit given now go play and stop reading this you freaks.
+
+Copyrightred (C) Timm Stokke, 1998. All rights reserved.
+Copyrightred (C) Chris A, 2005. All rights reserved.

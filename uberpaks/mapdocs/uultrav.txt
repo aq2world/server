@@ -1,0 +1,88 @@
+============================================================================= 
+ 
+Title			: Ultra UltraViolence 
+Filename		: uultrav.bsp 
+Author			: Thomas Vachuska (TomiKazi) 
+Email			: tomikazi@planetquake.com 
+ 
+Description		: This is a remake of a Q1 DM level UltraViolence 
+			  created by Adriano Lorenzini.	 The layout is fairly
+			  open and the multi-level architecture will test your
+			  situational awareness for wrath can come as easily
+			  from above as from below.  There are essentially
+			  four interconnected rooms and a number of
+			  teleporters to help overcome certain space-time 
+			  constraints and to intensify the level of play.
+
+			  There is absolutely no safe place to camp.  The quad
+			  damage artifact is on a tall pillar to which you
+			  have to teleport from the central room by opening a
+			  door via a push button and madly dashing towards the
+			  teleporter.  Should something get in your way, the
+			  door is likely to close and you have to try again -
+			  if you live that long.
+ 
+			  My initial doubts about the level being able to
+			  match the intensity of its Q1 ancestor proved to be
+			  quite unsubstantiated.  Despite the slower rocket
+			  speed and lesser splash damage radius in Q2, the
+			  level plays as well as the original does - it is
+			  absolute madness!  I have done extensive play
+			  testing (such a rough job I tell you) not only with
+			  the bots, but with live bait as well.	 The potent
+			  arsenal of three rocket launchers, a grenade
+			  launcher, hyperblaster and a pair of super shotguns
+			  along with the hand-grenades combined with the
+			  layout characteristics make the level ultra
+			  ultra-violent indeed.
+  
+			  The original author reportedly lost the source to
+			  this Q1 master-piece in a tragic disk crash so the
+			  original blue prints were lost.  I tried to keep the
+			  layout and architecture proportions as true to the
+			  original as I could.	Alas, I had to chose a
+			  different texture scheme as I was not willing to pay
+			  the price of distributing custom textures with the
+			  .bsp.	 However, while I kept the original arsenal
+			  intact, I felt that the super shotgun needed to be
+			  here as it is such an awesome Q2 addition and
+			  therefore I added two of them along with some spare
+			  shells to feed the twin barrels of wrath.
+			  Hyperblaster serves well in place of the lightning
+			  bolt - especially when combined with the quad.
+
+Thanks to		: id for a great Quake/Quake2 games 
+			  Adriano Lorenzini for the great original DM level
+			  Dteam for support and review 
+			  Robert Duffy for QER - the killer level editor 
+ 
+Testers			: geezer, Tobor, Mickeychew, choad, Mr. Blonde,
+			  Executioner, BM, HammerTime, PimpDaddy, MeatHead,
+			  tyrant, ... (and TomiKazi of course) 
+ 
+============================================================================ 
+ 
+* Play Info * 
+ 
+Single Player		: No (just a start) 
+Cooperative		: No 
+Deathmatch		: Yes (3-10 players) 
+Difficulty Settings	: No 
+New Sounds		: No 
+New Graphics		: No 
+Sound Track		: None 
+Demos Replaced		: None 
+Source Included		: No 
+ 
+* Construction * 
+ 
+Base			: remade from scratch 
+Editor used		: QER 
+Known Bugs		: none known 
+Brushes			: 665
+Construction Time	: 4 days 
+ 
+ 
+The file, uultrav.bsp, may only be distributed provided this text file 
+remains intact and accompanies the uultrav.bsp file.  This map may not be sold 
+or distributed without prior _written_ consent from the author. 

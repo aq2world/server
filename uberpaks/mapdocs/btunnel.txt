@@ -1,0 +1,9 @@
+Title                      : btunnel
+Filename                   : btunnel.bsp
+Game			   : Action Quake 2
+Author                     : bail & dragoneye
+Description                : small subway/tunnel map.
+used tools                 : Gtkradiant, photoshop, wally, arghrad			
+
+Credz To                   : Wizardext, NRGizeR, Peep, Pauhii, Flunx and many more.
+                             basically all those we have used textures from.

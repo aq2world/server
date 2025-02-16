@@ -1,0 +1,116 @@
+Instructions: extract the archive, preserving directories,
+to your quake2/action directory.
+================================================================
+Title                   : Under the Lighthouse (version 1.1)
+Filename                : lighthouse.bsp
+Author                  : Chris Polan
+Author's Quake Handle	: [20ID]God Incarnate
+Author's Email Address  : cpolan@magma.ca
+			  Please send your comments
+Where to get ActionQ2   : http://action.telefragged.com
+================================================================
+
+* Changes since version 1.0 *
+
+- Minor geometry errors corrected (compile was 4 times shorter)
+- Water is now opaque
+- Doors inside the house now stay open
+- Most doors stay open longer (5 seconds)
+- Texture directory renamed to godinc to conform to AQMD standards
+- Disclaimer information on the Ren and Stimpy stuff
+- Much better r_speeds and frame rates... I challenge you to find the
+  one place where r_speeds exceed 1000!
+
+TURN GL_MODULATE DOWN DAMMIT! IT LOOKS JUST FINE WITH GL_MODULATE 1!
+That rant is for you blind 3d card users who need to eat more carrots :)
+
+Get this map at www.quakeclan.net/20id/cool.html if the depot is down.
+Yeah, that's my clan page :)
+
+This is my 3rd Action Quake map. My other maps are CHRISCITY3 and APBASE.
+Personally, I think this map is better than those 2 combined.
+And I think this level is ORIGINAL and it's not a sequel. God Incarnate
+don't do sequels. It's not a freaking city map either. It did start out
+as one but it slowly evolved into something totally different.
+
+* Level Information *
+
+Description:
+"Under the Lighthouse" can best be described as a vacation home area at
+night. The level is not very big, and in teamplay the rounds will progress
+quickly as people can't avoid each other for long, and campers are easy to
+find. This doesn't mean that there is no cover though :)
+The level has 2 areas - a coastal bay area with a lighthouse and a boat,
+and an estate area with a nice house, garden and a little hut. Oh yeah,
+it's at night, but not too dark cause you gots the moon and stars.
+
+BONUS: Can you guess what band does the song "Under the Lighthouse"?
+My brother likes them a lot.
+
+New Sounds: Yeah, just 2.
+A cricket sound and everyone's favorite theme song :)
+		
+New Textures: Yes.
+About 1/3 of the textures were made by me, another 1/3 are from
+Ruskprick's maps (he is a texturing GOD, thanks man!), and the other 1/3
+are probably taken/modified from other textures. Thanks to all the
+respective people who I took them from.
+As for the Stimpy texture being copyrighted material, I believe it isn't
+because I got the picture from a Ren and Stimpy fan page. Besides, Ren and
+Stimpy isn't even on TV anymore. However, if the AQMD feels that it isn't
+allowed, I can make a replacement texture quick.
+
+Level Editing: Qoole 2.50, Quark to correct everything Qoole screwed up :)
+
+Texture Editing: Wally 1.2, Paint Shop Pro 5
+
+Known Bugs:
+Minor texture alignment problems. Try to find them!
+
+Personal Gripes:
+1 out of 10 times you'll take leg damage when you jump off the ramp and
+land on the pillar.
+One time, I had the spinning turd in the toilet crushing me! It's VERY rare.
+
+Really Cool Thing To Do:
+See that huge ramp/hill? Run off that, jump, turn, shoot your friend in the
+head, land on the pillar, and say "Who's your daddy?"
+Oh yeah, don't dive into the underwater rock from the lighthouse. It hurts.
+
+* Build Info *
+
+Computer: P2-300, 64MB ram, Voodoo2 video
+Brushes: 688
+QBSP3:  17 seconds
+QVIS3 -level 4: 21110 seconds (just a bit under 6 hours)
+ARGHRAD -bounce 8 -extra: 19 minutes
+
+* Thanks *
+id
+a-team
+ruskprick
+map depot doods who helped me
+[20ID] clan members
+anyone who deserves it
+anyone who said "This map <expletive deleted> rocks!"
+
+* Disclaimer / Permissions *
+
+Ren and Stimpy was created by John Kricfalusi.
+I believe it is copyrighted by Nickelodeon (they bought the rights).
+I (not id software, the AQMD or the A-Team) take full legal
+responsibility for anything that happens.
+The pic was taken from ftp://rever.nmsu.edu/pub/ren-and-stimpy/images
+The sound clip was taken from the CD Ren and Stimpy: You Eediot!, track 2.
+
+I am not responsible for anything stupid that you do.
+This level will NOT Fuck your computer up the Goat Ass (TM) or mess up
+Quake 2 or Action Quake if you install it right.
+
+Don't decompile/hack/prod my map with pointy objects.
+Ask me if you want a .QLE file or .MAP file.
+
+Go ahead, use the textures and sounds from this map. GO NUTS.
+
+This map is free. It CANNOT be sold or included in any software bundle
+that is sold.

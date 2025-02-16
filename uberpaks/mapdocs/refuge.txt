@@ -1,0 +1,62 @@
+=============================================================================
+* General Info *
+
+Title                   : the last refuge
+
+Archive                 : refuge.zip
+
+Release Date (DD/MM/YY) : 05/08/05
+
+Author                  : Dan Boklöv-Palovaara (aka snt)
+Email Address           : sanity@wh00s.net
+
+Description             : Map for Action Quake (http://aq2.action-web.net).
+			
+			  This map is placed on the planet Mars, it is an abandon bunker.
+			  The crew has left it because aliens took over the place and killed
+			  most of the crew!! I got the inspiration from the movie Alien and the game
+ 			  Aliens vs. Predators			  
+
+Installation            : Unzip refuge.zip into the root of your Action Quake
+                          game folder (Quake2/action), with Subdirectories
+                          enabled (!)
+                                                    
+Additional Credits to   : Ringu for textures.
+			  folder textures/carnage for textures.
+			  God Incarnate for textures.
+			  *Beavisss* for textures.
+			  folder sound/gengo for sounds.
+ 			  folder sound/murder for sounds.
+ 			  folder sound/WORLD for sounds.
+			
+			  Caracol for suggestions, ideas, moral comfort, testing, bugtesting, more ideas and suggestions...also moral comfort!
+		     	  Bruicer for bug testing and maybe ideas, can't remember
+			  Beavisss for suggestions, ideas, bug testing, atleast 1 idea that i never used but still!
+			  
+			  Everyone else that helped me in any way, that I forgot! <3
+=============================================================================
+* Play Info *
+
+Game                      : Action Quake (Quake2)
+Single player             : Yes (only for looking around)
+Teamplay                  : Yes
+Deathmatch 		  : Yes
+Suggested Player Load	  : 2-6
+
+New Graphics              : No
+New Music                 : No
+New Sounds                : No
+New Sky			  : No
+DLL                       : No
+Locations File		  : No (don't know what this means)
+
+* Construction Info *
+Editors Used		  : QERadiant
+
+Known Bugs                : None.
+
+
+* Copyright / Permissions *
+
+You may do anything you want to this archive as long as you get the required permission
+from the authors of the sounds and textures that are in this archive.

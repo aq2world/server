@@ -1,0 +1,81 @@
+================================================================
+* General Information *
+
+Title                   : Waterland: The Flooded City - By Sabotuer
+Filename                : waterland.bsp
+Release Date            : monday, december 9. 2002
+Author                  : Sabotuer
+URL                     : http://www.sunpoint.net/~clan-666/sabotuer
+Email                   : redhead@mr.is
+
+================================================================
+* File Information *
+
+.bsp Name               : waterland.bsp
+ZIP Size (KB)           : 1221 KB
+
+================================================================
+* Play Information *
+
+Single Player           : No
+Cooperative             : No
+Deathmatch              : not intended for
+ActionQuake DM          : Yes
+ActionQuake Teams       : Yes
+DM Spawn Points         : 8
+Max Player Load         : your choice
+Difficulty Settings     : No
+New Sounds              : Yes
+New Textures            : Yes
+New Music               : No
+Demos Replaced          : None
+
+================================================================
+* Installation *
+
+ Extract (unzip) in the *:*\quake2\action directory. All paths provided.
+
+================================================================
+* Construction *
+
+Base                    : Built from scratch
+Editor(s) used          : Qoole99 v0.99 and ArghRad
+Known Bugs              : Feel free to let me know if you find any
+Build Time              : about 3 weeks
+
+
+
+Compile machine         : 949sec - 15min, 49sec
+QBSP3 Time              : 1sec
+QVIS3 Time              : 112sec - 1min, 52sec
+ArghRad Time            : 836sec - 13min, 56sec
+
+================================================================
+* Description *
+
+A city flooded with water where only the highest rooftops get up from the water
+
+================================================================
+* Credits *
+
+the idea for the map was brought to me by HighSky though the idea was
+first made by Rob in his map flooded, we just didn't know it
+The A-team for making the greatest mod ever
+Idle, Spear and No Fear for teaching me that rules can be good :)
+
+================================================================
+* Where to get this level *
+
+http://www.sunpoint.net/~clan-666/sabotuer/maps/waterland.zip
+
+================================================================
+* Copyright / Permissions *
+
+Copyright © 2001 .  All rights reserved.
+
+This level may not be distributed on any CD-ROM
+without prior, explicit consent from Sabotuer
+
+This level may not be used on a commercial 
+Multi-player server without similar explicit consent.
+

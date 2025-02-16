@@ -1,0 +1,89 @@
+================================================================================
+* ACTION QUAKE II LEVEL INFORMATION *
+--------------------------------------------------------------------------------
+TITLE                   : Military Base
+FILENAME                : milbase.zip
+AUTHOR                  : L4nt0m
+DATE                    : 13.02.2005
+EMAIL ADDRESS           : kasperklein@gmail.com
+HOMEPAGE URL            : None
+.zip CONTENTS           : - All textures used
+                          - The sky
+                          - and ofc. the map
+
+--------------------------------------------------------------------------------
+* LEVEL DESCRIPTION *
+--------------------------------------------------------------------------------
+I saw the map \'countdown\' (made by shadowfire), and i thought
+the map looked really nice, but it was way to big to play in
+tng. So I started to make a map myself, using mostly the same textures
+as him, and milbase is the result
+
+--------------------------------------------------------------------------------
+SINGLE PLAYER           : 1 Player Start   Point(s)
+CO-OPERATIVE            : 0 Player Start   Point(s)
+DEATHMATCH              : ? Player Respawn Point(s)
+ACTION QUAKE II         : 2 Teams
+                          ? Player Respawn Points per Team
+SUGGESTED PLAYER LOAD   : 2 to 4
+
+NEW TEXTURES            : No
+NEW SOUNDS              : No
+CD TRACK #              : 0
+
+--------------------------------------------------------------------------------
+* CONSTRUCTION *
+--------------------------------------------------------------------------------
+MAP BASE                : New Map
+PREFABS USED            : None
+EDITOR(S) USED          : QuArK 6.4 alpha
+OTHER UTILITIES USED    : None
+
+KNOWN BUGS              : None
+
+COMPILE MACHINE         : AMD Sempron 2800+
+
+QBSP2 TIME              : ? seconds
+VIS TIME                : ? seconds
+QRAD TIME               : ? seconds
+
+--------------------------------------------------------------------------------
+* COMPILE LOG *
+--------------------------------------------------------------------------------
+It took about 10 - 15 minutes in total to render
+this map
+
+--------------------------------------------------------------------------------
+* OTHER LEVELS BY THE AUTHOR *
+--------------------------------------------------------------------------------
+None
+
+--------------------------------------------------------------------------------
+* SPECIAL INSTRUCTIONS / ADDITIONAL INFORMATION *
+--------------------------------------------------------------------------------
+Just unzip in the action folder
+
+--------------------------------------------------------------------------------
+* CREDITS *
+--------------------------------------------------------------------------------
+The A-Team              : For making a KICK ASS Mod
+Shadowfire              : For making the textures
+Wizardext               : For making the textures (used 1 of em)
+
+
+================================================================================
+* COPYRIGHT / PERMISSIONS *
+--------------------------------------------------------------------------------
+Authors MAY NOT use this level as a base to build additional levels.
+
+You MUST NOT distribute this level UNLESS you INCLUDE THIS FILE WITH
+NO MODIFICATIONS. If you don't co-operate, then DON'T DISTRIBUTE IT
+IN ANY FORM.
+
+This LEVEL may be distributed ONLY over the Internet and/or BBS systems.
+You are NOT authorized to put this LEVEL on any CD or distribute it in
+any way without my written permission.
+
+Action Quake II (C) 1998-99 The A-Team.
+Quake II (C) 1998-99 id Software. All rights reserved.
+

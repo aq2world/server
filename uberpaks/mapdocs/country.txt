@@ -1,0 +1,57 @@
+================================================================
+ACTION QUAKE2
+================================================================
+* General Information * 
+Title                   : Picnic in the country place
+Filename                : country.bsp
+Release Date            : 18.11.2003
+Author                  : Genie
+URL                     : http://ku0si.no-ip.com/country.zip
+Email                   : genie@tukikohta.net
+================================================================
+* File Information * .
+bsp Name		: country.bsp
+ZIP Size (KB)           : 2917 KB
+================================================================
+* Play Information * 
+Single Player           : No
+Cooperative             : No
+Deathmatch              : No
+ActionQuake DM          : Yes
+ActionQuake Teams       : Yes
+DM Spawn Points         : 5
+Max Player Load         : 16
+Difficulty Settings     : No
+New Sounds              : Yes
+New Textures            : Yes
+New Music               : No
+Demos Replaced          : None
+================================================================
+* Installation *
+ Extract (unzip) in the *:*\quake2\action directory. All paths provided.
+================================================================
+* Construction * 
+Base                    : New level from Genie
+Editor(s) used          : Worldcraft 1.6, ArghRad
+Known Bugs              : Some bugs appear when standing in right place.
+Build Time              : about 2 mounths
+Compile machine		: AMD XP2400+, 512 DDR
+Compile time		: 8 hours
+Number of solids	: 833
+================================================================
+* Special thanks to: *
+================================================================
+All texture makers. (makro, wetwired, supreme...)
+All the sound makers. (Suco, wetwired and more..)
+A-team for a great mod.
+Tim Wright for ARGH! tools
+ID for Quake II. 
+================================================================
+* Notes*
+================================================================
+Don´t modify my map in any way without asking me fist!
+Don´t modify this .txt file!
+
+Have fun!
+
+-Genie

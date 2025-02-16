@@ -1,0 +1,80 @@
++--------------------------------------------------------------------+
+|            							     |
+|                     AQ2World Proudly Presents:                     |
+|                                                                    |
+|   .-----------------------------------------------------------.    |
+|   |                    ___   ___ ___   ___                     |   |
+|   |           ___.----|   \./   |   \./   |.-------.           |   |
+|   |          |        :         :         :     ___/           |   |
+|   |          |        :         :         :    /               |   |
+|   |          |        :    .    :    .    :    '---.           |   |
+|   |          |___|\___|___| |___|___| |___|\_______/           |   |
+|   |                                                            |   |
+|   |    n 9 9 's  M a p - M a k i n g  C o m p e t i t i o n    |   |
+|   |                                                            |   |
+|   '============================================================'   |
+|   |  Introduction                                              |   |
+|   |                                                            |   |
+|   |  This is one of nine maps entered into n99's 2004          |   |
+|   |  Map-Making Competition, a 100 euro prized event. As the   |   |
+|   |  main organizer and sole sponsor of this event I wish you  |   |
+|   |  happy fragging on this quality Action Quake 2 map.        |   |
+|   |  Keep the game alive!                                      |   |
+|   |                                                            |   |
+|   |                                                     - n99  |   |
+|   '============================================================'   |
+|   |  General Information                                       |   |
+|   |                                                            |   |
+|   |  Title                    Country side: Hospital far away	 |   |
+|   |                                                            |   |
+|   |  Archive        		country2.zip			 |   |
+|   |                                                            |   |
+|   |  Release Date (DD/MM/YY)  05/12/04                         |   |
+|   |                                                            |   |
+|   |  Author                   Genie		                 |   |
+|   |  Authors Email            genie@tukikohta.net              |   |
+|   |                                                            |   |
+|   |  Installation             UnZip to "quake2\action"         |   |
+|   |                                                            |   |
+|   |  Description		It is an outdoor map with many	 |   |
+|   |				jumps just like country.	 |   |
+|   |                                                            |   |
+|   |  Additional Credits	Thank you Wizardext and all the  |   |
+|   |				other texture makers!            |   |
+|   |				I'd like to t hank N99 for       |   |
+|   |				setting up the competition and	 |   |
+|   |				so helping the scene to get new  |   |
+|   |				kick ass maps!			 |   |
+|   |                                                            |   |
+|   |  Authors Comments         I had to rush a little on this   |   |
+|   |			        because im completing my         |   |
+|   |				military service at the moment.  |   |
+|   |				DM is not supported because	 |   |
+|   |				my time ran out.		 |   |
+|   |				I just wanted to enter n99's	 |   |
+|   |				mapping contest for fun. I hope  |   |
+|   |				you like the map and all the	 |   |
+|   |				other maps made for this 	 |   |
+|   |				competition. It has been a	 |   |
+|   |				pleasure to be in this		 |   |
+|   |				competition. Thank you n99!	 |   |
+|   |								 |   |
+|   |  Suggested Player Load    4 - 12	                         |   |
+|   |                                                            |   |
+|   '============================================================'   |
+|   |  Construction                                              |   |
+|   |                                                            |   |
+|   |  Used Tools		Worldcraft 1.6, Paintshop Pro 6, |   |
+|   |				Soundforge 7.0, Wally, Argh!RAD	 |   |
+|   |  New Textures             Yes	                         |   |
+|   |  New Sounds               Yes	                         |   |
+|   |  New Sky                  No	                         |   |
+|   |  Locations File           No	                         |   |
+|   |                                                            |   |
+|   |  Number Of Spawnpoints    7                                |   |
+|   |                                                            |   |
+|   '------------------------------------------------------------'   |
+|                                                                    |
+|          #nMMC / #AQ2World at QuakeNet | www.AQ2World.com          |
+|                                                                    |
++--------------------------------------------------------------------+

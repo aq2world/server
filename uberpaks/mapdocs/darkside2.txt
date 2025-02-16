@@ -1,0 +1,78 @@
+05.04.00
+================================================================================
+Title                   : The Darkside strikes back	
+Filename                : darkside2.bsp
+Gametype                : ActionQuake
+Author                  : Thomas 'Metz' Røed
+E-Mail                  : metz2001@hotmail.com
+Web	                	: http://home.c2i.net/metz/dmm
+Description             : It's evening in the city
+				  Watch out for graffers.... and sprayers ;)
+Additional credits to   : Clan Darkside (http://darkside.xrs.net)
+			        dmm - Darkside map making (http://home.c2i.net/metz/dmm)
+			        Writers:
+				  TES, NK crew, CEPS, TEK, COVER, PHOI, DAIM
+
+--------------------------------------------------------------------------------
+* Play Information *
+--------------------------------------------------------------------------------
+
+Single Player           : For looking around
+Cooperative             : No
+Deathmatch              : Yes
+Teamplay                : Yes !
+Difficulty Settings     : No
+New Sounds              : No
+New Graphics            : Yes !
+
+--------------------------------------------------------------------------------
+* Construction *
+--------------------------------------------------------------------------------
+
+Base                    : None
+Editor(s) used          : Qoole 99 (The nice prog with nice bugs =)
+				  Worldcraft 1.6a (For the rendering)
+				  Wally 1.49b (Texture converting)
+				  Adobe Photoshop 5.5 (Texture making)
+				  Arghrad (Light rendring)
+Known Bugs              : Not any big ones i hope
+Build Time              : About 6/7 weeks on and off
+Computer used		: AMD k6-2 / 450 mhz / 128mb SDRAM
+Compile Time		: 
+			  	  QBSP3 	=     20 seconds
+			  	  QVIS3	=   7596 seconds
+			        ARGHRAD3 	=  10284 seconds 
+
+--------------------------------------------------------------------------------
+* Other Maps by Author *
+--------------------------------------------------------------------------------
+
+Darkside.bsp: The Darkside or the wrongside
+
+Available from http://home.c2i.net/metz/dmm
+
+
+--------------------------------------------------------------------------------
+* Installation *
+--------------------------------------------------------------------------------
+
+Unzip darkside.zip to your quake2/action dir.
+
+--------------------------------------------------------------------------------
+* Copyright / Permissions *
+--------------------------------------------------------------------------------
+
+This map is free for all to publish as long as this file is in the zip.
+The textures by Rusprick is marked with an x. 
+I've edited some of them with his permission.
+Btw: A couple of textures are ripped from HL/CS.
+
+--------------------------------------------------------------------------------
+
+
+This is my last map for AQ2...
+Hope you like it, cause i've worked really hard with it =)
+
+
+
+ 	-Metz

@@ -1,0 +1,81 @@
+=============================================================================
+Title                   : Forts and Caves
+Version                 : Release version 1.0
+Files                   : fortcave.bsp fortcave.txt ane texture of mine, and
+                          one who I dont know who's it is.. mail me and I'll
+                          give ya the credit you're due.
+
+Release Date (DD/MM/YY) : 23/06/99
+
+Author                  : John Gilbertson, AKA [CHAOS]Homicide
+Email Address           : down@the-pub.org (I want feedback!! :-)
+Web Site                : None.
+
+Description             : An Action Quake map, designed origionally for
+                          teamplay, but there are weapons and ammo for DM play
+                          if you should wish to try it.
+
+                          This map is a dark, open, mainly outside map,
+                          Featuring a fort, and outpost, and a large underground
+                          cave system.
+                          Some areas are a bit too dark for some people, but I
+                          Prefer it like that.
+                          If enough people pester me to make a brighter version,
+                          I may well oblige, as this is my first 'proper' map
+                          and, I'm not that sure about what people will think.
+                          So, you want summat changed, tell me :)
+
+Installation            : * Unzip fortcave.zip into root of your Action Quake
+                          game folder (Quake2\Action), and make sure you
+                          extract the directory structure too.
+
+
+ 
+Additional Credits to   : A-Team for making greatest Quake2 Multiplayer mod ever.
+                          id software
+                          Yahn Bernier for the best level editor out there,
+                          even if it is over a year old.
+                          [CHAOS] for just being extremely kick ass.
+
+=============================================================================
+* Play Information *
+
+Game                      : Action Quake (Quake2)
+Single player             : Yes (only for looking around)
+Cooperative 2-4 players   : No
+Deathmatch 2-16 players   : Yes 
+                            (reccomended 6->16)
+New Graphics              : Yes 
+New Music                 : No
+New Sounds                : No
+
+* Construction *
+
+Base                      : New level from scratch
+Build time                : about 1 1/2 weeks.
+Compile Machine           : K6-233 with 96MB 
+    QBSP3   Time          : 34 secs
+    QVIS3   Time          : 6586 secs
+    Arghrad Time          : 3677 secs
+
+Editor(s) Used            : BSP 0.93b
+                            Paint Shop Pro 5 and Wally
+
+Known Bugs                : None
+
+* Copyright / Permissions *
+
+Authors may NOT use this level as a base to build additional
+levels.
+
+The file textures\homicide\door2.wal is copyright me, but any mapper can use
+it as long as they give me credit.
+The file textures\homicide\tiledwood.wal isn't mine, and I'd really like to
+know who's it is, so I can give them the credit they deserve.
+
+You may distribute this BSP, provided you include this file, with
+no modifications, but please distribute original unmodified archive
+which can be obtained from my Web site.  You may distribute this file
+in any electronic format (BBS, Diskette, CD, etc) as long as you
+include this file intact.
+

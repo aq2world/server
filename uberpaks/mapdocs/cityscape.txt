@@ -1,0 +1,16 @@
+================================================================================
+* ACTION QUAKE II LEVEL INFORMATION *
+--------------------------------------------------------------------------------
+TITLE                   : cityscape.bsp  
+AUTHOR                  : Protox                
+DATE                    : 09-01-2023
+HOMEPAGE URL            : https://github.com/protox/cityscape/ & aq2.neocities.org
+YOUTUBE                 : youtube.com/@Protoxic
+.zip CONTENTS           : 
+
+================================================================================
+* LEVEL DESCRIPTION *
+Cityscape is my first complete map, a simple city block type of map.
+Thanks to everyone who helped answer questions in AQ2World discord.
+Special thanks to stan0x for fountain splash effects and other tips.
+Mestah, mikota & darksaint for testing and answering questions.

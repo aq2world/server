@@ -1,0 +1,44 @@
+29.2.2004
+				
+
+
+
+			    	Serpent's Night Sniping
+			       	-----------------------
+
+
+
+* INFORMATION *
+	                	   
+FILENAME                : nightsnipe.zip
+AUTHOR                  : Serpent
+EMAIL ADDRESS           : serpent_oh@yahoo.com
+GAME 			: Action Quake 2 TP&DM
+SUGGESTED PLAYER LOAD   : 2 to 8
+SKY 			: c2nite, read .txt file in 'env'-folder
+EDITORS USED            : QOOLE 2.50, WALLY 1.55B
+KNOWN BUGS              : None
+COMPILING		: Sometimes @ 2000
+RE-compiling & fixes 	: 29.2.2004
+MAKING TIME		: ½ day
+TEXTURES                : in folder 'serpent'
+
+
+
+
+* INSTALLATION *
+
+Just unzip in the X:\quake2\action directory. All paths provided.
+
+
+
+
+* COPYRIGHT / PERMISSIONS *
+
+Authors MAY NOT use this level as a base to build additional levels
+without MY permission (I can give .qle and .map).
+
+nightsnipe (c) 2000-2004 Serpent
+Action Quake II (c) 1998-1999 A-team
+Quake 2 (c) 1998-1999 id. Software
+All rights reserved.

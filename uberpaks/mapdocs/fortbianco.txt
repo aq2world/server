@@ -1,0 +1,41 @@
+03/11/99
+================================================================
+Title                   : Fort El Bianco
+Filename                : fortbianco.bsp
+Game			: Action Quake 2
+Author                  : El Bianco
+Email Address           : whitey@actionleague.freeserve.co.uk
+Web Address             : 
+Description             : mexican fortress
+Additional Credits to   : The A-Team, iD Software
+
+================================================================
+
+* Play Information *
+
+Single Player           : No
+Cooperative             : No
+Teamplay                : Yes
+Deathmatch              : 4-8 players (not tested)
+Difficulty Settings     : No
+New Sounds              : No
+New Graphics            : Some
+New Music               : No
+
+* Construction *
+
+Base                    : Scratch
+Editor(s) used          : Qoole
+Known Bugs              : None
+Build Time              : 12hrs
+Compile Time		: 48mins (P 200, 64 Megs)
+
+Notes:
+
+First map ever.
+
+
+
+* Copyright / Permissions *
+
+None... do what you like as long as this file is included with any distribution

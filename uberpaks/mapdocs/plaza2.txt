@@ -1,0 +1,82 @@
+
+
+NOTE: 	When lauching, the map may list some missing texture files.
+	However there are no missing texture files anymore.
+	Oh, and one crappy wav-file which doesn't seem to work.
+
+¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤
+
+Date			: 1.6.2001
+
+Title                   : Plaza2 - Full Moon Rumble
+Filename                : plaza2.bsp
+Game			: AQ2
+Author                  : Olli Ruhanen a.k.a. [KTC]Supreme
+Email Address           : olli.ruhanen@kolumbus.fi
+IRC			: ircnet #ktc, #teamsisu, #jf
+URL     		: http://jedifire.klaanit.net/ktc
+Description             : Dockland during the night
+Thanks to		: -A-team - a great mod !
+			  -ID Software - for making AQ2 possible :P
+			  -Big thanks to Kalamiehen Toverit Clan and Team SiSu for
+			  the their support.
+			  -Thanks to Roadblock for the "sanko" texture :)
+			  -Regards to sANKo who let me use the "funny" texture :)
+			  -Creators of Qoole99 - for an excellent editor.
+			  -All mappers who have created the textures like Carr,
+			  ruskprick and others. Especially I would like to thank
+			  -Makro[PN] and WetWired for maps like ground3 and nobeer.
+			  Sorry, I borrowed some textures of yours :P
+			  
+My other maps for AQ2: 	vwoods.bsp
+		       	fuego.bsp
+			panic.bsp
+			rok.bsp
+			plaza.bsp
+
+¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤
+
+-= Play Information =-
+
+Single Player           : yea, but what's the point
+Cooperative             : ?
+Deathmatch              : yes
+Teamplay                : of course !
+New Sounds              : yes
+New Textures            : yes
+
+
+¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤
+
+NOTE: 	When lauching, the map may list some missing texture files.
+	However there are no missing texture files anymore.
+	Oh, and one crappy wav-file which doesn't seem to work.
+
+¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤
+
+-= Construction =-
+
+Editor(s) used          : Qoole99
+Build Time              : weeks
+Compile Time		: 3-4 hours (?)
+
+
+¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤
+
+-= Inspiration =-
+
+- Music, for example tracks like:	Linkin Park - Hybrid Theory-album
+					Faithless   - Insomnia
+					Alkalyne    - This Is The Right Time
+
+
+-= Copyright =-
+
+You may not re-edit my map in any way...plz :)
+
+
+-= Comments =-
+
+Hit me with feedback, mmkay ?
+
+¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤

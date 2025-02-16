@@ -1,0 +1,69 @@
+================================================================
+* General Information *
+
+Title                   : Junkke2     By:InFinity
+Filename                : Junkke2
+Release Date            : 5.8.2001
+Author                  : InFinity
+URL                     : http://
+Email                   : juuso_m@hotmail.com
+Description             : Kind of Jungle :)
+Credits                 : Thanks to The A-team for making KICASS mod!
+                          and for People who made Qoole99
+                          And specially to Miku and Raver who has tested this map.
+                          (and they liked it :P )
+================================================================
+* File Information *
+
+.bsp Name		: Junkke.bsp
+ZIP Size (KB)		: 240 KB
+Screenshot Included	: No
+DM Spawn Points		: 6
+Max Player Load		: 12
+================================================================
+* Play Information *
+
+Single Player           : No
+Cooperative             : No
+Deathmatch              : not intended for (but i have tested this too :)
+ActionQuake DM          : Yes
+ActionQuake Teams       : Yes
+Difficulty Settings     : No
+New Sounds              : No
+New Textures            : No
+New Music               : No
+Demos Replaced          : None
+
+* Installation *
+ Extract (unzip) in the *:*\quake2\action directory. All paths provided.
+
+* Construction *
+
+Base                    : New level from scratch
+Editor(s) used          : Qoole99 v0.99
+Known Bugs              : Nope.
+Build Time              : about 18h 
+
+
+
+Compile machine         : AMD K6-2 450mhZ 192mt 
+QBSP3 Time              : 11 sec
+QVIS3 Time              : 8507 sec
+QRAD3 Time              : 2550 sec
+
+* Where to get this level *
+
+http://sivut.koti.tpo.fi/tuusoma/maps/Junkke2.zip
+
+
+* Copyright / Permissions *
+
+Copyright © 2001 .  All rights reserved.
+
+This level may not be distributed on any CD-ROM
+without prior, explicit consent from Juuso_m@hotmail.com
+
+This level MAY be used on a commercial 
+Multi-player server without similar explicit consent.
+
+

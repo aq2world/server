@@ -1,0 +1,80 @@
+================================================================
+Title                   : Teamin' in da Jungle
+Filename                : teamjungle1.bsp
+Author                  : Timm 'timm' Stokke
+Email Address           : timm@inside3d.com
+Description             : A much more teamplay friendly version
+			  of my other map, jungle1.
+Credits			: The A-Team, for such a kick arse mod!
+			  Agent Taylor, for VIS\RAD'ing this level.
+			  Libya for setting up the only norwegian AQ server.
+			  Suislide for the bluesky (rocks on 16-bit color!)
+			  All those who voted for jungle1 for the MapPak =)
+================================================================
+
+* Play Information *
+
+Single Player           : No
+Cooperative             : No
+Deathmatch              : Yes
+New Sounds              : No
+New Graphics            : Yes (one texture)
+ 
+
+* Construction *
+
+Base                    : Scratch
+Editor(s) used          : Worldcraft 1.6 regged'
+Known Bugs              : The light looks kinda weird in some places.
+			  Also, I sometimes notice a slowdown when I'm 
+			  close to one of the crates - I have no idea why. 
+Build Time              : 7 hours.
+Compile Time		: QBSP3: 14 seconds
+			  QVIS3: 60 hours blank
+			  QRAD3: 9 hours I think
+
+* Authors Note *
+
+A cupple of hours ago, Bartender emailed me, and asked me if I could do 
+a teamplay version of Jungle1. (My first map, worth a look). I decided to
+give it a go, and after about 3 hours of work, it's finally finished.
+
+I decided not to include any fancy stuff, as I wanted to keep the r_speeds low 
+(too bad I didn't do too well =(
+
+I was gonna include water in this map, but I it made the game too slow. I could
+have done muddy water instead of transparent, but it didn't look good - at all.
+
+You'll also notice that the grass textures are 3x bigger. This will help framerate
+on non-3dcard mashines.
+
+
+* Map Layout *
+
+	   _______________
+	   |		  |
+	   |  a		  |
+	   |	  ______e_|
+	   |	  |
+	   |	  |
+	   |	 d|
+___________|	  |
+|a		  |
+|  		  |
+|_______b_______c_|
+
+a = sniper rifle   d = m4
+b = sawed off	   e = mp5\10
+c = showgun
+
+Like jungle1, this level has very limited ammo. I like it that way.
+
+I am NOT happy about this map, as it actually breaks 1000 r_speeds at one place, 
+but some of my buds liked it, so I decided to release it..
+
+* Legal Crap *
+
+You can do whatever you want with this level, AS LONG AS YOU GIMME CREDITS.
+Fair enough, ain't it? 
+
+Copyrightred (C) Timm Stokke, 1998. All rights reserved.

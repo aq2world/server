@@ -1,0 +1,59 @@
+Release Date (DD/MM/YY) : 26/7/99
+===========================================================================================
+Title                   : Village 2 - Sequel to Village
+Filename                : village2.bsp
+Game			: AQ2
+Author                  : Zotud
+Email Address           : j-bart@jcbart.globalnet.co.uk
+
+Description             : Medieval village after dusk.
+
+Additional Credits to   : <BST>Chaka , JDodger, Andy for play testing. And the A-Team for AQ.
+
+Editor(s) used          : Bsp
+
+===========================================================================================
+Features
+========
+
+Sounds
+======
+
+Fox in the backgroud,
+Hens in the coop,
+Cows in the barn,
+Dogs in background,
+Bells in tower,
+Burning fire in fireplace.
+
+Buildings
+=========
+
+Cow Barn,
+Chicken coop,
+Windmill,
+Derelict house,
+Storage shed,
+Cottage,
+Hay Barn,
+And Tower.
+
+===========================================================================================
+
+Installation
+============
+
+Unzip files into your action quake2 directory (i.e c:\quake2\action) and the files will
+automatically unzip into the textures, maps and sound folders.
+
+In Case things go wrong.....
+
+Unzip the all .wal files to textures\zotud
+Unzip the all .wav files to sound\zotud
+Unzip the the .bsp file  to maps\
+Unzip all .tga and .pcx  to env\
+
+* Copyright / Permissions *
+
+Feel free to distribute this map (as long as this file is included)
+Do not use this as a base for a new map unless you ask me.

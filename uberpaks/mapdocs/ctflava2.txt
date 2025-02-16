@@ -1,0 +1,35 @@
+================================================================
+Title                   : I Lava CuPie
+Filename                : ctflava2
+Release Date            : 3/22/06
+Author                  : [DWL|FooQ]
+URL                     : http://
+Email                   : fooq@whoever.com
+Description             : A small AQ2 CTF map
+Credits                 : To my gorgeous wife for being so lavarly =P
+================================================================
+* Play Information *
+
+Single Player           : No
+Cooperative             : No
+ActionQuake DM          : Yes, but brutal
+ActionQuake Teams       : Yes, if you like mexican standoffs
+ActionQuake CTF		: Most definitely, I recommend setting wp_flags 433 to remove mp5, m4, m3 and akimbos for faster more fun play, less leg damage and m3 shotguns are lame
+Difficulty Settings     : No
+New Sounds              : Yes
+New Textures            : Yes
+New Music               : No
+Demos Replaced          : None
+
+* Installation *
+ Extract (unzip) in the *:*\quake2\action directory. All paths provided.
+
+* Construction *
+
+Base                    : New level from scratch
+Editor(s) used          : Quark 6.4
+Known Bugs              : None known
+Build Time              : Coupla days
+
+Copyright (c) 2005 .  All rights reserved.
+

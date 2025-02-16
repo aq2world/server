@@ -1,0 +1,82 @@
+ Title                   : locknload
+ Filename                : action.bsp
+ Author                  : the HUNTER(jason)
+ Email Address           : castillo@hal-pc.org
+ Description             : rip out that 45 and get ready to bust a cap in a closed
+                           warehouse. 
+                          
+ Additional Credits to   : My p2 300, my bro, Seeker, for play testing, my friend
+                           Talon for bithching at every software problem.
+                           All the guys who head up to hal-pc to play some quake
+                           till the cows come home on our bad ass t1 connection (4 actually).
+			   That bad ass Computer Club, HAL-PC <www.hal-pc.org>
+------------------------------------------------------------------
+
+* Play Information *
+
+ Settings                : ACTION QUAKE SETTINGS
+ Deathmatch 2-4          : hell yeah 
+ Deathmatch 5-100        : uhhh... over 10 it gets f#@k'n crazy
+
+* Construction *
+
+ Build Time              : 1 week
+ Compile Time            : 45 min on a p2 300 128 megs of ram oh yeah!!!
+ Editor(s) used          : Worldcraft
+ Known Bugs              : because of the lack of air movement with the new ver
+                           of quake2 you can't go back down some ladders other
+                           than that, it's all cool.
+                  
+* Other Info *
+
+weapon locations for da lamers
+
+1. shotgun
+located behind the desk that is on the first floor in the office
+
+2. mp5
+located on the roof
+
+3. sniper rifle
+parking lot
+
+4. hand cannon
+in the first warehouse
+
+******************************************************
+*                                                    *
+*                        front entrance              *
+*                                                    *
+*  b  *********************00***************         *
+*  a  0            *                       *8        *
+*  c  *            *                       *8        *
+*  k  *   ware2    *                       *8        *
+*     *            *                       *8        *
+*  d  *            *                       *8        *
+*  o  **************      office           *8        *
+*  o  *            *            ************8        *
+*  r  *            *            *          *8        *
+*     *   ware1    *            *   ware3  *8        *
+*     *            *            *          0###      *
+*     *            *            *          *###      *
+*     **************************************###      *
+*                                   ###########      *
+*                                 side ramp          *
+*****    *********************************************
+*                                                    *
+*                                                    *
+*              Parking lot                           *
+*                                                    *
+*                                                    *
+*                                                    *
+******************************************************
+
+* Distribution *
+Ok,
+You may NOT distribute this map on a CD or sell it with out writen consent from me.
+You may NOT use this for a base of one of your levels!!
+You may have fun playing this.
+You may bitch at any problem, you see.
+You may give me money for no reason.
+You must say this map rocks to play.
+ 

@@ -1,0 +1,89 @@
+=============================================================================
+Title                   : Action City 3
+Version                 : Public rev. 2
+
+Files                   : ACTCITY3.BSP, ACTCITY3.TXT, several new textures & sky
+                          archive: ACTCITY3.ZIP
+
+Release Date (DD/MM/YY) : 19/1/99
+
+Author                  : Lari Muuriaisniemi aka CryptR
+Email Address           : lmuur@dlc.fi   (send me feedback about this map)
+Web Site                : http://www.dlc.fi/~lmuur
+
+Description             : Map for Action Quake (http://action.telefragged.com).
+                          Action City 3 is sequel to my popular Actcity/Actcity2
+                          maps. So many have requested me to do it - here you
+                          have it now.
+                          Theme of this map is quite similar to 
+                          Ritual Entertainment's SiN City maps. Hopefully
+                          this is something bit more original as an AQ map.
+
+                          Again I've tried to keep R_SPEEDS low as possible. In most
+                          areas on the sides those are no more than 600. AFAIK,
+                          World polycount never goes over 1000.
+
+Installation            : * Unzip ACTCITY3.ZIP into root of your Action Quake
+                          game folder (Quake2\Action), with Subdirectory Extraction
+                          enabled (!), so that all textures and sky will be unzipped
+                          into correct directories (USE FOLDER NAMES checkbox
+                          in WinZip or -d switch in DOS' PKUnZip).
+
+Miscellaneous Info      : You should have 16-bit textures enabled instead of 8-bit
+                          if possible. That'll make sky and certain textures look obviously
+                          better.
+ 
+Additional Credits to   : A-Team for making greatest Quake2 Multiplayer mod ever.
+                          id software
+                          Robert Duffy for QERadiant
+                          All guys who sent me feedback and made reviews about previous versions.
+
+=============================================================================
+* Play Information *
+
+Game                      : Action Quake (Quake2)
+Single player             : Yes (only for looking around)
+Cooperative 2-4 players   : No
+Deathmatch 2-16 players   : Yes 
+
+New Graphics              : Yes (almost all used textures all entirely new!)
+New Music                 : No
+New Sounds                : No
+DLL                       : No
+
+* Construction *
+
+Base                      : New level from scratch
+Build time                : Few weeks
+Compile Machine           : P450 with 256M
+    QBSP3 Time            : 8 secs
+    QVIS3 Time            : 360 secs
+    QRAD3 Time            : 23 min
+
+Editor(s) Used            : QERadiant build 147 
+                            Paint Shop Pro 5 and Wally
+                            Bryce2 for Sky
+
+Known Bugs                : Nope
+
+* Copyright / Permissions *
+
+Authors may NOT use this level as a base to build additional
+levels.
+
+All new graphics that comes with this map (in TEXTURES/ACTCITY3) are
+copyrighted material by me and my own design. However, authors
+MAY use those new textures in their Action Quake2 maps, as far as 
+they give me credit for making these textures. Also letting me know is encouraged.
+
+You may distribute this BSP, provided you include this file, with
+no modifications, but please distribute original unmodified archive
+which can be obtained from my Web site.  You may distribute this file
+in any electronic format (BBS, Diskette, CD, etc) as long as you
+include this file intact.
+
+* Where to get this BSP *
+
+WWW   : http://www.dlc.fi/~lmuur 
+
+OTHER : http://www.mapdepot.net (Action Quake Map Depot)

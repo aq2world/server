@@ -1,0 +1,63 @@
+Texture Collection October '98
+
+Released   :      Oct 5, 1998
+Copyright  :      1998
+Creator    :      Ty Smith
+Email      :      Ender975@msn.com
+ICQ UIN    :      14814666
+WWW        :      http://dogpound.3dpalette.com
+
+
+--Creator
+
+My name is Ty Smith, as is posted all 
+over this document.  I am currently a 
+freelance graphic artist.  The majority
+of my time however is devoted to 
+Textures / Skins / Icons and GUI.  I mainly 
+develop for games, but it would not be 
+tough to make a change in venue.  I have 
+been doing game art for nearly 2 years now,
+but have only recently gotten serious about it.
+
+
+--Info
+
+If you would like to use any textures you 
+see, in part, or in whole.  Contact me at 
+the address above.
+
+All of the textures included were meant 
+for 16 bit/unrestricted palette output.
+However I do have copies in Q2 format. 
+Though most you could convert yourself 
+without much trouble.
+
+All of the textures for the most part 
+took around 10-30 minutes, not including 
+minor tweaks later on.  However a few of
+the more detailed ones took up to 3 hours. 
+
+
+--Tools
+
+All textures were done with Adobe Photoshop 5.  
+Some were a mixture of scanned 
+images/objects + hand touch ups.  All were 
+done with a Logitech MouseMan  I currently
+do not own a tablet, but if you would like to
+contribute one to me, I would accept it 
+graciously.  
+
+
+------------------------------------------
+                Legal Info
+------------------------------------------
+
+(c) 1998 Ty Smith 
+All textures and icons are property of 
+Ty Smith.  Any use of these textures for
+commercial purpose without permission by 
+Ty Smith is illegal.  If you wish use these
+textures in a non-commercial project, this 
+file must be included.  

@@ -1,0 +1,89 @@
+=============================================================================
+* General Info *
+
+Title                   : Rooftop Suicide
+
+Archive                 : rooftops.zip
+
+Release Date (DD/MM/YY) : 09/01/04
+
+Build			: 1.30
+
+Author                  : Carl-Magnus Bjorkell (aka [tBd] NRGizeR)
+Email Address           : carl-magnus.bjorkell@pp.inet.fi
+
+Description             : Map for Action Quake (http://aq2.action-web.net).
+			
+			  The map is set on the rooftops of eight highrise buildings.
+			  It's a long way to the ground, so don't fall off :)
+
+Installation            : Unzip rooftops.zip into the root of your Action Quake
+                          game folder (Quake2/action), with Subdirectories
+                          enabled (!)
+                                                    
+Additional Credits to   : Ruskprick for some textures
+			  FiReWaLKeR[TDm] for some textures
+			  Delta & SirToby for playtesting.
+			  www.aq2world.com and their forum visitors!
+			  Argh! for ArghRad
+			  Geoffrey DeWan for his improved compiling tools                  
+                          Rust (www.gamedesign.net) for the great tutorials
+                          A-Team for making the greatest Quake2 mod ever.
+                          id Software for Quake 2.
+
+Changed since b1.25	: A trigger_hurt was added to the ground level. If you
+			  touch the ground a 3 second timer will be started that
+			  activates the trigger_hurt for 0.01 seconds and kills every
+			  one still alive on the ground. This only really applies to TP
+			  games, since you are able to get to the ground before "action"
+			  and survive the fall that way. However, the trigger_hurt will
+			  always be triggered 3 seconds after someone has touched the
+			  ground, so if you manage to fall EXACTLY three seconds after
+			  someone else, you will be killed by this entity. This only means
+			  that if someone shot you off the roof, he/she won't get a kill
+			  for your flight. 
+
+			  Other than that, the map is exactly the same as in 1.25.
+
+=============================================================================
+* Play Info *
+
+Game                      : Action Quake (Quake2)
+Single player             : Yes (only for looking around)
+Teamplay                  : Yes
+Deathmatch 		  : Yes
+Suggested Player Load	  : 2-8 (14 spawnpoints)
+
+New Graphics              : Yes
+New Music                 : No
+New Sounds                : Yes
+New Sky			  : No
+DLL                       : No
+Locations File		  : Yes
+
+* Construction Info *
+
+Base                      : New level from scratch
+Build time                : 1 week (plus extra time for playtesting and tweaking)
+Compile Machine           : AMD Athlon XP 2100+ @ 2700+
+    QBSP3 Time            : 2 seconds
+    QVIS3 Time            : 11 minutes
+    ARGHRAD (-extra) Time : 34 minutes
+
+Editors Used		  : QERadiant, Wally, Paint Shop Pro, ArghRad, 
+			    Geoffrey DeWan's QBSP3 and QVIS3
+
+Known Bugs                : None.
+
+
+* Copyright / Permissions *
+
+Authors may NOT use this level as a base to build additional levels. 
+
+All textures and sounds not made by me are the property of their 
+respective owner. You may distribute the archive rooftops.zip in 
+whatever way you see fit as long as the archive remains intact and 
+is distributed freely. It is strictly prohibited to distribute any
+of the files in this archive commercially!
+
+Enjoy.

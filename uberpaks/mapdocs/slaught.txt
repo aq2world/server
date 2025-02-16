@@ -1,0 +1,55 @@
+================================================================
+ACTION QUAKE2
+================================================================
+* General Information * 
+Title                   : Slaughter in broad daylight
+Filename                : slaught.bsp
+Release Date            : 06.02.2005
+Author                  : Nico Tukiainen aka Pauhi
+URL                     : http://home.no.net/swsaq2/maps/slaught.zip
+Email                   : tukiainen.nico@student.hbc.fi
+================================================================
+* File Information * .
+bsp Name		: slaught.bsp
+ZIP Size (KB)           : 3,39 MB
+================================================================
+* Play Information * 
+Single Player           : No
+Cooperative             : No
+Deathmatch              : No
+ActionQuake DM          : Yes
+ActionQuake Teams       : Yes
+DM Spawn Points         : 4
+Max Player Load         : 16
+Difficulty Settings     : No
+New Sounds              : No
+New Textures            : Yes
+New Music               : No
+Demos Replaced          : None
+================================================================
+* Installation *
+ Extract (unzip) in the *:*\quake2\action directory. All paths provided.
+================================================================
+* Construction * 
+Base                    : New level from Pauhi
+Editor(s) used          : Worldcraft 1.6, ArghRad, Wally, Photoshop CS
+Known Bugs              : None.
+Build Time              : about 2 days
+Compile machine		: AMD XP3000+, 1024 DDR
+Compile time		: ~30 minutes
+================================================================
+* Special thanks to: *
+================================================================
+Genie for mapdoc base
+All texture makers. (WizardExt, Zakath, NRGizeR and more...)
+A-team for a great mod.
+Tim Wright for ARGH! tools
+ID for Quake II. 
+================================================================
+* Notes*
+================================================================
+Don´t modify my map in any way without asking me fist!
+
+Have fun!
+
+-Pauhi (Sorry Genie, I didn't see the "Dont modify this txt file" before it was too late ;))

@@ -1,0 +1,45 @@
+================================================================
+               http://www.planetquake.com/portals
+================================================================
+Title                   : Altar of Kumanru
+Filename                : kumanru.bsp
+Author                  : Mark Major (aka Shmitz)
+Email Address           : shmitz@drchronicles.com
+Description             : An ancient temple
+Additional Credits to   : id and the makers of Action Quake
+================================================================
+
+* Play Information *
+
+Level Name              : The Altar of Kumanru
+Single Player           : Just for looking around. 
+Cooperative 		: Nope.
+Deathmatch 		: Not really
+Action Quake		: Yuppers. 
+Difficulty Settings     : No.
+
+* Construction *
+
+Base            : New level.
+Build Time      : A couple days
+Editor(s) used  : Qoole
+Known Bugs      : none
+
+* Level info *
+
+There's rumor of great treasures to be found in the newly discovered Temple of Kumanru. 
+However, there are more greedy hands than can comfortably share any fortunes that may be
+found, so the order of the day is to take care of the competition first, and THEN go looking
+for riches.
+
+There are two sniper towers... one easily attacked and the other very difficult to approach 
+(watch those swinging bells... if you're not careful they'll knock you off and you could 
+break a leg with the fall). There's a slaughtering chamber, a meditation chamber, a couple 
+sunny alcoves, a sewer, and of course, the altar. Who knows what secrets are hidden within
+the walls of this temple?
+                                  
+* Legal Stuff *
+
+You may distribute this map so long as you include this text file. Thanks to large, 
+overpowerful, uncaring, overly-politic legal departments of gaming companies that 
+shall remain nameless, you cannot distribute this by any means except via the internet.

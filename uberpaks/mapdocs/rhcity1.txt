@@ -1,0 +1,88 @@
+================================================================
+Title                   : Rockheim Downtown: I'm gonna get ya sucka!
+Filename                : rhcity1.bsp
+Release Date            : 1998/12/21
+Map Author              : Stefan Giesen (Igor[Rock])
+Email Address           : Stefan.Giesen@gmx.de
+Homepage                : http://www.homepages.de/sgiesen@dialup.nacamar.de
+Description             : A city level with sewers
+Requirements            : Quake2, Action Quake2 >=v1.0
+================================================================
+Additional Credits
+The A-Team              : for making this GREAT mod
+The team from AQMD      : For running such a cool map site with
+                            the great discussion board.
+================================================================
+* Play Information *
+Single Player           : Not intended (only for sightseeing)
+Cooperative             : No
+Deathmatch              : Not intended (weapons? which weapons?)
+CTF                     : No 
+Deathmatch (AQ2)        : Yes, should be fine
+Teamplay (AQ2)		: Yes, this map was intended for teamplay
+* Construction *
+Base                    : From scratch (own idea)
+Editors used            : Qoole V2.50 (If they only used integer
+                            for their calculations...)
+                          Wally V1.24B for the textures.
+Known Bugs              : Well at some spots (mainly at the sniper
+                          positions on the roofs, the r_speeds values
+                          are a little bit to high, but as sniper
+                          normally use min. zoom2 there should be
+                          no problem :^)
+================================================================
+* COPYRIGHT NOTICES and PERMISSION *
+This level is copyright 1998 by Stefan Giesen.  Permission to use, 
+copy and distribute unedited copies of this file -- [rhstation.bsp] -- 
+is hereby granted, provided that no fee is charged for the use or 
+availability of this file (other than the normal connection costs for 
+on-line services, if applicable). The above copyright notice and this 
+permission notice must be left intact in all copies of this file.
+Commercial distribution of this file, in whole or in part, requires 
+prior agreement with the author. Commercial distribution includes 
+any means by which the user is required to pay either for the support 
+(e.g. book, newsletter or CD-ROM) or for the file itself.  Unauthorized 
+commercial distribution is prohibited.
+If you wish to commercially distribute this file, note the following:
+(1)Permission is granted by the author for the one-time commercial
+distribution of this file if all of the following conditions are met:
+(a)The author is notified by email prior to the file's inclusion 
+on any commercial release;
+(b)The author is provided with one (1) "contributor's copy" of
+the finished product upon it's release.  Said "contributor's 
+copy" is to be sent to the author using the shipping address 
+specified by the author in his/her reply to the publisher's 
+initial email notification, and is to be provided at no cost 
+to the author;
+(c)This file (including this copyright notice) is not to be 
+modified in any way, and shall be distributed as the author 
+intended;
+(d)The author retains all relevant and proper copyrights to this 
+work both prior to and subsequent to the commercial release of 
+this file.
+(2)By requesting a shipping address from the author, the publisher
+signifies acceptance of, and agrees to abide by, these conditions.
+By returning a valid shipping address to the publisher, the author
+thereby grants the publisher one-time usage of the author's 
+copyrighted work for commercial purposes.
+Thank you for your interest in this work.
+================================================================
+Note on new textures
+If someone want's to use my self-made textures, he must contact
+me to get my permission! Normally I will give you this permission,
+as long as you're not using them for a commercial project (then
+we have to see how we do it).
+================================================================
+Compile time and such stuff :-)
+From vis:
+Average clusters visible: 855
+60594.0 seconds elapsed
+
+From Arghrad:
+581 seconds elapsed
+
+================================================================
+FLW:
+Boom - Boom - Boom  - Click - "Oh No!" - Splat - "Aaaaaaaaargh!"
+
+Watch out for new levels to come from me!

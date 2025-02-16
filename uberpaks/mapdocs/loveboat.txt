@@ -1,0 +1,61 @@
+=============================================================================
+Title                  : Loveboat
+Filename               : loveboat.zip
+Version                : 7/19/99
+Game                   : Action Quake 2 
+Author                 : Touko "Squirrel" Kästämä  (except for parts noted later)
+                         Email:   tokastama@goplay.com
+                         Website: get.to/squirrel
+Description            : Mostly teamplay oriented map in the popular TV series Loveboat theme.
+                         The boat layout, however, is not the same as in loveboat, but carries
+                         some resemblance to MS Mariella which travels between Helsinki & Stockholm.
+                         (Too bad I couldn't get loveboats blueprints anywhere ;)                 				  
+Thanks to              : ID Software, A-TEAM, QERadiant & Wally Makers, Rust (www.gamesdesign.net)
+Special Thanks to      : T.T.I. , Leeloo's Friend, Clan UNited and anyone else involved in this.
+=============================================================================
+* Play Information *
+Single Player          : Just for checking things, as usual in Action Quake 2
+Cooperative            : Nope
+Deathmatch             : Sure 
+AQ2 Teamplay           : Of course!  (teamplay preferred to any other)
+Difficulty Settings    : Nope
+New Graphics           : YES !               
+New Sky                : Yep, "love1" by T.T.I.
+New Sounds             : Yes, "squswing.wav" by Benjamin Särkkä
+CD Track               : None
+
+* Construction *
+Base                   : Scratch
+Editors used           : Wally, QERadiant 1.0 B135
+Build Time             : Unknown
+Known Bugs             : No
+Compile & build machine: Pentium MMX 200, 64 MB, Stingray(Voodoo Rush)
+Compile time           : 1 hours, 43 minutes and 10 seconds
+Brushes                : 1108
+=============================================================================
+* REQUIREMENTS *
+- Quake2 
+- Action Quake 2
+- Computer ;)
+=============================================================================
+* Installation *
+Just unzip to your X:\Quake2\Action directory (with subdirectories enabled).
+The BSP must end up in X:\Quake2\Action\maps folder.
+Textures must end up in X:\Quake2\Action\textures\squ folder (some to textures\tti).
+New sounds MUST end up in X:\Quake2\Action\sound\world folder.
+The sky files (.pcx & .tga) must end up in x:\quake2\action\env folder.
+
+* Copyright / Permissions *
+Authors MAY NOT use this level as a base to build additional levels. All
+textures, sounds, anything MAY NOT be used for other maps. You MAY 
+distribute this map, but DON'T sell it. Include this text file with it, as well 
+as any other files orinally in the .zip file, unchanged.
+
+Copyright (c) 1999 Touko "Squirrel" Kästämä.
+=============================================================================
+Touko "Squirrel" Kästämä
+Email:   tokastama@goplay.com
+Website: get.to/squirrel
+
+Feel free to send me feedback on this.
+=============================================================================

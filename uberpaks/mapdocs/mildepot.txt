@@ -1,0 +1,62 @@
+Instructions: extract the archive, preserving directories, to your quake2/action directory.
+================================================================
+Title                   : THE MILITARY DEPOT
+Filename                : mildepot.bsp 
+Author/s                : Clan MIA (DERTY)
+People who helped       : CLAn MIA basicly...and the server games.upnaway.com for testing
+                        : Also i used croxlys texture (under permission) so thanx crox and go
+                          to their great site aow.killers.net
+                        : sounds are 'borrowed' from the great guys who made beachassult.
+Email Address           : wilcox@upnaway.com
+web address             : www.upnaway.com/~jpm/mia
+Description             : MAP...of um erm.... a military depot! inspiration sorta from a n64 game
+Where to get ActionQ2   : http://action.telefragged.com
+================================================================
+* Play Information *
+
+Single Player           : NO
+Cooperative             : HELL yeah
+Deathmatch		: Yes.
+Action Quake2		: Yes.
+Difficulty Settings     : No.
+New Sounds              : Yes.
+New Graphics            : Yes; textures.
+New Music               : No.
+Demos Replaced          : None
+
+* Construction *
+Base                    : an very empty grid
+Editor(s) used          : qoole (www.qoole.com), qeradient to compile
+Known Bugs              : r_speeds get high due to this map being only quik vised, this was done
+                          due to the eta was 40+ hrs. Oh its a bit dark for software ppl..but making
+                          it lighter was to light for the effect for gl ppl..so sorry SW ppl u
+                          had to lose out..coz GL is more popular
+* Build Time *
+total. 3 days + a week of tweeking
+Construction. 6893  just ova 2hrs
+=================================================================
+*Future mapping directions for CLAN MIA*
+
+* look out for our maps in the future!!
+ COMING SOON:
+ (1) MLSHS, The GREAT school (eventually)
+ (2) DaDock3, (maybe)
+ (3) Mildepot2 
+
+=================================================================
+*Legal*
+
+This map can only be distributed with this text file and for NO kind of payment. Also it is
+not to be used in any way for a base for another map. Textures are ALL mias and are NOT allowed 
+to be copied without MY writen permision.
+
+
+
+
+
+
+
+
+
+*please note BIOHAZARD =TH=, sex with animals is illegal!!!*
+

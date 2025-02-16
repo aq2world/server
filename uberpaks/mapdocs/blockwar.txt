@@ -1,0 +1,58 @@
+ Title                   : Block War
+ Filename                : blockwar.bsp
+ Author                  : Brian McClelland
+ Email Address           : Hondo@telefragged.com
+ Description             : A fairly large city area with a gun store, hotel, sewer, street, and a bit else.
+                          
+ Additional Credits to   : A-Team, Id, Ben Morris for WC, thefatal@telefragged.com for some playtesting (would have happened more often if his house hadn't been struck by lightning), and my brother for having to listen to me talk about my level every damned day :)
+------------------------------------------------------------------
+ Time of writing: 5:45am (PST). Bear with me if I start to talk too much.
+
+
+* Play Information *
+
+ Settings                : Whatever the AQ server is running.
+ Deathmatch 2-4          : Yes, it's a very good map for low-player strategic hunting.
+ Deathmatch 5-100        : 100 is.. just plain.. wrong. But this map's large, it can handle a lot.
+ Teamplay                : *YES* ::shineshine:: Team1 spawns in the gun store and their flag is in the hallway intersection. Team2 spawns in the hotel and their flag is in the 2nd floor hallway next to the roof stairs. (I added flags in case they ever add "capture the briefcase" or whatever).
+ New Sound               : No
+ New Graphics            : Yes. Two store signs and a new environment map. (I took the moon from the hong kong one and pasted it into the starry one from the coventry <g>. I think I matched the sun (moon) angle pretty accurately to its actual position).
+ New music               : No
+
+* Construction *
+
+ Build Time              : About a month and a half total, the day I got AQ, I started.
+ Map Info                : Solids        : 3096 
+                           Faces         : 19938
+                           PointEntities : 677
+                           SolidEntities : 45
+ Compile Time            : P-233 MMX, 64mb
+                           QBSP    : 595 seconds
+                           QVIS3   : 11542 (It took 20 hours for the third to last full VIS, so I went and made all the little stuff into "detail" brushes, and next time it did it in 3 hours <g>)
+                           ARGHRAD : 49741 (For some reason, the light bouncing for the last 2 full compiles took HOURS. Either related to the detail brushes, or I coincidentally ran out of disk space or something)
+ Editor(s) used          : Worldcraft 1.6r
+ Known Bugs              : The generator doors make no noise. I think it's because of the two million (est.) target_speakers I have around there to make the sound fill the whole room correctly. I guess in RL you wouldn't be able to hear a door open above the noise anyway. 
+                           The right back of the dumpster wall disappears unless you're near it. I tried a few things, but it didn't fix it.
+                           Because AQ doesn't check if you're facing a door to open it, you'll probably inadvertantly open a few doors in the hotel rooms. Not a bug, just a small annoyance. Maybe they'll change this.
+                           Since they haven't added teamplay code yet, the entities (info_player_team1/2 and info_flag_team1/2) will cause messages when the level is loading. Ignore it.
+ 
+* Other Info *
+
+ I hate levels with terrible framerates and dark areas everywhere. It's pure gold for the bastard with a P2-400 and a T1. Sooo.. I tried to keep the FR good and totally dark areas down (there still are a lot of dark places to hide, don't worry)
+ I also hate levels with M4 ammo everywhere. Therefore, there's only one clip, and it's where you got the M4.. in a hazardous spot. Weapons locations follow:
+ Shotgun: Generator room, middle building
+ Handcannon: Blue crate room, gun store
+ Machine gun: Display cases, gun store
+ M4: Water pit, sewer (don't fall)
+ Sniper rifle: roof, hotel (where else, but a roof?)
+ There's a findable amount of ammo around, and grenades are plenty.
+ And there's a secret, silent door in the hotel. Find it. Also, a lot of stuff around the hotel is climbable. A few things are obvious, the rest aren't. 
+
+ The two store signs are by Katarn@netlinkcom.com. They look a lot crappier in the game than the actual images because we just couldn't get them to palette well.
+
+* Distribution *
+
+ If you're going to do something that involves my level earning you money, contact me. I'd like my cut.
+ If you're going to include this level in any kind of collection or whatever, e-mail me just so I know.
+ Don't modify this in any way. If a new version of AQ comes out with new stuff I need to add, I'll probably know, and release a new version myself.
+

@@ -1,0 +1,131 @@
+20/9/99
+//this text file best viewed with a high resolution in a wide window
+
+==================================================================================================
+
+Map Name:		Route 666 : The Lava Mine
+File Name:		666mines.bsp
+Author:			Ben Lyons
+E-Mail:			benlyons@eisa.net.au
+Description:		Umm... A small underground mine, somewhere in the Desert. 
+
+===================================================================================================
+
+Construction
+
+Base: 			Scratch
+Editor:			QERadiant Build 147, Wally, Ulead MediaStudio Pro 2.5b Audio editor, Qped
+			and Adobe Photoshop 5
+Build time:		Hard to tell really
+Copmile time:		QBSP3 - 'bout 20 secs
+			QVIS3 - 8018 secs (2.2 hours)
+			ARGHRAD - 12207 secs (3.4 hours)
+Compile Machine:	P2 450 with 128 mb RAM
+Known Bugs:		-When a body dies in the lava, it creates a constant hissing sound. This is 
+			cause normally in Q2 it would gib and go away, but because of AQ2 it wont.
+			This isn't my fault, and it should only be a minor problem in CTB or small 
+			games of DM.
+			-The fans cause problems with knives. It is possible to jam a fan by chucking
+			a knife into it (which is fine), but it is also possible to jam them by throwing
+			knives near them. Sometimes when you throw the knives near the fan, instead of 
+			the knife sticking there, it will get flicked a small distance across, often
+			resulting in the knife sticking in the air. Once again this is the fault of the
+			Q2 engine, not me, as func_rotating's seem to interfere with the nearby null space,
+			particularly in the area perpendicular to their rotational axis. Normally this 
+			problem isnt noticable, but knives cross into null space when they stick into walls,
+			and thus get affected by the bug. Don't worry, it is barely noticable unless you
+			go out of your way trying to set it off.
+			-Theres a bit of the long distance GL clipping bug. It's very minor though, and what
+			map doesnt have it?
+			-The sun in the sky doesnt match the angle of the shadows... oh well
+
+
+=======================================================================================================
+
+
+Installation
+
+You should know this by now..... Unzip it all to your action directory with include subfolders checked.
+If this doesnt work then blame it on AQMD.
+
+=======================================================================================================
+
+Credits
+
+Accurate texture crediting is a difficult thing to do. When picking textures, I tend to take textures from
+other maps, who's authors had taken them from other maps, who's authors had taken them from other maps... etc.
+So short of e-mailing every-one who ever made a map to ask where they got their texutures from, there is no
+way for me to give complete accreditation to every-ones work that I used. However, here I will try my best.
+Thanks to the following for textures in no particular order:
+
+Ruskprick
+JesperMyrfors
+the gimp
+The makers of the Xatrix texture pack
+Gerbil!
+Jed
+Me ;)
+
+And every-one else who I wasn't able to work out, you know who you are, give yourself a pat on the back.
+
+The car is the q2car prefab by Olli Paakkonen, which I modified a bit to make it look/work better.
+
+Special credit to "Jed D'Lagged : Inbred Redneck Samurai Assassin extrodinare" for lots of things including 
+the sign textures, playtesting, and ideas.
+
+====================================================================================================== 
+
+Authors notes:
+
+1. Normally I only make a map when I feel like it. But $350 of prize money is too good to pass up, so I kinda
+had to force things. Considering that I only found out about the competition about 20 days in, I was a bit 
+rushed. This probably isn't the best map I have made, but it was the best I could do on short notice, so it will 
+have to do.
+
+2. With a bit of grenade jumping, it is possible (but difficult) to reach areas of the level where your opponent
+would have no chance of ever being able to see you. On a server with no rcons, p_kick or similar command, or
+roundlimit, this could possibly allow some lamer to create a never ending round. If you are thinking of being
+that lamer, dont... I know where you live
+
+3. No, I don't like the top bit much either. Kind of a let-down to the rest of the level. There is sooooooo much I
+could do with it, but r_speeds are creeping  above 1000 as it is, so unfortunatly I will have to leave it :( 
+
+4. I know there have been maps made of mines before, but before you write this off as 'done before', take a look
+at those maps. You will notice that they are nothing like this map whatsoever.
+
+5. Ladder/lift camping *might* become a problem if you are playing with teamloads of lamers. While a team of 4
+patient campers probably could set up a very big and effective tent on the surface, the same could be said
+of most maps. If you catch people constantly camping the ladders or lifts, feel free to call them @#*%&#
+*%*$#&%* camping &#*%&#* lamer #%&*#&$*##& skilless @!*&^$%# $&*#@& campers for me.
+
+6. This map is of mines, it had to be dark at least in some places. Of course this creates the age old problem 
+of gl_modulate/irvision and their assorted 'issues'. I have my gl_modulate set to 1 on a V2 based card, with my
+brightness adjusted to about the level that I think most people play with. I fine-tuned the lighting so it 
+fitted my brightness/modulate settings. Because it walks a fine line between too dark and too bright, you might
+need to fine-tune your brightness settings. Keep in mind that you are not supposed to be able to see people hiding
+in the dark corners. My hope is that this will allow items such as stealth slippers and silencers to actualy be 
+useful enough for people to take them.
+
+6 seems an appropriate number to finish on :)
+
+
+=======================================================================================================
+
+Other Stuff
+
+This map was made by Ben Lyons. Feel free to distribute as you like, so long as there is no fee attached, 
+and this .txt is included, unmodified, in its entirity. Feel free to use the textures as you like, but be 
+careful when copying them into the same directory as textures from other maps, as many have the same name
+but may have been slightly changed for various reasons.
+
+
+If you have any comments, suggestions, flames, ideas, money, requests for the .map file, send them to me at
+
+benlyons@eisa.net.au
+
+
+and remember...
+
+PH34R THE POINTY TEETHED GERBILS OF DOOM!
+
+

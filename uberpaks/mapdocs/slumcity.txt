@@ -1,0 +1,43 @@
+<=================================================================>
+
+ Title              : Slum City
+ Filename           : slumcity.bsp
+ Game 		    : Action Quake2 MOD
+ Author             : Per "peep^" Karlsson
+ Email Address      : per.karlsson@online.hallandsposten.se
+ UIN                : 21083937
+ Description        : A city,with some buildings to be in.           
+ Thanks to          : A-Team, id software,Coca-Cola.
+	                    
+
+<=================================================================>
+
+* Play Information *
+
+ Settings                : Action Quake2 Mod
+ Single Player		 : Nope!
+ Cooperative             : Nope!
+ Deathmatch		 : 2-8 is probably best.
+ Teamplay                : Of Course!
+ New Sounds              : Nope!
+ New Graphics            : Yep!
+ New Music               : Yep!
+
+* Construction *
+
+ Build Time              : HeHe,2 Days =]
+ Compile Time            : 15-20 min (QBSP3,QVIS3,ARGHRAD)
+ Compile Machine	 : P2 300 with 64 MB RAM
+ Editor used             : Qoole 2.50
+ Known Bugs              : Mail me or contact me on ICQ if you see any.
+
+* Install * 
+Just unzip it to quake2/action.
+
+* Authors Notes *
+I didn't have anything to do so i just made this map =]
+
+* Legal Stuff *
+Don't do anything to my map,use the textures if u want to( there are only 2 :] ).
+PLAY THE MAP ON SERVERS!
+<=================================================================>

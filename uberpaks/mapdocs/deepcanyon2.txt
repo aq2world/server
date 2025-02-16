@@ -1,0 +1,162 @@
+================================================================================
+* ACTION QUAKE II LEVEL INFORMATION *
+--------------------------------------------------------------------------------
+TITLE                   : DeepCanyon 2 -The Max-
+FILENAME                : deepcanyon2.zip
+AUTHOR                  : Shaymon
+DATE                    : 6.04.2001
+EMAIL ADDRESS           : shaymonmacdaddy@hotmail.com
+HOMEPAGE URL            : None
+.zip CONTENTS           : Textures, Sounds, ENV, txt file & bsp
+
+*NOTE: If you are reading this you have the FIXED version.
+The previous version was uploaded to AQMD but was missing rock2.wal.
+(* Edited by smurphster)
+
+--------------------------------------------------------------------------------
+* LEVEL DESCRIPTION *
+--------------------------------------------------------------------------------
+It is 2 years after the rebel forces were
+distinguished from DeepCanyon. They once again
+have gained control of the canyon. Only this time
+they occupy the area known as Heaven's Peak.
+Heaven's Peak is to the West of DeepCanyon, across
+Devil's Gorge. If your standing on Bridge's crossing
+and look out over Devil's Gorge, you can see DeepCanyon.
+You and your forces must run the rebels out of Heaven's
+Peak. There is a strange monument protected by powers
+beyond anything ever seen before. If the rebels find a
+way to disempower the forcefield then not only
+will DeepCanyon be destroyed, but the whole planet
+will be jeapordized.
+
+
+--------------------------------------------------------------------------------
+SINGLE PLAYER           : ? Player Start   Point(s)
+CO-OPERATIVE            : 20+ Player Start   Point(s)
+DEATHMATCH              : 20+ Player Respawn Point(s)
+ACTION QUAKE II         : 2 Teams
+                          ? Player Respawn Points per Team
+SUGGESTED PLAYER LOAD   : 1 to infinity
+
+NEW TEXTURES            : Yes
+NEW SOUNDS              : Yes
+CD TRACK #              : 0
+
+--------------------------------------------------------------------------------
+* CONSTRUCTION *
+--------------------------------------------------------------------------------
+MAP BASE                : New Map
+PREFABS USED            : None
+EDITOR(S) USED          : QOOLE 2.50 & 99
+OTHER UTILITIES USED    : ArghRad 2.01
+
+KNOWN BUGS              : None
+
+COMPILE MACHINE         : Custom P3 1000   256 Ram
+
+QBSP2 TIME              : 9 seconds
+VIS TIME                : about 2100 seconds -level 4
+QRAD TIME               : about 2400 seconds -v -extra -bounce 40
+
+--------------------------------------------------------------------------------
+* OTHER LEVELS BY THE AUTHOR *
+--------------------------------------------------------------------------------
+: DeepCanyon1
+
+
+--------------------------------------------------------------------------------
+* SPECIAL INSTRUCTIONS / ADDITIONAL INFORMATION *
+--------------------------------------------------------------------------------
+Unzip to your Action Directory
+
+--------------------------------------------------------------------------------
+* CREDITS *
+--------------------------------------------------------------------------------
+The A-Team              : For making a THE BEST Mod
+
+
+Spear^NSN[C.A.P.]       : Spear was a big factor in DC2. He was actually
+                          going to create half of it but he was too busy
+                          and the map needed to be released. I would suggest
+                          teaming with him because he is one hail of
+                          a mapper!!!!
+                          Spear suppled just about every Texture in DC2.
+
+                          Many times spear had me delete areas of the map
+                          and I am glad. If you could see what DC2 started
+                          out as you would be amazed. Spear also taught me
+                          some fancy new techniques. Basically what I am
+                          saying is this "Even though spear did not build
+                          any of this map, he was a Huge contributor!!"
+
+aqmd.telefragged.com	: Um need I say more? The most kick Arse AQ2 site ever!!
+			  Thanks for all your help, services, upkeep and Word of mouth.
+www.actiongames.co.uk/tnn
+TNN			: For all they do and for mentioning DC2 :-) Thanks Japes,
+			  BlackMonk,Rincewind and whoever else helps with TNN!
+
+Smoke			: For his help in getting the word out about DC2
+
+Spear^NSN[C.A.P.]	: Did I mention Spear?
+                          
+LoneGunman(DRE)         : For all the testing and ideas!!
+
+Crimthan                : For all the testing and ideas!!
+
+Feyenrey                : For all the testing and ideas!!
+
+Aneiric 420             : For all the testing and ideas!! And the great Dope er Rope idea!!
+                          
+Smurphster              : For his support and for the upkeep
+                          of the AQMD. And his testing :-)
+                          
+GreyDeath               : GreyDeath made and then fine tuned the sky for DC2. I am sure he got
+			  sick of me sayin" Hmm maybe a bit brighter" or "Hmm maybe a bit
+			  taller" through all of that he still got it done. THANKS
+			  GREYDEATH! Also for his help in testing and his upkeep of AQMD.
+                          
+Buggers		 	: All the people who bugged me to make a DeepCanyon2
+                          
+                          
+My Wife                 : For putting up with all my Mapping time :-)
+                          And also for her ideas and support.
+
+All the fans
+and non-fans
+who emailed me		: For making me make another map and for telling
+			  me what would make Deepcanyon better.
+
+Maker of drksky ENV	: I am using *.drksky.pcx files for my low res sky.
+			  Thanks to whomever created it!!
+
+Anyone I left out!	: For forgetting you :-(
+
+
+================================================================================
+* COPYRIGHT / PERMISSIONS *
+--------------------------------------------------------------------------------
+Authors MAY NOT use this level as a base to build additional levels.
+
+You MUST NOT distribute this level UNLESS you INCLUDE THIS FILE WITH
+NO MODIFICATIONS. If you don't co-operate, then DON'T DISTRIBUTE IT
+IN ANY FORM.
+
+This LEVEL may be distributed everywhere.
+
+My wife's Blue Dolphin is a trademark of my levels, It MAY NOT be copied otherwise
+next time you go swimming you will be eaten alive by fish!!(Yeah even at the
+municipal pool!!)
+
+Textures:  (You must Ask Spear^NSN[C.A.P.] if you want to use any textures)
+If you fail to ask him then the textures will blur out after 123 frags on
+your level. Oh and the water texture was from Lavatube(Gimp)
+
+Sounds:   (Go ahead, I found them on the internet and in other folders) mrdrip was
+from Gimp's Dir and wind was from sabotuer's) I did not see anything stating
+that you can't use them..if so..sorry :-(
+
+Env files:  For the dc2_gdx ENV files, you must contact Greydeath and ask his permission.
+
+Action Quake II (C) 1998-99 The A-Team.
+Quake II (C) 1998-99 id Software. All rights reserved.

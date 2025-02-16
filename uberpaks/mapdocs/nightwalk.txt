@@ -1,0 +1,8 @@
+Title: 	Nightwalk
+Date: 	30 September 2023
+Tools: 	TrenchBroom, ericw-tools
+Email: 	lovrogrgic0@gmail.com
+
+Credits: 	
+
+	Makkon & WizardExt for textures

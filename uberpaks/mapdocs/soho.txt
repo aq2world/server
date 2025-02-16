@@ -1,0 +1,93 @@
+
+Release Date:  1/21/99
+
+===========================================================================================
+Title                   : SOHO (BETA Version)
+Filename                : soho.bsp
+Game		: AQ2
+Author                  : MexicanRadio (a johnsen)
+Email Address           : mexicanradio@hotbot.com
+Web Address             : http://pages.hotbot.com/current/mexicanradio
+Description             : city map (it's Soho, right?)
+Additional Credits to   : WALLY, BSP HQ, ruskprick for the crate texture, ARGHRad, The Critic
+		  (yeah, I know I put in a second back door, sorry...), faux queue 
+		  for testing (hint - he's not French)
+                          
+
+===========================================================================================
+
+* Play Information *
+
+Single Player           : no
+Cooperative             : no
+Deathmatch              : 1-10, I guess, although untested above 6 
+Teamplay                : yes
+Difficulty Settings     : no
+New Sounds              : yes
+New Graphics            : yes
+New sky                 : yes
+
+===========================================================================================
+
+* Construction *
+
+Base                    : new
+Editor(s) used          : bsp, arghrad, wally, wordpad
+Known Bugs              : distance not set on a few doors, unmatched team spawns, nothing major
+Build Time              : on and off for about a month
+Build Machine	: Dell P2 300 64 megs RAM
+Compile Time	: QBSP3 15 seconds, QVIS3 15876 seconds, ARGHRAD 2384 seconds
+Notes:                  : I've kept this map relatively small, designed for teamplay, but 
+		  deathmatch works pretty well also. Light compiled with ARGHRad, 
+		  with a sharp sun angle to keep the alleys dark and creepy....  : )
+		  The sky is by Roger Ritenour.  It's kind of cool the way he did it,
+		  so I included the text file for it (CELEST.TXT).
+		  All of the textures are from Golgotha, or from my own jpegs.  As I 
+		  convert them, I'll be posting them on my site.  If you use them in 
+		  your level, please add a credit to my site.  Thanks.
+
+=========================== ENTITY LIST ============================
+
+Includes spawned/dropped entities
+
+Entity                      DM	
+ammo_bullets............     7	
+ammo_cells..............     3	
+ammo_grenades...........     8	
+ammo_rockets............     5	
+ammo_shells.............     3	
+ammo_slugs..............     3	
+func_door...............     5	
+func_door_rotating......     6	
+info_player_deathmatch..    10	
+info_player_team1   ....     3	
+info_player_team2.......     2	
+light...................    38	
+target_speaker..........     1	
+weapon_bfg..............     1	
+weapon_chaingun.........     1	
+weapon_machinegun.......     1	
+weapon_railgun..........     1	
+weapon_rocketlauncher...     1	
+weapon_shotgun..........     1	
+worldspawn..............     1	
+----------------------------------------------------------------------
+Total entities             101	
+======================================================================
+===========================================================================================
+
+*installation*
+
+unzip soho.zip to quake2\action using stored folders
+
+
+===========================================================================================
+
+
+* Copyright / Permissions *
+
+Don't use this level as a base, but feel free to use any of the textures.  This map, or the 
+textures, may not be used for commercial gain without my permission. Copyright (c) 1998 a johnsen,
+All Rights Reserved.  Not responsible for defects in product. No warranty is given or implied. 
+If rash persists, contact your doctor. Not safe for children under 3.  
+

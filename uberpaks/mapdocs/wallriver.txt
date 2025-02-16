@@ -1,0 +1,89 @@
+================================================================================
+* ACTION QUAKE II LEVEL INFORMATION *
+--------------------------------------------------------------------------------
+TITLE                   : Wallriver
+FILENAME                : wallriver.zip
+AUTHOR                  : Jaakko Sadeharju a.k.a. Airwolf
+DATE                    : 20.04.2002
+EMAIL ADDRESS           : jaakko.sadeharju@www.fi
+HOMEPAGE URL            : None
+.zip CONTENTS           : maps\wallriver.bsp
+                          env\starsft.pcx
+                          env\starsft.tga
+                          env\starslf.pcx
+                          env\starslf.tga
+                          env\starsrt.pcx
+                          env\starsrt.tga
+                          env\starsup.pcx
+                          env\starsup.tga
+                          env\tarsbk.pcx
+                          env\starsbk.tga
+                          env\starsdn.pcx
+                          env\starsdn.tga
+                          textures\\airwolf\grass.wal
+                          sound\shaymon\waterfall.wav
+                          sound\canyon\mrdrip.wav
+			  mapdocs\wallriver.txt
+
+--------------------------------------------------------------------------------
+* LEVEL DESCRIPTION *
+--------------------------------------------------------------------------------
+None
+
+--------------------------------------------------------------------------------
+SINGLE PLAYER           : 1 Player Start   Point(s)
+CO-OPERATIVE            : 1 Player Start   Point(s)
+DEATHMATCH              : 4 Player Respawn Point(s)
+ACTION QUAKE II         : 3 Teams
+                          0 Player Respawn Points per Team
+SUGGESTED PLAYER LOAD   : 1 to 12
+
+NEW TEXTURES            : Yes
+NEW SOUNDS              : No
+CD TRACK #              : 0
+
+--------------------------------------------------------------------------------
+* CONSTRUCTION *
+--------------------------------------------------------------------------------
+MAP BASE                : New Map
+PREFABS USED            : None
+EDITOR(S) USED          : QOOLE 99 v0.99
+OTHER UTILITIES USED    : Wally 1.55 Beta
+
+KNOWN BUGS              : Tree disappear when using software graphics.
+
+QBSP2 TIME              : 7 seconds
+VIS TIME                : 1710 seconds
+QRAD TIME               : 1847 seconds
+
+--------------------------------------------------------------------------------
+* OTHER LEVELS BY THE AUTHOR *
+--------------------------------------------------------------------------------
+None
+
+--------------------------------------------------------------------------------
+* SPECIAL INSTRUCTIONS / ADDITIONAL INFORMATION *
+--------------------------------------------------------------------------------
+None
+
+--------------------------------------------------------------------------------
+* CREDITS *
+--------------------------------------------------------------------------------
+Clan SJK		: For testing
+The A-Team              : For making a KICK ASS Mod
+ID software             : For making great game-engine
+
+
+================================================================================
+* COPYRIGHT / PERMISSIONS *
+--------------------------------------------------------------------------------
+Authors MAY use this level as a base to build additional levels.
+
+You MUST NOT distribute this level UNLESS you INCLUDE THIS FILE WITH
+NO MODIFICATIONS. If you don't co-operate, then DON'T DISTRIBUTE IT
+IN ANY FORM.
+
+This LEVEL may be distributed ONLY over the Internet and/or BBS systems.
+You are NOT authorized to put this LEVEL on any CD or distribute it in
+any way without my written permission.
+

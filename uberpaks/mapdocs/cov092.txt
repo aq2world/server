@@ -1,0 +1,61 @@
+08/04/98
+================================================================
+Title                   : CoventrYard
+Filename                : cov092.bsp
+Game			: Action Quake 2
+Author                  : Robert Bushman (Teeq)
+Email Address           : bbushman@megsinet.net
+Web Address             : http://www.mtrends.com/covquake/
+Description             : Release Candidate of CoventrYard in Cleveland Heights, Ohio
+Additional Credits to   : The A-Team, iD Software, Bill Gates, Rust
+
+================================================================
+
+* Play Information *
+
+Single Player           : No
+Cooperative             : No
+Deathmatch              : 6 - 12 preferred
+Difficulty Settings     : No
+New Sounds              : No
+New Graphics            : All
+New Music               : No
+
+* Construction *
+
+Base                    : Scratch
+Editor(s) used          : BSP
+Known Bugs              : None
+Build Time              : 150 hours from scratch, latest version.
+Compile Time		: 2.12666666666 hours (P2 266, 128 Megs)
+
+Notes:
+
+First map ever.
+
+First Release Candidate;
+  If you don't like it, let me know in a hurry what you want changed.
+  Weapon and ammo spawns are set for AQ2 v.95, and don't all work
+  properly under .94 / .93
+
+* Copyright / Permissions *
+
+You may not make derivative works of any kind for any reason.
+If you use this version of this map for anything other than Action ver.
+.95 or lower, and / or for any use other than beta testing on .95 and
+lower, and / or full-on raging violence on v.95, without my
+express written permission, I will sue. I'm not kidding.
+
+All textures may not be used for other maps without my express
+written permission.
+
+This version of this map may only be distributed by myself
+for beta testing, and / or with Action v.95 with the same
+restrictions and limitations as the A-Team sets for the
+distribution of v.95. Future versions will be available for
+distribution as stated, including with future versions of Action.
+
+This map may not be used for any commercial purpose without
+my express written permission.
+
+Copyright 1998 Robert Bushman, All Rights Reserved

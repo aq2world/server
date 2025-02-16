@@ -1,0 +1,70 @@
+28 December 2000
+========================================================================================
+Title                   : City Moose HeadQuarters
+			  1st release
+Map Filename            : moosehq.bsp
+Game			: Action Quake2
+Author                  : Simon 'Surreal' Robinson, aka 'Razzimatazz'
+Email Address           : razzimatazz@hotmail.com
+Web Addresses           : - http://www.mapfinger.com/members/surreal
+			  - http://moose.cjb.net
+			
+		   	  
+Description             : Reasonably standard city map, but with controlled routes for TP
+			: With careful texturing the be a city home for the Moose cannons
+			: AQ2 clan - including the divions of MC, mMC, and sM
+Additional Credits to   : The Moose Cannons, the greatest aq2 clan ever, for testin n stuff.
+			: Old man Purge, as usual deserves credit.
+			: (see below for texture information)
+========================================================================================
+
+* Play Information *
+
+Single Player           : For testing purposes only
+Cooperative             : No
+Deathmatch              : 4-10+ would get crowded
+Teamplay                : Yes, Teamplay rules! 6-16 players will be fine!
+Difficulty Settings     : No
+New Sounds              : Kinda
+New Graphics/Textures   : Some non-standard
+
+========================================================================================
+* Construction *
+
+Base                    : None
+Editor(s) used          : Worldcraft1.6, Wally, PSP, etc
+Known Bugs              : only in the bushes and stuff, crickets etc, some cockroaches.
+Build Time              : 1.5 weeks, while also christmas shopping!
+Final Compile Time	: - QBSP3   =  23 seconds
+			  - QVIS3   = 1000 seconds
+			  - ArghRAD = 4000 seconds 
+			: On a p3-450 / 64 meg ram
+========================================================================================
+*Installation*
+
+unzip to quake2\action
+all files should flow directly into their assigned folders!
+
+
+========================================================================================
+*Notes/permissions*
+
+- All textures beginning with 's' are the property of ME, you must credit ME if you use these textures!
+- The textures beginning with 'x' are property of Ruskprick I believe
+- The Moose paintings are from the Ultimate Moose Web Page.
+- The textures in the jestest2, jestest3 directories remain the property of Jesper Myrfors!
+- the textures in the strag, gibcity directories are not their explicit property, but instead the foolish authors copied the borrowed files and in the process lost any chance of the authors copyright remain intact, except for the ruskprick textures.
+- the textures in the Xatrix directory are from the free xatrix texture pack.
+
+
+
+
+Copyright (c) 2000 Simon Robinson. All rights reserved.
+
+This map may be electronically distributed only, with no charge to the recipient, as
+long as the contents of this zip file and it's text file remain intact and unchanged.
+
+This map may not be distributed on any CD-ROM without the prior, explicit written
+consent by the author.
+
+

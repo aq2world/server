@@ -1,0 +1,57 @@
+================================================================================
+* ACTION QUAKE II LEVEL INFORMATION *
+--------------------------------------------------------------------------------
+TITLE                   : 187City  
+AUTHOR                  : Qru                    
+DATE                    : 1.11.1999 (New version 24.01.2000)
+EMAIL ADDRESS           : Qru@iobox.com
+HOMEPAGE URL            : http://drink.to/qru 
+.zip CONTENTS           : 187city.bsp                          
+                          187city.txt (this file)
+                          textures 
+                          env (hk)
+
+================================================================================
+* LEVEL DESCRIPTION *
+--------------------------------------------------------------------------------
+Umm... It's a little city with many roofs to go...
+
+SINGLE PLAYER           	: 1 Player Start   Point(s)
+CO-OPERATIVE            	: 0 Player Start   Point(s)
+DEATHMATCH              	: 4 Player Respawn Point(s)
+ACTION QUAKE II         	: 2 Teams
+NEW TEXTURES            	: No
+NEW SOUNDS                      : No
+CD TRACK #                      : 0
+
+================================================================================
+* CONSTRUCTION *
+--------------------------------------------------------------------------------
+MAP BASE                : None
+PREFABS USED            : None
+EDITOR(S) USED          : Worldcraft 1.6
+OTHER UTILITIES USED    : None
+KNOWN BUGS              : None
+COMPILE MACHINE         : AMD K6-2 450MHz 128Mb 
+QBSP2 TIME              : 3 seconds
+VIS TIME                : 1085 seconds
+QRAD TIME (-extra)      : 5138 seconds
+
+================================================================================
+* OTHER LEVELS BY THE AUTHOR *
+--------------------------------------------------------------------------------
+Metropol
+
+================================================================================
+* CREDITS *
+--------------------------------------------------------------------------------
+The A-Team              : For making a KICK ASS Mod
+Everybody whose textures I used...
+================================================================================
+* COPYRIGHT / PERMISSIONS *
+--------------------------------------------------------------------------------
+You MUST NOT distribute this level UNLESS you INCLUDE THIS FILE WITH
+NO MODIFICATIONS. If you don't co-operate, then DON'T DISTRIBUTE ITIN ANY FORM.
+This LEVEL may be distributed over the Internet and/or BBS systems.
+Action Quake II (C) 1998-99 The A-Team.
+Quake II (C) 1998-99 id Software. All rights reserved.

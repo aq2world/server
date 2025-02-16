@@ -1,0 +1,78 @@
+================================================================================
+* ACTION QUAKE II LEVEL INFORMATION *               mgibcity v 1.8
+--------------------------------------------------------------------------------
+TITLE                   : MGibcity
+FILENAME                : mgibcity.zip
+AUTHOR                  : =DI=mighty gib!
+DATE                    : 12.22.1999
+EMAIL ADDRESS           : bfordney@wxs.nl
+HOMEPAGE URL            : http://home.wxs.nl/~bfordney/aq2/
+.zip CONTENTS           : maps/mgibcity.bsp
+                          maps/mgibcity.txt
+                          textures/gibcity/many .wals
+                          env/drksky .tgas and .pcxs
+
+--------------------------------------------------------------------------------
+* LEVEL DESCRIPTION *
+--------------------------------------------------------------------------------
+A medium-sized city map with a canal and skybridge.  Any weapon can be used here effectively.  Plenty spots for snipers, and plenty cover for the others.  I enjoy stealth in this map ;)
+
+--------------------------------------------------------------------------------
+SINGLE PLAYER           : NO
+CO-OPERATIVE            :  NO!!
+DEATHMATCH              : Yep
+TEAMPLAY                   : HELL YEAH
+
+NEW TEXTURES            : Yes
+NEW SOUNDS              : No
+
+--------------------------------------------------------------------------------
+* CONSTRUCTION *
+--------------------------------------------------------------------------------
+MAP BASE                : New Map
+PREFABS USED            : None
+EDITOR(S) USED          : In chronological order: Worldcraft 2.0 (the map was originally for Action Half-Life) ,QOOLE 2.50,Worldcraft1.6, QERadiant.  (whew)
+OTHER UTILITIES USED    : ArghRad 2.01,Wally 1.4 Beta, Mapspy, Q2BeaVeR, mapcheck by Louster
+
+KNOWN BUGS              : None
+
+COMPILE MACHINE         : Pentium II 450, 128 ram
+
+
+--------------------------------------------------------------------------------
+* OTHER LEVELS BY THE AUTHOR *
+--------------------------------------------------------------------------------
+None, unless you want Duke 3D maps! ;)
+
+--------------------------------------------------------------------------------
+* CREDITS *
+--------------------------------------------------------------------------------
+The A-Team              : For making a mod that inspired me to make this map ;)
+
+Clan DI                 : For giving me a lot of support on the development of this map, and for just bein damn l33t = )
+
+All the testers         : Thanks a lot.  You are what have made gibcity how it is.  There are so many of you now, I can\'t list em here ;)  Check for the names of the first testers in my                                   map = )
+
+Texture Artists        :  Most of the textures on my map come from textures on other maps, except signs and some other stuff.  I don't know the names of these artists.  The only person I can think of is Ruskprick, although I hardly took anything from him.  Oh yeah. Two grate textures are Skull n' Bones's.
+
+Louster                  : Thanks for making mapcheck which made all my textures lowercase.  Saved me some tedious work there ;)
+
+================================================================================
+* COPYRIGHT / PERMISSIONS *
+--------------------------------------------------------------------------------
+Authors MAY NOT use this level as a base to build additional levels.
+
+You MUST NOT distribute this level UNLESS you INCLUDE THIS FILE WITH
+NO MODIFICATIONS. If you don't co-operate, then DON'T DISTRIBUTE IT
+IN ANY FORM.
+
+This LEVEL may be distributed ONLY over the Internet and/or BBS systems.
+You are NOT authorized to put this LEVEL on any CD or distribute it in
+any way without my written permission.
+
+Action Quake II (C) 1998-99 The A-Team.
+Quake II (C) 1998-99 id Software. All rights reserved.
+
+[END OF DATA]=========================================================[.txt|Gen]
+
+i dont cut off the END OF DATA line like most mappers cuz i'm NICE ;)

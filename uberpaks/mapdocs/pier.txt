@@ -1,0 +1,33 @@
+
+				  **READ ME**
+ 
+=============================================================================
+
+Title:			London Pier
+Author:			oSiRiS
+Date:			12-15-99
+Filename:		pier.bsp
+E-Mail:                 Bohemith@hotmail.com
+
+=============================================================================
+Description:		I tried to make the feeling of this level like your
+			at an old pier scene in london and i think i accomplished
+			this pretty well with the sounds down by the pier. I 		
+			made this level the way it is because i think it has	
+			a really cool atmosphere.
+
+Made with:		Qoole v2.50
+Spawn points: 		5
+Game:			Action
+Build time: 		Did a little at a time. im guessin 10 hours.
+Compile time:           I'm guessin 35 hours.
+
+Credits:		Qoole, Gamedesign.net, AQMD.
+
+=============================================================================
+				**COPYRIGHT**
+
+There is no copyright. Feel free to distribute this map to anyone or anywhere 
+you want.
+
+

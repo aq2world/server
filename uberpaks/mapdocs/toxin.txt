@@ -1,0 +1,87 @@
+12/1/98 (m/d/y)
+================================================================
+Inspiration		: The first "Batman" movie,
+			  axis chemicals factory
+Title                   : Toxin Refinery (toxin.bsp)
+Filename                : Toxin.zip
+Game			: Action Quake2
+Author                  : Pierre Lemoine (HotBuns)
+Textures/co-author	: Ephraim De Guzman (Tofu)
+Sounds		        : Brad Caruk (Replicant)
+
+Email Address           : hotbuns28@hotmail.com
+
+Description/Inspiration : A Toxic Refinery plant, concentrating on gameplay,
+			  concept and realistic textures.
+
+Additional Credits to   : The A-Team, iD Software, Lari Muuriaisniemi aka CryptR
+			  and Stecki for the sky from Actcity2
+
+================================================================
+
+* Play Information *
+
+Single Player           : No
+Cooperative             : No
+Deathmatch              : 6 - 10 preferred
+Teamplay		: Yes
+Difficulty Settings     : No
+New Sounds              : Yes
+New Graphics            : Yes
+New Music               : No
+
+* Construction *
+
+Known Bugs              : None
+Build Time              : 9 sleepless days and nights
+Compile Time		: 3hrs 15min
+
+
+Installation            : Just run the zip and extract it to your Quake2 folder.
+
+			  If you're having problems and want to input the
+			  files manualy, here is where they go:
+
+			  The *.wav files go into a folder called "Toxin"
+			  in the quake2\action\sound
+
+			  The *.wal files go into a folder called "Toxin"
+			  in the quake2\action\textures
+
+			  The toxin.bsp file goes into the folder "maps"
+			  in quake2\action\maps
+			  
+			  The drksky.* files go into the folder called "env"
+			  in quake2\action\env
+
+
+
+
+=========================== Disclaimer ======================================
+
+Any resemblance to existing levels and or games is purely coincidental.
+
+All textures included with the toxin.zip file are the map authors original
+creations or edited Quake2 textures. There are no illegal or stolen textures.
+
+=============================================================================
+
+
+* Copyright / Permissions *
+
+Level authors may use the textures, pending our notice
+and that we are credited in the read me file. :) 
+
+Authors may NOT use this level as a base to build additional
+levels.
+
+You may distribute this BSP, provided you include this file, with
+no modifications. You may distribute this file in any electronic format
+(BBS, Diskette, CD, etc) as long as you include this file intact.
+
+This map may not be used for any commercial purpose without
+our express written permission.
+
+Copyright 1998 Pierre Lemoine and Ephraim De Guzman
+
+Remember Big Brother is watching you..... ;)

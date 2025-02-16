@@ -1,0 +1,19 @@
+28.7.2009
+
+================================================================================* 
+
+Title              : Splinter - Where the enemy dares        By: [DUEL]sup3ri0r
+Filename           : splinter.bsp
+Game               : AQ2
+Author             : Sup3ri0r aka KaniZ
+
+================================================================================*
+
+Editor used        : Qoole 
+Build time         : few days
+Compile time       : about one minute
+
+================================================================================*
+please don't edit this map if i don't agree it!
+
+this map could not be finished without Sc0rY and Ralle <3

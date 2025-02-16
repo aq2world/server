@@ -1,0 +1,127 @@
+Title:
+	Celestial Sphere, Quake 2 Sky Graphic
+File Names:	CELEST.zip which includes:
+	celestbk.tga	celestbk.pcx
+	celestdn.tga	celestdn.pcx
+	celestft.tga	celestft.pcx
+	celestlf.tga	celestlf.pcx
+	celestrt.tga	celestrt.pcx
+	celestup.tga	celestup.pcx
+Author:
+	Roger Ritenour
+e-mail:
+	ritenour@rlc.net
+
+ 
+
+Description:
+	Custom Sky Texture. A star sky featuring all of the
+	visible stars, 9,111 total stars. The sky is authentic
+	stars as visible from Earth, plotted and rendered from
+	data obtained from the Bright Star Catalog, version 4
+	from National Space Science Data Center/World Data 
+	Center A for Rockets and Satellites of NASA. The
+	orientation is equivelant to 30 degrees N latitude with
+	the North Star located in Quake's North (above the 
+	y-axis). The Vernal Equinox is located on the Eastern
+	horizon (Quake x-axis). The brightness and color of the 
+	stars are calculated from the star's magnetude and 
+	spectral class as published in the Bright Star Catalog.
+	The plotting, rendering, and creation of the 6 bitmap 
+	files for Quake was done with author written code.
+	There are a total of 12 files. The 6 with the .tga 
+	extension are used with openGL 3D accelerator cards
+	and the 6 files with the .pcx extension are used by
+	Quake2's software drivers.
+
+	The rendering code written for this project is capable
+	of rendering the stars into any orientation desired to
+	reflect any location on Earth at any time. So if there 
+	is interest in a sky in another orientation, please 
+	contact the author via e-mail. The star catalog used 
+	for this project includes parallax data from which 
+	distances to the stars can be calculated. With this,
+	the author is expanding the code to be able to render
+	authentic alien skies as viewed from some of the
+	nearby stars such as Siris or Alpha Centauri
+
+Setup and use:	
+	Place all 12 files into the ENV directory as follows:		
+
+	QUAKE2 (quake2 executables are found here)
+	  BASEQ2 (pak0.pak is found here)
+	    ENV (the 6 .tga and 6 .pcx
+	         files are placed here)
+
+	The QUAKE2 and and its subdirectory, BASEQ2 will 
+	already exist from the installation of Quake 2. The
+	ENV directory may already exist if you are running 
+	custom levels, if not, create it as a subdirectory
+	of BASEQ2.
+
+	Running this sky in Quake 2 can be accomplished in
+	2 ways:
+	   1.	In Quake 2, it can be invoked in any level
+		from the pull-down console (~ key) with the
+		command:  sky celest (press ~ to get the 
+		console; enter the command, sky celest; press
+		the enter key; then press ~ again to close 
+		the console and the current sky will be 
+		replaced with the stars) Note: This will not 
+		alter any of your game or level files. The 
+		next time Quake 2 loads that particular
+		level, the original sky will be restored.
+
+	   2.	You can make it part of a custom level you
+		are creating. To do this, you set the sky 
+		attribute of the worldspawn entity to celest
+		(Most, if not all, editors allow access to 
+		the attributes of the worldspawn entity to 
+		accomplish this, however the editors differ on 
+		how to exactly accomplish this, consult your
+		editor documentation on specifics)
+
+	Note: There are a total of 12 graphic files in the zip,
+	6 with the .pcx extension and 6 with the .tga extension
+	Quake 2 uses only 6 of them, which 6 depends on the
+	Quake 2 video drivers being used. Quake 2 will load 
+	the correct 6 files without any input directing it.
+	If you use this sky on a custom level and later 
+	distribute it, it is highly recommended to include
+	all 12 files with your level to accommodate all users
+	of Quake2.
+
+ 
+
+Credits:
+	National Space Science Data Center/World Data 
+	Center A for Rockets and Satellites of NASA for 
+	the Bright Star Catalog, version 4.
+
+Editors used:
+ 	Star Render (Author written software application)
+	Corel Photopaint 8 (to convert bitmap formats)
+
+ 
+ 
+**** Legal Stuff ****
+
+* Copyright / Permissions *
+
+Generally I have no objections if you modify or use it as a
+sky for building levels, but please cite credit appropriately.
+If you do use this sky, please drop me a line as I would be
+most interested in any level built under this sky.
+You may distribute these files through any electronic network
+(internet, FIDO, local BBS etc.), provided you include this 
+text file and leave the archive intact. You may include this 
+file on a cdrom where the purpose of the cdrom is a means of
+distributing Quake levels and the price remains modest, with 
+the primary purpose of the proceeds being for publishing the
+cdrom and maintaining the internet sites. Commercial 
+exploitation where these files may become the object of 
+considerable commercial gain must have my written permission.
+
+
+
+ 

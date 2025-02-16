@@ -1,0 +1,64 @@
+WARNING: These maps are designed explicitly for Action Quake Ver 0.95 and up.
+	Playing them under other circumstances may cause problems.
+================================================================
+Title                   : KGB Training Center
+Filename                : kgb
+Author                  : Hanh "Wanderer" Court
+Email Address           : EtherealHC@aol.com
+Description             : KGB: Small Action Quake map. Good lay out, be careful
+			    of the watch towers though. R_speeds are best of
+			    the 2 here.
+			  KGB2: Put the edge back in. Increased gravity to 1200 
+			    (please do not change). Added a second floor to the 
+			    complex to provide a training ground for close quarter 
+			    combat. Added more sniper points. Moved sniper rifles 
+			    to the ground so you don't have to climb to the top 
+			    of the tower. Had to sacrifice most of outside due to r_speeds.
+			    The lack of a true theme is the only hurting part
+			    of this map in my opinion.
+Additional Credits	: The A-Team (Wheres Mr. T?)
+			  The guy who wrote QERadiant (Figures I can't find his name)
+			  Suicide20 (the guy who I stole the snow
+			    textures from :) Gonna have to get a 
+			    hold of him some time...
+			  Stecki (from Deconstruct) for the Snow sky.
+			  Slade from Telefragged for the name of the place.
+			  Id Software's cast and crew.
+================================================================
+
+* Play Information *
+
+Single Player           : No
+Cooperative             : No (No sense in even bothering with)
+Deathmatch              : Yes (Can cram up to 16, wouldn't recommend it though)
+Difficulty Settings     : No
+New Sounds              : No
+New Graphics            : Yep, none of which are from me.
+New Monsters            : No
+New Demos               : No
+New Models              : No
+QuakeC Patches          : No
+
+* Construction *
+
+Base                    : Based off of HCCTF1 (a ctf map, never released though)
+Editor(s) used          : QERadient 1.0 build 077 
+Known Bugs              : KGB: None
+			  KGB2: None
+Contruction Time	: Lost track and don't really care.
+Compile Time            : KGB: 1 hours, 19 minutes and 57 seconds
+			  KGB2: 1 hours, 56 minutes and 7 seconds
+Compile Machine		: Pentium 166mmx 48megs EDO
+Comments                : KGB: Nope, just a good map for pc's like mine.
+			  KGB2: Be prepared for slow downs. I'm gonna work on
+			  the lighting in the middle of the map and the top floor
+			  of the building. Decided on a higher gravity (1200) to stress
+			  situation awareness near ledges.
+	  		  Side note: watch the ledge it's the point of no return (ie: death).
+
+Legal Crap		: Yes you can make something real out if this if you want 
+			  just e-mail ahead of time so I can send you the map and
+			  get some credit out of this shit. In other words I want credit
+			  for it if you do.
+			  Textures are Suicide20's so talk to him about that.
+			  The sky is Stecki's from Decontruct so that's his.

@@ -1,0 +1,87 @@
+TITLE                   : Block Fort
+FILENAME                : blockfort.zip
+AUTHOR                  : PaTMaN (Current MBG Member)
+DATE                    : July 27, 2000
+EMAIL ADDRESS           : patman_q@hotmail.com
+HOMEPAGE URL            : http://members.xoom.com/patmansgames/
+.zip CONTENTS           : Map: blockfort.bsp
+			  Text: blockfort.txt
+			  Textures: red.wal, blue.wal, yellow.wal
+			  green.wal
+--------------------------------------------------------------------------------
+* INSTALLATION *
+--------------------------------------------------------------------------------
+Extract blockfort.zip with "Use folder names" checked to your Action
+Quake2 dir or
+
+Extract:
+	Map and Text to               (aq2dir)/maps
+	Textures to		      (aq2dir)/textures/patman
+--------------------------------------------------------------------------------
+* LEVEL DESCRIPTION *
+--------------------------------------------------------------------------------
+Remake of Block Fort level from Mario Kart 64 for Nintendo 64
+--------------------------------------------------------------------------------
+SINGLE PLAYER           : 1 Player Start Point
+CO-OPERATIVE            : 0 Player Start Points
+DEATHMATCH              : 20 Player Respawn Points
+ACTION QUAKE II         : 2 Teams
+SUGGESTED PLAYER LOAD   : 1 to 12
+
+NEW TEXTURES            : Yes
+NEW SOUNDS              : No
+CD TRACK #              : 0
+
+--------------------------------------------------------------------------------
+* CONSTRUCTION *
+--------------------------------------------------------------------------------
+MAP BASE                : Old Block Fort map I made
+PREFABS USED            : None
+EDITOR(S) USED          : qED3.0.1, ArghRad 2.01, Wally
+OTHER UTILITIES USED    : Q2BeaVeR 4.0.0
+
+KNOWN BUGS              : None
+
+COMPILE MACHINE         : AMD Athlon 900mhz 128mb RAM
+
+QBSP2 TIME              : 0 Hours 0 Minutes 1 seconds
+VIS TIME                : 0 Hours 0 Minutes 5 seconds
+ARGHRAD TIME            : 0 Hours 1 Minute  4 seconds
+
+--------------------------------------------------------------------------------
+* OTHER LEVELS BY THE AUTHOR *
+--------------------------------------------------------------------------------
+PDM1 (q1)
+MBG City (q2)
+MBG City2 (q2)
+PGarden (q2)
+
+Being worked on:
+Shark Bait (q2)
+Ice Rink (q2)
+Skyscraper (q2)
+
+--------------------------------------------------------------------------------
+* CREDITS *
+--------------------------------------------------------------------------------
+The A-Team              : For making Action Quake2
+ID Software		: For making Quake2
+
+All the people who made .txtGen.
+
+================================================================================
+* COPYRIGHT / PERMISSIONS *
+--------------------------------------------------------------------------------
+Authors MAY NOT use this level as a base to build additional levels without my
+permission.
+
+You MUST NOT distribute this level UNLESS you INCLUDE THIS FILE WITH
+NO MODIFICATIONS. If you don't co-operate, then DON'T DISTRIBUTE IT
+IN ANY FORM.
+
+This LEVEL may be distributed ONLY over the Internet and/or BBS systems.
+You are NOT authorized to put this LEVEL on any CD or distribute it in
+any way without my written permission.
+
+Action Quake II (C) 1998-99 The A-Team.
+Quake II (C) 1998-99 id Software. All rights reserved.

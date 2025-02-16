@@ -1,0 +1,46 @@
+¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤
+
+Date			: 27-02-2006
+
+Title                   : Shogo - japanese outlands
+Filename                : shogo.bsp
+Game			: AQ2
+Author                  : TWiSTeD[TDm]
+Email Address           : twistedtdm@hotmail.com
+Thanks to		: - Mercury[TDm] for the sky
+		: - Vampyre[TDm] for lots of blocks, and the top of the outside walls. 
+		: - Beavisss for helping with the sky !	  
+My other maps for AQ2: 	teamiceland
+
+¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤
+
+-= Play Information =-
+
+Single Player           : no
+Cooperative             : no
+Deathmatch              : yes
+Teamplay                : of course !
+New Sounds              : Yes
+New Textures            : Yes
+
+
+¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤
+
+-= Construction =-
+
+Editor(s) used          : Worldcraft
+Build Time              : about 5 days total, damn you to hell "floatplane: bad normal"
+Compile Time		: 202079 seconds or 3367 minutes or 56 hours or 2.3 days
+
+
+
+¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤
+
+-= Copyright =-
+
+You may re-edit my map in any way..
+Now go play the damn map why would you people read this stuff anyway, its not like i got payed anything.
+Since you took time to read this ill tell you there is a secret room, not accesible in anyway.
+
+
+¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤

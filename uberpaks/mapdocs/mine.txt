@@ -1,0 +1,79 @@
+¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤
+
+Date		: 7-3-03
+Title		: Miner 69'er
+Filename	: mine.bsp
+Game		: AQ2
+Author		: Bob Szymanski (Bobert)
+Email Address	: RHSzymanski@yahoo.com
+ICQ		: 133725464
+URL		: http://www.massiveco.com/gtp/roster.htm
+Description	: A mining colony smack dab in the middle of a rocky desert.
+
+Special thanks to: 
+* ID Software for creating Quake 2.
+* The A*team for a great modification to Quake 2 .
+* The Creators of QeRadiant & Wally for their editing software.
+* The AQMD & RUST for all the tutorials, links, forums & advice.
+
+Sound thanks to:
+* BBQ - screaming fall
+* Shaymon & Spear - sliding rock
+* EE - air
+* Makro - fan
+* Ruskprick - switch, truck & ambient
+* Shadowfire - generator & broken light
+* Zotud - fire
+
+Texture thanks to:
+* CryptR - truck seat, bulliten board, air ducts
+* Hostile - doors
+* Shaymon & Spear - vines
+* Ruskprick - tiled floor, Boxes & Walls
+* GreyDeath - transparent Grate
+* Makro - barrels
+* Wetwired - key pads & conveyer belt
+* Gallop - plant & trees
+* PPP(Not sure if this is a person!) - desks and drawers
+* Igor[Rock] - electrical cabinets
+* Scuzzy - garage door & trash can
+* Shadowfire - concrete walls, dirt, metal rails, ceiling, outside doors
+* Toxin - the other bulliten board, desktop, flourescent lights
+* Zak - air grate
+
+		
+¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤
+
+Single Player	: Sure, but it's lonely!
+Cooperative	: Nope
+Deathmatch	: Yup
+Teamplay	: Yup
+New Sounds	: Yup
+New Textures	: Yup
+
+¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤
+
+Notes: 
+* The rails have been greased... use at your own risk!
+* The fire extinguishers explode... as they should!
+* One sekrit enterance from the outside area into each base.
+* The truck has a horn that announces to the world your location.
+* There are a couple dark camper locations under bridge.
+ 
+Construction:
+
+Editors used	: Qeradiant 1.47, Wally 1.55b
+Build Time	: 6 months? I don't exactly recall!
+Compile Time	: 2 hours
+
+¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤
+
+Copyright:
+
+Feel free to use. Note that all textures & sounds original to this level are in a "Bobert" directory. Please give me credit & drop a line to say that my hobby has enriched your life.
+
+Comments:
+
+Scooter my daisy heads.
+
+¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤

@@ -1,0 +1,85 @@
+Based on a section out of Dream---  i present
+=================================
+GruuVe'z    <WarGroun>   v0.8        
+=================================
+for Action Quake   <action.telefragged.com>
+
+Here ya go,    long lines of fire, Lots of places to take cover, and no r_speeds above 600.
+(actually, i found 0ne place with a 615, but who cares).  I hope dis puppy's fun. 
+====================================
+
+name: wargroun.bsp   v 0.8    --  still to be tested by AQMD
+author: GruuVe  ('groove')
+mod: action    DM and Teamplay
+reason: built for the hell ov it...  wanted to play a map like this, now you can too.
+
+time to build: ~20 hours ,   maybe less
+date finished:   feb 21 99 /
+
+brushes: 315    
+
+timing:     (p2 416 ; 64 mb pc100 )
+-qbsp3: 5 secs
+-qvis3: 2+1/2 min
+-qrad3: 25 min
+
+note...  i tested it on my p133, 4mb S3-virge, 32mb EDO... so DONT bitch bout me being a MHertzHog... i know how it feels to be deprived, and sympathize... so i build my maps capable of running on ol'bessie..
+
+***********************************
+MAPPERS==>
+
+BTW,   TYPE 'R_SPEEDS 1' in the console to look at the numbers of triangles being drawn.
+jus in case ya didnt know----     wpoly's (world polygons) are the ones that your map
+draws...
+
+If wpolys goes above 1000,  slow machines are going to lag (especially in an Internet game)
+
+also remember- brushes dont exist after QBSP, dey turn to wpolys (for the better part)
+	so...   pay attention to those R_SPEEDS kiddies!  
+************************************
+
+
+to try it out in single player, at the console type:
+
+set game action; map wargroun
+
+
+
+gimme a shout at <tlambert@yknet.yk.ca>
+or via ICQ <6125687>
+i'd love to answer any questions or suggestions ya got.
+
+enjoy!      and *Getcha GruuV on*!
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+boom.

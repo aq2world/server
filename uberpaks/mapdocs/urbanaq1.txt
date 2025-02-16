@@ -1,0 +1,51 @@
+               		 Action in the City
+
+Files                   : URBANAQ1.BSP, urbanaq1.txt, textures
+                          archive: urbanaq.zip
+
+Release Date (DD/MM/YY) : 1/9/98
+
+Author                  : John Parish (Gerbil!)
+Email Address           : gerbil@telefragged.com
+Web Site                : earthquake.telefragged.com
+
+Description             : Action Quake2 map.  Good for teamplay and deathmatch with 
+			  alot of players.  Alot of sniping spots :)
+
+Installation            : Unzip into your action quake2 folder.  The zip has folder names,
+			  so make sure all the textures and stuff are correctly installed.
+                                                    
+Additional Credits to   : Fex -AR- (Bill) for a testing server.
+			  Cliffe
+
+* Construction *
+
+Base                      : scratch
+Build time                : About two and a half weeks
+Compile Machine           : P400 with 128 ram
+    QBSP3 Time            : 9 secs
+    QVIS3 Time            : 2 hrs 3 min
+    QRAD3 Time            : 20 min
+
+Editor(s) Used            : IDsoftware's Qe4 (the real thing, not Qeradient)
+
+* Copyright / Permissions *
+
+Dont use this as a base.
+All graphics in this zip are property of whoever made them. (they know who they are)
+
+You may not distribute this BSP unless you ask me.
+You may not distribute this file in any electronic format unless you ask me.
+
+good servers:    
+209.193.133.68  27910 Aggression Rangers
+209.114.1.199   27910 =AR= Action Quake
+
+
+
+
+
+
+
+
+Hi mom!

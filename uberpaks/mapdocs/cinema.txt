@@ -1,0 +1,41 @@
+Instructions: extract the archive, preserving directories, to your quake2/action directory.
+================================================================
+Title                   : Cinema - All the speed of your favourite action film - _with_ 			  the cost of a ticket!
+Filename                : cinema.bsp, and assorted textures and a sound.
+Author                  : Richard Newman (Holy Goat)
+Email Address           : holygoat@ndirect.co.uk
+Description             : Brand new map based on a cinema (or 'movie theatre' I think in 			the US - hang on, in the US that'd be 'movie theater' wouldn't it? 			:).                          
+Where to get ActionQ2   : http://action.telefragged.com
+================================================================
+* Play Information *
+
+Single Player           : Well, yes, but it's not very fun :)
+Cooperative             : As for single player.
+Deathmatch		: Yes, though weapons are a bit strange.
+Action Quake2		: Yes.
+Difficulty Settings     : No.
+New Sounds              : Yes
+New Graphics            : Yes
+New Music               : No
+Demos Replaced          : None
+
+* Construction *
+Base                    : That big empty grid you get when you start out afresh... :)
+Editor(s) used          : QERadiant and Notepad.
+Known Bugs              : Door handles go into the wall a bit in the corridors to the 				screen. If explosive windows are destroyed by a grenade, Quake2 			crashes (but you can only see them in SP anyway). Cool. Oops. Other 			bug reports, um, sort of welcome! :) 
+			                            
+* Build Time *
+About 3 days (on and off) to make.
+	QBSP3: 62 seconds
+	QVIS3 (full): around 24 hours, which I regret.	
+	QRAD3: 9393 seconds (around 2 1/2 hours).
+=================================================================
+
+Details:
+I started this because I had nothing to do :). Then I saw the contest thing on the AQ2 page, so I decided to go for it. 
+The projector sound was made entirely from scratch with an old ratchet screwdriver and a crappy mic, and all textures were done in Photoshop (tho I hate the Q2 palette :))
+Thanks to Chris Norris aka Toadster, who offered to build this tho I ended up doing it myself, and to Pacman and Masterdog who respectively offered to test and expressed an interest in the map.
+And thanks to my brother for his constant complaining :)
+Hope you enjoy!
+Goat.
+

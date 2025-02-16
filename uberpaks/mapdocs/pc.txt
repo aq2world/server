@@ -1,0 +1,29 @@
+
+24-12-99
+
+===========================================================================================
+Title                   : PC
+Filename                : PC.bsp
+Game			: AQ2
+Author                  : Jouni "NaZu" Laukkarinen
+Email Address           : joppez83@gnwmail.com
+Web Address             : =(
+Description             : Population Center
+of all other textures   : as far as I know, ALL TEXTURES ARE LEGAL                      
+===========================================================================================
+Base                    : Scratch
+Editor(s) used          : Quark5
+Build Time              : Too Many Weeks!
+Compile Time		: 7 hour
+===========================================================================================
+All these should be unzipped in quake2\action using folder names
+===========================================================================================
+
+*** CONTEST ***
+a small city!
+
+Oh, the sky name is Space1
+
+* Copyright / Permissions *
+Dont do anything to my map! Ask me!
+

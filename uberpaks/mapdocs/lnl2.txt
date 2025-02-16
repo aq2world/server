@@ -1,0 +1,61 @@
+
+Title                   : Lock N Load 2 Back In the Habit
+ Filename                : lnl2.bsp
+ Author                  : The HUNTER
+ Email Address           : castillo@hal-pc.org
+ Description             : It's been months since i had made the original lock n load so i decided to make the
+			   second.
+
+ Additional Credits to   : My p2 300, my bro, Seeker,
+                           All the guys who head up to hal-pc to play some quake
+                           till the cows come home on our bad ass t1 connection (6 actually).
+			   That bad ass Computer Club, HAL-PC <www.hal-pc.org>
+		
+
+------------------------------------------------------------------
+
+* Play Information *
+
+ Settings                : ACTION QUAKE SETTINGS
+ Deathmatch 2-4          : yeah!
+ Deathmatch 5-100        : yes fits 8 plus well
+ Teamplay 2-4		 : yeah! 
+ Teamplay 5-32           : yes!
+* Construction *
+
+ Build Time              : 3 day to make and 5 to test
+ Compile Time            : 90 min
+ Editor(s) used          : Worldcraft
+ Known Bugs              : second floor of the store in the office, some weird wall effect ehh nothing big
+                  
+* Other Info *
+If you like my work and want me for a mod or TC tell me!!
+
+* Distribution *
+This map should not be released with out this text file
+
+
+files must be placed like this for it to work
+*.wal go in
+quake2\action\textures\lnl2\
+
+*.bsp go in
+quake2\action\maps\
+
+
+Ok,
+You may NOT distribute this map on a CD or sell it with out writen consent from me. my E-Mail is castillo@hal-pc.org
+
+You may NOT use this for a base of one of your levels!!
+
+You may have fun playing this.
+
+You may bitch at any problem, you see.
+
+You may give me money for no reason.
+
+You must say this map rocks to play.
+
+You may use the sound files included for your own maps(if any) 
+
+You may use the texture files included for your own maps(if any

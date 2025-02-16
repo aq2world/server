@@ -1,0 +1,63 @@
+* THIS LEVEL IS NOT MADE BY OR SUPPORTED BY id Software *
+ * REQUIRES REGISTERED VERSION OF QUAKE2 3.20 or higher *
+
+Released:5/31/99
+==================================================
+Title                   : Gothic Revenge
+Filename                : rene51.bsp
+
+Author                  : Renegade 
+Email Address           : renegade@c4.net 
+
+Description             : Deathmatch
+
+Additional Credits to   : id software 
+===================================================
+* Play Information *
+
+Game                    : Quake2 REG 3.20 or higher
+Map Name                : rene51.bsp
+Single Player           : Yes
+Co-op                   : no
+Deathmatch 2-6          : 4 starts
+Difficulty Settings     : no
+
+==================================================
+* Construction *
+
+Base                    : New level from scratch.
+Editor used             : WorldCraft
+Construction time       : A few days.
+Build Time              : 25min
+Known bugs              : None.
+
+Beta Testers            : Me
+                          
+========================================================
+
+* Other *
+
+Quake:recon01, recon02, recon03, recon04, recon05, recon06 , rene40q1 , reneq1_2 , reneq1_3
+
+Quake2: rene03, rene04, rene05, rene06, rene07, rene08 , rene09 ,
+ rene10 , rene11 , rene12 , rene13 , rene14 , rene15 , rene16 , rene17 ,
+rene18 , rene19 , rene20 , rene21 , rene22 , rene23 , rene24 , rene25,
+rene26 , rene27 , rene28 , rene29 , rene30 , rene31 , renpac , renepac2
+rene32 , rene33 , rene34 , rene35 , rene36 , rene37 , rene38, rene39, 
+rene40, rene41 , rene42 , rene43 , rene44 , rene45 , rene46 , rene47
+rene48 , rene49 , rene50
+
+* Copyright / Permissions *
+
+Authors may NOT use this level as a base to build additional
+levels.  
+
+You MAY distribute this BSP (for free), provided you include this
+file, with no modifications.  You may distribute this file in any
+electronic format (BBS, Diskette, CD, etc) as long as you include
+this file intact. Unless for Profit then I MUST be contacted and 
+Asked permission.
+
+* Where to get this BSP *
+
+Renegade's homepage renegade.c4.net

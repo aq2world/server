@@ -1,0 +1,53 @@
+================================================================
+Title                   : Punisher's Warehouse
+Date                    : 08/12/98
+Filename                : punwar.bsp
+Author                  : Punisher
+Email Address           : punisher_187@hotmail.com
+ICQ UIN                 : 15543044
+Home Page               : http://www.geocities.com/siliconvalley/peaks/9548 (temporary)
+Description             : This warehouse style map is made for the kick-ass mod Action Quake 2.
+                          Best suited for 6-8 players. This is my first map(for Quake 2), and I
+                          think it turned out ok. Oh, and please don't send me email telling me 
+                          that there's no doors. I thought the theme of this map called for no 
+                          doors. We all have our own opinions. Thank you. Extract this map to 
+                          your /Action/Maps directory.
+
+Additional Credits to   : id software, Action Quake team, Die Hard Mappers: Cartman~SS~, Vortex, 
+                          Rrryan, Hydrogenoid, and Forest Dumb, and Rust.
+================================================================
+
+* Play Information *
+
+Single Player           : Look around only
+Deathmatch              : Yes, preferably 6-8 players
+Cooperative             : Your kidding, right?
+Difficulty Settings     : No
+
+* Construction *
+
+Base                    : New level from scratch
+Editor(s) used          : Qoole 
+Known Bugs              : None(that i know of)
+Build Time              : About 5 days
+
+Textures used           : all of q2 texs
+
+Compile machine         : P/166 w/32mb RAM
+QBSP Time               : 67 secs
+QVIS Time               : 977 secs
+QRAD Time               : 235 secs
+
+* Copyright / Permissions *
+
+
+Copyright (c) 1998 Punisher.  All rights reserved.
+This level may be electronically distributed only at no charge to
+the recipient, and may not be modified in any way.  This text file
+must be included with the level.
+
+This level may not be distributed on any CD-ROM without the prior,
+explicit consent of Punisher.
+
+This level may not be used on a commercial Multi-player server
+without similar explicit consent.

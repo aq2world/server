@@ -1,0 +1,54 @@
+=====================================================================
+Title                   : Sewer Ratz 
+Filename                : seweratz.bsp
+Version                 : V1.1 27/07/99 (thats dd/mm/yy, the way its ment to be!! :P)
+Game                    : Action Quake 2
+Authors                 : Croxly, with some help from Andy-J
+Email Address           : noss@iinet.net.au
+Web Site                : http://aow.killers.net
+
+Description             : Quake 2 Action mod map.
+                          
+Other levels by author  : Cargo- currently reworking
+
+Thanks to               : ID Software, A-TEAM, Valve, Rush's mapmaking page.
+
+=====================================================================
+
+* Play Information *
+
+Single Player           : No
+Cooperative             : No
+Deathmatch              : 2-12
+Teamplay                : 2-12
+Difficulty Settings     : No
+New Graphics            : YES
+New Music               : No
+CD Track                : No
+
+
+* Construction *
+
+Base                    : Scratch
+Editors used            : WorldCraft 1.6, Wally 1.09, PSP 5.01
+Build Time              : about 2 weeks
+Known Bugs              : textures in top area tearing, but could be my settings.
+Compile machine         : Cellery 300 o/c to 450, 128Mb RAM, banshee.
+Qbsp3 time              : 10 seconds
+Qvis3 time              : 1hr 20min
+Qrad3 time              : 1hr 22min
+
+
+* Installation *
+
+Unzip to ur action dir with subdirectories enabled
+
+
+* Copyright / Permissions *
+
+Authors MAY NOT use this level as a base to build additional levels.
+Textures may be used by other mappers, dunno why though their crap :)
+Just dont rename them and give me the credit i deserve, they did take me 5 minuits to make ya know.
+And i suppose its copyright so make heaps of money selling it, so i can sue u later :) 
+(thats sarcasim so dont sell it)
+Any problems or queries dont hesitate to contact me at the above email.

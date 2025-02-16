@@ -1,0 +1,60 @@
+Instructions: extract the archive, preserving directories, to your quake2/action directory.
+================================================================
+Title                   : Beach Assault
+Filename                : beachassault.bsp 
+Version                 : 10/3/99
+			  Version 1.5, lighting was redone with Phong shading courtesy of 
+			  Arghrad 2.0, added flag spawn points for CTB, added grenades
+			  for DM and most importantly achieved a major fps boost around
+			  the landing craft after reworking the textures (has anyone
+			  else noticed how MUCH difference texture resolution can have
+			  on frame rates? As far as we can tell it isn't documented
+			  anywhere in the "how to speed up maps" faqs. We think maybe
+			  it should be ...
+Game                    : Action Quake 2 
+Authors                 : Phat Al (aka The Castigator) and Joemeister (aka The Euthanasor)
+Email Address           : amr@lyta.fste.ac.cowan.edu.au
+Description             : A covert night assault on the secret base of a supervillain.
+Where to get ActionQ2   : http://action.telefragged.com
+Additional Credits	: ID Software
+			  The A-Team for an awesome mod
+			  The makers of WALLY
+			  The Violator (Dave)
+			  The Reaper (Ed) to shut him up, for all those suggestions!
+			  
+================================================================
+* Play Information *
+
+Single Player           : If you want to play with yourself?
+Cooperative             : Well teamplay, if that counts ...
+Deathmatch		: Yes, but not many spawn points.
+Action Quake2		: Yes!!! Especially teamplay.
+Difficulty Settings     : No.
+New Sounds              : Yes.
+New Graphics            : Yes; textures. 
+		 	  Thanks go to Christopher Buecheler for some excellent texture packs.
+New Music               : No.
+Demos Replaced          : None.
+
+* Construction *
+Base                    : Scratch.
+Editor(s) used          : Quest 2.36. Much kudos to Alexander Malmberg for an awesome PD editor!
+Known Bugs              : None that we are aware of (let us know if you find anything).
+                          
+* Build Time *
+Not sure. About three to four weeks to make, and about 1 day to compile fully.
+=================================================================
+
+Details			:
+The map is a bond finale style assault on a secret base located by the resident super-spy.
+The LCH (Landing Craft Heavy) has arrived with chopper ready for the assault. 
+(If you haven't guessed its the RAN to the rescue!) 
+The fortifications, the bunkers, the machinegun emplacements (which can be fired btw), etc. 
+are all to protect one thing ... 
+the entrance to the super-villain's complex.
+
+Beware of the Vulcan Phalanx, the machinegun pits, the exploding barrels and the man-eating sharks. 
+
+P.S. mined where you tread ! ;>
+
+Look out for Beach Assault II: Beyond the Secret Door! coming to a theatre near you soon ...

@@ -1,0 +1,47 @@
+
+       
+       Quay by suds:wu:
+
+       General Information                                            
+                                                                      
+       Title                    quay.bsp               
+                                                                      
+       Archive		        quay.zip                           
+                                                                      
+       Release Date (DD/MM/YY)  <01/06/05>                            
+                                                                      
+       Author                   suds:wu:                  
+       Authors Email            sudswu@hotmail.com, sudswu@gmail.com
+                                                                      
+       Installation             extract to the quake2 dir   
+                                                                      
+       Description		semi industrial dock area with trains
+     				        
+     				       
+                                                                      
+       Additional Credits	action community you make the game what it is, thankyou
+                                loads of textures from other maps , thanks too many to list
+				mainly scuzzy, karr and crcity
+			     
+                                                                      
+       Authors Comments         been working on this way too long, i thought it was time to 					finish it. rebuilt 3 times, changed dramaticaly, 10-20 times    
+                                                                      
+       Suggested Player Load    4-16, plenty of room move, not to hide                               
+                                                                      
+    
+       Construction                                                   
+                                                                      
+       Used Tools		quark, Wally, Photoshop          
+                                                                      
+       New Textures             Yes                                   
+       New Sounds               Yes                                   
+       New Sky                  No                                    
+       Locations File           maybe, damn things                                   
+                                                                      
+       Number Of Spawnpoints    <10>                                  
+                                           
+	check out www.aq2world.com and the forums, all good                           
+     
+                                                                      
+    / #AQ2World at QuakeNet   www.AQ2World.com           
+                                                                      

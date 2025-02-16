@@ -1,0 +1,50 @@
+=====================================================================
+     Action Quake 2 (http://action.telefragged.com/)
+=====================================================================
+
+-----<General Information>-------------------------------------------
+
+Title		: Dive - follow me down
+Filename	: dive.zip
+Date		: 2003-03-18
+Author		: WizardExt (David Lundvall)
+Author Email	: davidlundvall@brainbucket.net
+Home page	: http://www.smashboz.nl/wiz
+Previous Maps	: -
+
+-----<Credits and Thanks>--------------------------------------------
+
+Sp!kez0r for playtesting and providing space for my maps
+Playtesters
+Gimp for the textures
+Tim Wright for ARGH! tools
+AQMD for keeping up the good work
+A-TEAM for Action Quake 2
+Id Software for Quake 2
+Mum for food :-O
+
+-----<About>---------------------------------------------------------
+
+It's my first map for Action Quake 2. I started it long time ago and 
+now it's finally finished. It's a jungle themed map set in the 
+daylight. Have fun!
+
+-----<Map Information>-----------------------------------------------
+
+Map Description	: Large sized map
+How Many Players: 4-20
+New Textures	: Yes
+New Sounds	: No
+
+------<Construction>-------------------------------------------------
+
+Editor(s) used	: Worldcraft 1.6
+Compile Machine	: 2,4Ghz, 512Mb RAM, Radeon 9700
+Compile time	: 2710 seconds
+Playtest time	: 2 hours
+Build Time	: 2 years
+Other programs	: ARGH! compiling tools, Wally
+
+------<Installation>-------------------------------------------------
+
+Extract the files to quake2/action

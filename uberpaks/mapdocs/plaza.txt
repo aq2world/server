@@ -1,0 +1,57 @@
+
+¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤
+
+Date			: 21.1.2001
+
+Title                   : Nights on Ritmo Plaza
+Filename                : plaza.bsp
+Game			: AQ2
+Author                  : Olli Ruhanen a.k.a. Jf^ Supreme
+Email Address           : olli.ruhanen@kolumbus.fi
+IRC			: ircnet #jf
+Web Address             : http://jedifire.klaanit.net
+Description             : Nightly scene in suburb area
+Thanks to		: A-team - great mod !
+			  ID Software - for making AQ2 possible :P
+			  Jedifire (Jf^) AQ2-clan - for the support.
+			  Creators of Qoole99 - for excellent editor.
+			  All mappers who have created the textures like Carr,
+			  ruskprick and others.
+			  
+My other maps for AQ2: vwoods.bsp, fuego.bsp and panic.bsp
+
+
+¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤
+
+-= Play Information =-
+
+Single Player           : yea, but what's the point
+Cooperative             : hmm ?
+Deathmatch              : no
+Teamplay                : but of course !
+New Sounds              : no
+New Textures            : no
+
+
+¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤
+
+-= Construction =-
+
+Editor(s) used          : Qoole99
+Build Time              : weeks
+Compile Time		: 3-4 hours (?)
+
+
+¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤
+
+
+-= Copyright =-
+
+You may not re-edit my map in any way...plz :)
+
+
+-= Comments =-
+
+Enjoy, please.
+
+¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤

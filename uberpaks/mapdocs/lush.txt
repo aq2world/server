@@ -1,0 +1,142 @@
+March 25, 1999
+========================================================================
+
+* General Information *
+
+Title                   : Lush
+Filename                : Lush.bsp
+Author                  : Hafhead (Tony Hafner)
+Email Address           : hafhead@planetquake.com
+Web Page                : http://www.geocities.com/~hafhead
+Additional Credits to   : id Software for such a great game
+                          Ben Morris and Valve for Worldcraft
+                          Argh! for arghrad
+                          The guys of Team 3 for their input
+                          Ridah's Eraser Bots for easy test runs
+                          Bod of the Bot Emporium for the route file
+Description             : Deathmatch Quake II Level
+
+This map is a sort of temple with some pretty wonky architecture.  Feel
+free to offer your prayers to the Strogg gods, but I'd recommend using
+actions instead of words.  Your attendance to all the weapon and powerup
+stations will be richly rewarded with the Railgun, Rocket Launcher,
+Grenade Launcher, two Super Shotguns, Quad, and Megahealth.  There is
+also a smattering of ammo and health just laying around for the taking.
+Use them wisely and the gods will bless you with many frags.
+
+The temple is best worshipped by 2 to 4 mortals at one time.
+
+Even more than usual, I recommend playing with "weapons stay" turned on.
+A 2-player game would probably be OK without it, but even 1 more player
+and there wouldn't be enough to go around.
+
+========================================================================
+
+* Running the Map *
+
+Put Lush.bsp into your maps directory (Quake2\baseq2\maps).  Run
+Quake2 and bring down the console (by pressing ~).  At the console,
+type "map lush".  The game will start.  For multiplayer games, start
+the game first.  Then bring down the console and enter the map command.
+Each player must have the .bsp file in his/her map directory.
+
+I've also included the .rtz file in this release.  If you don't have the
+Eraser Bot, you can delete this file.  If you do have it, drop lush.rtz
+into your Quake2\eraser\routes directory before starting the map with
+bots.
+
+========================================================================
+
+* Play Information *
+
+Single Player           : Don't bother- there's nothing to kill
+Cooperative             : No
+Deathmatch              : Yes- 7 starts, best with 2 to 4 players
+Difficulty Settings     : No
+New Sounds              : No
+New Graphics            : No
+New Music               : No
+Demos Replaced          : None
+
+* Construction *
+
+Base                    : New level from scratch
+Editor(s) used          : Worldcraft
+Known Bugs              : None
+Build Time              : 10 days total
+Compile machine         : PII/333 with 64Mb
+Qbsp Time               : 7 seconds
+Vis Time                : 95 seconds
+Arghrad Time            : 656 seconds
+    extra, bounce 64, chopsky 16, choplight 16
+
+* Copyright / Permissions *
+
+This level may be distributed only over the Internet and/or BBS systems.
+You are NOT authorized to put this level on any CD or distribute it in
+any commercial way without my permission.  It must be kept together with
+this text file intact.
+
+* Other Info *
+
+I aimed once again for a 1-on-1 sized level, and I think I hit it pretty
+well this time.  It may seem a bit on the large size, but the
+connectivity makes for very quick surveys of the entire level.  If all
+else fails, go to the GL room and pop grenades every direction until you
+hear the sound of pain.
+
+My last few maps were a big step up with connectivity and level flow,
+but weren't very architecturally interesting.  This one is where I tried
+to repeat their smooth flow, but add in the pretty lighting of Solid
+Fuel, the kind of cool texturing I did in Stellar Cow, plus some rather
+fanciful architectural elements.
+
+========================================================================
+
+* Plug Section *
+
+For more info about Team 3, visit our site:
+    http://www.planetquake.com/3
+
+For more info about the Eraser Bot, visit Impact's site:
+    http://impact.frag.com
+
+For routes and generally-useful bot info, visit the Bot Emporium:
+    http://www.planetquake.com/emporium
+
+* Past Projects *
+
+For my projects, visit my personal website:
+    http://www.geocities.com/~hafhead
+
+Quake II Levels:
+    Stellar Cow
+    Solid Fuel
+    Warhouses (CTF level for TW2)
+    Spawn of Anklebiter
+    Dark and Silly
+    Warhouse II
+    LaGrange Pt 1 Starbase
+
+Quake Levels:
+    Merry Fraggin' X-Mas
+    Warhouses Retro (CTF)
+    Blood Feud (CTF)
+    4 Boats
+    Storm the Castle
+    Anklebiter
+
+Quake Mission Pack 1 Level:
+    Weightfulness
+
+Quake Patches:
+    Dance!
+    Prison Break
+    Hafweaps
+
+Doom II Levels:
+    Anklebiter
+    Warhouse
+    Command
+    Parts
+      and more...

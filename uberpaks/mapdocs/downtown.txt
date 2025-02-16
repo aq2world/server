@@ -1,0 +1,61 @@
+================================================================
+Title                   : downtown
+Filename                : downtown.bsp
+Release Date            : 1\24\99
+
+Author                  : Cougar D.O.A.
+URL                     : http://www2.1starnet.com/cougar
+Email                   : cougar@1starnet.com
+
+Description             : This level was designed for ActionQuake. This is my first released map,                         so take it easy on me. I'm learning as i go. After nearly completing the                         layout, I started tinkering with making textures, you'll find a few new                          ones in here.Hope you like them. Anyone wanting to use my textures in                            their maps, feel free to do so. You'll find them in the cougardt                                 directory. Most of the textures on this map are from other                                       maps,quake2,and qoole 2.5.
+
+Credits                 :KC D.O.A. for helping me with the sound.
+                        :Major credit is due to Matt for creating a .wav for Downtown's Planet X                          called downtownrock. Thanx for bailing me out Matt. 
+
+From Matt               :Downtown Rock - you are free to use this track - however if you decide                          that you would like to use it please give me proper credit in your                          readme file and send me some e-mail to: mattpatt@1starnet.com and let me                          know how you used it.  Thanks
+================================================================
+
+* Play Information *
+
+Single Player           : No
+Cooperative             : No
+Deathmatch              : not intended for
+ActionQuake DM          : Yes
+ActionQuake Teams       : Yes
+Difficulty Settings     : No
+New Sounds              : Yes
+New Textures            : Yes
+New Music               : No
+Demos Replaced          : None
+
+* Installation *
+ Extact (unzip) in the X:\quake2\action directory. All paths provided.
+
+* Construction *
+
+Base                    : New level from scratch
+Editor(s) used          : Qoole 2.5
+Known Bugs              : Feel free to let me know if you find any
+Build Time              : About 48 hours
+
+
+
+Compile machine         : AMD2/350 128mb SDRAM
+QBSP3 Time              : 28 seconds
+QVIS3 Time              : 190 seconds
+QRAD3 Time              : 286 seconds
+
+* Where to get this level *
+
+http://www2.1starnet.com/cougar/downtown.zip
+
+
+* Copyright / Permissions *
+
+Copyright (c) 1999 Cougar D.O.A.  All rights reserved.
+
+This level may not be distributed on any CD-ROM
+without prior, explicit consent from Cougar D.O.A.
+
+This level may not be used on a commercial 
+Multi-player server without similar explicit consent.

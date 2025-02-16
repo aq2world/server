@@ -1,0 +1,43 @@
+September 7, 1998
+
+================================================================
+Title:                          : Ghost Town: 2053
+Filename                        : Ruins2.bsp
+Author(s)                       : David "Runitai" Parks
+Email Address                   : runitai@my-dejanews.com
+Description                     : Action Quake2 Level.
+Additional Credits to           : idsoftware (of course), Armin Rigo for QuArK, and all the wonderful people at action.telfragged.com for Action Quake2.
+================================================================
+
+
+* Play Information *
+
+Single Player           : No
+Deathmatch              : Yes
+New Sounds              : Yes 
+New Graphics            : No 
+New Music               : No 
+
+* Construction *
+
+Base                    : Ruins2 and a pipe prefab 8)
+Editor(s) used          : QuArK
+Known Bugs              : Light leaks, but nothing major.
+Build Time              : Entirely too long  
+
+* Install Instructions *
+
+Just unzip to your quake2/action directory using -d.  To view the map, run
+Action Quake2, and type "map ruins2" at the console.
+
+* Author's Notes *
+
+This map is intended for teamplay, but it still works with DM.  Please,
+e-mail me your opinions.  This is my second map, so if you like it check out
+my first one: Ruins.
+
+* Legal Stuff *
+
+Don't sell it.  Distribute all you want.  Include this text file with it.
+
+

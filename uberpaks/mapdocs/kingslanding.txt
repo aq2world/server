@@ -1,0 +1,25 @@
+================================================================================
+* ACTION QUAKE II LEVEL INFORMATION *
+--------------------------------------------------------------------------------
+TITLE                   : KingsLanding 
+AUTHOR                  : Ralle              
+DATE                    : 06.07.2024
+EMAIL ADDRESS           : scaramangadk@gmail.com
+TOOLS USED		: TrenchBroom, eriw-tools, Midjourney
+
+================================================================================
+* LEVEL DESCRIPTION *
+--------------------------------------------------------------------------------
+The map is a tribute to the AQ2 community as well as the Game of Throne series. 
+
+================================================================================
+* CREDITS *
+--------------------------------------------------------------------------------	
+	
+	
+	Makkon 		- For awesome textures
+	Mikota 		- For guidance with trenchbroom and the technical stuff
+	Matic		- For help with trenchbroom and maplayout	
+	Wizardext	- For textures and map inspiration
+	Molberg		- For photos of AQ2 people
+	Reiny		- For playtesting

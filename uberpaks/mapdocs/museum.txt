@@ -1,0 +1,53 @@
+================================================================
+                       [ P O R T A L S ]
+              http://www.planetquake.com/portals/
+================================================================
+Title                   : Musée de Quake at Night
+Filename                : museum.bsp
+Author                  : Mark Major (aka Shmitz)
+Email Address           : shmitz@drchronicles.com
+Description             : An Art Museum
+Additional Credits to   : id and the makers of Action Quake
+================================================================
+
+* Play Information *
+
+Level Name              : Musée de Quake at Night
+Single Player           : Just for looking around. 
+Cooperative 		: Nope.
+Deathmatch 		: Not really
+Action Quake		: Yessiree.
+Difficulty Settings     : No.
+
+* Construction *
+
+Base            : New level.
+Build Time      : A couple days
+Editor(s) used  : Qoole
+Known Bugs      : none
+
+* Level info *
+
+Rare paintings, sculted precious stones, works of art that certain collectors would pay 
+a fortune for...
+Are you the art thief, intent on making your fortune by cashing in on the hungers of the 
+rich and corrupt? Or are you the detective, staking out the museum in attempt to track down
+the criminal responsible for a string of museum robberies? Or are you a night watchman, just 
+doing his job? Or maybe you're just a night worker, interupted while trying to repair a 
+broken skylight -- an ordinary person in an extraordinary circumstance......
+
+There are 3 galleries displaying paintings and 1 with some abstract sculpture.
+Also, there's a security room, a gift shop, a main hall, and an extensive rooftop area.
+
+                                  
+* Legal Stuff *
+
+All paintings in the Monet Gallery are by Claude Monet
+All paintings in the Dali Gallery are by Salvador Dali
+All paintings in the Natalie Major Gallery are by Natalie Major (my sister-in-law)
+All "abstract sculptures" are nameless formations made by me for the map, are in 
+no way copyrighted, and if they resemble any existing art, it's purely coincidental.
+
+You may distribute this map so long as you include this text file. Thanks to large, 
+overpowerful, uncaring, overly-politic legal departments of gaming companies that 
+shall remain nameless, you cannot distribute this by any means except via the internet.

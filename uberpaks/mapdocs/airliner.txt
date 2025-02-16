@@ -1,0 +1,60 @@
+Airliner : Hijack by TIGEReye{PaGaN}
+========
+
+Author:		TIGEReye{PaGaN}, schmidta@netspace.net.au
+Mapname: 	airliner.bsp
+New sounds: 	yes
+New models: 	no
+New Graphics:	yes
+Game:		Action quake2 only.
+Single Player:	no
+Deathmatch:	yes
+Teamplay:	yes, (swat vs Hijackers style)
+
+Making Time:	4 months or so on and off
+Editor(s) Used:	Qoole, Worldcraft, Wally
+Base:		Scratch base
+
+Compile time
+============
+compiled on a PII 300, 64 meg
+
+Qbsp		60 seconds
+Qvis		7-8 hours
+Qrad		20 minutes
+
+Installation
+============
+There are many files, and more than one directory, so I advise simply using Winzip and aiming it at your X:quake2\action (Action quake2 folder) when installing.
+
+Other
+=====
+
+Thank must go to my little sister, Mimosa Schmidt (the names German, dont worry :-)) for helping me to record some of those nifty sounds you hear in game
+I must also thank the great people at the map depot for helping out with some of my problems, and you know who you are.
+I also must thank Sveten {PaGaN}, Deity {PaGaN}, and KiLlIsTiNg {PaGaN} for helping to test this map
+And of course if I forgot about ID software and the A team , oh and the mapdepot in general, I have not now ;-)
+Thank all of you ;-)
+
+Despriction.
+===========
+
+Pretty simple really, an Airliner cruising somewhere above the ground :-)
+So if the plane hits some turbelence, then you will no why :-)
+Theres a cockpit, 2 galleries, 2 cabins, 4 bathrooms, and a cargo hold downstairs to have some fun in.
+
+Bugs
+====
+
+In a few spots the r_speeds get up to 800, but you have to stand in special little spots to do so.
+but over all the average at 500, 600 or so. The turbelence also does not work to well when you get high pings over 400, 500 or so on a slower server.
+And watch out for the rotating doors door stairs as they can wedge you onto the conveyor belt.
+
+Legal stuff
+===========
+
+I dont mind if you decide you want to use this map as a base (not that I recommend it) or what to use the sounds, or any of my textures, please, (as I did make them all myself) ask me (schmidta@netspace.net.au) before using them.
+If you ask nicely I will surely give them to you, free, yes free of charge.
+and if you have any problems, even suggestions, email me.
+
+Thank you for Downloading Airliner, and I hope you enjoyed playing as much as i enjoyed making it.

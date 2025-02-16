@@ -1,0 +1,97 @@
+Instructions: extract the archive, preserving directories,
+to your quake2/action directory.
+================================================================
+Title                   : Forsaken City
+Filename                : chriscity3.bsp
+Author                  : Chris Polan
+Author's Quake Handle	: [20ID]God Incarnate
+Author's Email Address  : cpolan@magma.ca
+			  Please send your comments
+Where to get ActionQ2   : http://action.telefragged.com
+================================================================
+
+Notes	: If you have a problem with the lighting on this level, mail me with suggestions!
+	  This is my first map released on the net.
+	  I have kept the r_speeds low despite the outdoor setting! It rarely goes above
+	  800. Basically this means that the level is very playable on most machines.
+	  Because of the 20 or so areaportals, the framerate on my p2-300 with voodoo2
+	  stays around 45-60 fps, and my friend says it runs fine in software on his p150.
+
+PORK! PORK DAMN YOU! POOOOORRRRRKKKKK!!
+
+What the? How'd that get there....
+
+* Level Information *
+
+Description		: Welcome to the Forsaken City, a city where everyone once lived,
+			  but went insane and killed each other with various firearms :)			  
+			  This part of a city has some streets, buildings, and a
+			  sewer. It has 2 parts - The bright side and the dark
+			  side (cue evil music). The bright side has a 5 floor office
+			  building, a slum-like apartment building, and an industrial
+			  warehouse. Go through the tunnel and you will reach the dark
+			  side, where things are darker (surprise!). There you will
+			  find 2 motel rooms, a pool and a church dedicated to a certain
+			  game :) Also, beneath the city is a long sewer tunnel.
+
+Weapon Locations	: Loads of weapons + ammo on this level, enjoy!
+			  Shotgun #1 - 2nd floor of the apartment on the bed
+			  Shotgun #2 - In the sewers
+			  MP5 Machinegun #1 - 2nd floor of the office on the table
+			  MP5 #2 - The tower in the church
+			  Handcannon - The 2nd motel room
+			  Sniper Rifle - The roof of the office building
+			  M4 Assault Rifle - In the rafters of the warehouse
+			  Grenades are scattered around the level.
+
+* Play Information *
+New Sounds              : Not really
+New Textures            : Yes (some modified from other aq2 levels)
+
+* Construction *
+Base                    : A lot of 0's and 1's
+Editor(s) used          : Qoole, BSP, QuArK, Wally for textures
+			  I went insane making this level. Reason: Haven't found a perfect
+			  editor. Qoole is near perfect, but it has a 300 brush limit!
+			  BSP is hard as hell to use!
+			  QuArK is just plain weird!
+Known Bugs              : I get a Com_sprintf overflow: 47 in 32 error when it starts
+			  (this does nothing)
+			  The water in the sewers appears to flow in weird directions
+			  The duplicate weapons dont respawn too well (Action Quake bug)
+			  The road lines appear a bit screwy in some places
+
+DAMMIT! Our clan isn't Zoid, after that CTF guy!
+Its Two-Zero-I-D! RRRGGH!
+Its 20 Inch Dongs! ACCCKK!!!
+
+Ooops... got carried away again.... sorry :)
+			                            
+* Build Time *
+Computer		: P2-300, 64MB ram, Voodoo2 video
+Design			: Like, a lot of hours :)
+Brushes			: about 700 or so
+QBSP3			: 15 seconds
+QVIS3 -level 4		: 17 minutes, 44 seconds
+ARGHRAD -bounce 0       : 58 seconds
+Note	: I chose to not have any radiosity bounces because i find that the level
+	  looks crappy (too bright) with them.
+
+=================================================================
+
+Thanks to	: ID software
+		  the A-team
+		  the people who made the maps with the textures i messed with
+		  The makers of the maps CDOOM, BLOCKWAR and ACTCITY2 for inspiration
+		  Those maps rock! (especially the latter 2)
+		  Those other nutty guys from our 20 Inch Dongs clan
+		  (MikFly, Gleaker, CrackMonkey, Nottingham and Warrax)
+
+If you think this map sucks, mail me and tell me that I deserve
+an Ass Whooping (TM), 'cause Stone Cold said so!
+Just PLEASE don't say the map looks like my face after a point blank handcannon blast :)
+
+If you use stuff from this map, mail me and tell me about it.
+
+This map is freeware. It CANNOT be sold in any way. So don't let your friends
+charge you for it.

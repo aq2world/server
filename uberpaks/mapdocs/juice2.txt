@@ -1,0 +1,276 @@
+=============================================================================
+Título                  : Juice & Blood 2 - Versão final
+
+Files                   : JUICE2.BSP, JUICE2.TXT, TEXTURAS Do pak Xatrix, do Ruskprick, TEXTURAS MINHAS, SONS
+                          
+                          - ARQUIVO ZIPADO: JUICE2.ZIP
+
+Data                    : 05:06 am (DD/MM/YY) 29/01/2002
+
+Autor                   : Arthur "Suco" de Pádua
+
+Meu e-mail              : o_sabonete@zipmail.com.br
+                          el_suco@zipmail.com.br
+
+Web Site                : http://www.animar.com.br
+                          http://www.cgcorp.com.br/hosted/baqm/
+
+Descrição               : Mapa pra Action Quake2, uma cidade, original né?
+
+Instalação              : * Unzip juice2.ZIP into root of your Action Quake
+                          game folder (Quake2/Action), with Subdirectories
+                          enabled (!), so that all textures and sky will be unzipped
+                          into correct directory (USE FOLDER NAMES checkbox
+                          in WinZip or -d switch in PKUnZip).
+                                                    
+Agradecimentos a        : * Id Software (www.idsoftware.com), por ter feito Commander Keen,
+                          Wolf3d, Doom, Doom2, Quake, Quake2, Quake3 Arena e por estar 
+                          fazendo Doom3.
+
+                          * Uninet (www.unigames.com.br), por ter servidores de AQ2
+
+                          *Siberian "Mococa", por ter ajudado em alguns conceitos básicos 
+                          sobre mapas
+
+                          *Byteco, por ter me passado o Qoole e ajudado em algumas 
+                          manhas do programa Qoole;
+
+                          *As pessoas q me ajudaram a testar o mapa e dar opinião
+
+                          *Andrei, o Makro_PN, o melhor mapper de Quake2 (e RQ3) q eu conheço
+
+                          *Bok Choy <trjones@bigfoot.com>, peguei um prefab de máquina de refri dele
+
+                          *David Spurr <dave@daspurr.softnet.co.uk>, usei prefab de cabine telefonica dele
+
+                          *E um super agradeçimento (nossa... parece "Show da Xuxa" de tanto agradecimento né?)
+                          ao amigo e colega de jogo, o grande Turbo, que compilou o mapa pra mim. Quebrou um 
+                          galhão cara. 
+
+                          *Pingueiro, q me deu uma força pra divulgar Juice, meu primeiro mapa e tal
+
+
+                          *A minha mae, porque sem ela eu seria porra. (literalmente)
+
+=============================================================================
+* Play Information *
+
+Jogo                      : Action Quake (Quake2)
+Single player             : Sim (pra atirar nas paredes e treinar pulos)
+Cooperative 2-4 players   : Não
+Deathmatch 2-8 players    : Sim 
+
+New Graphics              : Sim (texturas)
+New Music                 : Sim (racionas.wav, suco1.wav, suco2.wav)
+New Sounds                : Sim:
+
+                            chamando.wav, 
+                            city.wav, 
+                            city2.wav, 
+                            phone.wav, 
+                            ring.wav
+                            bum.wav, 
+                            storm.wav, 
+                            grilo.wav
+
+Compativel com Action Quake2: Devel Edition (www.unigames.com.br/devel)
+
+DLL                       : Não
+
+Spawn Points              : 5
+
+* Construção *
+
+Tempo de construção       : de 21/04/01 até 26/01/02
+Build Machine             : P800 with 128mb RAM, HD 20 GB, voodoo2
+Compile Machine           : atlhon t-bird 1.2, 256Ram, HD SCSI, Asus GeForce2 GTS 64MB
+    QBSP3 Time            : 16 SEGUNDOS
+    QVIS3 Time            : 8374 seconds elapsed
+    QRAD3 Time            : 289 segundos
+
+
+Editor(s) Used            : Qoole 2.5, Adobe Photoshop 5.0, Quark 6.0 e Qoole 99, Wally 1.55, Winbspc
+                            
+
+
+Bugs conhecidos           : Nop
+
+* Copyright / Permissions *
+
+meu mapa naum tem restrições... pode fazer oq vc quiser com ele... desde q respeite os lances
+de direitos autorais com as texturas, e a Id Software... valeu mano?
+
+Texturas do Quake2 
+Texturas do Ruskprick (ele disse q podia usa-las no TXT do mapa CITY)
+Texturas minhas (pode usa-las, elas ficam no diretório TEXTURES\baqm\)
+Texturas do Xatrix Pak (ficam aqui ó baqm\)
+Texturas que eu peguei em desculpem-me mas eu naum me lembro 
+onde eu as peguei =(
+Texturas do Shogo, (http://www.shogo-mad.com/) jogo para o qual eu prestei uma homenagem com esse mapa
+Texturas da equipe BAQM (naum me lembro se eu usei alguma mas tudo bem né)
+Texturas do site WADFATHER, um puta site pra quem quer novidades e tal.
+Texturas da Remedy Enterteniment, a produtora do Max Payne
+
+"The textures in this file are property of Remedy Entertainment Ltd., and can be used only as long as the 
+work is recognized as original artwork by Remedy, and no financial profit is made in the process. 
+
+(C)1998-2001 Remedy Entertainment Ltd."
+
+
+* Onde catar esse mapa *
+
+Comigo! (icq# 50320244)
+
+ou em algum site... sei lá
+
+
+
+=============================================================================
+
+
+Links Bacanas:
+
+
+www.animar.com.br
+
+www.unigames.com.br
+
+www.telefragged.com
+
+www.planethalflife.com/wadfather (otimo pra texturas)
+
+www.planetquake.com/bighouse
+
+
+
+=============================================================================
+
+
+Now, the english Version
+=)
+
+
+=============================================================================
+Title                   : Juice & Blood 2 - Final Version
+
+Files                   : JUICE2.BSP, JUICE2.TXT, TEXTURES, and sounds
+                          
+                          - Ziped file: JUICE2.ZIP
+
+Date                    : 05:06 am (DD/MM/YY) 29/01/2002
+
+Author                  : Arthur "Suco" de Pádua
+
+E-mail                  : o_sabonete@zipmail.com.br
+                          el_suco@zipmail.com.br
+
+Web Site                : http://www.animar.com.br
+                          http://www.cgcorp.com.br/hosted/baqm/
+
+Description             : A city, to Action Quake2
+
+How to install          : * Unzip juice2.ZIP into root of your Action Quake
+                          game folder (Quake2/Action), with Subdirectories
+                          enabled (!), so that all textures and sky will be unzipped
+                          into correct directory (USE FOLDER NAMES checkbox
+                          in WinZip or -d switch in PKUnZip).
+                                                    
+Agradecimentos a        : * Id Software (www.idsoftware.com), 
+
+                          *Siberian "Mococa", my first mapper-friend 
+
+                          *Byteco, for send me Qoole 2.5
+
+                          *Andrei, o Makro_PN, the best mapper i´ve ever seen
+
+                          *Bok Choy <trjones@bigfoot.com>, I used a frefab from him
+
+                          *David Spurr <dave@daspurr.softnet.co.uk>, I used a frefab from him too
+
+                          *A big "thanks" to Turbo, he was the one who compile the MAP!
+
+                          *Thanks to my mom
+
+=============================================================================
+* Play Information *
+
+Game                      : Action Quake (Quake2)
+Single player             : yes (just to look around, and shoot the walls ^_^)
+Cooperative 2-4 players   : Nop
+Deathmatch 2-8 players    : yes 
+
+New Graphics              : yep (texturas)
+New Music                 : yep (racionas.wav, suco1.wav, suco2.wav)
+New Sounds                : Yep:
+
+                            chamando.wav, 
+                            city.wav, 
+                            city2.wav, 
+                            esgoto.wav, 
+                            phone.wav, 
+                            ring.wav
+                            storm.wav, 
+                            grilo.wav,
+                            bum.wav
+
+Compatible with Action Quake2: Devel Edition (www.unigames.com.br/devel)
+
+DLL                       : nop
+
+Spawn Points              : 5
+
+* Construção *
+
+Build time                : since 21/04/01 until 26/01/02
+Build Machine             : P800 with 128mb RAM, HD 20 GB, voodoo2
+Compile Machine           : atlhon t-bird 1.2, 256Ram, HD SCSI, Asus GeForce2 GTS 64MB
+    QBSP3 Time            : 16 seconds
+    QVIS3 Time            : 8374 seconds elapsed
+    QRAD3 Time            : 15 minutes
+
+
+Editor(s) Used            : Qoole, Adobe Photoshop 5.0, Quark 6.0 e Qoole 99, Wally 1.55, Winbspc
+                            
+
+
+Know Bugs                 : nop
+
+
+
+* Copyright / Permissions *
+
+U can use Juice2 from anyway... it´s free and without restrictions, but u need to respect
+the quake2 and the textures from Xatrix and the other autors
+
+Textures from Quake2 
+Textures from Ruskprick (ele disse q podia usa-las no TXT do mapa CITY)
+Textures from my head (u can use them)
+Textures from Xatrix Pak (released by Xatrix)
+Textures from Shogo, (http://www.shogo-mad.com/)
+Textures from BAQM TEAM (www.cgcorp.com.br/hosted/baqm/)
+Textures from WADFATHER, a great site aobou editing.
+Textures from Remedy Entertainment:
+
+"The textures in this file are property of Remedy Entertainment Ltd., and can be used only as long as the 
+work is recognized as original artwork by Remedy, and no financial profit is made in the process. 
+
+(C)1998-2001 Remedy Entertainment Ltd."
+
+* Where u can get this map *
+
+with meeee! (icq# 50320244)
+
+www.unigames.com.br/action
+
+www.cgcorp.com.br/hosted/baqm/
+
+that´s it!
+
+CYA!
+
+
+
+=============================================================================
+
+
+

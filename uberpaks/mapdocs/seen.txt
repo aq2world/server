@@ -1,0 +1,59 @@
+================================================================
+ACTION QUAKE2
+================================================================
+* General Information * 
+Title                   : Already seen city
+Filename                : seen.zip
+Release Date            : 25.1.2003
+Author                  : Genie
+URL                     : http://koti.mbnet.fi/darknes/seen.zip
+Email                   : genie@tukikohta.net
+================================================================
+* File Information * .
+bsp Name		: seen.bsp
+ZIP Size (KB)           : 1427 KB
+================================================================
+* Play Information * 
+Single Player           : No
+Cooperative             : No
+Deathmatch              : No
+ActionQuake DM          : Yes
+ActionQuake Teams       : Yes
+DM Spawn Points         : 5
+Max Player Load         : 12
+Difficulty Settings     : No
+New Sounds              : No
+New Textures            : No
+New Music               : No
+Demos Replaced          : None
+================================================================
+* Installation *
+ Extract (unzip) in the *:*\quake2\action directory. All paths provided.
+================================================================
+* Construction * 
+Base                    : New level from Genie
+Editor(s) used          : Worldcraft 1.6, ArghRad
+Known Bugs              : No
+Build Time              : 2 weeks
+Compile machine		: P2 466Mhz, 480MB PC133
+Compile time		: 72 minutes
+Number of solids	: 704
+================================================================
+* Special thanks to: *
+================================================================
+Maker of city of allmost all textures
+Maker of riot for few textures
+Wizardext for a beatiful sky and few textures
+A-team for a great mod.
+Tim Wright for ARGH! tools
+ID for Quake II. 
+================================================================
+* Notes*
+================================================================
+Don´t modify my map in any way without asking me fist!
+Don´t make money with my map without telling me.
+Don´t modify this .txt file!
+
+Have fun!
+
+-Genie

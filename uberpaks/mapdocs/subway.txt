@@ -1,0 +1,56 @@
+=====================================================================
+Title                   : Subway sabotage
+Filename                : Subway.bsp
+Version                 : 8/20/98
+Game                    : Action Quake 2
+Authors                 : T.T.I. (mapper) and Hannu Oksa (new musics)                        
+                          aka Imagination.
+Description             : This is a cool map for Action mod.
+                          
+
+Other levels by author  : Spacequake, Operat2 and much much more.                        
+                          This is my fifth level for Quake 2.
+
+Thanks to               : ID Software, A-TEAM and makers of those
+                          good editors that I used.
+
+=====================================================================
+
+* Play Information *
+
+Single Player           : Just for checking things
+Cooperative             : No
+Deathmatch              : 2-12
+Difficulty Settings     : No
+New Graphics            : YES
+New Music               : Yes (!)
+CD Track                : Yes
+
+* Construction *
+
+Base                    : Scratch
+Editors used            : GlideQoole 2.5, Radiant 0.77, Wally 1.10
+Build Time              : Three weeks
+Known Bugs              : Just one, but you can't even find it.
+Compile machine         : Pentium II 300, 64 MB
+Qbsp3 time              : 21 seconds
+Qvis3 time              : 3598 seconds
+Qrad3 time              : 830 seconds
+Brushes                 : 866
+Entities                : 149
+
+* Installation *
+
+This is very important:
+You MUST have AQ2 version 0.95 or higher
+The BSP must end up in X:\Quake2\Action\maps directory
+Textures must end up in X:\Quake2\action\textures\TTI
+New sounds MUST end up in X:\Quake2\action\sound\world
+
+* Copyright / Permissions *
+
+Authors MAY NOT use this level as a base to build additional levels.
+All textures, sounds, anything MAY NOT be used for other maps, but these
+files can be freely distributed. This level cannot be sold.
+
+Copyright (c) 1998 T.T.I. and Imagination, All Rights Reserved

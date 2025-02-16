@@ -1,0 +1,36 @@
+Instructions: extract the archive, preserving directories, to your quake2/action directory.
+================================================================
+Title                   : The Hangar
+Filename                : base01.bsp
+Author                  : Bjoern Drabeck
+Email Address           : bjoern@vortexq.com
+Description             : Brand new map based on a Hangar where a damaged plane should be repaired, now working as a training ground...
+Where to get ActionQ2   : http://action.telefragged.com
+================================================================
+* Play Information *
+
+Single Player           : No
+Cooperative             : No
+Deathmatch		: Yes, though weapon balance is not worked out
+Action Quake2		: Yes.
+Difficulty Settings     : No.
+New Sounds              : No
+New Graphics            : Yes: Textures by Alun Bestor (uberian@vortexq.com)
+New Music               : No
+Demos Replaced          : None
+
+* Construction *
+Base                    : Empty Space
+Editor(s) used          : BSP
+Known Bugs              : Some textures may be unaligned as I didn't have the time to fix all the bugs, because I am working on a TC...
+			                            
+* Build Time *
+About 16 hours or so
+=================================================================
+
+Details:
+When I started to work on this map I intended to make it for standard Q2, but then I didn't finish it because I started working on the AirQuake2 TC which took all my time. Some time ago I saw ActionQuake and thought of finishing it quickly as an Action-Map...
+
+IMPORTANT:
+The textures are for use in AIRQUAKE 2 ONLY !!! Alun gave them to me as an exception only!
+Do not use them without his permission! (uberian@vortexq.com)

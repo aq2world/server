@@ -1,0 +1,81 @@
+Created: 5/3/99
+Re-modified: 6/4/99
+
+                               Fragging 'n Lagging
+                              in a Winter Wonderland
+                                 By: PACMAN[TECH]
+   ------------------------------------------------------------------
+
+       Installation: Just unzip into your Quake2/action folder
+
+=======================================================================
+Title                   : Fragging 'n Lagging
+                         in a Winter Wonderland
+                            By: PACMAN[TECH]
+Filename                : winter.bsp
+Game			: Action Quake 2
+Author                  : Eric Dubhorn
+Email Address           : PACMAN@clantech.net
+Web Address             : none
+Description             : I think the title explains it all...
+Additional Thanks To    : This is gonna get very long:
+                          Clan {SO} for helping with ideas and testing
+                           (special thanx to Lord Deimos for Q&A)
+			  Clan =NASA= cuz... well, the were clan {SO} :)
+                          Clan [TECH] for inspiring me to finish it
+                          Chopp3r for the kick-ass sky: 
+                           http://members.xoom.com/chopp3r
+                          Chris for making threats on my life to finish it
+                          Bill, just Bill: he just wanted a spot in here
+                          All the people at the AQMD forum for Q&A
+                          The Postman =PM= for..? he helped alot :)
+                          Umm... well, Conan =AR= cuz he isn't in
+                           either of the clans and he helped some
+                          www.gamedesign.net: All the help i needed and more
+                          Hammer[TECH] for compiling my level... after 4 times
+                           we finally got it to work right too!
+                          Dr. Bob on the AQMDMB (thats alot of letters) for
+                           showing me how to put the file names in lower case
+                           and helping me compile without problems...
+                          Every and any person who I forgot... sorry :)
+                          
+                          P.S. I just want to give additional thanx to everyone
+                           that made AQ2 levels... I have a new-found respect
+                           for you guys after taking on this task...
+====================================================================
+
+* Play Information *
+
+Single Player           : If you're bored and lonely I guess...
+                           won't be that much fun though...
+Cooperative             : Nope
+Deathmatch              : Yeah 
+Teamplay                : Of course
+Difficulty Settings     : Nope
+New Sounds              : Yes
+New Graphics            : Yuppers
+New sky                 : Yes
+Textures		: From Quake2 and from me... just ask me if you
+                           want to use mine (for some strange reason)... 
+                           theyre easy to find: just look for the ugly ones
+====================================================================
+
+* Construction *
+
+Editor(s) used          : Here we go:
+                          WorldCraft 1.6 for building
+                          Qoole 2.5 & 99 for some editing and failed compiles
+                          Q2 BeaVeR (really.. thats the name) for the final compile
+Known Bugs              : Umm... you can get "hung up" in one spot,
+                          but anyone who goes there diserves to be
+                          a target for a few seconds :)
+			  The lighting in the cave is a bit off, but when
+                           you only have 32mb of ram for test compiles, its
+                           good enough :)
+Build Time              : 4 months on and off
+Compile Time		: Qbsp3: 26 seconds
+                          Qvis3: 7 hours (approx.)
+                          Qrad3: 4 hours (approx.)
+                           (Arghrad... cool phong shading in the caves)
+
+

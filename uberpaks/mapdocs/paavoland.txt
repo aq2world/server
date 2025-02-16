@@ -1,0 +1,15 @@
+22.05.2003
+
+----------------------
+Title        : Paavoland 
+Filename     : Paavoland.bsp
+Game:        : Quake 2: Action Quake
+Author:      : Olli "Paavo Muna/Omikron" Rosti
+Email:       : ollirosti@sunpoint.net
+----------------------
+Editor       : Qoole 2.50
+Build Time   : 3 week
+----------------------
+Textures aren't my own. Thx to all texture makers. 
+Music        : Team Muna - Mä haluan pillua (Cover)
+

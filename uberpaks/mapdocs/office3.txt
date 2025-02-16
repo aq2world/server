@@ -1,0 +1,60 @@
+04/02/98
+================================================================
+Title                   : A Night in Hong Kong
+Filename                : office3.bsp
+Game			: Quake 2
+Author                  : Sam Thompson	
+Email Address           : mhoram@world-net.net
+Description             : 4 story (including roof and parking garage) abandoned
+			  office building in Hong Kong.. For the Action mod
+			  (action.telefragged.com).. won't work well (at all) without it
+
+Additional Credits to   : The Action Quake Team, id software, Qoole's authors (rocks!)
+			  People in the #qoole channel on effnet, etc., especially 'Action' (coincidence, really) 
+
+
+================================================================
+
+* Play Information *
+
+Single Player           : No
+Cooperative             : No
+Deathmatch              : 2-16... it's all good w/ action quake2 =P
+Difficulty Settings     : No
+New Sounds              : Yes
+New Graphics            : Sky env (hong kong), 'hk', others (kinda)
+New Music               : Elevator music.. i guess that counts =P
+Demos Replaced          : Yes
+
+* Construction *
+
+Base                    : New level from scratch
+Editor(s) used          : GlideQoole 2.34
+Known Bugs              : (doors phase in and out w/o a voodoo (why don't you have one?), HOM effects
+Build Time              : 25 hours
+Compile Time		: 5 hours on a ppro200 w/64
+
+Notes:
+
+This is a slight change from office.bsp. Office.bsp assumed some things in our action dll that can't be, and
+had to be changed. Also, office.bsp was DAMN slow in lotsa places, something this corrects. The lighting also looks
+about 100 times better in this version, but no cool emergency lights anymore.
+
+Office3 simply fixes those microfissure sparklies, and puts the shotgun back in the bar.
+
+This is my first map ever. I have done duke3d maps, doom maps, but never quake/q2 maps...
+I realize it shows, but i think that the level layout works VERY well, and design isn't too bad
+
+And one more thing, the sky looks SO much better in 16bit if you can afford it (ie, voodoo2, high powered system)
+
+
+
+* Copyright / Permissions *
+
+Authors MAY NOT use this level as a base to build additional
+levels.
+
+This BSP may be distributed ONLY over the Internet and/or BBS systems, and only to be used with the Action Quake mod.
+You are NOT authorized to put this BSP on any CD or distribute it in
+any way without my permission.
+

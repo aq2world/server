@@ -1,0 +1,56 @@
+=============================================================================
+* General Info *
+
+Title                   : The hidden village of leaf
+
+Archive                 : leaf.zip
+
+Release Date (DD/MM/YY) : 24/09/2004
+
+
+Author                  : Nico Tukiainen (aka :OwN: pauhi)
+Email Address           : tukiainen.nico@student.hbc.fi
+
+Description             : Map for Action Quake (http://aq2.action-web.net).
+			
+			  The map is ideal for m4 rushing but it also offers
+			  great sniping possibilities.
+
+Installation            : Unzip leaf.zip into the root of your Action Quake
+                          game folder (Quake2/action), with Subdirectories
+                          enabled (!)
+                                                    
+Additional Credits to   : WizardExt for some textures
+			  zakath for some textures
+			  Every other people who I took textures from
+			  People who were 'betatesting' the map.
+			  Toshiro Masuda for the music.
+			  www.aq2world.com and their forum visitors!
+			  Argh! for ArghRad
+                          A-Team for making the greatest Quake2 mod ever.
+                          id Software for Quake 2.
+
+
+=============================================================================
+* Play Info *
+
+Game                      : Action Quake (Quake2)
+Single player             : Yes (only for jumping around)
+Teamplay                  : Yes
+Deathmatch 		  : Yes
+Suggested Player Load	  : 2-8 (5 spawnpoints)
+
+New Graphics              : Yes
+New Music                 : Yes
+New Sounds                : Yes
+New Sky			  : No
+DLL                       : No
+Locations File		  : No
+
+Compile time		  : Around 32 hours
+
+
+
+=============================================================================
+
+Enjoy!

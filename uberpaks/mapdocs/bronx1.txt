@@ -1,0 +1,70 @@
+Rumble in the Bronx - by AnthraX
+========
+
+Author:		AnthraX-KUI-, queblo@hotmail.com
+Mapname: 	bronx.bsp
+New sounds: 	yes
+New models: 	yes
+New Graphics:	yes
+Game:		Action quake2 only.
+Single Player:	yes, if you want to
+Deathmatch:	yes
+Teamplay:	yes
+
+Making Time:	About 20 hours all up
+Editor(s) Used:	Worldcraft 1.6 shareware, Wally, Q2 Beaver
+Base:		Scratch base
+
+Compile time
+============
+compiled on a PII 233, 64 meg Ram
+
+Qbsp		60 seconds
+Qvis		7-8 hours
+Qrad		20 minutes
+
+Installation
+============
+There are many files, and more than one directory, so I advise simply using Winzip and aiming it at your X:quake2\action (Action quake2 folder) when installing.
+
+Credits
+=====
+The following people must be thanked for helping me create my first map EVER!
+TEXTURES - CWB (Christopher Buechler)
+	   Gerbil (John Parish) - the creator of the greatest map ever - urban 1
+	   "The texture king" Ruskprick
+	   CryptR
+	   Seth Galbraith
+	   Brain Hatch
+	   Apocx
+	(I didn't make my own textures because they would suck and I have never made a map in any way shape of form before this one!)
+PREFABS  - HybriD (for the wicked vert ramp)
+         - David Spurr (for the telephone booth)
+         - Smeuth (for the pool table)
+SOUNDS   - heavy.wav from KaRRiLLion
+           sparks.wav from Half-life
+SKY      - Jason Abbott (the sky name is "city1")
+HELPERS  - YT-KUI- (for getting me into map making)
+	 - Despoila-KUI- (for playtesting)
+         - Anyone who gave me feedback about the map! 
+	 
+	 
+Despriction.
+===========
+
+A city you dumbass
+
+Bugs
+====
+
+The r_speeds are high in some places mostly due to the vert ramp, but it was so wicked I had to keep it in!
+
+Legal stuff
+===========
+
+I dont mind if you decide you want to use this map as a base (not that I recommend it).
+I don't mind what you do with the map, if you can con someone into buying it from you then good-luck! Just remember if there is anything legal to do with the map, I NEVER EXISTED :) 
+If you want to use the  textures, please first ask the creators of them!If you ask nicely they will surely give them to you, free, yes free of charge.
+and if you have any problems, even suggestions, email me. If you want the internet sites of the textures then e-mail me as well.
+
+Thank you for Downloading Rumble in the Bronx, I hope you enjoyed playing as much as i enjoyed making it.

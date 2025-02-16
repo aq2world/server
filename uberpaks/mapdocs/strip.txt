@@ -1,0 +1,200 @@
+"Strip" by Adam "SolarFlux" Kopcinski
+==================================================
+        GENERAL AND IMPORTANT INFO SECTION
+==================================================
+Description:	|The "world famous" Crazy Horse
+		|strip club, located in San 
+		|Fransisco, California	
+---------------------------------------------
+Mapper:		|Adam "SolarFlux" Kopcinski
+		|
+Mapper Mail:	|gem1@gte.net
+		|
+Mapper page:	|http://home1.gte.net/gem1/  
+		|(Truly a great site)
+		|
+Mapper Moto:	|"To maximize performance,
+		|minimize distortion"***(also
+		|known as the Kopcinski
+		|theory)***
+---------------------------------------------
+Compile Machine:|Pentium III, 96 megs of ram
+		|2.8 gigger HD
+		|
+Map Base:	|No ripping off maps here
+		|
+Qsb3 Time:	|Less Time than it takes me 
+		|to wipe my arse.
+		|
+Qvis3 Time:	|More time than it takes me 
+		|to wax my "bikini zone."
+		|
+Qrad3 TIme:	|About the same amount of time
+		|It takes me to wax my "bikini
+		|zone" while wiping my arse.
+==================================================
+		  USELESS INFO
+==================================================
+Deathmatch:	|You betcha' 1-8 (might get crowded)
+		|
+Teamplay:	|You better beleive it
+		|
+Single Player:	|Spawn yourself crazy
+		|
+Cooperative:	|What in the hell? Play Duke3d for 
+		|that kinda stuff ;-) (its on
+		|my hardrive, mail me and well
+		|get something goin')
+		|	
+Brushes:	|paint brushes, hair brushes, oh
+		|shyt, nevermind.
+		|
+R-speeds:	|Tried to keep em' low by placing
+		|unneccessary brushes....
+		|
+Software Mode:	|Use the textures in the "softext
+		|zip. Alot of the textures are 
+		|transparent and wont work in Gl.
+		|Unzipping the tex in the softext
+		|zipfile into c:\quake2\action\
+		|will fix this. No colored lighting
+		|bland and boring. Buy a video card 
+		like the rest of the world. 
+====================================================
+		EVEN MORE USELESS INFO
+====================================================
+New Textures:	|Yes!!! Most of em were slapped in
+		|by me. 1 texture from the "rhcity" 
+		|directory that i modded (modvent). Also
+		|a normal quake2 texture(c_met5). 1 tex
+		|from duel (glass). Some modded quake2's.
+		|
+New Sounds:	|a couple ambient sounds from some
+		|free sound site. The music towards
+		|the entrance is from Dimitri From Paris'
+		|Sacreblue album, in stores now!
+		|
+New Other poop:	|Nothing you need to know about
+		|
+Does the product|More than anything else i have done. 
+reflect my	|I did some neat-o textures. I would have
+Initial Vision?	|liked to work on the outside area a 
+		|bit more but my ass was in a vice to get
+		|it done in time for the "picture this"
+		|map contest.
+		|
+Build Time:	|3 or so days of continous worldcraft 
+		|racing against time, lots of time in
+		|wally and paint shop pro, and some 
+		|work induced dreams.
+		|
+Bugs:		|I guess the r_speeds are a little 
+		|high but i have found that if you
+		|use a dial up modem the polly count
+		|is the least of your troubles...
+		|...besides, there not 1,000
+		|everywhere like in Action Halflife maps.
+		|Your best bet is to play it on a Lan.
+		|Some clipping problems.
+====================================================
+		   Legal Mumbo Jumbo	
+====================================================
+You may not use this map as a base, if you do you may
+find yourself sleeping with the fishes. You may not
+distribute this map in any form, electronic or other-
+wise, unless this text document is included and the zip 
+file remains intact AND permission has either been 
+given or implied by me. If you do, you may find 
+yourself waking with the donkeys. You may use the 
+textures for other Action Quake maps, but if you do
+just remember that your map may be labled as "just 
+another strip map."
+
+=====================================================
+			Tips
+=====================================================
+This stuffs pretty much for new mappers, and consists
+mostly of stuff I had to figure out.
+
+* Use detail brushes every so often, it will
+save on your friggin' vis time. Oh yeah. 
+
+*If you compile your map alot to see how it looks,
+you can cut qrad3 time by using the -chop XX command,
+were chop XX is the number you want to use. I use 128.
+The lower the number, the faster the Qrad, but the 
+lower the quality. Max patches end at -chop 16, I think.
+
+* You don't need much ram, just enough room on your
+HardDrive for the swap file (qrad3)
+
+* Add more detail with textures. Do't try to make
+everything out of brushes. (r_speeds)
+
+* forget prefabs, do your own stuff. It will make
+your level more unique. 
+
+* Try and build from reality. All your stuff will
+look more realistic.
+
+* If you use gigantic sized textures and then scale
+them, they will look sharper, even in glide. However,
+the engine can only map so much and in software mode
+it might slow the game to turtle crawl speed. Use 
+wisely.
+
+* If you do colored lighting, make sure you tell the
+compile programs were your textures are, or else move
+them to someplace were it can find them.
+
+* Also if you do colored lighting, use a -bounce 1 or
+-bounce 0 in the qrad command line. Otherwise, sum
+stuff will be too colored and you'll get visual colored
+artifacts.
+=====================================================
+		   Pimpin' Section
+=====================================================
+
+	To expand your mind, listen to these matter
+bloated bands:
+
+Propellerheads (Who got the props?)
+Bentley Rythum Ace (Bom Bom Diddley Bom)
+Esthero	(We didn't have to kill her...)
+Dimitri From Paris (Sacrebleu!)
+Moby (Here we are now, going to the southside...)
+Jungle Brothers (down with the jbeez?)
+=====================================================
+		        Quotes
+=====================================================
+
+"Until you die its all just life, so make the most of
+it." - from the movie BREAKFAST OF CHAMPIONS
+
+"Pop culture isn't the devil, it just boring, most of
+the time." - Moby
+
+"The world could stand to lose a few a**holes. 
+Unfortunatley, we all have one." - Adam Kopcinski
+
+======================================================
+			Props
+======================================================
+	Thanks to all the people who have made Action
+Maps. More specifically, thanks to those who showed us
+that Action meant more than cities and canyons.	I'd 
+also like to thank the guys at the AQMD for not 
+releasing everymap that comes thier way. This probably
+improves the quality of the mod or something.
+
+***begin ass kissing*** WetWired, Scuzzy, Mexican Radio,
+for making and breaking quality standards.
+
+A special exclusive thanks go out to some of the starlets
+that inspired this map. Specifically Raylene and Jenna...
+
+   -Dedicated to Dinah, though we shall  never speak-
+	(damn, I used this quote im my last readme and 
+	 	still haven't spoken.) 		
+		
+		       THE END		

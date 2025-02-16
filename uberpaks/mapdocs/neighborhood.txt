@@ -1,0 +1,46 @@
+=======================================================================
+Title                   : Neighborhood by JFL
+Filename                : Neighborhood.zip
+Version                 : 7/30/1999
+Game                    : Quake2
+Mod                     : Action
+Authors                 : JFL (j.f.l@videotron.ca)
+Description             : Six little houses and a street...
+=======================================================================
+
+* Play Information *
+
+Single Player           : Yes (Just for checking things)
+Cooperative             : No
+Deathmatch              : Yes (Team or DM)
+Difficulty Settings     : No
+New Graphics            : Yes (From the city by Ruskprick)
+New Sky                 : drksky (I dont know from who)
+New Sounds              : Yes (I dont know from who)
+CD Track                : No
+
+
+* Construction *
+
+Base                    : From scratch
+Editors used            : WinQoole 2.50 & Qoole99,
+Build Time              : Around 8hrs
+Known Bugs              : None
+Compile machine         : Abit BH6 motherboard, Celeron 300a @ 504MHz,
+                          128Mb, 8.2Gb Maxtor diamond HDD.
+Compile time            :
+                          Qbsp3          : 3 seconds
+                          Qvis3 -fast    : 11 seconds
+                          ArghRad -extra : 3494 seconds (58 minutes)
+
+
+* Installation *
+
+Just unzip to your X:\quake2\action directory (With subdirectories enabled).
+
+
+* Copyright / Permissions *
+
+Authors MAY use this level as a base to build additional levels, that why
+i include the "map" in the zip, but please give me credit for the base.
+Files can be freely distributed. This level cannot be sold.

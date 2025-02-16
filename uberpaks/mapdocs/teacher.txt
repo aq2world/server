@@ -1,0 +1,62 @@
+
+98/10/25
+
+===========================================================================================
+Title                   : WHEN I KILLED THE TEACHER
+Filename                : TEACHER.BSP
+Game			: AQ2
+Author                  : MATS "RUSKPRICK" HOLM
+Email Address           : mats.holm@mbox307.swipnet.se
+Web Address             : ---
+Description             : A SCHOOL
+Additional Credits to   : ID SOFTWARE, GREAT GAME
+                          WALLY, VERY GOOD TEXTURE-EDITOR
+                          DER KOMMISSAR, FOR THE SKY
+                          
+
+===========================================================================================
+
+* Play Information *
+
+Single Player           : NO
+Cooperative             : NO
+Deathmatch              : 1-64 
+Teamplay                : YES
+Difficulty Settings     : NO
+New Sounds              : no
+New Graphics            : YES
+New sky                 : YES, LMCITY_1 FROM LMCTF by der kommissar
+
+===========================================================================================
+
+* Construction *
+
+Base                    : SURE
+Editor(s) used          : QOOLE
+Known Bugs              : NO
+Build Time              : OVER A MONTH
+Compile Time		: 1 HOUR
+Notes:                  : no
+
+===========================================================================================
+
+*installation*
+
+unzip the all the files to quake2\action
+
+(if something goes wrong...)
+
+the wal-files : quake2\action\textures\school\
+the pcx-files : quake2\action\env\
+the tga-files : quake2\action\env\
+the bsp-file  : quake2\action\maps\
+
+===========================================================================================
+
+
+* Copyright / Permissions *
+
+dont do anything to my map you shouldnt do, but...
+You can use all these textures and sounds for your own quake level WITHOUT my permission. 
+
+

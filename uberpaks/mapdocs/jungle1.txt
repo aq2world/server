@@ -1,0 +1,55 @@
+===========================================================================
+Title       : Welcome to the Jungle
+Filename    : jungle1.bsp
+Date	    : August 23, 1998
+Game	    : Quake2 (Action Quake 2)
+Author      : Timm 't1mm' Stokke
+eMail       : mr@inside3d.com
+WWW         : http://www.telefragged.com/metro/
+Description : An outdoor map, very nice for sniping. Trees and bushes, hills, everything.
+              Uses the sun source for lights. It's too bright, but I don't wanna go tru 
+	      another 40+ hours of VIS'ing again. Sorry - maybe in the future, tho.
+Credits     : The A-Team for making the brilliant mod, Action Quake (ROCK!)
+	      Agent Taylor for QRAD'ing the level for me - thanks mate!
+	      Suislide for helping me with the sun feature (kinda)
+	      LMCTF team for the wood texture - it's not much, but thanks anyway =)
+	      Folks at the AQ msg board for greate feedback
+	      Ben Morris (Valve) for WorldCraft - brilliant man		
+	      Libya for setting up the only norwegian AQ server - 194.234.124.200
+===========================================================================
+
+* Play Information *
+
+Single Player           : No
+Cooperative             : No
+Deathmatch              : Yes
+Difficulty Settings     : No
+New Sounds              : No
+New Graphics            : Yes 
+New Music               : No
+
+* Construction *
+
+Base                    : Scratch
+Editor(s) used          : WorldCraft 1.6
+Known Bugs              : None
+Build Time              : About 10-15 hours I'd say (Including learning WC)
+Compile Time		: 46 hour (QBSP3, QVIS3, QRAD3, Max Quality)
+
+* Notes *
+
+Yeah, yeah, I know it's way too bright. Yeah, yeah, I know it's not a HPW's dream.
+yeah, yeah, I know I should have added the river. Yeah, yeah, yeah. get over it.
+
+Please, DO PLAY THIS LEVEL ON A LAN! It's AWESOME! (Well, I think so atleast)
+
+Sure, it's kinda small, but I wanted to keep r_speeds at a minimum. Hit the hills, 
+and get ready for some serious sniping! 
+
+
+* Copyright / Permissions *
+
+Go ahead and have fun with this map -- I had, and still have. You may do whatever
+you want with it AS LONG AS YOU GIVE ME CREDITS. 'nuff said.
+
+Copyright 1998 Timm Stokke, All Rights Reserved

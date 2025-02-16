@@ -1,0 +1,94 @@
+---------------------------------------------------------------------------
+*			: ware						  *
+---------------------------------------------------------------------------
+zip file date		: 08/09/99
+title                   : warehouse scraps
+filename                : ware.bsp
+author                  : bobbins
+email address           : alexuk@bobbinsuk.freeserve.co.uk
+website address		: http://www.bobbinsuk.freeserve.co.uk
+
+description             : a small/medium map (6 spawn points) designed
+			  primarily for frantic fire fights in deathmatchs.
+
+---------------------------------------------------------------------------
+*			: play information				  *
+---------------------------------------------------------------------------
+
+single player           : no.
+cooperative             : no.
+deathmatch              : yes (best played with a maximum of 4 players).
+teamplay		: yes (best played with a maximum of 6 players).
+aqdt ctb		: no.
+pg bund edition		: yes.
+difficulty settings     : no.
+new sounds              : yes (see ware sounds below).
+new textures            : yes (see ware textures below).
+new monsters            : no.
+new demos               : no.
+new models              : no.
+new player skins	: no.
+
+---------------------------------------------------------------------------
+*			: construction					  *
+---------------------------------------------------------------------------
+
+base                    : from scratch.
+editor(s) used          : quark (quake army knife)
+known bugs              : none.
+build machine		: cyrix 200 mmx, 32 megs. of ram,
+			  and 1.5 gigs of virtual memory.
+
+build details		: txqbsp3 - 20 seconds
+			: timvis - 130 seconds
+			: arghrad - 1826 seconds
+			  -choplight 32.0 (normal light patch size)
+			  -chopsky set to 1024.0  (sky patch size)
+			  -bounce set to 35  (radiosity bounces)
+			  -extra enabled  (extra quality light sampling)
+
+---------------------------------------------------------------------------
+*			: install/uninstall				  *
+---------------------------------------------------------------------------
+
+installation		: extract to your ../action/ directory
+uninstallation		: !
+
+---------------------------------------------------------------------------
+*			: ware textures				  *
+---------------------------------------------------------------------------
+
+			: you should have the following textures in your
+			  ../action/textures/bobbins/ware/ directory
+
+brick01.wal		brick02.wal
+brick03.wal		concrete.wal
+concrete02.wal		crate01.wal
+crate02.wal		crate03.wal
+crate04.wal		door02.wal
+fence.wal		pipe.wal
+sign01.wal		sign02.wal
+sign03.wal		sign04.wal
+wood.wal
+
+			: if you don't then cry.. or mail me with the name
+			  of the texture you need.
+
+---------------------------------------------------------------------------
+*			: authors notes					  *
+---------------------------------------------------------------------------
+
+			: if you plan on using any of my textures then i'd
+			  like it if you'd email me first, i'll probably
+			  say go for it though.
+			: same goes for the sounds too.
+
+---------------------------------------------------------------------------
+*			: thanks					  *
+---------------------------------------------------------------------------
+
+			: thanks to armin rigo for creating quark
+			: thanks to the a-team
+			: thanks to the mapdepot
+			: thanks to maxwell house
+			: thanks.

@@ -1,0 +1,64 @@
+March 02 1999
+
+Installation		: unzip it in your baseq2 directory using 			folder's names, or unzip the bsp in 				baseq2/maps/ and all the *.wal in 				baseq2/textures/ogro
+
+
+Title                   : Gotcha! Ogro's Lair
+
+Filename                : gotcha.bsp
+Author                  : OgrO_FiX (aka FragOnizer) 
+Email Address           : ogro_fix@yahoo.com
+Homepage                : http://www.fondation.com/pandemonium
+
+Description             : fast, fun, demonic, violent and acrobatic.
+
+Additional Credits to   : id Software, Qeradiant, worldcraft, wally, 			  Paint Shop Pro. Fragcide (cool beta 			  fragged tester :), Deslok and Magarnigal.
+
+Info about the Author   : texture artist, skin artist, level designer.
+
+Other Levels by Author  : Gotcha for quake
+			  Zbouar for quake
+			  Agroofdlx for unreal
+			  Bagzok for unreal	
+                          
+
+================================================================
+
+* Play Information *
+
+Single Player           : NO
+Cooperative             : NO
+Deathmatch              : up to 6 player FFA
+1on1/2on2		: recommended
+
+* Construction *
+
+Base                    : gotcha.map from quake
+Editor(s) used          : QERadiant 
+Other Prog(s) used      : worldcraft, wally, PSP
+Known Bugs              : telefrags
+Build Time              : 10 H
+Texture Wad(s) used     : ogro
+Build Machine		: PII 350, 64MB
+Compile machine         : PII 350, 64MB
+Qbsp time		: 
+Light time		: 
+VIS Time     		: 
+Brushes                 : a bit more than 600
+Entities                : 2 RL, 2 GL, 2 CG, 1 RailG, 1HyperB, 1 SSgun.
+
+
+* Other Info *
+
+go to http://magarn.3dpalette.com, download his kickass ppms and frag in gotcha. They fit the ambience!
+
+* Copyright / Permissions *
+
+Authors MAY NOT use this level as a base to build 
+additional levels, unless they're better than the
+original.
+
+This BSP may be distributed over the Internet 
+and/or BBS systems. You may NOT distribute this BSP
+commercially without my express permission.
+

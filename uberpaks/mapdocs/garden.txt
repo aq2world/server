@@ -1,0 +1,83 @@
+
+99/01/22
+
+===========================================================================================
+Title                   : The Garden of Gethsemane
+Filename                : garden.bsp
+Game			: AQ2
+Author                  : Trevor Atchison (aka Jesus)
+Email Address           : tatchison@home.com
+Web Address             : ---
+Description             : My first map for Q2 (or ever, for that matter).  It consists
+			  of a hedge maze with a central tower.  The weapons are spread
+			  out evenly through the maze (or in the tower and a "secret"
+			  underground room, in the case of the sniper rifle or M4).
+			  I designed this with close-quarters fighting in mind, though
+			  sniping from the tower is fun too.  This map was intended for
+			  deathmatch play but could probably be used in teamplay.
+Additional Credits to   : id software, of course.
+			  BSP author Yahn Bernier.
+			  Ty Mathews and Neil White, creators of Wally.
+			  Christopher Buecheler, Mats "RUSKPRICK" Holm,
+			  BunnyX, and Gary W (KongFoo) for the textures.
+			  The folks at Rust, for their tutorials.
+===========================================================================================
+
+* Play Information *
+
+Single Player           : NO
+Cooperative             : NO
+Deathmatch              : 3-8
+Teamplay                : Possible, but it was designed for DM
+Difficulty Settings     : NO
+New Sounds              : YES
+New Graphics            : YES
+
+
+===========================================================================================
+
+* Construction *
+
+Base                    : None
+Editor(s) used          : BSP, Wally, Paint Shop Pro
+Known Bugs              : Overlap of 46 in 32, wtf?  Plays fine though.
+Build Time              : About two weeks, give or take a few days.
+Compile Time		: 3.5 hours
+Notes:                  : Arghrad rocks my world.
+
+===========================================================================================
+
+* Installation *
+
+unzip the all the files to quake2\action
+
+(if something goes wrong...)
+
+the wal-files : quake2\action\textures\jesus\
+the pcx-files : quake2\action\env\
+the tga-files : quake2\action\env\
+the bsp-file  : quake2\action\maps\
+the wav-files : quake2\action\sound\jesus\
+
+===========================================================================================
+
+
+* Copyright / Permissions *
+
+This level is copyright 1999 (that date is fun to write, isn't it?) Trevor Atchison.
+It may not be used as a base for other levels.
+As far as the textures are concerned, most of 'em aren't mine:
+      - grass1_base1, rock_base, rock3_base2, and altar_front2 are slightly 
+	modified versions of textures by Christopher Buecheler, and as such 
+	I consider them his.
+      - crate32, crate48, trunk3 and trunk4 are by BunnyX.
+      - xbox1 is from Mats "RUSKPRICK" Holm.
+      - w_crate1 is from Gary W (KongFoo)
+The rest of the textures are either Q2 native or slightly modified from the orignal
+Quake, with the exception of the hedge, which I made myself. (So go ahead and use it)
+The sounds are all freely available.
+The sky textures are/were available for download from the AQ Map Depot.  I don't 
+know who made 'em as the page where they were is temporarily down.  (Kudos to the artist, 
+whoever you are!)
+I think that about wraps it up.  Enjoy the level.
+

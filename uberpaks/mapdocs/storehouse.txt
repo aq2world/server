@@ -1,0 +1,67 @@
+================================================================================
+* LEVEL INFORMATION *
+--------------------------------------------------------------------------------
+TITLE                   : StorehouseFILENAME                : storehouse
+AUTHOR                  : JamesClonkDATE                    : 23.07.1999
+GAME                    : Action Quake II
+EMAIL ADDRESS           : JamesClonk@gmx.net
+HOMEPAGE URL            : http://i.am/jamesclonk 
+--------------------------------------------------------------------------------
+* LEVEL DESCRIPTION *
+--------------------------------------------------------------------------------
+A teamplay oriented action-quake2 level.
+"This map sometimes reminds me to one of the Goldeneye64 levels."
+Yes, thats right. I had the idea from one of these,
+buts its not just copied, its not the same.
+ 
+--------------------------------------------------------------------------------
+SINGLE PLAYER           : 1 Player Start   Point(s)
+CO-OPERATIVE            : 0 Player Start   Point(s)
+DEATHMATCH              : 6 Player Respawn Point(s)
+ACTION QUAKE II         : 2 Teams
+                        : 3 Player Respawn Points per Team
+SUGGESTED PLAYER LOAD   : 1 to 6 
+NEW TEXTURES            : Yes
+NEW SOUNDS              : Yes
+CD TRACK #              : No 
+--------------------------------------------------------------------------------
+* CONSTRUCTION *
+--------------------------------------------------------------------------------
+MAP BASE                : New Map
+PREFABS USED            : None
+EDITOR(S) USED          : QOOLE 99 
+OTHER UTILITIES USED    : Wally 1.38 Beta 
+KNOWN BUGS              : None 
+COMPILE MACHINE         : PII-450mhz  128MB RAM 
+QBSP2 TIME              : 3 seconds
+VIS   TIME              : 33 seconds
+QRAD  TIME              : 165 seconds 
+--------------------------------------------------------------------------------
+* OTHER LEVELS BY THE AUTHOR *
+--------------------------------------------------------------------------------
+ACTION QUAKE II         : Dogfight 
+--------------------------------------------------------------------------------
+* SPECIAL INSTRUCTIONS / ADDITIONAL INFORMATION *
+--------------------------------------------------------------------------------
+Have fun! 
+--------------------------------------------------------------------------------
+* CREDITS *
+--------------------------------------------------------------------------------
+The A-Team              : For making a KICK ARSE Mod
+
+AQMD                    : The best map depot out there!
+
+{TrOJaN}                : Thanks for telling me how to place weapons 
+                          correctly in tha map.
+  
+================================================================================
+* COPYRIGHT / PERMISSIONS *
+--------------------------------------------------------------------------------
+Authors MAY use this level as a base to build additional levels. 
+You MUST NOT distribute this level UNLESS you INCLUDE THIS FILE WITH
+NO MODIFICATIONS. If you don't co-operate, then DON'T DISTRIBUTE ITIN ANY FORM.
+This LEVEL may be distributed ONLY over the Internet and/or BBS systems.
+You are NOT authorized to put this LEVEL on any CD or distribute it in
+any way without my written permission.
+Action Quake II (C) 1998-99 The A-Team.
+Quake 2 (C) 1998-99 id Software. All rights reserved.

@@ -1,0 +1,34 @@
+================================================================
+Title                   : Sludge1 for AQ2 CTF
+Filename                : ctfsludge.bsp
+Release Date            : 4/3/06
+Author                  : [DWL|FooQ]
+URL                     : http://
+Email                   : fooq@whoever.com
+Description             : cheshire's sludge map mirrored, colour coded and flagged for AQ2 CTF
+Credits                 : cheshire for a great map but sucky for CTF =D
+================================================================
+* Play Information *
+
+Single Player           : No
+Cooperative             : No
+Deathmatch              : Yes
+ActionQuake DM          : Yes
+ActionQuake Teams       : Yes
+ActionQuake CTF		: Most definitely, I recommend setting wp_flags 433 to remove mp5, m4, m3 and akimbos for faster more fun play, less leg damage and m3 shotguns are lame
+Difficulty Settings     : No
+New Sounds              : No
+New Textures            : Yes
+New Music               : No
+Demos Replaced          : None
+
+* Installation *
+ Extract (unzip) in the *:*\quake2\action directory. All paths provided.
+
+* Construction *
+
+Base                    : sludge1 by cheshire
+Editor(s) used          : Quark 6.4
+Known Bugs              : Feel free to let me know if you find any
+Build Time              : a few days
+

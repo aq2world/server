@@ -1,0 +1,74 @@
+                                               		                    Spawn & Orizon!
+27-10-99
+
+===========================================================================================
+
+Title                   : The ^KWSN^ City
+Filename                : kwsn_city.bsp
+Game			: AQ2 (duh!)
+Author(s)               : ^KWSN^Spawn (Danny Piper) & ^KWSN^Orizon (Peter Spencer)
+Spawn's E-Mail          : Spawn@fuckyou.co.uk
+Orizon's E-Mail         : Orizon@fuckyou.co.uk
+Spawn's ICQ no.         : 34965138
+Orizon's ICQ no.        : 34980956
+Web Address             : www.kwsn.fsnet.co.uk
+Description             : An Urban-style map with damn good gameplay! (and a river!!!) :)
+Additional Credits to   : Dr.Death & Junkie for the cool ^KWSN^ signs, and various mappers 
+                          for their gr8 textures! (especially the urban textures)          
+
+===========================================================================================
+* Play Information *
+
+Single Player           : Yes - gr8 for playing the LTK bots!
+Cooperative             : Yes (dats what it was made for!!)
+Deathmatch              : Yes 
+Difficulty Settings     : No
+New Graphics            : Yes (The ^KWSN^ Signs)
+New Sky                 : No
+New Sounds              : Yes! (gotta love the Kravitz on da mini!!)
+CD Track                : No
+Editor(s) used          : Worldcraft 1.6 & Qoole (for compiling)
+Build Time              : About 3 weeks
+
+
+* Compile Times *
+
+QBSP3                   : 26 seconds
+QVIS3(full)             : 273083 seconds (very long time!)
+QRAD3                   : 21291 seconds
+
+===========================================================================================
+Unzip the Zip file (kwsn_city.zip) to your Quake2/action folder
+===========================================================================================
+
+      This map is an urban style map which was made for the AQ2 clan ^KWSN^. If you want 
+any info/files on this map (i.e .RMF/.QLE or .map file) please E-Mail us or message us 
+through ICQ! There are no known bugs for this map :)!! 
+	If you have anything to say about this map contact us! - If you have any complaints 
+we still wanna hear about it - to improve our future maps! (watch this space)
+   We cant see any reason why u cant use our textures from this map - so go ahead make a 
+damn good map and think of us :) !
+
+   This map is free so dont let anyone sell it to u (if ya bought it off someone smack em 
+in an get ya money back!)
+
+This map is designed for teamplay but is fine for deathmatch too :)
+
+
+===========================================================================================
+
+
+Other maps By Us:      : Suburban.bsp     - The Suburban City - by Spawn & Orizon
+		       : Lingfield.bsp    - Lingfield Ramps - by Spawn (Our Local Sk8 Park!)
+                       : Caterham.bsp     - Caterham School - by Da Lurgee & Spawn
+
+If you want any of these maps (sum r still under construction) please E-Mail or ICQ us!
+===========================================================================================
+               
+
+                    "WE ARE THE KNIGHTS WHO SAY NI!!!!!!"
+
+
+The ^KWSN^ Server:  195.82.123.5:27940
+
+

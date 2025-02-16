@@ -1,0 +1,55 @@
+================================================================
+* General Information *
+
+Title                   : Where waters fall frozen
+Filename                : wfall2.zip
+Release Date            : 04.12.2005
+Author                  : pauhi
+Email                   : chiii1986@hotmail.com
+================================================================
+* File Information *
+
+.bsp Name               : wfall2.bsp
+================================================================
+* Play Information *
+
+Single Player           : No
+Cooperative             : No
+Deathmatch              : No
+ActionQuake DM          : No
+ActionQuake Teams       : Yes
+DM Spawn Points         : No
+Max Player Load         : Unsure
+Difficulty Settings     : No
+New Sounds              : Yes
+New Textures            : Yes
+New Music               : Yes
+Demos Replaced          : None
+================================================================
+* Installation *
+ Extract (unzip) in the *:*\quake2\action directory. All paths provided.
+================================================================
+* Construction *
+
+Programs used         	: Worldcraft 1.6, Photoshop CS
+Known Bugs              : Few gfx bugs
+Build Time              : Few days
+
+
+
+Compile machine         : AMD Athlon xp 3000+, 1024mb RAM
+================================================================
+* Credits *
+
+Everyone whos textures I've used, special thanks for Beavis, NemesiS & Flunx.
+
+================================================================
+* Where to get this level *
+
+http://koti.welho.com/ntukiain/wfall2.zip
+
+================================================================
+* Copyright *
+
+
+Copyright © 2005 .  All rights reserved.

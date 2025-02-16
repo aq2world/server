@@ -1,0 +1,54 @@
+Title                   : The Church
+Filename                : church1.bsp
+Author                  : Wes "Harlequin" Mercado
+Email Address           : starwes@hotmail.com
+Additional Credits to   : Dug "MadMalik" Schulz
+			  Fred "Bickley" Hwa (I couldn't even compile on my
+			  computer...these guys lets me use theirs)
+			  The Action Quake 2 mod team (these guys rock my
+			  lame ass)
+
+Description             : This map is inspired by just about every John Woo
+                          movie out there...basically...it's a church...
+			  most of the map is open area with plenty of hiding
+			  points and cover to crouch behind...there is a
+			  minimal outside area with a graveyard...
+
+================================================================
+
+* Play Information *
+
+Single Player           : No
+Cooperative             : No
+Deathmatch 2-8          : Yes (8 DM starts)
+Deathmatch 9-16         : Will get crowded...
+Deathmatch 17-100	: Hell no!!!
+
+Difficulty Settings     : No
+New Sounds              : No
+New Graphics            : All textures are included in Quake 2 and Action Q2
+
+==================================================================
+
+* Construction *
+
+Base                    : New level from the minds of bored guys at IHOP/Denny's
+Editor(s) used          : BSP
+Known Bugs              : None
+Build Time              : 1 1/2 Weeks
+Compile machine         : P2 400 128M RAM
+	QBSP3		: 20 secs
+	QVIS3		: 32201 secs (8.9 hours)
+	QRAD3		: 2023 secs (33 minutes)
+
+==================================================================
+
+* Legal Stuff *
+
+You may distribute this level and include it in any deathmatch compilation
+as long as you include this text file and of course give me credit...
+
+Feel free to E-mail me with you comments or questions...
+
+Tally...
+Harlequin...

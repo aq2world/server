@@ -1,0 +1,68 @@
+
+05/09/01
+
+===========================================================================================
+
+Title                   : teamin' in da botanik
+Filename                : teambotanik.bsp
+Game			: AQ2
+Author                  : Meister
+Email Address           : terror@4cows.net
+Web Address             : terror.4cows.net
+Description             : mountains, grass, trees, slime - teamjungle look and game style
+Additional Credits to   : Timm 4 my favourite map - teamjungle
+			: Fips for his powermachine and high speed internet access support
+			: Hiasl 4 some design tips
+			: rudL 4 da sky and some textures 
+                        : rest of the R.I.P.Team 4 testing 
+
+===========================================================================================
+
+* Play Information *
+
+Single Player           : NO
+Cooperative             : NO
+Deathmatch              : 1-10 
+Teamplay                : OH YES
+Difficulty Settings     : NO
+New Sounds              : NO
+New Graphics            : YES
+New sky                 : DON'T THINK SO
+
+===========================================================================================
+
+* Construction *
+
+Base                    : SCRATCH
+Editor(s) used          : QOOLE 2.5, QOOLE 99 BETA, QOOLE 99, BUGGY BULLSHIT BUT EASY 2 USE
+Known Bugs              : NO
+Build Time              : several weeks
+Compile Time		: QBSP: 6 secundes
+			  QVIS: 12.5 hours
+			  QRAD: 8.5 minutes
+Compile Machine		: 1.2 Thunderbird with 256 RAM
+Notes:                  : don't try to map with qoole
+
+===========================================================================================
+
+* Additional Demo *
+
+I've built some jumps in this map. The Jump Demo shows almost all of them.
+Just type demomap teambotanik.dm2 in the console, sit back and relax.
+
+===========================================================================================
+
+* Installation *
+
+unzip the all the files to quake2\action
+
+(if something goes wrong...)
+
+the bsp-file  : quake2\action\maps\
+
+
+===========================================================================================
+
+* Copyright / Permissions *
+
+You can do whatever you want with this level, AS LONG AS YOU GIMME CREDITS.

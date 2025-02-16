@@ -1,0 +1,86 @@
+================================================================
+* General Information *
+
+Title                   : Honey, I shrunk the A*Team!
+Filename                : huge.zip
+Release Date            : 12-8-2002
+Author                  : Bob (Bobert) Szymanski
+URL                     : http://
+Email                   : RHSzymanski@Yahoo.com
+================================================================
+* File Information *
+
+.bsp Name               : huge.bsp
+ZIP Size (KB)           : 1498 KB
+================================================================
+* Play Information *
+
+Single Player           : No
+Cooperative             : No
+Deathmatch              : not intended for
+ActionQuake DM          : Yes
+ActionQuake Teams       : Yes
+DM Spawn Points         : 10
+Max Player Load         : Unsure
+Difficulty Settings     : No
+New Sounds              : Yes
+New Textures            : Yes
+New Music               : No
+Demos Replaced          : None
+================================================================
+* Installation *
+ Extract (unzip) in the *:*\quake2\action directory. All paths provided.
+================================================================
+* Construction *
+
+Base                    : New level from scratch
+Editor(s) used          : QERadiant
+Known Bugs              : None, Feel free to let me know if you find any
+Build Time              : About 3 months
+
+
+
+Compile machine         : 1.5Ghz AMD 266fsb with 512mb RAM
+QBSP3 Time              : 3 Seconds
+QVIS3 Time              : 30 Seconds
+QRAD3 Time              : 2.5 Hours
+================================================================
+* Description *
+
+A messy bedroom.. a HUGE, messy bedroom.
+
+================================================================
+* Credits *
+
+The A-Team              : For making a KICK ASS Mod
+TB-Knight		: For popping up all the time
+Pissed off Pete		: For requesting faster fish & pointing out "Urban_Toilet".. Doh!
+Skie and Wazzup		: For explaining the difference between Mist and Clip.
+Ronny (Hellfire)	: For texture help with Wally!
+Phred (Jimbo)		: For the "winblows" sound
+Kaneb			: For the BudwEIser texture & suggesting the starting phrase.
+GreyDeath		: For R_Speed & GL_ShowTris help!
+All the help from my beta testing buds!
+
+I'd like to thank the following for permitting me use of their textures & sounds..
+Especially the people that I didn't ask, or didn't know to give credit to.
+
+BunnyX, Shaymon, g4meah0lic, Gimp, Jestest, Karr, Makro, Mia, Nemesis, Scuzzy
+Shadowfire, Spear, Skie, Tome, Gallop, Schmumg, GOD Incarnate, PacMan, FireWalker
+Takebo, Anthrax, Mia
+
+================================================================
+* Where to get this level *
+
+http://
+
+================================================================
+* Copyright / Permissions *
+
+Copyright © 2003 .  All rights reserved.
+
+This level may be distributed on any CD-ROM
+with prior, explicit consent from me. Just send me an email.
+
+This level may be used on any commercial 
+Multi-player server with similar consent.

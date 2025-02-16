@@ -1,0 +1,51 @@
+05/16/98
+================================================================
+Title                   : Action Quake goes to the movies
+Filename                : cinema2.bsp
+Game			: Action Quake 2
+Author                  : David Harrison
+Email Address           : david@harriben.demon.co.uk
+Description             : Cinema, with foyer, bar, washroom, tower and street areas
+Additional Credits to   : The Action Quake Team, id software, Qoole's authors,
+			  ODEON cinemas, Airquake designers (for _some_ of the new textures),
+		          the Wally author (used to make textures)
+	
+
+================================================================
+
+* Play Information *
+
+Single Player           : Not really
+Cooperative             : No, nothing to fight
+Deathmatch              : 2-16... probably (larger nos of player could cause congestion,
+			  im not sure) 
+Difficulty Settings     : No
+New Sounds              : No
+New Graphics            : black sky env (totally blank, so it doesn't distract from the 
+                          action), 
+             	          heaps of new textures inc car, road, pavement, washroom(!), 
+                          cinema, bar, carpet(wow), etc
+New Music               : Yeah, right
+
+
+* Construction *
+
+Base                    : New level from scratch
+Editor(s) used          : Winqoole 2.50
+Known Bugs              : Some greying out and some badly aligned textures. Otherwise, 			  enjoy.
+Build Time              : Dunno (it took nearly an hour to VIS, though)
+
+Notes
+This level is, I think, fairly well balanced between sniping and running-through-corridoors-shooting-people, there is only one proper sniping position, and a 'secret' weapon. I resisted the temptation to put in an assault rifle for the sake of game balance.
+Changes: almost exactly the same as cinema1, but with wallgaps removed and the shotgun 
+in a new postion. Its also far easier to get to hard-to-reach areas of the map.
+
+
+* Copyright / Permissions *
+
+Authors MAY NOT use this level as a base to build additional
+levels without asking really nicely and/or giving me large sums of money.
+This BSP may be distributed ONLY over the Internet and/or BBS systems, but i don't see why 
+you shouldn't use it for normal quake2.
+You are NOT authorized to put this BSP on any CD or distribute it in
+any way without my permission.

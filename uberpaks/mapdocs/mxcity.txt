@@ -1,0 +1,66 @@
+=============================================================================
+Title                   : Malax City 2083 8:34
+
+Archive                 : mxcity.zip
+
+Release Date (DD/MM/YY) : 07/31/99
+
+Author                  : Carl-Magnus Bjorkell (aka [tBd] NRGizeR)
+Email Address           : carl-magnus.bjorkell@pp.inet.fi
+Web Site                : http://zap.to/tbd
+
+Description             : Map for Action Quake (http://aq2.action-web.net).
+                          A small urban-style map
+
+Installation            : Unzip mxcity.zip into root of your Action Quake
+                          game folder (Quake2/Action), with Subdirectories
+                          enabled (!), so that all textures and sounds will be
+                          unzipped into correct directories (USE FOLDER NAMES
+                          checkbox in WinZip or -d switch in PKUnZip).
+                                                    
+Additional Credits to   : [tBd] SirToby for the [tBd] logo.
+                          ruskprick for some awesome textures.
+                          PAC-MAN for helping me out with ARGHRAD.
+                          Bok Choy for the Dr. Pepper prefab
+                          Rust (www.gamedesign.net) for the great tutorials
+                          and forum.
+                          A-Team for making greatest Quake2 Multiplayer mod ever.
+                          id Software.
+                          
+
+=============================================================================
+* Play Information *
+
+Game                      : Action Quake (Quake2)
+Single player             : Yes (only for looking around)
+Teamplay                  : Yes
+Deathmatch 2-10 players   : Yes 
+
+New Graphics              : Yes 
+New Music                 : No
+New Sounds                : Yes
+DLL                       : No
+
+* Construction *
+
+Base                      : New level from scratch
+Build time                : 1 week
+Compile Machine           : AMD K6-2 400 64MB RAM
+    QBSP3 Time            : 19 seconds
+    QVIS3 Time            : 13 minutes
+    QRAD3 Time            : 113 minutes
+
+Editor(s) Used            : Qoole, Wally
+
+Known Bugs                : Nope
+
+* Copyright / Permissions *
+
+Authors may NOT use this level as a base to build additional
+levels.
+
+You may distribute this BSP, provided you include this file, with
+no modifications, but please distribute original unmodified archive
+which can be obtained from my Web site.  You may distribute this file
+in any electronic format (BBS, Diskette, CD, etc) as long as you
+include this file intact.

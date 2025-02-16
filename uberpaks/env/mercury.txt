@@ -1,0 +1,52 @@
+================================================================================
+* INFORMATION *
+--------------------------------------------------------------------------------
+TITLE                   : Mercury
+FILENAME                : Mercury**.tga Mercury**.pcx
+AUTHOR                  : Phillip "Killazontherun" Basil-jones
+GAME                    : Quake II
+TYPE                    : Sky
+EMAIL ADDRESS           : pbones@quake3nation.com
+ 
+--------------------------------------------------------------------------------
+* DESCRIPTION *
+--------------------------------------------------------------------------------
+A dark orangeish sky.
+
+--------------------------------------------------------------------------------
+New sky: Yes
+--------------------------------------------------------------------------------
+* CONSTRUCTION *
+--------------------------------------------------------------------------------
+BASE                    : Scratch
+BUILD TIME              : About 1/2 hour
+EDITOR(S) USED          : Bryce 3d, Skypaint (For testing), Wally to change the 
+                          pallete for the pcx's
+OTHER UTILITIES USED    : Irfanview picture viewer
+KNOWN BUGS              : None
+ 
+Rendering time          : A while.
+ 
+
+--------------------------------------------------------------------------------
+* CREDITS *
+--------------------------------------------------------------------------------
+Id Software             : You know who they are!
+Meta-Creations          : Makers of all the Bryce's! 
+
+Anyone else..
+ 
+================================================================================
+* COPYRIGHT / PERMISSIONS *
+--------------------------------------------------------------------------------
+Authors MAY NOT use this sky as a base to build additional
+skys.
+
+This sky may not be converted, or mofified in any way without
+my permission.
+
+You can use this sky in your level without permission but you must include 
+this text file with it.
+
+You can distribute this sky as long as you keep this text file with it UNMODIFIED.
+

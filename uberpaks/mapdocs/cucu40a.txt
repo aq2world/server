@@ -1,0 +1,38 @@
+Title                   : CUCU40a
+Filename                : cucu40a.bsp
+Authors                 : [iQ]GarFF and [iQ]Webz
+Email Address           : franciska.trobevsek@guest.arnes.si
+
+Description             : This is a snow map! Kind of a fight 
+			  on russian grounds! It was made to be a map of no kamping.
+================================================================
+
+* Play Information *
+
+Single Player           : No
+Cooperative             : No
+Deathmatch 2-8          : Yes (8 DM starts)
+Deathmatch 9-16         : Will get crowded...
+Deathmatch 17-100	: No
+Action teamplay         : Yes!
+
+Difficulty Settings     : No
+New Sounds              : I got two wind sounds from the mapo Toxin...
+New Graphics            : Some textures are from other AQ maps (Soviet, Chriscity3)
+
+==================================================================
+
+* Construction *
+
+Editor(s) used          : WinQoole
+Known Bugs              : None
+Build Time              : LONG,LONG,...
+Exporting time          : Qbps: 20sec
+                          Qvis: 4h
+                          Qrad: 1h
+==================================================================
+
+* Legal Stuff *
+
+You can put this map on any server as long as you include the txt, and
+give us the credit!

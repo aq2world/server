@@ -1,0 +1,78 @@
+================================================================================
+* ACTION QUAKE II LEVEL INFORMATION *
+--------------------------------------------------------------------------------
+TITLE                   : barnyard.bsp  
+AUTHOR                  : Flunx               
+DATE                    : 09-22-2023
+EMAIL ADDRESS           : serflunx@yahoo.no
+HOMEPAGE URL            : -
+.zip CONTENTS           : -
+
+================================================================================
+* LEVEL DESCRIPTION *
+--------------------------------------------------------------------------------
+
+It's a barnyard. E-I-E-I-O! 
+
+This is an old idea which I now finally finished after reading about the AQ2 25th 
+Anniversary Map Making Jam. Tried to do something different than the city/blocky
+style maps I've done before.
+
+I had a lot more ideas which I didn't get to implement due to lack of time to work 
+on the project.
+
+Had to do some offsets/tricks with the geometry to try to reduce the r_speeds.
+This caused some added lighting bugs, but nothing too distracting.
+
+There's a couple of "hidden" sounds which you can trigger. Also a secret "room".
+
+No idea if it plays well, but at least it was fun to make :)
+
+
+SINGLE PLAYER           	: no
+CO-OPERATIVE            	: no
+DEATHMATCH              	: yes
+ACTION QUAKE II         	: yes
+NEW TEXTURES            	: yes
+NEW SOUNDS                  : yes
+CD TRACK #                  : no
+
+================================================================================
+* CONSTRUCTION *
+--------------------------------------------------------------------------------
+MAP BASE                : -
+PREFABS USED            : -
+EDITOR(S) USED          : QuArK 6.6 beta
+OTHER UTILITIES USED    : Wally, Paint.NET, Audacity
+KNOWN BUGS              : QuArK doesn't align the textures perfectly. Some "bad" lighting.
+COMPILE MACHINE         : Intel(R) Core(TM) i5-3570K CPU @ 3.40GHz / 12 GB RAM
+QBSP2 TIME              : 3s	(txqbsp3 0.9)
+VIS TIME                : 1200s	(timvis3)
+QRAD TIME (-extra)      : 240s	(blarghrad 1.02)
+
+================================================================================
+* OTHER LEVELS BY THE AUTHOR *
+--------------------------------------------------------------------------------
+Simplicity
+Dusty
+
+================================================================================
+* CREDITS *
+--------------------------------------------------------------------------------
+skybox: 
+	* g_morning by JoNaS (WetWired - Edited to work in Quake 2)
+	
+textures:
+	* morwell/tree1 by Gallop (vindictor_233@hotmail.com)
+	* scuzzy/jeep1 by Gene "Scuzzy" Beaumont (scuzzy@converted2.com)
+
+testing:
+	* mikota - feedback and bug finding
+	* varrg - feedback and bug finding
+	
+
+================================================================================
+* COPYRIGHT / PERMISSIONS *
+--------------------------------------------------------------------------------
+Do what you want with the map/textures. 
+Send me an email if you like to show what you used it for.

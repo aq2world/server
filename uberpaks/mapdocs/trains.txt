@@ -1,0 +1,62 @@
+===========================================================================================
+Title                   : Dangerous trainspotting
+Filename                : trains.bsp
+Game			: Action Quake 2
+Author                  : Shadowfire
+Email Address           : m.uhlar@gmx.de
+Description             : A small railway staging area
+Additional Credits to   : A-Team for this great mod(I'm looking forward to Action-HalfLife)
+                          ID Software for the nice engine
+                          The QERadient and Wally makers
+
+===========================================================================================
+
+* Play Information *
+
+Single Player           : NO (only for explorers)
+Cooperative             : NO 
+Deathmatch              : 2-8
+Teamplay                : YES
+Difficulty Settings     : NO
+New Sounds              : YES
+New Graphics            : YES
+New Sky                 : YES
+
+===========================================================================================
+
+* Construction *
+
+Base                    : Scratch
+Editors used            : map editing - QERadiant
+                          textures    - Wally
+                          environment - Bryce 3D
+Known Bugs              : Massive r_speeds. Sorry folks, the layout of the map doesn't
+                          allow any further optimization (it's just a large room with too
+                          much objects in it, but they are vital to the gameplay). Please
+                          don't be mean to me, it's my first map and I already learned my
+                          lesson.
+Build Time              : 1 Week
+Compile Time		: 3 hours on a P2 300, 96MB RAM
+
+===========================================================================================
+
+*installation*
+
+unzip the all the files to quake2\action
+
+(if something goes wrong...)
+
+bsp-file  : quake2\action\maps\
+wal-files : quake2\action\textures\shadowfire\
+pcx-files : quake2\action\env\
+tga-files : quake2\action\env\
+wav-files : quake2\action\sound\shadowfire
+
+===========================================================================================
+
+
+* Copyright / Permissions *
+
+Authors MAY NOT use this level as a base to build additional levels without my permission.
+All textures, sounds, environment maps MAY NOT be used for other maps without asking me.
+You may distribute this map as you found it in the trains.zip archive.

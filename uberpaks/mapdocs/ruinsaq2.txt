@@ -1,0 +1,45 @@
+August 5, 1998
+
+================================================================
+Title:                          : Ruins
+Filename                        : ruins.bsp
+Author(s)                       : David "Runitai" Parks
+Email Address                   : runitai@my-dejanews.com
+Description                     : Action Quake2 Level.
+Additional Credits to           : idsoftware (of course), Armin Rigo for QuArK, and all the wonderful people at action.telfragged.com for Action Quake2.
+================================================================
+
+
+* Play Information *
+
+Single Player           : No
+Deathmatch              : Yes
+New Sounds              : No 
+New Graphics            : No 
+New Music               : No 
+
+* Construction *
+
+Base                    : Scratch
+Editor(s) used          : QuArK
+Known Bugs              : A box of sniper ammo is supposed to appear next to the sniper rifle... Oh well.
+Build Time              : 12 hours
+
+* Install Instructions *
+
+Just unzip to your quake2/action/maps directory, run Action Quake2, and type
+"map ruins" at the console.
+
+* Author's Notes *
+
+There's an MP5 on the second level of the cement building, a sniper rifle on
+top of the brick building, a shotgun under some stairs somewhere, some
+grenades in a dark ally, and a hand cannon in the rubble.  If you try real
+hard you can jump from the roof of the brick building to the third floor of
+the cement building (makes for a cool get-away).
+
+* Legal Stuff *
+
+Don't sell it.  Distribute all you want.  Include this text file with it.
+
+

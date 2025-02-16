@@ -1,0 +1,28 @@
+Village
+
+Author:      Trond Abusdal, SLAT Software
+
+Description: I have built a level that contains an old motel and a
+             swimming pool. This version is the final. Nothing 
+             more to say, except that there is not ONE of the original
+             Q2 textures... Have fun!
+
+Build time:  2-3 days off and to
+Compile time:Two hours
+Deathmatch:  Yes! The only thing the level was built for... 8 starts I
+             think.
+Bugs:        Not as I can find.
+Mod:         I would NOT recommend to play this level not using AQ2,
+             action.telefragged.com
+
+A tip:       The mastermind of AQ2 wouldn`t have this level because it
+             was so slow... But, with some help from Patrick Simmons,
+             ( www.planetquake.com/qsb) who told me that the smaller
+             textures, the lesser memory required to run smooth... So,
+             I simply resized all of the large textures to 64-64
+             textures... Now it runs like a dream!!!
+
+Special thanks to Patrick J. Simmons...
+
+
+-Trond Abusdal

@@ -1,0 +1,94 @@
+================================================================================================
+Title                   : "La Vecindad" (that's spanish for the neighbourhood)
+
+Files                   : Chavo8.bsp, Chavo8.txt, two new textures & sound
+
+Archive                 : Chavo8.zip
+
+Release Date (DD/MM/YY) : 22/01/2002
+
+Author                  : Debryn (Rodrigo Labra)
+
+Email Address           : action_q2@yahoo.co.uk
+
+Clan Web Site           : http://www.frag.cl/ndr
+
+Description             : Map for Action Quake (http://action.telefragged.com).
+                          This map it's based on mexican TV program called 
+                          "El Chavo del 8". This map includes four small (houses) rooms,
+                          a sewer system, two yards & a avenue.
+                          Suitable for 2-12 players.
+
+Installation            : Unzip Chavo8.zip into root of your Action Quake game folder 			  			  (Quake2/Action), with Subdirectories enabled (!), so that 
+			  all textures and sky will be unzipped into correct directory 
+                          (USE FOLDER NAMES checkbox in WinZip or -d switch in PKUnZip).
+                                                    
+Additional Credits to   : A-Team for making greatest Quake2 Multiplayer mod ever.
+                          
+			  The creators of textures that i used or modified
+			  (the sub-directories are:actcity3, arcadia, cougardt,
+                          cracked, jestest2, the_hunter, urban & urban6).
+                          
+			  Murray Christian for making the sky that i used.
+                          
+			  id software.
+                          
+			  Tony Ferrara & David Hyde for MapSpy (which saved my map).
+			  
+			  David Hyde, again, for answering my posts on the RUST forum.
+			  
+		   	  To my Clan [NDR] (http://www.frag.cl/ndr), for just be'n my clan.
+                          
+			  My brothers who let me use our PC for hours and hours.
+			  
+			  All guys who helped in any way, specially DEMO->n for the QeRadiant                 		  tutorial in spanish that i first used, and [LoD]Arroan for the test.
+
+Misc.                   : Send feedback 'bout this map if you feel like.
+
+================================================================================================
+* Play Information *
+
+Game                      : Action Quake (Quake2)
+Single player             : Yes (only for looking around)
+Cooperative 2-4 players   : No
+Deathmatch 2-16 players   : Yes 
+
+New Graphics              : Yes 
+New Music                 : No
+New Sounds                : Yes
+DLL                       : No
+
+* Construction *
+
+Base                      : New level from scratch
+Build time                : Too damm many hours (This is my first map ever)
+Compile Machine           : Athlon 900 Mhz with 192 ram & WinXP
+    QBSP3 Time            : 5 secs
+    QVIS3 Time            : 6 hrs (One of my brothers was playing Max Payne while QVIS'ing)
+    QRAD3 Time            : about 25 min (same as above)
+
+Editor(s) Used            : QeRadiant 147, Wally
+
+Known Bugs                : Nope
+
+================================================================================================
+* Copyright / Permissions *
+
+Authors may NOT use this level as a base to build additional levels.
+
+All new graphics that comes with this map (in TEXTURES/VECINDAD) and new 
+sound (in SOUND/VECINDAD) are copyrighted material by me and my legal property.
+However, authors MAY use those new textures in their ACTION QUAKE maps, as far as 
+they give me credit for making them.
+
+You may distribute this BSP, provided you include this file, with
+no modifications, but please distribute original unmodified archive
+which can be obtained from my Web site.  You may distribute this file
+in any electronic format (BBS, Diskette, CD, etc) as long as you
+include this file intact.
+
+* Where to get this BSP *
+
+WWW   : http://aqmd.telefragged.com/
+	http://www.frag.cl/ndr  (post a request for it, if the map it's not avaible), or
+	http://www.coliseo.cl/lcaq2/foro/ (also make a post, and practice some spanish too ;) )

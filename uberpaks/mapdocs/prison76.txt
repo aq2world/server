@@ -1,0 +1,54 @@
+05/16/98
+================================================================
+Title                   : A Night in Hong Kong
+Filename                : prison76.bsp
+Game			: Action Quake 2
+Author                  : Sam Thompson	
+Email Address           : mhoram@world-net.net
+Description             : Huge prison, multiple areas, etc.
+Additional Credits to   : The Action Quake Team, id software, Qoole's authors (rocks!)
+	
+
+================================================================
+
+* Play Information *
+
+Single Player           : No
+Cooperative             : No
+Deathmatch              : 2-64... huge, but it's all good with Action Quake
+Difficulty Settings     : No
+New Sounds              : No
+New Graphics            : Sky env (lotsa stars), 'stars', others (kinda)
+New Music               : no
+
+
+* Construction *
+
+Base                    : New level from scratch
+Editor(s) used          : GlideQoole 2.41
+Known Bugs              : Ain't none no more
+Build Time              : Absurd (2200 brushes or so)
+Compile Time		: 5 Hours
+
+
+Notes:
+
+2nd map ever (office2 first)...
+
+This map is huge, and is meant to also support large teams in teamplay...
+
+This is THE sniping map, i made it fairly easy to prosper as a sniper...
+
+Uhhh, it's huge, so 1on1 is still fun, but the gameplay becomes more intense and 'sneaky'.. use walking (so there's no footsteps) often...
+
+Prison76 (vs. prison66) makes it compatible with software, and significantly improves framerates everywhere.
+
+* Copyright / Permissions *
+
+Authors MAY NOT use this level as a base to build additional
+levels.
+
+This BSP may be distributed ONLY over the Internet and/or BBS systems, and only to be used with the Action Quake mod.
+You are NOT authorized to put this BSP on any CD or distribute it in
+any way without my permission.
+

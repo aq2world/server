@@ -1,0 +1,94 @@
+=============================================================================
+* General Info *
+
+Title                   : Industrial Rumble
+
+Archive                 : industrial.zip
+
+Release Date (DD/MM/YY) : 02/04/07
+
+Build			: 1.10
+
+Author                  : Carl-Magnus Björkell (aka NRGizeR)
+Email Address           : carl-magnus.bjorkell@pp.inet.fi
+
+Build notes:            : I accidentally compiled and older .map version before
+                          the release of industrial. This caused me to release
+                          a version that had about 25% higher r_speeds than
+                          this version. I noticed it a couple of days later
+                          when I was playing online and noticed lag. This version
+                          also contains some more clips to fix the stuck-points
+                          that were discovered after the release. Sorry for
+                          the inconvenience :(
+
+Description             : Map for Action Quake (http://action.telefragged.com).
+
+                          The map features an industrial area, complete with a
+                          car repair shop, timber yard, silos, and various
+                          light industrial buildings. Take a stroll in the
+                          settings sun, and the gangs that flood the area this
+                          time of day.
+
+Installation            : Unzip industrial.zip into the root of your Action Quake
+                          game folder (quake2/action), with subdirectories
+                          enabled (!)
+
+Additional Credits to   : WizardExt for some textures
+                          Beavisss for some textures
+                          peep for some textures
+			  Others for textures as well (don't know them all)
+			  delta for input and/or ideas
+			  The whole of LM// for playtesting and feedback.
+                          www.aq2suomi.com, www.aq2world.com and their
+                          forum visitors!
+
+			  Argh! for ArghRad
+			  Geoffrey DeWan for his improved compiling tools
+                          Rust (www.gamedesign.net) for the great tutorials
+                          A-Team for making the greatest Quake2 mod ever.
+                          id Software for Quake 2.
+
+
+=============================================================================
+* Play Info *
+
+Game                      : Action Quake (Quake2)
+Single player             : Yes (only for looking around)
+Teamplay                  : Yes
+Deathmatch		  : Yes
+Suggested Player Load	  : 4-16 (8 spawnpoints)
+
+New Graphics              : Yes
+New Music                 : Yes
+New Sounds                : Yes
+New Sky			  : No
+DLL                       : No
+Locations File		  : Yes
+
+* Construction Info *
+
+Base                      : New level from scratch
+Build time                : On and off for about half a year.
+                            Active build time around a couple of weeks.
+Compile Machine           : AMD64 3500+
+    QBSP3 Time            : 5 seconds
+    QVIS3 Time            : 456 seconds
+    ARGHRAD (-extra) Time : 6246 seconds
+
+Editors Used		  : GtkRadiant, ArghRad, Geoffrey DeWan's QBSP3 and QVIS3, 
+                            gimp, wally.
+
+Known Bugs                : None.
+
+
+* Copyright / Permissions *
+
+Authors may NOT use this level as a base to build additional levels.
+
+All textures and sounds not made by me are the property of their
+respective owner. You may distribute the archive industrial.zip in
+whatever way you see fit as long as the archive remains intact and
+is distributed freely. It is strictly prohibited to, without my written
+permission, commercially distribute any of the files in this archive.
+
+Enjoy.

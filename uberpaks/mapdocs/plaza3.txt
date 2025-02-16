@@ -1,0 +1,78 @@
+
+
+¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤
+
+Date			: 16.11.2002
+
+Title                   : Plaza III - The Club Compound
+Filename                : plaza3.bsp
+Game			: AQ2
+Author                  : Olli Ruhanen a.k.a. [KTC]Supreme
+Email Address           : olli.ruhanen@kolumbus.fi
+IRC			: ircnet #ktc
+URL     		: http://ktc.klaanit.net
+Description             : Another night map with a club
+Thanks to		: - A-team - for a great mod !
+			  - ID Software - for making AQ2 possible :P
+			  - Big thanks to Kalamiehen Toverit Clan
+			  - Creators of Qoole99 - for an excellent editor.
+			  - All mappers who have created the textures I used...
+			    like Carr, ruskprick, Makro [PN], WetWired and others. 
+
+			  - Izeman for editing and fixing the wav-files
+			  - T. R. Jones aka Bok Choy for the oriental lamps
+			  - Jeff for the rotating fan
+			  - Olli Paakkonen for the sportcar
+			  - Jyri Mustonen for the sofas
+			  - Avaruusninja, sanko, Shade and others for beta-testing
+			  - Slusnik Luna for making good music
+			    and giving me the idea for the club name.
+			  
+My other maps for AQ2: 	vwoods.bsp
+		       	fuego.bsp
+			rok.bsp
+			plaza.bsp
+			plaza2.bsp
+			indigo.bsp
+			narayan.bsp
+			isle.bsp
+			bomba.bsp
+			velo.bsp
+
+¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤
+
+-= Play Information =-
+
+Single Player           : jees
+Cooperative             : jees ?
+Deathmatch              : jees
+Teamplay                : of course !
+New Sounds              : Yup. I made the one in the club myself.
+			  The other two I just grabbed to create atmosphere.
+New Textures            : jees
+
+
+¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤
+
+-= Construction =-
+
+Editor(s) used          : Qoole99
+Build Time              : some time
+Compile Time		: about 2-3 hours
+
+
+¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤
+
+-= Comments =-
+
+"I think it's time to make the floor burn"
+
+
+¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤
+
+-= Copyright =-
+
+You may not re-edit my map in any way...plz :)
+
+
+¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤

@@ -1,0 +1,36 @@
+			-Information-
+
+Title                   : Alcatraz
+Game                    : Action Quake (Quake2)
+Intended for Deathmatch, 2-6 players 
+Files                   : alcatraz.bsp, several texture (WAL) and sky (PCX, TGA) files, 				readme.txt
+Release Date 		: 02/07/98
+Author                  : Nemesis
+Email Address           : pistol4@earthlink.net
+Description             : Map for Action Quake (http://action.telefragged.com).                         
+Installation            : Unzip the zip file into quake2/action
+
+			
+			-Construction-
+
+Base                      : New level from scratch
+Build time                : About one month
+Compile Machine           : Pentium II 350
+    QBSP3 Time            : 3 sec
+    QVIS3 Time            : 17 sec
+    QRAD3 Time            : 123 sec
+
+Editor(s) Used            : Qoole, Paint Shop Pro, Wally
+
+Known Bugs                : None
+
+Authors may NOT use this level as a base to build additional
+levels.
+
+All new graphics that comes with this map (in TEXTURES/ALCATRAZ and ENV/ALCATRAZ) were created by me and therefore are my legal property. However, authors may use those textures in their ACTION QUAKE maps if they give me credit.
+You may distribute this BSP, provided you include this file and the original, unmodified archive. You may not distribute this file in any electronic format that is to be sold, rented, or otherwise offered for money.
+
+Thanks to	        : Wally
+                          Id software
+                   	  Qoole
+			  Paint Shop Pro

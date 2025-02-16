@@ -1,0 +1,54 @@
+================================================================
+Title                   :
+Filename                : 
+Release Date            : 
+Author                  : 
+URL                     : http://
+Email                   : 
+Description             : 
+Credits                 :
+================================================================
+* Play Information *
+
+Single Player           : No
+Cooperative             : No
+Deathmatch              : not intended for
+ActionQuake DM          : Yes
+ActionQuake Teams       : Yes
+Difficulty Settings     : No
+New Sounds              : Yes
+New Textures            : Yes
+New Music               : No
+Demos Replaced          : None
+
+* Installation *
+ Extract (unzip) in the *:*\quake2\action directory. All paths provided.
+
+* Construction *
+
+Base                    : New level from scratch
+Editor(s) used          : 
+Known Bugs              : Feel free to let me know if you find any
+Build Time              : 
+
+
+
+Compile machine         : 
+QBSP3 Time              : 
+QVIS3 Time              : 
+QRAD3 Time              : 
+
+* Where to get this level *
+
+http://
+
+
+* Copyright / Permissions *
+
+Copyright (c) 1999 .  All rights reserved.
+
+This level may not be distributed on any CD-ROM
+without prior, explicit consent from 
+
+This level may not be used on a commercial 
+Multi-player server without similar explicit consent.

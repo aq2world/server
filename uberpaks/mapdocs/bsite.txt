@@ -1,0 +1,53 @@
+
+¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤
+
+Date			: 27.3.2002
+
+Title                   : Building site
+Filename                : bsite.bsp
+Game			: AQ2
+Author                  : Áki Snær Erlingson a.k.a. Sabotuer
+Email Address           : redhead@mr.is
+Description             : A building site
+Thanks to		: A-team - great mod !
+			  ID Software - for making AQ2 possible :P
+			  Creators of Qoole99 - for excellent editor.
+			  All mappers who have created the textures.
+			  
+My other maps for AQ2: rocks.bsp, teamrocks.bsp and soil.bsp
+
+
+¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤
+
+-= Play Information =-
+
+Single Player           : yea, but what's the point
+Cooperative             : hmm ?
+Deathmatch              : yes
+Teamplay                : yes
+New Sounds              : no
+New Textures            : yes
+
+
+¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤
+
+-= Construction =-
+
+Editor(s) used          : Qoole99 v0.99
+Build Time              : 2 days
+Compile Time		: 5-15 minutes
+other stuff used	: Wally 1.53b
+
+¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤
+
+
+-= Copyright =-
+
+You may not re-edit my map in any way without my approval
+
+
+-= Comments =-
+
+Actually I got the idea from a Tom and Jerry(R) show
+
+¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤

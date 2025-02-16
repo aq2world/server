@@ -1,0 +1,106 @@
+=============================================================================
+Título                  : Juice & Blood
+
+Files                   : JUICE.BSP, JUICE.TXT, TEXTURAS DO KARLSSON, TEXTURAS MINHAS, SONS
+                          
+                          - ARQUIVO ZIPADO: JUICE.ZIP
+
+Data         (DD/MM/YY) : 02:31 21/04/01
+
+Autor                   : Arthur "Suco" de Pádua
+Meu e-mail              : o_sabonete@zipmail.com.br
+Web Site                : http://www.etzs.hpg.com.br
+
+Descrição               : Mapa pra Action Quake2, uma cidade 
+
+Instalação              : * Unzip juice.ZIP into root of your Action Quake
+                          game folder (Quake2/Action), with Subdirectories
+                          enabled (!), so that all textures and sky will be unzipped
+                          into correct directory (USE FOLDER NAMES checkbox
+                          in WinZip or -d switch in PKUnZip).
+                                                    
+Agradecimentos a        : * Id Software (www.idsoftware.com), por ter feito Commander Keen,
+                          Wolf3d, Doom, Doom2, Quake, Quake2, Quake3 Arena e por estar 
+                          fazendo Doom3 
+
+                          * Uninet (www.unigames.com.br), por ter servidores de AQ2
+
+                          *Siberian "Mococa", por ter ajudado em alguns conceitos básicos 
+                          sobre mapas
+
+                          *Byteco, por ter me passado o Qoole e ajudado em algumas 
+                          manhas do programa Qoole;
+
+                          *[LF]Galo-Cego, por ter testado o mapa 
+
+                          *[LF]Frango, por ter testado o mapa 
+
+                          *=]EE[=Kamikaze por ter testado o mapa tmb
+
+
+=============================================================================
+* Play Information *
+
+Jogo                      : Action Quake (Quake2)
+Single player             : Sim (pra atirar nas paredes e treinar pulos)
+Cooperative 2-4 players   : Não
+Deathmatch 2-8 players    : Sim 
+
+New Graphics              : Sim (texturas)
+New Music                 : Não
+New Sounds                : Sim (police.wav, heli.wav, grilo.wav)
+DLL                       : Não
+
+* Construção *
+
+Tempo de construção       : um mês mais ou menos
+Compile Machine           : P800 with 128mb RAM
+    QBSP3 Time            : 2 SEGUNDOS
+    QVIS3 Time            : 17426.0 SEGUNDOS 
+    QRAD3 Time            : 3512 SEGUNDOS
+
+
+Editor(s) Used            : Qoole, Adobe Photoshop 5.0, e Wally
+
+Known Bugs                : Eu não achei nenhum, mas quem encontrar favor me mandar 
+                            e-mail ou avisar-me por IcQ
+
+* Copyright / Permissions *
+
+meu mapa naum tem restrições... pode fazer oq vc quiser com ele... desde q respeite os lances
+de direitos autorais com a Id Software... valeu mano?
+
+Texturas do Quake2 
+Texturas do Karlsson (ele disse q podia usa-las no TXT do mapa CITY)
+Texturas minhas (pode usa-las, elas ficam no diretório TEXTURES\EE\)
+
+* Onde catar esse mapa *
+
+Comigo! (icq# 50320244)
+
+ou em algum site... sei lá
+
+
+
+=============================================================================
+
+
+Links Bacanas:
+
+www.etzs.hpg.com.br
+
+www.animar.com.br
+
+www.eye4u.com
+
+www.89.com.br
+
+www.unigames.com.br
+
+www.telefragged.com
+
+www.download.com
+
+www.zsnes.com
+
+

@@ -1,0 +1,28 @@
+================================================================================
+* ACTION QUAKE II LEVEL INFORMATION *
+--------------------------------------------------------------------------------
+TITLE                   : deepjungle 
+AUTHOR                  : matic               
+DATE                    : 21.04.2024
+EMAIL ADDRESS           : mbatfri@gmail.com
+TOOLS USED				: TrenchBroom, eriw-tools
+
+================================================================================
+* LEVEL DESCRIPTION *
+--------------------------------------------------------------------------------
+Deep in the jungle is a hexagon shaped map placed ... Well, deep in the jungle. 
+It's the middle of the night, full moon is shining bright and mysterious 
+creatures are making eerie sounds. Around which corner is the predator lurking? 
+Are you the Rambo to save the day? Or are you perhaps the Tarzan who masters 
+all the jumps?
+
+Enjoy, and happy fragging!
+
+Suitable for teamplay and deathmatch.
+
+================================================================================
+* CREDITS *
+--------------------------------------------------------------------------------	
+Special thanks to:
+ - other mappers for their textures:
+	WizardExt, Mebba, Rage_m, Shadowfire, NRGiZeR and others.

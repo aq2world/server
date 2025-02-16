@@ -1,0 +1,26 @@
+
+11-16-98
+
+===========================================================================================
+Title                   : Urban2
+Filename                : urban2.bsp
+Game			: AQ2
+Author                  : John "Gerbil!" Parish
+Email Address           : gerbil@telefragged.com
+Web Address             : earthquake.telefragged.com
+Description             : A SCHOOL
+Additional Credits to   : moraty for fixing textures in urban :)                       
+===========================================================================================
+Base                    : Scratch
+Editor(s) used          : Qe4
+Build Time              : 4 1/2 weeks
+Compile Time		: hours
+===========================================================================================
+All these should be unzipped in quake2\action using folder names
+===========================================================================================
+
+Oh, the sky name is neon
+
+* Copyright / Permissions *
+Dont do anything to my map! Ask me! send me money too :) 
+

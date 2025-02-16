@@ -1,0 +1,53 @@
+=====================================================================
+     Action Quake 2 (http://action.telefragged.com/)
+=====================================================================
+
+-----<General Information>-------------------------------------------
+
+Title		: snowy city *merry xmas* 
+Filename	: scity.zip
+Date		: 23.10.2004
+Authors		: PieniMies
+Author Email	: a_maksimainen@hotmail.com
+Home page	: -
+
+-----<Credits and Thanks>--------------------------------------------
+
+Playtesters
+Shadowfire and many more for the textures
+AQ2suomi for keeping up the good work
+A-TEAM for Action Quake 2
+Id Software for Quake 2
+
+
+-----<Map Information>-----------------------------------------------
+
+Map Description	: tiny/medium size map
+How Many Players: 4-12
+New Textures	: Yes
+New Sounds	: Yes
+
+------<Play information>---------------------------------------------
+
+Single Player           : No
+Cooperative             : No
+Deathmatch              : No
+ActionQuake DM          : YES
+ActionQuake Teams       : YES
+DM Spawn Points         : 7
+Max Player Load         : 20
+
+------<File information>---------------------------------------------
+
+BSP name	: scity.bsp
+
+------<Construction>-------------------------------------------------
+
+Editor(s) used	: Qoole99
+Compile Machine	: amd athlon 2000+ xp, 512mb ram
+Compile time	: 560
+Build Time	: 10 hours
+
+------<Installation>-------------------------------------------------
+
+Extract the files to quake2/action

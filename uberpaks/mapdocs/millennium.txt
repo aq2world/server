@@ -1,0 +1,105 @@
+===============================================================================
+
+Millennium - A celebration of both life & death within our perceived universe.
+
+Title               : Millennium
+Filename            : millennium.bsp
+Version             : 1.1
+Date                : Friday December 31, 1999
+Author              : Skip "DeFrag[IOI]" Downey
+Email Address       : defrag@tscnet.com
+Author's Homepage   : http://www2.tscnet.com/~defrag/
+Description         : Deathmatch-level for Quake2
+Other Levels        : NoHope
+
+                      Millennium is a small-level where the gameplay runs fast.
+                      It has been designed for 1v1 or 2v2. Weapons & ammo
+                      balance & placement are excellent. I've went to great
+                      lengths to present this layout in a professional manner
+                      with moderate detail. It has been play-tested for weeks
+                      & is my 2nd level to date. Close attention has been given
+                      to r_speeds & w_polys average around 300 Connectivity is
+                      solid while originality is exceptional. There exists a
+                      minimal vertical-element within but it sure plays great!
+
+
+---------Credits---------------------------------------------------------------
+
+id Software         : Quake2
+Robert Duffy        : QERadiant
+Ridah               : Eraser Bot
+Fred @ Q2RFD        : Route file
+Rust                : Great reference tutorials
+Clan SK             : Many great games together!
+
+
+---------Installation----------------------------------------------------------
+
+Copy millennium.bsp into \quake2\baseq2\maps\. & millennium.rtz into your
+\quake2\eraser\routes\ directories respectively. If you run Clan IOI's Abandon-
+mod, then the .rtz goes in \quake2\abandon\routes as well. Run Quake2, then go
+into the console by pressing the tilde key (~), & type in "map millennium".
+Enjoy! :)
+
+
+---------Gameplay--------------------------------------------------------------
+
+Single-Player       : yes, for testing only
+Cooperative         : no
+Difficulty Settings : no
+Deathmatch          : yes, 2-5 players recommended (7 spawns)
+Weapons             : Railgun, Hyberblaster, Rocket-Launcher, Grenade-Launcher,
+                      Chaingun, Machine-guns, & Super-Shotgun
+Armor               : Body, Combat, Jacket, Power-Shield
+Health              : Mega, Adrenaline
+Powerups            : Quad
+
+
+---------Construction----------------------------------------------------------
+
+Base                : built from scratch
+New Graphics        : no
+Build Time          : ~40 hours
+Brushes             : 544
+Net Brush Count     : 408
+Entities            : 136
+Textures In Use     : 24
+PortalClusters      : 464
+NumPortals          : 1380
+AvgClustersVisible  : 97
+AvgClustersHearable : 291
+VisDataSize         : 38430
+CompressedFrom      : 59392
+BSP file size       : 592K
+
+
+---------Compilation-----------------------------------------------------------
+
+qbsp3          : 3 secs
+qvis3 -level 4 : 86 secs
+qrad -extra    : 372 secs
+Total Time     : 7 min 41 sec
+Computer       : Intel P2-450, 256MB RAM, 14GB UDMA33 7200RPM, STB-TNT 16MB-AGP
+Editor used    : QERadiant v1.0 beta build 147
+Known Bugs     : none
+
+
+---------Legal-----------------------------------------------------------------
+
+Copyright © 1999 Skip "DeFrag[IOI]" Downey - All rights reserved.
+
+This level requires the registered version of Quake2 v3.20 & is not supported
+by id Software. It may NOT to be used as a base for other levels, modified,
+converted, commercially exploited, or distributed on CD-ROM or other physical
+media in whole or part without express written consent. It may be distributed
+by electronic means only with no charge to the recipient provided this text
+file is included unmodified.
+
+The software contained herein shall perform in significant compliance with the
+accompanying documentation. This program is provided "as is" & without
+warranty of any kind, either express or implied, including but not limited to
+warranties of merchantability & fitness for a particular purpose. The author
+will not be liable for any damages, including lost profits, lost savings, or
+other incidental or consequential damages, arising out of use of this program.
+
+===============================================================================

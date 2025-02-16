@@ -1,0 +1,43 @@
+===============================================================================
+Title                   : Desert bases
+Filename                : desert.bsp
+Version                 : 8/7/98
+
+Author                  : Jeff Crowley (Creepy)
+Email Address           : jcrowley@microsoft.com
+
+Description             : Action Quake 2 level.
+	
+Other q2 levels by author  : Building 17
+
+===============================================================================
+
+* Play Information *
+
+Game                    : Quake 2 (Action Quake2)
+Single Player           : No
+Cooperative             : No
+Deathmatch              : Yes
+Difficulty Settings     : No
+New Sounds              : No
+New Graphics            : No
+Demos Replaced          : No
+
+* Construction *
+
+Base                    : From scratch
+Build Time              : 30+ Hours
+Editor(s) used          : Qoole 2.5
+Known Bugs              : None
+
+* How to use this level *
+
+Get Action Quake2 from here: http://action.telefragged.com/ and connect to a server running this map.  To just see the map (single player like but empty), type "game action" then "map desert" in the Quake2 console.
+
+The howitzers (big cannon outside the gate) can be fired once every 15 secs by standing on the button behind them.  The air strike can be called once per base per map by pressing the button in the comm trailer and then pressing the computer keyboard in HQ.  Between the bases, if you look carefully, you can see "dirt piles" where land mines are but not all "dirt piles" hide a mine. :)  Each land mine can be triggered once per map.
+
+The computer consoles are a prefab by Antony 'Maxtor' Burden (antony.burden@seetru.co.uk) that I got from The Quake Prefab Park 2 (http://www.planetquake.com/qpp/qpp2/).
+
+* Copyright / Permissions *
+
+This level is copyright by Jeff Crowley.  You are free to distribute this level as long as you aren't charging *ANYTHING* for it.

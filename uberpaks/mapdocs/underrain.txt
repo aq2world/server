@@ -1,0 +1,82 @@
+================================================================
+* General Information *
+
+Title                   : Raining Under Bones          By:InFinity
+Filename                : Underrain
+Release Date            : 09.08.2001
+Author                  : InFinity^
+Email                   : infinity__@peliportti.net
+Description             : A secret cave, that DaJafo forces founded 
+
+Credits                 - Thanks to The A-team for making KICASS mod!
+                        - and for People who made Qoole99 v0.99
+                        - All those people who has made great textures and sounds for all Aq2 mappers
+                        - To all ho has played my other maps
+                        - And Specially to Suppe mäyrä :))
+
+================================================================
+* File Information *
+
+.bsp Name		: Underrain.bsp
+ZIP Size (KB)		: 683 KB
+Screenshot Included	: No
+DM Spawn Points		: 8
+Max Player Load		: 24
+
+================================================================
+* Play Information *
+
+Single Players         : There's nothing for you, sorry.
+Cooperative             : No
+Deathmatch              : no
+ActionQuake DM          : Yes, i think it would work =)
+ActionQuake Teams       : Yes
+Difficulty Settings     : No
+New Sounds              : Yes
+New Textures            : Yes
+New Music               : No
+Demos Replaced          : None
+
+* Installation *
+ Extract (unzip) in the *:*\quake2\action directory. All paths provided.
+
+* Construction *
+
+Base                    : New level from scratch
+Editor(s) used          : Qoole99 v0.99
+Known Bugs              : None
+Build Time              : about one week 
+
+
+
+Compile machine         : AMD K6-2 450mhz 208mt 
+QBSP3 Time              : 19 sec
+QVIS3 Time              : 463 sec
+QRAD3 Time              : 1287 sec
+
+* Other levels by:InFinity *
+
+Junkke
+Junkke2
+The Aro
+Jopo City
+Jopo City2
+DaJafo
+
+* Copyright / Permissions *
+
+Copyright © 2001 .  All rights reserved.
+
+This level may be distributed on any CD-ROM
+without similiar explicit consent.
+
+This level MAY be used on a commercial 
+Multi-player server without similar explicit consent.
+
+If u want .map file or something please mail to me     InFinity__@peliportti.net
+
+Best way to reach me is start IRC and come #jaffalandia @ Qnet
+
+
+
+

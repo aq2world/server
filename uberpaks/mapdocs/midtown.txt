@@ -1,0 +1,63 @@
+Title                   : Midtown Mayhem
+Filename                : midtown.bsp
+Author                  : Skull N. Bones
+Email Address           : skull@rochester.rr.com
+Date                    : September 25, 1998
+
+Description             : A small section of a city, similar to the awesome "Blockwar" 
+                          map except smaller.
+
+Additional Credits to   : id Software for Quake 2
+                          The Action Quake mod team
+                          The authors of the Rust webpage tutorials
+                          Agent Smoke for helping to playtest early version of this map
+
+Other Maps By Author	: Hijack, Hostage, Dethship, Quittin time (all for Action Quake2 
+                          mod)
+
+================================================================
+
+* Play Information *
+
+Single Player           : No
+Cooperative             : No
+Teamplay                : Yes
+Deathmatch 2-8          : Yes
+Deathmatch 9-16         : Not Tested
+Deathmatch 17-100	: Not Tested
+
+Difficulty Settings     : No
+New Sounds              : No
+New Graphics            : Yes
+New Music               : No
+Demos Replaced          : None
+CD Track		: 0
+
+==================================================================
+
+* Construction *
+
+Base                    : from scratch
+Editor(s) used          : BSP
+Build Time              : less than 1 Week
+Compile machine         : P200mmx 64 Meg RAM
+	QBSP3		: -v 
+	QVIS3		: -v -level 4 
+	QRAD3		: -v -bounce 8 -extra 
+
+Known Bugs              : None so far
+
+==================================================================
+
+* Legal Stuff *
+
+You may distribute this level and include it in any deathmatch compilation
+as long as you include this text file and of course give me credit.
+
+Feel free to E-mail me with you comments or questions.
+
+If you're actually still reading this and this level finds its way to
+your web page, then please E-mail me.
+
+Skull N. Bones
+skull@rochester.rr.com

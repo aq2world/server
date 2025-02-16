@@ -1,0 +1,76 @@
+================================================================================
+* ACTION QUAKE II LEVEL INFORMATION *
+--------------------------------------------------------------------------------
+TITLE                   : Warehouse district - zakath [RK]
+FILENAME                : whdistrict.bsp
+AUTHOR                  : zakath
+DATE                    : 10.11.2001
+EMAIL ADDRESS           : vainis@saunalahti.fi
+HOMEPAGE URL            : http://riidankylvajat.org
+--------------------------------------------------------------------------------
+* LEVEL DESCRIPTION *
+--------------------------------------------------------------------------------
+Stop reading and start shooting people. Simple as that.
+
+--------------------------------------------------------------------------------
+SINGLE PLAYER           : 1 Player Start   Point(s)
+CO-OPERATIVE            : 1 Player Start   Point(s)
+DEATHMATCH              : Yes
+ACTION QUAKE II         : 2 Teams
+SUGGESTED PLAYER LOAD   : 2-10
+NEW TEXTURES            : No
+NEW SOUNDS              : No
+CD TRACK #              : 0
+
+--------------------------------------------------------------------------------
+* CONSTRUCTION *
+--------------------------------------------------------------------------------
+PREFABS USED            : None
+EDITOR(S) USED          : Worldcraft 1.6a
+OTHER UTILITIES USED    : -
+KNOWN BUGS              : Hopefully none, if you can find major ones, contact me pls :P
+
+COMPILE MACHINE         : AMD 1400TB , 512RAM , Gf3
+QBSP2 TIME              : 2 seconds
+VIS TIME                : ~5000 seconds
+QRAD TIME               : 800 seconds
+
+--------------------------------------------------------------------------------
+* OTHER LEVELS BY THE AUTHOR *
+--------------------------------------------------------------------------------
+: ferron
+: ferron 2
+: rok (with supreme)
+: whole lotta others that hasn't gone anywhere from my HD ;)
+
+
+--------------------------------------------------------------------------------
+* SPECIAL INSTRUCTIONS / ADDITIONAL INFORMATION *
+--------------------------------------------------------------------------------
+M3 haven.
+
+--------------------------------------------------------------------------------
+* CREDITS *
+--------------------------------------------------------------------------------
+The A-Team              : For making a KICK ASS Mod
+Prote			: Bug hunting
+Spectre			: Same
+Midian			: 'yay
+ClanRK			: For being there doing _nothing_ (tm) :)
+Finnish AQ2 scene	: For inspiring me to play the game with you
+
+================================================================================
+* COPYRIGHT / PERMISSIONS *
+--------------------------------------------------------------------------------
+Authors MAY use this level as a base to build additional levels.
+
+You MUST NOT distribute this level UNLESS you INCLUDE THIS FILE WITH
+NO MODIFICATIONS. If you don't co-operate, then DON'T DISTRIBUTE IT
+IN ANY FORM.
+
+This LEVEL may be distributed ONLY over the Internet and/or BBS systems.
+You are NOT authorized to put this LEVEL on any CD or distribute it in
+any way without my written permission.
+
+Action Quake II (C) 1998-99 The A-Team.
+Quake II (C) 1998-99 id Software. All rights reserved.

@@ -1,0 +1,81 @@
+TITLE                   : PaTMaN's Garden
+FILENAME                : pgarden.zip
+AUTHOR                  : PaTMaN (Current MBG Member)
+DATE                    : July 27, 2000
+EMAIL ADDRESS           : patman_q@hotmail.com
+ICQ#			: 14999645
+HOMEPAGE URL            : http://members.xoom.com/patmansgames/
+.zip CONTENTS           : Map: pgarden.bsp
+--------------------------------------------------------------------------------
+* INSTALLATION *
+--------------------------------------------------------------------------------
+Extract pgarden.zip with "Use folder names" checked to your Action
+Quake2 dir or
+
+Extract:
+	Map and Text to               (aq2dir)/maps
+
+--------------------------------------------------------------------------------
+* LEVEL DESCRIPTION *
+--------------------------------------------------------------------------------
+Small garden maze. Very fun!
+--------------------------------------------------------------------------------
+SINGLE PLAYER           : 0 Player Start Point
+CO-OPERATIVE            : 0 Player Start Points
+DEATHMATCH              : 12 Player Respawn Points
+ACTION QUAKE II         : 2 Teams
+SUGGESTED PLAYER LOAD   : 1 to 12
+
+NEW TEXTURES            : No
+NEW SOUNDS              : No
+CD TRACK #              : 0
+
+--------------------------------------------------------------------------------
+* CONSTRUCTION *
+--------------------------------------------------------------------------------
+MAP BASE                : New Map
+PREFABS USED            : None
+EDITOR(S) USED          : qED2
+OTHER UTILITIES USED    : None
+
+KNOWN BUGS              : None
+
+COMPILE MACHINE         : AMD K6 233, 128mb ram
+
+Compile Time		: Around 3 minutes
+
+--------------------------------------------------------------------------------
+* OTHER LEVELS BY THE AUTHOR *
+--------------------------------------------------------------------------------
+PDM1 (q1)
+MBG City (q2)
+MBG City2 (q2)
+Blockfort (q2)
+
+Being worked on:
+Shark Bait (q2)
+Ice Rink (q2)
+Skyscraper (q2)
+
+--------------------------------------------------------------------------------
+* CREDITS *
+--------------------------------------------------------------------------------
+The A-Team              : For making Action Quake2
+ID Software		: For making Quake2
+
+================================================================================
+* COPYRIGHT / PERMISSIONS *
+--------------------------------------------------------------------------------
+Authors MAY NOT use this level as a base to build additional levels without my
+permission.
+
+You MUST NOT distribute this level UNLESS you INCLUDE THIS FILE WITH
+NO MODIFICATIONS. If you don't co-operate, then DON'T DISTRIBUTE IT
+IN ANY FORM.
+
+This LEVEL may be distributed ONLY over the Internet and/or BBS systems.
+You are NOT authorized to put this LEVEL on any CD or distribute it in
+any way without my written permission.
+
+Action Quake II (C) 1998-99 The A-Team.
+Quake II (C) 1998-99 id Software. All rights reserved.

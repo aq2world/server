@@ -1,0 +1,28 @@
+               Skytown - Sneaking on tha roofs by Genie & Griffin
+
+Skytown, map for Action quake II .
+
+------------------------------------------------------------------------------
+Players      : 4-16
+Cooperative  : No
+Teamplay     : Yes
+Deathmatch   : Hmm....maybe you can try....not very interesting, i think :)
+
+Editors used : Qoole 0.97 , Qoole 2.50 , WorldCraft 1.6 and Wally
+
+Hours build  : About 60, i think
+Compile time : qbsp3 - 5    seconds
+	       qvis  - 7683 seconds
+	       qrad  - 3282 seconds		 
+Burshes used : 345
+
+E-Mail       : saulik@kolumbus.fi (Griffin) - genz@iobox.fi (Genie)
+Homepages    : http://swa.0wns.org
+
+------------------------------------------------------------------------------
+Thanks to  : clan <SWa> group for BETA-test
+             Cendor
+             and everybody, who has done textures, which we took to map
+
+Special thanks : Zakath [RK], who helped us to use programs.
+------------------------------------------------------------------------------

@@ -1,0 +1,53 @@
+============================================================================
+Title                   : Death Avenue - The Home of Above Intelligence
+Filename                : Avenue11.zip
+Version                 : 11/15/98
+Game                    : Action Quake 2 
+Authors                 : T.T.I. (mapper) and Hannu Oksa (new musics)                        
+                          aka Imagination.
+Description             : A fairly large city area, but it's smaller than
+                          Blockwar. 
+
+Thanks to               : Mom and dad, ID Software, Bruce Dickinson,
+                          A-TEAM, Cliffe and makers of those good editors
+                          that I used.
+
+============================================================================
+
+* Play Information *
+
+Single Player           : Just for checking things
+Cooperative             : No
+Deathmatch              : 10 DM Starts (enough space for 24 players)
+AQ2 Teamplay            : Hell yeah!!
+Difficulty Settings     : No
+New Graphics            : YES                
+New Music               : Yes (again!)
+CD Track                : Yes
+
+* Construction *
+
+Base                    : Scratch
+Editors used            : GlideQoole 2.5, Worldcraft, Wally 1.10
+Build Time              : LONG, long time
+Known Bugs              : Yep :( 
+Compile machine         : Pentium II 300, 64 MB, Voodoo2
+Qbsp3 time              : 40 seconds
+Qvis3 time              : 7825 seconds
+ArghRad time            : 1617 seconds
+Brushes                 : 1187
+
+* Installation *
+
+Just unzip to your X:\Quake2\Action directory (with subdirectories enabled).
+The BSP must end up in X:\Quake2\Action\maps folder.
+Textures must end up in X:\Quake2\Action\textures\TTI folder.
+New sounds MUST end up in X:\Quake2\Action\sound\world folder.
+
+* Copyright / Permissions *
+
+Authors MAY NOT use this level as a base to build additional levels.
+All textures, sounds, anything MAY NOT be used for other maps, but these
+files can be freely distributed. This level cannot be sold.
+
+Copyright (c) 1998 T.T.I. and Imagination, All Rights Reserved

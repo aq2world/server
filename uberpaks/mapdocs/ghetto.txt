@@ -1,0 +1,18 @@
+File: 		ghetto.bsp
+Level name:	Ghetto
+# Players:	3-6
+
+
+Creator:	Owen Coughlan bexley@sprint.ca
+
+Made with QOOLE 2.5 (registered)
+
+BSP/VIS/RAD time -- 6.5 hours
+
+Death Match level for Action Quake 2.
+
+Set in daylight, but with shadows for the snipers and campers.  The idea was to encourage room-to-room stalking, rather than the frenzy of gunfire that's evolving in Action Quake (the best Q2 Mod yet).
+
+This is my first level for Quake II.  I tested it with BOTS and it seemed to work okay -- they killed me.
+
+This level cannot be sold.  It can be given away, modified provided this text file accompanies it.

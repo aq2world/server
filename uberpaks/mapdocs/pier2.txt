@@ -1,0 +1,60 @@
+
+»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»
+» General Information »»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»
+»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»
+
+ Map Title:      London Pier 2 
+ BSP file:       pier2.bsp
+ Author:         oSiRiS
+
+ Teamplay:       Yes
+ Deathmatch:     Yes
+ Single Player:  No 
+
+ Description:    A pier at night in London early 1900's 
+
+»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»
+» Technical Information »»»»»»»»»»»»»»»»»»»»»»»»»»»»»»
+»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»
+
+ Build Time:     3 days 
+
+ Made with:      Qoole99
+
+ Compile:        About one hour
+
+ Known Bugs:     None
+
+ System:         p2 300 celery with 128 mb's of ram
+
+»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»
+» Other Information »»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»
+»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»
+
+ Thanks to Karrilion for letting me use some other 
+ persons textures =)
+
+»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»
+» Contact »»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»
+»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»
+
+ ICQ:   	30934517
+ E-Mail: 	krogers6@uswest.net
+
+»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»
+» Copyright »»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»
+»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»»
+
+ This map is free for distribution but may not be distributed for profit!
+
+
+
+
+
+
+
+
+
+
+
+

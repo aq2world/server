@@ -1,0 +1,18 @@
+================================================
+LOCK N LOAD TRILLOGY by: the hunter
+================================================
+
+here you go this is the full lock n load trillogy for your enjoyment!!
+
+includes
+
+locknload.bsp
+lnl2.bsp
+lnl3.bsp
+[all textures]
+[mr_coat model by Neal Corbett]
+[lnl skins for mr_coat]
+lnl.cfg (for lnl action quake servers)
+
+e-mail   :   castillo@hal-pc.org
+web site :   http://www.geocities.com/Area51/Shadowlands/6265

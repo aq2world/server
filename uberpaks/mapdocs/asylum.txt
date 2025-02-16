@@ -1,0 +1,44 @@
+Instructions: extract the archive, preserving directories, to your quake2/action directory.
+================================================================
+Title                   : Quakeham Asylum.
+Filename                : asylum.bsp, and assorted textures and sounds.
+Author                  : Richard Newman (Holy Goat)
+Email Address           : holygoat@ndirect.co.uk
+Description             : Brand new map based on a mental hospital in a storm.                      
+Where to get ActionQ2   : http://action.telefragged.com
+================================================================
+* Play Information *
+
+Single Player           : Well, yes, but it's not very fun :)
+Cooperative             : As for single player.
+Deathmatch		: Yes, though weapons are a bit strange.
+Action Quake2		: Yes.
+Difficulty Settings     : No.
+New Sounds              : Yes
+New Graphics            : Yes; textures.
+New Music               : Sort of :)
+Demos Replaced          : None
+
+* Construction *
+Base                    : That big empty grid you get when you start out afresh... :)
+Editor(s) used          : QERadiant.
+Known Bugs              : A few, but not enough to warrant rebuilding the map. Room 27's 	door goes a little out of alignment when it opens, and a few of the roof light textures are out of alignment. These are the ones I know about :)
+	Let me know of any more, and I'll fix them in any later version(s).   
+			                            
+* Build Time *
+Unknown. A few days to make, and about 1 hour to compile fully.
+=================================================================
+
+Details:
+Mental hospital with private rooms, operating theatre, ward, reception, life, stairs, cells, padded room, interrogation chambers, coke machines, garden and rec. room. I didn't base it on real life experiences, ok? =)
+I tried to make this map as atmospheric as I can. Hence the rain on the windows (anyone know how to make the texture cycle faster?), thunder (I put lightning, but it broke in later versions so I took it out :)), (hopefully) moody lighting and leather restraints :). The stereo is playing a very short sample of a little-known song; the artists are called Ouch!!!. The thunder and rain sounds come from a pretty good flight sim. 
+Suggestions are more than welcome.
+And remember: take your medicine and nurse won't have to strap you in...
+
+/Hospitalised Goat
+
+PS. I hope you like the little respectful nods I've added :).
+Thanks to the guy who made Coventry for the textures I used; only two flat colour ones, but it saved me making new ones, and your harddrive space :).
+
+PPS. I was planning to put in a few touches like Redrum and an axed-down door, but I never really got time. Sorry :)
+

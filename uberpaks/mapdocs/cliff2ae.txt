@@ -1,0 +1,83 @@
+================================================================================
+* ACTION QUAKE II LEVEL INFORMATION *
+--------------------------------------------------------------------------------
+TITLE                   : Cliff2; After Eruption.
+FILENAME                : cliff2ae.zip
+.BSP NAME		: cliff2ae.bsp
+AUTHORS                 : Vermin & MarlPoro (& Ace12GA)
+DATE                    : 22.08.2007
+EMAIL ADDRESS           : paavo@saunassa.com
+IRC			: #clansurvival @quakenet
+HOMEPAGE URL            : None
+.zip CONTENTS           : - Textures
+                          - Sky
+                          - Map file
+			  - Sounds
+			  - This file
+
+--------------------------------------------------------------------------------
+* LEVEL DESCRIPTION *
+--------------------------------------------------------------------------------
+One of the most popular AQ2 maps turned into a fiery pit of lava.
+
+--------------------------------------------------------------------------------
+SINGLE PLAYER           : No
+CO-OPERATIVE            : No
+DEATHMATCH              : No
+ACTION QUAKE 2 DM	: Yes
+ACTION QUAKE 2 TEAMPLAY : Yes
+SUGGESTED PLAYER LOAD   : 2 to 16
+
+NEW TEXTURES            : Yes
+NEW SOUNDS              : Yes
+
+--------------------------------------------------------------------------------
+* INSTALLATION *
+--------------------------------------------------------------------------------
+
+Extract (unzip) in the *:*\quake2\action directory. All paths provided.
+
+--------------------------------------------------------------------------------
+* CONSTRUCTION *
+--------------------------------------------------------------------------------
+MAP BASE                : The original Cliff2.map file
+PREFABS USED            : None
+EDITOR(S) USED          : Worldcraft 1.6a
+OTHER UTILITIES USED    : Q2beaver, Mapspy, Winmaprid, improved qvis and qbsp
+			  programs, Arghrad
+
+KNOWN BUGS              : None
+
+COMPILE MACHINE         : AMD Athlon 64 3200+ @ 2,5Ghz
+
+QBSP TIME               : 1 second
+VIS TIME                : 2736 seconds
+QRAD TIME               : 669 seconds
+
+--------------------------------------------------------------------------------
+* OTHER LEVELS BY THE AUTHOR *
+--------------------------------------------------------------------------------
+Mountain
+Crimson
+
+--------------------------------------------------------------------------------
+* CREDITS *
+--------------------------------------------------------------------------------
+The A-Team              : For making this mod
+Ace12GA			: For providing the original cliff2.map file
+
+================================================================================
+* COPYRIGHT / PERMISSIONS *
+--------------------------------------------------------------------------------
+Authors MAY NOT use this level as a base to build additional levels without 
+permission since this is based on Ace12GA's work.
+
+You are free to use the textures any way you like, I ripped them off from free
+textures sites all over the internet and modified most of them.
+
+You MUST NOT distribute this level UNLESS you INCLUDE THIS FILE WITH
+NO MODIFICATIONS. If you don't co-operate, then DON'T DISTRIBUTE IT
+IN ANY FORM.
+
+Action Quake II (C) 1998-99 The A-Team.
+Quake II (C) 1998-99 id Software. All rights reserved.

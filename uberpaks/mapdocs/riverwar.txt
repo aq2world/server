@@ -1,0 +1,52 @@
+War at the River - by Sabotuer
+=================================================================================================
+*Map Information*
+Title: War at the River - by Sabotuer
+Filename: gcity1.bsp
+Version: 1.2
+Game: Action Quake 2 (u can use this map at any mod at all)
+Author: Sabotuer
+EMail Address: Sabotuer17@hotmail.com
+Web Address:  None (but I hope there will be someone someday)
+Description: 2 bases with a river in the middle
+Additional thanks to: Me for making the map,
+the  A-Team for creating action quake 2,
+The guy who did this fine tank (got the prefab on the prefab site on qoole's homepage)
+and all the guys that think my map rocks.
+Installation: Just unzip it to the quake2\action folder
+=================================================================================================
+*Play Information*
+Single Player: NO!
+Cooperative: NO!
+Deathmatch: You can allways try
+Teamplay: YES!
+Difficulty Settings: what for?
+Sounds: No!
+Sky: night1
+Textures: 1 new one (slight3.wal) all the textures are in the zip
+folder besides the textures that are in pak0.pak
+=================================================================================================
+*Construction*
+Editor(s) used: Qoole99 v.97
+Other systems used: wally
+Known Bugs: Full bright's a problem I'm trying to fix
+Build Time: about a day
+Compile Time: for some reason I just don´t remember
+=================================================================================================
+*Copyright*
+Authors MAY NOT use this level as a base to build additional levels.
+
+You MUST NOT distribute this level UNLESS you INCLUDE THIS FILE WITH
+NO MODIFICATIONS. If you don't co-operate, then DON'T DISTRIBUTE IT
+IN ANY FORM.
+
+This LEVEL may be distributed in any gameplay that's allready real or will be some day.
+You are NOT authorized to put this LEVEL on any CD or distribute it in
+any way without my written permission (pretty hard to get, I live in Iceland).
+
+Action Quake II (C) 1998-99 The A-Team.
+Quake II (C) 1998-99 id Software. All rights reserved.
+=================================================================================================
+*Things that I just had to say*
+Everyone who don't like my map at any way suck and have a bad taste of maps.
+PS: PLEASE! Get the LTK bot and test the map before you get fragged in it by professionals.

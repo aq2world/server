@@ -1,0 +1,88 @@
+99/01/12
+================================================================================
+Title                   : RiotX: Jingle Balls Special 
+Filename                : riotx.bsp
+Gametype                : Quake2 - ActionQuake
+Author                  : Per 'Ellusion' Nyhaug
+E-Mail                  : Ellusion@Planetquake.com
+Web	                : http://www.planetquake.com/lotus
+Description             : Winter comes to Riot
+Additional credits to   : Mats 'Rusprick' Holm for his awesome textures
+                          Christa 'CDwarrior' Forrest for her awesome textures
+                          Lars 'Devil' Kirkhus for his help on the xmas textures
+
+                          My faithful crew of betatesters:
+                            Devil
+                            Tobler
+                            Ligur
+                            Oswald
+                            Mike
+
+                          Geoffrey DeWan for his much improved compile tools
+                          Greg 'Manx' Barr for some useful tips on portal leafs
+                          Stecki for the Snow2 enviroment
+                          id Software for the fastest, most fluid FPS shooter still
+--------------------------------------------------------------------------------
+* Play Information *
+--------------------------------------------------------------------------------
+
+Single Player           : For testing purposes only
+Cooperative             : No
+Deathmatch              : 4-12 
+Teamplay                : 4-12
+Difficulty Settings     : No
+New Sounds              : Yes
+New Graphics            : Yes
+
+--------------------------------------------------------------------------------
+* Construction *
+--------------------------------------------------------------------------------
+
+Base                    : None
+Editor(s) used          : Worldcraft1.6 & 2.1, Wally
+Known Bugs              : None
+Build Time              : About 1 month on and off
+Compile Time		: 
+			  QBSP3 =   21  seconds
+			  QVIS3	= 11303 seconds
+			  QRAD3 = 16959 seconds (-bounce 40 -extra)
+
+--------------------------------------------------------------------------------
+* Other Maps by Author *
+--------------------------------------------------------------------------------
+
+Riot2: Final Fajt       - ActionQuake
+Riot:  Gangbang         - ActionQuake
+
+Available from http://www.planetquake.com/lotus
+
+--------------------------------------------------------------------------------
+* Additional Information *
+--------------------------------------------------------------------------------
+
+RiotX is a fully re-worked version of Riot, done as a novelty item for the
+christmas season. R_speeds are higher overall and it has two small spots where
+the polycount peak above what is reccomended for fluid netplay. Because of this
+I will not personally reccomend it for netplay, altho I know most players today
+have systems than can cope with this without problem.
+
+This is also my final map for Quake2/ActionQuake.
+
+All of the Rusprick textures that have changed is done so with his permission.
+These textures are generally marked by an x (like r_xdoor).
+
+--------------------------------------------------------------------------------
+* Installation *
+--------------------------------------------------------------------------------
+
+Unzip riotx.zip to Quake2/Action.
+
+--------------------------------------------------------------------------------
+* Copyright / Permissions *
+--------------------------------------------------------------------------------
+
+This map may be distributed freely over the internet only, as long as the
+contents remain unchanged and intact, and as long as this txt file is included.
+Any other forms of distribution requires the authors written consent.
+
+--------------------------------------------------------------------------------

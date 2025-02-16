@@ -1,0 +1,183 @@
+___________________________________
+"Lightbeam" by Tristan 'P' Temple /
+_________________________________/
+
+Dammit Beavis, turn word-wrap on.
+:)
+
+_________________________
+Installation 		/
+_______________________/
+
+Unzip the contents of this zip into your Quake2/action directory *with folder 
+names intact* (-d on pkunzip methinks).
+If something goes wrong:
+	-the .bsp file should be in action/maps,
+	-the .pcx and .tga files should be in action/env
+	-the .wal files should be in action/textures/ppp
+	-doesn't matter where the .txt file ends up :)
+To run the map, boot up Quake2 and type the following at the console:
+	game action
+	deathmatch 1
+	map p1_lightbeam
+Or just connect to a server with it Lightbeam on it's rotation.
+
+Any problems, drop me a line (see 'contact' below).
+
+_________________________
+Info                    /
+_______________________/
+
+Map title	: Lightbeam
+Filename	: p1_lightbeam.bsp
+Author		: P
+About P		: 17 year old UK bloke type dude who's often refered to as either
+		  'odd' or 'bloody weird' ;)
+Editor 		: BSP (thanks for finishing it Yahn... or not)
+Other P maps	: P0: Outpost 304 *sniff* a never released DM map *whimper* 
+
+Build Time	: Hmm, did I have this beard when I started?! (off and on, spread 
+		  over 2-3 months... god I wish I spent more time mapping...)
+Compile Time	: Over-night (~ 7hrs) (wibble factor 10)
+
+Q1		: Wassat then?
+Q2 DM		: It'll work, but play like a pile of icky brown stuff (avoid).
+Q2 SP		: For diving practice only
+Q2 CO-OP	: Diving Gala anyone?
+AQ2 DM		: Whoohoo  
+AQ2 TP		: Kick Ass 
+
+New sounds	: Yeah, a seagull one (credit to the seagulls).
+New textures	: Yuppers lots, none by me tho (see credits plz).
+New sky		: Yupski, see credits.
+New brain	: Can't help you there, get back to your Sega Saturn dude ;)
+
+Description	: A map for AQ2, with a lighthouse (or suitabley large tribute 
+		  to female independance, take it as you wish), some offices, 
+		  a carpark, some water, a few rocks, a few roofs, a warehouse...
+		  oh and a caravan. Basically a good, compact, habour-ish style romp
+		  with enough variation in it to keep most people happy.
+
+		  Half way thru' making my second DM map, it suddenly struck on me 
+		  that I needed more practice before going on with the map. Around
+		  about the same time, I *really* got into AQ2... the rest is 
+		  history/pain.
+
+_________________________
+Credits/Thanks          /
+_______________________/
+
+Special thanks to:
+	-Rust   (gamedesign.net). A great help, cheers.
+	-BSP HQ (bsphq.com). Cheers Deadmeat, your a star.
+	-ID (www.idsoftware.com). Cheers for making me coffee and stuff... erm.
+
+Thanks to:
+	-Karsten, my brother. For being bloody supportive and encouraging, despite 
+	 not *really* having a clue what I was doing, and why I was doing it :o)
+	-'The Lardy One' for superb suggestions/ideas after beta testing. 
+	-'Jagz' for more suggestions, and putting up with me while we tested it.
+	-'Grom' for putting up with my WMG idea, and topical conversations etc ;)
+	-'Rage' for suggestions after beta testing.
+	-'Pig Pills' for having absolutely nothing to do with this map, but for
+	  being incredibley patient with me and the CD thingy...
+	
+	-Everyone else who helped beta test it, ta very much.
+	-Anyone who: plays this map and/or puts it on a server and/or reviews it etc. 
+	 Cheers... you give me reason to churn this crap out :)
+	-Clan <HooD> for being so kick ass!
+
+Credit to:
+	-David Hyde, textures.
+	-CryptR, textures (and inspiration... Action City series kicks ass)
+	-Whir, textures.
+	-The dude who did the sky... Stecki mbe? I couldn't find a readme for it, sorry.
+
+I think that's it for texture credits, but if not then please (please!) notify me. Nothing
+worse than uncredited material :(
+All textures where used from maps that'd allowed me to use it's textures (i.e. the author
+permitted it in the readme). 
+Can't thank the texture dudes enough, it's your work that got this map as far away from 
+Strogg as is 'humanly' possible :)
+
+_________________________
+Notes                   /
+_______________________/
+
+	-R_Speeds. I was mainly building this map for practice, and a bit of fun. Hence I
+	 wasn't too strict on myself wrt r_speeds. Unfortunately as a result they can get 
+	 rather high in some places, with areas of 850 or even more. I have a feeling this 
+	 is going to be the main bitch about Lightbeam. Sorry :(
+	-Both Teamplay and DM will work well on this map, but I'd reccomend keeping the 
+	 numbers low... 5 a side TP should be ample. (not sure about max DM..?).
+	-A short while before this map is/was released (but a long time after it was started)
+	 another AQ2 ligthouse map was released. I didn't nab his idea, we're obviously just 
+	 both on the same wavelength or summit. Fortunately both our maps are suitabley 
+	 different, and so it's still worth me releasing this. Kudos to him, for making
+	 a kick ass map :) (www.quakeclan.net/20id/cool.html) (by God Incarnate).
+	-I almost certainly won't make a sequel to this map, but hope to make another AQ2 
+	 map at some point, stay tuned for more of the P series :)
+	-E-Mail me if you want the .map file.
+	-DON'T play this map in normal Quake2 DM... it wasn't designed for it... trust me.
+
+_________________________
+Contact P               /
+_______________________/
+
+ICQ	: 3322974
+E-Mail	: tristan.temple@dial.pipex.com
+Website	: http://www.bomb.net/wmg
+Postal	: Wassat?!
+
+N.B. I prefer e-mail to being badgered on ICQ, okee :)
+
+_________________________
+Ten Commandments        /
+_______________________/
+
+1) Thou shall not make money from this map in any way shape or form
+2) Thou shall not decompile this map
+3) Thou shall not use this map as a base for your own map
+4) Thou shall not re-distribiute this map without ALL the files in this archieve intact 
+5) Thou shall not commercially distribute this map, without some serious bribes ;)
+6) Thou shall not have sexual intercourse with this map, it IS under-age
+7) Thou shalt send this map to your friends, if you like it
+8) Thou shalt contact me (I'm a lonely bugger ;)
+9) Thou shalt start mapping 
+10)Thou shalt visit the WMG (http://www.bomb.net/wmg)
+11)Thou shall not take the piss out of my crappy spelling :/
+12)Thou shall not make any smart arse comments about there being 12 commandments 
+
+_________________________
+Final words...          /
+_______________________/
+
+Wow, this really has become an epic readme file 
+[:o)
+
+Okay... to all the people who've read this far:
+
+[The following paragraph is rated PG -parental guidence. 
+ Some scenes may frighten minors, and offend cunts]
+
+	"You freakish low-life bastards, don't you have anything better to do than 
+	 read complete llama ass readme files?! I mean, come on... get out a bit, 
+	 there's whole world out there waiting for you... now get outta mah sight 
+	 before I get whOOp on yo ass!"
+
+And to all you people who just suddenly stopped reading:
+
+	"It was just a joke ffs!"
+;)
+
+
+Cheers geezas, hope you like... it was after all made for you and you alone.
+I love you all ;)
+ 
+Tristan 'P' Temple
+
+'Nuff said.	 
+  
+
+
+

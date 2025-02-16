@@ -1,0 +1,135 @@
+================================================================
+Title           : Nuclear Countdown
+Filename        : countdown.bsp
+Release Date    : 11/28/99
+Game            : Action Quake 2
+Author          : Markus "Shadowfire" Uhlar 
+Email Address   : m.uhlar@gmx.de
+
+Description     : This map combines the themes of 
+                  the Interstate 666 mapping contest and the
+                  movie "Twilight's Last Gleaming" with Richard
+                  Burton. The movie is also known in other 
+                  countries as "Nuclear Countdown" and in Germany
+                  as "Das Ultimatum". 
+                  The summarized story:
+                  Richard Burton plays the leader of a group of
+                  "terrorists", who hijack a nuclear missile silo
+                  and threat to launch the missiles, triggering
+                  the third world war. The military responded
+                  quickly, surrounded the silo and prepared to
+                  storm it...
+                  This map resembles the nuclear missile facility
+                  including the underground bunker, located
+                  somewhere on the I666 close to the Rocky
+                  Mountains in the middle of nowhere.
+                  In the movie, the silo was not stormed, because
+                  even the military leaders didn't risk the
+                  possible consequences, but who knows how the
+                  story would end, in case of a firefight...
+
+                  Is this place on the Interstate 666 the cradle
+                  of the last world war?
+                  Is this the twilight's last gleaming before
+                  the nuclear apocalypse?
+
+Credits         : the A-team
+                  Tim "Argh" Wright, the author of Arghrad
+
+
+================================================================
+* Play Information *
+================================================================
+
+Single Player       : Only for exploring
+Cooperative         : No
+Deathmatch          : Yes, 4-30 players
+Teamplay            : Yes
+New Sounds          : Yes
+New Graphics        : Yes, textures and sky environment maps
+                      /* Note */
+                      This map does not contain any original
+                      Quake 2 texture - all textures are custom
+                      and were all made by myself using Wally
+                      and Photoshop.
+
+================================================================
+* Hints & Remarks *
+================================================================
+
+- the wall separating the road and the complex is climbable
+- the elevator is broken beyond repair - you can use the
+  rope, the stairs or the ladder in the small shed outside to
+  descend into the bunker, or get out of it.
+- pushing the red alert button only opens the silo hatches and
+  sounds the sirens. The nukes don't explode.
+  It was planned to have also another button, which unlocks when
+  the alert is on, which starts a countdown. On zero, everybody
+  outside would be killed instantly by the nukes.
+  This countdown could be stopped by a second push of the button.
+  Although in a small testing map it worked, I could not manage
+  to make it work in the countdown map.
+  I skipped this "feature" in the map, so I can enter the contest
+  now and perhaps add this one in an update later.
+- people with slower machines might experience a slowdown while
+  playing this map. To speed things up, you can try to lower
+  your desktop color depth to 16bit and/or lower the texture
+  detail.
+  People with average and hi-end computers should have no
+  problems.
+
+
+================================================================
+* Construction *
+================================================================
+
+Base                : New level from scratch
+
+Editor(s) used      : bsp building: Qoole
+                      textures    : Wally and Photoshop 4.0
+                      env sky     : Bryce 3D
+                      sounds      : Goldwave
+
+Known Bugs          : The map is larger than the default Quake
+                      viewing distance. This results in clipping
+                      and some unpleasent visual side effects.
+                      It is actually a compromise between
+                      visual quality and frame rate, because the
+                      far objects, that are clipped out of view
+                      must not be rendered, increasing rendering
+                      speed.
+
+Build Time          : 4 weeks
+
+Compile Time        : bsp:  26s
+                      vis:  2622s
+                      rad:  14763s  (used arghrad)
+                      -------------
+                            17411s  - about 5 hours 
+
+Compile machine     : Pentium II 300, 96MB RAM
+
+================================================================
+* Installation *
+================================================================
+
+unzip all files into your quake2\action folder, with
+the restore paths option enabled.
+
+In case, something goes wrong, extract the
+
+bsp file to quake2\action\maps folder
+wal files to quake2\action\textures\shadowfire folder
+wav files to quake2\action\sound\shadowfire directory
+tga & pcx files to quake2\action\env folder
+
+================================================================
+* Copyright / Permissions *
+================================================================
+This level may not be distributed on any CD-ROM
+without prior, explicit permission of author.
+
+Custom textures, sounds and sky environment maps
+may NOT be used by other map authors without
+the permission of author. 
+

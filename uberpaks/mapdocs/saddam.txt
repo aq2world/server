@@ -1,0 +1,80 @@
+
+99/04/15
+
+
+===========================================================================================
+Title                   : SADDAMS LAST BATTLE
+Filename                : SADDAM.BSP
+Game			: ACTION QUAKE 2 
+Author                  : MATS "RUSKPRICK" HOLM
+Email Address           : mats.holm@mbox307.swipnet.se
+Web Address             : ---
+Description             : AN EVIL PLACE
+Additional Credits to   : WALLY, PSP, QOOLE, BINGOBERRA, LEPRA-OLLE, FINDUS, WHISKAS
+                          KATTEN MURRE, VOVVEN, HEINZ, LEIF HAGEN, AND SOME
+                          MORE PEOPLE I CANT REMEMBER.
+
+===========================================================================================
+
+* egoist information *   
+
+maps by me              : (WARLOCKS LAIR)             warlock.bsp     "who knows?..."
+                        : (A TOWEL FOR TUBA)          thetowel.bsp    "bathhouse"
+                        : (THE SEARCH FOR WULFHERE)   wulfhere.bsp    "ancient tempel"
+                          these maps can be found at "ftp.cdrom.com"
+
+                        : (WHEN I KILLED THE TEACHER) teacher.bsp     "school"
+                        : (THE CITY)                  city.bsp        "city"
+                        : (EVEN MORE CITY)            ctbcity.bsp     "karlsson returns"
+
+                        : (SADDAMS LAST BATTLE)       saddam.bsp       "my last for q2"
+
+===========================================================================================
+
+* Play Information *
+
+Single Player           : NO
+Cooperative             : NO
+Deathmatch              : 1-64 
+Teamplay                : YES
+ctb                     : YES
+Difficulty Settings     : NO
+New Sounds              : YES
+New Graphics            : YES
+
+
+===========================================================================================
+
+* Construction *
+
+Base                    : SURE
+Editor(s) used          : QOOLE
+Known Bugs              : YES, BUT I DONT TELL YOU WHAT...
+Build Time              : OVER A MONTH
+Compile Time		: 1 HOUR
+Notes:                  : NO
+
+===========================================================================================
+
+*installation*
+
+unzip the all the files to quake2\action
+
+(if something goes wrong...)
+
+the wal-files : quake2\action\textures\rusk\
+
+the bsp-file  : quake2\action\maps\
+the wav-files : quake2\action\sound\rusk\
+
+===========================================================================================
+
+
+* Copyright / Permissions *
+
+dont do anything to my map you shouldnt do, but...
+You can USE all these textures and sounds for your own quake level WITHOUT my permission,
+DONT CHANGE THEM... PLEASE
+ 
+
+

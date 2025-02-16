@@ -1,0 +1,63 @@
+
+----==[Informações Gerais];
+
+"Não é uma coisa assim que se diga, supiiiimpa, mas que ótimo trabalho! Mas é melhor que nada..." 
+
+Titulo		: La vem o Chaves
+Autor#1		: ATTAZAM (icq=98368795, email=attazam_x1@hotmail.com)
+Filename	: chaves.zip
+Versão		: 0.01
+ExportDate	: 13 Fevereiro 2002
+Game		: Action Quake 2
+qDescription	: Estudio de Gravação do seriado Chaves original "CHAVO DEL OCHO"
+Obrigado	: Chaves - ROBERTO GOMEZ BOLAÑOS
+		  Seu Madruga - RAMÓN VALDEZ CASTILLO
+		  Quico - CARLOS VILLAGRÁN ESLAVA
+		  Sr. Barriga e Nhonho - EDGAR VIVÁR
+		  Dona Florinda e Popis - FLORINDA MEZA GARCÍA
+		  Dona Clotilde "Bruxa do 71" - ANGELINES FERNANDEZ
+		  Chiquinha - MARIA ANTONIETA DE LAS NIEVES
+		  Prof. Girafales - RUBEN AGUIRRE FUENTES
+		  Godinez - HORACIO GOMEZ BOLAÑOS (Irmão de Chespirito)
+		  Paty - ANA LILIAN DE LA MARCORRA
+		  Jaiminho, O Carteiro - RAUL CHATO PADILLA
+		  Senhor Calvillo (O carequinha), Seu Furtado, Garçom do Restaurante de Dona Florinda - RICARDO DE PASCUAL 
+Sem Obrigado	: errr... Para aqueles que falar que meu mapa é feio... :P (Tinha que ser o Chaves mesmo)
+
+
+----==[playing info];
+
+"Estou plantando um pezinho de carambolas que vai dar milhões de carambolas, aí eu vendo os milhões de carambolas, vou comprar milhões de sanduíches de presunto e não vou te dar para você viu seu bobão??"
+
+Single Player	: Se for so para andar e conhecer o mapa SIM! =)
+Cooperative	: N-A-O NUNCA!
+Deathmatch	: Sim!!!!!!!!
+Teamplay	: certamente! 
+
+
+----==[map making/compiling info];
+
+computer	: Pentium 3/550 /w 128mb ram
+editor used	: Quake Army Knife
+qbsp3 		: 17 segundos
+qvis3 		: 121292 segundos-(34 horas), (1356 portalclusters, 5222 numportals)
+qrad3 		: 360 segundos
+textures	: Todas as texturas foram feitas por mim mesmo... e podem ser usadas em qualquer lugar por qualquer um, mas vê se coloca os créditos né!
+
+
+----==[installation];
+
+Unzip chaves.zip to x:\quake2\action\ 
+
+chaves.bsp deve estar em x:\quake2\action\maps\
+textures deve estar em x:\quake2\action\textures\ch\
+sounds deve estar em x:\quake2\action\sound\ch\
+
+
+
+----==[copyright info];
+You may include this map on everyserver you wish or you can put it for download on your page!
+BUT give us credit :)... also the textures may be used in your map.. but give the authors the credit!
+
+
+"Espere só até eu ganhar a minha bola quadrada." 

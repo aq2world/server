@@ -1,0 +1,108 @@
+Readme File.
+
+04.16.´99
+<>-----------------------------------<>
+
+Installation:
+Extract civilwar.zip to your Action Q2 directory.
+Example: C:\Quake2\Action
+
+Infos:
+-------------------------------------
+Map name:		Civil War
+Description:		tactical teamplay map for Action Quake.
+Mod:			Action Quake2
+Authors:		Hammer, Darkman, Malboro Man, Deathbringer
+Email:			wwhammer@usa.net
+Homepage:		clanpage of the Witterschlick Warriors clan([WW]).(in German.English version is coming soon!)
+			http://spiele.freepage.de/wittwarriors 
+--------------------------------------
+New:
+-------
+Textures:		yes.
+Enviroment:		yes.
+Sounds:			yes.
+-----------------------------
+
+Gameplay:
+--------
+Aq2 Teamplay:		yes! yes! yes!
+Aq2 Deathmatch:		yes, but it´s a TEAMPLAY Map!
+"normal" Quake:		no.(try it!)
+--------------------------------------
+
+Files:
+in civilwar.zip:
+------
+civilwar.bsp		the Map
+gas_1.wal		texture
+gas_2.wal		texture
+roof_1.wal		texture
+roof_2.wal		texture
+wood1_1.wal		texture, imported from Quake 1 and modified, (c)by id software
+clock.wav		sound file
+rocksbk.pcx and .tga	environment textures
+rocksdn.pcx and .tga	environment textures
+rocksft.pcx and .tga	environment textures
+rockslf.pcx and .tga	environment textures
+rocksrt.pcx and .tga	environment textures
+rocksup.pcx and .tga	environment textures
+readme.txt		this file.
+--------------------------------------
+
+Informations:
+---------
+bsp time:		a few minutes
+vis time:		2 1/2 Days...
+rad time:		25 minutes
+
+Programs used:
+-----------
+QuArK			best map editor I know. Address: http://www.quakeworld.com/quark
+Adobe Photoshop		for textures and env´s.
+Notepad.exe		for the readme.txt
+
+--------------------------------------
+
+Credits:
+---------
+Peacem@ker,
+SpaceLord		for betatesting
+
+Bill Gates		for many many Bluescreens
+
+q|00			for installing LINUX on my system!! ;)
+
+
+The A-Team		for... ...ACTION QUAKE ! ! ! ! ! !
+			(http://action.telefragged.com)
+
+
+
+***Copyright / Permission:***
+ 
+Please ask us if you want to use our textures or skies in your maps!
+NO distribution!
+
+
+Notes:
+-------
+
+Die, Mufti, die!!!!!
+;)
+-------------------------------------
+
+Tips:
+------
+-Shoot the pipeline at the gas station, maybe you can toast an enemy!
+-You can use the big gun!
+ Fire(or kick) at the red button!
+-You can block the way between the villages! Find it out!
+
+-Check all roofs and high places for snipers!
+------------------------------------
+  
+Have fun!
+
+-Hammer
+and the civilwar team!

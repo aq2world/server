@@ -1,0 +1,89 @@
+================================================================
+Title                   : The City Under Siege
+Filename                : citysiege.bsp
+BSP Size		: 2497 Kilobytes (2,557,168 Bytes = 2.45MB)
+Release Date            : 20/12/2001 (DD/MM/YYYY)
+Author                  : Michael Manes (Togorian)
+URL                     : http://members.iinet.net.au/~manes/togorian/
+Email                   : togorian@iinet.net.au
+Credits                 : - ID software for the Quake 2 engine.
+			  - The A-team for Action Quake 2.
+			  - Lithium Software for Qoole v2.50.
+			  - Ty Matthews and Neal White for Wally.
+			  - Firewalker for getting me into mapping.
+			  - Ruskprick, CryptR, Skull 'n Bones and
+			    Sinner for their cool textures I used.
+			  - Again Firewalker for his sound 
+			    passin\wholemap.wav.
+			  - Whoever made rig\idle.wav and
+			    world\doorslam.wav.
+			  - "Homer[CK]" Dave Waters for his truck
+			    prefab.
+			  - Eric "Cool Death" Brough for his
+			    streetlight prefab.
+			  - Jason Abbott for his cool city1 sky.
+			  - Tim Wright for Arghrad 2.01.
+			  - Geoffrey DeWan for his versions of
+			    Qbsp3(v1.08) and Qvis3(v1.02).
+			  - The creators of LTK. The bots were helpful
+			    when testing the map.
+			  - People on the AQMD forum for answering
+			    posts I have put up there, plus ones other
+			    people put up which I learnt from.
+			  - Firewalker and WetWired for putting up
+			    with all the questions I have asked them
+			    about mapping.
+			  - My friends Scott, Kiera, Stacked, alky, Derty, 
+                            WetWired, Firewalker and my brother Plas
+			    for checking out my map and and giving me 
+			    their opinions on it.
+			  SORRY IF I HAVE FORGOTTEN ANYONE!
+================================================================
+* Play Information *
+
+Single Player           : No
+Cooperative             : No
+Deathmatch              : No
+ActionQuake DM          : Yes (2-16 players)
+ActionQuake Teams       : Yes (2-16 players)
+Difficulty Settings     : No
+New Sounds              : Yes
+New Textures            : Yes
+New Music               : No
+Demos Replaced          : None
+No. of SP Spawn points	: 0
+No. of DM spawn points	: 10
+
+* Installation *
+ Extract (unzip) in the *:*\quake2\action directory.
+ All paths provided.
+
+* Construction *
+
+Base                    : New level from scratch
+Editor(s) used          : Qoole v2.50, Wally 1.41B
+Known Bugs              : None, execpt sometimes from certain angles you can 			  			  see the elevator wires sticking out into the sky. 			  			  Feel free to let me know if you find any others.
+Build Time              : About 150 or so hours in little bits over two years.
+Compile machine         : Pentium Celeron 566, 256mb ram
+QBSP3 Time              : 27 seconds
+QVIS3 Time              : 48,545 seconds (13 hours, 29 minutes and 5 seconds)
+QRAD3 Time              : 1,434 seconds (23 minutes and 54 seconds)
+Total			: 50,006 (13 hours, 53 minutes, 26 seconds)
+
+* Where to get this level *
+
+http://members.iinet.net.au/~manes/togorian/
+
+* Copyright / Permissions *
+
+Copyright (c) 2001.  All rights reserved.
+
+You may use my textures for your own action maps (although there
+aren't many). They are located in the textures/togorian directory in
+your action directory. Do NOT use this level as a base for your own
+maps at all, I have my own plans for it in the future!
+This level may not be distributed on any CD-ROM
+without prior, explicit consent from me.
+
+This level may not be used on a commercial 
+Multi-player server without similar explicit consent.

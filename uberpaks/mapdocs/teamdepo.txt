@@ -1,0 +1,69 @@
+Instructions:  Extract the archive (preserving directories!)
+	       into your \quake2\action directory.
+
+=======================================================================================================
+Title                   : Military Supply Depot
+Filename                : teamdepo.bsp
+Author                  : Brian Vannatta
+Author's Quake Name	: Strag
+Author's E-mail Address : vannatta@cis.ohio-state.edu
+Where to get ActionQ2   : http://action.telefragged.com
+
+Description:		: Medium sized AQ2 TEAMPLAY ONLY map set in an empty military supply depot at
+			  night.  There are NO WEAPONS OR AMMO IN THE MAP FOR DM PLAY.
+
+Additional Thanks       : Gid (gid@herpeshelp.org) for playtesting, suggestions, being DA TECKSTURE
+			  EDITAH (modifying textures for use in da level), hosting on his server,
+			  and being THE shiznit.
+                          The Cybernetic Killers AQ2 Clan (http://cybernetickillers.hypermart.net)
+			  for playtesting and suggestions.
+			  LOL-7TheBigHert for playtesting and shiznit.
+			  Playtesters from Efnet #actionquake2, and various other playtesters
+			  who joined certain playtesting sessions.
+			  Carl because he's just that cool.
+			  Tim Wright (argh@ntplx.net) for the excellent Arghrad v2.0.
+			  Ben Morris for Worldcraft.
+			  A-Team (http://action.telefragged.com) for AQ2.
+			  id Software (http://www.idsoftware.com) for Quake2 and all their past
+			  (and upcoming) games.
+=======================================================================================================
+
+
+* Level Information *
+
+Description:  
+"Military Supply Depot" is a TEAMPLAY ONLY AQ2 map.  The theme is a 
+military supply depot located somewhere out in the middle of nowhere.
+It's just you and da boys.  Time of day is night, and it's pretty dark out.
+(Be sure to listen for the wolves over by the water towers.)
+
+
+New Sounds:  Yes
+Night/cricket sounds, swamp sounds, and wolves baying.
+
+		
+New Textures:  Yes
+All textures taken/modified from other authors' textures.  Big thanks go to Gid for
+modifying some textures to fit in certain areas of the level.  I'm not taking credit
+for or trying to steal other authors' work, I just wanted to use some of their textures 
+to make a fun AQ2 map.  Thanks to all the respective people from whom I took them.
+
+
+
+* Build Info *
+
+Computer:  P2-350, 128MB PC-100 SDRAM, Voodoo1
+Editor:    Worldcraft v1.6a registered
+Brushes:   about 1000
+QBSP3:     18 seconds
+QVIS3:     4515 seconds
+(v2.0) ARGHRAD -extra -ambient 0.175:  1771 seconds (with phong shading enabled on
+                                       about 80 brushes)
+
+
+* Disclaimer / Permissions *
+
+This map is for AQ2 TEAMPLAY ONLY.  There are no weapons and/or ammo in the level for
+DM play.
+
+This map is free, so do NOT sell it!

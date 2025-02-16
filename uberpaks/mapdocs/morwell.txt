@@ -1,0 +1,119 @@
+================================================================
+* General Information *
+
+Title                   : Morwell -by Gallop
+Filename                : Morwell.zip
+Release Date            : April 20 2002
+Author                  : Gallop
+URL                     : http://aqmd.telefragged.com
+Email                   : vindictor_233@hotmail.com
+================================================================
+* File Information *
+
+.bsp Name               : Morwell.bsp
+ZIP Size (KB)           : 2.52meg KB
+================================================================
+* Play Information *
+
+Single Player           : No
+Cooperative             : No
+Deathmatch              : not intended for
+ActionQuake DM          : Yes
+ActionQuake Teams       : Yes
+DM Spawn Points         : 11
+Max Player Load         : lots
+Difficulty Settings     : No
+New Sounds              : No, i didnt want to rip any off cos i 
+			  dont know how to make my own
+New Textures            : Yes
+New Music               : No
+Demos Replaced          : None
+================================================================
+* Installation *
+ Extract (unzip) in the *:*\quake2\action directory. All paths provided.
+================================================================
+* Construction *
+
+Base                    : New level from scratch
+Editor(s) used          : WORLDCRAFT 1.6a 
+Known Bugs              : Feel free to let me know if you find any
+Build Time              : approximately a month and 10 days
+
+			
+Compile machine         : AMD THUNDERBIRD 1ghz @ 1.2ghz, 256meg RAM
+QBSP3 Time              : 8 secs
+QVIS3 Time              : 109694 secs
+QRAD3 Time              : 1670 secs
+			
+			30hours, 56mins,  30secs.....Hell yeah, so many brushes
+================================================================
+* Description *
+I live in a town called Traralgon, victoria, Australia. Ive always 
+wanted to finish a map for action but never could, i was uninspirered
+and had no direction or influences.i'd always tottered around with AQ2
+map making but never got anywhere with it. But then came the latest (and i hope 
+not last) AQMD mapping contest. So i thought this is it, finally i can 
+do something ive always wanted to do, with direction. But then i had another
+dilema, where to get my references from... So i finally came up with a
+plan on the 27th of march (thats a little more than a month away from the deadline)
+i hauled arse and i decided to take a little trip over to a town called 
+morwell,  which is about 10kms away, and take some  photos for reference 
+because morwell is such a run down town, sorta like an abandoned town or 
+something with a few people left thier to keep the town alive. Well anyway
+i took all of these photos used them and pieced them together to create my map.
+
+
+
+================================================================
+*Textures*
+
+I made all of the textures feature in this map (with the exception 
+of the ones indicated below) so dont flogg them and called them 
+your own...please
+
+These following textures i take no credit for, and are from other AQ2 maps:
+
+Asphalt.wal
+Asphalt.wal was modified to create grassphalt.wal and grassphalt2.wal
+Gray.wal
+roof103.wal
+roof104.wal
+patchystone.wal
+
+And also those "The Killer" movie posters werent made by me, but take from 
+the net and made into .wals
+(if you havent seen The Killer, see it, really!)
+
+killer1.wal                  http://home.swipnet.se/~w-20851/hemsida/killer.htm
+japKiller.wal                http://home.swipnet.se/~w-20851/hemsida/killer.htm
+killerrepr.wal               http://members.tripod.lycos.co.kr/apost/
+killer2.wal, killer5.wall    http://members.tripod.lycos.co.kr/apost/
+
+
+================================================================
+* Credits *
+id software, for sure, without them no Quake2.
+The A-team without them no Action quake2.
+and of course the Action Quake Map Depo with out them i wouldnt have 
+gotten of my arse and made this map.
+Wally, texture editor. ahhh wally.
+Paint shop Pro 5, its damn old but does the job.
+================================================================
+* Where to get this level *
+
+http://aqmd.telefragged.com i guess
+
+================================================================
+* Copyright / Permissions *
+
+Copyright © 2001 .  All rights reserved.
+
+This level may not be distributed on any CD-ROM
+without prior, explicit consent from 
+
+This level may not be used on a commercial 
+Multi-player server without similar explicit consent.
+
+
+================================================================
+

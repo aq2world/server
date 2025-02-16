@@ -1,0 +1,129 @@
+================================================================================
+* ACTION QUAKE II LEVEL INFORMATION *
+--------------------------------------------------------------------------------
+TITLE                   : Matrix2: What is the Matrix?
+FILENAME                : matrix2.zip
+AUTHOR                  : Brent "WetWired" Waller
+DATE                    : 19.1.2000
+EMAIL ADDRESS           : wetwired@hypermax.net.au
+HOMEPAGE URL            : http://www.quakeclan.net/consortium
+
+--------------------------------------------------------------------------------
+* LEVEL DESCRIPTION *
+--------------------------------------------------------------------------------
+Well here it is, The movie the Matrix is what inspired me to take up mapping in 
+the first place, and the idea for this map has been brewing in my head for well 
+over 6 months, at first I made a basic lobby which I gave to tigereye and he 
+added to it and created "Inside The Matrix" which didn't really turn out the way
+I originally had intended. So here I am... 4 maps later with the experience I
+need to create this map the way I orginally had  intended (sort of). A rooftop
+was planned for this map but after creating the first few floors I realised a 
+roof would only make the map too large and would end up with rounds taking 20 
+minutes while everyone ran around looking for each other. So anyway here it is..
+the lobby scene and other areas for all you Action junkies to recreate some kick
+arse scenes from a kick arse movie.
+
+--------------------------------------------------------------------------------
+SINGLE PLAYER           : yes but just to look around
+CO-OPERATIVE            : no
+DEATHMATCH              : yes
+ACTION QUAKE II         : 2 Teams (6 spawn points)
+SUGGESTED PLAYER LOAD   : 2 to 16
+
+NEW TEXTURES            : Yes
+NEW SOUNDS              : Yes
+CD TRACK #              : 0
+
+--------------------------------------------------------------------------------
+* CONSTRUCTION *
+--------------------------------------------------------------------------------
+MAP BASE                : New Map
+PREFABS USED            : The video camera in the interogation room and the 
+			  Dr Pepper vending machine which was made by Bok Choy
+			  <trjones@bigfoot.com>
+EDITOR(S) USED          : QOOLE 2.50
+OTHER UTILITIES USED    : Wally 1.41 Beta, ArghRad 2.01
+
+KNOWN BUGS              : Sometimes your legs get damaged going down the air vent,
+			  so use at your own risk (it did actually kill you but I
+			  fixed it but not enough it seems)
+
+COMPILE MACHINE         : AMD K6-II 400Mhz, 128Mb of RAM
+
+QBSP2 TIME              : 18 seconds
+VIS TIME                : 451 seconds (7 Minutes, 31 Seconds)
+QRAD TIME               : 1685 seconds (28 Minutes, 5 Seconds)
+
+--------------------------------------------------------------------------------
+* OTHER LEVELS BY THE AUTHOR *
+--------------------------------------------------------------------------------
+: Inside the Matrix (matrix.zip) - co-authored with TIGEReye
+: The Pub With No Beer (nobeer.zip)
+: The Pub With Beer (beer.zip)
+: Tequila Sunrise (tequila.zip)
+
+
+--------------------------------------------------------------------------------
+* SPECIAL INSTRUCTIONS / ADDITIONAL INFORMATION *
+--------------------------------------------------------------------------------
+You have to open the vent door by shooting it...and the vent is a bit tricky to 
+get up but that'll slow the camper rate down, it's mainly there in case you get
+stuck on top of the elevator anyway. Also, the black ledges to the side of the 
+elevator downstairs are climbable so you can get up to the little balconys
+quickly. The road outside the window has bounce pads randomly placed so you have 
+a chance of either dying (and getting a death message sent to the whole map) or
+bouncing a bit like neo did when he first attempted "the jump". also the little
+vents you can see, you can walk through them to some wind tunnel/vents. There's
+some secret sounds placed around the map that'll let you find, but I'd say you
+would find them yourself while recreating the matrix movie.
+
+--------------------------------------------------------------------------------
+* CREDITS *
+--------------------------------------------------------------------------------
+The A-Team              : For making a KICK ASS Mod
+The People who made	: Qoole, Wally, Arghrad! and all those other 
+			  non-microsoft products.
+Scuzzy                  : For enlightening me on the joys of phong shading and 
+			  detail brushes, and fixing that wav file for me!...
+			  for giving me input as I progressed through many
+			  different versions, for watching David Letterman late
+			  at night, every night...(and that turkish guy just
+			  isn't funny) and for heaps of other stuff he helped me
+			  out with that I've lost count...
+WOLF [BIA]              : For giving me screenshots from the matrix DVD :)
+FiReWaLKeR [TDm]	: For looking over some betas and giving me some feedback
+=][The Consortium][=	: To my clan that keeps getting better all the time, 
+			  Deadpool, Drake, DIABLO, Nihlist, Morphic, ^Smurf^ 
+			  and Demo Man.
+To these people for just being mates along the AQ2 history 
+(well since I've been playing anyway)
+			: Oswald, JINX, TIGEReye, reags, anyone from WoZ, SyN, rev,
+			  DeRtStA, Dantonia, J-Man, K-Man (hehe that sounds 
+			  weird), Patient X, FoiG, any ex-Consortium or Syndicate
+			  members.
+God Incarnate		: For being the author of one of the first maps that felt
+			  like you were actually somewhere and not in a lego city.
+Xatrix			: For releasing their unused Kingpin textures.
+Textures - 		: Most of the textures I got from several sites (although
+			  some I made myself) I've lost track of where they all
+			  came from but here's a link where I usually go for
+			  textures http://ahlmd.telefragged.com/freetex.shtml
+
+================================================================================
+* COPYRIGHT / PERMISSIONS *
+--------------------------------------------------------------------------------
+Authors MAY NOT use this level as a base to build additional levels.
+
+You MUST NOT distribute this level UNLESS you INCLUDE THIS FILE WITH
+NO MODIFICATIONS. If you don't co-operate, then DON'T DISTRIBUTE IT
+IN ANY FORM.
+
+This LEVEL may be distributed ONLY over the Internet and/or BBS systems.
+You are NOT authorized to put this LEVEL on any CD or distribute it in
+any way without my written permission.
+
+Action Quake II (C) 1998-2000 The A-Team.
+Quake II (C) 1998-2000 id Software. All rights reserved.
+
+
+

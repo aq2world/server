@@ -1,0 +1,48 @@
+06/09/2002
+===========================================================================================
+Title                   : teamloko
+Filename                : teamloko.zip
+Game			: Action Quake2
+Author                  : Byte
+Email Address           : juliorj@ig.com.br
+Web Address             : http://www.rexhp.cjb.net
+Additional Credits to   : A aqueles q me criticaram,
+			  Paint Shop pro 7, Wally(edit texture) and Photoshop 6.0  ROX A LOT!!                 
+===========================================================================================
+Editor(s) used          : Qoole
+Build Time              : 20 days
+Compile Time		: QBSP3
+			   - 25 sec.
+			  QVIS3
+			   - 228910 sec.
+			  ARGHRAD -EXTRA :)
+			   - 6186 sec.
+
+Description: 
+
+NO SOUNDS
+NO SPECIAL EFECTS
+
+=====================================================================
+Install:
+
+in Quake2\ACTION
+
+
+test:
+
+set deathmatch 1
+map bairro3
+wait..
+=======================================================================
+
+
+
+
+
+|Copyright / Permissions|
+
+
+http://www.unigames.com.br/action
+http://www.unigames.com.br/action/fba
+

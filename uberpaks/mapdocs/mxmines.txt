@@ -1,0 +1,65 @@
+=============================================================================
+Title                   : Malax Mines
+
+Archive                 : mxmines.zip
+
+Release Date (DD/MM/YY) : 08/11/99
+
+Author                  : Carl-Magnus Bjorkell (aka [tBd] NRGizeR)
+Email Address           : carl-magnus.bjorkell@pp.inet.fi
+Web Site                : http://zap.to/tbd
+
+Description             : Map for Action Quake (http://aq2.action-web.net).
+                          Contains: Minesystem, houses
+				    cliffs, waterfall, lake.
+
+Installation            : Unzip mxmines.zip into root of your Action Quake
+                          game folder (Quake2/Action), with Subdirectories
+                          enabled (!), so that all textures and sounds will be
+                          unzipped into correct directories (USE FOLDER NAMES
+                          checkbox in WinZip or -d switch in PKUnZip).
+                                                    
+Additional Credits to   : ruskprick for some awesome textures.
+                          [tBd] SirToby for beta testing.
+                          Rust (www.gamedesign.net) for the great tutorials
+                          and forum.
+                          A-Team for making the greatest Quake2 Multiplayer mod ever.
+                          id Software.
+                          
+
+=============================================================================
+* Play Information *
+
+Game                      : Action Quake (Quake2)
+Single player             : Yes (only for looking around)
+Teamplay                  : Yes
+Deathmatch 2-12 players   : Yes 
+
+New Graphics              : No 
+New Music                 : No
+New Sounds                : Yes
+DLL                       : No
+
+* Construction *
+
+Base                      : New level from scratch
+Build time                : 10 days
+Compile Machine           : AMD K6-2 400 64MB RAM
+    QBSP3 Time            : 24 seconds
+    QVIS3 Time            : 22 minutes
+    ARGHRAD Time          : 142 minutes
+
+Editor(s) Used            : Qoole
+
+Known Bugs                : Nope
+
+* Copyright / Permissions *
+
+Authors may NOT use this level as a base to build additional
+levels.
+
+You may distribute this BSP, provided you include this file, with
+no modifications, but please distribute original unmodified archive
+which can be obtained from my Web site.  You may distribute this file
+in any electronic format (BBS, Diskette, CD, etc) as long as you
+include this file intact.

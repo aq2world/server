@@ -1,0 +1,93 @@
+Date: Febuary 1999
+____________________________________________________________________________________________
+
+			   General Information
+Title				: The Lost City of Arcadia
+File Name			: arcadia.bsp
+Game Mod Intended		: Action Quake 2
+Author				: Ætherum (Trevor Henderson)
+E-Mail				: tchenderson@csupomona.edu
+Description			: A City that has been lost for 21 years...
+____________________________________________________________________________________________
+
+				 Credits
+Textures			: id Software and my own
+Sounds				: None
+Sky				: Westclox (dasuck@yahoo.com)
+Idea				: My own
+Billboards			: Leethal[AQK] and my own
+Anything Else			: My own
+____________________________________________________________________________________________
+
+			     Play Information
+Single Player          		: NO
+Cooperative             	: NO
+Deathmatch              	: 1-64 
+Teamplay                	: YES
+Difficulty Settings     	: NO
+New Sounds              	: NO
+New Graphics            	: YES
+____________________________________________________________________________________________
+
+			      Construction
+Base                    	: NONE
+Editor(s) used          	: QOOLE
+Known Bugs              	: NO
+Build Time              	: Aproximently one in a half months
+Compile Time			: Finally Compile was aproximently 11 hours
+Notes:                  	: This Readme =)
+____________________________________________________________________________________________
+
+				 Other
+	I give anyone else the permission to use any textures or ideas from this map on the 
+condition that I get recognized in your map release readme.txt (Makes me feel special, hehe).
+____________________________________________________________________________________________
+				 
+				 Story
+
+6-22-1963
+-Arcadia, a young growing city in northern Russia vanishes.  The Russian Military is baffled 
+by the disappearance of Arcadia, the cause is unknown to them, however a top secret 
+underground military research facility located in the vicinity persuades the Russian 
+Military to conceal any knowledge of Arcadia's disappearance from ever being released to the 
+rest of the world, including many Russian Divisions.
+
+5-17-1964
+The military officer in charge of the cover up dies, with him the knowledge of Arcadia's 
+disappearance is lost forever, and the city it self becomes nothing but and urban myth...
+
+7-30-1984
+-During the Cold War a covert operation of the United States government has begun.
+A small team of Elite military operatives has penetrated Russia's borders from the north 
+after an Arial drop off from a stealth plane flying over the polar ice caps.  Upon landing
+the U.S. Special Forces team heads south en route to a nuclear missile silo.  There mission 
+to retrieve a active Russian nuclear warhead without being detected.  With the purpose of 
+allowing United States scientist to analyze the Russia's nuclear capabilities.
+-A small, remote radar station in Siberia detects a small radar signature from the 
+parachutes of the U.S. Special Forces team.  Unaware if it was a true radar signature 
+or just a glitch the Russia radar station follows procedure and reports it to Russian 
+military immediately.  Russian military locates the position of the radar signature and 
+uses satellite imagery.  The image produces a small number of dots.  Unsure of the 
+exact nature of the dots the Russian's believe them to be people and in fear of those 
+people being part of a U.S. military operation the Russian military dispatches its 
+own small team of marine special forces.  The marine force is given the mission 
+objectives of finding and accessing the threat of the unknown 'dots' found on the 
+satellite image and neutralizing any threat.
+
+8-1-1984
+-The Russian marine team arrives at the position of the radar signature to find several
+hidden parachutes.  Quickly they pick up the tracks of the U.S. Special forces team and 
+begin their pursuit.
+
+8-5-1984
+-The U.S. Special force team comes upon a small urban city.  Surprised, they re-check their 
+maps.  They find only terrain on their maps where the city stands, the closes city on the 
+map is 94 miles away.  Confused they approach the city with caution and paranoia.  Upon
+entering the find it empty.  An eerie silence pierced the town.  The U.S. Special forces
+team was baffled by the fact that it was empty, yet the buildings showed no sign of decay.
+-Close on the U.S. Special Forces tracks the Russian marine team came upon the same city.
+The Russian marine team was just as confused to find the city there as well.  After checking
+their maps they found no city there as well.  With the same confusion as the U.S. Special 
+forces team they approached with caution.
+
+-Now both rival factions wondered the streets of "The Lost City of Arcadia"...

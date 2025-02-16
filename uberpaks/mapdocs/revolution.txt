@@ -1,0 +1,63 @@
+================================================================
+* General Information *
+
+Title                   : Revolution!
+Filename                : revolution.zip
+Release Date            : 16.10.2005
+Author                  : Nico "pauhi" Tukiainen & Janne "MarlPoro" Räisänen
+Email                   : chiii1986@hotmail.com
+================================================================
+* File Information *
+
+.bsp Name               : revolution.bsp
+================================================================
+* Play Information *
+
+Single Player           : No
+Cooperative             : No
+Deathmatch              : No
+ActionQuake DM          : Yes
+ActionQuake Teams       : Yes
+DM Spawn Points         : No
+Max Player Load         : Unsure
+Difficulty Settings     : No
+New Sounds              : Yes
+New Textures            : Yes
+New Music               : No
+Demos Replaced          : None
+================================================================
+* Installation *
+ Extract (unzip) in the *:*\quake2\action directory. All paths provided.
+================================================================
+* Construction *
+
+Programs used         	: Worldcraft 1.6, Photoshop CS, MarlPoro
+Known Bugs              : None
+Build Time              : Loads of seconds
+================================================================
+* Description *
+
+I wanted to make a map but I was completely out of ideas, so I asked
+MarlPoro to draw me a layout of a map so I could make it, he did!
+It's not exactly as the layout but mostly yes.
+This is a pretty fast paced map suited for m4 and ssg.
+
+================================================================
+* Special thanks to *
+
+- MarlPoro (For drawing the layout and giving ideas through mapping period)
+- Beaviss (For helping me out with textures and giving ideas for the map!)
+- NemesiS (For giving ideas and helping out)
+- All the betatesters
+- Everyone whos textures I have used
+
+================================================================
+* Where to get this level *
+
+http://koti.welho.com/ntukiain/revolution.zip
+
+================================================================
+* Copyright *
+
+
+Copyright © 2005 .  All rights reserved.

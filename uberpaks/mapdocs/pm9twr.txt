@@ -1,0 +1,90 @@
+TITLE                   : PaTMaN's 9 Towers
+FILENAME                : pm9twr.zip
+AUTHORS                 : PaTMaN
+DATE                    : Jan 22, 2001
+EMAIL ADDRESS           : patman_q@hotmail.com
+ICQ#			: 14999645
+HOMEPAGE URL            : http://members.nbci.com/patmansgames/
+.zip CONTENTS           : Map: pm9twr.bsp
+			  Text: pm9twr.txt
+
+--------------------------------------------------------------------------------
+* INSTALLATION *
+--------------------------------------------------------------------------------
+Extract pm9twr.zip with "Use folder names" checked to your Action Quake2 dir 
+
+------------OR------------
+
+Extract:
+
+	Map and Text to               (aq2dir)/maps
+
+--------------------------------------------------------------------------------
+* LEVEL DESCRIPTION *
+--------------------------------------------------------------------------------
+9 Towers connected by walkways. Each tower has a certain weapon and full ammo
+for that weapon.
+--------------------------------------------------------------------------------
+SINGLE PLAYER           : 1 Player Start Point
+CO-OPERATIVE            : 0 Player Start Points
+DEATHMATCH              : 9 Player Respawn Points
+ACTION QUAKE II         : DM
+SUGGESTED PLAYER LOAD   : 1 to 8 
+
+NEW TEXTURES            : No
+NEW SOUNDS              : No
+CD TRACK #              : 0
+
+--------------------------------------------------------------------------------
+* CONSTRUCTION *
+--------------------------------------------------------------------------------
+MAP BASE                : New Map
+PREFABS USED            : None
+EDITOR(S) USED          : qED3.0.1, QERadiant 1.0 Beta Build 147
+OTHER UTILITIES USED    : Q2BeaVeR 4.0.0
+
+KNOWN BUGS              : None
+
+COMPILE MACHINE         : AMD Athlon 900mhz 192mb RAM
+
+QBSP2 TIME              : 0 Hours  0 Minutes   1.02 seconds
+VIS TIME                : 0 Hours  1 Minute   25.70 seconds
+ARGHRAD TIME            : 0 Hours  3 Minutes  29.73 seconds
+Total Time		: 0 Hours  4 Minutes  56.45 seconds
+--------------------------------------------------------------------------------
+* OTHER LEVELS BY THE AUTHOR *
+--------------------------------------------------------------------------------
+PDM1          (q1)
+MBG City      (q2)
+MBG City 2    (q2)
+Blockfort     (q2)
+PGarden       (q2)
+Death on Ice  (q2)
+Shark Bait!   (q2)
+PM Free Fall! (q2)
+
+Being worked on:
+Just ideas so far
+
+--------------------------------------------------------------------------------
+* CREDITS *
+--------------------------------------------------------------------------------
+The A-Team              : For making Action Quake2
+ID Software		: For making Quake2
+
+================================================================================
+* COPYRIGHT / PERMISSIONS *
+--------------------------------------------------------------------------------
+Authors MAY NOT use this level as a base to build additional levels without my
+permission.
+
+You MUST NOT distribute this level UNLESS you INCLUDE THIS FILE WITH
+NO MODIFICATIONS. If you don't co-operate, then DON'T DISTRIBUTE IT
+IN ANY FORM.
+
+This LEVEL may be distributed ONLY over the Internet and/or BBS systems.
+You are NOT authorized to put this LEVEL on any CD or distribute it in
+any way without my written permission.
+
+Action Quake II (C) 1998-99 The A-Team.
+Quake II (C) 1998-2001 id Software. All rights reserved.

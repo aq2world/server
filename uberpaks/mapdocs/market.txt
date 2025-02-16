@@ -1,0 +1,78 @@
+=============================================================================
+Title                   : The Market Square
+
+Archive                 : market.zip
+
+Release Date (DD/MM/YY) : 11/28/99
+
+Author                  : Carl-Magnus Bjorkell (aka [tBd] NRGizeR)
+Email Address           : carl-magnus.bjorkell@pp.inet.fi
+Web Site                : http://zap.to/tbd
+
+Description             : Map for Action Quake (http://aq2.action-web.net).
+                          Contains: large buildings
+				    market square
+				    park
+				    onramp to interstate 666
+				    a couple of indoor areas
+				
+
+Installation            : Unzip market.zip into the root of your Action Quake
+                          game folder (Quake2/Action), with Subdirectories
+                          enabled (!), so that all textures and sounds will be
+                          unzipped into correct directories (USE FOLDER NAMES
+                          checkbox in WinZip or -d switch in PKUnZip).
+                                                    
+Additional Credits to   : ruskprick for some awesome textures.
+                          [tBd] SirToby for some textures (the 's_*.wal' textures)
+			  [tBd] Delta for beta testing and constructive critisism
+			  EXE:Danni for LOTS of constructive critisism
+			  David Spurr for the Phonebooth prefab
+			  Dan Thompson for the Table and Chair prefabs
+			  JesperMyrfors for the Interstate 666 texture
+			  Argh! for ArghRad
+                          Rust (www.gamedesign.net) for the great tutorials
+                          and forum.
+                          A-Team for making the greatest Quake2 mod ever.
+                          id Software for Quake 2.
+			  Geoffrey DeWan for his improved compiling tools                  
+
+=============================================================================
+* Play Information *
+
+Game                      : Action Quake (Quake2)
+Single player             : Yes (only for looking around)
+Teamplay                  : Yes
+Deathmatch 2-20 players   : Yes (16 spawn points) 
+
+New Graphics              : Yes
+New Music                 : No
+New Sounds                : Yes
+New Sky			  : Yes
+DLL                       : No
+
+* Construction *
+
+Base                      : New level from scratch
+Build time                : 1 month
+Compile Machine           : Intel Celeron 400 @ 570, 64MB RAM
+    QBSP3 Time            : 41 seconds
+    QVIS3 Time            : 12 minutes
+    ARGHRAD Time          : 117 minutes
+
+Editor(s) Used            : Tread, Wally, Paint Shop Pro 6.0, ArghRad, 
+			    Geoffrey DeWan's QBSP3 and QVIS3
+
+Known Bugs                : nope
+
+
+* Copyright / Permissions *
+
+Authors may NOT use this level as a base to build additional
+levels.
+
+You may distribute market.bsp, provided you include this file (market.txt), with
+no modifications, but please distribute original unmodified archive which can 
+be obtained from my Web site (zap.to/tbd).  You may distribute this map
+in any electronic format (BBS, Diskette, CD, etc) as long as you include this 
+file intact.

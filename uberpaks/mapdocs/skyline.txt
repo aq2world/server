@@ -1,0 +1,28 @@
+================================================================================
+* ACTION QUAKE II LEVEL INFORMATION *
+--------------------------------------------------------------------------------
+TITLE                   : Skyline 
+AUTHOR                  : matic               
+DATE                    : 22.03.2024
+EMAIL ADDRESS           : mbatfri@gmail.com
+TOOLS USED		: TrenchBroom, eriw-tools
+
+================================================================================
+* LEVEL DESCRIPTION *
+--------------------------------------------------------------------------------
+AQtion city's skyline offers much fun, danger, good music and extra features.
+Watch your step!
+
+To experience the map as intended do not forget to enable breakable glass by 
+typing breakableglass 1 into console and reloading the map.
+
+Enjoy!
+
+================================================================================
+* CREDITS *
+--------------------------------------------------------------------------------	
+Special thanks to:
+ - other mappers for their textures:
+	Beavisss, Flunx, makkon, makro, NRGizer, peep, Shadowfire and WizardExt.
+	
+ - TouBiE for providing music playing in the bar.

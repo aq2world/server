@@ -1,0 +1,51 @@
+================================================================================
+* ACTION QUAKE II LEVEL INFORMATION *
+--------------------------------------------------------------------------------
+TITLE                   : Sunken ruins 2
+FILENAME                : sunken2.zip
+AUTHOR                  : PieniMies
+DATE                    : 01.09.2004
+EMAIL ADDRESS           : a_maksimainen@hotmail.com
+HOMEPAGE URL            : http://www.huhtimo.com/star
+.zip CONTENTS           : None
+
+--------------------------------------------------------------------------------
+* LEVEL DESCRIPTION *
+--------------------------------------------------------------------------------
+Sunken ruins
+
+--------------------------------------------------------------------------------
+SINGLE PLAYER           : 0 Player Start   Point(s)
+CO-OPERATIVE            : 0 Player Start   Point(s)
+DEATHMATCH              : 0 Player Respawn Point(s)
+ACTION QUAKE II         : 2 Teams
+                          11 Player Respawn Points per Team
+SUGGESTED PLAYER LOAD   : 4 to 18
+
+NEW TEXTURES            : No
+NEW SOUNDS              : No
+CD TRACK #              : 0
+
+--------------------------------------------------------------------------------
+* CONSTRUCTION *
+--------------------------------------------------------------------------------
+MAP BASE                : New Map
+PREFABS USED            : None
+EDITOR(S) USED          : Qoole 99
+OTHER UTILITIES USED    : None
+
+KNOWN BUGS              : some lighting bugs :)
+
+
+--------------------------------------------------------------------------------
+* OTHER LEVELS BY THE AUTHOR *
+--------------------------------------------------------------------------------
+Summer, Santa, Sunken
+
+--------------------------------------------------------------------------------
+* CREDITS *
+--------------------------------------------------------------------------------
+The A-Team              : For making a KICK ASS Mod
+
+
+

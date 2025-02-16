@@ -1,0 +1,64 @@
+		THE DRY DAM(N)
+			-by AretsaM
+
+=========================================================
+Title		: The Dry Dam(n) (beta 3)
+Filename	: drydamb3.bsp
+Author		: Mattias Andersson, nick AretsaM
+email		: aretsam@2.sbbs.se
+Description	: Made with a theme of a dry dam tourist sight
+
+Credits		: The makers of BSP, ID Software, 
+		Nine Inch Nails (I've listened to them a 
+		LOT when I made this map), and all else 
+		who I may have forgotten.
+		Credits also go out to:
+					Sinner
+					Ruskprick
+					Skull'n'bones
+				'cause I use their textures
+=========================================================
+
+-Info-
+
+Level name		: The Dry Dam(n)
+Single Player		: Can work if you use the upcoming bots
+Action Quake2 DM	: Absolutely
+Action Quake2 TP	: That's why it was made :-)
+
+
+-Construction-
+
+Base		: New level
+Build time	: About a month or so
+Editor uses	: BSP
+Known bugs	: In rare cases you can see through one of 
+		  the walls, but I think it only happends in software..
+
+-Compiling-
+Compile machine:
+		P2 450 Mhz
+		64 Mb SDRAM
+QBSP3		: 10 s
+QVIS3		: 7 h 30 m
+QRAD3		: 3 m
+
+-Info and plain stupid crap written down-
+Some old dams just get abandoned when they dry out. This wasn't.
+This one was made to be a tourist sight for a while. Then the 
+maniacs came. Creeping out at night, they run around, trying to
+shoot each other, slithing each others throats, yes, even kicking
+each other to death...
+They Cannot be stopped...
+They are Action Quakers...
+
+-Installation-
+Just unzip into the action dir
+
+-Legal Stuff-
+All textures used in this map are free to use; I've copied
+most of them myself since I'm not that good at making textures.
+You may reproduce this map if you want to, but please give me cred :-)
+You may distribute this map in any way you wan't (yes, that includes
+copying it out onto CDs and throwing it at people, but I wouldn't
+advice it)

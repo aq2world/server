@@ -1,0 +1,30 @@
+
+11-28-99
+
+===========================================================================================
+Title                   : Urban4
+Filename                : urban4.bsp
+Game			: AQ2
+Author                  : John "Gerbil!" Parish
+Email Address           : gerbil@telefragged.com
+Web Address             : earthquake.telefragged.com
+Description             : Urban4
+Additional Credits to   : moriarty (moriarty@randomc.com) for the textures, and the makers of all other textures
+			  as far as I know, ALL TEXTURES ARE LEGAL                      
+===========================================================================================
+Base                    : Scratch
+Editor(s) used          : QERadiant
+Build Time              : 5 weeks
+Compile Time		: hours
+===========================================================================================
+All these should be unzipped in quake2\action using folder names
+===========================================================================================
+
+*** CONTEST ***
+The highway obviously runs along a small part of an urbanized city :)
+
+Oh, the sky name is hk
+
+* Copyright / Permissions *
+Dont do anything to my map! Ask me!
+

@@ -1,0 +1,46 @@
+]imagelist
+------------------
+
+W  64  64 PAL: textures/omd_accents/snb_grill.wal
+W 128 128 PAL: textures/omd_brick/gol_wall15.wal
+W 128 128 PAL: textures/omd_metals/dm61.wal
+W  32  32 PAL: textures/omd_construct/omd_fence1.wal
+W 256 128 PAL: textures/omd_aq2credits/8.wal
+W 256 128 RGB: textures/omd_aq2credits/action.wal
+
+
+
+W 128 128 PAL: textures/city/xhouse5b.wal
+W 128 128 PAL: textures/city/xhouse6.wal
+W 128 128 PAL: textures/city/xhouse5f.wal
+W  64  64 PAL: textures/city/xroof2.wal
+W 128 128 PAL: textures/city/xhouse2b.wal
+W  64  64 PAL: textures/city/xplank.wal
+W 128 128 PAL: textures/city/xhouse5c.wal
+W 128 128 PAL: textures/city/xhouse6b.wal
+W 128 128 PAL: textures/city/xhouse2c.wal
+W 128 128 PAL: textures/city/xhouse5a.wal
+
+W 128 128 PAL: textures/actcity3/bldg8.wal
+W  64  64 PAL: textures/actcity3/bldg6.wal
+W 128 128 PAL: textures/actcity3/bldg3.wal
+
+W 128 128 PAL: textures/community/xchg1.wal
+W  32  32 PAL: textures/community/xblack.wal
+
+W  32  64 PAL: textures/sinner_pak1/door1.wal
+
+W 128 128 PAL: textures/shadow3/vindu1bsw.wal
+
+W  32  32 PAL: textures/crcity/ladder.wal
+
+W  32  16 PAL: textures/school/xladder.wal
+
+  256 256 RGB: env/drkskyrt.pcx
+  256 256 RGB: env/drkskybk.pcx
+  256 256 RGB: env/drkskylf.pcx
+  256 256 RGB: env/drkskyft.pcx
+  256 256 RGB: env/drkskyup.pcx
+  256 256 RGB: env/drkskydn.pcx
+
+Total texel count (not counting mipmaps): 2335104

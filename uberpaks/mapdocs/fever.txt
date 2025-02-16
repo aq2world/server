@@ -1,0 +1,54 @@
+================================================================
+* General Information *
+
+Title                   : - Club Fever - Feel free to step inside
+Filename                : fever.zip
+Release Date            : 18.12.2005
+Author                  : Petteri "Perditus" Pasanen
+Email                   : petteri.pasanen@gmail.com
+================================================================
+* File Information *
+
+.bsp Name               : fever.bsp
+================================================================
+* Play Information *
+
+Single Player           : No
+Cooperative             : No
+Deathmatch              : No
+ActionQuake DM          : No
+ActionQuake Teams       : Yes
+DM Spawn Points         : No
+Max Player Load         : Unsure
+Difficulty Settings     : No
+New Sounds              : No
+New Textures            : Yes
+New Music               : Yes
+Demos Replaced          : None
+================================================================
+* Installation *
+ Extract (unzip) in the *:*\quake2\action directory. All paths provided.
+================================================================
+* Construction *
+
+Programs used         	: Worldcraft 1.6, Photoshop 7
+Known Bugs              : Stairs below "Welcome" sign may cause leg damage in some situation.
+			  Sofa back in the club. You may get stuck in one place there.
+			  The bridge. If you are crouhing on it you may get stuck. 
+Build Time              : One week.
+================================================================
+* Description *
+
+This is my first map what I have built. Main point was to practice mapping and try few diffrent styles and things. This was the result.
+
+================================================================
+* Special thanks to *
+
+- NemesiS (Told me how to use worldcraft and helped me a lot)
+- pauhi (Made couple textures for me)
+- NRGizeR (Just being so nice <3)
+- Guys @ #aq2maps
+- Templari & Guys @ #pjm (bug hunting)
+- Everyone whos textures etc. I've used
+
+================================================================

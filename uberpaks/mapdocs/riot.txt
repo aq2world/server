@@ -1,0 +1,132 @@
+99/23/02
+===========================================================================================
+Title                   : Riot: Gangbang
+Filename                : Riot.bsp
+Game			: AQ2
+Author                  : Per 'Ellusion' Nyhaug
+Email Address           : Ellusion@Planetquake.com
+Web Addresses           : www.planetquake.com
+			  www.sigma-systems.no/quake
+			  www.sigma-systems.no/norse
+Description             : Small fast multileveled city scene for Action Quake
+Additional Credits to   : Mats 'Rusprick' Holm for the awesome AQ textures
+			  The betatesters:
+				Clan Norwegian Whalers
+				Clan Northern Lights
+				Clan Search & Destroy
+				Clan Secret World Order
+				IceEd
+				PsyClown
+		
+			  Geoffrey DeWan for a better QVIS3
+			  Ty Matthews and Neal White III for Wally
+			  Stecki for the Snow2 enviroment
+			  id Software for the fastest, most fluid FPS shooter still
+			  A-Team for a great mod		  
+===========================================================================================
+* Play Information *
+
+Single Player           : For testing purposes only
+Cooperative             : No
+Deathmatch              : 4-12 
+Teamplay                : Yes, we live for AQ Teamplay :)
+Difficulty Settings     : No
+New Sounds              : Yes
+New Graphics            : Yes
+
+			  Riot: Gangbang will be running on 194.234.124.200:27910 in
+			  the near future.
+===========================================================================================
+* Construction *
+
+Base                    : None
+Editor(s) used          : Worldcraft1.6 & 2.0, Wally
+Known Bugs              : None, not even the gl visibility errors :)
+Build Time              : About 3 months on and off, a hobby thing
+Compile Time		: 
+			  QBSP3 =   12 seconds
+			  QVIS3	= 4504 seconds
+			  QRAD3 = 7306 seconds (-bounce 40 -extra)
+===========================================================================================
+*Installation*
+
+unzip to quake2\action, and you should get these files and their locations:
+
+*Map*
+quake2\action\maps\riot.bsp
+quake2\action\maps\riot.txt
+
+*Textures*
+quake2\action\textures\city\xddoor3.wal
+quake2\action\textures\city\xfloor1.wal
+quake2\action\textures\city\xfloor2.wal
+quake2\action\textures\city\xhouse2b.wal
+quake2\action\textures\city\xhouse2c.wal
+quake2\action\textures\city\xhouse2d.wal
+quake2\action\textures\city\xhouse2g.wal
+quake2\action\textures\city\xhouse5a.wal
+quake2\action\textures\city\xhouse5g.wal
+quake2\action\textures\city\xhouse7.wal
+quake2\action\textures\city\xhouse7e.wal
+quake2\action\textures\city\xhouse7f.wal
+quake2\action\textures\city\xlight4.wal
+quake2\action\textures\city\xplank.wal
+quake2\action\textures\city\xroof1.wal
+quake2\action\textures\city\xroof2c.wal
+quake2\action\textures\city\xroof2d.wal
+quake2\action\textures\city\xroof4.wal
+quake2\action\textures\city\xroof4b.wal
+quake2\action\textures\city\xroof4e.wal
+quake2\action\textures\city\xstair1.wal
+quake2\action\textures\city\xstreet.wal
+quake2\action\textures\city\xstup.wal
+quake2\action\textures\city\xtapet1.wal
+quake2\action\textures\city\xtapet3.wal
+quake2\action\textures\city\xwall1.wal
+quake2\action\textures\community\painting01.wal
+quake2\action\textures\community\painting05.wal
+quake2\action\textures\community\painting08.wal
+quake2\action\textures\community\painting11.wal
+quake2\action\textures\community\xvent3.wal
+quake2\action\textures\riot\cabinet1.wal
+quake2\action\textures\riot\col_blu1.wal
+quake2\action\textures\riot\drawer1.wal
+quake2\action\textures\riot\sign2.wal
+quake2\action\textures\riot\sign3.wal
+quake2\action\textures\riot\sign4.wal
+quake2\action\textures\riot\sign5.wal
+quake2\action\textures\riot\sign6.wal
+quake2\action\textures\riot\sign7.wal
+quake2\action\textures\riot\wood3_1.wal
+quake2\action\textures\riot\wood3_5.wal
+
+*Sounds*
+quake2\action\sounds\riot\wind.wav
+
+*Enviroment*
+quake2\action\env\snow2.txt
+quake2\action\env\snow2bk.pcx
+quake2\action\env\snow2bk.tga
+quake2\action\env\snow2dn.pcx
+quake2\action\env\snow2dn.tga
+quake2\action\env\snow2ft.pcx
+quake2\action\env\snow2ft.tga
+quake2\action\env\snow2lf.pcx
+quake2\action\env\snow2lf.tga
+quake2\action\env\snow2rt.pcx
+quake2\action\env\snow2rt.tga
+quake2\action\env\snow2up.pcx
+quake2\action\env\snow2up.tga
+
+- All city textures and xvent3 belongs to Mats 'Rusprick' Holm
+- The painingxx wals are part of a collection of famous paitings converted by me. Ask and
+  I'll send them. The riot textures are map-specific, but if you want to use them, just ask.
+- The wood3_1 and wood3_5 wal files are not mine. They belong to id Software and Quake1.
+
+===========================================================================================
+* Copyright / Permissions *
+
+This map may be distributed freely over the internet as long as the contents remained
+unchanged and intact, and as long as this txt file is included.
+
+

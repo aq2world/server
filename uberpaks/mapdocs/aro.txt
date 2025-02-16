@@ -1,0 +1,81 @@
+================================================================
+* General Information *
+
+Title                   : The Aro    By:InFinity
+Filename                : Aro
+Release Date            : 19.24.2001
+Author                  : InFinity^
+Email                   : infinity__@peliportti.net
+Description             : hmm... kind of mountain place?
+
+Credits                 - Thanks to The A-team for making KICASS mod!
+                        - and for People who made Qoole99
+                        - And ShD^ and Midian     [RK] who has beta tested this map.
+                        - To all ho has played my other maps
+                        - And Specially to Suppe :))
+
+================================================================
+* File Information *
+
+.bsp Name		: Aro.bsp
+ZIP Size (KB)		: 971 KB
+Screenshot Included	: No
+DM Spawn Points		: 6
+Max Player Load		: 12
+
+================================================================
+* Play Information *
+
+Single Player           : There is one quite 'über jump' :)
+Cooperative             : No
+Deathmatch              : NO
+ActionQuake DM          : yep... if u like?
+ActionQuake Teams       : Yes
+Difficulty Settings     : No
+New Sounds              : No
+New Textures            : Yes
+New Music               : No
+Demos Replaced          : None
+
+* Installation *
+ Extract (unzip) in the *:*\quake2\action directory. All paths provided.
+
+* Construction *
+
+Base                    : New level from scratch
+Editor(s) used          : Qoole99 v0.99
+Known Bugs              : Some lightings are quite crappy...
+Build Time              : about 4 days 
+
+
+
+Compile machine         : AMD K6-2 450mhZ 192mt 
+QBSP3 Time              : 8 sec
+QVIS3 Time              : 1934 sec
+QRAD3 Time              : 2239 sec
+
+* Where to get this level *
+
+http://sivut.koti.tpo.fi/tuusoma/maps/Aro.zip
+
+
+* Other levels by:InFinity *
+
+Junkke
+Junkke2
+
+* Copyright / Permissions *
+
+Copyright © 2001 .  All rights reserved.
+
+This level may be distributed on any CD-ROM
+without similiar explicit consent.
+
+This level MAY be used on a commercial 
+Multi-player server without similar explicit consent.
+
+If u want .map file or something please mail to me     InFinity__@peliportti.net
+
+
+
+

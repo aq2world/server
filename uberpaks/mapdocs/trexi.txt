@@ -1,0 +1,57 @@
+=====================[ *|__Informações do Autor e .zip__|* ]=====================
+---------------------------------------------------------------------------------
+Titúlo                              : [DEAD] Trash!: i'm the Trash!  
+Autor                               : Trash!, Trashy, .Number6. :)                    
+Dia de inicio do compilamento       : 22:39 21/10/02.
+Dia de final do compilamento        : 04:12 23/10/02.
+Uin				    : 114-259-585.
+Endereço de Email                   : mr.trash@pop.com.br
+Paginas                             : www.mapstrash.kit.net 
+Oque Contém no .zip                 : trexi.bsp                        
+                                      Trexi.txt (este arquivo)
+                                      Texturas (no varejo)
+                                      env (trexi).
+
+
+==========================[ *|__Descrição do Map__|* ]===========================
+---------------------------------------------------------------------------------
+
+Single Player           	    : 2 info_player_intermission
+Co-Operative            	    : 3 info_player_coop
+Deathmatch              	    : 16 info_player_deathmatch
+ACTION QUAKE II         	    : 8 info_player_start
+Novas Texturas            	    : sim
+Novos Sons                          : Não
+Musica do CD #                      : 0, não é nescessário.
+
+
+==============================[ *|__Construção__|* ]=============================
+---------------------------------------------------------------------------------
+Editor Usado          	            : Worldcraft 1.6 Shareware.
+Outros Editores Usados	            : Usei compilador em (.bat)
+Bugs Encontrados                    : hahaha, algumas texturas tortas.
+Maquina que desenvolvel             : Pentium3 600, SDRam 128mb, Asus P3W.
+Tempo de QBSP2                      : 9 segundos.
+Tempo de Vis3 -level4               : 72 + 92951 segundos.
+Tempo de Qrad3 (-extra)             : 11614 + 940 + 33 segundos.
+
+
+===============================[ *|__Creditos__|* ]==============================
+--------------------------------------------------------------------------------- 
+Ao "Slug", por me ajudar com o "design" :)  do mapa, e ao ]HmD[:.Dushy. por me zuar e querer se interessar por criação de mapas, ahh, por me emprestar a memo pra poder compilar meu mapa, :D, ao "Suco", autor dos mapas (JUICE1, JUICE2, NINE), pela grande ajuda nos meus primeiros dias de mapping :), e a minha cadela "Bitchy", que ia me encher o saco quando tava estressado por não achar o LEAK que me deu muito trabalho também.
+
+
+=============================[ *|__Permissões__|* ]==============================
+---------------------------------------------------------------------------------
+Bom, permissões,contanto que não modifique os direitos autorais, tudo certo, fala comigo, e eu posso até ajudar a se achar no projeto :).
+
+
+=============================[ *|__Observações__|* ]=============================
+---------------------------------------------------------------------------------
+Eu me estressei muito com meu mapa, pois existia um erro que me fez modificalo quase completamente, o Wordcraft tava travando e não compilava direito, somente mapa pequenos de testes, e chinguei muito o slug por isso, para dar uma desestressada boa :), futuramente farei um mapa mais completo e mais bonitinho. [ EU ESCREVI ESTE AQRUIVO EM PORTUGUÊS PORQUE SOU BRASILEIRO, MAL SEI FALAR PORTUGUÊS E NEM INGLÊS NÃO QUERIA PASSAR VERGONHA :( ].
+Este foi meu primeiro projeto de mapas, portanto, ele foi como um aperfeiçoamento, então, meu proximo mapa, terá muito menos bugs, e mais coisas, obrigado por ter pego, e pode me chingar a vontade, porque não é o mapa mais bonito, obrigado, até o proximo mapa!
+
+==========[ English Only ]========
+----------------------------------
+Find a translator for read this ;).
+

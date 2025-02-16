@@ -1,0 +1,54 @@
+===========================================================================================
+Title                   : Little Tokyo Showdown
+Filename                : tokyo.bsp
+Game			: AQ@
+Author                  : Gene "Scuzzy" Beaumont
+Email Address           : scuzzy@converted2.com
+Web Address             : www.uq.net.au/~zzpbeaum
+Description             : A small city level
+Additional Credits to   : KaRRiLLioN - For compiling my level
+                          
+===========================================================================================
+
+* Play Information *
+
+Single Player           : NO
+Cooperative             : NO
+Deathmatch              : 1-6 or sp
+Teamplay                : YES
+Difficulty Settings     : NO
+New Sounds              : YES
+New Graphics            : YES
+New sky                 : YES (Well sorta)
+
+===========================================================================================
+
+* Construction *
+
+Base                    : Huh?
+Editor(s) used          : Worldcraft
+Known Bugs              : None
+Build Time              : Dont Know
+Compile Time		: Dont Care
+
+===========================================================================================
+
+*installation*
+
+unzip the all the files to quake2\action
+
+(if something goes wrong...)
+
+the wal-files : quake2\action\textures\school\
+the pcx-files : quake2\action\env\
+the tga-files : quake2\action\env\
+the bsp-file  : quake2\action\maps\
+
+===========================================================================================
+
+
+* Copyright / Permissions *
+
+dont do anything to my map you shouldnt do, but...
+You can use all these textures and sounds for your own quake level WITHOUT my permission. 
+

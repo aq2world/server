@@ -1,0 +1,9 @@
+Ported to Q2 by Beavisss and Fred.
+
+Finished 19.12.2005
+Build time: 1 month.
+Compiling time of last build: 30 Hours
+
+Deathmatch: Yes
+Teamplay: Yes
+CTF: No

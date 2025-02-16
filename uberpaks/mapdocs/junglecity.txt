@@ -1,0 +1,29 @@
+================================================================================
+* ACTION QUAKE II LEVEL INFORMATION *
+--------------------------------------------------------------------------------
+TITLE                   : junglecity.bsp  
+AUTHOR                  : stan0x                 
+DATE                    : 22-09-2023
+HOMEPAGE URL            : www.aq2world.com
+.zip CONTENTS           : bsp and textures.
+
+================================================================================
+* LEVEL DESCRIPTION *
+--------------------------------------------------------------------------------
+Lite city with some jungle tree. This map was made with trenchbroom and compiled
+with ericw tools.
+
+
+CO-OPERATIVE            	: yes
+DEATHMATCH              	: yes
+ACTION QUAKE II         	: yes
+NEW TEXTURES            	: yes
+
+
+================================================================================
+* CREDITS *
+--------------------------------------------------------------------------------
+All beta testers and people that gave some feedback. 
+================================================================================
+* COPYRIGHT / PERMISSIONS *
+--------------------------------------------------------------------------------

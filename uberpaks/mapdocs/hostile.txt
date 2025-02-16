@@ -1,0 +1,77 @@
+05/16/98
+================================================================
+Title                   : Hostile Takeover
+Filename                : hostile.bsp
+Game			: Action Quake 2
+Author                  : Chris "Cap'n Sparky" Seamans	
+Email Address           : semo@pil.net
+Description             : Sprawling office building
+Additional Credits to   : Id Software, the A-Team, Brian, Vance and Cliffe at the AQ2
+			  Map Depot*
+	
+
+================================================================
+
+* Play Information *
+
+Single Player           : No
+Cooperative             : No
+Deathmatch              : Yes, 8 DM Starts, so you could have some fun
+AQ2 Teamplay		: Yes, but some of the DM start rooms are pretty tiny
+Difficulty Settings     : No
+New Sounds              : No
+New Graphics            : A ton of new textures**
+New Music               : no
+
+
+* Construction *
+
+Base                    : New level from scratch
+Editor(s) used          : GlideQoole
+Known Bugs              : Some of the lighting is a little screwed
+Build Time              : Long, long time.
+Compile Time		: 25 minutes or so
+
+
+================================================================
+
+Notes:
+
+Okay everybody, this is my first ever released map for Quake, Quake2 or any sort of mod
+for any of those games. The last maps I released were for Doom][ and Heretic _way_ back
+when.
+
+The r_speeds are pretty decent, which is good because I was having some problems early on.
+There's actually one corner where the r_speeds spike to 1200, but it only happens if you're
+pretty much standing _exactly_ in that corner. Otherwise, they're mostly below 500, and
+just about always under about 800.
+
+Qoole made me rip my hair out a few times on several parts of the level. I can't explain
+the horror of its super poor floating-point to integer conversions. Other than that and a
+few "light leaks" this map was a dream to make.
+
+* If you like this map, thank Cliffe. If it wasn't for his logical approach to a certain 
+problem, this map wouldn't have been released at all.
+
+** See the text file in the quake2/action/textures/sparky directory for more info on the
+textures.
+
+Have fun playing the map!
+
+================================================================
+
+* Copyright / Permissions *
+
+Copyright (c) 1998 Chris Seamans. All rights reserved.
+
+This map may be electronically distributed only with no
+charge to the recipient, and may not be modified in any way.
+This text file must be included with the level.
+
+This map may not be distributed on any CD-ROM without the
+prior, explicit written consent by Chris Seamans.
+
+This map may not be used on a commercial multi-player server
+without similar explicit written consent. See the text file in
+the quake2/action/textures/sparky directory for copyright info
+on the textures.

@@ -1,0 +1,56 @@
+
+----==[general info];
+
+MapTitle	: Rooftop Madness
+Author#1	: Webz aka Andraz Kondza (icq=348955, email=webshadow@rocketmail.com)
+Author#2	: GarFF aka Jure Drobnak (icq=21752570, email=franciska.trobevsek@guest.arnes.si)
+Filename	: mesto.zip
+Version		: 0.54
+ExportDate	: 21 Apr 1999
+Game		: Action Quake 2
+qDescription	: Lots of skyscrappers and a helicopter flying around :)
+Thanks to	: Lots of ppl :).... check out the credits!
+No thanks to	: errr... ppl who say this map sux :|
+
+
+----==[playing info];
+
+Single Player	: Just walking around looking at the map =)
+Cooperative	: Nope!
+Deathmatch	: Sure!
+Teamplay	: Yes!!!!!!!! 
+
+
+----==[map making/compiling info];
+
+computer	: celeron 300a /w 64mb ram
+editor used	: qoole 2.50
+qbsp3 		: no special commands... (8 seconds export)
+qvis3 		: used level 4 command... (3204 numportals, 123456 seconds (34 hours) export)
+qrad3 		: used extra and bounce 40 command... (18189 seconds)
+textures	: used from other maps (see the textures section).. or homemade with wally/psp5/photoshop5 
+
+
+----==[known problems];
+
+r_speed ?:| ...well not on my comp :)
+
+
+----==[installation];
+
+Unzip mesto.zip to x:\quake2\action\ and that should do!
+
+mesto.bsp should be in x:\quake2\action\maps\
+textures should be in x:\quake2\action\textures\webz\
+sounds should be in x:\quake2\action\sound\webz\
+
+
+----==[special credits];
+Thanks to CryptR, cause we used his textures in the map =)
+
+
+----==[copyright info];
+You may include this map on everyserver you wish or you can put it for download on your page!
+BUT give us credit :)... also the textures may be used in your map.. but give the authors the credit!
+
+

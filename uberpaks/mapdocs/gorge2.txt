@@ -1,0 +1,115 @@
+================================================================
+*Information*
+
+Title                   	: The Gorge At Sunset
+Filename                	: gorge2.zip
+Release Date            	: 26/01/00 @ 2:17 am (thats DD/MM/YY the way its supposed to be :)
+		  /me thinks its time to go to bed and stop fuking with this level...
+Author                  	: GoGGorilla 
+URL                     	: www.alphalink.com.au/~rpitts/index2.htm
+Email                   	: Foodum@Yahoo.com
+Description             	: A gorge (duh) wif different levels, at sunset, river thing with a waterfall
+Credits                 	: ID
+		 A Team
+		 TuBBy, [L2K]veNom, BaDiDaZ and Eichman all for testing da map
+		 Hunter  .LTF for some "helpful" tips to make the map better and putting the map on at laby
+		 Clan -[DiD]- (execpt MaCcA caus hes a wanker) for testing
+		 PyRo-=AA=- for putting my map on his webby, and saying my map sucked
+		 The gimp (he made lavatube) for all the mad arse ambeint(?) sounds
+================================================================
+* Play Information *
+
+Single Player           	: um you play with yourself???
+Cooperative             	: no...get a clue
+Q2 Deathmatch          : not intended for but u can play it i spose
+ActionQuake DM      	: apsolutly not
+ActionQuake Teams  	: no not intened for at all
+max players (DM)	: ive got a few spawns so a few i spose, but the 
+		  level made for about 8-10 max ,thats what me thinks.
+Difficulty Settings  	: um....yes of course there is....i just hid them from you...
+New Sounds            	: yup (well sort of...)
+New Textures          	: Yes
+New Music               	: Do-Da Do-Do-Do-Da  ....oh in the map, No
+Demos Replaced        	: The one of the purple cow eating pink carpet
+================================================================
+* Installation *
+
+ Extract (unzip) in the \quake2\action directory. All paths provided.
+================================================================
+* Construction *
+
+Base                    	: Shitall (none)
+Editor(s) used          	: Worldcraft 1.6 (unreg'ed), Paintshop pro 6 + Wally for 
+		  the textures
+Known Bugs              	: all fixed i think...um in the last zip i left out 2 textuers, um DHER
+Build Time              	: about 2 months on and off, on and off, stop, start, stop, start
+================================================================
+*Compile Info*
+
+Compile machine        	: P][ 300 o/c to 450, 128meg ram, 16 meg V550
+*NOTE* 		:U cant tell that it is sunset wifout a glide or 3D card
+QBSP3 Time           	: 8 secs (wow)
+QVIS3 Time           	: 650.0 secs (crap!)
+QRAD3 Time          	: 681.0 secs (shit hey?)
+Total		: dunno i cant add...
+
+================================================================
+* Notes *
+
+I made this level Bcause i get shit ping, i made the r_speeds low as i could, i
+only found one spot where the r_speeds where over 500 so lag is minimal
+(on the "new" version i must have screwed up caus i can find 900 now, dam...)
+
+Ah yes, this level LOOKS SHITHOUSE with software rendering, and its 
+laggy as hell, near the waterfall i clocked up 113 ping in software, but only 
+9 with my hardware
+
+Klix i think your vid card is screwed, its not purple, its orange...
+
+It seems as though every 2nd AQ player in Aussieland is making a map and
+all (except for mine :) are pretty dam good, eg. The Gimp (lavatube), FiReWaLkEr (passin and murder), 
+WetWired (beer, nobeer, tequila) Scuzzy (tokyo and his new1), Ben Lyons (maker of 666mines), 
+DeRtY or DeRsTa (bases, dadock, dadock2 and mildepot) AnthraX (maker of Bronx), 
+Croxly (maker of cargo_1 and seweratz), Wolf[BIA] (wartime, wartime2, wartime3, gangall) 
+wholey crap after going through almost every .txt the list is huge, i didnt think there where 
+that many... soz if i missed any1
+================================================================
+* Where to get this level *
+
+www.alphalink.com.au/~rpitts/index2.htm/gorge.zip
+ftp.labyrinth.com.au/pub/kk/maps/actionq2/gorge.zip
+http://aqmd.telefragged.com (i hope)
+================================================================
+* Copyright / Permissions *
+
+Copyright GoGGorilla(c) 1999 .  All rights reserved.
+
+This level may not be distributed on any CD-ROM
+without prior, explicit consent from me (GoGGorilla)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+if u can read this your too close

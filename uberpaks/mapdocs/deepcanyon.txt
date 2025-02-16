@@ -1,0 +1,46 @@
+
+3-25-99
+
+===========================================================================================
+Title                   : Deep Canyon
+Filename                : deepcanyon.bsp.bsp
+Game			: AQ2
+Author                  : Shaymon
+Email Address           : shaymon@fcmail.com
+
+Description             : A large canyon with lots of sniping spots. Including
+			  A cool waterfall. It takes place at dusk.
+			  This canyon once a peaceful tourist spot was overtaken by
+			  mad terorists. You and your special forces backed by armed helicopters
+			  are assigned to go in and destroy the terrorists at dusk.
+                          It's either THEM or YOU!
+
+Additional Credits to   : ID software, ATEAM, Qoole, Dre(The Lone Gunman) & his testing clan 
+			  my wife for putting up with me, and Mark shaxted for all his
+			  help on r_speeds!! & Jim(razor) for ideas.
+****Special thanks to all the staff & testing clans at AQMD for all their hard work****
+
+NOTE: If anyone really likes this..... email me and I will construct more
+levels further down the river. <Shaymon>
+
+NOTE: This level was not designed for PHONG shading but I used it anyway. It
+Turned out pretty cool!!!
+
+NOTE: The "blue rock" is my trademark. My wife made it up ;-) and I put it in there for her.
+      you will see it in all of my levels.
+                    
+===========================================================================================
+Base                    	 : Scratch
+Editor(s) used          	 : Qoole
+Build Time              	 : About 10 hrs + final touches here and there.
+Compile Time(with Phong shading!): about 3-4 hours
+===========================================================================================
+Dm			: Yes(lots of respawn points)
+Teamplay		: Yes, 2-12 (maybe more)
+===========================================================================================
+***** Copyright / Permissions *****
+Feel free to distribute freely. But contact me if you want to do stuff to it.
+The only sound I created was the water fall sound. So please give me credit if you use it.
+All of the other sounds I downloaded.Thanks
+
+

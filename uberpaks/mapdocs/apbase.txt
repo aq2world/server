@@ -1,0 +1,105 @@
+Instructions: extract the archive, preserving directories,
+to your quake2/action directory.
+================================================================
+Title                   : Austin Quake: Doctor Evil's Base
+Filename                : apbase.bsp
+Author                  : Chris Polan
+Author's Quake Handle	: [20ID]God Incarnate
+Author's Email Address  : cpolan@magma.ca
+			  Please send your comments
+Where to get ActionQ2   : http://action.telefragged.com
+================================================================
+
+If you are a fan of the movie Austin Powers, I think you might like this level.
+If you hate the movie.... I really pity you, but here goes:
+Just delete AP*.WAV out of your \quake2\action\sound directory if you REALLY
+hate it that much and pretend its a normal action quake level :)
+
+* Level Information *
+
+Description		: An installation in the desert.
+			  The installation has 4 floors (but its not that big)
+			  and there is an outdoor area.
+			  I would think that this level might be better suited
+			  for teamplay (see my notes below).
+
+Chris' notes		: This base has a few things that you should know about:
+			  - If someone is getting the M4 in the glass tube, push
+			    the button on the wall and drown 'em in acid! Yes!
+			  - The security room (2nd floor) will let you see which rooms
+			    in the installation are occupied. Great for teamplay.
+			  - The installation has a self-destruct mechanism that will
+			    kill anyone inside after a 20 second countdown! w00p! The
+			    detonator is protected by 2 laser checkpoints, find out
+			    how to toggle them! Use this to flush everyone out of the
+			    base. So, if you start to hear sirens, bolt for the nearest
+			    exit! This feature resets every 8 minutes.
+			  - In the meeting room (war room), push the button to give
+			    the people in the seats a nice surprise!
+			  - The jail doors can only be opened from outside the jail, as
+			    you might expect. The doors start closed, so if you want to
+			    control access thru the tunnel, hit the button.
+			  
+			  I know, I should have made a skin for the fembots.
+			  But hey, I am not a very good artist. Skins/Textures are not
+			  really my specialty (as you might have guessed from CHRISCITY3).
+			  If someone could make a fembot skin (use the Iron Maiden model),
+			  could you send it to me? (email above)
+			  Just so you know, the skin would be at:
+			  \quake2\action\models\monsters\bitch\skin.pcx
+			  If you really think my textures suck, tell me how to make them
+			  better! The plane textures look weird, but its the 60's baby!
+			  
+
+Weapon Locations	: Shotgun #1 - Austin's airplane
+			  Shotgun #2 - Doctor Evil's pod, 3rd floor
+			  MP5 Machinegun - Fembot room, 1st floor
+			  Handcannon - Jail, basement
+			  Sniper Rifle - Scott's room
+			  M4 Assault Rifle - The glass tube, 2nd floor
+			  Grenades - Lobby, 1st floor
+				   - Supply room, 2nd floor
+				   - Pod room, 3rd floor
+				   - Outside, near the road
+
+* Play Information *
+New Sounds              : Yeah, baby, Yeah!
+			  Got most of the sounds from www.moviesounds.com/austin
+			  The music in Scott Evil's room is from Korn's new song
+			  Got the Life. Korn rocks! If you don't like it, turn it off!
+New Textures            : Yes (some modified from other aq2 levels)
+			  I know the picture of Doctor Evil doesnt look too good,
+			  that's because it doesnt fit the quake 2 palette very well.
+			  The plane textures, the signs, and a wall, ceiling and floor
+			  were done by me.
+
+* Construction *
+Editor(s) used          : Mostly Qoole, a little QuArK, Wally for textures
+Known Bugs              : The shotgun doesnt respawn too well (Action Quake bug/limitation)
+			  The lighting from the generator room is a bit messed
+			  The plane textures are slightly misaligned (rrgh... damn Qoole!)
+
+* Build Time *
+Computer		  : P2-300, 64MB ram, Voodoo2 video
+Brushes			  : about 950 or so
+QBSP3			  : 22 seconds
+QVIS3 -level 4		  : 1 hour, 18 minutes
+ARGHRAD -bounce 8 -extra  : 11 minutes
+
+=================================================================
+
+Thanks to	: Id Software (Bow down! Worship in the church of Quake!)
+		  The A-team
+		  The people who made the maps with the textures i messed with
+		  (door from HOSTILE, screen from ASYLUM, another door from ACTCITY2)
+		  Those other nutty guys from our 20 Inch Dongs clan
+		  (MikFly, Gleaker, CrackSmurf, SHADOW and Runitai)
+		  We are NOT a tight-assed clan!
+
+If you think this map sucks, mail me and tell me that I deserve
+an Ass Whooping (TM), 'cause Stone Cold said so!
+
+If you use stuff from this map, mail me and tell me about it.
+
+This map is freeware. It CANNOT be sold in any way. So don't let your friends
+charge you for it.

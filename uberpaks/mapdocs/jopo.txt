@@ -1,0 +1,81 @@
+================================================================
+* General Information *
+
+Title                   : Jopo City      By:InFinity
+Filename                : Jopo
+Release Date            : 22.24.2001
+Author                  : InFinity^
+Email                   : infinity__@peliportti.net
+Description             : A small town where is lots of Jopo bicycles?
+
+Credits                 - Thanks to The A-team for making BEST MOD EVER!
+                        - and for People who made Qoole99 (v0.99)
+                        - To all ho has played my other maps
+                          (Midian, ShD^, Rocky, Dirty, Miku...)
+
+================================================================
+* File Information *
+
+.bsp Name		: Jopo.bsp
+ZIP Size (KB)		: 2390 KB
+Screenshot Included	: No
+DM Spawn Points		: 6
+Max Player Load		: about 12 would be good (24 MAX)
+
+================================================================
+* Play Information *
+
+Single Player           : No
+Cooperative             : No
+Deathmatch              : NO
+ActionQuake DM          : yep... if u like?
+ActionQuake Teams       : Yes
+Difficulty Settings     : No
+New Sounds              : No
+New Textures            : Yes
+New Music               : No
+Demos Replaced          : None
+
+* Installation *
+ Extract (unzip) in the *:*\quake2\action directory. All paths provided.
+
+* Construction *
+
+Base                    : New level from scratch
+Editor(s) used          : Qoole99 v0.99
+Known Bugs              : Nope. 
+Build Time              : about 2 weeks
+
+
+
+Compile machine         : AMD K6-2 450mhZ 192mt 
+QBSP3 Time              : 7 sec
+QVIS3 Time              : 533 sec
+QRAD3 Time              : 1675 sec
+
+* Where to get this level *
+
+http://sivut.koti.tpo.fi/tuusoma/maps/Jopo.zip
+
+
+* Other levels by:InFinity *
+
+Junkke
+Junkke2
+Aro
+
+* Copyright / Permissions *
+
+Copyright © 2001 .  All rights reserved.
+
+This level may be distributed on any CD-ROM
+without similiar explicit consent.
+
+This level MAY be used on a commercial 
+Multi-player server without similar explicit consent.
+
+If u want .map file or something please mail to me     InFinity__@peliportti.net
+
+
+
+

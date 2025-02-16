@@ -1,0 +1,162 @@
+Created: 09/03/99
+
+                               Fragging 'n Lagging
+                                in Paradise City
+                                By: PACMAN[TECH]
+   ------------------------------------------------------------------
+
+       Installation: Just unzip into your Quake2/action folder
+
+=======================================================================
+Title                   : Fragging 'n Lagging
+                           in Paradise City
+                           By: PACMAN[TECH]
+Filename                : paradise.bsp
+Game			: Action Quake 2
+Author                  : Eric Dubhorn
+Email Address           : PACMAN@clantech.net
+ICQ			: 26288449... don't try to be my next best friend
+			  I hate it when people do that...
+Web Address             : none
+Description             : Umm... its a city... and you frag in it...
+Additional Thanks To    : A bunch of people, who I am going to foolishly
+				try to name. :)
+			 Clan [TECH] for their support (or lack thereof)
+			 Clockwork[TECH], happy?
+			 [AMC]Death Mark for providing a beta test server
+			 [awe]pot-shot, [awe]DeathArc, Dratsbaz{LAVA}, Chopp3r
+				and the other beta tester's whom I can't remember.
+			 Chopp3r once again for the amazing sky... 
+			 Bill sez hi.. so does Chris
+			 Sinfulprek[TECH] for helping me get the textures set
+			 [NT]Oswald for providing me with top secret AQMD
+				mapping info...
+			 The doodz that make WorldCrash 1.6.. I would buy
+				full version if the company didn't die :(
+			 Psychotakes[NSV] for umm... kissing ass or something
+			 HHHHHHHHOOOOOOOOOMMMMMMOOOOOOOOO!!!!! For some 
+				suggestions...
+			 Citrus Frog for bank... practically an action quake
+				classic...
+			 Cryptr for the actcity3 textures...
+			 KaRRiLLion and/or Ruskprick for more textures...
+			 Astroboy for pretending to be intrested in the map :)
+			 [AMC]Trunks for the posters...
+			 SpecOps[TECH] for offering help then never helping :P
+			 Metallica for "music to map by" and for the loop of
+				"Breadfan" on the radio near the projector
+			 Guns 'n Roses for giving me a map name and a loop at
+				the radio near the register with "Paradise City"
+			 Mayn says hi and that Loraine is beautiful, etc... Thanks
+ 				for the kick lilgorgor
+			 This space for rent: Contact The Munky
+====================================================================
+
+* Play Information *
+
+Single Player           : If you're bored and lonely I guess...
+                           won't be that much fun though...
+Cooperative             : Nope
+Deathmatch              : Sure.. you can try that...
+Teamplay                : Of course
+Difficulty Settings     : Nope
+New Sounds              : Uhhh... New to AQ2...
+New Graphics            : /me nods
+New sky                 : Purdy, ain't it?
+Textures		: CryptR (actcity3)
+			  KaRRiLLioN=AR=/Ruskprick (whatever was in the
+				\karr folder :) )
+			  Sinner's Textures (theres a few in there)
+			  Xatrix's left over textures...
+			  Jesper for the few textures I used
+			  Goose for the blood textures (sorry for saying
+				blood sux when you were on the server and
+				I didn't see you, I was just mad)
+====================================================================
+
+* Construction *
+
+Editor(s) used          : Worldcraft 1.6 (shareware all the way baby!!!!)
+Known Bugs              : Knowing me, alot will be found post-release
+			  HOM effect (hall of mirrors) when jumping up and looking
+				through the bank window
+Build Time              : Umm... 3 months...
+Compile Time		: LONG
+
+====================================================================
+
+People not permitted
+ to play this map       : Anybody who likes the backstreet boys, n-sync, etc
+                          Anybody who is gonna complain to me that they dont like it
+                          Anybody that complains that (insert weapon name here)
+                             is unfair/cheap
+                          Anybody who thinks the m4 script is a "really neat trick"
+                          Anybody that has the m4 script
+                          Anybody that wants the m4 script
+                          Anybody who accuses other people of using the m4 script
+                          RATBOT!
+                          Anybody who is gonna complain about the un-original layout
+                          Anybody on my ICQ ignore list (minus the ppl on there
+                             who messaged me while I was losing a game of AQ2)
+			  Any current member of clan [FBI]
+			  Anybody that doesn't read map text files...
+
+People encouraged to
+ play this map          : Anybody who is already blatantly kissing my ass
+                          Anybody who knows that Britney Spears' breasts aren't real
+			  Any *FORMER* member of clan [FBI]
+
+Legal/Copyright Info 
+ (We've already determined
+ that everyone ignores these,
+ so I'm gonna have fun)
+
+Authors may NOT use this level as a base to build additional
+levels. You may distribute this BSP, provided you include this file, with
+no modifications, but please distribute original unmodified archive
+which can be obtained from the AQMD.  You may distribute this file
+in any electronic format (BBS, Diskette, CD, etc) as long as you
+include this file intact, give full credit to me, pay me cash, ask
+my permission, have written permission from all my pets (both living and
+dead), ask my clan leader, admit Matt is a phage, and ultimately declare me
+head Dictator. Should any of these actions not be followed I will most likely
+mock you in my next map (god bless), add you to my ICQ ignore list (should
+you already not be there) and ultimately not like you. Should you feel the
+need to file a complaint against this map, my complaint department is located
+at that wall to your right, feel free to voice your opinion to it. Do not
+pass go, do not collect $200. You are permitted to offer me sexual favors for
+no aparent reason. To reduce the risk of electrical shock, do not remove the
+cover or back of this product. No user servicable parts are inside. Refer servicing
+to qualified personnel. Store this map in a cool, dry place. Map may contain 
+small parts not suitable for children under 4. Void where prohibited. Fourty-two.
+All maps, makers, and players subject to AQMD rules and regulations and state law.
+All maps are subject to testing procedures, death testing, and other applicable 
+requirements of the AQMD. Liability for void or nonconforming map, if any, is limited
+to a replacement of the map with a newer, and most likely, crappier map. No responsibility
+for lost or stolen maps. All rights reserved. FBI prohibits unlawful copying and pasting of
+this long ass copyright in your own text files. Such actions are punishable by death by
+handcannon, or BBD(TM). BBD is official trademark of Clan [TECH]. Corn bread: ain't nuttin
+wrong with that. Hirr. Download and play this map at your own risk. Author is not responsible
+if somehow this map causes your computer to go nucking futz. Read this map readme at your
+own risk. Author is not responsible if you die from boredom. Hi Oswald, youre the only one to
+ever read these files anyway. Bogglet. If any users feel that they could make a better map, then
+they are by all means encouraged to start makin a map and see how well they do. Don't give me
+that "I don't know how" excuse either. No map makers started off knowing everything about mapping.
+If you're still reading this far, congratulations. I am extremly bored and tired of mapping, so 
+I just keep typing and typing and typing. Hi mom. Late at night all systems go, you have come to
+see the show. We do our best, you're the rest, you make it real you know. There is a feeling deep
+inside that drives you f&#*@n' mad. A feeling of a hammerhead, you need it oh so bad. Adrenaline
+starts to flow, you're thrashing all around, acting like a maniac, whiplash! I think I'm gonna
+keep typing just to see how dedicated some of you people are. Its the zZ's! If you recieved this
+map in any way without this readme file, then you aren't reading this, are you? This product is
+not supported by Microsoft or Apple, and thats good because they both suck. You may not rent, 
+lease, or sell this product without my permission, no matter what Suislide says. you may not use
+map for matches once it becomes boring and unpopular, which seems to be the craze on the OGL 
+nowadays. You are required by law to brag to your friends with this map to try and get them hooked
+ok Action Quake 2. You man not say the words "I Win!" while playing teamplay on this map, unless
+it is 1 on 1. There are no single winners in a teamplay game. You may not bitch about LPB's while
+playing this map. If your name is akaine, or any variation, you are required to type kill at the
+beginning of every round on this map. Thanks for scaring me early one morning during the summer
+FiReWaLKeR[TDm] when I was reading map text files for fun and found a mention of "pacman" in one.
+Read [20ID]GodInc's map text files. You WILL laugh your ass off. This map is not responsible for
+any trance like state that may be encountered due to the l33tness of it. Member FDIC, Copyright 1999.

@@ -1,0 +1,40 @@
+============================================================================
+Title                   : Action Dam
+Filename                : actdam.zip
+Version                 : 6/4/99  (This map is Y2K compliant)
+Game                    : Action Quake 2 
+Authors                 : Bar-B-Q    bar-b-q@c-gate.net
+       			  http://quake2.c-gate.net
+Description             : A dam that holds back large amounts of water.
+Thanks to               : Everyone at The Pit, Map Depot, id Software, A-TEAM, etc...
+============================================================================
+
+* Play Information *
+
+Single Player           : No
+Cooperative             : No
+Deathmatch              : Yes
+AQ2 Teamplay            : Yes
+Difficulty Settings     : No
+New Graphics            : YES                
+New Music               : Yes
+CD Track                : ?
+
+* Construction *
+
+Base                    : Scratch
+Editors used            : WinQoole
+Build Time              : Months.
+Known Bugs              : A few far off clipping problems, but won't affect gameplay. 
+Compile machine         : Pentium Celeron 400, 64 MB, Voodoo2, TNT 16meg, Tonka Mouse :)
+
+
+* Installation *
+
+Just unzip to your X:\Quake2\action directory (with subdirectories enabled).
+
+* Copyright / Permissions *
+
+Authors MAY NOT use this level as a base to build additional levels.
+All textures, sounds, anything MAY NOT be used for other maps, but these
+files can be freely distributed. This level cannot be sold.

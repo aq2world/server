@@ -1,0 +1,94 @@
+================================================================================
+* LEVEL INFORMATION *
+--------------------------------------------------------------------------------
+TITLE                   : Dustin' off the ol' QuArK -By Flunx
+FILENAME                : dusty.zip
+AUTHOR                  : iN Flunx
+DATE                    : 02. November 2005
+GAME                    : Action Quake II
+EMAIL ADDRESS           : serflunx@yahoo.no
+HOMEPAGE URL            : http://home.no.net/flunx
+AQ2WORLD		: http://www.aq2world.com
+--------------------------------------------------------------------------------
+* LEVEL DESCRIPTION *
+--------------------------------------------------------------------------------
+After I noticed QuArK had recieved yet another update and getting alot of
+inspiration from the other AQ2 mappers I decided to get started on another map.
+
+It's a very small old deserted town worn by time andcorruption (Those damn pizza guys!)
+The hotel, pizzaplace and surrounding appartments have been abandoned and is now 
+left alone, decaying and gathering dust.
+It's time for somebody to get the juices flowing in the town again. 
+The scenario is set for some serious pistol-packin' actionquake fights.
+
+Hope you enjoy it!
+
+Suggested playerload is 4 (i.e. 2on2), but may alos be used with more players.
+
+--------------------------------------------------------------------------------
+SINGLE PLAYER           : If you've got no friends.
+CO-OPERATIVE            : Hmm.
+DEATHMATCH              : Sure.
+TEAMPLAY         	: Hell yeah!
+NEW TEXTURES            : Jupp.
+NEW SOUNDS              : Nah.
+ 
+--------------------------------------------------------------------------------
+* CONSTRUCTION *
+--------------------------------------------------------------------------------
+MAP BASE                : None.
+PREFABS USED            : None.
+EDITOR(S) USED          : QuArK 6.5 Alpha (TEH SHIT!)
+COMPILE TOOLS USED	: qbsp3, timvis3 and arghrad
+ 
+OTHER UTILITIES USED    : Wally, 
+KNOWN BUGS              : Some small lighting bugs, to hell with 'em!
+MAP BUILD TIME		: 1 Month give or take? Who the hell keeps track :-o
+COMPILE MACHINE         : AMD Athlon 64 2800+, 512mb DDR RAM
+ 
+QBSP3    TIME           : 4 	seconds
+QVIS3    TIME           : 283 	seconds
+Arghrad  TIME           : 93	seconds
+ 
+--------------------------------------------------------------------------------
+* OTHER LEVELS BY THE AUTHOR *
+--------------------------------------------------------------------------------
+ACTION QUAKE II         : rough
+			: knorv
+			: simplicity
+QUAKE II		: hallsofser
+--------------------------------------------------------------------------------
+* SPECIAL INSTRUCTIONS / ADDITIONAL INFORMATION *
+-------------------------------------------------------------------------------
+If you wish to use any of the textures that I've made in this map then go for it! 
+Just make sure I'm given credit where credit is due.
+--------------------------------------------------------------------------------
+* CREDITS AND THANKS *
+--------------------------------------------------------------------------------
+ID Software			: For making the base code for the A-Team to bend and improve.
+The A-Team              	: For making Action Quake 2! Still alive and kicking.
+The people behind QuArK 	: Flawless map editor that still is being developed.
+Testers				: cen1sh, prinsii, nufan and snik
+Bugfinder			: cen1sh
+Mappers				: All you mappers out there for giving me and everybody else
+				  inspiration. Especially WizardExt, NRGizer, Beavisss and
+				  pauhi (sorry if I forgot to mention someone who deserved
+				  to be mentioned!)
+Textures			: Osiris, WetWired and Ruskprick
+General				: All the AQ2 players keeping the game alive.
+
+================================================================================
+* COPYRIGHT / PERMISSIONS *
+--------------------------------------------------------------------------------
+Authors MAY NOT use this level as a base to build additional levels.
+ 
+You MUST NOT distribute this level UNLESS you INCLUDE THIS FILE WITH
+NO MODIFICATIONS. If you don't co-operate, then DON'T DISTRIBUTE IT
+IN ANY FORM.
+
+This LEVEL may be distributed ONLY over the Internet and/or BBS systems.
+You are NOT authorized to put this LEVEL on any CD or distribute it in
+any way without my written permission.
+
+Action Quake II (C) 1998-99 The A-Team.
+Quake 2 (C) 1998-99 id Software. All rights reserved.

@@ -1,0 +1,108 @@
+ Title                   : Murder on tha roof tops
+ Filename                : murder.bsp
+ Author                  : FiReWaLKeR[TDm] (Jono Dunstone)
+ Email Address           : firewalker@tdm.killers.net
+ Web page		 : Well if it was hosted i would tell you.. :) just ask me and i'll tell you as soon as i know, its a map makin page btw.
+ ICQ			 : 16894974
+ Description             : :)
+------------------------------------------------------------------
+
+* Play Information *
+
+ Settings                : ACTION QUAKE SETTINGS
+ Deathmatch 2-4          : errr.. not enough, but i guess it would be fine
+ Deathmatch 5-100        : Up to 18, and if your dumb enough to play 100 ppl.. dont use my map
+ TeamPlay		 : Yeah teamplay is good (every f*ckin server runs it anyway)
+ New sounds		 : Yup. made the alarm myself, use it if u like
+ New textures		 : Yup. made some sign textures myself.. Haha they are quite plain
+* Construction *
+
+ Date of map birth	 : 28th April 1999.. Oh what a night.. hehe
+ Build Time              : Well first i built it, then i did it again.. :) took me about 6 - 7 years
+ Compile Time            : 
+ 	QRAD3		 : 21 secs
+	QVIS3		 : 62516 secs
+	ARGHRAD 2.0 	 : 12255 secs
+ Editor(s) used          : Worldcraft 1.6
+ Known Bugs              : Call it a bug if yah a wanka, the elevator might be a shit to get up.. All you have to do is climb most of the way up and then strafe to the side, you will happily land on a lil ledge, if not, you will fall and lose health.. But think about it for a min, if it was the middle of the night and there was a fu*cked elevator in a dark city, would you be climbing around in it?
+                  
+* Other Info *
+
+If anyone cares, i added some jumps like in urban1, go find em, jump em and send me your demo's i would love to see them.. :)
+
+I included a demo on how to use the elevator, i dont see why so many people had trouble with it! :) its easy really..
+
+* Distribution *
+
+You aren't allowed to distribute this map on a CD or sell it, unless i recieve money or a blow job.
+Dont think your gonna be using this for a base of one of your levels.
+You better not complain about this map..
+You may give me money for no reason.
+You had also better tell me how damn good it is.. or else i might not be bothered makin another one..
+If YOU wanna use THESE textures i didn't make em so haha go somewhere else and find out, but if you love my TDm, TDm clan members, joes tavern or Petes crash repair --they ROCK ;)-- go ahead and use em, hhaaha like anyone will.
+
+* Thanx To *
+
+(stuff i used)
+Cryptr: Thanks for alot of actcity3 textures
+Ruskprick: Thanks for loads of city textures
+Sinner: Thanks for a fence texture
+SlagDaddy: for some textures on his excellent Pool Table prefab
+Scuzzy: For some hell street lights (as seen in tokyo) and for a hell of alot of help
+DeFusion: For his nice Pool Table light prefab
+Phat Al and Joemeister: For there door sound, which i edited and used for my elevator :)
+
+Thanx to TWiSTeD{PaGaN} for some good ideas, and he made the cool busstop.. i textured it tho <G>
+Thanx to mum for giving me cookies while i was making this map
+Thanx to Bill Gates for f*ckin up Windows and makin me so pissed off
+Thanx to World Craft, for being so damn good to use, Except for that stupid vertex tool ;)
+
+
+(C) copyright 1999 FiReWaLKeR[TDm] inc. ( I wish )
+
+TDm rock.. :P
+http://tdm.killers.net
+thats right KILLERS.. bahahahaha :Þ
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Action Quake2 sux, gimme pacman!!
+Ha, jeez if you read all this your one bored MuTHa FuKa...

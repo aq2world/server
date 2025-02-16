@@ -1,0 +1,36 @@
+8/20/98
+------------------------------------------------------------------
+ Title                   : The Monastery
+ Filename                : Monastery.bsp
+ Game			 : Quake 2 ( Action Quake2 MOD)
+ Author                  : KongFoo (Gary Winbolt)
+ Email Address           : my_marsbar@hotmail.com
+
+ Description             : A old building, looks kinda like a Monastery so that's what I called it.
+                          
+ Additional Credits to   : The A-Team, id software, whoever invented instant coffee.
+			   
+------------------------------------------------------------------
+
+* Play Information *
+
+ Settings                : Built For Action Quake2 Mod
+ Single Player		 : No 
+ Cooperative             : No
+ Deathmatch		 : 2-8 is probly best
+ Difficulty Settings     : No
+ New Sounds              : No
+ New Graphics            : No
+ New Music               : No
+ Demos Replaced          : No
+
+* Construction *
+
+ Build Time              : 2 1/2 weeks
+ Compile Time            : 25 mins
+ Compile Machine	 : P2 333 with 128 MB RAM
+ Editor(s) used          : QEradient v0.77
+ Known Bugs              : None I can see.
+
+You may distribute this map freely.
+This map must NOT be included on any CD without my permission.

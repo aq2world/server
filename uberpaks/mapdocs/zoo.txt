@@ -1,0 +1,84 @@
++--------------------------------------------------------------------+
+|							             |
+|                     AQ2World Proudly Presents:                     |
+|                                                                    |
+|   .-----------------------------------------------------------.    |
+|   |                    ___   ___ ___   ___                     |   |
+|   |           ___.----|   \./   |   \./   |.-------.           |   |
+|   |          |        :         :         :     ___/           |   |
+|   |          |        :         :         :    /               |   |
+|   |          |        :    .    :    .    :    '---.           |   |
+|   |          |___|\___|___| |___|___| |___|\_______/           |   |
+|   |                                                            |   |
+|   |    n 9 9 's  M a p - M a k i n g  C o m p e t i t i o n    |   |
+|   |                                                            |   |
+|   '============================================================'   |
+|   |  Introduction                                              |   |
+|   |                                                            |   |
+|   |  This is one of nine maps entered into n99's 2004          |   |
+|   |  Map-Making Competition, a 100 euro prized event. As the   |   |
+|   |  main organizer and sole sponsor of this event I wish you  |   |
+|   |  happy fragging on this quality Action Quake 2 map.        |   |
+|   |  Keep the game alive!	                                 |   |
+|   |                                                            |   |
+|   |                                                     - n99  |   |
+|   '============================================================'   |
+|   |  General Information                                       |   |
+|   |                                                            |   |
+|   |  Title                    The Zoo                          |   |
+|   |                                                            |   |
+|   |  Archive		        zoo.zip                          |   |
+|   |                                                            |   |
+|   |  Release Date (DD/MM/YY)  23/11/04                         |   |
+|   |                                                            |   |
+|   |  Author                   Carl-Magnus "NRGizeR" Björkell   |   |
+|   |  Authors Email            carl-magnus.bjorkell@pp.inet.fi  |   |
+|   |                                                            |   |
+|   |  Installation             Unzip zoo.zip into the root of   |   |
+|   |                           your Action Quake game folder    |   |
+|   |                           (Quake2/action), with subdirs    |   |
+|   |                           enabled (!)                      |   |
+|   |                                                            |   |
+|   |  Description		A zoo featuring a vacation shark |   |
+|   |                           a grumpy tiger, and alot of      |   |
+|   |                           fragging fun.                    |   |
+|   |                                                            |   |
+|   |  Additional Credits	Sky - GreyDeath                  |   |
+|   |                           Textures - Gimp, FiReWaLKeR[TDm] |   |
+|   |                           Participants of the Map Center   |   |
+|   |                           texture compos (map-center.com). |   |
+|   |                           Texture sources -                |   |
+|   |                           www.flannelsauce.com.            |   |
+|   |                                                            |   |
+|   |                           The whole board of judges for    |   |
+|   |                           their feedback and ideas.        |   |
+|   |                           www.aq2world.com and their forum |   |
+|   |                           visitors for the map idea!       |   |
+|   |                           Argh! for ArghRad                |   |
+|   |                           Rust (www.gamedesign.net)        |   |
+|   |                                                            |   |
+|   |  Authors Comments         I had alot of fun building this  |   |
+|   |                           map, and I hope that you have    |   |
+|   |                           fun playing it! - Enjoy!         |   |
+|   |                                                            |   |
+|   |  Suggested Player Load    4-24                             |   |
+|   |                                                            |   |
+|   '============================================================'   |
+|   |  Construction                                              |   |
+|   |                                                            |   |
+|   |  Used Tools		QERadiant, Paint Shop Pro, Wally |   |
+|   |                           ArghRad 3.0, Geoffrey DeWan's    |   |
+|   |                           QBSP3 and QVIS3                  |   |
+|   |                                                            |   |
+|   |  New Textures             Yes                              |   |
+|   |  New Sounds               Yes                              |   |
+|   |  New Sky                  Yes                              |   |
+|   |  Locations File           Yes                              |   |
+|   |                                                            |   |
+|   |  Number Of Spawnpoints    19                               |   |
+|   |                                                            |   |
+|   '------------------------------------------------------------'   |
+|                                                                    |
+|          #nMMC / #AQ2World at QuakeNet | www.AQ2World.com          |
+|                                                                    |
++--------------------------------------------------------------------+

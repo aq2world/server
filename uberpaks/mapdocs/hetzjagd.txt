@@ -1,0 +1,57 @@
+Date released           : 15/09/99
+=======================================================================
+Title                   : Hetzjagd	
+Filename                : Hetzjagd.zip
+Game                    : Action Quake 2
+Author                  : Jooky
+Email                   : Jooky@speedkom.net	
+Thanks to               : Mike, Dome, Jean, Frank, Sigus, Sanchez,
+                          Sniper, Warp and Bluter
+Special Thanks to       : The BETA-Tester Dome and
+                          Jean for his excellent Program (AQUATA)
+                          
+=======================================================================
+
+* Play Information *
+
+Single Player           : No
+Deathmatch              : Yes
+Teamplay		: Yes
+Difficulty Settings     : No
+New Graphics            : Yes                
+New Sounds              : No
+
+
+
+
+* Construction *
+
+Editors used            : Qoole 2.5
+Build Time              : About 25 days 
+Known Bugs              : None (I hope so)  
+Compile machine         : AMD K6III-400, 64 MB
+Compile Time            : 78 hours
+
+Qbsp3 time              : 4
+                          4
+                          Total=21
+
+Qvis3 time              : 200
+                          268802
+                          Total=269121
+
+Qrad3 time              : 2415			  
+                          2951
+                          46
+                          Total=14145
+
+
+
+* Installation * 
+
+Unzip with folder names to your action quake directory (e.g. C:\Quake2\action\).
+
+Hope you enjoy playing this map. 
+
+
+[AMB]Jooky

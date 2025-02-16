@@ -1,0 +1,63 @@
+================================================================================
+* ACTION QUAKE II LEVEL INFORMATION *
+--------------------------------------------------------------------------------
+TITLE                   : Metropol
+FILENAME                : metropol.zip
+AUTHOR                  : Qru & Xory
+DATE                    : 23.12.1999 (updated 09.01.2000)
+EMAIL ADDRESS           : Qru@iobox.com
+HOMEPAGE URL            : http://drink.to/qru
+zip CONTENTS            : metropol.bsp                          
+                          metropol.txt
+                          textures
+                          enviroment
+
+--------------------------------------------------------------------------------
+* LEVEL DESCRIPTION *
+--------------------------------------------------------------------------------
+Citymap... is there something else to say... =)
+
+--------------------------------------------------------------------------------
+SINGLE PLAYER           : 1 Player Start   Point(s)
+CO-OPERATIVE            : 0 Player Start   Point(s)
+DEATHMATCH              : 4 Player Respawn Point(s)
+ACTION QUAKE II TP      : 2 Teams
+NEW TEXTURES            : No (None of the textures are made by me)
+NEW SOUNDS              : No
+CD TRACK #              : 0
+
+--------------------------------------------------------------------------------
+* CONSTRUCTION *
+--------------------------------------------------------------------------------
+MAP BASE                : New 
+PREFABS USED            : None
+EDITOR(S) USED          : Worldcraft 1.6
+OTHER UTILITIES USED    : None
+KNOWN BUGS              : None?
+BUILD TIME              : Couple of days...
+COMPILE MACHINE         : AMD K6-2 450Mhz 128Mb 
+QBSP2 TIME              : 4 seconds
+VIS TIME                : 1084 seconds
+QRAD TIME               : 1974 seconds
+
+--------------------------------------------------------------------------------
+* OTHER LEVELS BY THE AUTHOR *
+--------------------------------------------------------------------------------
+187city
+
+--------------------------------------------------------------------------------
+* CREDITS *
+--------------------------------------------------------------------------------
+The A-Team              : For making a KICK ASS Mod
+woebane for his enviroment (city1)
+Everyone whose textures I used
+xory for observing & testing & stuff...
+
+================================================================================
+* COPYRIGHT / PERMISSIONS *
+--------------------------------------------------------------------------------
+Do not modify this level =)
+You are authorized to put this LEVEL on any CD or distribute it in if you include this file.
+Action Quake II (C) 1998-99 The A-Team.
+Quake II (C) 1998-99 id Software. All rights reserved.
+[END OF DATA]==========================================================[.

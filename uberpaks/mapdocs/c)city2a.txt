@@ -1,0 +1,56 @@
+Title			: Drunken Stupor
+Filename		: c)city2a.bsp (the c is computer, the 2a is version 2 of city and 'a' cos i have
+			 another version
+Author			: Computer (AKA -BYD-EdiT or [TxF]Computer)
+Email Address		: computer@source-gaming.com (head news updater but it aint open yet)
+Description		: I got bored one eve' and made a big hotel. It turned into a mix of blockwar, subway,
+			 actcity2 and some other things
+Additional Credits to	: A-Team, Id, Ben Morris for WC, Killer for the first map (superposition, he got me
+			 started with QER before WC 1.6 came out :) Obbermania for being a fool, Mr0 for
+			 not being REALLY good, Spectacle for pissing off, Cliffe for being the evil guy behind
+			 it all. <THIS BETTER NOT BE CENSORED!!!>
+			 Oh and all my people.
+------------------------------------------------------------------
+1st Version written 18/01/99 23:09:32 GMT
+Finished at 20/01/99 20:45:20 :: Fixed some sky bugs and lighting errors.
+
+
+* Play Information *
+
+Settings		: Gas mark 7 for 30 minutes, broil then stir with an M4, add a sprin-killing of grenades
+			  and drink ravenously
+Deathmatch 2-4          : My kinda style. Not like Jungle where the first killer controls the map (in 1v1s or 3ppl 			  ffa) Try sneaking around a bit.
+Deathmatch 5-100	: Well 100 is pushing the limit but yep. The map won't handle it but the server will :)Teamplay		: Well I have to suggest **600 VS 600** or somewhere near that, its a big map after all.
+			  Try 7 vs 7
+New Sound		: No <see below>
+New Graphics		: Yes. Buttons for the elevator and shower floors....which you cant see....erm
+New music		: No, unless you count the sweet sound of birds singing then getting fooked out of the air 			  by my MP5
+
+* Construction *
+
+Build Time		: About a week, surprising myself due to it's massive size but thats how long it took.
+Map Info		: Solids        : 990 
+			  Faces         : 5947
+			  PointEntities : 191
+			  SolidEntities : 34
+Compile Time		: QBSP:	About 40 seconds
+			  VIS:		4744 seconds, thats: 1hr 19 minutes
+			  (FAT WALLS = LOW VIS TIME)
+			  RAD:		14621
+Editor(s) used		: Worldcraft 1.6sw (I would buy it but I'm poor)
+Known Bugs		: Well theres a big long list, most of them being semi-bugs and things I can't help.
+			  Too many 'see through sky' errors and little things like that, if you find any bigguns
+			  TELL ME and I'll fix them. If I can.
+* Other Info *
+
+This is my third Action Quake map that has been finished. My first crashed servers and some clients (All foreign) so that never got anywhere even though it was the bestter of the first two. The second was a small street area about the size of actcity2 without teh 3rd court :). That one was submitted at the same time Spectacle announced that city maps were the spawn of the devil. I, no doubt, contributed to his removal and that was because I made this map. Now thats fun :)
+	Oh, you may notice 2 banners, one giant, one small. The small one is an advert for my close m8's
+Bruce Willis site (I don't THINK he's gay) The otehr banner is my clan. We have no website, we're only
+2 weeks old.
+
+* Distribution *
+
+If you're going to do something that involves my level earning you money, contact me. I probably won't care but due to my incescant greed I might want something.
+If you're going to include this level in any kind of collection or whatever, e-mail me just so I know.
+Don't modify this in any way.
+If you want to tell me to do a map or make some textures or clean your car please feel free to email me, I make maps on demand and I will change this if something bothers you (and others).

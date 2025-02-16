@@ -1,0 +1,65 @@
+================================================================================
+* ACTION QUAKE II LEVEL INFORMATION *
+--------------------------------------------------------------------------------
+TITLE                   : Metropol 2
+FILENAME                : metropol2.zip
+AUTHOR                  : Qru
+DATE                    : 23.03.2003
+.zip CONTENTS           : metropol2.bsp
+                          textures
+                          sky (stars)
+			  this file
+--------------------------------------------------------------------------------
+* LEVEL DESCRIPTION *
+--------------------------------------------------------------------------------
+Just another Citymap. :P
+
+--------------------------------------------------------------------------------
+SINGLE PLAYER           : (testing)
+TEAMPLAY		: Yes
+DEATHMATCH              : Yes
+
+NEW TEXTURES            : Yes
+NEW SOUNDS              : No
+
+--------------------------------------------------------------------------------
+* CONSTRUCTION *
+--------------------------------------------------------------------------------
+MAP BASE                : None
+PREFABS USED            : None
+EDITOR(S) USED          : Worldcraft 1.6
+OTHER UTILITIES USED    : Wally, Notepad
+BUILD TIME              : Started doing this map in '01... :)
+
+COMPILE MACHINE         : Athlon TB 1570MHz 512MB
+
+QBSP2 TIME              : 3 seconds
+VIS TIME                : ~14,5 min
+QRAD TIME               : ~1,5 h
+
+--------------------------------------------------------------------------------
+* OTHER LEVELS BY THE AUTHOR *
+--------------------------------------------------------------------------------
+: 187City
+: Metropol
+
+--------------------------------------------------------------------------------
+* CREDITS *
+--------------------------------------------------------------------------------
+The A-Team              	: For making a KICK ASS Mod
+SuperTed                	: For testing
+Everybody whose textures I have used  
+
+================================================================================
+* COPYRIGHT / PERMISSIONS *
+--------------------------------------------------------------------------------
+Authors MAY NOT use this level as a base to build additional levels.
+
+You MUST NOT distribute this level UNLESS you INCLUDE THIS FILE WITH
+NO MODIFICATIONS. If you don't co-operate, then DON'T DISTRIBUTE IT
+IN ANY FORM.
+
+Feel FREE to use my textures (in textures\qru) if you want to...
+
+Action Quake II (C) 1998-99 The A-Team.
+Quake II (C) 1998-99 id Software. All rights reserved.

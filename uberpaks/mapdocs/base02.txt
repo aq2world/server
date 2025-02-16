@@ -1,0 +1,32 @@
+Instructions: extract the archive, preserving directories, to your quake2/action directory.
+================================================================
+Title                   : Training Camp
+Filename                : base02.bsp
+Author                  : Bjoern Drabeck
+Email Address           : bjoern@vortexq.com
+Description             : Just another training facility
+Where to get ActionQ2   : http://action.telefragged.com
+================================================================
+* Play Information *
+
+Single Player           : No
+Cooperative             : No
+Deathmatch		: Yes, though weapon balance is not worked out
+Action Quake2		: Yes.
+Difficulty Settings     : No.
+New Sounds              : No
+New Graphics            : No
+New Music               : No
+Demos Replaced          : None
+
+* Construction *
+Base                    : Empty Space
+Editor(s) used          : BSP
+Known Bugs              : None, I hope...
+			                            
+* Build Time *
+About 3 hours
+=================================================================
+
+Details:
+This map was also intended as an standard Q2 map, but changed to ActionQuake...

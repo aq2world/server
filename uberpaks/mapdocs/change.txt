@@ -1,0 +1,67 @@
++--------------------------------------------------------------------+
+|							             |
+|                     AQ2World Proudly Presents:                     |
+|                                                                    |
+|   .-----------------------------------------------------------.    |
+|   |                    ___   ___ ___   ___                     |   |
+|   |           ___.----|   \./   |   \./   |.-------.           |   |
+|   |          |        :         :         :     ___/           |   |
+|   |          |        :         :         :    /               |   |
+|   |          |        :    .    :    .    :    '---.           |   |
+|   |          |___|\___|___| |___|___| |___|\_______/           |   |
+|   |                                                            |   |
+|   |    n 9 9 's  M a p - M a k i n g  C o m p e t i t i o n    |   |
+|   |                                                            |   |
+|   '============================================================'   |
+|   |  Introduction                                              |   |
+|   |                                                            |   |
+|   |  This is one of nine maps entered into n99's 2004          |   |
+|   |  Map-Making Competition, a 100 euro prized event. As the   |   |
+|   |  main organizer and sole sponsor of this event I wish you  |   |
+|   |  happy fragging on this quality Action Quake 2 map.        |   |
+|   |  Keep the game alive!	                                 |   |
+|   |                                                            |   |
+|   |                                                     - n99  |   |
+|   '============================================================'   |
+|   |  General Information                                       |   |
+|   |                                                            |   |
+|   |  Title                    change: trading company          |   |
+|   |                                                            |   |
+|   |  Archive		        change.rar                       |   |
+|   |                                                            |   |
+|   |  Release Date (DD/MM/YY)  <01/12/04>                       |   |
+|   |                                                            |   |
+|   |  Author                   per "peep" karlsson              |   |
+|   |  Authors Email            peer83@hotmail.com               |   |
+|   |                                                            |   |
+|   |  Installation             extract to the action directory  |   |
+|   |                                                            |   |
+|   |  Description		an old trading company located   |   |
+|   |				by the sea. including a couple   |   |
+|   |				of buildings and a pier area.    |   |
+|   |                                                            |   |
+|   |  Additional Credits	Vermin for the fence texture..   |   |
+|   |                                                            |   |
+|   |  Authors Comments         second version of the map        |   |
+|   |				the first one went to hell       |   |
+|   |				so i started from scratch again. |   |
+|   |                                                            |   |
+|   |  Suggested Player Load    4-8                              |   |
+|   |                                                            |   |
+|   '============================================================'   |
+|   |  Construction                                              |   |
+|   |                                                            |   |
+|   |  Used Tools		Worldcraft, Wally, Photoshop     |   |
+|   |                                                            |   |
+|   |  New Textures             Yes                              |   |
+|   |  New Sounds               Yes                              |   |
+|   |  New Sky                  No                               |   |
+|   |  Locations File           No                               |   |
+|   |                                                            |   |
+|   |  Number Of Spawnpoints    <10>                             |   |
+|   |                                                            |   |
+|   '------------------------------------------------------------'   |
+|                                                                    |
+|          #nMMC / #AQ2World at QuakeNet | www.AQ2World.com          |
+|                                                                    |
++--------------------------------------------------------------------+

@@ -1,0 +1,49 @@
+				-this map was created for the-
+
+"THE TOP DOWN, WIND THROUGH THE HAIR, RADIO BLARING, PEDAL TO THE METAL, CRUISIN' THE OPEN ROAD, HIGHWAY 666 MAP CONTEST!!!!!"
+
+yes that really is the name
+
+
+ Title                   : Just passin' through
+ Filename                : passin.bsp
+ Author                  : FiReWaLKeR[TDm] (Jono Dunstone)
+ Email Address           : firewalker@telefragged.com
+ Web page		 : AQMD (http://aqmd.action-web.net) and TDm's page (http://tdm.killers.net)
+ ICQ			 : 16894974
+ Description             : Its a small city map based around a highway known as highway 666. its dark with nice lighting to help enhance atmosphere.
+------------------------------------------------------------------
+
+* Play Information *
+
+ Settings                : ACTION QUAKE SETTINGS
+ Deathmatch 2-4          : 2-4 is good this map isn't large
+ Deathmatch 5-100        : 100 isn't likely, but go as high as you wish
+ TeamPlay		 : Yeah teamplay is better than dm for this
+ New sounds		 : Yeah theres 2 police noises, 1 music sound and 1 thunder sound, any other sounds are from q2 and therefor not included in the zip
+ New textures		 : Yeah there are a few in there, most are from city (thanks ruskprick)
+
+* Construction *
+
+ Date of map birth	 : 24th  November 1999.. 
+ Build Time              : Well its for the comp, i started on the 15th of october and finished today, 24th november
+ Compile Time            : 19172 seconds
+ 	QRAD3		 : 19 seconds
+	QVIS3		 : 14955 seconds (full)
+	ARGHRAD 2.0 	 : 13971 seconds (extra)
+ Editor(s) used          : Worldcraft 1.6
+ Known Bugs              : not a single bug, to my knowledge
+   
+* Thanks To *
+
+Cheers to all the texture artists who made textures that were used in passin, especially ruskprick, also any kingpin textures found in this map are from the zip of kingpin textures never used in the game and therefor quite legal.
+
+Scuzzy: For the street lights again, and a building prefab.
+CCCP-Jr[TDm]: for testing and feedback
+Oswald, Deathmagnet, Jesper: for puting together a map contest in the first place
+
+* Legal Stuff *
+
+Dr. Pepper copyright The Coca-Cola Company. This can be distributed freely on the internet.  If used in a freely available level (in other words not for profit)
+
+This is a map for the 'HIGHWAY 666 MAP CONTEST' and if it wins i leave all distribution up to AQMD and the A-Team, you also may not use this as a base

@@ -1,0 +1,66 @@
+2 August 2000
+========================================================================================
+Title                   : Camp of the MOOSE!
+			  Fourth release
+Map Filename            : campmc.bsp
+Game			: Action Quake2
+Author                  : Simon 'Surreal' Robinson, aka 'Razzimatazz'
+Email Address           : razzimatazz@hotmail.com
+Web Addresses           : - http://www.planetfortress.com/factory
+			  - http://moose.cjb.net
+		   	  
+Description             : Revised version #4 after comments from AQMD, likely final version.
+			: Medium sized over-detailed summer camp, for Moose enthusiasts, in 			: the middle of a forest, with rock outcrops too.
+Additional Credits to   : The Moose Cannons, the greatest aq2 clan ever, for testin n stuff.
+			: Old man Purge, as usual deserves credit.
+			: (see below for texture information)
+========================================================================================
+
+* Play Information *
+
+Single Player           : For testing purposes only
+Cooperative             : No
+Deathmatch              : 6-12+ would get crowded
+Teamplay                : Yes, Teamplay rules! 6-16 players will be fine!
+Difficulty Settings     : No
+New Sounds              : Yes, a fewwwww
+New Graphics/Textures   : Yes, many, see below!
+
+========================================================================================
+* Construction *
+
+Base                    : None
+Editor(s) used          : Worldcraft1.6, Wally, PSP, etc
+Known Bugs              : only in the bushes and stuff, crickets etc, some cockroaches.
+Build Time              : 4 months on and off... And then 3 months waiting for aqmd.
+Final Compile Time	: - QBSP3   =  600 seconds
+			  - QVIS3   = 5400 seconds
+			  - ArghRAD = 12000 seconds 
+			: On a p3-450 / 64 meg ram
+========================================================================================
+*Installation*
+
+unzip to quake2\action
+all files should flow directly into their assigned folders!
+
+
+========================================================================================
+*Notes/permissions*
+
+- All textures beginning with 's' are the property of ME, you must credit ME if you use these textures!
+- The textures beginning with 'snb_' are property of .........
+- The textures beginning with 'x' are property of Ruskprick I believe
+- Textures starting with 'jnground__' or 'dm__' or tutfloor1, are used with permisson from the Wally website.
+-The Moose paintings are from the Ultimate Moose Web Page.
+
+
+
+Copyright (c) 2000 Simon Robinson. All rights reserved.
+
+This map may be electronically distributed only, with no charge to the recipient, as
+long as the contents of this zip file and it's text file remain intact and unchanged.
+
+This map may not be distributed on any CD-ROM without the prior, explicit written
+consent by the author.
+
+

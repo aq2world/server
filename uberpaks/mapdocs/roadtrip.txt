@@ -1,0 +1,60 @@
+=====================================================================
+     Action Quake 2 (http://action.telefragged.com/)
+=====================================================================
+
+-----<General Information>-------------------------------------------
+
+Title		: Roadtrip - here we go
+Filename	: roadtrip.zip
+Date		: 2004-01-21
+Author		: WizardExt (David Lundvall)
+Author Email	: davidlundvall@brainbucket.net
+Home page	: http://www.smashboz.nl/wiz
+Previous Maps	: Dive - follow me down
+		  Wizs - all night long
+		  Storm - snowed in
+		  Time - Leaving the past	
+
+-----<Credits and Thanks>--------------------------------------------
+
+Sp!kez0r for providing space for my maps
+TeZh for error checking
+Tim Wright for ARGH! tools
+AQMD for keeping up the good work
+A-TEAM for Action Quake 2
+Id Software for Quake 2
+
+-----<About>---------------------------------------------------------
+
+A small map set in the mountains. It was the little village Arosa I 
+had in my thoughts while building this map. It is a great place and 
+the vacation I had there was lovely.
+
+The r_speeds are pretty high, but I hope you can overlook that and 
+have fun playing it.
+
+New textures and a new environment sky.
+
+Also my first map to have Ctf support.
+
+Have fun!
+
+-----<Map Information>-----------------------------------------------
+
+Map Description	: Small sized map
+How Many Players: 2-20
+New Textures	: Yes
+New Sounds	: No
+
+------<Construction>-------------------------------------------------
+
+Editor(s) used	: Worldcraft 1.6
+Compile Machine	: 2,4Ghz, 512Mb RAM, Radeon 9700
+Compile time	: 10035 seconds
+Playtest time	: 2 hours
+Build Time	: I dunno...
+Other programs	: ARGH! compiling tools, Wally, Adobe Photoshop, Bryce
+
+------<Installation>-------------------------------------------------
+
+Extract the files to quake2/action

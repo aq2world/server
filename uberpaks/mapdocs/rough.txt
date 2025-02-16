@@ -1,0 +1,80 @@
+================================================================================
+* ACTION QUAKE II LEVEL INFORMATION *
+--------------------------------------------------------------------------------
+TITLE                   : Rough City
+FILENAME                : rough.zip
+AUTHOR                  : Flunx
+DATE                    : 05.01.2003
+EMAIL ADDRESS           : serflunx@yahoo.no
+HOMEPAGE URL            : http://home.no.net/flunx
+.zip CONTENTS           : rough.bsp
+
+--------------------------------------------------------------------------------
+* LEVEL DESCRIPTION *
+--------------------------------------------------------------------------------
+It's another city map... but still fun.
+
+--------------------------------------------------------------------------------
+SINGLE PLAYER           : 1 Player Start   Point(s)
+CO-OPERATIVE            : 0 Player Start   Point(s)
+DEATHMATCH              : 6 Player Respawn Point(s)
+ACTION QUAKE II         : 2 Teams
+                          0 Player Respawn Points per Team
+SUGGESTED PLAYER LOAD   : 1 to 10
+
+NEW TEXTURES            : Yes
+NEW SOUNDS              : Yes
+CD TRACK #              : 0
+
+--------------------------------------------------------------------------------
+* CONSTRUCTION *
+--------------------------------------------------------------------------------
+MAP BASE                : New Map
+PREFABS USED            : None
+EDITOR(S) USED          : QuArK 6.2
+OTHER UTILITIES USED    : Wally 1.55 Beta
+
+QBSP2 TIME              : 3 seconds
+VIS TIME                : ? seconds
+QRAD TIME               : ? seconds
+
+--------------------------------------------------------------------------------
+* OTHER LEVELS BY THE AUTHOR *
+--------------------------------------------------------------------------------
+Granåsen k-90  (hopp.bsp)
+
+--------------------------------------------------------------------------------
+* SPECIAL INSTRUCTIONS / ADDITIONAL INFORMATION *
+--------------------------------------------------------------------------------
+The 'blowfish' guy on the painting in the red brick house... is me :)
+
+--------------------------------------------------------------------------------
+* CREDITS *
+--------------------------------------------------------------------------------
+The A-Team              : For making a KICK ASS Mod
+Gerbil!                 : Urban textures and inspiration
+Ruskprick               : City textures
+Ellusion                : Riot textures
+CryptR                  : Actcity3 textures
+Tyldis			: Using my map on his server :) Thanks!
+
+
+================================================================================
+* COPYRIGHT / PERMISSIONS *
+--------------------------------------------------------------------------------
+Authors MAY NOT use this level as a base to build additional levels.
+
+You MUST NOT distribute this level UNLESS you INCLUDE THIS FILE WITH
+NO MODIFICATIONS. If you don't co-operate, then DON'T DISTRIBUTE IT
+IN ANY FORM.
+
+This LEVEL may be distributed ONLY over the Internet and/or BBS systems.
+You are NOT authorized to put this LEVEL on any CD or distribute it in
+any way without my written permission.
+
+Action Quake II (C) 1998-99 The A-Team.
+Quake II (C) 1998-99 id Software. All rights reserved.
+
+[END OF DATA]==========================================================[.txtGen]
+
+

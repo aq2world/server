@@ -1,0 +1,30 @@
+The Gap
+======
+
+Author:		suds:wu: suds_wu@hotmail.com
+Mapname: 	gap.bsp
+New sounds: 	yes
+New models: 	no
+New Graphics:	no
+Game:		Action Quake, compatible with Quake 2 also.
+Single Player:	man i play it alone and enjoy myself...new jump every 		time
+Deathmatch:	GET UR AMMO AND CAMP
+Teamplay:	JUMP MOTHER FUKER
+
+Build Time:	2 days to make 3 months to sort the shoddy lighting 		bugs
+		9 hours for vis 15 mins for rad
+Editor(s) Used:	qoole99 to build quark to compile the bsp
+Base:		From Scratch
+
+
+Credits
+========
+me
+
+http://games.eisa.net.au -for all their support to the aussie action comunity
+
+http://www.wavplace.com/sounds.htm -got my wavs from there
+
+desdusk was made by someone...thanks :) sorry i dunno who, i stole it from another map
+
+and :wu: cause u rock my friends :)

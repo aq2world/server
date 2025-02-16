@@ -1,0 +1,31 @@
+ Title                   : Hostage2
+ Filename                : hostage2.bsp
+ Author                  : Skull N. Bones
+ Email Address           : skull@frontiernet.net
+ Description             : New map for the Action Mod
+                          
+ Additional Credits to   : id, DeadMeat for his tutorials
+------------------------------------------------------------------
+
+* Play Information *
+
+ Settings                : Whatever the Action team recommends
+ Deathmatch 2-4          : Definately!
+ Deathmatch 5-100        : Sounds like a war zone but great fun!
+
+* Construction *
+
+ Build Time              : A week or so
+ Compile Time            : A couple hours
+ Editor(s) used          : BSP
+ Known Bugs              : none so far
+                  
+* Other Info *
+This map is partially based on the software incompatable hijack map
+
+ any comments are welcome.
+
+* Distribution *
+
+ this is to be freely distributed...if you payed money
+ for it then you more than likely got dicked over.

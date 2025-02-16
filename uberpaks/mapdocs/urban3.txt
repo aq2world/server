@@ -1,0 +1,26 @@
+
+11-16-98
+
+===========================================================================================
+Title                   : Urban3
+Filename                : urban3.bsp
+Game			: AQ2
+Author                  : John "Gerbil!" Parish
+Email Address           : gerbil@telefragged.com
+Web Address             : earthquake.telefragged.com
+Description             : Urban3
+Additional Credits to   : moriarty (moriarty@randomc.com) for the textures                      
+===========================================================================================
+Base                    : Scratch
+Editor(s) used          : Qe4
+Build Time              : 3 weeks
+Compile Time		: hours
+===========================================================================================
+All these should be unzipped in quake2\action using folder names
+===========================================================================================
+
+Oh, the sky name is bluesky
+
+* Copyright / Permissions *
+Dont do anything to my map! Ask me! send me money too :) 
+

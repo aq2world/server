@@ -1,0 +1,55 @@
+date released           : 22/4/99
+=======================================================================
+Title                   : Beware the pack
+Filename                : beware.zip
+Version                 : 1
+Game                    : Action Quake 2 
+Author                  : WOLF[BiA]
+Email                   : bahr@ozemail.com.au		
+Description             : Back street alleys and a few buildings. 
+                          Wolves Are loose in the streets after escaping from the zoo :) wooohoo
+Thanks to               : ID Software,The A-Team, Creator/s of BSP and all contributors, 
+                          the Creator of Wally and anyone else i've forgotten.
+                          
+=======================================================================
+
+* Play Information *
+
+Single Player           : Nope
+Cooperative             : Nope
+Deathmatch              : Yes
+Teamplay		: Yes
+Difficulty Settings     : Nope
+New Graphics            : Yes all,ExitWound Billboard by reaper and the sky texture by someone thanks whom ever made it.                
+New Music               : Nope
+CD Track                : Nope
+
+
+
+* Construction *
+
+Base                    : Blank Grid
+Editors used            : BSP 0.93
+Build Time              : About 2 days 
+Known Bugs              : None  
+Compile machine         : P2 333, 64 MB,Diamond Viper 550 does it matter ?
+Compile Time            : 35 mins
+Qbsp3 time              : 4
+                          4
+                          Total=12
+
+Qvis3 time              : 46
+                          1261 
+                          Total=1307
+
+Qrad3 time              : 435			  
+                          119
+                          48
+                          Total=615
+
+Installation is like any other, unzip with folder names to your action quake directory.
+
+P.S Thanks to all the ppl that play tested the map for me CHEERZ.
+Hope you enjoy playing this map. 
+
+LONG LIVE THE WOLF 

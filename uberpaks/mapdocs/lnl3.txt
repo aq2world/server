@@ -1,0 +1,60 @@
+
+Title                   : Lock N Load 3 Live'n it up!
+ Filename                : lnl3.bsp
+ Author                  : The HUNTER
+ Email Address           : castillo@hal-pc.org
+ Description             : This is it for the lock n load trilogy so have fun
+
+ Additional Credits to   : My p2 300, my bro, Seeker, Talon, Defiler, Insane, Washu, Hundin, AA-Iceman, Bufaloo
+                           All the guys who head up to hal-pc to play some quake
+                           till the cows come home on our bad ass t1 connection (6 actually).
+			   That bad ass Computer Club, HAL-PC <www.hal-pc.org>
+		
+
+------------------------------------------------------------------
+
+* Play Information *
+
+ Settings                : ACTION QUAKE SETTINGS
+ Deathmatch 2-4          : yeah!
+ Deathmatch 5-100        : yes fits 8 plus well
+ Teamplay 2-4		 : yeah! 
+ Teamplay 5-32           : yes!
+* Construction *
+
+ Build Time              : week to make and 4 to test
+ Compile Time            : 90 min
+ Editor(s) used          : Worldcraft
+ Known Bugs              : uhh limo is kinna big
+                  
+* Other Info *
+If you like my work and want me for a mod or TC tell me!!
+
+* Distribution *
+This map should not be released with out this text file
+
+
+files must be placed like this for it to work
+*.wal go in
+quake2\action\textures\the_HUNTER\
+
+*.bsp go in
+quake2\action\maps\
+
+
+Ok,
+You may NOT distribute this map on a CD or sell it with out writen consent from me. my E-Mail is castillo@hal-pc.org
+
+You may NOT use this for a base of one of your levels!!
+
+You may have fun playing this.
+
+You may bitch at any problem, you see.
+
+You may give me money for no reason.
+
+You must say this map rocks to play.
+
+You may use the sound files included for your own maps(if any) 
+
+You may use the texture files included for your own maps(if any

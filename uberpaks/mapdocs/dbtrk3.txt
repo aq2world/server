@@ -1,0 +1,109 @@
+TITLE                   : Dirtbike Track 3 - Dirtbiking in the Desert
+FILENAME                : dbtrk3.zip
+AUTHOR                  : PaTMaN^J
+DATE                    : April 12, 2001
+EMAIL ADDRESS           : patman_q@hotmail.com
+ICQ#			: 14999645
+HOMEPAGE URL            : http://members.nbci.com/patmansgames/
+.zip CONTENTS           : Map: dbtrk3.bsp
+			  Text: dbtrk3.txt
+			  Textures: sand.wal, canyon.wal
+--------------------------------------------------------------------------------
+* INSTALLATION *
+--------------------------------------------------------------------------------
+Extract dbtrk3.zip with "Use folder names" checked to your Action
+Quake2 dir 
+
+------------OR--------------
+
+Extract:
+	Map and Text to               (aq2dir)/maps
+	Textures to		      (aq2dir)/textures/patman
+
+--------------------------------------------------------------------------------
+* LEVEL DESCRIPTION *
+--------------------------------------------------------------------------------
+
+My second dirtbike track. This one is in the desert. 2 Height meters 
+in here. One in a canyon for jumping up the wall (My best: 10) and one for 
+jumping up the side of a rock (my best so far: 7). Press the "Canyonize" buttons 
+to have small canyons form/fill-in at the sites. Have fun! 2 Extra gate
+positions have been added since racing with more people is fun. Press the button
+behind the gates (actually just walk over to it. There are invis triggers.
+Button will make a sound but do nothing really :) to make the gates drop in 4
+seconds. You will hear a voice say "4...3...2...1...GO!". I realized that people
+can kick the gates open at anytime. If this happens, the gates will be outta
+sync. To get it back in sync, press the button so that the side gates are down
+and the front swinging gate is up. Then kick the gate again.
+
+--------------------------------------------------------------------------------
+SINGLE PLAYER           : 0 Player Start Point
+CO-OPERATIVE            : 0 Player Start Points
+DEATHMATCH              : 10 Player Respawn Points at starting gates
+ACTION QUAKE II         : 2 Teams
+SUGGESTED PLAYER LOAD   : 1 to 10
+
+NEW TEXTURES            : Yes
+NEW SOUNDS              : No
+NEW SKY			: No
+CD TRACK #              : 0
+
+--------------------------------------------------------------------------------
+* CONSTRUCTION *
+--------------------------------------------------------------------------------
+MAP BASE                : Scratch
+PREFABS USED            : None
+EDITOR(S) USED          : Radiant 1.0 Beta build 147
+OTHER UTILITIES USED    : Q2BeaVeR 4.0.0
+
+TOTAL BRUSHES           : 341
+TOTAL ENTITIES          : 56
+
+KNOWN BUGS              : Sky hides parts of level. Might see some bugs in
+			  software mode.
+
+COMPILE MACHINE         : AMD Athlon 900mhz 192mb RAM
+                                   
+QBSP2 TIME              : 0 Hours 0  Minutes  4.13 seconds  
+VIS TIME                : 0 Hours 0  Minutes  6.21 seconds  FAST VIS
+ARGHRAD TIME            : 0 Hours 0  Minutes  0.00 seconds  NOT USED
+Total Time		: 0 Hours 0  Minutes 10.34 seconds
+--------------------------------------------------------------------------------
+* OTHER LEVELS BY THE AUTHOR *
+--------------------------------------------------------------------------------
+PDM1          (q1)
+MBG City      (q2)
+MBG City 2    (q2)
+Blockfort     (q2)
+PGarden       (q2)
+Shark Bait!   (q2)
+PM Free Fall! (q2)
+Death on Ice  (q2)
+PM City 1     (q2)
+PM 9 Towers   (q2)
+DBTrk1        (q2)
+
+--------------------------------------------------------------------------------
+* CREDITS *
+--------------------------------------------------------------------------------
+The A-Team                    : For making Action Quake2
+ID Software		      : For making Quake2
+
+All the people who made .txtGen.
+
+================================================================================
+* COPYRIGHT / PERMISSIONS *
+--------------------------------------------------------------------------------
+Authors MAY NOT use this level as a base to build additional levels without my
+permission.
+
+You MUST NOT distribute this level UNLESS you INCLUDE THIS FILE WITH
+NO MODIFICATIONS. If you don't co-operate, then DON'T DISTRIBUTE IT
+IN ANY FORM.
+
+This LEVEL may be distributed ONLY over the Internet and/or BBS systems.
+You are NOT authorized to put this LEVEL on any CD or distribute it in
+any way without my written permission.
+
+Action Quake II (C) 1998-99 The A-Team.
+Quake II (C) 1998-99 id Software. All rights reserved.

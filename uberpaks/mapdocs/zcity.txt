@@ -1,0 +1,42 @@
+Instructions: extract the archive, preserving directories,
+to your quake2/action directory.
+================================================================
+Title                   : Z City
+Filename                : zcity.bsp
+Author                  : Andrew Don
+Author's Quake Handle	: ZiG^ZaG -Z-
+Author's Email Address  : borristheflower@hotmail.com
+			  Please send your comments
+Where to get ActionQ2   : http://action.telefragged.com
+================================================================
+
+
+* Build Info *
+
+Computer: p1 =(, 32mgb ram, no graphics card =[
+Brushes: 286
+QBSP3:  34 secs
+QVIS3: 11480 secs
+QRAD : 3071
+
+* Thanks *
+id
+a-team
+Auctioneer
+
+* Disclaimer / Permissions *
+
+Music: All music is copyrighted by there respected owners
+I (not id software, the AQMD or the A-Team) take full legal
+responsibility for anything that happens.
+
+
+I am not responsible for anything stupid that you do.
+
+Don't decompile/hack/prod my map with pointy objects.
+Ask me if you want a .QLE file or .MAP file.
+
+Go ahead, use the textures (since i made them all) and sounds from this map. GO BANANAS.
+
+This map is free. It CANNOT be sold or included in any software bundle
+that is sold.

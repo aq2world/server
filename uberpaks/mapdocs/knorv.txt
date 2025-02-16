@@ -1,0 +1,89 @@
+================================================================================
+* ACTION QUAKE II LEVEL INFORMATION *
+--------------------------------------------------------------------------------
+TITLE                   : Knorv
+FILENAME                : knorv.zip
+AUTHOR                  : Flunx
+DATE                    : 30.07.2003
+EMAIL ADDRESS           : serflunx@yahoo.no
+HOMEPAGE URL            : http://home.no.net/flunx
+.zip CONTENTS           : knorv map
+                          arcn evniroment
+                          knorv CTF file (.flg)
+                          readme
+
+--------------------------------------------------------------------------------
+* LEVEL DESCRIPTION *
+--------------------------------------------------------------------------------
+Some silly experiment turning into a quite enjoyable map.
+I wanted to create a map which was fair for everyone no matter where you spawned.
+The map is symetric and so are the spawns.
+There are only baseq2 textures in this map.
+Oh and it comes with CTF :)
+
+--------------------------------------------------------------------------------
+SINGLE PLAYER           : 1 Player Start   Point(s)
+CO-OPERATIVE            : 0 Player Start   Point(s)
+DEATHMATCH              : 4 Player Respawn Point(s)
+ACTION QUAKE II         : 2 Teams
+                          0 Player Respawn Points per Team
+SUGGESTED PLAYER LOAD   : 2 to 8
+
+NEW TEXTURES            : No
+NEW SOUNDS              : No
+CD TRACK #              : 0
+
+--------------------------------------------------------------------------------
+* CONSTRUCTION *
+--------------------------------------------------------------------------------
+MAP BASE                : New Map
+PREFABS USED            : None
+EDITOR(S) USED          : QuArK 6.4 Alpha
+OTHER UTILITIES USED    : Wally and ArghRad
+
+KNOWN BUGS              : None
+
+COMPILE MACHINE         : None
+
+QBSP2 TIME              : 4 seconds
+VIS TIME                : 69 seconds
+QRAD TIME               : 517 seconds
+
+--------------------------------------------------------------------------------
+* OTHER LEVELS BY THE AUTHOR *
+--------------------------------------------------------------------------------
+: Rough.bsp
+: hopp.bsp
+: hopp2.bsp
+
+
+--------------------------------------------------------------------------------
+* SPECIAL INSTRUCTIONS / ADDITIONAL INFORMATION *
+--------------------------------------------------------------------------------
+None
+
+--------------------------------------------------------------------------------
+* CREDITS *
+--------------------------------------------------------------------------------
+The A-Team               : For making a KICK ASS Mod
+cen1sh			 : Testing
+SNiK			 : Testing
+The person who made ARCN : For the lovely sky (env)
+
+================================================================================
+* COPYRIGHT / PERMISSIONS *
+--------------------------------------------------------------------------------
+Authors MAY NOT use this level as a base to build additional levels.
+
+You MUST NOT distribute this level UNLESS you INCLUDE THIS FILE WITH
+NO MODIFICATIONS. If you don't co-operate, then DON'T DISTRIBUTE IT
+IN ANY FORM.
+
+This LEVEL may be distributed ONLY over the Internet and/or BBS systems.
+You are NOT authorized to put this LEVEL on any CD or distribute it in
+any way without my written permission.
+
+Action Quake II (C) 1998-99 The A-Team.
+Quake II (C) 1998-99 id Software. All rights reserved.
+
+[END OF DATA]==========================================================[.txtGen]

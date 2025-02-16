@@ -1,0 +1,30 @@
+
+01-01-2000
+
+===========================================================================================
+Title                   : The Citygate
+Filename                : citygate.bsp
+Game			: AQ2
+Author                  : Danny Piper (^KWSN^Spawn)
+Email Address           : spawn@fuckyou.co.uk
+Web Address             : www.spawns-domain.co.uk  or www.clan_kwsn.co.uk
+Description             : A small City
+Additional Credits to   : Various mappers for their textures!                      
+Map Type                : Teamplay
+===========================================================================================
+Editor(s) used          : Worldcraft 1.6
+Build Time              : Only 1 day!
+Compile Time		: hours
+===========================================================================================
+All these should be unzipped in quake2\action 
+===========================================================================================
+
+Oh, the sky is just an improved version of stars! (I called it kwsn!)
+
+This is just a small urban-style map i made in 1 day out of shear boredom! Its not bad for
+gameplay - advised to be use for teamplay!
+
+It'd be nice for some feedback :)
+
+-Spawn
+

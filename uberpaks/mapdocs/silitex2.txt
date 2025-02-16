@@ -1,0 +1,79 @@
+================================================================================
+* LEVEL INFORMATION *
+--------------------------------------------------------------------------------
+TITLE                   : Silitex 2: Renovation
+FILENAME                : silitex2.zip
+AUTHOR                  : Spear[C.A.P]
+DATE                    : 4/30/02
+GAME                    : Action Quake II
+EMAIL ADDRESS           : spearnsn@yahoo.com
+HOMEPAGE URL            : http://www.capclan.com
+AQ2 DEPOT		: http://aqmd.telefragged.com
+--------------------------------------------------------------------------------
+* LEVEL DESCRIPTION *
+--------------------------------------------------------------------------------
+A large, overly ornate office complex ripe for the aq2 killing grounds.
+--------------------------------------------------------------------------------
+SINGLE PLAYER           : Yes, for looking around.
+CO-OPERATIVE            : Only for No Fear, because he just wants to be your friend :)
+DEATHMATCH              : No.
+ACTION QUAKE II         : Teamplay and deathmatch.
+NEW TEXTURES            : Yes.
+NEW SOUNDS              : Yes.
+ 
+--------------------------------------------------------------------------------
+* CONSTRUCTION *
+--------------------------------------------------------------------------------
+MAP BASE                : None.
+PREFABS USED            : All mine created so I wouldn't have to make new desks, chairs, etc, etc.
+EDITOR(S) USED          : QOOLE 2.50(dont laugh!)
+ 
+OTHER UTILITIES USED    : Wally, Paint Shop Pro
+KNOWN BUGS              : It isn't as complete as I had hoped.
+MAP BUILD TIME		: If you still have 10 fingers left on your hands, it was more months than that.
+COMPILE MACHINE         : Pentium IV(4)1.8 Ghz, 512mb RAM
+ 
+QBSP3    TIME           : 6 	seconds
+QVIS3    TIME           : 2048 	seconds
+Arghrad  TIME           : 304	seconds
+ 
+--------------------------------------------------------------------------------
+* OTHER LEVELS BY THE AUTHOR *
+--------------------------------------------------------------------------------
+ACTION QUAKE II         : Silitex Office Complex|The Westfield Bank|Deepcanyon2(Ideas, textures, and design aid)
+--------------------------------------------------------------------------------
+* SPECIAL INSTRUCTIONS / ADDITIONAL INFORMATION *
+-------------------------------------------------------------------------------
+If you wish to use any of the textures in this map then go for it! Just make sure I'm given credit where credit is due.
+Along with WetWired for the marble textures, the lobby pillar textures, and two wall textures.
+--------------------------------------------------------------------------------
+* CREDITS *
+--------------------------------------------------------------------------------
+ID Software			: For making the base code for the A-Team to bend and improve.
+The A-Team              	: For making Action Quake 2!
+The Guys who made Qoole 	: I had to quote WetWired on this:For making a buggy program that is piss easy to use.
+Idle and No fear		: For being generally level headed and cool about all things under the sun and most importantly,ActionQuake!
+Shaymon(creator of deepcanyon)	: For letting me know how cool my map looked(in his eyes anyways:)
+Smurphster and Greydeath(aqmd)	: God knows what I would've done without the EX-aqmd monkeys, thanks guys!
+Smoke and Merlin(from Mapzone)	: I'd like to thank Smoke for early beta testing. And Merlin as well...very early testing :)
+				: Thank you everyone who I didn't list and last but not least God for giving me the ability
+				: to pump out haphazard maps such as this.
+
+
+As you all may or may not know, this is my last Aq2 map forever, I hope you all enjoy and I leave you with some good memories.
+Have fun with everything you do in life!
+================================================================================
+* COPYRIGHT / PERMISSIONS *
+--------------------------------------------------------------------------------
+Authors MAY NOT use this level as a base to build additional levels.
+ 
+You MUST NOT distribute this level UNLESS you INCLUDE THIS FILE WITH
+NO MODIFICATIONS. If you don't co-operate, then DON'T DISTRIBUTE IT
+IN ANY FORM.
+
+This LEVEL may be distributed ONLY over the Internet and/or BBS systems.
+You are NOT authorized to put this LEVEL on any CD or distribute it in
+any way without my written permission.
+
+Action Quake II (C) 1998-99 The A-Team.
+Quake 2 (C) 1998-99 id Software. All rights reserved.

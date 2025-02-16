@@ -1,0 +1,45 @@
+00/00/00
+================================================================
+Title                   : Evil Colt Compound
+Filename                : colt.bsp
+Game			: Action Quake 2
+Author                  : Matt Phillips (whir)
+Email Address           : whir@contaminated.net
+Web Address             : http://www.contaminated.net  http://whir.3dpalette.com http://www.concentric.net/~whir
+Description             : A Anti-Christ colt base (ala waco)
+Additional Credits to   : The A-Team, id, BagOMice and Mcbain for helping me w/ errors and id for quake2.
+
+================================================================
+
+* Play Information *
+
+Single Player           : If you wanna check out the level
+Cooperative             : Nope
+Deathmatch              : 2 - 20 
+Teamplay                : YES!!! This is good with any amount of players and is what I intended the map for.
+Difficulty Settings     : No
+New Sounds              : No
+New Graphics            : I made all except water and glass, the sky is the defualt one that comes with skypaint (wich is alowed to be used freely) I did make my own sky's but the FOV skypaint said to use for q2 sky's didnt line up.
+New Music               : Nope
+
+* Construction *
+
+Base                    : A blank grid
+Editor(s) used          : Worldcraft 1.6
+Known Bugs              : Some light bleeds but no big deal, I forgot to put a light above a door even though the entity is there, not to easy to spot though. Also a brush is the wrong size above the ladder cover outside, it fits in the editor but not after compiling.
+Build Time              : About 2 weeks in all, the arcutecture in less then a week and the textures in a few days (I know most are crappy, I spent about 5-10 min or less on each)
+Compile Time		: Dunno, forgot to right it down. I just left it on overnight so I would say 4-6 hours
+Notes:                  : Ummm hope you enjoy this map! Reall I wish I spent more effort on touching it up, il probably make a #2 but a good deal larger.
+
+This is my first ever map to complete, my 2nd attempt at a AQ level.. the other wouldnt compile from some error resualting
+from over detailing (not r_speeds problems), it was cooler looking then this one tho. I tried to let the textures do the
+detailing in this one.
+
+
+* Copyright / Permissions *
+
+Ummm dont use this map for anything without my explicit permision
+
+You can use these textures for your action quake level with my permission, dont use them for anything else at all.
+
+Copyright 1998 Matt Phillips, All Rights Reserved

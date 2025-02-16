@@ -1,0 +1,67 @@
+================================================================
+Title                   : Cheyenne
+Filename                : cheyenne.bsp
+Release Date            : 11/04/98
+
+Author                  : Brian Hess a.k.a. wendigo
+URL                     : http://www.widomaker.com/~bhess
+Email Addresses         : wendigo@virginia.edu
+                          bhess@widomaker.com
+
+Description             : This level was designed for ActionQuake.  It can be played in regular Q2,
+                          But I've never tried it and I'm guessing that item placement would be whack.
+                          I can't wait to get some 5 on 5 team games going on this bad boy.
+
+                          Speaking of which, this map will be running on my AQ2 server, which I have plans
+                          to run indefinately. (or until I get sick of AQ2)  The address is:
+
+                                        p60.canweb.net:27910 or 128.143.59.115:27910
+
+Credits                 : Avatar (Mackey McCandlish) for a beautiful environment map.  Sure beats _unit1!
+                          Geoffrey DeWan for making the GDD Compiling Utils.  Viva the _sun command! 
+================================================================
+
+* Play Information *
+
+Single Player           : No
+Cooperative             : No
+Deathmatch              : It will work...
+ActionQuake FFA         : YES!
+ActionQuake Teams       : YES!
+Difficulty Settings     : No
+New Sounds              : No
+New Graphics            : No
+New Music               : No
+Demos Replaced          : None
+
+* Construction *
+
+Base                    : New level from scratch
+Editor(s) used          : Worldcraft v1.6a
+Known Bugs              : Feel free to let me know if you find any
+Build Time              : About 36 hours
+
+Texture Wad used        : Quake 2 pak0.pak
+                          Various textures I whipped up
+                          Textures from the Heretic 2 Demo (oops!)
+
+Compile machine         : P2/300 128mb RAM
+GDDQBSP3 Time           : 7 seconds
+GDDQVIS3 Time           : 1859 seconds
+ARGHRAD Time            : 31258 seconds
+
+* Where to get this level *
+
+http://www.widomaker.com/~bhess/cheyenne/
+or ftp.cdrom.com/pub/quake2/...
+or the ActionQuake Map Depot (www.mapdepot.net)
+
+* Copyright / Permissions *
+
+Copyright (c) 1998 Brian Hess.  All rights reserved.
+
+This level may not be distributed on any CD-ROM
+without prior, explicit consent from Brian Hess.
+
+This level may not be used on a commercial 
+Multi-player server without similar explicit consent.

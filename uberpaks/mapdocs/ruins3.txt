@@ -1,0 +1,47 @@
+September 22, 1998
+
+================================================================
+Title:                          : Ghost Town: 2053.2
+Filename                        : Ruins3.bsp
+Author(s)                       : David "Runitai" Parks
+Email Address                   : runitai@my-dejanews.com
+Description                     : Action Quake2 Level.
+Additional Credits to           : Agent Smoke (If it wasn't for him, this map
+                                  wouldn't be here), idsoftware (of course),
+                                  Armin Rigo for QuArK, and all the wonderful
+                                  people at action.telefragged.com for Action
+                                  Quake2.
+================================================================
+
+
+* Play Information *
+
+Single Player           : No
+Deathmatch              : Yes
+New Sounds              : NO!
+New Graphics            : No 
+New Music               : No 
+
+* Construction *
+
+Base                    : Ruins2 
+Editor(s) used          : QuArK
+Known Bugs              : Vis clipping, nothing major.
+Build Time              : Entirely too long  
+
+* Install Instructions *
+
+Just unzip to your quake2/action directory using -d.  To view the map, run
+Action Quake2, and type "map ruins3" at the console.
+
+* Author's Notes *
+
+This map is intended for teamplay, but it still works with DM.  Please,
+e-mail me your opinions.  This is my third map, so if you like it check out
+my others: Ruins and Ruins2.
+
+* Legal Stuff *
+
+Don't sell it.  Distribute all you want.  Include this text file with it.
+
+

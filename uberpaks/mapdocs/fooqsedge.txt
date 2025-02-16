@@ -1,0 +1,39 @@
+================================================================
+Title                   : Q2's Edge converted for AQ2
+Filename                : fooqsedge.bsp
+Release Date            : 3/30/06
+Author                  : [DWL|FooQ]
+URL                     : http://
+Email                   : fooq@whoever.com
+Description             : The popular Q2 DM map 'The Edge' with an AQ2 spin
+Credits                 : Tim Willits, the author of the original map
+================================================================
+* Play Information *
+
+Single Player           : No
+Cooperative             : No
+Deathmatch              : Yes
+ActionQuake DM          : Yes
+ActionQuake Teams       : Yes
+Difficulty Settings     : No
+New Sounds              : Yes
+New Textures            : Yes
+New Music               : Yes
+Demos Replaced          : None
+
+* Installation *
+ Extract (unzip) in the *:*\quake2\action directory. All paths provided.
+
+* Construction *
+
+Base                    : Q2DM1
+Editor(s) used          : Quark 6.4
+Known Bugs              : Small protrusion on the curved wall over steps
+Build Time              : 3 days
+
+
+
+Compile machine         : AMD 1.6 GHz, 512mb RAM
+QBSP3 Time              : 10s
+QVIS3 Time              : 2340s
+QRAD3 Time              : 130s

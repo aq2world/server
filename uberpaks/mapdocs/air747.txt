@@ -1,0 +1,37 @@
+
+7-2-99
+
+===========================================================================================
+Title                   : Boeing 747
+Filename                : air747.bsp / air747_disco.bsp
+Game			: ActionQuake2
+Author                  : Paolo "P.O.W." Faccini
+Email Address           : pow@flashmail.com
+URL                     : http://www.nettare.com/pow/
+                          http://www.nettare.org/pow/		
+
+Description             : A Boeing 747 where you can fight on wings or inside
+                          kill 'em all!
+
+Additional Credits to   : ID software, ATEAM, Kinetix.
+
+===========================================================================================
+Base                    	 : Scratch
+Editor(s) used          	 : 3dsmax, QmapExp, Q1toQ2, Photoshop
+New Textures                     : All
+New Sounds                       : none.
+Build Time              	 : About 2 weeks (i hate QVIS: tests..tests...tests...)
+Compile Time(with Phong shading!): [air747]       about 4 hours
+				   [air747_disco] about 6 hours
+===========================================================================================
+Dm			: Yes (20+ respawn points)
+===========================================================================================
+***** Copyright / Permissions *****
+Feel free to distribute freely 
+without change them or this pack and always with this document.
+Contact me if you want to do stuff to it.
+
+Boeing 747
+ by P.O.W.
+  http://www.nettare.com/pow/
+HAVE FUN!

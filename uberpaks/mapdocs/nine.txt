@@ -1,0 +1,350 @@
+================================================================================================
+Título                  : "Nineteen Eighty-Four" (1984) =P
+
+Arquivos                : nine.bsp, nine.txt, pacote de texturas do Rorshach, chamado jackboot, 
+
+Arquivo Zipado          : nine.zip
+
+Lançamento (DD/MM/AA)   : 22/04/2002
+
+Author                  : Arthur "Suco" de Pádua 
+
+Email Address           : el_suco@zipmail.com.br
+
+Web Site                : http://www.cgcorp.com.br/baqm
+
+Descrição               : Mapa para Action Quake2 (http://action.telefragged.com).
+                          Esse mapa foi inspirado na obra de George Orwell, eu tentei 
+                          representar uma sociedade corrupta e decadente, resultado de 
+                          um regime fascista e totalitarista, como é descrita no livro 
+                          "1984" do Orwell.
+            
+
+Instalação              : Unzip nine.zip into root of your Action Quake game folder 			  			  (Quake2/Action), with Subdirectories enabled (!), so that 
+			  all textures and sky will be unzipped into correct directory 
+                          (USE FOLDER NAMES checkbox in WinZip or -d switch in PKUnZip).
+                                                    
+Agradeço a              : * A-Team por ter feito o AQ2, q é na minha opinião o melhor mod de q2
+
+                          * Id Software (www.idsoftware.com), por ter feito Commander Keen,
+                          Wolf3d, Doom, Doom2, Quake, Quake2, Quake3 Arena e por estar 
+                          fazendo Doom3.
+
+                          * Uninet (www.unigames.com.br), por ter servidores de AQ2
+
+                          *Siberian "Mococa", por ter ajudado em alguns conceitos básicos 
+                          sobre mapas
+
+                          *Byteco, por ter me passado o Qoole e ajudado em algumas 
+                          manhas do programa Qoole;
+
+                          *Andrei, o Makro_PN, o melhor mapper de Quake2 (e RQ3) q eu conheço
+
+                          *Pingueiro, q me deu uma força pra divulgar Juice, meu primeiro mapa e tal
+
+                          *A minha mae, porque sem ela eu seria porra. (literalmente)
+                          
+
+=============================================================================
+* Play Information *
+
+Jogo                      : Action Quake (Quake2)
+Single player             : Sim (pra atirar nas paredes e treinar pulos)
+Cooperative 2-4 players   : Não
+Deathmatch 2-8 players    : Sim 
+
+New Graphics              : Sim (texturas)
+New Music                 : Sim (radio.wav)
+New Sounds                : Sim:
+                                crickets.wav
+                                heli1984.wav
+                                juicemix.wav
+                                pingo.wav
+                                siren.wav
+                                storm.wav
+                                subway.wav
+
+Compativel com Action Quake2: Devel Edition (www.unigames.com.br/devel)
+
+DLL                       : Não
+
+Spawn Points              : 8
+
+* Construção *
+
+Tempo de construção       : 01/04/02 até 21/04/02
+Build Machine             : P800 with 128mb RAM, HD 20 GB, voodoo2
+Compile Machine           : P800 with 128mb RAM, HD 20 GB, voodoo2
+    QBSP3 Time            : 10 SEGUNDOS
+    QVIS3 Time            : 14023 SEGUNDOS
+    QRAD3 Time            : 131 SEGUNDOS
+
+Logs de compilação:
+
+==================================================
+
+----------- qbsp3 -----------
+original code by id Software
+Modified by Geoffrey DeWan
+Revision 1.07
+-----------------------------
+gamedir set to D:\Quake2\baseq2\
+entering D:\Quake2\baseq2\maps\NINE.map
+0...1...2...3...4...5...6...7...8...9... (2)
+0...1...2...3...4...5...6...7...8...9... (2)
+writing D:\Quake2\baseq2\maps\NINE.prt
+Writing D:\Quake2\baseq2\maps\NINE.bsp
+   10 seconds elapsed
+
+==================================================
+
+---- vis ----
+testlevel = 4
+reading D:\Quake2\baseq2\maps\nine.bsp
+reading D:\Quake2\baseq2\maps\nine.prt
+2152 portalclusters
+7521 numportals
+0...1...2...3...4...5...6...7...8...9... (150)
+0...1...2...3...4...5...6...7...8...9... (13872)
+Average clusters visible: 319
+Building PHS...
+Average clusters hearable: 1180
+visdatasize:605690  compressed from 1170688
+writing D:\Quake2\baseq2\maps\nine.bsp
+14023.0 seconds elapsed
+
+==================================================
+
+----- ArghRad 2.01 by Tim Wright (Argh!) -----
+Modified from original source code by id Software
+
+----- Settings -----
+----- Load BSP File -----
+reading D:\Quake2\baseq2\maps\nine.bsp
+----- Light World -----
+0...1...2...3...4...5...6...7...8...9... (16)
+0...1...2...3...4...5...6...7...8...9... (105)
+0...1...2...3...4...5...6...7...8...9... (5)
+----- Save BSP File -----
+writing D:\Quake2\baseq2\maps\nine.bsp
+----- Time -----
+  131 seconds elapsed
+
+==================================================
+
+Editor(s) Used            : WorldCraft 1.6, Qoole 2.5, Qoole 99, 1.55, Winbspc, para texturas by suco: Adobe Photoshop 5.0, Wally
+                            
+
+
+Bugs conhecidos           : Nenhum =)
+
+* Copyright / Permissions *
+
+Por favor, naum o utilize como base para outros mapas nem nada. Se vc fizer isso, um grande bode
+da Patagônia irá invadir seu quarto, chifrar sua bunda, desmagnetizar seus disquetes, seus HD, 
+queimar seus processadores (caso tenha mais q um) riscar seus cds e quebrar sua torradeira.
+Tenha um bom dia
+
+
+* Onde catar esse mapa *
+
+Comigo! (icq# 50320244)
+
+AQMD?!
+
+==========================IMPORTANTE========================================
+
+Eu queria agradeçer Rorshach, pelas texturas no txt do jackboot texture set, disse q 
+pode-se usar as texturas dele desde q naum se altere nada E coloque uma textura-assinatura 
+no mapa, e essas duas condições foram satisfeitas no 1984.
+
+Eu gostaria de agradecer também Marc Schroeder aka Term, o cara q fez a skybox (ou enviroment map)
+chamado LONDON, q eu usei nesse mapa. obrigado.
+
+=============================================================================
+
+
+Links Bacanas:
+
+
+www.animar.com.br
+
+www.unigames.com.br
+
+www.telefragged.com
+
+www.planethalflife.com/wadfather (otimo pra texturas)
+
+www.planetquake.com/bighouse
+
+
+
+================================================================================================
+
+Now, the english Version
+=)
+
+================================================================================================
+Title                   : "Nineteen Eighty-Four" (1984) =P
+
+Files                   : nine.bsp, nine.txt, some of Rorshach´s Texture set called Jackboot, 
+
+ziped File              : nine.zip
+
+Release Date (DD/MM/YY) : xx/04/2002
+
+Author                  : Arthur "Suco" de Pádua 
+
+Email Address           : el_suco@zipmail.com.br
+
+Web Site                : http://www.cgcorp.com.br/baqm
+
+Description             : Map for Action Quake2 (http://action.telefragged.com).
+                          This map was inspired by George Orwell´s 1984, I tried to 
+                          represent the Big Brother´s society, a scary fascist society.
+            
+Installation            : Unzip nine.zip into root of your Action Quake game folder 			  			  (Quake2/Action), with Subdirectories enabled (!), so that 
+			  all textures and sky will be unzipped into correct directory 
+                          (USE FOLDER NAMES checkbox in WinZip or -d switch in PKUnZip).
+                                                    
+Thanks to               : *id software
+                          
+                          *Siberian "Mococa", my first mapper-friend 
+
+                          *Byteco, for send me Qoole 2.5
+
+                          *Andrei, o Makro_PN, the best mapper i´ve ever seen
+
+                          *Thanks to my mom
+                          
+
+=============================================================================
+* Play Information *
+
+* Play Information *
+
+Game                      : Action Quake (Quake2)
+Single player             : yes (just to look around, and shoot the walls ^_^)
+Cooperative 2-4 players   : Nop
+Deathmatch 2-8 players    : yes 
+
+New Graphics              : yep (textures)
+New Music                 : yep (radio.wav)
+
+New Sounds                : crickets.wav
+                            heli1984.wav
+                            juicemix.wav
+                            pingo.wav
+                            siren.wav
+                            storm.wav
+                            subway.wav
+
+
+This map run Action Quake2: Devel Edition (www.unigames.com.br/devel)
+
+DLL                       : Nop
+
+Spawn Points              : 8
+
+* Construção *
+
+Tempo de construção       : 01/04/02 até 21/04/02
+Build Machine             : P800 with 128mb RAM, HD 20 GB, voodoo2
+Compile Machine           : P800 with 128mb RAM, HD 20 GB, voodoo2
+    QBSP3 Time            : 10 secs
+    QVIS3 Time            : 14023 secs
+    QRAD3 Time            : 131 secs
+
+Logs:
+
+==================================================
+
+----------- qbsp3 -----------
+original code by id Software
+Modified by Geoffrey DeWan
+Revision 1.07
+-----------------------------
+gamedir set to D:\Quake2\baseq2\
+entering D:\Quake2\baseq2\maps\NINE.map
+0...1...2...3...4...5...6...7...8...9... (2)
+0...1...2...3...4...5...6...7...8...9... (2)
+writing D:\Quake2\baseq2\maps\NINE.prt
+Writing D:\Quake2\baseq2\maps\NINE.bsp
+   10 seconds elapsed
+
+==================================================
+
+---- vis ----
+testlevel = 4
+reading D:\Quake2\baseq2\maps\nine.bsp
+reading D:\Quake2\baseq2\maps\nine.prt
+2152 portalclusters
+7521 numportals
+0...1...2...3...4...5...6...7...8...9... (150)
+0...1...2...3...4...5...6...7...8...9... (13872)
+Average clusters visible: 319
+Building PHS...
+Average clusters hearable: 1180
+visdatasize:605690  compressed from 1170688
+writing D:\Quake2\baseq2\maps\nine.bsp
+14023.0 seconds elapsed
+
+==================================================
+
+----- ArghRad 2.01 by Tim Wright (Argh!) -----
+Modified from original source code by id Software
+
+----- Settings -----
+----- Load BSP File -----
+reading D:\Quake2\baseq2\maps\nine.bsp
+----- Light World -----
+0...1...2...3...4...5...6...7...8...9... (16)
+0...1...2...3...4...5...6...7...8...9... (105)
+0...1...2...3...4...5...6...7...8...9... (5)
+----- Save BSP File -----
+writing D:\Quake2\baseq2\maps\nine.bsp
+----- Time -----
+  131 seconds elapsed
+
+==================================================
+
+Editor(s) Used            : WorldCraft 1.6, Qoole 2.5, Qoole 99, 1.55, Winbspc, for my textures: Adobe Photoshop 5.0 + Wally
+                            
+
+
+Bugs conhecidos           : Nop
+
+* Copyright / Permissions *
+
+Authors may NOT use this level as a base to build additional levels.
+
+
+* Where can u get this map? *
+
+Call me (icq# 50320244)
+
+
+==========================IMPORTANT=========================================
+
+THANKS to Rorshach, a great GFX artist, im using his textures in this map because he said that
+the textures could be used in maps if his sign-texture was in the map, and the txt file had his
+name and some words about... sorry, but my english is sucks =P
+
+And thanks to Marc Schroeder aka Term, he maded the skybox (enviroment map if u prefer) called
+LONDON, and i use this skybox in my map, thanks man =)
+
+=============================================================================
+
+
+Cool links:
+
+
+www.animar.com.br
+
+www.unigames.com.br
+
+www.telefragged.com
+
+www.planethalflife.com/wadfather (amazing textures)
+
+www.planetquake.com/bighouse

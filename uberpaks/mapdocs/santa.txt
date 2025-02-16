@@ -1,0 +1,62 @@
+=====================================================================
+     Action Quake 2 (http://action.telefragged.com/)
+=====================================================================
+
+-----<General Information>-------------------------------------------
+
+Title		: Rumble in santas home
+Filename	: santa.zip
+Date		: 10.4.2004
+Authors		: Genie (a.k.a. Keeni) and PieniMies
+Author Email	: genie@tukikohta.net
+Home page	: -
+
+-----<Credits and Thanks>--------------------------------------------
+
+Playtesters
+Shadowfire, makro and many more for the textures
+Tim Wright for ARGH! tools
+AQ2suomi for keeping up the good work
+A-TEAM for Action Quake 2
+Id Software for Quake 2
+
+-----<About>---------------------------------------------------------
+
+This map we started making before christmas and we were thinking about
+releasing this near christmas. It´s about 5 months from christmas now.
+It´s a christmas theme map one big house.
+
+-----<Map Information>-----------------------------------------------
+
+Map Description	: Large sized map
+How Many Players: 4-20
+New Textures	: Yes
+New Sounds	: Yes
+
+------<Play information>---------------------------------------------
+
+Single Player           : No
+Cooperative             : No
+Deathmatch              : No
+ActionQuake DM          : No
+ActionQuake Teams       : YES
+DM Spawn Points         : 10
+Max Player Load         : 20
+
+------<File information>---------------------------------------------
+
+BSP name	: santa.bsp
+Zip size	: 3629kb
+
+------<Construction>-------------------------------------------------
+
+Editor(s) used	: Worldcraft 1.6
+Compile Machine	: 2Ghz, 512Mb RAM
+Compile time	: 2589 seconds
+Build Time	: 6 months
+Other programs	: ARGH! compiling tools, Wally
+Number of solids: 2047
+
+------<Installation>-------------------------------------------------
+
+Extract the files to quake2/action

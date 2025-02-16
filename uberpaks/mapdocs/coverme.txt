@@ -1,0 +1,55 @@
+August 24, 1999.
+
+============================================================================
+Title:                          : Cover Me
+Filename                        : coverme.bsp
+Author(s)                       : Mike "Sir Caliber" Dahlke
+Email Address                   : mdahlke1@home.com
+Description                     : Action Quake2 Level.
+Additional Credits to           : Jordan "Dr. Nightmare" Crute for "Hip      				  Hop Nightmare" and for helping play test.
+				  ID, The A-Team, Woebane for the sky.  
+                                  The makers of Wally and Radiant for        				  releasing great freeware.
+============================================================================
+
+
+* Play Information *
+
+Single Player           : For looking around.
+Deathmatch              : Yes
+Teamplay                : Yes
+New Sounds              : Yes
+New Graphics            : Yes 
+New Music               : No 
+
+* Construction *
+
+Base                    : From scratch.
+Editor(s) used          : QERadiant, Wally, Paint Shop Pro 5.
+Build Time              : About a month.
+Compile time            : 30 min.
+Known Bugs              : None?
+
+
+* Install Instructions *
+
+Just unzip to your quake2/action directory, run Action Quake2, and type
+"map coverme" at the console.
+
+
+* Legal Stuff *
+
+Authors may NOT use this level as a base to build additional
+levels.
+
+The graphics that come with the map were made by me and as such are 
+copyrighted.  That aside, authors may use any of the new textures so long as
+they credit me for their creation. 
+
+You may distribute this BSP, provided you include this file, with
+no modifications. 
+
+
+Comments or Suggestions are always appreciated.  
+	Mail to:
+	mdahlke1@home.com
+

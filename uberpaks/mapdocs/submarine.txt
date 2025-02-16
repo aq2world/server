@@ -1,0 +1,21 @@
+Title                   : Action Submarine
+Filename                : Submarine.zip
+Game                    : Action Quake 2 
+Author                  : KB
+Author Email            : kristian@berg.online.no
+Description             : A submarine
+Thanks to               : A-Team, Id! 
+
+* Play Information *
+Single Player           : For checking out the level
+Cooperative             : No
+Deathmatch              : Yes!
+AQ2 Teamplay            : No
+Difficulty Settings     : No
+New Graphics            : No                
+New Music               : No
+CD Track                : No
+
+Copyright to © KB 1998 ©
+
+Have fun!

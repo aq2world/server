@@ -1,0 +1,30 @@
+Title                   : Terror on the Tracks
+Filename                : BXtrain2.zip
+Version                 : 19 Dec 98
+Game                    : Action Quake 2 
+Author                  : BunnyX
+Description             : It's a 5 cab train. =)
+Thanks to               : A-Team, Id, people on Rust Discussions and the AQMD for support and bughunting, blah blah blah. =) FoolKiller fer the test run and suggestions, the hundred and one people who complained about the r_speeds around the doors. =)
+No thanks to		: Pesky campers. ;p
+
+* Play Information *
+
+Single Player           : Just for checking things
+Cooperative             : No
+Deathmatch              : Heck yes!
+AQ2 Teamplay            : Aww yes!
+Difficulty Settings     : No
+New Graphics            : YES                
+New Music               : No
+CD Track                : No
+
+* Installation *
+
+Just unzip to your X:\Quake2\Action directory (with subdirectories enabled).
+The BSP must end up in X:\Quake2\Action\maps folder.
+Textures must end up in X:\Quake2\Action\textures\wal folder.
+
+* Copyright / Permissions *
+This text file must be distributed with any version of this level.
+
+Hell, if you can use this to make a better map than this one, go ahead and steal the idea, textures, etc, just stick my name somewhere in the credits. =)

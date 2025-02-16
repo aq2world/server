@@ -1,0 +1,23 @@
+Title: 	Tropical
+Date: 	19 September 2023
+Tools: 	TrenchBroom, ArghRad
+Email: 	dan@boklov.com
+Web: 	https://www.dboklov.me/action/
+
+Credits: 	
+
+	WizardExt
+	NRGizer
+
+Copyright:
+	source/tropical.map is licensed as CC0 No Copyright
+
+Comments:	
+	
+	Tropical is an isolated island untouched by modern civilization. At least none alive to tell
+	about it...
+	
+	The map ships with a location file (locs/tropical.loc) and the source (source/tropical.map),
+	these files are not required.
+	
+	- Dan "varrg" Boklöv Palovaara

@@ -1,0 +1,40 @@
+13.5.2003
+===========================================================================================
+Title                   : ff
+Filename                : ff.bsp
+Game			: Action Quake2
+Author                  : sanko
+Description             : ff
+			
+===========================================================================================
+* Play Information *
+
+Single Player           : If you wanna walk around..
+Cooperative             : No
+Deathmatch              : Yes
+Teamplay                : Yes
+Capture the Flag	: Yes
+Difficulty Settings     : No
+New Sounds              : Yes
+New Graphics            : No
+
+
+===========================================================================================
+* Construction *
+
+Base                    : None
+Editor(s) used          : Quark 6.4 alpha
+Known Bugs              : Nah
+Build Time              : ~three days
+Compile Time		: About 60min
+			 
+
+===========================================================================================
+*Installation*
+unzip to quake2\action
+
+===========================================================================================
+* Copyright / Permissions *
+
+This map may be distributed freely over the internet as long as the contents remained
+unchanged and intact, and as long as this txt file is included.

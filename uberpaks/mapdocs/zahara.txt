@@ -1,0 +1,25 @@
+
+   ***********************************************************
+   *          A map  by: HcPeura a.k.a Memoria               *
+   ***********************************************************
+
+
+   **************************************************
+   *                    STUFF                       *
+   **************************************************
+
+   - Map Name     : zahara.bsp
+
+   - Editors used : GtkRadiant 1.5
+
+   - Build time   : 4-6hours.
+
+   - New stuff    : New textures. (credits for the marvelous textures provided by the fabulous people over the internet)
+
+   - Credits      : Thanks again to all the other mapmakers for the marvelous textures and A-team for aq2, mum for me and jesus for dying on the cross for me.
+
+   - Testers      : Just me.
+
+   
+   -Description&Other: Just some test-map which I ended up finishing. The map is basically an arabic-style town, which has been
+covered with sand over time. gl hf

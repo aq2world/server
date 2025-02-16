@@ -1,0 +1,58 @@
+
+
+
+¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤
+
+
+Title                   : Welcome To The Rok ! by Jf^ Supreme & Zakath [RK]
+Filename                : rok.bsp
+Game			: AQ2
+Author                  : Olli Ruhanen a.k.a. [KTC]Supreme
+Email Address           : olli.ruhanen@kolumbus.fi
+IRC			: ircnet #ktc, #teamsisu, #jf
+URL     		: http://jedifire.klaanit.net/ktc
+Description             : Rocky...place.
+Thanks to		: -A-team - a great mod !
+			  -ID Software - for making AQ2 possible :P
+			  -Big thanks to Kalamiehen Toverit Clan and Team SiSu for
+			  the their support.
+			  -Creators of Qoole99 - for an excellent editor.
+			  
+My other maps for AQ2: 	vwoods.bsp
+		       	fuego.bsp
+			panic.bsp
+			plaza.bsp
+			plaza2.bsp
+
+¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤
+
+-= Play Information =-
+
+Single Player           : yea, but what's the point
+Cooperative             : ?
+Deathmatch              : no, I don't think so
+Teamplay                : of course !
+New Sounds              : no
+New Textures            : no (just those q2 textures)
+
+
+¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤
+
+-= Construction =-
+
+Editor(s) used          : Qoole99
+Build Time              : weeks
+Compile Time		: hours
+
+
+¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤
+
+
+-= Copyright =-
+
+You may not re-edit my map in any way...plz :)
+
+
+
+
+¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤

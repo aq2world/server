@@ -1,0 +1,22 @@
+11.11.2001
+	*Info*
+	+----------------------------------------------------+
+	|  Title		: Temple of the Voguls       |
+	|  Filename		: Vtemple.bsp		     |
+	|  Mod			: Action Quake 2	     |
+	|  Author		: Genie			     |
+	|  Email address	: Genie@peliportti.net	     |
+	+----------------------------------------------------+
+	*Play information*
+	+----------------------------------------------------+
+	|  Newsounds		: No			     |
+	|  Singleplayer		: No			     |
+	|  Deathmatch		: Yep			     |
+	|  Teamplay		: Sure			     |
+	+----------------------------------------------------+
+	*Construction*
+	+----------------------------------------------------+
+	|  Editors(s) used	: Worldcraft 1.6a            |
+	|  Known bugs		: Some sky bugs...	     |
+	|  Built time		: Many weeks.. im lousy      |
+	+-----------------------------------------------Genie+

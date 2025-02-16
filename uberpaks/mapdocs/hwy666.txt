@@ -1,0 +1,78 @@
+
+3/16/99
+
+===========================================================================================
+Title                   : 	highway 666
+				
+
+Filename                : 	hwy666.bsp
+				
+
+Game			: 	AQ2
+Author                  : 	Jesper Myrfors
+Email Address           : 	ithaqua@wiredweb.com
+Web Address             : 	---
+
+Description             : 	HIGHWAY 666 runs through a boom town built around the promise of nuclear power. When funding for the plants dried up, so did the town. Partial construction can be seen. Sand has covered the roads and now a deadly battle takes place through the empty buildings. R-speeds and clipping were killing the map in earlier versions. I raised the walls and now it works fine. Have fun.
+				
+
+
+
+Additional Credits to   : Id software, wally, arghrad 2.0 (wow)
+                          photoshop, bryce 3d, and skypaint.
+		          map depot for doing an awesome job of keeping
+		          the action quake community in high quality maps.
+ 			  		AND
+			  The folks who brought us action quake!
+                          
+                          
+
+===========================================================================================
+
+* Play Information *
+
+Single Player           : NO
+Cooperative             : NO
+Deathmatch              : YES 2+
+Teamplay                : YES
+Difficulty Settings     : NO
+New Sounds              : no
+New textures            : YES
+New sky                 : YES 
+
+===========================================================================================
+
+* Construction *
+
+Editor(s) used          : QEradiant
+Known Bugs              : NO
+Build Time              : 2 days
+Compile Time		: 6 hours
+				
+Notes:                  : These were primarily designed for Lan play and run great on my lan. 6 pentiumII 300s with tnt cards. I hope they can be used by others, good luck.
+
+===========================================================================================
+
+*installation*
+
+unzip the all the files to quake2\action
+
+(if something goes wrong...)
+
+the wal-files : quake2\action\textures\jestest2\
+the pcx-files : quake2\action\env\
+the tga-files : quake2\action\env\
+the bsp-file  : quake2\action\maps\
+
+===========================================================================================
+
+
+* Copyright / Permissions *
+
+Do not use any of these maps in a commercial product without my permission.
+All textures and skies are copyright 1999  Jesper Myrfors
+This readme must be copied with the maps.
+
+If you are going to use the textures or skies to make your own levels, or levels for posting to the net then PLEASE feel free to use the textures and skies. Just credit me in the readme document and state my copyright to my skies and textures.It may seem extreme and counter to the freeness of the web, but trust me, if you don't cover yourself some "suit" is going to rush in and rape your efforts for his/her own profit. It's our support of our hobby that keeps this thing going, let's stick together, but stay smart.
+
+

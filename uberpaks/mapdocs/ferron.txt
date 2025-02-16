@@ -1,0 +1,45 @@
+Created: 5/2/01
+
+
+                               Ferron - Venice under Ice
+                                 By: Zakath[RK]
+   ------------------------------------------------------------------
+
+       Installation: Just unzip into your Quake2/ folder
+
+=======================================================================
+Title                   : Ferron - Venice under Ice    By Zakath [RK]
+Filename                : ferron.bsp
+Game	      : Action Quake 2
+Author                  : Tomi Vainikka
+Email Address           : vainis@saunalahti.fi
+Web Address             : www.clanrk.org
+Description             : Frozen city..
+Additional Thanks To    : Uhm, Thanks for the beta testers and
+	        all the textures makers who I stole
+	        the textures from :)
+====================================================================
+
+* Play Information *
+
+Single Player           : Sure, A lot of fun also. Monsters and traps and and... not
+Cooperative             : Nope
+Deathmatch              : Ye´
+Teamplay                : Ye´
+Difficulty Settings     : Nope
+New Sounds              : Yes
+New Graphics            : Yes
+New sky                 : Well If you don´t have drksky then yes :) 
+Textures	      : From Quake2 and random map makers, and some from me
+====================================================================
+
+* Construction *
+
+Editor(s) used          : Here we go:
+                          WorldCraft 1.6 for building
+Known Bugs              : One house is black for some reason, but if you use
+	        modulate 50 you´ll see it clearly :)
+Build Time              : ~1 week
+Compile Time	      : 7 hours
+
+

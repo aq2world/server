@@ -1,0 +1,43 @@
+Instructions: extract the archive, preserving directories,
+to your quake2/action directory.
+================================================================
+Title                   : Cameltrap
+Filename                : cameltrap.bsp
+Author                  : Joost van der Velde and Nick van Ginkel
+Author's Quake Handle	: The Riddler and Mindmaker
+Author's Email Address  : jvelde@freemail.nl and nvang@dds.nl
+			  Please send your comments
+Where to get ActionQ2   : http://action.telefragged.com
+================================================================
+
+If you love camels, you will love this map. There are no camels in the map, but it is the 
+thought that matters :-)
+
+* Level Information *
+
+Description		: A kind of jungle where camels live. There are a few tunnels and a                           
+                          sewer underground. Just look around the map and see why we love it. 
+                          This map is build for teamplay and deathmatch. Use this map for your wars		  
+
+Weapon Locations	: Just look :-)
+
+
+* Construction *
+
+Editor(s) used          : Build with Quark 5.09 and 5.10, we also used a few prefabs (that we changed)
+
+Known Bugs              : No bugs (yet!), if you find one. Please e-mail us
+
+* Build Time *
+
+Computer	        : K6-II-350/400, 128MB ram, Voodoo2 video/ Voodoo Banshee
+
+Building time           : Around 2 days for the map and 1 day compiling
+
+=================================================================
+
+Special thanks to Cornholio for making our map a lighter place :-)
+
+
+This map is freeware. It CANNOT be sold in any way. So don't let your friends
+charge you for it. And if they do pay us, not them

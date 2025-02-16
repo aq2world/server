@@ -1,0 +1,95 @@
+TITLE                   : MBG City
+FILENAME                : mbgcity.zip
+AUTHOR                  : PaTMaN (MBG Member)
+DATE                    : July 27, 2000
+EMAIL ADDRESS           : patman_q@hotmail.com
+HOMEPAGE URL            : http://members.xoom.com/patmansgames
+.zip CONTENTS           : Map: mbgcity.bsp
+			  Text: mbgcity.txt
+			  Textures: pm1.wal, mbglogo.wal
+			  Env: starsbk.pcx, starsbk.tga, starsdn.pcx,
+			  starsdn,tga, starsft.pcx, starsft.tga, starslf.pcx,
+			  starslf.tga, starsrt.pcx, starsrt.tga, starsup.pcx,
+			  starsup.tga
+--------------------------------------------------------------------------------
+* INSTALLATION *
+--------------------------------------------------------------------------------
+Extract mbgcity.zip with "Use folder names" checked to your Action
+Quake2 dir or
+
+Extract:
+	Map and Text to               (aq2dir)/maps
+	Textures to		      (aq2dir)/textures/mbg
+	Env to			      (aq2dir)/env
+--------------------------------------------------------------------------------
+* LEVEL DESCRIPTION *
+--------------------------------------------------------------------------------
+2 Small cities connected by 2 long hallways with doors.
+--------------------------------------------------------------------------------
+SINGLE PLAYER           : 1 Player Start Point
+CO-OPERATIVE            : 0 Player Start Points
+DEATHMATCH              : 20 Player Respawn Points
+ACTION QUAKE II         : 2 Teams
+SUGGESTED PLAYER LOAD   : 1 to 16
+
+NEW TEXTURES            : Yes
+NEW SOUNDS              : No
+CD TRACK #              : 0
+
+--------------------------------------------------------------------------------
+* CONSTRUCTION *
+--------------------------------------------------------------------------------
+MAP BASE                : New Map
+PREFABS USED            : My own!
+EDITOR(S) USED          : qED3, ArghRad 2.01, Wally
+OTHER UTILITIES USED    : Q2BeaVeR 4.0.0
+
+KNOWN BUGS              : OpenGL users will notice the same effect as in other
+			  levels like urban and Actcity3, a blacking out of the
+			  level if you try to look across the whole thing. (both
+			  doors open and looking through them is long)
+
+COMPILE MACHINE         : AMD Athlon 900mhz 128mb RAM
+
+QBSP2 TIME              : 0 Hours 0 Minutes  5.39 seconds
+VIS TIME                : 3 Hours 9 Minutes 16.49 seconds
+ARGHRAD TIME            : 0 Hours 3 Minutes 47.96 seconds
+
+--------------------------------------------------------------------------------
+* OTHER LEVELS BY THE AUTHOR *
+--------------------------------------------------------------------------------
+PDM1 (q1)
+MBG City2 (q2)
+Blockfort (q2)
+PGarden (q2)
+
+Being worked on:
+Shark Bait (q2)
+Ice Rink (q2)
+Skyscraper (q2)
+
+--------------------------------------------------------------------------------
+* CREDITS *
+--------------------------------------------------------------------------------
+The A-Team              : For making Action Quake2
+ID Software		: For making Quake2
+
+All the people who made .txtGen.
+To the person that made the Sky "Stars".
+
+================================================================================
+* COPYRIGHT / PERMISSIONS *
+--------------------------------------------------------------------------------
+Authors MAY NOT use this level as a base to build additional levels without my
+permission.
+
+You MUST NOT distribute this level UNLESS you INCLUDE THIS FILE WITH
+NO MODIFICATIONS. If you don't co-operate, then DON'T DISTRIBUTE IT
+IN ANY FORM.
+
+This LEVEL may be distributed ONLY over the Internet and/or BBS systems.
+You are NOT authorized to put this LEVEL on any CD or distribute it in
+any way without my written permission.
+
+Action Quake II (C) 1998-99 The A-Team.
+Quake II (C) 1998-99 id Software. All rights reserved.

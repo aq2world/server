@@ -1,0 +1,59 @@
+================================================================
+* General Information *
+
+Title                   : sunken Ruins 3 - Revelations
+Filename                : sunken3.zip
+Release Date            : 05.09.2004
+Author                  : Ringu
+URL                     : -
+Email                   : ringu@vapaalla.org
+================================================================
+* File Information *
+
+.bsp Name               : sunken3.bsp
+
+================================================================
+* Play Information *
+
+Single Player           : No
+Cooperative             : No
+Deathmatch              : No
+ActionQuake DM          : Yes
+ActionQuake Teams       : Yes
+DM Spawn Points         : Yes
+Max Player Load         : Dunno
+Difficulty Settings     : No
+New Sounds              : Yes
+New Textures            : Yes
+New Music               : Yes
+Demos Replaced          : None
+================================================================
+* Installation *
+ Extract (unzip) in the *:*\quake2\action directory. All paths provided.
+================================================================
+* Construction *
+
+Base                    : From scratch
+Editor(s) used          : Worldcraft
+Known Bugs              : The frickin black spots
+Build Time              : Two days of heavy torment
+
+
+Compile machine         : XP 3200+
+QBSP3 Time              : 2 Seconds
+QVIS3 Time              : 350 Seconds
+QRAD3 Time              : 212 Seconds
+================================================================
+* Description *
+
+The result of my psychedelic vision.
+
+================================================================
+* Credits *
+
+Vermin, Florine, Osiris, Ellusion, Spear, Kax, Zakath and all other ones whose textures i might have used.
+
+================================================================
+* Copyright / Permissions *
+
+Copyright © 2004 .  All rights reserved.

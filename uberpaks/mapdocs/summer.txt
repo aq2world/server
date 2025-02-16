@@ -1,0 +1,47 @@
+=====================================================================
+     Action Quake2 map - Summer Night City
+=====================================================================
+
+======== ( Information ) ============================================
+
+Title		: Summer Night City
+Filename	: Summer.zip
+Date		: 07/08/2003
+Author		: PieniMies (Aki Maksimainen)
+Author Email	: a_maksimainen@hotmail.com
+Home page	: http://clanstar.dyns.cx
+Previous Maps	: -
+
+======== ( Special Thanks! ) ========================================
+
+Ogathy for testing the map and paking..
+flitz and Hurky for making some textures
+Amok for testing the map
+Clan Star for supporting and sponsoring
+
+======== ( About ) ======================================================
+
+Well this is my first map i have finnished. I have spend lots of time
+makeing this "dream" come true ;) Summer is little city,where all the
+action is happening! Hope you enjoy!
+
+
+======== ( Map Information ) =============================================
+
+Map Description	: medium sized map
+How Many Players: 4-20
+New Textures	: Yes
+New Sounds	: No
+
+======== ( Construction ) ================================================
+
+Editor(s) used	: Qoole 99
+Compile Machine	: AMD Athlon xp 2000+, 256mb ram
+Compile time	: long
+Playtest time	: many hours
+Build Time	: 0,7 years
+Other programs	: arghrad, Wally
+
+======== ( Installation )=================================================
+
+Extract the files to quake2/action

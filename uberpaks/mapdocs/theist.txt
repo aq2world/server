@@ -1,0 +1,84 @@
+=============================================================================
+Title                   : Bank Heist
+
+Files                   : theist.bsp, readme's, textures and sounds
+
+Release Date (DD/MM/YY) : 22/07/99
+Author                  : SteelHORN
+Email Address           : imurray@btinternet.com
+Web Site                : 
+
+Description             : Map for TEAMPLAY Action Quake (http://action.telefragged.com).
+                          This, to my knoweldge is, is the first AQ2 map with an objective other
+			  than killing all the other team. You can also bag the loot by 
+			  escaping in the getaway truck.  Before you can do this you must
+			  deactivate the security.  At least 8 players i rekon.  If you are
+			  interested in how it was done, the engine for the triggers is in the 
+			  maintenance room next to the 'truck' room.  Highest r_speed < 900. 
+
+Installation            : * Unzip theist.ZIP into Quake2/Action directory.
+                                                    
+Additional Credits to   : Special thanks to Rogue for help throughout development of the 
+		          map, happy now :)
+			  Rage for help with testing, comments, hype and the cool little demo of
+			  what to do in the map.
+			  MadDog (www.gamedesign.net) for the inspiration on how to reset
+			  the map for each round.  CryptR (actcity) and Ruskprick (when i
+			  killed the teacher) for some textures.  Bunnyx (bxtrain2) for the
+			  idea of flowing textures.
+			  'Sounds of America' for some of the sounds.
+			  Deathwalker and Sexual Chocolate (blame him for the loo)for map ideas.			  	  Weaponx,DeathWalker, Bobalob, P and Sex Chocolate
+			  for alpha testing and comments.
+			  Above + AWOL, Cheesbury, Loser and Screech (nice bug you found)
+			  for teamplay beta tests.
+			  And last but not least Wireplay, in particular Stikky
+			  for providing a test server (and Streaky for trying to)
+
+=============================================================================
+* Play Information *
+
+Game                      : Action Quake (Quake2)
+Single player             : Yes (only for looking around)
+Cooperative 2-4 players   : No
+Deathmatch 2-8 players    : Yes (TEAMPLAY ONLY, i recommend at least 8 players)
+
+New Graphics              : Yes 
+New Music                 : No
+New Sounds                : Yes
+DLL                       : No
+
+
+
+* Construction *
+
+Base                      : New level from scratch
+Build time                : +2 months
+Compile Machine           : K6-2 350MHz, 64M RAM
+    QBSP3 Time            : 40 secs
+    QVIS3 Time            : 11663 sec
+    QRAD3 Time            : 26900 sec
+
+Editor(s) Used            : WorldCraft 1.6a, Goldwave, Paint Shop Pro, Wally
+
+Known Bugs                : On the odd occasion you may here the truck start or an exposion
+			    going off about 12 seconds into the round.  This is because
+			    a trigger (e.g. the truck) was activated just before the round end
+			    the sounds you hear are a consequence of putting that right.
+			    Be careful on the truck, you sometimes get flattened.  I've tried 
+			    my best to minimize this problem but I think it is a lag issue.
+
+
+
+* Copyright / Permissions *
+
+Authors may NOT use this level as a base to build additional
+levels without permission from me.
+
+
+You may distribute this BSP, provided you include this file, with
+no modifications.  You may distribute this file in any electronic format (BBS, Diskette, CD, etc)
+as long as you include this file intact.
+
+* Where to get this BSP *
+
+Mail me!

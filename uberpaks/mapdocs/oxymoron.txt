@@ -1,0 +1,45 @@
+================================================================
+Title                   : The Oxymoron
+Filename                : Oxymoron.bsp
+Date of Release         : 11.11.1999 
+Author                  : Bjoern Schlueter
+Nick                    : NewGandhi
+Email Address           : NewGandhi@beer.com
+Description             : Battlearea created for LAN-Parties with 3-6 players.
+			 
+================================================================
+* Installation Info*
+
+The .bsp file has to be put into the (guess what?) wherever located maps directory
+Just unzip the new Texture to the textures/misc directory and everything should be fine.
+
+* Play Information *
+Game                    : Quake II
+Single Player           : No
+Cooperative 2-4 Player  : No  
+Deathmatch 3-6 Player   : Check it !
+Difficulty Settings     : Nope
+New Textures            : Just one (Special thanx to ENDBOSS)
+Exit			: Nope
+
+* Construction *
+
+ 
+Editor(s) used          : WorldCraft,Qoole ,Quark 
+Compiling Times         : BSP   -   61 sec.
+                          VIS   - 2065 sec.
+                          RAD   -  765 sec.
+                          Total - 48.2 min.
+Compiling Machine       : Pentium 233MMX,64mb RAM 
+Credits			: DR.Funky aka ENDBOSS,Firestarter, MR.Skyfish,
+			  The guys I met at the last Gamesession (WWW.GAMESESSION.DE). They did the Testplay, they just didn`t know it 
+                          [F3]Hellraiser, [ROCK]Agonizer, JojoAction , Razor -OC-
+                          Mummy and Pa
+                          
+
+						
+			
+			
+================================================================
+
+

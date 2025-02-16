@@ -1,0 +1,67 @@
++--------------------------------------------------------------------+
+|							             |
+|                     AQ2World Proudly Presents:                     |
+|                                                                    |
+|   .-----------------------------------------------------------.    |
+|   |                    ___   ___ ___   ___                     |   |
+|   |           ___.----|   \./   |   \./   |.-------.           |   |
+|   |          |        :         :         :     ___/           |   |
+|   |          |        :         :         :    /               |   |
+|   |          |        :    .    :    .    :    '---.           |   |
+|   |          |___|\___|___| |___|___| |___|\_______/           |   |
+|   |                                                            |   |
+|   |    n 9 9 's  M a p - M a k i n g  C o m p e t i t i o n    |   |
+|   |                                                            |   |
+|   '============================================================'   |
+|   |  Introduction                                              |   |
+|   |                                                            |   |
+|   |  This is one of nine maps entered into n99's 2004          |   |
+|   |  Map-Making Competition, a 100 euro prized event. As the   |   |
+|   |  main organizer and sole sponsor of this event I wish you  |   |
+|   |  happy fragging on this quality Action Quake 2 map.        |   |
+|   |  Keep the game alive!	                                 |   |
+|   |                                                            |   |
+|   |                                                     - n99  |   |
+|   '============================================================'   |
+|   |  General Information                                       |   |
+|   |                                                            |   |
+|   |  Title                    My Daily Dose of Quake           |   |
+|   |                                                            |   |
+|   |  Archive		        dose.zip		         |   |
+|   |                                                            |   |
+|   |  Release Date (DD/MM/YY)  <01/01/05>                       |   |
+|   |                                                            |   |
+|   |  Author                   Ringu			         |   |
+|   |  Authors Email            ringu@stalinets.org              |   |
+|   |                                                            |   |
+|   |  Installation             to your /action -folder          |   |
+|   |                                                            |   |
+|   |  Description		Not a city, nor a jungle.        |   |
+|   |                           I'm sorry.                       |   |
+|   |                                                            |   |
+|   |  Additional Credits	Vermin and others whose textures |   |
+|   |                           I've brutally misused.           |   |
+|   |                                                            |   |
+|   |  Authors Comments         Nah, I'm too flashy to comment.  |   |
+|   |                                                            |   |
+|   |  Suggested Player Load    4-12                             |   |
+|   |                                                            |   |
+|   '============================================================'   |
+|   |  Construction                                              |   |
+|   |                                                            |   |
+|   |  Used Tools		Worldcraft 1.6, Deluxepaint      |   |
+|   |                                                            |   |
+|   |  New Textures             Yes indeed.                      |   |
+|   |  New Sounds               The only sound I want to hear    |   |
+|   |                           is the sweet noise of an         |   |
+|   |                           M4 Assault Rifle.                |   |
+|   |  New Sky                  Sure.                            |   |
+|   |  Locations File           Nopey dopey.                     |   |
+|   |                                                            |   |
+|   |  Number Of Spawnpoints    Four.                            |   |
+|   |                                                            |   |
+|   '------------------------------------------------------------'   |
+|                                                                    |
+|          #nMMC / #AQ2World at QuakeNet | www.AQ2World.com          |
+|                                                                    |
++--------------------------------------------------------------------+

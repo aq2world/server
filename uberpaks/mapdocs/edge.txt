@@ -1,0 +1,47 @@
+ Title                   : The Edge
+ Filename                : edge.bsp
+ Author                  : rud£ alias rudL alias b4d
+ Email Address           : rudL@4cows.net
+ Description             : it's a kind of morphe of cliff, cliff2 and border
+                          
+ Additional Credits to   : thx to wetwired and rock for those great textures and 4 the sky of border :P
+                           and of course to Ace12GA, the mapper of cliff and cliff2
+------------------------------------------------------------------
+ Time of writing         : who cares? :)
+
+
+* Play Information *
+
+ Settings                : Whatever the AQ server is running.
+ Deathmatch 2-4          : map isn't too large but you can play up to 6 players
+ Deathmatch 5-100        : nope :)
+ Teamplay                : of course
+ New Sound               : nope
+ New Graphics            : not really
+ New music               : nope
+
+* Construction *
+
+ Build Time              : 3 days
+ Map Info                : Solids        : ?
+                           Faces         : ?
+                           PointEntities : ?
+                           SolidEntities : ?
+ Compile Time            : P-IV 3,06MHz, 512MB RAM
+                           QBSP : 2 seconds
+                           QVIS : 2150 seconds
+                           QRAD : 71 seconds
+ Editor(s) used          : QOOLE
+ Known Bugs              : already fixed
+ 
+* Other Info *
+
+ just enjoy playing the map, it's much fun if you are using grenads, handcannon or do just some
+ kick and punch :)
+ i implemented 2 tunnels, so that the use of handcannon is a bit easier to handle.
+
+* Distribution *
+
+ If you're going to do something that involves my level earning you money, contact me. I'd like my cut.
+ If you're going to include this level in any kind of collection or whatever, e-mail me just so I know.
+ Don't modify this in any way.

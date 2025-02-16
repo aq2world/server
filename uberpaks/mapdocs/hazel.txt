@@ -1,0 +1,29 @@
+Title: 	Hazel
+Date:	June 2024
+Tools: 	TrenchBroom, ericw-tools
+Email: 	lovrogrgic0@gmail.com
+
+Credits: 	
+
+The textures used come from many sources. I used WizardExt's textures, Makkon textures, and a bunch of textures from Q3 maps, most from hipshot's maps:
+https://lvlworld.com/media/id:2291 https://lvlworld.com/media/id:2126
+I also used the vines/plants from https://lvlworld.com/shot/id:2323
+	
+Makkon textures license:
++----------------------------------------------------------------+
+All textures made from scratch in Substance Designer by Ben "Makkon" Hale.
+Modification is allowed and encouraged, with credit.
+Not for commercial use without express written permission.
+
+All sets come with color variations, with exception of a few. This makes for many textures to import and process. As a result, I have not cut up many of the trimsheets into separate trim textures, as this would result in several hundred textures to process. If you need your trims separated, feel free to cut them up yourself. I would otherwise encourage you to use the trims as a sheet, it's better for organization and performance, and makes it extremely easy to swap to different colors.
+
+Use for or in association with NFTs, Web3, blockchain technology, crypto currency, machine learning, AI art, or AI aided image generation in any way is not permitted, including promotional material.
+
+These textures were built for and look best in Nearest filtering.
+
+Thanks to ptoing for his LUT textures, used to convert to Quake palette more effectively.
+
+~Ben "Makkon" Hale
+https://bsky.app/profile/makkon.bsky.social
+https://cara.app/makkon
++----------------------------------------------------------------+

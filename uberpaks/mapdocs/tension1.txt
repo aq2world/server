@@ -1,0 +1,81 @@
+=======================================================================
+Title                   : Downtown Tension
+Filename                : tension1.zip
+Version                 : 10/29/99
+Game                    : Action Quake 2 
+Author                  : T.T.I.
+                          ( tomi.isoaho@upt.inet.fi )
+                          
+Description             : Quite small city area with spiffy police cars,
+                          shopping mall, crane etc.
+
+Thanks to               : ALL
+
+
+Special thanks to       : Re-volver, Squirrel, Flashman, img, Fabool
+                          and mrnazu.
+                         
+=======================================================================
+
+* Play Information *
+
+Single Player           : Just for checking things
+Cooperative             : No
+Deathmatch              : 2-12+
+Teamplay                : 4-16
+Difficulty Settings     : No
+New Graphics            : Yes                
+New Music               : No
+New Sounds              : Yes
+CD Track                : Yes
+
+* Construction *
+
+Base                    : Scratch
+Editors used            : Yes ;)
+Build Time              : Dunno
+Known Bugs              : None
+Compile machine         : Pentium II 300, 64 MB, Voodoo2
+Qbsp3 time              : 11 seconds
+Qvis3 time              : 5825 seconds
+ArghRad time            : 3396 seconds
+Brushes                 : 692
+Entities                : Enough
+
+* Installation *
+
+Just unzip to your X:\quake2\action directory (with subdirectories enabled).
+The BSP must end up in X:\quake2\action\maps folder.
+Textures must end up in X:\quake2\action\textures\tome folder.
+New sounds MUST end up in X:\quake2\action\sound\world folder.
+
+* Copyright / Permissions *
+
+Authors MAY NOT use this level as a base to build additional levels.
+Feel free to use those good-looking textures, ONLY if you ASK and
+THANK me. These files can be freely distributed. These files cannot be sold.
+                
+Copyright (c) 1999 T.T.I, All Rights Reserved
+
+
+
+     wWWw
+     o..o
+     \__/
+
+     Titi
+
+
+     * *
+     \____/
+
+     Revo
+
+
+
+                    LOL
+
+                    Cheers.
+
+
+

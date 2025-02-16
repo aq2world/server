@@ -1,0 +1,56 @@
+Inside The Rocks - by Sabotuer
+==================================================================================================================
+*MAP INFORMATION*
+Title: Inside The Rocks - by Sabotuer
+Filename: rocks.bsp
+Version: 3
+Game: Action Quake 2
+Author: Sabotuer (My real name is an icelandic name so you wouldn't understand it)
+EMail Address: Sabotuer17@hotmail.com
+Web Address: None (but I hope there will be someone someday)
+Desciption: A map similar to jungle1
+Additional thanks to: Me for making the map,
+Shaymon for compiling the map and fixing the lights and few texture alignments
+the testers who I don't know by there names,
+Matt for the bunker (don't know who he is but got his prefab on the internet,
+Shadowqiller for the gasfireplace (same words I said about Matt)
+and some other guy that made the 2 rocks,
+The A-team for making the NEXT greatest mod ever (Wod is the greatest),
+for all the the great guys that made the textures in the map,
+and all the dudes that think my map "ROCKS".
+Installation: just unzip it to the quake2\action folder
+==================================================================================================================
+*PLAY INFORMATION*
+Single player: No
+Cooperative: Not tested, But you can test it and email my how it is.
+Deathmatch: Yes, many spawnpoints
+Teamplay: Yes, and again many spawnpoints
+Difficulty Settings: what for?
+New Sounds: NO!
+New Graphics: NO the grass texture was made for another map!
+New Sky: NO!
+Textures: all in the zip folder except some that are in pak0.pak
+==================================================================================================================
+*Construction*
+Editor(s) used: Qoole99 v.97
+Known Bugs: the fireplace
+Build time: many many weeks
+Compile Time: don't know, ask Shaymon
+==================================================================================================================
+*Copyright*
+Authors MAY NOT use this level as a base to build additional levels.
+
+You MUST NOT distribute this level UNLESS you INCLUDE THIS FILE WITH
+NO MODIFICATIONS. If you don't co-operate, then DON'T DISTRIBUTE IT
+IN ANY FORM.
+
+This LEVEL may be distributed in any gameplay that's allready real or will be some day.
+You are NOT authorized to put this LEVEL on any CD or distribute it in
+any way without my written permission (pretty hard to get, I live in Iceland).
+
+Action Quake II (C) 1998-99 The A-Team.
+Quake II (C) 1998-99 id Software. All rights reserved.
+==================================================================================================================
+*Things that I just had to say*
+Everyone who don't like my map suck and have a bad taste of maps.
+PS: PLEASE! Get the LTK bot and test the map before you get fragged in it by professionals.

@@ -1,0 +1,102 @@
+=============================================================================
+Title                   : Lava Tube
+
+Files                   : lavatube.bsp, lavatube.txt, under env mount*.tga, under textures gimp directory, 
+			  under sound gimp directory
+
+
+Release Date (DD/MM/YY) : 12:24pm 8/06/99
+
+Author                  : Chris Brodie aka The Gimp
+Email Address           : brodiec@bigpond.com or thegimp@email.com
+Web Site                : http://www.users.bigpond.com/brodiec/
+
+Description             : Map originally made for Action Quake (http://action.telefragged.com).
+                          The lava tube was inspired by a canyoning weekend I had in the Blue Mountains
+			  , Sydney, Australia. Particulary features that inspired me were the lighting effects of 
+			  natural sunlight bouncing down in to canyon.
+
+Installation            : Unzip labatube.zip into root of your Action Quake
+                          game folder (like c:\games\Quake2\Action), with Subdirectory Extraction
+                          enabled , so that all textures, sounds and sky will be unzipped
+                          into correct directories.
+
+Additional information  : This map relies on certain features of quake version 3.20 and hardware 3d accelleration. If either
+			  the accelleration or the game version differ transparency in certain location will appear a flesh
+			  pink colour.
+ 
+Additional Credits to   : David Hyde, resident guru at the RUST quake editing forum. Without his advise, explainations
+			  and wonderful Gensurf application this map would never have been created.
+                          Robert Duffy for QERadiant
+			  Tim Wright for Arghrad
+                          All the guys who helped me out at RUST
+			  The BIOF clan(if you call them that) for playtesting.
+			  All the people who have told me how cool the map is(trust me it make a difference)
+			  And most importantly my poor wife Jasmin who will get her husband back for a while
+			  (until I start my next map ;-) )
+
+=============================================================================
+* Play Information *
+
+Game                      : Action Quake (Quake2)
+Single player             : Yes (only for looking around)
+Cooperative 2-4 players   : No
+Deathmatch 2-16 players   : Yes 
+
+New Graphics              : Yes (Almost all textures are new) 
+New Music                 : No
+New Sounds                : Yes (Almost all sounds are new) 
+DLL                       : No
+
+* Construction *
+
+Base                      : New level from scratch
+Build time                : 3 months at least
+Compile Machine           : P450 with 256MB
+    QBSP3 Time            : 52 secs
+    QVIS3 Time            : 6538 secs
+    QRAD3 Time            : 29214 sec (God Damn! Lucky I have to sleep and work!)
+
+Map Contents 		  : 5380 brushes
+
+Editor(s) Used            : QERadiant build 147 
+			    Gensurf 1.3 (at the time)
+                            Adobe Photoshop texturing and bitmaps for Gensurf
+                            Terragen for Sky
+			    Additionally Pviewer a portal viewer by DiD was used to troubleshoot r_speeds.
+
+Known Bugs                : Currently a tree has a small sliver of light that can be seen through it.
+
+Due to the nature of this map's construction only heafty machines of the 300mhz class or 3D accellerated machines 
+are likely to run this map well. If an average of the map were take it would likely reveal an r_speed average of 
+about 400 however 3 area's in particular have higher averages of about 700 and a map peak of about 1200. So in 
+short this map is not well suited to software mode. That said, I have to admit that level is particularly ugly in 
+software mode and running it at 640x480 still yielded a playable speed, not that I can see how anyone can play in 
+that pixilation blizzard :-). 
+
+The map was originally designed with a conversion to TFC in mind hence the CTF'ish confrontation style of the map. 
+However a twist in fate saw HL's compiling utilities choke hard on my map, so no TFC version.
+
+Additionally 2 flag spawn points have been added for anyone who wants to use it with CTB.
+
+
+The map seems to be pushing the limits of BSP which seems to crash whenever I add a single extra brush. So I had 
+lots of fun adding one here, deleting one there ...
+
+
+* Copyright / Permissions *
+
+Authors may NOT use this level as a base to build additional
+levels.
+
+All textures, sounds in the gimp directory can be used as will, you don't have to ask me. Textures in the snb_tex 
+directory are the property of Skull'n Bones. Contact him if you wish to use them:
+
+Skull'n Bones = skull@rochester.rr.com
+MexicanRadio = mexicanradio@hotbot.com
+
+You may distribute this level, provided you include this file, within the original unmodified archive. I would 
+however like to be notified of any inclusion in map packs, CD's or other distributions, just for the coolness factor...
+
+
+Copyright (C) Chris Brodie, 1999. All rights reserved.

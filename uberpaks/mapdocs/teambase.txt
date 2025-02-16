@@ -1,0 +1,39 @@
+============================================================================
+Title                   : TeamBase
+Filename                : teambase.zip
+Version                 : 1/1/03  (This map is Y2K compliant)
+Game                    : Action Quake 2 
+Author                  : Tylorus
+Description             : 2 bases at each end.
+Thanks to               : Thx to A-Team & IDsoftware
+============================================================================
+
+* Play Information *
+
+Single Player           : I guess, but would be quite boring, there is no mission
+Cooperative             : No
+Deathmatch              : Yes, but most teamplay
+AQ2 Teamplay            : Yes
+Difficulty Settings     : No
+New Graphics            : A little
+New Music               : Nein
+CD Track                : lol?:)
+
+* Construction *
+
+Base                    : Scratch
+Editors used            : Tread3D at start, but the program sucks when maps get big, so I had to allmost redo everything in quark to make the map work. Thanks Quark!
+Build Time              : Some time
+Known Bugs              : Tell me if u find any
+Compile machine         : AMD 1400Ghz, GF3TI, 512Ram.
+
+
+* Installation *
+
+Just unzip to your the root of your action quake dir (with subdirectories enabled).
+
+* Copyright / Permissions *
+
+Authors MAY NOT use this level as a base to build additional levels.
+All textures, sounds, anything MAY NOT be used for other maps, but these
+files can be freely distributed. This level cannot be sold.

@@ -1,0 +1,51 @@
+* THIS LEVEL IS NOT MADE BY OR SUPPORTED BY id Software *
+ * REQUIRES REGISTERED VERSION OF QUAKE2 3.14 or higher *
+
+Released:1/14/2000
+==================================================
+Title                   : Ferret Hole
+Filename                : Semper06.bsp
+
+Author                  : Renegade 
+Email Address           : renegade@c4.net 
+
+Description             : Deathmatch
+
+Additional Credits to   : id software 
+===================================================
+* Play Information *
+
+Game                    : Quake2 REG 3.14 or higher
+Map Name                : Semper06.bsp
+Single Player           : Yes
+Co-op                   : no
+Deathmatch 2-6          : 5 starts
+Difficulty Settings     : no
+
+==================================================
+* Construction *
+
+Base                    : New level from scratch.
+Editor used             : WorldCraft
+Construction time       : A few days.
+Build Time              : 32min
+Known bugs              : None.
+
+Beta Testers            : IsmiteU  from PUREDM
+========================================================
+
+
+* Copyright / Permissions *
+
+Authors may NOT use this level as a base to build additional
+levels.  
+
+You MAY distribute this BSP (for free), provided you include this
+file, with no modifications.  You may distribute this file in any
+electronic format (BBS, Diskette, CD, etc) as long as you include
+this file intact. Unless for Profit then I MUST be contacted and 
+Asked permission.
+
+* Where to get this BSP *
+
+Renegade's homepage http://www.planetquake.com

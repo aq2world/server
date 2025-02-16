@@ -1,0 +1,59 @@
+ Title                   : Murder2 - The other side of the tunnel
+ Filename                : murder2.bsp
+ Author                  : FiReWaLKeR[TDm] (Jono Dunstone)
+ Email Address           : firewalker@telefragged.com
+ Web page		 : tdm.qgl.org
+ ICQ			 : 16894974
+ Description             : Its the second in the murder series
+------------------------------------------------------------------
+
+* Play Information *
+
+ Settings                : ACTION QUAKE SETTINGS
+ Deathmatch 2-4          : Yup
+ Deathmatch 5-100        : Yup
+ TeamPlay		 : Yup
+ New sounds		 : Yup
+ New textures		 : Yup
+* Construction *
+
+ Date of map birth	 : 17th Nobember 2002. 
+ Build Time              : Few months
+ Compile Time            : 
+ 	QBSP3		 : **
+	QVIS3		 : **
+	QRAD3	 	 : **
+			 : I forgot to check.. oops.. i kinda reset after the compile, but i can tell you all together it went for about 30 hours
+
+ Editor(s) used          : QE Radiant, wally, psp.
+ Known Bugs              : Nope
+                  
+* Other Info *
+
+The r_speeds do creep up a little bit, but thats okay its year 2002 and we all have fast enough computers for the best q2 can spit at us.
+
+* Distribution *
+
+You aren't allowed to distribute this map on a CD or sell it, unless i recieve money or a blow job.
+Not to be used as a base.
+You better not complain about this map..
+You may give me money for no reason.
+You had also better tell me how damn good it is.. or else i might not be bothered makin another one..
+
+* Thanx To *
+
+(stuff i used)
+Cryptr: Thanks for alot of actcity3 textures
+Ruskprick: Thanks for loads of city textures
+Sinner: Thanks for a fence texture
+SlagDaddy: for some textures on his excellent Pool Table prefab
+Scuzzy: For some street lights
+DeFusion: For his nice Pool Table light prefab
+
+
+
+
+Thanx to Radiant for working most of the time!
+
+
+(C) copyright 2002 FiReWaLKeR[TDm] inc. ( I wish )

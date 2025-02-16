@@ -1,0 +1,85 @@
+================================================================================
+* ACTION QUAKE II LEVEL INFORMATION *
+--------------------------------------------------------------------------------
+TITLE                   : Snow
+FILENAME                : snow.zip
+AUTHOR                  : L4nt0m
+DATE                    : 13.02.2005
+EMAIL ADDRESS           : kasperklein@gmail.com
+HOMEPAGE URL            : None
+.zip CONTENTS           : - Textures
+                          - Sky
+                          - and ofc. the map
+
+--------------------------------------------------------------------------------
+* LEVEL DESCRIPTION *
+--------------------------------------------------------------------------------
+A snowy mountain map
+
+--------------------------------------------------------------------------------
+SINGLE PLAYER           : 1 Player Start   Point(s)
+CO-OPERATIVE            : 0 Player Start   Point(s)
+DEATHMATCH              : ? Player Respawn Point(s)
+ACTION QUAKE II         : 2 Teams
+                          0 Player Respawn Points per Team
+SUGGESTED PLAYER LOAD   : 2 to 4
+
+NEW TEXTURES            : No
+NEW SOUNDS              : No
+CD TRACK #              : 0
+
+--------------------------------------------------------------------------------
+* CONSTRUCTION *
+--------------------------------------------------------------------------------
+MAP BASE                : New Map
+PREFABS USED            : None
+EDITOR(S) USED          : QuArK 6.4 alpha
+OTHER UTILITIES USED    : None
+
+KNOWN BUGS              : None
+
+COMPILE MACHINE         : AMD Sempron 2800+
+
+QBSP2 TIME              : ? seconds
+VIS TIME                : ? seconds
+QRAD TIME               : ? seconds
+
+--------------------------------------------------------------------------------
+* COMPILE LOG *
+--------------------------------------------------------------------------------
+Took only a few minutes to compile
+
+--------------------------------------------------------------------------------
+* OTHER LEVELS BY THE AUTHOR *
+--------------------------------------------------------------------------------
+Depot: My First Map (not too good)
+Milbase: released at the same time as this one
+
+
+--------------------------------------------------------------------------------
+* SPECIAL INSTRUCTIONS / ADDITIONAL INFORMATION *
+--------------------------------------------------------------------------------
+None
+
+--------------------------------------------------------------------------------
+* CREDITS *
+--------------------------------------------------------------------------------
+The A-Team              : For making a KICK ASS Mod
+those who i used textures from: For making the textures
+
+
+================================================================================
+* COPYRIGHT / PERMISSIONS *
+--------------------------------------------------------------------------------
+Authors MAY NOT use this level as a base to build additional levels.
+
+You MUST NOT distribute this level UNLESS you INCLUDE THIS FILE WITH
+NO MODIFICATIONS. If you don't co-operate, then DON'T DISTRIBUTE IT
+IN ANY FORM.
+
+This LEVEL may be distributed ONLY over the Internet and/or BBS systems.
+You are NOT authorized to put this LEVEL on any CD or distribute it in
+any way without my written permission.
+
+Action Quake II (C) 1998-99 The A-Team.
+Quake II (C) 1998-99 id Software. All rights reserved.

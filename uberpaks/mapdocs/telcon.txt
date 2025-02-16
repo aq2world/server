@@ -1,0 +1,63 @@
+====================================================================
+* ACTION QUAKE II LEVEL INFORMATION *
+--------------------------------------------------------------------
+TITLE                   : The Land of Telcontar
+FILENAME                : telcon.zip
+AUTHOR                  : Droch
+DATE                    : 14.06.2001
+EMAIL ADDRESS           : droch24@hotmail.com
+HOMEPAGE URL            : (none)
+.zip CONTENTS           : telcon.bsp; telcon.txt; (bluesky.tga/pcx; (ft,bk,lf,rt,up,dn)) 
+
+--------------------------------------------------------------------
+* LEVEL DESCRIPTION *
+--------------------------------------------------------------------
+An outdoor aq2 map, no new textures, thanks goes to Timm for his bluesky env. Map contains a few tricky jumps and a coupla trees --------------------------------------------------------------------
+SINGLE PLAYER           : For Checking thing out, I guess.
+CO-OPERATIVE            : No
+DEATHMATCH              : Yeah
+TEAMPLAY                : What the map was built for
+                      
+SUGGESTED PLAYER LOAD   : 1 to 16
+
+NEW TEXTURES            : No
+NEW SOUNDS              : No
+
+--------------------------------------------------------------------
+* CONSTRUCTION *
+--------------------------------------------------------------------
+MAP BASE                : New Map
+EDITOR(S) USED          : Worldcraft 1.6a
+OTHER UTILITIES USED    : Arghrad, Geoffery DeWan's Qvis3, Qbsp3
+
+KNOWN BUGS              : Lights a bit odd in some places.
+
+COMPILE MACHINE         : Petium 200MHZ, Voodoo3 graphics, 64MB ram 
+
+QBSP3 TIME              : 14 seconds
+QVIS3 TIME              : 24495 seconds
+ARGHRAD TIME            : 9118 seconds
+
+--------------------------------------------------------------------
+* CREDITS *
+--------------------------------------------------------------------
+The A-Team              : For making an AWESOME Mod
+Timm Stokke		: For that awesome bluesky env!
+-X- Chari$ma		: Playtesting - thx again, man!
+
+====================================================================
+* COPYRIGHT / PERMISSIONS *
+--------------------------------------------------------------------
+Authors MAY use this level as a base to build additional levels.
+
+You MUST NOT distribute this level UNLESS you INCLUDE THIS FILE WITH
+NO MODIFICATIONS. If you don't co-operate, then DON'T DISTRIBUTE IT
+IN ANY FORM.
+
+This LEVEL may be distributed over the Internet and/or BBS systems.
+Go ahead and stick this LEVEL on any CD or distribute it in
+any way but ask for my written permission FIRST.
+
+Action Quake II (C) 1998-99 The A-Team.
+Quake II (C) 1998-99 id Software. All rights reserved.
+

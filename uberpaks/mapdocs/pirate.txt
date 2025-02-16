@@ -1,0 +1,77 @@
+================================================================
+* General Information *
+
+Title                   : Pirate
+Filename                : pirate
+Release Date            : 2003
+Author                  : Kenzhin
+URL                     : http://http://w1.970.telia.com/~u97007458/pirate.zip
+Email                   : junior_kl@home.se
+ICQ			: 24562436
+================================================================
+* File Information *
+
+.bsp Name               : pirate.bsp
+ZIP Size (B)           : 1796440 B
+================================================================
+* Play Information *
+
+Single Player           : No
+Cooperative             : No
+Deathmatch              : No
+ActionQuake DM          : Yes
+ActionQuake Teams       : Yes
+DM Spawn Points         : 6
+Max Player Load         : 16
+Difficulty Settings     : No
+New Sounds              : No
+New Textures            : Yes
+New Music               : No
+Demos Replaced          : None
+================================================================
+* Installation *
+ Extract (unzip) in the *:*\quake2\action directory. All paths provided.
+================================================================
+* Construction *
+
+Base                    : New level from scratch
+Editor(s) used          : Qoole99
+Build Time              : weeks/months
+
+
+
+Compile machine         : Celeron 1GHZ 256mb
+QBSP3 Time              : 10 sec
+QVIS3 Time              : 13,5 hours 
+QRAD3 Time              : 72minutes
+================================================================
+* Description *
+Hrm, a boat, some caves, more caves, a waterfall and some boxes
+
+
+================================================================
+* Credits *
+The A-Team              	: For making a KICK ASS Mod
+All guys in the AQMD forum	: For helping me get this far
+
+================================================================
+* Credits Textures/Sounds *
+
+karr, makro, firewalker, rusk, mia, shaymon strag  and all the other ones who i have no clue what you name are or where you come from :)
+
+================================================================
+* Where to get this level *
+
+AQMD
+
+================================================================
+* Copyright / Permissions *
+
+Copyright © 2001 .  All rights reserved.
+
+This level may not be distributed on any CD-ROM
+without prior, explicit consent from me
+
+This level may not be used on a commercial 
+Multi-player server without similar explicit consent.
+

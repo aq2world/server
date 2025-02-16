@@ -1,0 +1,69 @@
+================================================================
+* General Information *
+
+Title                   : Mist
+Filename                : mist.zip
+Release Date            : 9.8.2001
+Author                  : Silu
+URL                     : http://
+Email                   : zonax@iobox.fi
+Description             : Little urban maze with some unusual architecture :) ( and a tiny flying airplane )
+Credits                 : id for the game
+		  		  A-Team for the mod
+		  		  Gerbil, Cryptr, ruskprick and failure for the textures
+		  		  stecki for the sky
+		  		  Cell for compiling
+		  		  failure, Cell, Puffe, Tiilik4in3n, X, and all the other betatesters...for betatesting
+================================================================
+* File Information *
+
+.bsp Name               : mist.bsp
+ZIP Size (KB)           : 1385 KB
+Screenshot Included     : No
+================================================================
+* Play Information *
+
+Single Player           : No
+Cooperative             : No
+Deathmatch              : not intended for
+ActionQuake DM          : Yes
+ActionQuake Teams       : Yes
+DM Spawn Points         : 7
+Max Player Load         : 12
+Difficulty Settings     : No
+New Sounds              : No
+New Textures            : Yes
+New Music               : Yes
+Demos Replaced          : None
+
+* Installation *
+ Extract (unzip) in the *:*\quake2\action directory. All paths provided.
+
+* Construction *
+
+Base                    : New level from scratch
+Editor(s) used          : WorldCraft 1.6 for the base, Qoole 99 0.99 for tweaking
+Known Bugs              : Tiny HOM effects around the level and 1 tiny brush bug ( have fun searching :D )
+Build Time              : 2 weeks
+
+
+
+Compile machine         : TB 1500MHz / 256MB
+QBSP3 Time              : 3 sec
+QVIS3 Time              : 5 min 36 sec
+QRAD3 Time              : 3 min 9 sec
+
+* Where to get this level *
+
+http://www.kolumbus.fi/matti.laitio/mist.zip
+
+
+* Copyright / Permissions *
+
+Copyright © 2001 .  All rights reserved.
+
+This level may not be distributed on any CD-ROM
+without prior, explicit consent from zonax@iobox.fi
+
+This level may not be used on a commercial 
+Multi-player server without similar explicit consent.

@@ -1,0 +1,144 @@
+###################################################################################################################
+The HAL-PC FRAG  N' 99 Teamplay Map
+###################################################################################################################
+Title                   : Night Raid
+ Filename                : Night_R
+ Author                  : The HUNTER
+ Email Address           : castillo@hal-pc.org
+ Description             : A Teamplay action quake 2 level made for the Frag N' 99 LAN Party(brought to you by 			   HAL-PC)
+
+
+
+			   Hostile CMD: we are 50 yards from primary target so look alive
+			   ALL :	YES SIR!
+			   Hostile CMD: ok lets move out!
+			   Hostile 2: 	man I can't wait till we sneak in their base and bust a cap in their asses
+			   Hostile 3: 	yeah they won't know what hit .....
+			   Hostile 2:  	Hey did you see that!
+			   Hostile 3:	No.. where??
+			   Hostile 2:	near that rock.
+			   Hostile CMD: Ok men check you weapons we will be at the target in **GAAAA..**
+			   Hostile 3:	Oh shit!! they got the commander!!!
+			   Hostile 2:	Ok just stick with me and we will get the fuck out a here, ok!!
+			   Hostile 3:	........
+			   Hostile 2:	I said, ok!!
+			   <crickets>	
+			   Hostile 3:	buddy??.......
+			   Marine 1:	say goodnight!!
+			   Hostile 4:	oh SH**gahhhhh**
+			   Marine 2:	You got him??
+			   Marine 1:	Yeah, ha ha ha
+			   Marine 2:	Yeah i got the commander and this guy's buddy
+			   Marine 1:	They did't even know what hit them
+			   Marine 2:	He he he he he he!!
+			   Marine 1:	Ha Ha ha ha ha ha!!
+
+			Welcome to Night Raid!! Night raid is a action quake map for teamplay(DM if you want but 			its not as much fun. In Night Raid silence is the key and light is you biggest enemy. Your 			objective is to kill you oppenents team before they notice you, Stealth is the key to 				success!
+			
+			Map Layout:
+
+
+		*********************************
+		*				*
+		*				*
+		*				*
+		*				*	<= this zone is a base with tents
+		*				*
+		*				*
+		*				*
+		#################################
+		#################################
+		#################################
+		#################################
+		########### High Grass ##########
+		#################################
+		#################################
+		#################################
+		#################################	<= this zone is has high grass and large rocks
+		########### High Ground	#########
+		#################################
+		#################################
+		*********************************
+		#################################
+		#################################
+		############## slope ############
+		#################################
+		#################################
+		#################################
+		*********************************
+		*		Low ground	*
+		*				*
+		*				*
+		*				*
+		*				*
+		*				*
+		*				*	<= this zone is a fortified trench
+		*				*
+		*				*
+		*				*
+		*				*
+		*********************************
+
+
+
+
+
+ Installing :		Use winzip to extract the archive in to the drive that quake2 is located in and make shure 			you retain the directory structure if you are using a another zip extractor that dose not 			support retaining folders then put the files that are extracted in the following places
+
+			quake2\action\maps\night_r.txt
+			quake2\action\maps\night_r.bsp
+			quake2\action\sound\world\swanp2.wav(by the way i got this from painkeep so if you are the 			maker of painkeep thanks)
+			quake2\action\night_r.ini
+			quake2\action\env\*.tga
+			quake2\action\enc\*.pcx
+
+			For night raid teamplay delete you old action.ini and rename night_r.ini to action.ini
+			Also make shure you have the latesed ver of action quake. and make shure you have a copy of 			sniper.bmp and sniper_1.bmp in you  quake2\action\players\male   directory the file should 			be in the quake2\baseq2\players\male\ directory if you don't do this you will get errors during multiplayer
+
+
+
+
+			
+                          
+ Additional Credits to   : My p2 300, my bro, Seeker, for play testing, my friend
+                           For giving me the great idea for this map Talon
+                           All the guys who head up to hal-pc to play some quake
+                           till the cows come home on our bad ass t1 connection (6 actually).
+			   That bad ass Computer Club, HAL-PC <www.hal-pc.org>
+------------------------------------------------------------------
+
+* Play Information *
+
+ Settings                : ACTION QUAKE SETTINGS
+ Deathmatch 2-4          : hell yeah 
+ Deathmatch 5-100        : uhhh... over 16 it gets f#@k'n crazy
+ Teamplay 2-4		 : yes but may be kind of boring
+ Teamplay 5-32           : 16 yes 32 you got to be out of your mind!!
+* Construction *
+
+ Build Time              : 1 week
+ Compile Time            : 45 min on a p2 300 128 megs of ram oh yeah!!!
+ Editor(s) used          : Worldcraft
+ Known Bugs              : Some things disapear in the distance in GL but it is hardly noticable with all the 			   	   darkness 
+                  
+* Other Info *
+This map is For the HAL-PC Frag N' 99 Lan party and should not be realesed on the net untill 1-1-99
+if you get this before then you have done so with out primission and are stealing my work
+
+* Distribution *
+This map should not be released with out this text file
+
+Ok,
+You may NOT distribute this map on a CD or sell it with out writen consent from me. my E-Mail is castillo@hal-pc.org
+
+You may NOT use this for a base of one of your levels!!
+
+You may have fun playing this.
+
+You may bitch at any problem, you see.
+
+You may give me money for no reason.
+
+You must say this map rocks to play.
+
+You may use the sound files included for you own maps 

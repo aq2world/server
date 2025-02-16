@@ -1,0 +1,33 @@
+Instructions: extract the archive, preserving directories, to your quake2/action directory.
+================================================================
+Title                   : Blood in the Streets
+Filename                : blood.bsp 
+Author                  : Scott McGregor aka Goose
+Email Address           : smcg@cgocable.net
+Description             : Brand new map based on a lot of ideas I had just put together.
+Where to get ActionQ2   : http://action.telefragged.com
+================================================================
+* Play Information *
+
+Single Player           : Well, yes, but it's not very fun :)
+Cooperative             : As for single player.
+Deathmatch		: Yes, though weapons are a bit strange.
+Action Quake2		: Yes.
+Difficulty Settings     : No.
+New Sounds              : No.
+New Graphics            : Yes; textures.
+New Music               : No.
+Demos Replaced          : None
+
+* Construction *
+Base                    : That big empty grid you get when you start out afresh... :)
+Editor(s) used          : Bsp.
+Known Bugs              : None that I know of (fixed everything I found)
+                          
+* Build Time *
+Unknown. A three four weeks to make, and about 1 day to compile fully.
+=================================================================
+
+Details: I would like to thanks a bunch of people. Fist off I would like to thank all the people at the aqmd they were a big help with everything. I would like to thank all the texture making people that I am using your textures (you guys rock). I would like to thank cool death for the street light and dave waters for the rig. Landralor for putting up with my shit for like ever and everyone else who helped me out. I would have never finished if it wasn't for you guys.
+Thanks everyone whos textures I am using.
+

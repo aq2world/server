@@ -1,0 +1,65 @@
+=============================================================================
+Title                   : Gangbang
+
+Archive                 : gangbang.zip
+
+Release Date            : 7th of September 1999
+
+Authors                 : Gusto and ole_dirty of clan [FAEN]
+Email Address           : faen@quakeclans.net
+Web Site                : http://clanfaen.cjb.net
+
+Description             : A city-style map for Action Quake (http://aq2.action-web.net).
+                          It has some dark corners so it should be cool for all 
+                          you sneaky bastards with snipers or handcannons. :)
+                          There's also open areas for the automonkeys. 
+                          Anyways, this is our first map so don't expect it to be 
+                          top notch quality. We were just learning to use the tools.
+                          Have fun and remember: FAEN 0w|\|5 j00!
+                          
+Installation            : Unzip gangbang.zip into root of your Action Quake
+                          game folder (Quake2/Action), with Subdirectories
+                          enabled (!), so that all textures and sounds will be
+                          unzipped into correct directories (USE FOLDER NAMES
+                          checkbox in WinZip or -d switch in PKUnZip).
+                                                    
+Additional Credits to   : Ruskprick, CryptR and Gerbil! for textures.
+                          And of course Kalle Klovn for the |337 song!
+                          
+
+=============================================================================
+* Play Information *
+
+Game                      : Action Quake mod for Quake2
+Single player             : Yes (but nothing to kill)
+Teamplay                  : Yes
+Deathmatch 2-10 players   : Yes 
+
+New Graphics              : Yes 
+New Music                 : Yes
+New Sounds                : No
+DLL                       : No
+
+* Construction *
+
+Base                      : New level from scratch
+Build time                : 1 week
+Compile Machine           : P2 350mhz 128mb ram 
+ QBSP3                    : 5 seconds
+ QVIS3 -level 4           : 8988 seconds
+ ARGHRAD -extra           : 3415 seconds
+
+Editor(s) Used            : Qoole2.5, Qoole99 beta 30, Wally
+
+Known Bugs                : none
+
+* Copyright / Permissions *
+
+Authors may NOT use this level as a base to build additional levels. 
+You may use the textures and sounds as long as you give credit.
+
+You may distribute this BSP, provided you include this file, with
+no modifications, but please distribute original unmodified archive
+which can be obtained from our Web site.  You may distribute this file
+in any electronic format (BBS, Diskette, CD, etc) as long as you
+include this file intact.

@@ -1,0 +1,111 @@
+================================================================================
+* ACTION QUAKE II LEVEL INFORMATION *
+--------------------------------------------------------------------------------
+TITLE                   : Terror on the transit network
+FILENAME                : subtransit.zip
+AUTHOR                  : [Ka] DeRtStA
+COMPILER                : [Ka] Spekta
+DATE                    : 20.01.2000
+EMAIL ADDRESS           : wilcox@upnaway.com
+HOMEPAGE URL            : http://www.upnaway.com/~jpm/mia
+.zip CONTENTS           : a lot of custom textures
+                          a few sounds
+                          subtransit.bsp
+                          
+
+--------------------------------------------------------------------------------
+* LEVEL DESCRIPTION *
+--------------------------------------------------------------------------------
+The basic layout of the map is 3 subway stations, connected to each other by 2 trains.
+It takes about 30 seconds for a train to travel from one side of the map to the other.
+Be careful of the tracks as they will kill u :), so travell in the sorta sewer or mainly 
+ontop of, in or on the front/back of the trains. There are many secrets in map, sum good
+some bad, if you find one of the good ones keep it a secret :)
+
+NEW: the leak and therefore the sky box is gone bringing lower r_speeds to all!
+also i have totaly remade sewer and now it looks half decent! :)
+
+--------------------------------------------------------------------------------
+SINGLE PLAYER           : 3 Player Start   Point(s)
+CO-OPERATIVE            : 13 Player Start   Point(s)
+DEATHMATCH              : 13 Player Respawn Point(s)
+ACTION QUAKE II         : 2 Teams
+                          10 Player Respawn Points per Team
+SUGGESTED PLAYER LOAD   : 2 to 10
+
+NEW TEXTURES            : Yes
+NEW SOUNDS              : Yes
+CD TRACK #              : 0
+
+--------------------------------------------------------------------------------
+* CONSTRUCTION *
+--------------------------------------------------------------------------------
+MAP BASE                : None
+PREFABS USED            : None
+EDITOR(S) USED          : QOOLE 2.50 registered, BSP for extra texturing
+OTHER UTILITIES USED    : Wally 1.4 Beta, psp6, photoshop 5
+
+KNOWN BUGS              : Andrew jefferies->solution to fix is a double barrel shotgun 
+
+COMPILE MACHINE         : athlon 600 128 megs ram
+
+QBSP2 TIME              : 13 seconds
+VIS TIME                : 68491 (yes 19 bloody hrs) seconds
+QRAD TIME               : 2135 seconds
+
+--------------------------------------------------------------------------------
+* OTHER LEVELS BY THE AUTHOR *
+--------------------------------------------------------------------------------
+: mildepot
+: dadock
+: dadock2
+: sprint
+: teamrumble
+: bases
+: bases2
+: ctbbases2
+: terrain
+--------------------------------------------------------------------------------
+* SPECIAL INSTRUCTIONS / ADDITIONAL INFORMATION *
+--------------------------------------------------------------------------------
+
+If u want the original porn pic contact me at #14038613
+--------------------------------------------------------------------------------
+* CREDITS *
+--------------------------------------------------------------------------------
+The A-Team              : For making a KICK ASS Mod
+Klan [Ka]               : For being da clan around
+Testers (map advise)    : Steve [Kn] (lead tester)
+                        : [Ka] Spekta 
+                        : Wetwired
+                        : FireWalker 
+                        : Shyper
+                        : WolF[BiA]
+                        : [Ka]^Seed
+                        : Oswald (very user friendly aqmd webmaster)
+                        : Aqmd people who gave feedback 
+                        : And more :)
+Textures                : ruskprick
+                        : T.T.I
+                        : All the clans who donated their signs
+                        : Error
+                        : All others i've missed
+sound                   : train.wav-bunnyx 
+                        : stero1.wav-cypress hill, cock the hammer
+                        : stop.wav-me (yep thats me with the microphone going shhhhhh)
+================================================================================
+* COPYRIGHT / PERMISSIONS *
+--------------------------------------------------------------------------------
+Authors MAY NOT use this level as a base to build additional levels.
+
+You MUST NOT distribute this level UNLESS you INCLUDE THIS FILE WITH
+NO MODIFICATIONS. If you don't co-operate, then DON'T DISTRIBUTE IT
+IN ANY FORM.
+
+This LEVEL may be distributed ONLY over the Internet and/or BBS systems.
+You are NOT authorized to put this LEVEL on any CD or distribute it in
+any way without my written permission.
+
+Action Quake II (C) 1998-99 The A-Team.
+Quake II (C) 1998-99 id Software. All rights reserved.
+

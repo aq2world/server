@@ -1,0 +1,34 @@
+
+Title:            Temple of the R00TER II
+Filename:         rooter2.bsp
+Game:             Action Quake 2
+Author:           Vallu (aka vlu)
+Date:             15th October 2001
+Email:            vlu@mbnet.fi
+Description:      A temple built in honor to the great R00TER.
+                  Oh what horrid things they do there..
+
+Single player:    Pretty boring.
+Deathmatch:       Maybe.
+Teamplay:         Yes.
+
+Base:             First version of this scenario (rooter.bsp)
+Editor(s) used:   QERadiant 1.0 Beta build 147
+Compiler GUI:     Q2BeaVeR 4.0.0 beta
+Construct time:   ~20 hours + 5 hours
+Compile time:     10 minutes
+
+--- Thanks ---
+to all the people who have made textures for AQ2
+to Id Software for the great editor and Quake2
+to A-Team of course
+to whoever decides to have this map on their server.
+
+--- Author's words ---
+First version of Temple of the R00TER is boring.
+This version is a bit bigger and even has some ledges
+you can leap from.. ;)
+
+--- Permissions ---
+You can distribute the map for free as long as the contents
+of the ZIP file stays untouched!

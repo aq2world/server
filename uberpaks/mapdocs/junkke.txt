@@ -1,0 +1,37 @@
+2.8.2001
+===========================================================================================
+Title                   : Junkke           By: InFinity
+Filename                : Junkke.bsp
+Game			: Action Quake2
+Author                  : InFinity (Juuso Mäkelä)
+Email Address           : juuso_m@hotmail.com
+Web Address             : N/A
+===========================================================================================
+* Play Information *
+
+New Sounds		: No
+Single Player           : No
+Cooperative             : No
+Deathmatch              : yes
+Teamplay                : Yes
+Difficulty Settings     : No
+===========================================================================================
+* Construction *
+
+Base                    : None
+Editor(s) used          : Qoole 99 v0.99
+Known Bugs              : None
+Build Time              : hmmm... about 24h  
+Compile Time		: 8h 
+===========================================================================================
+* CREDITS *
+===========================================================================================
+The A-Team                : For making fuckin' cool mod :)
+The People who made	  : Qoole99 
+Every body who 	          : has tested my other maps 		
+Specially to              : Marine, PhaZe, EqualiZer and Proxyma 
+===========================================================================================
+*Installation*
+
+unzip to quake2\action\maps
+==========================================================================================

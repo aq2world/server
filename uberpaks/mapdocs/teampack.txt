@@ -1,0 +1,33 @@
+Instructions: extract the archive, preserving directories, to your quake2/action directory.
+================================================================
+Title                   : Team Map pack
+Filename                : teampack.zip 
+Author                  : Spectacle of Map Depot (CLIFFE is gone)
+Author's Home Page	: http://www.mapdepot.net, http://aq2og.telefragged.com
+Email Address 		: mapdepot@hotmail.com
+			  Please send your comments
+Where to get ActionQ2   : http://action.telefragged.com
+================================================================
+
+Notes		: These maps are mostly new and mostly for teamplay. These maps are included in a pak
+		 because all the other paks were and I dont wanna seem strange =P.
+
+		
+		  actcity2 - Mancis Freeway
+		  city	- CITY
+		  Cliff2 - Watch your step	
+		  cracked - The crack down
+		  teamjungle - Teamin in da jungle
+		  urban2 - Downtown Madness
+
+
+Thanks to	: id software (do I have to put this in?)
+		  the A-team
+		  the people who made these maps 
+		  The people at Map Depot (thats me =)
+
+
+blah blah blah for copyrights read the map readmes
+
+(c) Action Quake2 Map Depot - http://www.mapdepot.net
+

@@ -1,0 +1,58 @@
+04/13/99
+================================================================
+Title                   : The frag harbour
+Filename                : harbour1.bsp
+Game			: Action Quake 2
+Author                  : Blownup / (8mm helped me with the textures and design)
+Email Address           : mlucas@sparkasse.net
+Description             : A harbour...
+Additional Credits to   : Id Software, the A-Team, Igor[Rock], CryptR, MexicanRadio 
+
+
+================================================================
+
+* Play Information *
+
+Single Player           : No
+Cooperative             : No
+Deathmatch              : Yes, 4 DM Starts
+AQ2 Teamplay		: Yes
+Difficulty Settings     : No
+New Sounds              : No
+New Graphics            : A ton of new textures *
+New Music               : no
+
+
+* Construction *
+
+Base                    : New
+Editor(s) used          : Qeradiant Build 147
+Known Bugs              : None (Vising didn't work at first time fully, but now it worked :-))
+Build Time              : my whole holidays!!
+Compile Time		: about 6 hours
+
+
+================================================================
+
+Notes:
+
+* Nearly all texture where done by me (Blownup) and 8mm.
+   -But the sky was taken from Stefan Giesen's (Igor[Rock]) rhstation. You can download his maps
+    at the AQ2 Mapdepot. 
+   -The harbourfloor-texture was made by Lari Muuriaisniemi aka CryptR (Actcity3).
+   -The wood-texture was made by MexicanRadio (a johnsen) (Soho). 
+    (http://pages.hotbot.com/current/mexicanradio). 
+
+
+
+================================================================
+
+* Copyright / Permissions *
+
+Copyright (c) 1999 Manuel Lucas. All rights reserved.
+
+You may copy the map to everyone you like, but please keep in
+mind to copy this (harbour.txt) textfile, too.
+You may not commercialy distribute this map without my permission.
+You may use all of my textures, but please let me know or give credits in
+your Textfile.

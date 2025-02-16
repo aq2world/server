@@ -1,0 +1,52 @@
+================================================================
+Title                   : Japanese Garden
+Filename                : japang.bsp
+Author                  : Mike Burbidge (g1zm0)
+Email Address           : mikeburb@pacbell.net
+                          soon to be mikeburb@home.com
+homepage                :http://www.geocities.com/TimesSquare/Alley/3507/index.htm
+
+                         :note, I will soon be with @HOME cable, and will
+                            move my page then.
+			 
+Description		:New Quake2 level from scratch, with a Japanese flavor
+
+Additional Credits to   : ID Software, for Quake, and Quake II
+                          John Carmack rules !
+			  
+Testers			: SwanSong ,Dootmatt, Ding0, Hat triqk, Spawn, Wolf, 
+                         some of the "menhaters" heh, & others
+                          Mike Burbidge Jr (hyena), Megan Burbidge (g1zette)
+================================================================
+
+* Play Information *
+
+OS			: WIN95, Winnt
+Level Name              : Japanese Garden
+Single Player           : no
+Cooperative             : no
+Deathmatch Player       : yes
+Difficulty Settings     : no
+
+
+Puter:			:300mhz-pII w/128 meg sdram /NT4.0
+
+compile time            2-3 hrs
+
+* Construction *
+
+Base            : 
+Editor used     : Qe4 from Id software (this thing blows them all to Sh%#
+Known Bugs      : 
+
+* Legal Stuff *
+
+You may distribute this level for free, as long as you include my text file and
+give me credit. You may NOT modify this level, I spent a lot of time
+and testing with 5-14 people. If you want to distribute this map on
+a CD Collection you _MUST_ contact me first for my approval.
+
+***********Buy the registered version of Quake II !, and thanx id.*************
+
+* Where to get this MAP *
+NOT at the store !

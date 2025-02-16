@@ -1,0 +1,77 @@
+It's early in a mornin' in September. The sun is risin' behind the Petersberg upon the Siebengebirge. The first part of the Jugenddorf-Christophorusschule school area is lghtened slowly. Silence. Suddenly you hear steps, quiet voices. A shot of a pistol breaks the silence. Then loud MP5-fire. Two gangs have started fightin' for the supremacy of the school. The war has begun and you are inside. Here. Now.
+
+Map: 			JDCS
+Title:			SchoolQuake - Fraggin in da CJD
+Author: 		[F.-A.]Joker ; fajoka@gmx.net
+Current version:	0.87
+Build Date:		February 18th, 2k
+Download @:		www.fragging-alliance.de/jdcs.zip
+
+Installation:
+
+Unzip all files into your quake2\action directory
+
+
+Specifics of the BSP and textures:
+
+Size of Zipfile/kB:	~1,5 MB
+Size of ready BSP/kB:	2,789
+Faces:			7,058
+Textures total:		25
+Environment:		special JDCS env
+Self-built textures:	25
+Compilation (BSP)/s:	26
+Compilation (VIS)/s:	31,472s
+Compilation (RAD)/s:	4,439
+Construction Time:	1 day	    (several months of enhancin' and debuggin')
+Normal r_speed:		approx 430  (average durin' 15 min of console loggin' while playin' dm)
+Max r_speed (normal):	approx 1500
+Max r_speed (ghost):	approx 1900	
+Used editors:		QuArk	    for constructin' map
+			edit	    for BSP modification
+Used BSP-compiler:	TXQBSP 0.7
+Used VIS-compiler:	TIMVIS
+Used RAD-compiler:	ArghRAD 2.50
+
+
+Changes in latest versions
+
+0.87 (current)	Zipfile folder structure bug from 0.84 fixed
+		gym hall: basket ball and foot ball goals; new floor texture
+		gym enlarged		
+0.86		apparatuses room behind gym hall with exit to school yard
+0.85		exit from gym hall to school yard
+0.84		one severe RAD bug fixed
+0.83		totally 35 bugs in map structure fixed. The most important are:
+		windows next to primyry entrances now passable
+		texture scaling and positioning at windows fixed
+		positions of some entitis changed
+0.82		new SW env files included
+		new spawn point in the assembly hall
+		position of Handcannon chaged
+		light conditions changed
+0.81		sound files inmtegrated
+0.80		environment integrated
+0.79		assembly hall accessible
+0.78		class tract enlarged
+0.76		computer with animated doom texture on screen added in library
+0.75		ladders added
+0.74		light sources included
+0.73		first complete compilation
+
+
+		
+Special Thanks to:
+
+[FA]Una-Bomber		because he lamed and deleted his own (and my) clan site (usin' the password!) and gave me time for constructin' the map because I couldn't update the site anymore
+Armin Rigo		for his editor QuArK, especially for the autosave feature because the program is constantly crashin'
+the MS-DOS coders	for their excellent editor edit that helped me infinitely changin' light conditionsn in the BSP
+Bill Gates		why he lives and made possible programmin' Win98 that crashed most times durin' compilation :-P
+[WW]Hammer		for the idea to build this map (years ago) and his suggestions for debuggin'
+the AQMD guys		because I can upload my map there and get it tested
+all the beta testers	for their bug reports helpin' me improvin' the map
+the keygrip coders	for this funny demo builder
+
+
+
+Check out the map site @ www.fragging-alliance.de/jdcs_c.html

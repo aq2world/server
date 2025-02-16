@@ -1,0 +1,57 @@
+================================================================
+* General Information *
+
+Title                   : For relaxing times, Bloodbath Spa.
+Filename                : bloodspa.zip
+Release Date            : 17.12.2005
+Author                  : Esko "NemesiS" Juhola
+Email                   : nemesis@aq2suomi.com
+================================================================
+* File Information *
+
+.bsp Name               : bloodspa.bsp
+================================================================
+* Play Information *
+
+Single Player           : No
+Cooperative             : No
+Deathmatch              : No
+ActionQuake DM          : Yes
+ActionQuake Teams       : Yes
+DM Spawn Points         : No
+Max Player Load         : Unsure
+Difficulty Settings     : No
+New Sounds              : Yes
+New Textures            : Yes
+New Music               : No
+Demos Replaced          : None
+================================================================
+* Installation *
+ Extract (unzip) in the *:*\quake2\action directory. All paths provided.
+================================================================
+* Construction *
+
+Programs used         	: Worldcraft 1.6, Paintshop Pro, Goldwave
+Known Bugs              : Atleast 1 texture-bug. Pfft.
+Build Time              : ~3 weeks almost non-stop and 24/7.
+================================================================
+* Description *
+
+First map ever, just wanted to make a map that is aww pwetty(?!) AND playable. I think it came out pretty nicely. ^^ 
+Yeah, I know r_speeds are high but hey...first map... :)
+
+================================================================
+* Special thanks to *
+
+- pauhi (For teaching me how to use Worldcraft at firstplace, for converting some .wal's & being a general helpdesk and whinestation <3)
+- NRGizeR (For a SHITLOAD of all sort of technical help and advices <3, compile-god)
+- Beaviss (For texture-help and loads of other stuff <3)
+- Templar & Perditus (For bughunting <3)
+- All the helpfull lads @ #aq2maps/qnet who I forgot.
+- Everyone whos textures etc. I've used.
+
+================================================================
+* Copyright *
+
+
+Copyright © 2005-2055. All rights reserved.

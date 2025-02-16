@@ -1,0 +1,74 @@
+==========================================================================
+Title:		Carpark
+Archive:	carpark.zip
+Date:		17/8/2000
+
+Author:		[TNN]Japes
+E-Mail:		japes@japes93.freeserve.co.uk
+
+Thanks:		To members of [TNN], the organisers and users of the AQMD Test Matrix forum who have suggested
+		ideas and given encouragement, Tragedy Trousers for the Animal Magic MP3 (converted to WAV file),
+		Id software for Quake 2, MJC for the sky "c2nite" I used (very nice!), the authors of the editing tools
+		I used, the Action Team	for AQ2 - probably the best Quake 2 modification ever, Eusa at Planet Online
+		for hosting Carpark BETA 2.3 for testing by [TNN] and thanks to the many authors of map tutorials hosted
+		on sites such as Rust, etc.  And last, but not least, much respect to Johnny Morris for Animal Magic. ;)
+
+Map Description
+===============
+A long-deserted urban carpark, somewhere in a city or town, somewhere (use your imagination) ;)
+
+Loosely based on multi-story carparks found in the UK, mainly from memory, and from any that I might have seen on television
+or in films.  I've tried to keep it as simple as possible for gameplay reasons and to keep r_speeds to a minimum, but as
+this is an outdoor map with many windows, this means r_speeds will generally be higher than an indoor map.
+
+Gameplay Info
+=============
+Single Player:		Just for taking a look around.
+Cooperative:		No.
+Deathmatch:		2-10.
+Teamplay:		2-10 players.
+Difficulty Settings:	None.
+New Graphics:		Yes, a few of my own textures, the rest are from Quake 2 and a couple of other AQ2 maps.
+New Sky:		Yes. "c2nite" by MJC aka Muzman. (fluxion@ii.net)
+New Sounds:		Yes. The fluorescent lamp sound and the lift music.
+
+Construction
+============
+Base used:		None, but inspired by 'ParkGarage', author unknown.
+Editors/Tools used:	QuArK 5.10, Wally 1.50B, PaintShop Pro 6, SoundForge 4.5, MapSpy 1.0.
+Build machine:		Celeron 566 (o/c to 637MHz), 128Mb PC100 RAM, 17.3Gb IDE Harddisk, GeForce 2 GTS.
+Construction time:	Estimated 8 to 10 weeks, on and off.
+
+Build Times:		TXQBSP took 5 seconds.
+			QVIS3 took 1326 seconds. (Used QVis3 rather than TimVis, which has a HOM bug)
+			ARGHRAD took 7799 seconds.
+
+Installation
+============
+Unzip the map archive into your "action" directory, making sure you enable subdirectories/paths.
+
+Map Notes
+=========
+This version of Carpark is a second revision of Carpark, which I originally submitted to the Action Quake Map Depot.
+
+Changes in this revision:
+
+* Created own billboard logo, which hopefully should fix the weird "scaling" bug present in the first submission.
+* Changed the texture for the wall under the chain-link fence.  Texture taken from a site dedicated to free textures.
+* Changed the "mine lamp" light entities on roof of carpark to brushes, which emit own lightsource.
+* Lowered the volume/smoothed the waveform for the fluorescent lamp wav file - hopefully should be less "annoying" ;)
+* Added buttons inside lift shaft for each floor, so lift doors can be re-opened after closing.
+
+ 
+Copyright Notes
+===============
+Authors may NOT use this level as a base to build additional levels. You must include this readme file with the archive.
+Map (c)1999, 2000 by Jon Jones.
+
+Availability
+============
+This map is available from the following location:
+
+http://www.japes93.freeserve.co.uk/carpark.zip
+
+==========================================================================

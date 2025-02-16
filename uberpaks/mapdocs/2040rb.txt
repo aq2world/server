@@ -1,0 +1,102 @@
+================================================================================
+* ACTION QUAKE II LEVEL INFORMATION *
+--------------------------------------------------------------------------------
+TITLE                   : 2040 R E B I R T H
+FILENAME                : 2040rb.bsp.zip
+AUTHOR                  : the_HUNTER[Jason Castillo]
+DATE                    : 22.01.2000
+EMAIL ADDRESS           : castillo@hal-pc.org
+HOMEPAGE URL            : http://www.hal-pc.org/~castillo
+.zip CONTENTS           : - 2040.bsp
+                          - 2040.txt
+                          - c_night*.pcx
+                          - c_night*.tga
+                          - *.WAL [169]
+                          - volt.wav
+
+--------------------------------------------------------------------------------
+* LEVEL DESCRIPTION *
+--------------------------------------------------------------------------------
+Welcome to the no so distant future. The city is Z힠N, Headquarters to Z힠N Co. The city is like most cities in the almost mid 21 century, crowded, vile,and dangrous. The majority of the population, aswell as most of planet Earth work for Z힠N co. The only supplier for earth goods to other planets, and the only place where you can buy Z힠N brand energy weaponds. 2040 takes place in a seedy section of town where a gan war between Z-PD and the Yunati.
+
+--------------------------------------------------------------------------------
+SINGLE PLAYER           : 1 Player Start   Point(s)
+CO-OPERATIVE            : 0 Player Start   Point(s)
+DEATHMATCH              : 16 Player Respawn Point(s)
+ACTION QUAKE II         : 2 Teams
+                          0 Player Respawn Points per Team
+SUGGESTED PLAYER LOAD   : 8-16
+
+NEW TEXTURES            : Yes
+NEW SOUNDS              : Yes
+CD TRACK #              : 0
+
+--------------------------------------------------------------------------------
+* CONSTRUCTION *
+--------------------------------------------------------------------------------
+MAP BASE                : New Map
+PREFABS USED            : my own set
+EDITOR(S) USED          : Worldcraft 1.6
+OTHER UTILITIES USED    : Wally 1.41 Beta
+
+KNOWN BUGS              : mechs have broken pollys, I had to decompile the BSP once and some things got screwed up. but other than that it\'s perfect.
+
+COMPILE MACHINE         : PII 300 with 128 megs of RAM and a VooDoo 3 3000
+
+QBSP2 TIME              : 30 seconds
+VIS TIME                : 17760 seconds
+QRAD TIME               : 4740 seconds
+
+--------------------------------------------------------------------------------
+* OTHER LEVELS BY THE AUTHOR *
+--------------------------------------------------------------------------------
+Action Quake 2 : locknload.bsp One of the first two user created Action Quake 2 maps
+Action Quake 2 : night_r.bsp a night operation in a feild. Idea by Talon
+Action Quake 2 : lnl2.bsp Sequel to Locknload
+Action Quake 2 : lnl3.bsp End of the Locknload Trilogy
+Counter Stike  : cs_alley1.bsp First Counter Stike map, takes place in london
+Counter Stike  : cs_ruins.bsp Second Counter Strike map, takes place in Mexico
+Counter Stike  : cs_ruins2.bsp Third Counter Strike map, takes place in New York
+Counter Stike  : de_ruinslan.bsp Counter Strike Defusion map, takes place in New York, and for LAN play
+Counter Stike  : de_ruinsnet.bsp Counter Strike Defusion map, takes place in New York, and for NET play
+
+--------------------------------------------------------------------------------
+* SPECIAL INSTRUCTIONS / ADDITIONAL INFORMATION *
+--------------------------------------------------------------------------------
+There are two versions of this map. one is a software, which has low quality skys, and the other has high quality TGA skys for 3DFX cards. the 3DFX is about 1 meg bigger
+
+--------------------------------------------------------------------------------
+* CREDITS *
+--------------------------------------------------------------------------------
+The A-Team              : For all there hard work on AQ2
+Scuzzy                  : For help and playtesting.
+Oswald                  : For check'n out the map and give'n me props
+FiReWaLKeR              : For check'n out my map and see'n my probs. the teacher has become the student :-)
+Gerbil!                 : That Crazy lil 15 year old who made Urban
+id Software             : For Making Quake 2
+Xatrix Entertainment    : For giveing out all those nice textures.
+Sinner                  : For all the computer and Misc. textures
+Murray Christan         : For the nice Sky Texture that made 2040 feel right
+Ian Kim                 : For use of his art work in my map. www.emikogenesis.com
+Jeff Axer               : For use of his art work in my map. jaxer.simplenet.com
+Matthew Castillo        : My lil bro for say'n "that sucks"
+the Games SIG           : say'n "that sucks"
+HAL-PC                  : The best User Group in the World! www.hal-pc.org
+
+================================================================================
+* COPYRIGHT / PERMISSIONS *
+--------------------------------------------------------------------------------
+Authors MAY NOT use this level as a base to build additional levels.
+
+You MUST NOT distribute this level UNLESS you INCLUDE THIS FILE WITH
+NO MODIFICATIONS. If you don't co-operate, then DON'T DISTRIBUTE IT
+IN ANY FORM.
+
+This LEVEL may be distributed ONLY over the Internet and/or BBS systems.
+You are NOT authorized to put this LEVEL on any CD or distribute it in
+any way without my written permission.
+
+Action Quake II (C) 1998-99 The A-Team.
+Quake II (C) 1998-99 id Software. All rights reserved.
+
+[END OF DATA]==========================================================[.txtGen]

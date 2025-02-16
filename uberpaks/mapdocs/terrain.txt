@@ -1,0 +1,106 @@
+================================================================================
+* ACTION QUAKE II LEVEL INFORMATION *
+--------------------------------------------------------------------------------
+TITLE                   : Terror Terrain
+FILENAME                : terrain.zip
+AUTHOR                  : [WaR].DertY.
+DATE                    : 19.06.00
+EMAIL ADDRESS           : derty@games.ii.net
+HOMEPAGE URL            : http://www.upnaway.com/~jpm/mia
+.zip CONTENTS           : env files
+                          a few custom textures
+                          a few sounds
+                          terrain.bsp
+                          
+
+--------------------------------------------------------------------------------
+* LEVEL DESCRIPTION *
+--------------------------------------------------------------------------------
+A cross between teamjungle and cliff 2 basically, with a few odds and ends chucked in
+the case randomiser (TM) is for aq2 CTB, other wise ignore it :)
+
+
+
+--------------------------------------------------------------------------------
+SINGLE PLAYER           : 3 Player Start   Point(s)
+CO-OPERATIVE            : 13 Player Start   Point(s)
+DEATHMATCH              : 13 Player Respawn Point(s)
+ACTION QUAKE II         : 2 Teams
+                          10 Player Respawn Points per Team
+SUGGESTED PLAYER LOAD   : 2 to 10
+
+NEW TEXTURES            : Yes
+NEW SOUNDS              : Yes
+CD TRACK #              : 0
+
+--------------------------------------------------------------------------------
+* CONSTRUCTION *
+--------------------------------------------------------------------------------
+MAP BASE                : None
+PREFABS USED            : None
+EDITOR(S) USED          : QOOLE 2.50 registered, BSP for extra texturing, qoole99 for qbsp3
+OTHER UTILITIES USED    : Wally 1.4 Beta
+
+KNOWN BUGS              : clip when looking across one area, but it doesnt interferr with gameplay
+
+COMPILE MACHINE         : 233 MMX 128 megs ramm
+
+QBSP2 TIME              : 41 seconds
+VIS TIME                : 23510 seconds
+QRAD TIME               : 3451 seconds
+
+--------------------------------------------------------------------------------
+* OTHER LEVELS BY THE AUTHOR *
+--------------------------------------------------------------------------------
+: mildepot
+: dadock
+: dadock2
+: sprint
+: teamrumble
+: bases
+: bases2
+: ctbbases2
+
+--------------------------------------------------------------------------------
+* SPECIAL INSTRUCTIONS / ADDITIONAL INFORMATION *
+--------------------------------------------------------------------------------
+RANDOMISER: put the case in the hole and wack the button under the monitor
+APC: hit the button to detonate bombs on the other side of map
+BOAT: get on it...like DERRRR
+
+--------------------------------------------------------------------------------
+* CREDITS *
+--------------------------------------------------------------------------------
+The A-Team              : For making a KICK ASS Mod
+[WaR]                   : For being the best in the west (we aint, but hey :P)
+Wetwired                : Hes the devils advocate when beta testing maps...sumones gotta do it
+Liberate                : Tested many betas, and tryed to get his name in the map, but im too lazy to 
+                          re-texture the boat :)
+Cozmo                   : Hes a total tool ,but amusing
+Rektek                  : Upgraded CTB for iinet technologies (http://www.iinet.net.au) gameserver
+MuM                     : hehe Go mum go!! :) 
+
+================================================================================
+* COPYRIGHT / PERMISSIONS *
+--------------------------------------------------------------------------------
+Authors MAY NOT use this level as a base to build additional levels.
+
+You MUST NOT distribute this level UNLESS you INCLUDE THIS FILE WITH
+NO MODIFICATIONS. If you don't co-operate, then DON'T DISTRIBUTE IT
+IN ANY FORM. 
+
+You must not where a pink dress or a green tie while playing this map,
+The Author will not be held responsible for the consequences if you do.
+Playing this map/mod will cause a rapid decline in ya sex/social life. Again niether the mod creators
+nor the author of this map take responsiblity for this. This map contains many small parts 
+which could be dangerouss for children under 3. The map is ONLY of external use and should
+not be taken under any circumstances internally. If you wack off 3 times a day (Cough *cozmo* cough) 
+dont play this map, but get a girlfriend instead. 
+
+This LEVEL may be distributed ONLY over the Internet and/or BBS systems.
+You are NOT authorized to put this LEVEL on any CD or distribute it in
+any way without my written permission.
+
+Action Quake II (C) 1998-99 The A-Team.
+Quake II (C) 1998-99 id Software. All rights reserved.
+

@@ -1,0 +1,64 @@
+
+2nd Nov. 1998
+
+                               COMMUNITY POLICE STATION
+
+                               A map for Action Quake 2
+           ------------------------------------------------------------------
+
+
+===========================================================================================
+Title                   : Community Police Station
+Filename                : Police.bsp
+Game			: Action Quake 2
+Author                  : Brett Wilcock (sLagDaDDy)
+Email Address           : firstps@ihug.co.nz
+Web Address             : ---
+Description             : In a police station
+Additional Credits to   : ID SOFTWARE
+                          WALLY TEXTURE-EDITOR
+                          Mats Holm for the inspiration for this map
+                          
+
+===========================================================================================
+
+* Play Information *
+
+Single Player           : NO
+Cooperative             : NO
+Deathmatch              : 1-64 
+Teamplay                : yes
+Difficulty Settings     : NO
+New Sounds              : Yes
+New Graphics            : Yes
+New sky                 : No
+
+===========================================================================================
+
+* Construction *
+
+Base                    : Yes
+Editor(s) used          : BSP .93
+Known Bugs              : NO
+Build Time              : 22 hours over 3 days
+Compile Time		: 25 mins
+
+===========================================================================================
+
+*installation*
+
+Extact, using Winzip's 'extract' feature. Make sure 'Folder info' is ticked & extract  the all the files to QUAKE2 \ ACTION directory. 
+
+(if something goes wrong...)
+
+the wal-files : quake2\action\textures\community\
+
+the bsp-file  : quake2\action\maps\
+
+the sound files : quake2\action\sounds
+===========================================================================================
+
+
+
+
+

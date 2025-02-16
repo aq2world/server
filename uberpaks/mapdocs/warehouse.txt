@@ -1,0 +1,37 @@
+============================================================================
+Title                   : Two go in, only one comes out -or- Enter the Warehouse
+Filename                : warehouse.bsp
+Author                  : shutxdown
+Description             : warehouse for action arena or small dm games.
+Thanks                  : anyone whos textures i used, and no one else for none of your help. if you think the map sucks, thats why!
+============================================================================
+
+* Play Information *
+
+Single Player           : no
+Cooperative             : no
+Deathmatch              : yes (not recommended with more than 4 people)
+AQ2 Teamplay            : yes (again, gets crowded with more than 4)
+Difficulty Settings     : no
+New Graphics            : yes                
+New Music               : no
+CD Track                : no
+
+* Construction *
+
+Base                    : none
+Editors used            : Qoole
+Build Time              : a couple weeks off and on
+Compile Time            : around 3 hours i think
+Known Bugs              : when i started this off i didnt know how to center textures.. dont think theres any noticable bugs.
+
+* Installation *
+
+unzip the all the files to quake2\action
+
+* Copyright / Permissions *
+
+you can use anything on here if you ask me first. 
+no commercial distribution unless you ask me either :)
+everything else is ok.
+ok stop reading this go play.

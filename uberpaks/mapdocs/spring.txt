@@ -1,0 +1,45 @@
+Title: 	Spring
+Date: 	30 October 2005
+Tools: 	Worldcraft 1.6, Quark 6.5 and Arghrad
+Author: WizardExt and Flunx
+Email: 	wizardext@gmail.com and serflunx@yahoo.no
+Web: 	http://wizardext.wh00s.net/ and http://www.flunx.tk/
+
+---Credits->
+
+A-TEAM
+Id Software
+Aq2 community
+Tim Wright
+r1ch
+shadowfire
+...and everyone else we forgot. Sorry.. ^^
+
+	
+---Comments->
+
+You are in the mountains. It's daytime and the sun is in the sky. 
+It's a miners place, but where are everyone? You are dripping 
+with sweat and you hear an eagle high above...
+
+
+This is a map we started a couple of months back (spring season). 
+We experienced a lot of problems with exchanging the project 
+files, since we use different editors - Quark and Worldcraft. 
+Due to all these problems we both lost interest and abandoned 
+the map...
+But after some conversations we convinced each other to do 
+something about it. So here it is.
+
+A pretty large map with lot's of suprising routes. The map 
+is devided into 2 sides - one very high up and one lower. 
+You are surrounded by rock walls. The theme is a miners 
+work place with heavy buidings, a bell tower, caves, sand and 
+yellow grass. Large opened areas for sniping, but sneaky 
+paths for the more quiet player. Many obsticles to hide behind 
+in case of a fire fight. Sound triggers might reveal your location.
+
+Have fun playing this map and try to avoid falling down the 
+bell tower! :)
+
+	- David "WizardExt" Lundvall and Stian "Flunx" Dahl

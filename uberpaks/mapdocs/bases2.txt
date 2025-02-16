@@ -1,0 +1,90 @@
+================================================================================
+* ACTION QUAKE II LEVEL INFORMATION *
+--------------------------------------------------------------------------------
+TITLE                   : the terrorist bases
+FILENAME                : bases2.zip
+AUTHOR                  : DeRtY[MiA]
+DATE                    : 20.10.1999
+EMAIL ADDRESS           : wilcox@upnaway.com
+HOMEPAGE URL            : http://www.upnaway.com/~jpm/mia
+.zip CONTENTS           : env files
+                          a few custom textures
+                          a sound
+                          bases2.bsp
+                          
+
+--------------------------------------------------------------------------------
+* LEVEL DESCRIPTION *
+--------------------------------------------------------------------------------
+a terrorist base in a lake,and now on in a smaller water section aswelll overall medium sized
+ map for fast paced action. Especially made and tested, no place in this map aint used in
+gameplay regulary, ie many rooms in police.bsp, teacher.bsp , etc (im not picking on those maps
+they are just the first to come to mind). Oh and its a killer (we think) in CTB (aq2 mod)
+hence the timelock safe for the case in the macedonian base.  
+
+--------------------------------------------------------------------------------
+SINGLE PLAYER           : 3 Player Start   Point(s)
+CO-OPERATIVE            : 13 Player Start   Point(s)
+DEATHMATCH              : 13 Player Respawn Point(s)
+ACTION QUAKE II         : 2 Teams
+                          10 Player Respawn Points per Team
+SUGGESTED PLAYER LOAD   : 2 to 10
+
+NEW TEXTURES            : Yes
+NEW SOUNDS              : Yes
+CD TRACK #              : 0
+
+--------------------------------------------------------------------------------
+* CONSTRUCTION *
+--------------------------------------------------------------------------------
+MAP BASE                : bases.bsp (my own map)
+PREFABS USED            : None
+EDITOR(S) USED          : QOOLE 2.50 registered, BSP
+OTHER UTILITIES USED    : Wally 1.4 Beta
+
+KNOWN BUGS              : r_speeds hit 1000 at one or two places, bit dark(sky wont emitt anymore light!)
+
+COMPILE MACHINE         : 233 MMX 32 megs ramm
+
+QBSP2 TIME              : 93 seconds
+VIS TIME                : 19674 seconds
+QRAD TIME               : 2130 seconds
+
+--------------------------------------------------------------------------------
+* OTHER LEVELS BY THE AUTHOR *
+--------------------------------------------------------------------------------
+: mildepot
+: dadock
+: dadock2
+: sprint
+: teamrumble
+: bases
+
+--------------------------------------------------------------------------------
+* SPECIAL INSTRUCTIONS / ADDITIONAL INFORMATION *
+--------------------------------------------------------------------------------
+I wont insult andrew this time!!,have fun
+
+--------------------------------------------------------------------------------
+* CREDITS *
+--------------------------------------------------------------------------------
+The A-Team              : For making a KICK ASS Mod
+Clan [MiA]              : For being da best clan around
+
+
+================================================================================
+* COPYRIGHT / PERMISSIONS *
+--------------------------------------------------------------------------------
+Authors MAY NOT use this level as a base to build additional levels.
+
+You MUST NOT distribute this level UNLESS you INCLUDE THIS FILE WITH
+NO MODIFICATIONS. If you don't co-operate, then DON'T DISTRIBUTE IT
+IN ANY FORM.
+
+This LEVEL may be distributed ONLY over the Internet and/or BBS systems.
+You are NOT authorized to put this LEVEL on any CD or distribute it in
+any way without my written permission.
+
+Action Quake II (C) 1998-99 The A-Team.
+Quake II (C) 1998-99 id Software. All rights reserved.
+

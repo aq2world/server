@@ -1,0 +1,91 @@
+TITLE                   : Death on Ice
+FILENAME                : doice.zip
+AUTHOR                  : PaTMaN
+DATE                    : February 17, 2001
+EMAIL ADDRESS           : patman_q@hotmail.com
+ICQ#			: 14999645
+HOMEPAGE URL            : http://members.nbci.com/patmansgames/
+.zip CONTENTS           : Map: doice.bsp
+			  Text: doice.txt
+			  Textures: (*.wal) glass, floor1, wall1, ceiling1,
+			  locker1, whiteice, blueice, rinkwallt, rinkwall,
+			  black, fssign, rules
+--------------------------------------------------------------------------------
+* INSTALLATION *
+--------------------------------------------------------------------------------
+Extract doice.zip with "Use folder names" checked to your Action
+Quake2 dir or
+
+Extract:
+	Map and Text to               (aq2dir)/maps
+	Textures to		      (aq2dir)/textures/patman
+--------------------------------------------------------------------------------
+* LEVEL DESCRIPTION *
+--------------------------------------------------------------------------------
+An ice skating rink with 2 locker rooms, a small kiddie rink, and room with
+booth. I made special glass :)
+--------------------------------------------------------------------------------
+SINGLE PLAYER           : 0 Player Start Point
+CO-OPERATIVE            : 0 Player Start Points
+DEATHMATCH              : 32 Player Respawn Points
+ACTION QUAKE II         : 2 Teams
+SUGGESTED PLAYER LOAD   : 1 to 24
+
+NEW TEXTURES            : Yes
+NEW SOUNDS              : No
+CD TRACK #              : 0
+
+--------------------------------------------------------------------------------
+* CONSTRUCTION *
+--------------------------------------------------------------------------------
+MAP BASE                : New Map
+PREFABS USED            : None
+EDITOR(S) USED          : qED3.0.1, Radiant 1.0 Beta build 147, ArghRad 2.01, Wally
+OTHER UTILITIES USED    : Q2BeaVeR 4.0.0
+
+KNOWN BUGS              : None
+
+COMPILE MACHINE         : AMD Athlon 900mhz 192mb RAM
+                                   
+QBSP2 TIME              : 0 Hours 0 Minutes  1.32 seconds
+VIS TIME                : 0 Hours 0 Minutes 45.49 seconds
+ARGHRAD TIME            : 0 Hours 2 Minutes 28.79 seconds
+Total Time		: 0 Hours 3 Minutes 26.00 seconds
+--------------------------------------------------------------------------------
+* OTHER LEVELS BY THE AUTHOR *
+--------------------------------------------------------------------------------
+PDM1          (q1)
+MBG City      (q2)
+MBG City 2    (q2)
+Blockfort     (q2)
+PGarden       (q2)
+Shark Bait!   (q2)
+PM Free Fall! (q2)
+
+Being worked on:
+PaTMaN's City (q2)
+
+--------------------------------------------------------------------------------
+* CREDITS *
+--------------------------------------------------------------------------------
+The A-Team              : For making Action Quake2
+ID Software		: For making Quake2
+
+All the people who made .txtGen.
+
+================================================================================
+* COPYRIGHT / PERMISSIONS *
+--------------------------------------------------------------------------------
+Authors MAY NOT use this level as a base to build additional levels without my
+permission.
+
+You MUST NOT distribute this level UNLESS you INCLUDE THIS FILE WITH
+NO MODIFICATIONS. If you don't co-operate, then DON'T DISTRIBUTE IT
+IN ANY FORM.
+
+This LEVEL may be distributed ONLY over the Internet and/or BBS systems.
+You are NOT authorized to put this LEVEL on any CD or distribute it in
+any way without my written permission.
+
+Action Quake II (C) 1998-99 The A-Team.
+Quake II (C) 1998-99 id Software. All rights reserved.

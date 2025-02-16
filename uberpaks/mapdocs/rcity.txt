@@ -1,0 +1,33 @@
+================================================================
+Title                   : Rush City
+Filename                : rcity.zip
+Release Date            : 16/11/2006
+Author                  : [fAt]JuM8o
+URL                     : http://koti.mbnet.fi/juuho90/fAt/
+Email                   : juuho@luukku.com
+Description             : A small city with bar and some houses
+Credits                 : JuM8o, some textures token from other maps and NRGizer and dragoneye for theyr Advice ;>
+
+================================================================
+* Play Information *
+
+Single Player           : No
+Cooperative             : No
+ActionQuake2 DM         : Yes
+ActionQuake2 Teamplay   : Yes
+ActionQuake2 CTF	    : Yes
+Difficulty Settings     : No
+New Sounds              : No
+New Textures            : Yes
+New Music               : No
+Demos Replaced          : None
+
+* Installation *
+ Extract (unzip) in the *:*\quake2\action directory. All paths provided.
+
+* Construction *
+
+Editor(s) used          : Qoole 99 0.99, GTKradiant 1.5.0
+Known Bugs              : Yes, some bugs in walls.
+Build Time              : month
+QRAD3, QBSP3, QVIS3 time: ~3 hours

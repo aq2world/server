@@ -1,0 +1,55 @@
+Based on a dream that i had... i present:
+=================================
+GruuVe'z    <DreamLANd>   v1.1        
+=================================
+for Action Quake   <action.telefragged.com>
+
+a deep sleep can come take you to strange places...
+This dream was actually about a map that I had made earlier,
+named Chasm. My dream was better... so i built it!
+
+Thanx to everyone who gave critique of Chasm, especially the folx at
+AQMD <mapdepot.net>.  A (much better) rebuild of Chasm will soon be available for you Small-map-liking-LPB's.
+====================================
+
+name: dream.bsp   v 1.1    --  still to be tested by AQMD
+author: GruuVe  ('groove')
+mod: action    DM and Teamplay
+reason: built for an upcoming LANfest up here in the frozen north.
+
+time to build: 30-40 hours, after redoing lighting the third time.
+date finished:   jan 30 99 /
+
+brushes: 600!    remember- brushes dont exist after QBSP
+	so...   pay attention to those R_SPEEDS kiddies!  
+
+timing:     (p2 416 ; 64 mb pc100 )
+-qbsp3: 11 secs
+-qvis3: 2383 secs
+-arghrad: 426 secs
+
+note...  i tested it on my p133, 4mb S3-virge, 32mb EDO... so DONT bitch bout me being a MHertzHog... i know how it feels to be deprived, and sympathize... so i build my maps capable of running on ol'bessie ( overclocked p120 to p133).
+
+to try it out in single player, at the console type:
+
+set game action;map dream
+
+The basic gameflow is circular,  like ARMYTERR,  but has sidetracks to make teamplay more interesting. It is already in the process of being turned into H-L format,  and so will soon become a TF2 map.
+
+
+
+gimme a shout at <tlambert@yknet.yk.ca>
+or via ICQ <6125687>
+i'd love to answer any questions or suggestions ya got.
+
+enjoy!      and Getcha GruuV on!
+
+
+
+
+
+whatcha get when you cross a crooked lawyer with a crooked politician?
+
+
+
+chelsea clinton.

@@ -1,0 +1,69 @@
+
+
+¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤
+
+Date			: 20.02.2004
+
+Title                   : Teh Villa of Bomba
+Filename                : bomba2.bsp
+Game			: AQ2
+Author                  : Olli Ruhanen a.k.a. [KTC]Supreme
+Email Address           : olli.ruhanen@kolumbus.fi
+IRC			: ircnet #ktc
+URL     		: http://ktc.klaanit.net
+Description             : a villa
+Thanks to		: - A-team - for a great mod !
+			  - ID Software - for making AQ2 possible
+			  - Big thanks to Kalamiehen Toverit
+			  - Creators of Qoole99 - for an excellent editor.
+			  - All mappers who have created the textures I used...
+			    like Carr, ruskprick, Makro [PN], WetWired and others. 
+			  
+My other maps for AQ2: 	vwoods.bsp
+		       	fuego.bsp
+			rok.bsp
+			plaza.bsp
+			plaza2.bsp
+			plaza3.bsp
+			indigo.bsp
+			narayan.bsp
+			isle.bsp
+			bomba.bsp
+			velo.bsp
+
+¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤
+
+-= Play Information =-
+
+Single Player           : yes
+Cooperative             : yes ?
+Deathmatch              : yes
+Teamplay                : of course !
+New Sounds              : No
+New Textures            : Yes
+
+
+¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤
+
+-= Construction =-
+
+Editor(s) used          : Qoole99
+Build Time              : some time
+Compile Time		: about 2-3 hours
+
+
+¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤
+
+-= Comments =-
+
+enjoy it if you can.
+
+
+¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤
+
+-= Copyright =-
+
+You may not re-edit my map in any way...plz :)
+
+
+¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤

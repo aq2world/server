@@ -1,0 +1,11 @@
+================================================================================
+* ACTION QUAKE II LEVEL INFORMATION *
+--------------------------------------------------------------------------------
+TITLE                   : uphill.bsp  
+AUTHOR                  : mikota                
+DATE                    : 04-09-2024
+EMAIL ADDRESS           : lovrogrgic0@gmail.com
+
+================================================================================
+* LEVEL DESCRIPTION *
+Uphill by mikota. Small layover town. Texture credit goes to Makkon, WizardExt, Flunx, other AQ2 authors. Breakable glass sound taken from Flunx & matic maps.

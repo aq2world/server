@@ -1,0 +1,76 @@
+=============================================================================
+Title                   : Action City
+
+Files                   : ACTCITY.BSP, ACTCITY.TXT, several new textures
+                          archive: ACTCITY.ZIP
+
+Release Date (DD/MM/YY) : 25/8/98
+
+Author                  : Lari Muuriaisniemi aka CryptR
+Email Address           : lmuur@dlc.fi
+Web Site                : http://www.dlc.fi/~lmuur
+
+Description             : Map for Action Quake (http://action.telefragged.com)
+                          Includes many new City-textures and great city
+                          Map layout by talented Map author. City contains
+                          Casino, Parkgarage building site, streets and
+                          avenues surrounded by Apartment Houses and Realistic
+                          environment.
+
+Installation            : * Unzip ACTCITY.ZIP into root of your Action Quake
+                          game folder (Quake2/Action), with Subdirectories
+                          enabled (!), so that all textures and sky will be unzipped
+                          into correct directory (USE FOLDER NAMES checkbox
+                          in WinZip or -d switch in DOS PKUnZip).
+                                                    
+Additional Credits to   : Stecki for making the sky that has been used as the base for new one.
+                          A-Team for making greatest Quake2 Multiplayer mod ever.
+                          id software
+                          Ben Morris for Worldcraft
+
+Misc.                   : Send feedback 'bout this map if you feel like.
+=============================================================================
+* Play Information *
+
+Game                      : Action Quake (Quake2)
+Single player             : Yes (only for looking around)
+Cooperative 2-4 players   : No
+Deathmatch 2-8 players    : Yes 
+
+New Graphics              : Yes 
+New Music                 : No
+New Sounds                : No
+DLL                       : No
+
+* Construction *
+
+Base                      : New level from scratch
+Build time                : About one week
+Compile Machine           : P233 with 64M
+    QBSP3 Time            : Few secs
+    QVIS3 Time            : One hour? 
+    QRAD3 Time            : 15 mins
+
+Editor(s) Used            : WorldCraft, Paint Shop Pro 4, Wally
+
+Known Bugs                : Nope
+
+* Copyright / Permissions *
+
+Authors may NOT use this level as a base to build additional
+levels.
+
+All new graphics that comes with this map (in TEXTURES/CRCITY) are
+copyrighted material by me. Those may NOT be used in other maps.
+
+You may distribute this BSP, provided you include this file, with
+no modifications, but please distribute original unmodified archive
+which can be obtained from my Web site.  You may distribute this file
+in any electronic format (BBS, Diskette, CD, etc) as long as you
+include this file intact, uncommercially only, of course.
+
+* Where to get this BSP *
+
+WWW   : http://www.dlc.fi/~lmuur 
+
+FTP   : ftp.cdrom.com (probably)

@@ -1,0 +1,55 @@
+===============================================================================
+Title                   : Action Map 1 (My first one that is)
+Filename                : actone.bsp
+Version                 : 8/7/98
+
+Author                  : Andrew McMillan (Knox)
+Email Address           : knox@salug.org
+
+Description             : Action Quake 2 level.
+	
+Other q2 levels by author  : None
+
+===============================================================================
+
+* Play Information *
+
+Game                    : Quake 2 (Action Quake2)
+Single Player           : No
+Cooperative             : No
+Deathmatch              : Yes
+Difficulty Settings     : No
+New Sounds              : No
+New Graphics            : No
+Demos Replaced          : No
+
+* Construction *
+
+Base                    : From scratch with Prefabs
+Build Time              : 30+ Hours
+Editor(s) used          : Worldcraft
+Known Bugs              : None
+
+* How to use this level *
+
+Get Action Quake2 from here: http://action.telefragged.com/ and connect to a server running this map.  To just see the map (single player like but empty), type "game action" then "map actone" in the Quake2 console.
+
+* Credits *
+
+Of course to ID Software for Quake 2, then to the A-Team for Action Quake 2.
+I used 2 prefabs that I found at The Quake Prefab Park 2 (http://www.planetquake.com/qpp/qpp2/).
+The tower in the center is a prefab by Steve Lieb.
+The bridge in the front is a prefab by Joe the Slayer.
+I also ended up with a huge amount of textures and skies.  I am sure that some of them are custom made,
+so my heart goes out to those graphics guys, I'd give credits for the ones i used, but I dont know who
+might have even done them.
+
+* Copyright / Permissions *
+I have included the .map file, so that you can modify at will.  Cut, copy, paste, I dont care.
+Just be sure that if you copy the prefabs that I talked about above, you give the creators credit.
+You are free to distribute this level as long as you aren't charging *ANYTHING* for it.
+
+* What next? *
+Well if I can ever get the time away from school, I will finish Action Map 2.  It is basically an extended version of 1,
+with 2 bases for team support when/if Action quake supports it.
+

@@ -1,0 +1,91 @@
+=============================================================================
+Title                   : Action City (2nd version)
+
+Files                   : ACTCITY2.BSP, ACTCITY2.TXT, several new textures & sky
+                          archive: ACTCITY2.ZIP
+
+Release Date (DD/MM/YY) : 1/9/98
+
+Author                  : Lari Muuriaisniemi aka CryptR
+Email Address           : lmuur@dlc.fi
+Web Site                : http://www.dlc.fi/~lmuur
+
+Description             : Map for Action Quake (http://action.telefragged.com).
+                          This area, overcomed by CrossoR's troops, is
+                          division of Mancis City connected with Mancis Freeway
+                          located at the East.
+                          This map includes Casino, Park Garage building site,
+                          Motel, Industry Site and Streets & Avenues surrounded
+                          by Apartment Houses and realistic Urban environment.
+                          Suitable for 2-8 players.
+
+Installation            : * Unzip ACTCITY2.ZIP into root of your Action Quake
+                          game folder (Quake2/Action), with Subdirectories
+                          enabled (!), so that all textures and sky will be unzipped
+                          into correct directory (USE FOLDER NAMES checkbox
+                          in WinZip or -d switch in PKUnZip).
+                                                    
+Additional Credits to   : Stecki for making the sky that has been used as the base for new one.
+                          A-Team for making greatest Quake2 Multiplayer mod ever.
+                          id software
+                          Ben Morris for Worldcraft
+                          All guys who sent me feedback about previous version
+
+WHAT'S NEW              : * Several small enhancements & speedups optimizations
+                            to increase playability a bit.
+                          * Changed rotating Casino doors to Sliding doors,
+                            so players dont get anymore stuck between the doors.
+                          * Added the Lobby for Motel Mancis, check out the
+                            Freeway area!
+                          * Rooftops are now more easier to access. Low roof
+                            at the Casino Square is now accessable too.
+                          * Bit more ammo added.
+
+Misc.                   : Send feedback 'bout this map if you feel like.
+=============================================================================
+* Play Information *
+
+Game                      : Action Quake (Quake2)
+Single player             : Yes (only for looking around)
+Cooperative 2-4 players   : No
+Deathmatch 2-8 players    : Yes 
+
+New Graphics              : Yes 
+New Music                 : No
+New Sounds                : No
+DLL                       : No
+
+* Construction *
+
+Base                      : New level from scratch
+Build time                : About one week + all those small revisions
+Compile Machine           : P233 with 64M
+    QBSP3 Time            : 15 secs
+    QVIS3 Time            : 3 hrs
+    QRAD3 Time            : about 15 min
+
+Editor(s) Used            : WorldCraft, Paint Shop Pro 4, Wally
+
+Known Bugs                : Nope
+
+* Copyright / Permissions *
+
+Authors may NOT use this level as a base to build additional
+levels.
+
+All new graphics that comes with this map (in TEXTURES/CRCITY) are
+copyrighted material by me and my legal property. However, authors
+MAY use those new textures in their ACTION QUAKE maps, as far as 
+they give me credit for making them. Also letting me know is encouraged.
+
+You may distribute this BSP, provided you include this file, with
+no modifications, but please distribute original unmodified archive
+which can be obtained from my Web site.  You may distribute this file
+in any electronic format (BBS, Diskette, CD, etc) as long as you
+include this file intact.
+
+* Where to get this BSP *
+
+WWW   : http://www.dlc.fi/~lmuur 
+
+OTHER : Action Quake Map sites

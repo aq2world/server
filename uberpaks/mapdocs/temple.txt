@@ -1,0 +1,59 @@
+=============================================================================
+Title                  : The Temple of the Star Stone
+Filename               : temple.zip
+Version                : 9/7/99
+Game                   : Action Quake 2 
+Author                 : Touko "Squirrel" Kästämä
+                         Email:   tokastama@goplay.com
+                         Website: get.to/squirrel   (directly http://personal.inet.fi/cool/kastama)
+Description            : The map is about a temple and the jungle valley surrounding it.
+                         This maps earlier test versions were titled "The Hunt for the HUGE Diamond".
+Thanks to              : ID Software, A-TEAM, QERadiant & Wally Makers, Rust (www.gamesdesign.net)
+                         Oswald, GenSurf makers
+Special Thanks to      : T.T.I. , Leeloo's Friend and anyone else involved in this.
+=============================================================================
+* Play Information *
+Single Player          : Just for checking things, as usual in Action Quake 2
+Cooperative            : Nope
+Deathmatch             : Sure!
+AQ2 Teamplay           : Of course!
+Difficulty Settings    : Nope
+New Graphics           : YES !               
+New Sky                : Not this time.
+New Sounds             : Naah...
+CD Track               : None
+
+* Construction *
+Base                   : Scratch
+Editors used           : Wally, QERadiant 1.0 B135, GenSurf
+Build Time             : Unknown
+Known Bugs             : No
+Compile & build machine: Pentium MMX 200, 64 MB, Stingray(Voodoo Rush)
+Compile time           : ~13 hours
+Brushes                : 678
+=============================================================================
+* REQUIREMENTS *
+- Quake2 
+- Action Quake 2
+- Computer ;)
+=============================================================================
+* Installation *
+Just unzip to your X:\Quake2\Action directory (with subdirectories enabled).
+The BSP must end up in X:\Quake2\Action\maps folder. 
+Textures must end up in X:\Quake2\Action\textures\squ folder.
+This .txt should end up in the same directory with the map, but it isn't necessary.
+ 
+* Copyright / Permissions *
+Authors MAY NOT use this level as a base to build additional levels. All
+textures, sounds, anything MAY NOT be used for other maps. You MAY 
+distribute this map, but DON'T sell it. Include this text file with it, as well 
+as any other files orinally in the .zip file, unchanged.
+
+Copyright (c) 1999 Touko "Squirrel" Kästämä.
+=============================================================================
+Touko "Squirrel" Kästämä
+Email:   tokastama@goplay.com
+Website: get.to/squirrel  (directly http://personal.inet.fi/cool/kastama)
+
+Feel free to send me feedback on this.
+=============================================================================

@@ -1,0 +1,94 @@
+================================================================
+Title                   : motel
+Filename                : motel.bsp
+Author                  : acy (bobbins)
+Email Address           : acy@eclipse.co.uk
+Description             : an action quake 2 deathmatch level.
+================================================================
+
+* Play Information *
+
+Single Player           : No
+Cooperative             : No
+Deathmatch              : Yes (best with 4 players)
+Difficulty Settings     : No
+New Sounds              : Yes (Re-worked elevator music, dig that beat :)
+New Graphics            : No
+New Monsters            : No
+New Demos               : No
+New Models              : No
+QuakeC Patches          : No
+
+* Installation *
+
+Using WinZip drag the motel.bsp and motel.txt files into your
+quake2/action/maps/ directory, then drag the alarm.wav and crackle.wav
+files into your quake2/action/sound/ directory. 
+
+* Construction *
+
+Base                    : From Scratch
+Editor(s) used          : Quake Army Knife, Version 4.07
+Known Bugs              : None
+Build Machine		: Cyrix 200 MMX, 32 megabytes of RAM,
+                          1.5 gigabytes of virtual memory
+Build Time              : TXQBSP  : 61 seconds
+                          QVIS    : 13514 seconds
+                          ARGHRAD : 10016 seconds
+                          TOTAL   : 6 hours 55 minutes
+
+Comments                : The map was built and tested only in
+                          software mode.  Donations of 3dfx 
+                          cards greatly excepted ;)
+
+Thanks			: Thanks to everyone on PlanetQuake's
+                          Map Editing List, for all the
+                          information and inspiration :)
+                          Thanks to YOU for taking the time
+                          to try out this map :)
+
+                          Thanks to the Action Quake guys for
+                          making a smart MOD :)
+
+                          Thanks to Chief Mack for his input into
+                          the map,  and thanks to british weather
+                          for helping me start the map.
+
+Legality		: If this is good enough to warrant being
+                          put on a cd or other compilation then
+                          go for it, as long as I'm notified
+                          and get all the credits!'
+
+			: If you want to use this as a base
+                          for your own maps then be my guest,
+                          just give me credit!
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ ** REMEMBER THE NAME ALEXANDER COLIN YATES (BOBBINS) **

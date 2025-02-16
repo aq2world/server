@@ -1,0 +1,85 @@
+
+* ACTION QUAKE II LEVEL INFORMATION *
+--------------------------------------------------------------------------------
+TITLE                   : Highway through the Forest
+FILENAME                : forsthigway.zip
+AUTHOR                  : Slave Zero - the g4m€@hØli¢
+OTHER MAPS BY ME:  ghosttown(illegal due to kingpin textures); and more to come :-) 
+DATE                    : 23.09.1999
+
+EMAIL ADDRESS           : xgameaholicx@yahoo.co.uk
+
+HOMEPAGE URL            : http://come.to/fragaholics
+
+--------------------------------------------------------------------------------
+* CREDITS *
+--------------------------------------------------------------------------------
+
+Jesper Myrfords                : For lighting tips and some nice textures, lot s of thanx to him! this map was based on his idea 
+(campblud) of an outdoor map in the forest.....i took on this idea....and just tried to keep th r_speeds  a bit lower!
+
+The A-Team                      : For making A DAMN CEWL MOD!!!!
+The Beta-testers                 :[FrAh]Joker,[MoQ]SoulReAvR...thnx!!!
+Ruskprick                          : for some damn good textures!
+the gimp                             : for some nice textures and sounds
+strag                                   : for a few sounds
+David Hyde!!!!                  : for mapspy, gensurf and for answering loads of questions on the rust q2 forum!
+Tim Wright                         :  for the great phong shading thingy in arghrad!!
+Hannes "Snatcher" Karger: for the q2jeep prefab!i didn t use it in the final version though....thnx anyway!
+Olli Pääkkönen                   for  the q2car prefab!!
+Xarix                                 : for the cool texture pak!!
+Freetextures.com               :for some textures
+texturecentral.gamedesign.net : for those cool Texture paks
+
+
+!!!!!Thanx also to everyone who s answered one of my stupidquestions on the aqmd and the rust forum!!!!!!!!!!!!!
+
+--------------------------------------------------------------------------------
+* LEVEL DESCRIPTION *
+--------------------------------------------------------------------------------
+A highway that goes through a big dark forest.......i tried to keep the r_speeds kinda low.....well i guess they aint that bad except for one place :-/
+                                                                                                
+DEATHMATCH              : 8 Player Respawn Points
+ACTION QUAKE II         : 2 Teams
+SUGGESTED PLAYER LOAD   : 2 to 20
+
+NEW TEXTURES            : Yes
+NEW SOUNDS              : Yes
+--------------------------------------------------------------------------------
+* CONSTRUCTION *
+--------------------------------------------------------------------------------
+MAP BASE                : none
+PREFABS USED            : yeah 2 the q2jeep and the q2car
+EDITOR(S) USED          : QERadiant Build 147
+OTHER UTILITIES USED    : ArghRad 2.01,Wally 1.4 Beta, Adobe Photoshop, PaintshopPro, Gensurf plugin for Qeradiant, Mapspy
+KNOWN BUGS              : none so far
+COMPILE MACHINE         : PIII 450 with 128 MB RAM, Voodoo Banshee (sadly , this card is realy killin me!!)
+BRUSHES:  1216
+QBSP2 TIME              :18 seconds
+VIS TIME                : 2 hours 
+QRAD TIME               : 3520 seconds
+
+--------------------------------------------------------------------------------
+* SPECIAL INSTRUCTIONS / ADDITIONAL INFORMATION *
+--------------------------------------------------------------------------------
+the M4 is hidden......see if ya can find it...it won t be too hard though  :-)
+you can also through over the tables to take cover!
+
+
+* COPYRIGHT-CRAP *
+
+Authors MAY NOT use this level as a base to build additional levels.
+
+The textures are property of the authors, read their readmes for more informations.
+
+You MUST NOT distribute this level UNLESS you INCLUDE THIS FILE WITH
+NO MODIFICATIONS. If you don't co-operate, then DON'T DISTRIBUTE IT
+IN ANY FORM.
+
+You are NOT authorized to put this LEVEL on any CD or distribute it in
+any way without my written permission.
+
+Action Quake II (C) 1998-99 The A-Team.
+Quake II (C) 1998-99 id Software. All rights reserved.
+
+

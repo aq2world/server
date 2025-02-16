@@ -1,0 +1,33 @@
+================================================================
+Title                   : desert for AQ2 CTF
+Filename                : ctfdesert.bsp
+Release Date            : 4/3/06
+Author                  : [DWL|FooQ]
+URL                     : http://
+Email                   : fooq@whoever.com
+Description             : The old desert map made fairer for AQ2 CTF. The original had an unfair number of spawns in one base making it one sided in CTF play. Added a sky, raised the sky level, made the airstrikes available more than once.
+Credits                 : Creepy for the original map
+================================================================
+* Play Information *
+
+Single Player           : No
+Cooperative             : No
+Deathmatch              : No
+ActionQuake DM          : No
+ActionQuake Teams       : Yes
+ActionQuake CTF		: Most definitely, I recommend setting wp_flags 433 to remove mp5, m4, m3 and akimbos for faster more fun play, less leg damage and m3 shotguns are lame
+Difficulty Settings     : No
+New Sounds              : No
+New Textures            : Yes
+New Music               : No
+Demos Replaced          : None
+
+* Installation *
+ Extract (unzip) in the *:*\quake2\action directory. All paths provided.
+
+* Construction *
+
+Base                    : desert.bsp
+Editor(s) used          : Quark 6.4
+Known Bugs              : Feel free to let me know if you find any
+Build Time              : coupla days

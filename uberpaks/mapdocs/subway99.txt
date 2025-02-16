@@ -1,0 +1,81 @@
+=============================================================================
+Title                  : Subway Sabotage: 1999
+Filename               : subway99.zip
+Version                : 1/20/99 
+Game                   : Action Quake 2 
+Authors                : Tomi "T.T.I." Isoaho (mapper)
+                         and Hannu Oksa (new sounds) aka Imagination.
+
+Description            : Subway99 is sequel to my LAGGY subway1/2 maps.
+                         				  
+Thanks to              : ID Software, A-TEAM, Babylon 5, AQMD and makers of
+                         those good editors that I used. 
+
+Special thanks to      : Leeloo's Friend, Re-Volver and Squirrel. 
+                         
+				  
+=============================================================================
+
+* Play Information *
+
+Single Player          : Just for checking things
+Cooperative            : Nope
+Deathmatch             : 2-16 
+AQ2 Teamplay           : YAH!!
+Difficulty Settings    : Nope
+New Graphics           : YEP                
+New Sky                : Yep, "dayc" by me.
+New Sounds             : Yep
+CD Track               : Yep
+
+* Construction *
+
+Base                   : Scratch
+Editors used           : GlideQoole 2.5, WorldCraft, Wally 1.31b, SkyPaintGE
+Build Time             : hmm..
+Known Bugs             : NO !
+Compile machine        : Pentium II 300, 64 MB, Voodoo2
+Qbsp3 time             : 15 seconds
+Qvis3 time             : 468 seconds
+ArghRad time           : 3471 seconds
+Brushes                : about 816
+
+Notes:
+
+This time I tried to keep r_speeds low as possible. Everyone asked me to 
+make this map, so I made it. There's NO MORE that DARK (for campers) roof! 
+Actually there's almost nothing from those old Subway maps. I tried to fix 
+everything that I screwed up in Subway 1/2 maps. This map looks like some 
+kind of SHIT without a 3D accelerator...    ...but so kewl WITH voodoo2 or
+better.  
+
+=============================================================================
+
+* REQUIREMENTS *
+
+- Quake2 version 3.20 (support for transparent SURFACE_FLOWING, otherwise the
+  game will CRASH or something like that).
+
+- 3dfx or Riva TNT highly recommended
+
+=============================================================================
+
+visit:
+home.telefragged.com/totalwars/TTI/
+www.mapdepot.net
+
+
+* Installation *
+
+Just unzip to your X:\Quake2\Action directory (with subdirectories enabled).
+The BSP must end up in X:\Quake2\Action\maps folder.
+Textures must end up in X:\Quake2\Action\textures\tti folder.
+New sounds MUST end up in X:\Quake2\Action\sound\world folder.
+
+* Copyright / Permissions *
+
+Authors MAY NOT use this level as a base to build additional levels. All
+textures, sounds, anything MAY NOT be used for other maps. You MAY 
+distribute this map, but DON'T sell it. Include this text file with it.
+
+Copyright (c) 1999 [ai]T.T.I. and [ai]Img, All Rights Reserved

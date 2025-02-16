@@ -1,0 +1,142 @@
+February 11, 1999
+========================================================================
+
+* General Information *
+
+Title                   : Stellar Cow
+Filename                : Stellar.bsp
+Author                  : Hafhead (Tony Hafner)
+Email Address           : hafhead@planetquake.com
+Web Page                : http://www.geocities.com/~hafhead
+Additional Credits to   : id Software for such a great game
+                          Ben Morris and Valve for Worldcraft
+                          Argh! for arghrad
+                          The guys of Team 3 for their input
+                          Ridah's Eraser Bots for easy test runs
+Description             : Deathmatch Quake II Level
+
+The main room is filled with catwalks and open to space above and below.
+At the bottom, there is a big fan and a ventilation intake that ensures
+your safety should you be careless enough to fall off.  Around this room
+you will find some smaller side rooms that are well-connected to each
+other and to the center room.  The level sports 2 Rocket Launchers, a
+Railgun, a Hyperblaster, a Super Shotgun, and a Chaingun.  Topping off
+the heavy artillery is a Quad, conveniently placed under a lift tube so
+that you can quickly jump back into the action.  Defensive equipment
+includes a Body Armor, a Jacket Armor, and a Megahealth.  Ammo isn't
+exactly overstocked, but there is enough to keep everyone equipped with
+what they need.
+
+Yeah, I know that a big fan open to space below makes no sense
+whatsoever, but hey- it looks cool (at least I think so).
+
+As usual, I strongly recommend playing with "weapons stay" turned on.
+
+And a special thanks goes out to Bod (bod@planetquake.com) for doing the
+route file with no prior notice.  And for giving me a couple of hints on
+what to do to make the map more bot-friendly.
+
+========================================================================
+
+* Running the Map *
+
+Put Stellar.bsp into your maps directory (Quake2\baseq2\maps).  Run
+Quake2 and bring down the console (by pressing ~).  At the console,
+type "map stellar".  The game will start.  For multiplayer games, start
+the game first.  Then bring down the console and enter the map command.
+Each player must have the .bsp file in his/her map directory.
+
+I've also included the .rtz file in this release.  If you don't have the
+Eraser Bot, you can delete this file.  If you do have it, drop
+stellar.rtz into your Quake2\eraser\routes directory before starting the
+map with bots.
+
+========================================================================
+
+* Play Information *
+
+Single Player           : Don't bother- there's nothing to kill
+Cooperative             : No
+Deathmatch              : Yes- 10 starts, good for 3 to about 8 players
+Difficulty Settings     : No
+New Sounds              : No
+New Graphics            : No
+New Music               : No
+Demos Replaced          : None
+
+* Construction *
+
+Base                    : New level from scratch
+Editor(s) used          : Worldcraft
+Known Bugs              : None
+Build Time              : Two weeks, off and on
+Compile machine         : PII/333 with 64Mb
+Qbsp Time               : 12 seconds
+Vis Time                : 71 seconds
+Arghrad Time            : 6836 seconds
+    extra, bounce 64, chopsky 16, choplight 16
+
+* Copyright / Permissions *
+
+This level may be distributed only over the Internet and/or BBS systems.
+You are NOT authorized to put this level on any CD or distribute it in
+any commercial way without my permission.  It must be kept together with
+this text file intact.
+
+* Other Info *
+
+Like my last map, Solid Fuel, I was aiming for a level sized for 1-on-1
+games.  However, this time it ended up a little larger than I intended.
+It is a touch on the large size for 2 players, but 3 is enough to see
+some good action.  It's large enough that it should take up to 6 or so
+players comfortably.  8-10 players might even work, but that would be
+pretty full.
+
+========================================================================
+
+* Plug Section *
+
+For more info about Team 3, visit our site:
+    http://www.planetquake.com/3
+
+For more info about the Eraser Bot, visit Impact's site:
+    http://impact.frag.com
+
+For routes and generally-useful bot info, visit the Bot Emporium:
+    http://www.planetquake.com/emporium
+
+* Past Projects *
+
+For my projects, visit my personal website:
+    http://www.geocities.com/~hafhead
+
+Quake II Levels:
+    Solid Fuel
+    Warhouses (CTF level for TW2)
+    Spawn of Anklebiter
+    Dark and Silly
+    Warhouse II
+    LaGrange Pt 1 Starbase
+
+Quake Levels:
+    Merry Fraggin' X-Mas
+    Warhouses Retro (CTF)
+    Blood Feud (CTF)
+    4 Boats
+    Storm the Castle
+    Anklebiter
+
+Quake Mission Pack 1 Level:
+    Weightfulness
+
+Quake Patches:
+    Dance!
+    Prison Break
+    Hafweaps
+
+Doom II Levels:
+    Anklebiter
+    Warhouse
+    Command
+    Parts
+      and more...

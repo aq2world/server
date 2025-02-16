@@ -1,0 +1,28 @@
+13.11.2004
+ 
+
+Title              : City in the clouds revisited
+Filename           : Cloud3.bsp
+Game               : AQ2
+Author             : Antti "Maxy" Mäkelä
+Email Address      : antti.makela@laurea.fi
+Description        : Small citymap with a really fast tempo.
+Additional Credits : Jason Abbot "Woebane" for his AWESOME city sky.
+                     Gerbil for his GREAT textures.
+                     Cryptr for his GREAT city textures.
+                     And for everybody else whose textures i've used. 
+
+
+Base               : Scratch
+Editor used        : Qoole  
+Build time         : Couple of days
+Compile time       : 5mins
+
+
+Finally I want to thank my betatesters teprrr and Hyster whose bugspotting ability and
+final ideas helped me make my map much better. 
+
+
+
+
+ 

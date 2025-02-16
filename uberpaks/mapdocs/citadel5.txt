@@ -1,0 +1,27 @@
+
+4-2-99
+
+===========================================================================================
+Title                   : The citadel
+Filename                : Citadel5.bsp
+Game			: AQ2
+Author                  : Andy"Buzza"Bee
+Email Address           : Andy.Bee@BTInternet.com
+
+Description             : Inside a Citadel(or castle whatever!!)
+
+Additional Credits to   : Me :o), Virtus(creators of the nightmare that is DMM2),ID,A-team  
+                    
+===========================================================================================
+Base                    : Scratch
+Editor(s) used          : DMM2
+Build Time              : 12 hours(ish)
+Compile Time		: 8 mins 30 secs
+===========================================================================================
+Dm			: Yes(8 respawn points)
+Teamplay		: Yes
+===========================================================================================
+* Copyright / Permissions *
+
+Dont do anything to my map! Ask me!,but you can distribute freely.
+

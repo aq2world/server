@@ -1,0 +1,54 @@
+Town v.2, by Trond Abusdal
+
+09/18/98
+================================================================
+Title                   : Town v.2
+Filename                : townv2.bsp
+Game			: Action Quake 2
+Author                  : Trond Abusdal, a SLAT Software member
+Email Address           : iabusdal@online.no
+Web Address             : none yet...
+Description             : A small town
+Requirements            : The good old Q2 stuff, AQ2 
+Additional Credits to   : The AQ2 guys, and Dark Lord, for compiling it
+                          (what can I do back, DL?)
+================================================================
+
+* Play Information *
+
+Single Player           : If you wanna play w/o enemies, OK to me :)
+Cooperative             : Make a guess...
+Deathmatch              : Yes. I suppose you shouldn`t be more than 6
+Difficulty Settings     : In DM? I don`t think so...
+New Sounds              : No
+New Graphics            : This is the best part... I have not ONE
+                          of the original Q2 textures. Not in the three
+                          other maps either... About 130 custom textures!
+New Music               : No. Why? Put in a CD
+
+* Construction *
+
+Base                    : Kinda fix of town, so it is both faster and more playable
+Editor(s) used          : Qoole (regged) lotsa Shadow Warrior/DN3D/Redneck Rampage tools, 
+                          UnrealEd, PSP, 
+Known Bugs              : I din`t know if this is abug, but I can`t fix it. It`s something 
+                          wrong with the flashing lights somewhere. Not very noticable, though...                        
+Build Time              : Lets see... I worked on it 4-5 days
+                          off and to.
+Compile Time		: About 9 hours, according to Dark Lord, the compiler
+
+Notes:
+
+Does the map run slow? Make the textures smaller. In general, the map SHOULDN`T run slow...
+(Thanks Pat)
+
+* Copyright / Permissions *
+
+Wanna use SLAT Software textures? Give me some credits! Thanks... It took hell of a
+long time to convert/make those textures!
+
+OK. I have NOT used any prefabs, I have built them all myself, so if you see them in
+someone`s other maps, please report to me... Probably the guy got them from me, but please
+let me know anyway.
+
+-Trond Abusdal

@@ -1,0 +1,91 @@
+================================================================================
+* QUAKE II LEVEL INFORMATION *
+--------------------------------------------------------------------------------
+TITLE                   : Sky Scraper:  Action on the High Steel
+FILENAME                : sscraper.zip
+AUTHOR                  : GreyDeath
+DATE                    : 04.20.2000
+TYPE                    : Action Quake 2
+EMAIL ADDRESS           : GreyDeath@sympatico.ca - Spam me and I'll kick your ass
+HOMEPAGE URL            : http://gdx.dnsalias.net
+.zip CONTENTS           : The ZIP file contains the following:
+                          -sscraper.bsp
+                          -textures
+                          -city2 env map
+                          -sound files
+                          -this text file!
+                          
+                          If anything else exists within the ZIP file, it wasn't 
+			  added by me, and should not be trusted.
+
+--------------------------------------------------------------------------------
+* LEVEL DESCRIPTION *
+--------------------------------------------------------------------------------
+A sky scraper still under construction becomes the your playground as
+you battle for survival and dominance over the enemy team.  Can you successfully
+walk the high steel?  Do you have what it takes to stay alive?
+
+This map supports both Deathmatch, and Teamplay.
+
+--------------------------------------------------------------------------------
+SINGLE PLAYER           : 1 Player Start Point(s)
+CO-OPERATIVE            : 12 Player Start Point(s)?
+DEATHMATCH              : 12 Player Respawn Point(s)?
+SUGGESTED PLAYER LOAD   : As many as you can fit.
+
+DIFFICULTY SETTINGS     : 
+NEW TEXTURES            : Yes
+NEW SOUNDS              : Yes
+CD TRACK #              : 0
+
+--------------------------------------------------------------------------------
+* CONSTRUCTION *
+--------------------------------------------------------------------------------
+MAP BASE                : New Map
+PREFABS USED            : None
+EDITOR(S) USED          : Radiant 1.0 Beta Build 135
+OTHER UTILITIES USED    : ArghRad 2.01,  Wally 1.41 Beta
+
+KNOWN BUGS              : None that I know of...
+
+COMPILE MACHINE         : T-bird 1GHz /w 512 MB RAM
+
+QBSP2 TIME              : 00013 seconds
+VIS TIME                : 12635 seconds
+QRAD TIME               : 03256 seconds 
+
+--------------------------------------------------------------------------------
+* OTHER LEVELS BY THE AUTHOR *
+--------------------------------------------------------------------------------
+: etemple
+: resort - unreleased
+
+
+--------------------------------------------------------------------------------
+* SPECIAL INSTRUCTIONS / ADDITIONAL INFORMATION *
+--------------------------------------------------------------------------------
+Just unzip into your Quake2/action folder
+
+--------------------------------------------------------------------------------
+* CREDITS *
+--------------------------------------------------------------------------------
+id Software             : For making a KICK ASS game
+Spear[C.A.P]		: For some ideas and testing
+Smurphster, MP*Idle,
+NoFear			: For initial testing
+
+
+================================================================================
+* COPYRIGHT / PERMISSIONS *
+--------------------------------------------------------------------------------
+Authors MAY NOT use this level as a base to build additional levels.
+
+You MUST NOT distribute this level UNLESS you INCLUDE THIS FILE WITH
+NO MODIFICATIONS. If you don't co-operate, then DON'T DISTRIBUTE IT
+IN ANY FORM.
+
+This LEVEL may be distributed ONLY over the Internet and/or BBS systems.
+You are NOT authorized to put this LEVEL on any CD or distribute it in
+any way without my written permission.
+
+Quake II (C) 1998-99 id Software. All rights reserved.

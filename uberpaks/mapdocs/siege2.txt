@@ -1,0 +1,59 @@
+¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤
+
+Date		: 1-17-02
+Title		: Siege - Have fun stormin' the castle!
+Filename	: siege2.bsp
+Game		: AQ2
+Author		: Bob Szymanski (Bobert)
+Email Address	: RHSzymanski@yahoo.com
+IRC		: N/A
+URL		: N/A
+Description	: A castle with a chasm & caves.
+
+Thanks to: 
+* The ID Software for creating Quake 2.
+* The A*team for a great modification to Quake 2 that has occupied my life for the last 3+ years! 
+* The Creators of QeRadiant & Wally for an the free editing software.
+* Tony Ferrara and David Hyde, the creators of Map Spy.
+* Spear[C.A.P.], Wetwired, CIA, 'Ellusion' Nyhaug and Gimp for their textures. (Also, any mapper whos textures I used but dont know who to give the credit to!)
+* No Fear & Idle at the AQMD for all the tutorials, links & advice. I never would have even attempted this without those resources.
+* Greydeath for the most excellent sky.
+		
+¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤
+
+Single Player	: Sure, but it's lonely!
+Cooperative	: Nope
+Deathmatch	: Yup
+Teamplay	: Yup
+New Sounds	: Nope
+New Textures	: Yep
+LTK Support	: Yep
+TNG Support     : Yep
+
+¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤
+
+Notes: 
+
+* LTK (License to Kill) is a bot for the action mod. The terrain file is a route file that instructs the bot how to navigate the map. LTK can be found here:
+http://www.planetquake.com/maxtron/ltk/
+* TNG (The Next Generation) is an AQ2 mod that supports just about everything. The FLG file supports Capture the Flag (It could happen!) and the LOC file supports location variables. See the TNG site for more details:
+http://www.aq2tng.barrysworld.net/
+* These files are not required for clients, so if you never run a server, you can delete the following 3 files without damage to the map: TERRAIN/SIEGE2.LTK; TNG/SIEGE2.FLG; and TNG/SIEGE2.AQG
+
+Construction:
+
+Editors used	: Qeradiant 1.47, Wally 1.55b
+Build Time	: 8 months? I don't exactly know!
+Compile Time	: 6.5 hours
+
+¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤
+
+Copyright:
+
+Feel free to use & abuse. Note textures original to this level are in the Bobert directory.
+
+Comments:
+
+Scooter my daisy heads.
+
+¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤¤

@@ -2,6 +2,9 @@ on:
   workflow_dispatch:
   push:
     branches: [master]
+    paths:
+      - 'tng/**'
+      - 'bots/**'
 
 name: Packaging
 

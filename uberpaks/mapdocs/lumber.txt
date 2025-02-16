@@ -1,0 +1,104 @@
+================================================================================
+* ACTION QUAKE II LEVEL INFORMATION *
+--------------------------------------------------------------------------------
+TITLE                   : The Lumber Yard
+FILENAME                : lumber.zip
+AUTHOR                  : Brent "WetWired" Waller
+DATE                    : 7.4.2000
+EMAIL ADDRESS           : wetwired@hypermax.net.au
+HOMEPAGE URL            : http://www.quakeclan.net/consortium
+
+--------------------------------------------------------------------------------
+* LEVEL DESCRIPTION *
+--------------------------------------------------------------------------------
+Well it's pretty much self explainatory, the idea just popped into my head so I
+made it. There were plans for an "old style" Lumber yard with logs floating in
+water etc, but I figured it wouldn't help the gameplay much if I added them. But
+I did get to put in my big wood saw :) This was also an attempt of mine to make
+a "sniper friendly" map, as my previous maps have been more of a spam session.
+But I have still made it hard for snipers to get the job done, with scant little
+cover on the roof tops, but still enough to get by...I think this map should
+prove my popular than my previous, I think and HOPE it's an all-round balanced
+map for any weapon...as long as their in the right hands >:)
+
+--------------------------------------------------------------------------------
+SINGLE PLAYER           : yes but just to look around
+CO-OPERATIVE            : no
+DEATHMATCH              : yes
+ACTION QUAKE II         : 2 Teams (5 spawn points)
+SUGGESTED PLAYER LOAD   : 2 to 16
+
+NEW TEXTURES            : Yes
+NEW SOUNDS              : Yes
+CD TRACK #              : 0
+
+--------------------------------------------------------------------------------
+* CONSTRUCTION *
+--------------------------------------------------------------------------------
+MAP BASE                : New Map
+PREFABS USED            : The fancy red light by Ali - e.mail kings@cypronet.net
+			  and the saw which I edited, dunno who made it though :)
+EDITOR(S) USED          : QOOLE 2.50
+OTHER UTILITIES USED    : Wally 1.41 Beta, ArghRad 2.01
+
+KNOWN BUGS              : The saw stops if you drop a weapon, item or knife near
+			  it, no biggy really, but you still get hurt by it..
+			  This map will run poorly on slower systems with older
+			  3D cards such as a Voodoo or Voodoo 2, This is due to
+			  the large amount of textures displayed onscreen, if you
+			  find performance lacking, try setting your texture
+			  quality down, software users shouldn't have any
+			  problems though.
+
+COMPILE MACHINE         : AMD K6-II 400Mhz, 128Mb of RAM
+
+QBSP2 TIME              : 10 seconds
+VIS TIME                : 2283 seconds (38 Minutes, 3 Seconds)
+QRAD TIME               : 3686 seconds (1 Hour, 1 Minutes, 26 Seconds)
+
+--------------------------------------------------------------------------------
+* OTHER LEVELS BY THE AUTHOR *
+--------------------------------------------------------------------------------
+: Inside the Matrix (matrix.zip) - co-authored with TIGEReye
+: The Pub With No Beer (nobeer.zip)
+: The Pub With Beer (beer.zip)
+: Tequila Sunrise (tequila.zip)
+: What is the Matrix? (matrix2.zip)
+
+
+--------------------------------------------------------------------------------
+* SPECIAL INSTRUCTIONS / ADDITIONAL INFORMATION *
+--------------------------------------------------------------------------------
+
+
+--------------------------------------------------------------------------------
+* CREDITS *
+--------------------------------------------------------------------------------
+The A-Team              : For making a KICK ASS Mod
+The People who made	: Qoole, Wally, Arghrad! and all those other 
+			  non-microsoft products.
+Everyone on my ICQ list : For those of you who bothered to check out my "betas"
+	                  and giving me some much needed feedback Derty, Wolf,
+			  Firewalker, scuzzy (even though he didn't test it and
+			  appears to have dissappeared off the face of the
+			  earth...),  DM, Ascension All the gang from the
+			   Consortium and everyone else I've forgotten
+Jesper and Shadowfire   : For making some kick arse textures for me to pinch.
+================================================================================
+* COPYRIGHT / PERMISSIONS *
+--------------------------------------------------------------------------------
+Authors MAY NOT use this level as a base to build additional levels.
+
+You MUST NOT distribute this level UNLESS you INCLUDE THIS FILE WITH
+NO MODIFICATIONS. If you don't co-operate, then DON'T DISTRIBUTE IT
+IN ANY FORM.
+
+This LEVEL may be distributed ONLY over the Internet and/or BBS systems.
+You are NOT authorized to put this LEVEL on any CD or distribute it in
+any way without my written permission.
+
+Action Quake II (C) 1998-2000 The A-Team.
+Quake II (C) 1998-2000 id Software. All rights reserved.
+
+
+

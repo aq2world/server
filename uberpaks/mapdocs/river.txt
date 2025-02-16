@@ -1,0 +1,86 @@
+================================================================================
+* ACTION QUAKE II LEVEL INFORMATION *
+--------------------------------------------------------------------------------
+TITLE                   : The River Battle        by: Regulator
+FILENAME                : river.zip
+AUTHOR                  : Regulator
+DATE                    : 1-4-00
+EMAIL ADDRESS           : hdem2@earthlink.net
+HOMEPAGE URL            : None
+.zip CONTENTS           : river.bsp
+                          river.txt
+                          and a some textures
+                          and a new sound
+
+--------------------------------------------------------------------------------
+* LEVEL DESCRIPTION *
+--------------------------------------------------------------------------------
+It is two "bases" seperated by a "river". I liked it a lot, so did a lot of my friends so I'm sure you will too.
+
+--------------------------------------------------------------------------------
+SINGLE PLAYER           : 1 Player Start   Point(s)
+CO-OPERATIVE            : 8 Player Start   Point(s)
+DEATHMATCH              : 8 Player Respawn Point(s)
+ACTION QUAKE II         : 2 Teams
+                          0 Player Respawn Points per Team
+SUGGESTED PLAYER LOAD   : 1 to 10
+
+NEW TEXTURES            : Yes
+NEW SOUNDS              : Yes
+CD TRACK #              : 0
+
+--------------------------------------------------------------------------------
+* CONSTRUCTION *
+--------------------------------------------------------------------------------
+MAP BASE                : New Map
+PREFABS USED            : The plane that flies across the sky is a prefab. I don't remember what it was called.
+EDITOR(S) USED          : QOOLE v2.5
+OTHER UTILITIES USED    : Wally 1.41 Beta
+
+KNOWN BUGS              : If you manage to open only 1 of the doors when you enter the base, you might get the HOM effect. I can fix it but I don't want to re-compile the map =)
+
+COMPILE MACHINE         : 400mhz AMD k6-2, 128 PC-100 ram, ATi Xpert 98 vid card (sucks)
+
+QBSP2 TIME              : < 10 seconds
+VIS TIME                : 100000+ seconds
+QRAD TIME               : 75 seconds
+
+--------------------------------------------------------------------------------
+* OTHER LEVELS BY THE AUTHOR *
+--------------------------------------------------------------------------------
+Skyplay
+Rad Rage
+
+I have others but they aren't released
+
+
+--------------------------------------------------------------------------------
+* SPECIAL INSTRUCTIONS / ADDITIONAL INFORMATION *
+--------------------------------------------------------------------------------
+Have fun!!
+
+--------------------------------------------------------------------------------
+* CREDITS *
+--------------------------------------------------------------------------------
+The A-Team              : For making a KICK ASS Mod
+Me                      : For making the map
+Myself                  : For putting the time into making the map
+and I                   : For being so cool =) j/k
+also any map testers that I forgot to mention =)
+
+
+================================================================================
+* COPYRIGHT / PERMISSIONS *
+--------------------------------------------------------------------------------
+Authors MAY NOT use this level as a base to build additional levels.
+
+You MUST NOT distribute this level UNLESS you INCLUDE THIS FILE WITH
+NO MODIFICATIONS. If you don't co-operate, then DON'T DISTRIBUTE IT
+IN ANY FORM.
+
+This LEVEL may be distributed ONLY over the Internet and/or BBS systems.
+You are NOT authorized to put this LEVEL on any CD or distribute it in
+any way without my written permission.
+
+Action Quake II (C) 1998-99 The A-Team.
+Quake II (C) 1998-99 id Software. All rights reserved.

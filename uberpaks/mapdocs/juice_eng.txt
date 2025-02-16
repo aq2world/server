@@ -1,0 +1,77 @@
+================================================================
+* General Information *
+
+Title                   : Juice & Blood
+Files                   : juice.bsp, juice.txt, textures, sounds, sky
+Release Date            : 04/21/2001
+Author                  : Arthur "Suco" (Juice) de Pádua
+URL                     : http://www.cowboysaction.cjb.net
+                          http://www.qfiles.com.br
+Email                   : o_sabonete@zipmail.com.br
+ICQ                     : 50320244
+Description             : Map for Action Quake 2, a city.
+Credits                 : * Id Software (www.idsoftware.com), for
+                            Commander Keen, Wolf3d, Doom, Doom2, Quake,
+                            Quake2, Quake3 Arena and Doom3. 
+
+                          * Uninet (www.unigames.com.br), for the AQ2 servers
+
+                          * Siberian "Mococa", for the help on some basic concepts
+                            on mapping
+
+                          * Byteco, for sending me Qoole and showing me some ways
+                            around with Qoole
+
+                          * [LF]Galo-Cego, for map testing 
+
+                          * [LF]Frango, for map testing 
+
+                          * =]EE[=Kamikaze for map testing
+================================================================
+* File Information *
+
+.bsp Name		: juice.bsp
+ZIP Size (KB)		: 2201 KB
+Screenshot Included	: No
+DM Spawn Points		: 7
+Max Player Load		: 14
+================================================================
+* Play Information *
+
+Single Player           : Yes, for running around in circles and shooting at your feets
+Cooperative             : No
+Deathmatch              : not intended for
+ActionQuake DM          : Yes
+ActionQuake Teams       : Yes
+Difficulty Settings     : No
+New Sounds              : Yes
+New Textures            : Yes
+New Music               : No
+Demos Replaced          : None
+
+* Installation *
+ Extract (unzip) in the *:*\quake2\action directory. All paths provided.
+
+* Construction *
+
+Base                    : New level from scratch
+Editor(s) used          : Qoole, Adobe Photoshop 5, Wally
+Known Bugs              : Feel free to let me know if you find any
+Build Time              : About a month
+
+
+
+Compile machine         : P800 with 128mb RAM
+QBSP3 Time              : 2 seconds
+QVIS3 Time              : 17426.0 seconds
+QRAD3 Time              : 3512 second
+
+* Where to get this level *
+
+http://www.cowboysaction.cjb.net/
+http://aqmd.action-web.net/
+
+
+* Copyright / Permissions *
+
+No restrictions, so have fun!

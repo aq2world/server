@@ -1,0 +1,32 @@
+		     //*GENERAL*\\
++-------------------------------------------------------+
+|	Title:			Skytown2		|¨
+|	Filename:		Skytown2.bsp		|
+|	Game:			Action Quake2		|
+|	Authors:		Genie & Griffin		|
+|	Email:			Genie@tukikohta.net	|
+|	Map type:		Teamplay		|
++-------------------------------------------------------+
+		   //*PLAYING INFO*\\
++-------------------------------------------------------+
+|	Single Player:		No			|
+|	Cooperactive:		No			|
+|	Teamplay:		Yes			|
+|	Deathmatch:		Yes			|
+|	Difficulty settings:	No			|
+|	New sounds:		No			|
+|	New textures:		Yes			|
++-------------------------------------------------------+
+		//*CONSTRUCTION*\\
++-------------------------------------------------------+
+|	Build time:		Weeks :)		|
+|	Compile Time:		~5hours			|
+|	Compile machine:	AMD 800 with 392 MB RAM	|
+|	Editor used:		Worldcraft		|
+|	Known bugs:		Some meanless		|
++-------------------------------------------------------+
+		//*INSTALLATION*\\
++-------------------------------------------------------+
+|	Unzip files to yourquake2folder\action		|
+|       	   Then go and play. Enjoy.		|
++--------------------------------------------------Genie+

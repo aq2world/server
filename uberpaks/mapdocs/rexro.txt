@@ -1,0 +1,59 @@
+99/20/12
+===========================================================================================
+Title                   : REX.RO: Klose Team Kombat
+Filename                : rexro.bsp
+Game			: AQ2 TP 
+Author                  : Perttu 'Xinul' Salmenjoki
+Email Address           : xinul@sci.fi
+Web Addresses           : www.clan-station.org
+                          wwww.sci.fi/~xinul
+			  
+Description             : Small balanced teamplay map that gives the advantage to a player 
+			  who is willing to learn all of the jump tricks & quick escape routes. 
+Additional Credits to   : Insipiration: 
+					All those crappy AQ2 "teamplay" maps that I have had to
+					play in clan wars. 
+			  Lasse "Note" Rautopuro for the REX.RO texture and for some ideas. 
+			  Per 'Ellusion' Nyhaug for some of the great AQ2 textures and for some great aq2 maps
+			  Mats 'Rusprick' Holm for some of the great AQ2 textures and for some great aq2 maps
+			  Lari Muuriaisniemi aka CryptR for some of the great AQ2 textures and for some great aq2 maps  
+			  For the makers of Qoole to have made it so easy to use that you can 
+			  create this kind of a map without any beforehand knowledge in a week. 	
+			  Geoffrey DeWan for a better QVIS3
+			  Ty Matthews and Neal White III for Wally
+			  Tim Wright for Arghrad 1.0 
+			  id Software for the fastest, most fluid FPS shooter still
+			  A-Team for a great mod		  
+===========================================================================================
+* Play Information *
+
+Single Player           : For testing purposes only
+Cooperative             : No
+Deathmatch              : Yes (wouldn't have even added weapons for DM if Grimmel hadn't insisted me to do so coz I dislike DM)
+Teamplay                : Yes, (this map is designed to be played with ff on, spawns should be as equal as possible)
+Difficulty Settings     : 9 (some difficult jump tricks)
+New Sounds              : No
+New Graphics            : Yes
+
+			  ==================================================================
+* Construction *
+
+Base                    : None
+Editor(s) used          : Qoole 2.5 , Wally
+Known Bugs              : None
+Build Time              : 6 days, pretty much at nights. 
+Compile Time		: QBSP3 =   3 seconds
+			  QVIS3	= 973 seconds
+			  ARGHRAD = 953 seconds 
+			  
+===========================================================================================
+*Installation*
+
+unzip to quake2\action
+
+
+===========================================================================================
+* Copyright / Permissions *
+
+This map is still at a beta stage so don't distribute it to anyone. Full version will be realeased soon after the beta test.
+

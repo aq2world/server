@@ -1,0 +1,43 @@
+Cliff2
+======
+
+Author:		Ace 12GA, ace12ga@telefragged.com
+Mapname: 	cliff2.bsp
+New sounds: 	no
+New models: 	no
+New Graphics:	yes
+Game:		Action Quake, compatible with Quake 2 also.
+Single Player:	no
+Deathmatch:	Yup
+Teamplay:	Oh ya!
+
+Build Time:	Over 2 weeks.
+Editor(s) Used:	QERadiant build 077
+Base:		From Scratch
+
+Instalation
+============
+Well since there are several files in this zip file, I would recomend you extract it from the root of the drive that Quake2 is installed on, or the directory above your Quake2 directory. Everything but this readme will go to the right place. The bsp will go into your action directory's maps directory and the env maps will go into the env directory. This file will end up above your Quake2 directory cause it was an after thought and I am too lazy to rezip it all. :) Or you can just extract everything to where you want it to go manually, just be sure to flick off the directory structure stuff.
+
+Ace Speaks
+==================================
+This is the second version of my first Cliff map. Its much more dangerous, much easier to fall, and adds some tactical improvements for teamplay.
+I really intended this to be a teamplay only map, but I thought the option of making it also work in DM would be appropriate.
+
+Thanks go out to everyone that has made the first Cliff map one of the most popular teamplay maps ever, you guys got me to make this damn map. Hope you like it even more. :)
+
+And if anyone bitches at me about Cliff2, cause "its easier to fall." than don't play on this map.
+
+Credits
+========
+Keith Avery: For the kick ass new environment map, blue skys look better than the orange 	Stogos skies. I know that castle/hall looks way out of place, and I could edit it 	out in Paint shop pro, but I decided to leave the env map intact, as I know how I 	would feel if someone hacked out a piece of my map cause they didn't like it.
+
+Rattlesnake: Bugged me till I started Cliff2, helped me beta test it.
+
+Braveheart Clan: First team play beta test was done with these guys, a very friendly clan 	too, thanks guys, Latta and Wolfer to be specific.
+
+Karmann: Another server op that helped me out some. Also a fanatical Cliff fan.
+
+Mapdepot: Well they did post my map pics in the early stages. Thanks Cliffe, Vandelev(Sorry 	if I spelled it wrong.)
+
+Thats it, stop reading and go frag someone.

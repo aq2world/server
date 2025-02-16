@@ -1,0 +1,85 @@
+================================================================================
+* LEVEL INFORMATION *
+--------------------------------------------------------------------------------
+TITLE                   : The Pub with no Beer
+FILENAME                : nobeer.zip
+AUTHOR                  : =][WetWired][= (Brent Waller)
+DATE                    : 04/10/99
+GAME                    : Action Quake II
+EMAIL ADDRESS           : wetwired@hypermax.net.au
+HOMEPAGE URL            : http://www.quakeclan.net/syn
+			  http://www.quakeclan.net/consortium
+ 
+--------------------------------------------------------------------------------
+* LEVEL DESCRIPTION *
+--------------------------------------------------------------------------------
+This is a pub based loosely on The Lockyer Hotel, which is about 300
+Metres from where I live, so I know it pretty well :), it's not an
+exact replica though, as it would be pretty damn boring if it was.
+--------------------------------------------------------------------------------
+SINGLE PLAYER           : No.
+CO-OPERATIVE            : No.
+DEATHMATCH              : No.
+ACTION QUAKE II         : Made for Teamplay primarily and Deathmatch.
+NEW TEXTURES            : Yes.
+NEW SOUNDS              : Yes.
+ 
+--------------------------------------------------------------------------------
+* CONSTRUCTION *
+--------------------------------------------------------------------------------
+MAP BASE                : None.
+PREFABS USED            : The green rubbish bin :)
+EDITOR(S) USED          : QOOLE 2.50
+ 
+OTHER UTILITIES USED    : Arghrad 2.01, Wally 1.42 Beta, Paintshop Pro 4, Photosuite, Fireworks 2.
+KNOWN BUGS              : None known
+ 
+COMPILE MACHINE         : AMD K6-II 400Mhz, 128Mb of RAM
+ 
+QBSP2    TIME           : 13 seconds.
+VIS      TIME           : 2086 seconds. (23 Minutes, 46 Seconds)
+Arghrad  TIME           : 5618 seconds. (1 Hour, 33 Minutes, 38 Seconds) 
+ 
+--------------------------------------------------------------------------------
+* OTHER LEVELS BY THE AUTHOR *
+--------------------------------------------------------------------------------
+ACTION QUAKE II         : co-authored "Inside the Matrix" (matrix.zip) with TIGEReye
+ 
+--------------------------------------------------------------------------------
+* SPECIAL INSTRUCTIONS / ADDITIONAL INFORMATION *
+-------------------------------------------------------------------------------
+If you want to use any of the textures in this map, e-mail me to find out which ones I actually made :). And as for special instructions, don't snipe me FFS!!
+--------------------------------------------------------------------------------
+* CREDITS *
+--------------------------------------------------------------------------------
+ID Software			: For making the base code for the A-Team to bend and improve.
+The A-Team              	: For making Action Quake 2, and not fucking it up :).
+The Guys who made Qoole 	: For making a buggy program that is piss easy to use.
+The Syndicate (Clan =SyN=)      : For helping me test my map and giving me suggestions along the
+				  way, special thanks to J I N X for the late nights and high 
+				  pings testing my map, to Nefz and Ruski for doing some of the 
+				  final testing (thanks for pointing out that bug in the bushes 				  Ruski, I'd like to know what you were doing there to start 
+				  with :>).
+The Consortium			: To the newly formed clan, which made me compile this map again 				  :P
+FiReWaLKer [TDm]		: For telling me to finish a fucking map already!
+CCCP-Jr [TDm]			: For the use of his server for testing.
+Sinner				: For his textures.
+Sean (sean@dpsoft.com)		: For his textures too.				
+DarthMiniMe			: For being a great mate.
+ 
+ 
+================================================================================
+* COPYRIGHT / PERMISSIONS *
+--------------------------------------------------------------------------------
+Authors MAY NOT use this level as a base to build additional levels.
+ 
+You MUST NOT distribute this level UNLESS you INCLUDE THIS FILE WITH
+NO MODIFICATIONS. If you don't co-operate, then DON'T DISTRIBUTE IT
+IN ANY FORM.
+
+This LEVEL may be distributed ONLY over the Internet and/or BBS systems.
+You are NOT authorized to put this LEVEL on any CD or distribute it in
+any way without my written permission.
+
+Action Quake II (C) 1998-99 The A-Team.
+Quake 2 (C) 1998-99 id Software. All rights reserved.

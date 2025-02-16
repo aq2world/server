@@ -1,0 +1,27 @@
+1999.11.11
+================================================================
+Title                   : Temple in the blue rocky mountain
+Filename                : temple2.bsp 
+Author                  : Hirose Takeharu ( [acid]takebo )
+Email Address           : takeharu@bc.mbn.or.jp
+Homepage		: http://plaza18.mbn.or.jp/~takebo/
+================================================================
+* Information *
+
+Game  			: Action Quake2
+Deathmatch		: Yes
+Teamplay		: Yes
+New Sounds              : Yes
+New Graphics            : Yes
+New Music               : No.
+
+Editor(s) used          : World Craft 1.6c  Wally
+Known Bugs              : ? (It may exist.)
+Build Time		: Several months.
+compile time		: qbsp3   13 seconds
+			: qvis3   221192 seconds (-level 4)
+			: qrad3   7689 seconds (-extra)
+=================================================================
+
+
+

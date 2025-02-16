@@ -1,0 +1,49 @@
+        ___    ___  _________  ____   __  ___   ___  ___  _________
+       ////|  ////||         ||    \ |  ||   | /  / |   ||         |
+      ////|| ////|||   ___   ||     \|  ||   |/  /  |   ||__     __|
+     ////|||////||||  |___|  ||         ||       \  |   |   |   |
+    ////||||///|||||         ||  |\     ||   |\   \ |   |   |   |
+   //// ||||// |||||_________||__| \____||___| \___\|___|   |___|      
+
+==========Info===============================================================
+
+Title                      : Monkit
+Filename                   : monkit2.bsp
+Game			   : Action Quake2
+Author                     : Beavisss
+Description                : Small action filled, monastery like map.
+			
+==========Credits============================================================
+
+Main editor, creator       : Beavisss
+
+Original idea          	   : Ode
+Original compilation       : Bail
+
+Special thanks             : snt, Caracol, Da^Juan, Wizardext, Fred, angra
+                             Flunks and few more beta testers.
+
+==========Map Specs.=========================================================
+
+Single Player              : No
+Cooperative                : No
+Deathmatch                 : Yes
+Teamplay                   : Yes
+Capture the Flag	   : No
+
+==========Tools==============================================================
+
+Editor(s) used             : QEradiant
+Known Bugs                 : none
+Build Time                 : 9 days
+Compile Time		   : 2 hours each time.
+			 
+
+==========Installation=======================================================
+
+Open with WinZip. Extract to quake2\action
+
+==========Editing and sharing================================================
+
+This map can be freely distributet. Before editing or copying the files that
+are included in the zip file, you must ask for the permission of the author.

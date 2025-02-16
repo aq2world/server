@@ -1,0 +1,34 @@
+================================================================
+Title                   : Desert Battle
+Filename                : desertbattle.zip
+Release Date            : 3/22/2006
+Author                  : [DWL|FooQ]
+URL                     : http://
+Email                   : fooq@whoever.com
+Description             : A small ruined village in the desert
+Credits                 : This map is a conversion of Heydricks dday map for AQ2 teamplay and AQ2 CTF, has a few edits and adjustments for faster fairer play and jumps. Also added AQ2 entities and flags/banners etc. This map is way too good for noone to play it on dday heh.
+
+================================================================
+* Play Information *
+
+Single Player           : No
+Cooperative             : No
+ActionQuake2 DM         : Ok for MAXI-DM as there's no DM items
+ActionQuake2 Teamplay   : Yes
+ActionQuake2 CTF	: Most definitely, I recommend setting wp_flags 433 to remove mp5, m4, m3 and akimbos for faster more fun play, less leg damage and m3 shotguns are lame
+Difficulty Settings     : No
+New Sounds              : No
+New Textures            : No
+New Music               : No
+Demos Replaced          : None
+
+* Installation *
+ Extract (unzip) in the *:*\quake2\action directory. All paths provided.
+
+* Construction *
+
+Base                    : Heycricks desertbattle map for dday desert7.bsp
+Editor(s) used          : Quark 6.4
+Known Bugs              : A few weird shadows and lines from the sun
+Build Time              : A coupla days
+

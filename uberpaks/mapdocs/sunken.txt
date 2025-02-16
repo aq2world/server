@@ -1,0 +1,41 @@
+=====================================================================
+     Action Quake 2 (http://action.telefragged.com/)
+=====================================================================
+
+-----<General Information>-------------------------------------------
+
+Title		: Sunken Ruins
+Filename	: sunken.zip
+Date		: 2003-09-18
+Authors		: Ringu & Pienimies
+Author Email	: ringu@vapaalla.org, - 
+Home page	: -
+Previous Maps	: -
+
+-----<Special Thanks>------------------------------------------------
+
+Gimp and Sand for textures
+
+-----<About>---------------------------------------------------------
+
+w00t! Still reading? C'mon, go on and frag someone ;)
+
+-----<Map Information>-----------------------------------------------
+
+Map Description	: Smallish map
+How Many Players: 4-12
+New Textures	: Yes
+New Sounds	: No
+
+------<Construction>-------------------------------------------------
+
+Editor(s) used	: Worldcraft 1.6
+Compile Machine	: 2000+, 512Mb RAM
+Compile time	: many seconds
+Playtest time	: a lot of time
+Build Time	: :)
+
+
+------<Installation>-------------------------------------------------
+
+Extract the files to quake2/action

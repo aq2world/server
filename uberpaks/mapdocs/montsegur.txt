@@ -1,0 +1,55 @@
+===========================================================================================
+Title                   : Citadel Of Montsegur
+Filename                : montsegur.bsp
+Version			: 25/04/04
+Game			: Action Quake 2
+Author                  : Kalle "Znake" Kosomaa & Jan "Viper" Forsman
+Web Address             : http://cso.klaanit.net
+
+Description             : Quite big monastery-type map for AQ2.
+Additional Credits to   : Gary "KongFoo" Winbolt for the awesome map, Monastery.
+			: Touko "Squirrel" Kästämä for the great map, Temple.
+			: Iron Maiden for the song "Montsegur"
+			: id Software for the most fun FPS shooter around.
+			: A-Team for a great mod		  
+
+===========================================================================================
+* Play Information *
+
+Single Player           : For testing purposes only.
+Cooperative             : No
+Deathmatch              : Yes 
+Teamplay                : Yes, for AQ Teamplay
+Difficulty Settings     : No
+New Sounds              : No
+New Graphics            : No
+
+===========================================================================================
+* Construction *
+
+Base                    : Scratch
+Editor(s) used          : Qoole 99 v1.00
+Known Bugs              : Some graphical bugs not shown in editor but visible in-game.
+Build Time              : Unknown, on and off, a hobby thing
+Compile Time		: 
+			  QBSP3 = 3 seconds
+			  QVIS3	= 6 seconds
+			  QRAD3 = 11 minutes, 10 seconds
+
+===========================================================================================
+* Installation *
+
+Just unzip it to your /action/ folder under Quake2 and all will go where they
+are supposed to. If you have played maps "monastery" or "temple" then you most
+likely already have all textures needed. But in case you didn't have them before
+they are included in this zip file.
+
+===========================================================================================
+
+* Copyright / Permissions *
+
+This map may be distributed freely over the internet as long as the contents remain
+unchanged and intact, and as long as this txt file is included.
+
+All textures used in this map are the property of their respective owners and may or
+may not be allowed to be used or distributed for or in other maps.

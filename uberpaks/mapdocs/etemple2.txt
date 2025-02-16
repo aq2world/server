@@ -1,0 +1,231 @@
+================================================================================
+* ACTION QUAKE II LEVEL INFORMATION *
+--------------------------------------------------------------------------------
+TITLE                   : Egyptian Temple 2
+FILENAME                : etemple2
+.zip CONTENTS           : Map, custom sky, sound, and textures.
+AUTHOR                  : GreyDeath
+e-Mail                  : greydeath@gta.igs.net
+HOMEPAGE                : http://gdx.dnsalias.net
+DATE                    : 03/12/2003
+GAME PLAY TYPE          : DeathMatch/Teamplay/SPAQ2:LE/AQ:E(CTB and ATL)/LTK
+--------------------------------------------------------------------------------
+* LEVEL DESCRIPTION *
+--------------------------------------------------------------------------------
+********  An Egyptian Temple  ********
+--------------------------------------------------------------------------------
+SINGLE PLAYER           : 01 Player Respawn Points
+CO-OPERATIVE            : 00 Player Respawn Points
+DEATHMATCH              : 09 Player Respawn Points
+ACTION QUAKE II         : 02 TEAMS
+                        : 09 Player Respawn Points Per Team
+SUGGESTED PLAYER LOAD   : 1 to 16
+NEW TEXTURES ?          : Yes
+NEW SOUNDS ?            : Yes
+CD TRACK #              : 0
+--------------------------------------------------------------------------------
+* CONSTRUCTION *
+--------------------------------------------------------------------------------
+BASE MAP USED ?         : No, New Map
+PREFABS USED ?          : Ones I created
+EDITORS USED            : QERadiant Build 147 ,
+UTILITIES USED          : txqbsp39.exe, timvis3.exe, ArghRad 2.01, Wally 1.38 Beta, PSP7
+KNOWN BUGS              : level seen through the sky in some areas
+                          
+COMPILE MACHINE         : 950MHz Athlon
+                          512MB RAM
+QBSP2                   : 33      Seconds
+VIS                     : 17280   Seconds
+QRAD                    : 1027    Seconds
+--------------------------------------------------------------------------------
+* COMPILE LOG *
+--------------------------------------------------------------------------------
+C:\games\quake2\baseq2>full.bat etemple2
+
+C:\games\quake2\baseq2>txqbsp39.exe maps\etemple2.map
+TXQBSP3 0.9 -- based on code by id Software -- QUAKE 2
+Modified by Armin Rigo and compiled Feb  6 2000 by Decker
+--------------------------------
+with extensions for QuArK (Quake Army Knife) :
+  floating-point coordinates and enhanced texture positionning
+http://www.planetquake.com/quark
+--------------------------------
+entering C:\games\quake2\baseq2\maps\etemple2.map
+Entity 0, Brush 279: duplicate plane
+Entity 0, Brush 279: duplicate plane
+Entity 0, Brush 280: duplicate plane
+Entity 0, Brush 281: duplicate plane
+Entity 0, Brush 324: duplicate plane
+Entity 0, Brush 1368: duplicate plane
+Entity 27, Brush 3: duplicate plane
+Entity 27, Brush 4: duplicate plane
+Entity 60, Brush 3: duplicate plane
+Entity 60, Brush 4: duplicate plane
+0...1...2...3...4...5...6...7...8...9... (7)
+0...1...2...3...4...5...6...7...8...9... (11)
+writing C:\games\quake2\baseq2\maps\etemple2.prt
+Writing C:\games\quake2\baseq2\maps\etemple2.bsp
+   33 seconds elapsed
+
+C:\games\quake2\baseq2>timvis3.exe -level 4 maps\etemple2.bsp
+---- vis ----
+testlevel = 4
+reading C:\games\quake2\baseq2\maps\etemple2.bsp
+reading C:\games\quake2\baseq2\maps\etemple2.prt
+1851 portalclusters
+5683 numportals
+0...1...2...3...4...5...6...7...8...9... (76)
+0...1...2...3...4...5...6...7...8...9... (17203)
+WARNING: Leaf portals saw into leaf
+WARNING: Leaf portals saw into leaf
+WARNING: Leaf portals saw into leaf
+WARNING: Leaf portals saw into leaf
+WARNING: Leaf portals saw into leaf
+WARNING: Leaf portals saw into leaf
+WARNING: Leaf portals saw into leaf
+WARNING: Leaf portals saw into leaf
+WARNING: Leaf portals saw into leaf
+WARNING: Leaf portals saw into leaf
+WARNING: Leaf portals saw into leaf
+WARNING: Leaf portals saw into leaf
+WARNING: Leaf portals saw into leaf
+WARNING: Leaf portals saw into leaf
+WARNING: Leaf portals saw into leaf
+WARNING: Leaf portals saw into leaf
+WARNING: Leaf portals saw into leaf
+WARNING: Leaf portals saw into leaf
+WARNING: Leaf portals saw into leaf
+WARNING: Leaf portals saw into leaf
+WARNING: Leaf portals saw into leaf
+WARNING: Leaf portals saw into leaf
+WARNING: Leaf portals saw into leaf
+WARNING: Leaf portals saw into leaf
+WARNING: Leaf portals saw into leaf
+WARNING: Leaf portals saw into leaf
+WARNING: Leaf portals saw into leaf
+Average clusters visible: 363
+Building PHS...
+Average clusters hearable: 838
+visdatasize:473989  compressed from 858864
+writing C:\games\quake2\baseq2\maps\etemple2.bsp
+17280.0 seconds elapsed
+
+C:\games\quake2\baseq2>arghrad.exe -v -extra -bounce 30 maps\etemple2.bsp
+----- ArghRad 2.01 by Tim Wright (Argh!) -----
+Modified from original source code by id Software
+
+----- Settings -----
+ -verbose enabled  (more detailed output)
+ -extra enabled  (extra quality light sampling)
+ -bounce set to 30  (radiosity bounces)
+1 threads
+qdir: C:\games\quake2\
+gamedir: C:\games\quake2\baseq2\
+----- Load BSP File -----
+reading C:\games\quake2\baseq2\maps\etemple2.bsp
+----- Light World -----
+8955 faces
+patch->cluster == -1
+patch->cluster == -1
+patch->cluster == -1
+patch->cluster == -1
+patch->cluster == -1
+patch->cluster == -1
+patch->cluster == -1
+patch->cluster == -1
+patch->cluster == -1
+patch->cluster == -1
+446714 square feet
+patch->cluster == -1
+patch->cluster == -1
+patch->cluster == -1
+patch->cluster == -1
+patch->cluster == -1
+patch->cluster == -1
+patch->cluster == -1
+patch->cluster == -1
+patch->cluster == -1
+patch->cluster == -1
+patch->cluster == -1
+patch->cluster == -1
+patch->cluster == -1
+patch->cluster == -1
+patch->cluster == -1
+patch->cluster == -1
+patch->cluster == -1
+patch->cluster == -1
+patch->cluster == -1
+patch->cluster == -1
+patch->cluster == -1
+patch->cluster == -1
+patch->cluster == -1
+patch->cluster == -1
+patch->cluster == -1
+patch->cluster == -1
+28774 patches after subdivision
+2145 direct lights
+0...1...2...3...4...5...6...7...8...9... (295)
+0...1...2...3...4...5...6...7...8...9... (645)
+transfer lists: 192.1 megs
+bounce:0 added:89967136.000000
+bounce:1 added:41781644.000000
+bounce:2 added:23155966.000000
+bounce:3 added:14247326.000000
+bounce:4 added:9427957.000000
+bounce:5 added:6640571.000000
+bounce:6 added:5002551.500000
+bounce:7 added:3966290.250000
+bounce:8 added:3326856.250000
+bounce:9 added:2879352.250000
+bounce:10 added:2587509.500000
+bounce:11 added:2354953.000000
+bounce:12 added:2193079.250000
+bounce:13 added:2046000.500000
+bounce:14 added:1937219.375000
+bounce:15 added:1828482.375000
+bounce:16 added:1744397.000000
+bounce:17 added:1655869.000000
+bounce:18 added:1585390.625000
+bounce:19 added:1509520.875000
+bounce:20 added:1447945.000000
+bounce:21 added:1381203.500000
+bounce:22 added:1326277.875000
+bounce:23 added:1266754.000000
+bounce:24 added:1217226.250000
+bounce:25 added:1163719.375000
+bounce:26 added:1118781.875000
+bounce:27 added:1070441.250000
+bounce:28 added:1029508.500000
+bounce:29 added:985679.937500
+0...1...2...3...4...5...6...7...8...9... (14)
+----- Save BSP File -----
+writing C:\games\quake2\baseq2\maps\etemple2.bsp
+----- Time -----
+ 1027 seconds elapsed
+
+C:\games\quake2\baseq2>
+--------------------------------------------------------------------------------
+* SPECIAL INSTRUCTIONS OR INFORMATION *
+--------------------------------------------------------------------------------
+Unzip into your action folder and play!
+
+Thanks to the following people:
+Idle		- for providing me with sneak releases and info on Q2Ice.  =]
+Yukmouth	- for testing with me!
+Bobert		- for testing with me!
+Spear		- for...  He said something to encourage me I think...
+Sorry if I missed or forgot anyone...  =]
+
+--------------------------------------------------------------------------------
+* COPYRIGHT/PERMISSIONS *
+--------------------------------------------------------------------------------
+Authors MAY NOT use this level as a base to build additional levels.
+
+You MUST NOT distribute this level UNLESS you INCLUDE THIS FILE WITH
+NO MODIFICATIONS. If you don't co-operate, then DON'T DISTRIBUTE IT
+IN ANY FORM.
+This LEVEL may be distributed ONLY over the Internet and/or BBS systems
+You are NOT authorized to put this LEVEL on any CD or distribute it in
+any way without my written permission.
+
+Action Quake II © 1998-99 The A-Team. Quake II © 1998-99 id Software. All rights reserved.

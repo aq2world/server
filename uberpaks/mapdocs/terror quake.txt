@@ -1,0 +1,143 @@
+terror.telefragged.com
+
+Terror Quake 2
+
+a modification for Id Software's Quake 2
+
+
+
+
+
+Produced by: 
+SLAT  Software
+
+Trond:
+lead coder
+animator
+
+Lantz:
+lead modeller
+art designer
+animator
+skinner
+
+CLIFFE:
+web design
+HTML
+
+SGT Rock:
+skinner
+
+The Dark Lord:
+PR guy
+???
+
+Igor[Rock]:
+mapper
+
+MexicanRadio:
+mapper
+
+And one more 
+secret player modeler
+
+
+---------------------------------------------------------------------------------------
+
+
+
+Installtion:
+
+This mod is only made for people who know how to install a mod, 
+so if you dont, get out and learn it from someody else! 8)
+
+
+Weapons
+
+Currently aviable weapons are for the moment:
+
+Uzi
+Springfield Trophy 1911
+Mossberg Mariner
+Handgrenade
+
+More to be added later
+
+
+Items
+
+No items are aviable yet.
+
+
+Features
+
+FTD - Fetch the drug:
+This is a new version of CTF with one Terror team, and one Police team.
+
+Locational Damage
+
+Weapons don't respawn:
+This means if you have picked up the uzi ones, it would never apear there if
+you don't die in the same place or drop it out there.
+In other words, Throw it away if you don't want any other 
+to have it, or want to hide it to some other time
+
+Blood splats
+
+Bullet holes
+
+Team damage:
+What ever you do, Never, ever, ever shoot a teammate!!!
+If you do, you get 5 frags less.
+This is to make it realistic, and make those evil guys who shoot 
+their freinds stop that. (like Trond)  Not just pure evil!  8)
+
+Death penalty:
+Do not get killed! If you do you get 1 frag less.
+Suicide makes it 2 frags less.
+This is to make you dont take to many chances just running in and fire your guns.
+
+Bad aim at speed:
+Kneel-best accuracy
+Stand-normal accuracy
+Run-bad accuracy
+
+Bad aim at low health:
+Lesser life makes bader accuracy
+
+Manualy opening doors
+
+
+This are the primary features.
+I belive there are more that I cant remember.
+
+
+-----------------------------------------------------------------------------------------------------------------
+
+
+Pretty handy information:
+
+
+There are some stuff you may want to write if you dont like playing around without reloading and the capability to open doors. You need to type this in your .cfg or in the console:
+
+bind x opendoor
+bind x reload
+
+where x are the character you want to use.
+
+If you want to throw the grenade loger, you have to press the fire button once more when he is about to throw it, you will disturb him in his "pull the hand back for throwing the grenade" anmation, and make him focus and throw longer. Press it longer to throw it even longer.
+
+
+Contacts
+
+terror.telefragged.com
+
+slat@telefragged.com
+
+
+
+If you found some wrong spelled words in this readme, I want you to know that it is me, Lantz who have wrote this. I guess that you are familiar to my english!       8)
+
+
+
+Copyright  c  SLAT Software 1999

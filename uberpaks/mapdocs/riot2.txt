@@ -1,0 +1,96 @@
+22. September 1999
+========================================================================================
+Title                   : Riot2: Final Fajt
+			  (Fajt is a scandinavian type slang for Figth)
+Filename                : riot2.bsp
+Game			: ActionQuake
+Author                  : Per 'Ellusion' Nyhaug
+Email Address           : Ellusion@Planetquake.com
+Web Addresses           : - http://www.planetquake.com/lotus
+			  - http://Action.sigma-systems.no
+		   	  - http://www.planetquake.com/gangsters
+Description             : Medium-sized detailed cityscene for ActionQuake.
+Additional Credits to   : - Mats 'Rusprick' Holm for the awesome AQ textures, and for
+			    letting me modify the ones I needed.
+			  - Bugtesting and Feedback:
+
+				Clan Norwegian Whalers
+				Leloo's Friend
+				Ligur
+				Kheldon
+				Junk
+				
+			  - Geoffrey DeWan for a better QVIS3
+			  - Ty Matthews and Neal White III for Wally
+			  - Darren Bevan for the Gangsters jingle, and his work on
+			    Gangsters
+			  - Crista Forrest for the rock texture
+			  - TTI for the box texture
+			  - id Software for the fastest, most fluid FPS shooter still
+			  - A-Team for the greatest mod
+			  - Ben Morris for the fastest and most stable map editor  
+			  - Clan NW for happily (!) letting me poke fun at them
+========================================================================================
+* Other Maps by Author *
+
+ActionQuake:
+
+Riot: GangBang
+- Available from http://www.planetquake.com/lotus 
+
+========================================================================================
+* Play Information *
+
+Single Player           : For testing purposes only
+Cooperative             : No
+Deathmatch              : 6-12 
+Teamplay                : Yes, we live for AQ Teamplay :)
+Difficulty Settings     : No
+New Sounds              : Yes
+New Graphics            : Yes
+
+========================================================================================
+* Construction *
+
+Base                    : None
+Editor(s) used          : Worldcraft1.6, Wally
+Known Bugs              : - Jumping while on the subway train will negate obvious
+			    physics - This is a Q2 engine issue, not a map error.
+			  - The dissapearing subwaytrain, and the "black wall" in the
+			    metro tunnel is not an error, but a cheap sollution to
+			    reducing r_speeds for playability. The feedback involved
+			    opted to keep it that way instead of reducing the graphic
+			    quality of the metro scene.
+			  - On rare occasions the train can be seen through the sky
+			    texture.
+			  - Some 'hom' effects can be seen from odd angles.
+Build Time              : About 1 month on and off, including bugtesting
+Final Compile Time	: - QBSP3 =   35 seconds
+			  - QVIS3 = 3504 seconds
+			  - QRAD3 = 5274 seconds (-bounce 40 -extra)
+========================================================================================
+*Installation*
+
+unzip to quake2\action
+
+
+========================================================================================
+*Notes*
+
+- All textures beginning with an "x" is the work of Mats 'Rusprick' Holm
+- All of Ruspricks textures that have been modified is done so with his written
+  permission.
+- ROCK_BURNT2.wal is the work of Crista Forrest
+  (http://www.planetunreal.com/forest/)
+- tti_box1.wal is the work of TTI
+
+========================================================================================
+Copyright (c) 1999 Per Nyhaug. All rights reserved.
+
+This map may be electronically distributed only, with no charge to the recipient, as
+long as the contents of this zip file and it's text file remain intact and unchanged.
+
+This map may not be distributed on any CD-ROM without the prior, explicit written
+consent by the author.
+
+

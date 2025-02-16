@@ -1,0 +1,70 @@
+================================================================
+* General Information *
+
+Title                   : City Centre Police Department
+Filename                : ccpolice.zip
+Release Date            : 4/12/01
+Author                  : ZiG^ZaG (Andrew D)
+URL                     : none
+Email                   : zigzagat@hotmail.com
+Description             : It is a Police Department Building. It
+			 has many rooms, with 2 floors. They 
+			 link very well. It also links to the
+			 outside front of the building. It has 
+			 1 vent that links from the outside roof,
+			 and follows through to the 2nd floor.
+
+Credits                 : Dark Nova, -MdM-Freak  For FastVIS'ing the map 
+  			  HuGo^ClOwN - For FullVIS'ing it, and a banner
+			  The A-Team - For making this awesome MOD
+			  ID Software - For making Quake 2 
+			  The Person who made the night1 sky 
+================================================================
+* File Information *
+
+.bsp Name               : ccpolice.bsp
+ZIP Size (KB)           : 1006 KB
+Screenshot Included     : No
+================================================================
+* Play Information *
+
+Single Player           : No
+Cooperative             : No
+Deathmatch              : not intended for
+ActionQuake DM          : Yes
+ActionQuake Teams       : Yes
+DM Spawn Points         : 5
+Max Player Load         : 20
+Difficulty Settings     : No
+New Sounds              : Yes
+New Textures            : Yes, all!
+New Music               : Yes
+Demos Replaced          : None
+
+* Installation *
+ Extract (unzip) in the *:*\quake2\action directory. All paths provided.
+
+* Construction *
+
+Base                    : New level from scratch
+Editor(s) used          : Qoole99 / Wally / Ulead Photoimpact 4 SE 
+Known Bugs              : Feel free to let me know if you find any
+Build Time              : 6 months - spare time
+
+
+
+Compile machine         : Pentium 3
+QBSP3 Time              : 14 seconds
+QVIS3 Time              : 4553 seconds
+QRAD3 Time              : 176 seconds
+
+
+* Copyright / Permissions *
+
+Copyright © 2001 .  All rights reserved.
+
+This level may not be distributed on any CD-ROM
+without prior, explicit consent from Myself.
+
+This level CAN be used on Action Quake 2 Servers.
+

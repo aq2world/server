@@ -1,0 +1,31 @@
+================================================================================
+* ACTION QUAKE II LEVEL INFORMATION *
+--------------------------------------------------------------------------------
+TITLE                   : torg  
+AUTHOR                  : matic               
+DATE                    : 10.10.2023
+EMAIL ADDRESS           : mbatfri@gmail.com
+TOOLS USED		: TrenchBroom, eriw-tools
+
+================================================================================
+* LEVEL DESCRIPTION *
+--------------------------------------------------------------------------------
+Torg means square in Swedish and this specifically is Sergels torg, located in 
+central Stockholm. Torg is a semi-realistic map for a semi-realistic action 
+shooter.
+Two AQ2Open LAN parties have been hosted at the Space venue, in 2022 and 2023 
+respectively, and this map is homage to the awesome little scene still playing 
+the game for over 25 years.
+
+================================================================================
+* CREDITS *
+--------------------------------------------------------------------------------	
+	Beavisss
+	Flunx
+	makkon
+	makro
+	mikota
+	NRGizer
+	peep
+	stan0x
+	WizardExt

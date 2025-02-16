@@ -1,0 +1,60 @@
+=======================================================================
+Title                   : Subway sabotage version2
+Filename                : Subway2.zip
+Version                 : 9/8/98
+Game                    : Action Quake 2 
+Authors                 : T.T.I. (mapper) and Hannu Oksa (new musics)                        
+                          aka Imagination.
+Description             : This is the newest version of my first map
+                          for the Action mod.
+
+Thanks to               : Mom and dad, ID Software, A-TEAM, Fragtown,
+                          and makers of those good editors that I used.
+
+=======================================================================
+
+* Play Information *
+
+Single Player           : Just for checking things
+Cooperative             : No
+Deathmatch              : 2-12
+Difficulty Settings     : No
+New Graphics            : YES                
+New Music               : Yes (!)
+CD Track                : Yes
+
+* Construction *
+
+Base                    : Based on Subway
+Editors used            : GlideQoole 2.5, Worldcraft, Wally 1.10
+Build Time              : Two weeks
+Known Bugs              : None (with a voodoo)
+Compile machine         : Pentium II 300, 64 MB, Voodoo2
+Qbsp3 time              : 26 seconds
+Qvis3 time              : 2774 seconds
+ArghRad time            : 809 seconds
+Brushes                 : 1013
+Entities                : 155
+
+Notes:
+
+This version of Subway is better in many ways. It's much more faster and
+I tried to fix everything that I f**ked up in Subway1. Still doesn't work
+properly (also looks UGLY) without a 3D accelerator...    ...but you have
+one, right?? And you MUST have AQ2 v0.95 or higher. The newest version can
+be downloaded from action.telefragged.com.
+
+* Installation *
+
+Just unzip to your X:\Quake2\Action directory (with subdirectories enabled).
+The BSP must end up in X:\Quake2\Action\maps folder.
+Textures must end up in X:\Quake2\Action\textures\TTI folder.
+New sounds MUST end up in X:\Quake2\Action\sound\world folder.
+
+* Copyright / Permissions *
+
+Authors MAY NOT use this level as a base to build additional levels.
+All textures, sounds, anything MAY NOT be used for other maps, but these
+files can be freely distributed. This level cannot be sold.
+
+Copyright (c) 1998 T.T.I. and Imagination, All Rights Reserved

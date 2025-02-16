@@ -1,0 +1,71 @@
+7-9-98================================================================
+
+Sludge Inc.
+
+
+Title                 : Sludge Inc.                        
+Filename              : sludge.bsp                                            
+Author                : Cheshire (Adam Quigley)                                     
+Email Address         : calypso@opera.iinet.net.au   Send comments please!
+ICQ UIN               : 2906439                        
+Homepage              : http://games.wanet.com.au/cheshire                               
+Description           : Based off a deathmatch level i made, i made some changes, added some 
+			things, and made it as good and as realistic as i could for the 
+			Action Quake mod. Its set in a water-treatment facility..and has lotsa 
+			lvl-over0lvl fighting and things.
+Thanks To 	      : Bwarff - Got me addicted to Action Quake, and gave me admin 
+			on the local Action Quake server :)
+          
+=======================================================================
+
+* Play Information *
+Single Player           : Yes. look around an things 
+Cooperative             : No.
+Deathmatch              : Yes. But in anything but the Action Quake mod it kinda sucks...if you
+			  want the DM version of this, goto my homepage, it is called "Utopia"
+New Sounds              : No.
+New Graphics            : No.
+			
+New Music               : No.
+Demos Replaced          : None
+
+* Construction *
+
+Base                    : Utopia.bsp - a Q2 dm map by me...
+Build time              : about 3 hours to change everything...
+QBsp                    : ?? seconds
+Vis -level 4            : 290 seconds
+Rad -extra              : 244 seconds                          
+
+
+Editor used             : Worldcraft 1.6a
+Building machine        : PII 300mmx celeron, 64mg RAM, 12 mg Voodoo2
+Known Bugs              : none :) arent i perfect? :P
+
+
+=======================================================================
+
+
+* Other Quake maps from me:   (quake1 maps)
+
+	Transvestite GoatFish  (Quake1 DM)
+	Persia Blade (Quake1 DM)
+	c0zm0 (Quake1 DM)
+	Utopia (Quake2 DM)
+	Harpoon (Quake1 DM)
+
+* Copyright / Permissions *
+
+Copyright (c) 1998 Adam Quigley. All rights reserved.
+
+This map may be electronically distributed only with no
+charge to the recipient, and may not be modified in any way.
+This text file must be included with the level.
+
+This map may not be distributed on any CD-ROM without the
+prior, explicit written consent by Adam Quigley.
+
+This map may not be used on a commercial multi-player server
+without similar explicit written consent.
+
+-----<cheshire>------  calypso@iinet.net.au  ------

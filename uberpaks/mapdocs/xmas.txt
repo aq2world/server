@@ -1,0 +1,103 @@
+================================================================
+Title           : Merry X-mess
+Filename        : xmas.bsp
+Game            : Action Quake 2
+Author          : Markus "Shadowfire" Uhlar 
+Email Address   : m.uhlar@gmx.de
+
+Description     : A small deathmatch map
+                  
+                  The story:
+                  It is christmas time and you and your wife
+                  spend the holidays in a small cabin, deep in
+                  the mountains.
+                  Suddenly you get visitors - a bunch of strange
+                  looking men. They ask if they can hide in your
+                  cabin from the comming blizzard.
+                  Unfortunately, the blizzard was an extremely
+                  strong one and the whole cabin is covered with
+                  snow.
+                  As time passes, your guests are getting nervous,
+                  as they cannot leave, because of the snow.
+                  After a while you realize that they are fugitive
+                  criminals and the MP5s they are carrying are not
+                  for hunting...
+                  These people shoot your wife and now it is you
+                  who the murderer is aiming at...
+                  Somehow you manage to grab his pistol and hit
+                  him with your fist in the face. You use the
+                  opportunity, run away and hide somewhere in the
+                  house. The confusion among the bad guys doesn't
+                  last long and they start to search the house.
+                  You know, that you cannot hide in the small
+                  cabin, you will have to stand up and fight...
+                  Fight - for your life...
+
+                  This map is a conversion of the xmas map, I made
+                  for the Gunslinger mod. It is meant as a
+                  christmas special I want to dedicate it to all
+                  Action Quake fans of good will ;)                  
+
+                  Greetings to Quintin Stone, the father
+                  of Gunslinger.
+
+                  http://www.planetquake.com/gunslinger/
+
+Credits         : the A-team
+                  Tim "Argh" Wright, the author of Arghrad
+
+
+================================================================
+* Play Information *
+================================================================
+
+Single Player       : Only for exploring
+Cooperative         : No
+Deathmatch          : Yes, 2-4 players
+Teamplay            : Not recommended (the map is too small)
+New Sounds          : Yes
+New Graphics        : Yes
+
+================================================================
+* Construction *
+================================================================
+
+Base                : New level from scratch
+
+Editor(s) used      : bsp building: Qoole
+                      textures    : Wally and Photoshop 4.0
+                      sounds      : Goldwave
+
+Known Bugs          : none known
+
+Build Time          : 1 day
+
+Compile Time        : bsp:  3s
+                      vis:  117s
+                      rad:  69s  (used arghrad)
+
+Compile machine     : Pentium II 300, 96MB RAM
+
+================================================================
+* Installation *
+================================================================
+
+unzip all files into your quake2\action folder, with
+the restore paths option enabled.
+
+In case, something goes wrong, extract the
+
+bsp file to quake2\action\maps folder
+wal files to quake2\action\textures\shadowfire folder
+wav files to quake2\action\sound\shadowfire directory
+
+================================================================
+* Copyright / Permissions *
+================================================================
+This level may not be distributed on any CD-ROM
+without prior, explicit permission of author.
+
+Custom textures, sounds and sky environment maps
+may NOT be used by other map authors without
+the permission of author. 
+

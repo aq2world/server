@@ -1,0 +1,222 @@
+ Title                   : Urbanic
+ Filename                : urbanic.bsp
+ Author                  : Skie (Janne Helkala)
+ Email Address           : Skie@omistaja.net
+ Web page		 : http://www.sunpoint.net/~artis
+ ICQ			 : 63403765
+ Description             : Über
+
+------------------------------------------------------------------
+
+* Play Information *
+
+ Settings                : ACTION QUAKE SETTINGS
+ Deathmatch 2-4          : More players is better.
+ Deathmatch 5-100        : 16 is good amount of players.
+ TeamPlay		 : Of course.
+ Single Player           : Maybe, in future version of the map.
+ Coop                    : Look ^
+ CTF                     : CTF is playable on this map, (TNG CTF at least)
+ New sounds		 : Yea, some music. 
+ New textures		 : Yup. Some new textures.
+
+* Construction *
+
+ Date of map birth	 : Late December 2001
+ Build Time              : Urh... like 5 months.. ?
+ Compile Time            : 
+ 	QBSP		 : 5.78 secs
+	QVIS3		 : 10479.68888888831 secs
+	ARGHRAD 2.0 	 : 1812.30999 secs
+ Editor(s) used          : Worldcraft 1.6
+ Other tools used        : Wally, PSP7, Q2Beaver.
+ Known Bugs              : No known bugs.
+                  
+* Other Info *
+
+My first ever map released to public.
+
+* Distribution *
+
+You aren't allowed to distribute this map on a CD or sell it, unless i recieve money, or a blow job.
+Dont think your gonna be using this for a base of one of your levels.
+You better not complain about this map..
+You may give me money for no reason.
+You had also better tell me how damn good it is.. or else i might not be bothered makin another one..
+If YOU wanna use THESE textures then use them, i didn't make them, well not all of them.
+
+* Thanks To *
+
+(stuff i used)
+Cryptr: Thanks for alot of actcity3 textures
+Ruskprick: Thanks for loads of city textures
+Gerbil!: For some street lights and a LOT of other textures
+
+Thanx to A-Team for making the greatest mod ever, Action Quake
+Thanx to The Dragons for cheering me up
+Thanx to mum for giving me cookies while i was making this map
+Thanx to Bill Gates for f*ckin up Windows and makin me so pissed off
+Thanx to World Craft, for being so damn good to use, Except for that stupid vertex tool ;)
+Thanx to TNG team for making a great mod. ( http://www.aq2tng.barrysworld.net )
+Thanx to me.
+
+(C) copyright 2002 Skie inc. ( I wish )
+
+-EOF-
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Action Quake2 sux, gimme pacman!

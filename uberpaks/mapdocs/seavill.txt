@@ -1,0 +1,81 @@
+=============================================================================
+Title                   : Village By The Sea
+Version                 : Public rev. 1
+
+Files                   : Seavill.bsp and what your reading
+
+Release Date (DD/MM/YY) : 6/11/99
+
+Author                  : Banzia A.K.A Tipper B. Squakin' , or, Banzia
+Email Address           : 57100424 ICQ send me feedback on this map
+Web Site                : not done yet, sorry
+
+Description             : It is a Spanish looking town in the hills
+			  on the coast with a port. In the highest hills along
+			  the coast, there is a villa, follow the tunnel and then
+                          the marketplace, then in the dark, a church, follow the 
+                          road down the mountains to the waterfront, where you'll
+			  see a pirate ship. Have fun, and don't fall into the water,
+			  or get sucked out to sea.
+
+Installation            : Unzip the Seavill.zip into C:Quake2\Action\maps
+
+Miscellaneous Info      : 
+ 
+Additional Credits to   : Action Quake's developers, GREAT MOD GUYS!!!!
+                          id software
+                          People that made Qoole Quake 2 map editor/maker.
+
+
+
+                          * IMPORTANT * IT HAS COME TO MY ATTENTION THAT A SMALL
+                          PORTIOJN OF THE MAP WAS SOMEONE ELSE'S. THE REASON FOR THIS
+                          MIXUP BEING, AN ASSHOLE I KNOW LOVES NINJAS, HE SAID HE WANTED A
+                          NINJA DARK MAP. SO I SAID GO AHEAD LAZY ASS MAKE ONE. HE SAID HE
+                          DID AND SENT ME THE SHIP AREA IN THE .qle FORMAT. HE TOLD ME TO 
+                          POGOTA ON TO OF THE SMALL BUILDING. HE SAID HE GOT THE IDEA FROM A
+                          VIDEO GAME HE HAD CALLED TECHU. BUT THE GOOD MAN OSWALD HAS INFORMED
+                          ME THAT HE WAS A LYING CHEATING BASTARD THAT MUST DIE. HE STOLE THAT MAP
+                          FROM ORANGE SMOOTHY PRODUCTIONS. VENGANCE WILL BE MINE. I'LL MAME THAT 
+                          BASTARD FOR CHEATING ME AND GETTING ME IN DEEP. SORRY FOR ANYONE
+                          WHO ORIGINALLY CAME UP WITH THE CONCEPT OF THIS AREA. I SHOULDN'T OF
+                          HAPPENED LIKE THIS, HIS ICQ NICK IS EITHER AMLIETH OR *(TORONAG)*
+                          TAKE PLEASURE IN BUGGING HIM ALL YOU WANT. AGAIN SORRY THIS HAD
+                          TO HAPPEN.
+=============================================================================
+* Play Information *
+
+Game                      : Action Quake (Quake2 mod) & Normal Baseq2
+Single player             : no, won't work, no 1 player spawn point, sorry.
+Cooperative 2-4 players   : No same as above
+Deathmatch 2-16 players   : Yes 
+
+New Graphics              : No, Baseq2 id software's textures.
+New Music                 : Can't its on the CD what you hear is up to you.
+New Sounds                : No, Quake 2's sounds.
+DLL                       : No
+
+* Construction *
+
+Base                      : A large box with sky texture ;P, made it long ago.
+Build time                : Few weeks
+Compile Machine           : P450 with 256M
+    QBSP3 Time            : 10 min
+    QVIS3 Time            : ...A very very long time...
+    QRAD3 Time            : ...A very very long time...
+Editor(s) Used            : Qoole
+                          
+
+Known Bugs                : None at all, but, the sky should have a setting sun, sorry.
+
+* Copyright / Permissions *
+
+Authors may NOT use this level as a base to build additional
+levels, without my explicit permission. If you are interest in using
+it as a base, ICQ me, I *MIGHT* let you.
+
+Pass it around, have fun.
+
+* Where to get this BSP *
+
+Umm.... If any map sites except it, go there.

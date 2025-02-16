@@ -1,0 +1,66 @@
+===========================================================================================
+Title                   : Nakatomi Tower, floor 30
+Filename                : makatomi.bsp
+Game			: Action Quake 2
+Author                  : Shadowfire
+Email Address           : m.uhlar@gmx.de
+Description             : The assembly hall of Nakatomi tower from the "Die Hard" movie,
+                          where the terrorists were holding the hostages. Real fans of
+                          the movie will also recognize some other spots throughout the
+                          map. 
+                          Tips:
+                          Like in the movie, the elevators are shut down. To move a level
+                          up or down, do it like John did - take the stairs.
+                          Don't try to climp the rope in the freight elevator shaft, this
+                          cables are greasy. Not even John could make it.
+Additional Credits to   : A-Team for this great mod
+                          ID Software for the nice engine
+                          The QERadient, Qoole and Wally makers
+                          Tim Wright the creator of Arghrad
+===========================================================================================
+
+* Play Information *
+
+Single Player           : NO (only for sightseeing ;)
+Cooperative             : NO 
+Deathmatch              : 17 start locations
+Recommended # of players: 2-16
+Teamplay                : YES
+Difficulty Settings     : NO
+New Sounds              : YES
+New Graphics            : YES
+New Sky                 : NO
+
+===========================================================================================
+
+* Construction *
+
+Base                    : Scratch
+Editors used            : map editing - QERadiant, Qoole
+                          textures    - Wally
+Known Bugs              : some not nice looking lighting artifacts on the 2nd floor in the
+                          room with all the broken glass on the floor. I did't manage to
+                          get rid off it. It has no effects on the gameplay.
+Build Time              : 2 Weeks
+Compile Time		: 7 hours on a P2 300, 96MB RAM
+
+===========================================================================================
+
+*installation*
+
+unzip the all the files to quake2\action
+
+(if something goes wrong...)
+
+bsp-file  : quake2\action\maps\
+wal-files : quake2\action\textures\shadowfire\
+wav-files : quake2\action\sound\shadowfire
+
+===========================================================================================
+
+
+* Copyright / Permissions *
+
+Authors MAY NOT use this level as a base to build additional levels without my permission.
+All textures and sounds MAY NOT be used for other maps without asking me.
+You may distribute this map as you found it in the nakatomi.zip archive.

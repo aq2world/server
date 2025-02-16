@@ -1,0 +1,79 @@
+The Lost City
+-By SoD
+7/11/06
+
+
+So... 
+its been about a year and a half since my last release
+so i figured i might as well do another one. This map is a bit 
+different tho. Took me close to 2 months to build, and took vito 2 days
+and 19 hours to compile. Would have taken my machine even longer. 
+I was only halfway done when he finished. <3 vito!
+
+Anyways its a ruined city type setting with a river that goes down 
+the middle. It has some jumpy parts to it which i like but still think 
+their could have been more jumps. Thats just me tho, i tend to focus more
+on the jumps normally. This map i kind of did something different.
+I went for more detail instead of jumpy and it turned out alright.
+
+There are ctf flag positions included with this map.
+I also want to say that I didnt go crazy with a surfgen on this map.
+I handcrafted everything on here.
+
+Hope you like it!
+
+
+
+==================================================================
+
+I want to thank the following....
+
+Vito:
+
+thanks for helping with uh... wait why are you in here?
+haha just kidding, if anything your name should be on the map too!
+it should really say the lost city... by VITO! haha but thanks for
+helping compile, ideas, beta testing, and being the wind undernieth
+my wings.
+
+Patman:
+
+thanks for bug finding, map editing help, ideas, and for making the 
+super sweet jmod for doing all my testing with!
+
+Wizardext:
+
+For helping me all those times, bug fixing, textures, inspiration!
+
+Kenshi:
+
+uh ken... what happend to rebel? thanks for beta testing!
+btw...I think dot bot died before it was born.
+
+Fooq:
+
+beta testing and awesome server play :)
+
+Greydeath:
+
+ideas, inspiration, helping me debug, map editing.
+
+Beavisss: 
+
+Textures and supporting the aq2 community.
+
+
+Anyone else that i forgot....
+
+
+
+o 
+and btw
+fu poo
+I ran over a mello yello today... 
+
+=====================================================================
+* Copyright / Permissions *
+
+Authors may NOT use this level as a base to build additional
+levels.

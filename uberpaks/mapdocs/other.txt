@@ -1,0 +1,60 @@
+================================================================
+ACTION QUAKE2
+================================================================
+* General Information * 
+Title                   : Have you been on the other side?
+Filename                : other.bsp
+Release Date            : 5.6.2004
+Author                  : Genie
+URL                     : http://koti.mbnet.fi/darknes/AQ2/other.zip
+Email                   : genie@tukikohta.net
+================================================================
+* File Information * .
+bsp Name		: other.bsp
+ZIP Size (KB)           : 2474 KB
+================================================================
+* Play Information * 
+Single Player           : No
+Cooperative             : No
+Deathmatch              : No
+ActionQuake DM          : Yes
+ActionQuake Teams       : Yes
+DM Spawn Points         : 7
+Max Player Load         : 14
+Difficulty Settings     : No
+New Sounds              : Yes
+New Textures            : Yes
+New Music               : No
+Demos Replaced          : None
+================================================================
+* Installation *
+ Extract (unzip) in the *:*\quake2\action directory. All paths provided.
+================================================================
+* Construction * 
+Base                    : New level from Genie
+Editor(s) used          : Worldcraft 1.6, ArghRad, SoundForge 7.0
+Known Bugs              : Birds have a very loud voice ;)
+Build Time              : about 4 mounths
+Compile machine		: AMD XP2400+, 512 DDR
+Compile time		: 3½ hours
+Number of solids	: 1774
+================================================================
+* Special thanks to: *
+================================================================
+All texture makers, especially one who made egyptsoc texture set
+Finnish AQ2 scene. All the lovely people who made aq2suomi!
+A-team for a great mod.
+Tim Wright for ARGH! tools
+ID for Quake II.
+================================================================
+* Notes*
+================================================================
+32bit textures may ruin the map.
+Don´t modify my map in any way without asking me fist!
+Don´t modify this .txt file!
+
+Copyright © 2004 .  All rights reserved.
+
+Have fun!
+
+-Genie

@@ -1,0 +1,34 @@
+================================================================
+Title                   : wargroun for AQ2 CTF
+Filename                : ctfwargrounds.bsp
+Release Date            : 4/3/06
+Author                  : [DWL|FooQ]
+URL                     : http://
+Email                   : fooq@whoever.com
+Description             : Gruuve's wargroun map mirrored and flagged for AQ2 CTF
+Credits                 : Gruuve for makin a great little map, but sucky for CTF
+================================================================
+* Play Information *
+
+Single Player           : No
+Cooperative             : No
+Deathmatch              : No
+ActionQuake DM          : No, no weapons
+ActionQuake Teams       : Yes
+ActionQuake CTF		: Oh Most definitely, I recommend setting wp_flags 433 to remove mp5, m4, m3 and akimbos for faster more fun play, less leg damage and m3 shotguns are lame
+Difficulty Settings     : No
+New Sounds              : No
+New Textures            : Yes
+New Music               : No
+Demos Replaced          : None
+
+* Installation *
+ Extract (unzip) in the *:*\quake2\action directory. All paths provided.
+
+* Construction *
+
+Base                    : wargroun.bsp
+Editor(s) used          : Quark 6.4
+Known Bugs              : Feel free to let me know if you find any
+Build Time              : coupla days
+

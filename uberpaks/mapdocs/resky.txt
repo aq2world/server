@@ -1,0 +1,59 @@
+================================================================
+ACTION QUAKE2
+================================================================
+* General Information * 
+Story			: The original version of this level was made years ago
+			  and it was very buggy. Now we have a completely new version!
+Title                   : Re-Skytown (sneaking on tha rooftops)
+Filename                : resky.bsp
+Release Date            : 1.3.2004
+Author                  : Genie
+URL                     : http://koti.mbnet.fi/darknes/resky.zip
+Email                   : genie@tukikohta.net
+================================================================
+* File Information * .
+bsp Name		: resky.bsp
+ZIP Size (KB)           : 1499 KB
+================================================================
+* Play Information * 
+Single Player           : No
+Cooperative             : No
+Deathmatch              : No
+ActionQuake DM          : Yes
+ActionQuake Teams       : Yes
+DM Spawn Points         : 8
+Max Player Load         : 16
+Difficulty Settings     : No
+New Sounds              : No
+New Textures            : Yes
+New Music               : No
+Demos Replaced          : None
+================================================================
+* Installation *
+ Extract (unzip) in the *:*\quake2\action directory. All paths provided.
+================================================================
+* Construction * 
+Base                    : New map from Genie!
+Editor(s) used          : Worldcraft 1.6, ArghRad
+Known Bugs              : None
+Build Time              : about 4 days
+Compile machine		: P2 466MHz 480MB
+Compile time		: ~3 hours
+Number of solids	: 851
+================================================================
+* Special thanks to: *
+================================================================
+All texture makers. (makro, wizardext, supreme...)
+I really respect that wizardext has made some great NEW textures!
+A-team for a great mod.
+Tim Wright for ARGH! tools
+ID for Quake II. 
+================================================================
+* Notes*
+================================================================
+Don´t modify my map in any way without asking me fist!
+Don´t modify this .txt file!
+
+Have fun!
+
+-Genie

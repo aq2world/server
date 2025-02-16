@@ -1,0 +1,131 @@
+================================================================================
+* ACTION QUAKE II LEVEL INFORMATION *
+--------------------------------------------------------------------------------
+TITLE                   : On The Border
+FILENAME                : border.zip
+AUTHOR                  : Brent "WetWired" Waller
+DATE                    : 24.6.2000
+EMAIL ADDRESS           : wetwired@hypermax.net.au
+HOMEPAGE URL            : http://www.quakeclan.net/consortium
+
+--------------------------------------------------------------------------------
+* LEVEL DESCRIPTION *
+--------------------------------------------------------------------------------
+This orginally began as tequila2, the sequel to my old map "Tequila Sunrise" 
+it was going to be a old mexican fort/church type place, but after I saw low 
+budget movie called "Black Cat Run" it gave me a few ideas of a ruined church 
+and an old has station along a seldom used highway in the desert. Once again 
+the idea changed and the highway and gas station idea was scrapped, but the 
+ruined church remains with an old abandoned mine shaft and "Dead Mans Leap" 
+which is a reference to a classic FPS game released before Jedi Knight by 
+Lucasarts, called "Outlaws" which is a game I still play to this day, I suggest 
+you go grab a copy and give it a try. Also the layout of this map is influenced 
+by the map Teamjungle, and is more teamplay orientated, but mine looks more like
+a desert than Teamjungle looks like a Jungle :) oh and like Tequila Sunrise, On 
+The Border's name came from an Eagles song of the same name.
+
+--------------------------------------------------------------------------------
+SINGLE PLAYER           : yes but just to look around
+CO-OPERATIVE            : no
+DEATHMATCH              : yes
+ACTION QUAKE II         : 2 Teams (5 spawn points)
+SUGGESTED PLAYER LOAD   : 2 to 16
+
+NEW TEXTURES            : Yes
+NEW SOUNDS              : Yes
+CD TRACK #              : 0
+
+--------------------------------------------------------------------------------
+* CONSTRUCTION *
+--------------------------------------------------------------------------------
+MAP BASE                : New Map
+BUILD TIME		: About 2-3 Weeks
+PREFABS USED            : Only the cactii left over from Tequila, which I made 
+			  anyway :)
+EDITOR(S) USED          : QOOLE 2.50
+OTHER UTILITIES USED    : Wally 1.41 Beta, ArghRad 2.01, Photoshop 4,
+		   	  Paint Shop Pro 5, Fireworks 2
+
+KNOWN BUGS              : Only some misaligned brushes and some distance fallout,
+			  apart from that, it's all I'm aware of.
+
+COMPILE MACHINE         : AMD K6-II 400Mhz, 128Mb of RAM
+
+QBSP2 TIME              : 16 seconds
+VIS TIME                : 16097 seconds (4 Hours, 28 Minutes,  17 Seconds)
+QRAD TIME               : 9723 seconds (2 Hours, 42 Minutes, 3 Seconds)
+
+--------------------------------------------------------------------------------
+* OTHER LEVELS BY THE AUTHOR *
+--------------------------------------------------------------------------------
+: Inside the Matrix (matrix.zip) - co-authored with TIGEReye
+: The Pub With No Beer (nobeer.zip)
+: The Pub With Beer (beer.zip)
+: Tequila Sunrise (tequila.zip)
+: What is the Matrix? (matrix2.zip)
+: The Lumber Yard (lumber.zip)
+
+- Look out for "The Manhattan Project" coming soon by =][WetWired][=, Derty,
+The_Hunter, brought to you by the letter "P"
+
+--------------------------------------------------------------------------------
+* SPECIAL INSTRUCTIONS / ADDITIONAL INFORMATION *
+--------------------------------------------------------------------------------
+Play Nice
+
+--------------------------------------------------------------------------------
+* CREDITS *
+--------------------------------------------------------------------------------
+The A-Team              : For making a KICK ASS Mod
+The People who made	: Qoole, Wally, Arghrad! and all those other 
+			  non-microsoft products.
+Everyone on my ICQ list : For those of you who bothered to check out my "betas"
+	                  and giving me some much needed feedback. Derty,
+			  The_Hunter, Deadpool for his jump testing, Why-Not,
+			  The clan =][Consortium][=, and everyone else who I
+			  should mention but isn't important enough to remember...
+Jesper and Shadowfire   : For making some kick arse textures for me to pinch,
+			  yet again and add Gimp to that list
+Nick Coombe (Crinity)   : For the sweet sky http://www.planethalflife.com/crinity
+       			  crinity@email.com
+Barbq, Shadowfire and some others
+			: For their sounds which I "borrowed"
+=][Dantonia][=		: Who wanted his name on the map somewhere, but is going
+	  		  to have to settle for his name in the readme.
+Scuzzy			: For out fallen comrade whos' parents disconnected his
+			  net on him for staying up til 4am watching Letterman
+			  with me, MUAHHHAAHHAh! now think of all that free time
+			  you have now to map?
+The game Daikatana      : For showing me how NOT to make a game/map and for
+			  being the only game that pissed me off so much in the
+			  first 5 minutes of playing that I had to uninstall it
+			  and destroy the CD.
+Batman			: I am Batman
+Hypermax (my ISP)	: For fucking up my connection so much that I have nothing
+			  to do but make maps or get a life...
+GoGGoGorilla		: For finding that "climbing bug" where you could climb
+			  down to the bottom of the cliff without dying.
+================================================================================
+* COPYRIGHT / PERMISSIONS *
+--------------------------------------------------------------------------------
+Authors MAY NOT use this level as a base to build additional levels.
+
+To the left and right you will see your designated exits, in the event of an emergency 
+please vacate calmly towards your nearest exit and wait for your flight attendant 
+to instruct you further, if your attendant is A) Dead B) Immobilized or C) In 
+the bathroom with the pilot, please open the exit by lifting the handle and pulling 
+it to the right, and calmly step out and enable your parachute before you hit 
+the ground. If you are incapable of reading this message due to turbulence or 
+illiteracy, please bang your head against the wall and hope for the best, thank 
+you for flying Wet Airlines. 
+
+You MUST NOT distribute this level UNLESS you INCLUDE THIS FILE WITH
+NO MODIFICATIONS. If you don't co-operate, then DON'T DISTRIBUTE IT
+IN ANY FORM.
+
+This LEVEL may be distributed ONLY over the Internet and/or BBS systems.
+You are NOT authorized to put this LEVEL on any CD or distribute it in
+any way without my written permission.
+
+Action Quake II (C) 1998-2000 The A-Team.
+Quake II (C) 1998-2000 id Software. All rights reserved.

@@ -1,0 +1,89 @@
+TITLE                   : Shark Bait!
+FILENAME                : sharkb.zip
+AUTHORS                 : PaTMaN - Built whole level, Ideas.
+			  SlipKnot - Ideas
+			  Ryo-ohki - Ideas (+ diving boards :)
+			  NIGHT - Ideas
+DATE                    : July 31, 2000
+EMAIL ADDRESS           : patman_q@hotmail.com
+ICQ#			: 14999645
+HOMEPAGE URL            : http://members.xoom.com/patmansgames/
+.zip CONTENTS           : Map: sharkb.bsp
+			  Text: sharkb.txt
+--------------------------------------------------------------------------------
+* INSTALLATION *
+--------------------------------------------------------------------------------
+Extract sharkb.zip with "Use folder names" checked to your Action
+Quake2 dir or
+
+Extract:
+	Map and Text to               (aq2dir)/maps
+--------------------------------------------------------------------------------
+* LEVEL DESCRIPTION *
+--------------------------------------------------------------------------------
+A small map with 2 docks on water. There are 19 sharks and 1 huge
+whale in the water!
+--------------------------------------------------------------------------------
+SINGLE PLAYER           : 1 Player Start Point
+CO-OPERATIVE            : 0 Player Start Points
+DEATHMATCH              : 6 Player Respawn Points
+ACTION QUAKE II         : 2 Teams
+SUGGESTED PLAYER LOAD   : 1 to 12 
+
+NEW TEXTURES            : No
+NEW SOUNDS              : No
+CD TRACK #              : 0
+
+--------------------------------------------------------------------------------
+* CONSTRUCTION *
+--------------------------------------------------------------------------------
+MAP BASE                : New Map
+PREFABS USED            : My shark
+EDITOR(S) USED          : qED3.0.1, ArghRad 2.01
+OTHER UTILITIES USED    : Q2BeaVeR 4.0.0
+
+KNOWN BUGS              : None. If you want to know what that box is
+			  doing way up in the level, contact me :)
+
+COMPILE MACHINE         : AMD Athlon 900mhz 128mb RAM
+
+QBSP2 TIME              : 0 Hours  0 Minutes  2.30 seconds
+VIS TIME                : 0 Hours  0 Minutes 12.68 seconds
+ARGHRAD TIME            : 0 Hours 34 Minutes 40.12 seconds
+Total Time		: 0 Hours 34 Minutes 55.10 seconds
+--------------------------------------------------------------------------------
+* OTHER LEVELS BY THE AUTHOR *
+--------------------------------------------------------------------------------
+PDM1 (q1)
+MBG City (q2)
+Blockfort (q2)
+PGarden (q2)
+Death on Ice (q2)
+
+Being worked on:
+Skyscraper (q2)
+
+--------------------------------------------------------------------------------
+* CREDITS *
+--------------------------------------------------------------------------------
+The A-Team              : For making Action Quake2
+ID Software		: For making Quake2
+
+All the people who made .txtGen.
+
+================================================================================
+* COPYRIGHT / PERMISSIONS *
+--------------------------------------------------------------------------------
+Authors MAY NOT use this level as a base to build additional levels without my
+permission.
+
+You MUST NOT distribute this level UNLESS you INCLUDE THIS FILE WITH
+NO MODIFICATIONS. If you don't co-operate, then DON'T DISTRIBUTE IT
+IN ANY FORM.
+
+This LEVEL may be distributed ONLY over the Internet and/or BBS systems.
+You are NOT authorized to put this LEVEL on any CD or distribute it in
+any way without my written permission.
+
+Action Quake II (C) 1998-99 The A-Team.
+Quake II (C) 1998-99 id Software. All rights reserved.

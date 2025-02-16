@@ -1,0 +1,54 @@
+================================================================
+Title                   : Crack Down (Deathmatch + Teamplay)
+Filename                : cracked.bsp
+Author                  : Hanh "Wanderer" Court
+Email Address           : EtherealHC@aol.com
+Description             : Get into the house.
+Credits			: Action Quake Team (ALA A-Team)
+			  Cap'n Sparky for the tree textures.
+			  Ogreman for the original stove and fridge textures.
+			  Tall Midget for the texture pack he had (yes, a couple are used).
+			  Muzman and his crew. These guys have helped out a lot and 
+			  have done a lot in the way of textures, map testing, and ideas.
+			  If you need to get a hold of anybody I can tell ya where.
+			  Rendition for the V2200, how else could I take a new picture of the floor (yes that's my floor)
+			  The guy who made the grass texture. The guy has a bunch of good textures like it. Contact me and I'll get you his site address.
+			  Spectacle for telling me it ran better when it was illegal and that I fucked up the texture placement :)
+================================================================
+
+* Play Information *
+
+Single Player           : No (You actually might actually wanna run through this a couple of times)
+Cooperative             : No (No sense in even bothering with)
+Deathmatch              : Yes, Ok, it works in both DM and Teamplay
+Difficulty Settings     : Yep, choose players that suck more than you do and it's on easy 
+			  and vice versa.
+New Sounds              : I could have made some but they would require me to eat some beans.
+New Graphics            : Yes, none of which are mine except the carpet.
+New Monsters            : No
+New Demos               : No
+New Models              : No
+QuakeC Patches          : No
+
+* Construction *
+
+Base                    : New Map From Scratch
+Editor(s) used          : QERadient 1.0 build 077, and build 135 in the end.
+Known Bugs              : There are only a couple instances where objects will disappear in
+			  software. Don't worry though, nothing important disappears just detail
+			  stuff.
+			  The 2 textures that aren't in folders fix a bug that comes from one of the textures
+			  I'm not sure which ones are causing problems but they're all fixed as far as I care.
+Construction Time       : I don't know, so step the fuck off.
+Compile Time		: 4.5 hours
+Comments                : The lights in the hallway are meant to leave those little bulbs 
+			  of light. Sorry about the trees and bushes, I'm not good at
+			  anything organic. I found out what I did wrong and the sun works!
+			  The fridge looks awesome in software, not quite as good in gl though.
+			  No I'm not adding a lid to the toilet, but at least I left a turd!
+			  And yes it's supposed to be blue in software.
+
+Legal Mojo		: Decompile it and I'll shoot ya. Hack it and I'll shoot ya. 
+Hack my pc to get it and I'll shoot ya. Release a hacked version and I'll shoot ya. 
+Other than that you can use the textures I don't care, technically they're not mine. 
+Just remember to give credit where due. If you want .map version just ask.

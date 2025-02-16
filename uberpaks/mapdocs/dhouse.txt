@@ -1,0 +1,21 @@
+Title: 	dhouse - deserthouse
+Date: 	23.10.2006
+Tools: 	Wally,gtkradiantt,BSPPack 1.31
+Email: 	dragon@netikka.fi
+www:	http://whosurdaddy.fi/~farmer
+	http://www.aq2world.com
+	http://www.aq2suomi.com
+
+
+Credits:
+	Wizardext
+	NRGizeR
+	A-TEAM
+	Id Software
+	Beaviss
+
+
+
+
+	
+	- Dragoneye

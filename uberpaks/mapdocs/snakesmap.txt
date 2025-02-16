@@ -1,0 +1,41 @@
+Extract the zip file into your quake2/action directory.
+============================================================
+Title                   : Snake's Urban map
+Filename                : snakesmap.zip
+Version                 : 8/1/99
+                        : Version 1.52, lighting done with Arghard 2.0.
+Game                    : Action Quake 2
+Authors                 : __SolidSnake (aka A.Jacques)
+Email Address           : oceanize@ulster.net
+Description             : A small urban area with a couple buildings and a tower.
+Where to get ActionQ2   : http://action.telefragged.com
+Additional Credits      : ID Software
+                          The A-Team for Action Quake2                                           Textures from Actcity maker(s) CryptR
+=============================================================
+Play Information *
+Single Player           : If you wanna play with yourself.
+Cooperative             : Teamplay.
+Deathmatch              : Yes.
+Action Quake2           : Yes, the whole reason I made the damn map.
+Difficulty Settings     : no.
+New Graphics            : no.
+New Sounds              : Yes. 
+Demos Replaced          : 0.
+
+* Construction *
+Base                    : Another map straight from my head to the game.
+                          No sketches or blue prints.
+Editor used             : QUARK (QUake ARmy Knife)  The best baby!
+Known Bugs              : I couldn't find any.
+
+* Build Time *
+1.5 days for architecture.  2 days for effective lighiting.
+==============================================================
+
+Details
+An urban map based in a cube.  Each corner of the map has a building, in 
+the center is tower higher than each of the buildings.  Sniping on this
+map takes strategy, because of the many ways in which each sniping spot are
+accecable.
+
+Send me some email if you like this map.  

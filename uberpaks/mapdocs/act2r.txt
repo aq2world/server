@@ -1,0 +1,20 @@
+=============================================================================
+Title                   : Action City Remix -By Vampyre
+                
+Release Date (DD/MM/YY) : 22/02/2006
+
+Author                  : Jeffery Wall -Vampyre and Lari Muuriaisniemi -CryptR
+Email Address           : acowoncrack & lmuur@dlc.fi
+Web Site                : www.freewebs.com/vampyre6
+
+Description             : Action Quake2 map designed for deathmatch and teamplay.
+
+
+                                                    
+Additional Credits to   : Wizard Ext -Textures and Entity Sparks.
+                          Flunx - Textures
+
+WHAT'S NEW              : Maps been Retextured and 2 more entranced placed
+                          for faster paced rounds.
+
+=============================================================================

@@ -1,0 +1,46 @@
+(best viewed in Notepad maximized, wordwrap on, and 800x600 resolution)
+Written 3-10-99
+
+=================================================================================================
+
+Author's Name:          Haig Demerdjian A.K.A Regulator
+
+Author's Age:           16
+
+E-Mail Address:         hdem2@earthlink.net
+
+Map Name:               roadrage.bsp
+
+Map Discription:        It is a street deviding 2 rows of shops and etc. Watch out for those 			cars!
+
+Known Bugs:             NONE!!
+
+Editors Used:           "Qoole v2.5" to build my map (go to Qoole.com), "Wally v1.5b" to make                            textures (www.telefragged.com/wally), and "Paint Shop Pro 5" also for 				textures.
+
+Compile Time:           Less than an hour
+
+BETA Testers:           Some friends
+
+My current AQ2 name:    Regulator
+
+Other maps by me:	Skyplay.bsp (it sucks)
+
+=================================================================================================
+
+INSTALLATION!!!
+
+Just use "Winzip" and unzip roadrage.zip into "x:\quake2\action" (or your action folder).
+
+=================================================================================================
+
+Some Copywrite Junk...
+
+Just don't do anything illegal with my map like claim it's yours or edit it. Also i give FULL credit to whom ever I borrow the textures from to create parts of my map. You must send this text document along with the map if you are going to distribute my map.
+
+=================================================================================================
+
+* P.S. Please, please e-mail me at hdem2@earthlink.net if you have any ideas for a map or any           bugs found in this map, or you can just mail me to tell me what you think about my map.          Also keep in mind that this is my second map, so if you find some things wrong with it           keep that in mind.
+
+* P.S.S                              DON'T USE GRENADES!!!!!
+
+=================================================================================================

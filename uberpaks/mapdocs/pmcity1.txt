@@ -1,0 +1,104 @@
+TITLE                   : PM City 1
+FILENAME                : pmcity1.zip
+AUTHOR                  : PaTMaN
+DATE                    : February 28, 2001
+EMAIL ADDRESS           : patman_q@hotmail.com
+ICQ#			: 14999645
+HOMEPAGE URL            : http://members.nbci.com/patmansgames/
+.zip CONTENTS           : Map: pmcity1.bsp
+			  Text: pmcity1.txt
+			  Textures: (*.wal) (29 files)
+			  ENV (sky) : stars*.*
+			  Sounds : phone.wav, radiogsa.wav
+--------------------------------------------------------------------------------
+* INSTALLATION *
+--------------------------------------------------------------------------------
+Extract pmcity1.zip with "Use folder names" checked to your Action
+Quake2 dir 
+
+------------OR--------------
+
+Extract:
+	Map and Text to               (aq2dir)/maps
+	Textures to		      (aq2dir)/textures/actcity3
+	Sky to                        (aq2dir)/env
+	Sounds to		      (aq2dir)/sound/patman
+--------------------------------------------------------------------------------
+* LEVEL DESCRIPTION *
+--------------------------------------------------------------------------------
+A small city with a small hotel and other areas.
+There is a stack of boxes in an outside area of the map. I promise you that
+any person can get up the boxes by themself. There is a special jump technique
+that must be used to jump ontop of the boxes. It can be tricky sometimes.
+--------------------------------------------------------------------------------
+SINGLE PLAYER           : 1 Player Start Point
+CO-OPERATIVE            : 0 Player Start Points
+DEATHMATCH              : 12 Player Respawn Points
+ACTION QUAKE II         : 2 Teams
+SUGGESTED PLAYER LOAD   : 2 to 18
+
+NEW TEXTURES            : Yes
+NEW SOUNDS              : Yes
+NEW SKY			: Yes
+CD TRACK #              : 0
+
+--------------------------------------------------------------------------------
+* CONSTRUCTION *
+--------------------------------------------------------------------------------
+MAP BASE                : New Map
+PREFABS USED            : None
+EDITOR(S) USED          : Radiant 1.0 Beta build 147, ArghRad 2.01
+OTHER UTILITIES USED    : Q2BeaVeR 4.0.0
+
+TOTAL BRUSHES           : 1037
+TOTAL ENTITIES          : 240
+
+KNOWN BUGS              : None
+
+COMPILE MACHINE         : AMD Athlon 900mhz 192mb RAM
+                                   
+QBSP2 TIME              : 0 Hours 0  Minutes  5.22 seconds
+VIS TIME                : 0 Hours 7  Minutes  6.60 seconds
+ARGHRAD TIME            : 0 Hours 5  Minutes 23.05 seconds
+Total Time		: 0 Hours 12 Minutes 34.87 seconds
+--------------------------------------------------------------------------------
+* OTHER LEVELS BY THE AUTHOR *
+--------------------------------------------------------------------------------
+PDM1          (q1)
+MBG City      (q2)
+MBG City 2    (q2)
+Blockfort     (q2)
+PGarden       (q2)
+Shark Bait!   (q2)
+PM Free Fall! (q2)
+Death on Ice  (q2)
+
+--------------------------------------------------------------------------------
+* CREDITS *
+--------------------------------------------------------------------------------
+The A-Team                    : For making Action Quake2
+ID Software		      : For making Quake2
+Lari Muuriaisniemi aka CryptR : For actcity3 textures
+
+Whoever made the sky "Stars"
+
+All the people who made .txtGen.
+
+================================================================================
+* COPYRIGHT / PERMISSIONS *
+--------------------------------------------------------------------------------
+Authors MAY NOT use this level as a base to build additional levels without my
+permission.
+
+You MUST NOT distribute this level UNLESS you INCLUDE THIS FILE WITH
+NO MODIFICATIONS. If you don't co-operate, then DON'T DISTRIBUTE IT
+IN ANY FORM.
+
+This LEVEL may be distributed ONLY over the Internet and/or BBS systems.
+You are NOT authorized to put this LEVEL on any CD or distribute it in
+any way without my written permission.
+
+I AM NOT the author of the included new texture files or sky files.
+
+Action Quake II (C) 1998-99 The A-Team.
+Quake II (C) 1998-99 id Software. All rights reserved.

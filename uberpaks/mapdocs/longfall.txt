@@ -1,0 +1,85 @@
+================================================================================
+* LEVEL INFORMATION *
+--------------------------------------------------------------------------------
+TITLE                   : Operation Longfall
+FILENAME                : longfall.txt
+AUTHOR                  : KB
+DATE                    : 09.06.1999
+GAME                    : Action Quake II
+EMAIL ADDRESS           : kristian_berg_@hotmail.com
+HOMEPAGE URL            : 
+ 
+--------------------------------------------------------------------------------
+* LEVEL DESCRIPTION *
+--------------------------------------------------------------------------------
+A city like map, at night.
+The architecture is quite special,
+notice the cool shapes of the buildings.
+There is also a double set of weapons for Dm.
+
+
+
+ 
+--------------------------------------------------------------------------------
+SINGLE PLAYER           : 1 Player Start   Point(s)
+CO-OPERATIVE            :  Player Start   Point(s)
+DEATHMATCH              : 8 Player Respawn Point(s)
+ACTION QUAKE II         : 2 Teams
+                        :  Player Respawn Points per Team
+ 
+NEW TEXTURES            : Yes
+NEW SOUNDS              : No
+CD TRACK #              : 0
+ 
+--------------------------------------------------------------------------------
+* CONSTRUCTION *
+--------------------------------------------------------------------------------
+MAP BASE                : New Map
+PREFABS USED            : None
+EDITOR(S) USED          : QOOLE  
+OTHER UTILITIES USED    : Arghrad , Wally  
+COMPILE MACHINE         : Pentium 233
+ 
+QBSP2 TIME              : 5 seconds
+VIS   TIME              : 770 seconds
+QRAD  TIME              : 14800 seconds
+ 
+--------------------------------------------------------------------------------
+* OTHER LEVELS BY THE AUTHOR *
+--------------------------------------------------------------------------------
+ACTION QUAKE II         : Submarine
+ 
+--------------------------------------------------------------------------------
+* SPECIAL INSTRUCTIONS / ADDITIONAL INFORMATION *
+--------------------------------------------------------------------------------
+Notice:
+
+If you find the jumps too hard, type 
+"sv_gravity 700" in console. This will simplify
+the jumps dramaticly. (the gravity is 750 at default)
+You can also set gravity to 800, if you'd like
+to keep the standard aq2 gravity.(You will still 
+be able to do all the jumps)
+ 
+--------------------------------------------------------------------------------
+* CREDITS *
+--------------------------------------------------------------------------------
+None
+ 
+ 
+================================================================================
+* COPYRIGHT / PERMISSIONS *
+--------------------------------------------------------------------------------
+Authors MAY NOT use this level as a base to build additional levels.
+ 
+You MUST NOT distribute this level UNLESS you INCLUDE THIS FILE WITH
+NO MODIFICATIONS. If you don't co-operate, then DON'T DISTRIBUTE IT
+IN ANY FORM.
+
+This LEVEL may be distributed ONLY over the Internet and/or BBS systems.
+You are NOT authorized to put this LEVEL on any CD or distribute it in
+any way without my written permission.
+
+Action Quake II (C) 1998-99 The A-Team.
+Quake 2 (C) 1998-99 id Software. All rights reserved.
+[END OF DATA]=========================================================[.txt|Gen]

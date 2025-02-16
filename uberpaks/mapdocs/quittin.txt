@@ -1,0 +1,78 @@
+Title                   : It's quittin' time!!
+Filename                : quittin.bsp
+Author                  : Skull N. Bones
+Email Address           : skull@rochester.rr.com
+Date                    : August 8, 1998
+
+Description             : This map is a "lived in" version of the office map and 
+                          borrows heavily from some of it's concepts and ideas.
+
+Additional Credits to   : id Software for Quake 2
+                          The Action Quake mod team
+                          The authors of the Rust webpage tutorials
+
+Other Maps By Author	: Hijack, Hostage, Dethship (all for Action Quake2 mod)
+
+================================================================
+
+Background Story        : You've had it!  You've been pushed around and abused by 
+                          your co-workers, your boss, and even the customers for 
+                          too long!  They have unfairly denied you promotions, 
+                          raises, and vacation time!  They've stolen your work and 
+                          taken credit for it as their own!  Now you've decided that 
+                          enough is enough, and it's your turn to kick some @$$!  
+                          You are gonna show them all!
+
+================================================================
+* Play Information *
+
+Single Player           : No
+Cooperative             : No
+
+Deathmatch 2-8          : Yes
+Deathmatch 9-16         : Not Tested
+Deathmatch 17-100	: Not Tested
+
+Difficulty Settings     : No
+New Sounds              : No
+New Graphics            : a couple
+New Music               : No
+Demos Replaced          : None
+CD Track		: 0
+
+==================================================================
+
+* Construction *
+
+Base                    : quittin.map
+Editor(s) used          : BSP
+Build Time              : 1 Week
+Compile machine         : P200mmx 64 Meg RAM
+	QBSP3		: -v 
+	QVIS3		: -v -level 4 
+	QRAD3		: -v -bounce 6 -extra 
+
+Known Bugs              : The elevator doesn't stop on the selected 
+                          floor the first time it's used, but after 
+                          that it works fine.
+
+==================================================================
+
+* Other Info *
+Tried to cut down the r_speeds a litle bit in this version and added 
+a couple custom textures for carpeting.
+        
+==================================================================
+
+* Legal Stuff *
+
+You may distribute this level and include it in any deathmatch compilation
+as long as you include this text file and of course give me credit.
+
+Feel free to E-mail me with you comments or questions.
+
+If you're actually still reading this and this level finds its way to
+your web page, then please E-mail me.
+
+Skull N. Bones
+skull@rochester.rr.com

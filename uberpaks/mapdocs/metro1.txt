@@ -1,0 +1,64 @@
+Map Name:	The Metro
+Author:		Owen Coughlan
+e-mail:		bexley@sprint.ca
+
+
+TeamPlay/DM and CTB
+
+No CTB entities are present, however the DM spawns are usually quite far apart.
+
+
+Description:
+
+A genetic Metro Station, from street-level down to platforms and trains.
+
+
+
+Built with QOOLE 2.5 in about eight days.
+
+
+History:
+
+Contruction and assembly March 1-8; including Eraser Bot tests in regular Q2 mode.
+Completed, Compiled and Submitted March 9
+Immediately lost/ignored.
+Resubmitted March 23.
+Posted on AQMD "test-matrix" March 28
+Put on hold due to "directory structure and Env map" (April 8)
+
+This zip -- April 9.
+
+
+ENV MAP -- yes, this is drksky, in case you hadn't installed enough already.  Not my idea, it's a AQMD thing.
+
+
+TEXTURES --
+
+Additional most-excellent textures are from CryptR's beautiful "Action City 3", and the map "Blood" (appologies to the author, I lost my readme file on that one) -- if you're gonna borrow, borrow from the best.
+
+Compile time 4-5 hours (I went to bed).
+
+R_speeds average under 500 or less.
+
+
+
+Known Problems:
+
+Corner to corner R_speeds in train-tunnel can be up to 900.  This can't be reduced with hint-brushes because of the platform design -- sorry, I tried for two days.  However, the angles here are quite low, so there should be no noticible effect in game-play.
+
+Texture misalignments in some doorways (fortuneately they're in the dark); and on metro cars, due to custom texture sized "breaking" Q2 specs; escalators can block -- won't effect game-play; revolving doors *may* cause a one point injury this couldn't be stopped; quarters won't go into telephones -- this is realism.
+
+Everything else, like it or not, is deliberate.
+
+
+Thanks to
+
+The Usual Quake 2 crowd
+Action team -- for the cool mod.
+
+Rust Discussion Group -- they solved the funct_train/sound mystery (put an origin brush in your train and sound will follow it where ever it goes), and gave me invaluable advice with escalators, etc.
+
+
+Copyright stuff:
+
+Except for the textures and Env maps, this is all mine.  You can't sell it or redistribute it as part of any commercial package without my permission.  This is free-use, meaning have fun but don't make a dime off it.  You can play it, but you can't modify it without my permission.  If you paid for this map we were both robbed (;-O).

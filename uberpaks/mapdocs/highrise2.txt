@@ -1,0 +1,87 @@
+=============================================================================
+Title                   : HighRise II
+
+Files                   : highrise2.bsp, highrise2.txt, Archive: highrise2.zip
+
+Release Date (DD/MM/YY) : 03/01/99
+
+Author                  : John Corwin aka KaRRiLLioN =AR=
+Email Address           : jhcorwin@mindspring.com
+Web Site                : www.aggression.org
+
+Description             : Map for Action Quake (http://action.telefragged.com).
+                          City-style map with Skyscrapers and unique methods of transportation and sneaking up on opponents.
+
+Installation            : * Unzip highrise2.zip into root of your Action Quake
+                          game folder (Quake2/Action), with Subdirectories
+                          enabled (!), so that all textures and sky will be unzipped
+                          into correct directory (USE FOLDER NAMES checkbox
+                          in WinZip or -d switch in PKUnZip).
+			  All *.wal files go into Action\textures\karr
+			  All *.wav files go into Action\sound\karr
+                          All *.tga files go into Action\env
+                          The *.bsp file goes into Action\maps
+                          The *.txt file needs to be printed out and displayed prominently in your home and place of work.
+                                                    
+Additional Credits to   : Textures and Prefabs:
+			  Rusprick for some awesome textures, and the Karlsson wav file.
+			  Stefan Giesen (Igor[Rock]) Stefan.Giesen@gmx.de for textures and his fire escapes from RHcity
+                          Ty Smith (Ender975@msn.com) ICQ UIN:14814666 http://dogpound.3dpalette.com for some great 
+                          textures (Ty-Smith readme included)
+                          Sinner darksidec@earthlink.net for some great textures
+                          tankd0g[MACH] for a wav file
+                          Other:
+                          A-Team for making greatest Quake2 Multiplayer mod ever.
+                          id software
+                          Matthew Ayres (matt@lithium.com) and Paul Hsu (hsup@lithium.com) for Qoole (www.qoole.com)
+                          My clan mates the =Aggression Rangers= and [TECH] for helping me playtest and putting up 
+                          with my constant need for input, and all of those players who helped to beta test it before
+                          I submitted it.
+
+
+
+Misc.                   : Send feedback 'bout this map if you feel like.
+=============================================================================
+* Play Information *
+
+Game                      : Action Quake (Quake2)
+Single player             : Yes (only for looking around)
+Teamplay   		  : Yes!
+Deathmatch 2-10 players    : Yes 
+
+New Graphics              : Yes 
+New Music                 : Yes
+New Sounds                : Yes
+DLL                       : No
+
+* Construction *
+
+Base                      : New level from scratch
+Build time                : One Month
+Compile Machine           : P2-450 256 megs RAM
+    QBSP3 Time            : 11 secs
+    QVIS3 Time            : 45 mins
+    QRAD3 Time            : 1 hour (Used the sunlight in Arghrad)
+
+Editor(s) Used            : Qoole, Wally
+
+Known Bugs                : Nope
+
+* Copyright / Permissions *
+
+Authors may NOT use this level as a base to build additional
+levels.
+
+
+You may distribute this BSP, provided you include this file, with
+no modifications, but please distribute original unmodified archive
+which can be obtained from my Web site.  You may distribute this file
+in any electronic format (BBS, Diskette, CD, etc) as long as you
+include this file intact.
+
+* Where to get this BSP *
+
+WWW   : http://www.aggression.org/downloads/AQ/maps/highrise2.zip
+ftp:    fpt://maps.fear.net/pub/maps/HighRise2.zip
+
+OTHER : Action Quake Map sites
