@@ -19,6 +19,18 @@ jobs:
           rm -rf ./.??* || true
           ls -la ./
 
+      - name: Setup S3cmd
+        uses: s3-actions/s3cmd@v1.9.0
+        with:
+          provider: aws
+          region: us-east-1
+          access_key: ${{ secrets.AWS_ACCESS_KEY }}
+          secret_key: ${{ secrets.AWS_SECRET_KEY }}
+
+      - name: Upload uberpak_client to S3
+        run: |
+          s3cmd put uberpaks/mapdocs/act2r.txt s3://${{ secrets.AWS_BUCKET_FILES }}/files/
+
       - name: Checkout repository
         uses: actions/checkout@v4
         with:
@@ -36,6 +48,7 @@ jobs:
       - name: Setup S3cmd
         uses: s3-actions/s3cmd@v1.9.0
         with:
+          provider: aws
           region: us-east-1
           access_key: ${{ secrets.AWS_ACCESS_KEY }}
           secret_key: ${{ secrets.AWS_SECRET_KEY }}
