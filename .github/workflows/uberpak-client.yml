@@ -27,18 +27,6 @@ jobs:
             tng
             uberpaks
 
-      - name: Setup S3cmd
-        uses: s3-actions/s3cmd@v1.9.0
-        with:
-          provider: aws
-          region: us-east-1
-          access_key: ${{ secrets.AWS_ACCESS_KEY }}
-          secret_key: ${{ secrets.AWS_SECRET_KEY }}
-
-      - name: Upload uberpak_client to S3
-        run: |
-          s3cmd put uberpaks/mapdocs/act2r.txt s3://${{ secrets.AWS_BUCKET_FILES }}/files/
-
       - name: Generate client uberpak
         run: |
           cd uberpaks
@@ -56,14 +44,3 @@ jobs:
       - name: Upload uberpak_client to S3
         run: |
           s3cmd put uberpaks/uberpak_client.pkz s3://${{ secrets.AWS_BUCKET_FILES }}/files/
-
-      # - name: Upload uberpak_client to S3
-      #   uses: hkusu/s3-upload-action@v2
-      #   with:
-      #     aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY }}
-      #     aws-secret-access-key: ${{ secrets.AWS_SECRET_KEY}}
-      #     aws-region: 'us-east-1'
-      #     aws-bucket: ${{ secrets.AWS_BUCKET_FILES }}
-      #     file-path: 'uberpaks/uberpak_client.pkz'
-      #     destination-dir: 'files/'
-      #     bucket-root: '/'
