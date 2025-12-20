@@ -304,6 +304,7 @@ echo "set zoom_comp $ZOOM_COMP" >> /aq2server/action/config.cfg
 echo "set item_kit_mode $ITEM_KIT_MODE" >> /aq2server/action/config.cfg
 echo "set sv_redirect_address $SV_REDIRECT_ADDRESS" >> /aq2server/action/config.cfg
 echo "set sv_load_ent $SV_LOAD_ENT" >> /aq2server/action/config.cfg
+echo "set sv_status_ext $SV_STATUS_EXT" >> /aq2server/action/config.cfg
 
 # Game mode settings
 echo "set deathmatch $DEATHMATCH" >> /aq2server/action/config.cfg
