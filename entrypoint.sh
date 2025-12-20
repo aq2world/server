@@ -313,6 +313,7 @@ echo "set teamdm $TEAMDM" >> /aq2server/action/config.cfg
 echo "set teamdm_respawn $TEAMDM_RESPAWN" >> /aq2server/action/config.cfg
 echo "set ctf $CTF" >> /aq2server/action/config.cfg
 echo "set ctf_mode $CTF_MODE" >> /aq2server/action/config.cfg
+echo "set ctf_rewards $CTF_REWARDS" >> /aq2server/action/config.cfg
 echo "set ctf_forcejoin $CTF_FORCEJOIN" >> /aq2server/action/config.cfg
 echo "set ctf_dropflag $CTF_DROPFLAG" >> /aq2server/action/config.cfg
 echo "set ctf_respawn $CTF_RESPAWN" >> /aq2server/action/config.cfg
