@@ -7,11 +7,12 @@ echo SERVER STARTING!
 baseUrl="http://gameassets.aqtiongame.com/action"
 # DL MAPS and map overrides
 
+# Download the CRC list for map validation
+wget "${baseUrl}/server/fullmaplist_crc.ini" -O "/aq2server/action/fullmaplist_crc.ini"
+
 if [ $FULLMAPS == "TRUE" ]; then
-# Old methods
-#cp /aq2server/action/fullmaplist.ini /aq2server/action/maplist.ini
-# Old method downloaded from https://github.com/actionquake/distrib/blob/main/server/fullmaplist.ini
-wget "${baseUrl}/server/fullmaplist.ini" -O "/aq2server/action/maplist.ini"
+# Extract just the map names from fullmaplist_crc.ini for maplist.ini (remove .bsp extension)
+awk '{if ($3 != "") print $3}' /aq2server/action/fullmaplist_crc.ini | sed 's/.bsp$//' > /aq2server/action/maplist.ini
 wget "${baseUrl}/server/mapoverridelist.ini" -O "/aq2server/action/mapoverridelist.ini"
 wget "${baseUrl}/server/entoverridelist.ini" -O "/aq2server/action/entoverridelist.ini"
 else
@@ -21,10 +22,32 @@ else
     echo $map >> /aq2server/action/maplist.ini
   done
 fi
+
+# Process each map with CRC checking
 cat /aq2server/action/maplist.ini | while read map
 do
-    if [ ! -f "/aq2server/action/maps/${map}.bsp" ]; then
-       wget "${baseUrl}/maps/${map}.bsp" -O "/aq2server/action/maps/${map}.bsp"
+    # Skip empty lines
+    if [ -z "$map" ]; then
+        continue
+    fi
+
+    # Get expected CRC from fullmaplist_crc.ini
+    expected_crc=$(grep " ${map}.bsp$" /aq2server/action/fullmaplist_crc.ini | awk '{print $1}')
+
+    if [ -f "/aq2server/action/maps/${map}.bsp" ]; then
+        # File exists, check CRC
+        actual_crc=$(cksum "/aq2server/action/maps/${map}.bsp" | awk '{print $1}')
+
+        if [ "$actual_crc" != "$expected_crc" ]; then
+            echo "CRC mismatch for ${map}.bsp (expected: $expected_crc, actual: $actual_crc). Re-downloading..."
+            wget "${baseUrl}/maps/${map}.bsp" -O "/aq2server/action/maps/${map}.bsp"
+        else
+            echo "Map ${map}.bsp is up to date (CRC: $actual_crc)."
+        fi
+    else
+        # File doesn't exist, download it
+        echo "Downloading ${map}.bsp..."
+        wget "${baseUrl}/maps/${map}.bsp" -O "/aq2server/action/maps/${map}.bsp"
     fi
 done
 # Map overrides
@@ -305,6 +328,8 @@ echo "set item_kit_mode $ITEM_KIT_MODE" >> /aq2server/action/config.cfg
 echo "set sv_redirect_address $SV_REDIRECT_ADDRESS" >> /aq2server/action/config.cfg
 echo "set sv_load_ent $SV_LOAD_ENT" >> /aq2server/action/config.cfg
 echo "set sv_status_ext $SV_STATUS_EXT" >> /aq2server/action/config.cfg
+echo "set use_buggy_ent_hitbox $USE_BUGGY_ENT_HITBOX" >> /aq2server/action/config.cfg
+
 
 # Game mode settings
 echo "set deathmatch $DEATHMATCH" >> /aq2server/action/config.cfg
