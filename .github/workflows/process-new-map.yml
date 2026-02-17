@@ -186,8 +186,8 @@ jobs:
 
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add uberpaks/ fullmaplist.ini fullmaplist_crc.ini
-          git rm -rf new_maps/*
+          git add --sparse uberpaks/ fullmaplist.ini fullmaplist_crc.ini
+          git rm --sparse -rf new_maps/*
           git commit -m "Add map: ${MAP_NAME}"
           git push -u origin "$BRANCH"
 
