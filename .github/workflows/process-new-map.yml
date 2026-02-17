@@ -10,7 +10,6 @@ on:
         type: boolean
 
 permissions:
-  actions: write
   contents: write
   pull-requests: write
 
@@ -70,17 +69,18 @@ jobs:
           echo "Map: $MAP_NAME"
           echo "CRC entry: $CRC_VAL $SIZE_VAL $MAP_BSP"
 
-      - name: Rename workflow run
-        env:
-          GH_TOKEN: ${{ github.token }}
+      - name: Write job summary
         run: |
-          DRY_RUN_LABEL=""
-          if [ "${{ inputs.dry_run }}" = "true" ]; then
-            DRY_RUN_LABEL=" (dry run)"
+          MAP_NAME="${{ steps.map-info.outputs.map_name }}"
+          DRY_RUN="${{ inputs.dry_run }}"
+          if [ "$DRY_RUN" = "true" ]; then
+            echo "# :test_tube: Process New Map: ${MAP_NAME} (dry run)" >> "$GITHUB_STEP_SUMMARY"
+          else
+            echo "# :world_map: Process New Map: ${MAP_NAME}" >> "$GITHUB_STEP_SUMMARY"
           fi
-          gh api -X PATCH \
-            "/repos/${{ github.repository }}/actions/runs/${{ github.run_id }}" \
-            -f "name=Process New Map: ${{ steps.map-info.outputs.map_name }}${DRY_RUN_LABEL}"
+          echo "" >> "$GITHUB_STEP_SUMMARY"
+          echo "- **PKZ:** \`${{ steps.find-pkz.outputs.pkz_name }}\`" >> "$GITHUB_STEP_SUMMARY"
+          echo "- **CRC:** \`${{ steps.map-info.outputs.crc_entry }}\`" >> "$GITHUB_STEP_SUMMARY"
 
       - name: Update fullmaplist.ini
         run: |
