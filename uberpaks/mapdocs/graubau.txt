@@ -1,0 +1,145 @@
+======================================================================
+* ACTION QUAKE II LEVEL INFORMATION *
+----------------------------------------------------------------------
+TITLE       : graubau.bsp  
+AUTHOR      : iLPoNaToR                 
+DATE        : 10-18-2025 (17th of october for lads in eu)
+CONTACT     : DM me on aq2world forums or find me on the same discord
+              group, I go by the nickname "iLPo". Im _rarely_ online.
+----------------------------------------------------------------------
+
+Herzlich willkommen zu Grau Bau!
+"Grau Bau" is German for "gray construction", which pretty much sums
+this map up, a big block of brutal concrete redirecting river flow and
+maybe generating some energy while doing it.
+
+Packed with trick jumps. Some are obvious, some not so much. Suitable
+for DM/TDM/TP with any weapon you desire. Have fun!
+
+----------------------------------------------------------------------
+[ Spawns ]
+----------------------------------------------------------------------
+DM Spawns   : 10
+
+Weapons     : 2x M4, MP5, Shotgun
+              3x Handcannon, SSG, Pistol
+              At least 2 ammo packs per weapon
+              3x Grenades
+
+----------------------------------------------------------------------
+
+[ Performance / Notes ]
+----------------------------------------------------------------------
+r_speeds average around 300–600  
+Can spike between 1200–1500 in corners
+
+AQ2world banner works as a ladder. Curves works as a jumpup and ramp.
+Small gap near the garage doors is not a bug, it's a tribute to cloud 
+and its "cloud peak" gimmick, just on a larger scale. 
+
+----------------------------------------------------------------------
+
+[ Build Info ]
+----------------------------------------------------------------------
+QBSP 1.3    -   1 s
+QVIS 1.73   -  113 s
+ArghRad 3.0 -  52 s
+
+Originally compiled with ArghRad 2.0 and it took almost 2 minutes.
+ArghRad.exe -threads 4 -bounce 8 -extra -choplight 24
+
+Platform:
+  Intel Core i5-10400F (2.9–4.3 GHz, 6 cores / 12 threads, 12 MB)
+  NVIDIA GeForce RTX 3060 (12 GB GDDR6)
+
+----------------------------------------------------------------------
+
+[ Diary ]
+----------------------------------------------------------------------
+In all fairness I would say it took few weeks to do this map. Sometimes
+I only worked for one hour, and some days i spent the whole day. When I
+started, I had no idea what I was doing. I just began experimenting with
+curves and lights and ended up with a big ass canal, and eventually a
+bunker like complex that kinda reminded me of something germans would
+have built in the 40's.
+
+I didn't go crazy with detailing. Modern maps are all shiny and
+ultra polished nowadays, which is nice and all, but i kinda miss the
+good old cloud / airport / urban / riot era. Brutalist architecture
+speaks to my soul anyway. Thought about adding more textures, but nah..
+..This look kinda grew on me. Concrete supremacy! 
+
+Even though everyone these days runs around with M4s and SSGs, you can
+still play with akimbos or the handcannon (or even a shotgun and mp5).
+Just learn the major jumps and move fast i guess.
+
+Tested with AprQ2, (aqtion) and Q2Pro clients. Had some lag on AprQ2, 
+but setting "cl_maxfps 90" smoothed things out nicely.
+
+Custom skybox made by me in paint.net. Not entirely happy with it, but
+it took way too long so it stays. Not doing that again. Jesus Christ.
+
+Im happy with the result. Hope you enjoy it too. It's also kinda fun 
+just to jump around alone. ;)
+
+ - iLPo
+
+----------------------------------------------------------------------
+
+[ Files ]
+----------------------------------------------------------------------
+/maps/
+  graubau.bsp
+/mapdocs/
+    graubau.txt
+/env/
+  blunite_*
+  bk/dn/ft/lf/rt/up
+  .png 
+
+/textures/
+  /graubau/
+    concrete01.wal
+    concrete02.wal
+    concrete03.wal
+    garagedoor.wav
+    garagedoor2.wav
+    ground.wal
+    m_aq2world.wal
+    poster.wal
+    poster2.wal
+    sky.wal
+    vent.wal
+    wall_door.wal
+    wall_vent1.wal
+    wall_vent2.wal
+    water.wal
+    water_flow.wal
+    window_01.wal
+    window_02.wal
+    window_03.wal
+
+    concrete1.jpg
+    concrete2.jpg
+    concrete3.jpg
+    garagedoor.jpg
+    garagedoor2.jpg
+    m_aq2world.jpg
+    vent.jpg
+    wall_door.jpg
+    wall_vent1.jpg
+    wall_vent2.jpg
+    window_01.jpg
+    window_02.jpg
+    window_03.jpg
+  /common/
+    clip.wal
+    origin.wal
+    trigger.wal
+    0_hint.wal
+
+----------------------------------------------------------------------
+Concrete* .wal from /arctic/ and AQ2World banner from /matto/.
+Water textures are standard AQ2 textures, garagedoor.wal by pauhi 
+and pretty much rest are free for you to use. Use them or dont. 
+----------------------------------------------------------------------

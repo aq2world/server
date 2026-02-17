@@ -1,0 +1,18 @@
+Title: 	Suburbical
+Date: 	8 March 2025
+Tools: 	TrenchBroom, ericw-tools, Photoshop, Wally
+Email: 	dan@boklov.com
+Web: 	https://www.dboklov.me/action/
+
+Copyright:
+	textures/varrg is licensed as CC0 No Copyright
+	source/suburbical.map is licensed as CC0 No Copyright
+
+Comments:
+	
+	Suburbical is an immersive experience on the outskirts of a large city and 
+	 while immense, it's a swift walk around the block.
+	
+	I hope you'll have a laugh exploring the suburbs!
+
+	– Dan "varrg" Boklöv Palovaara

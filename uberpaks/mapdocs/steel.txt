@@ -1,0 +1,42 @@
+============================================================================
+Title                   : The Steelworks
+Filename                : steel.zip
+Game                    : Action Quake 2 
+Author                  : [RoAr]CABBAGE
+Description             : An abandoned steelworks, nice and dark so use those slippers :) 
+Thanks to               : A-Team, ID software, Cartman for some design help
+                          Sinners textures off the map depot, makers of worldcraft 
+	                  and wally
+============================================================================
+
+* Play Information *
+
+Single Player           : Yes if u want a look around/have no mates :)
+Cooperative             : No
+Deathmatch              : Yes
+AQ2 Teamplay            : Yes
+Difficulty Settings     : No
+New Graphics            : YES                
+New Music               : NO
+CD Track                : 0
+
+* Construction *
+
+Base                    : Scratch
+Editors used            : Worldcraft 1.6, Wally
+Build Time              : Month or two
+Known Bugs              : None amd its my first map... :)
+Compile machine         : Pentium 2 350, 128 MB, Voodoo1
+
+
+* Installation *
+
+Just unzip to your X:\Quake2\action directory (with subdirectories enabled).
+
+* Copyright / Permissions *
+
+Authors MAY NOT use this level as a base to build additional levels.
+All textures, sounds, anything MAY NOT be used for other maps without my permission.
+This level cannot be sold.
+
+Have fun !

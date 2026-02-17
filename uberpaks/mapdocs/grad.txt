@@ -1,0 +1,57 @@
+================================================================================
+* ACTION QUAKE II LEVEL INFORMATION *
+--------------------------------------------------------------------------------
+TITLE                   : Grad 
+AUTHOR                  : m4tic               
+DATE                    : 23.04.2025
+EMAIL ADDRESS           : mbatfri@gmail.com
+TOOLS USED				: TrenchBroom, eriw-tools
+
+================================================================================
+* LEVEL DESCRIPTION *
+--------------------------------------------------------------------------------
+Welcome to Grad! Grad means castle in Slovenian.
+You are placed between the walls of a small castle. But do not be deceived, for
+this fortress, while not being the grandest, does have everything to withstand
+a lengthy siege and survive for a long period of time.
+Grad is strategically placed on a river with a moat surrounding all of its walls.
+However be aware! All of the water has been contaminated and is toxic to the 
+levels even the toughest actionquakers out there cannot survive it.
+
+The map should be suitable for teamplay and deathmatch. Have fun!
+
+================================================================================
+* CREDITS *
+--------------------------------------------------------------------------------	
+Special thanks to:
+ - other mappers for creating lovely textures:
+	sandstorm, SoD, makkon, NRGiZeR and WizardExt.
+
+--------------------------------------------------------------------------------
+* MAKKON TEXTURES USAGE DISCLAIMER *
+--------------------------------------------------------------------------------
+All textures made from scratch in Substance Designer by Ben "Makkon" Hale.
+Modification is allowed and encouraged, with credit.
+Not for commercial use without express written permission.
+
+All sets come with color variations, with exception of a few. This makes for 
+many textures to import and process. As a result, I have not cut up many of the 
+trimsheets into separate trim textures, as this would result in several hundred 
+textures to process. If you need your trims separated, feel free to cut them up 
+yourself. I would otherwise encourage you to use the trims as a sheet, it's 
+better for organization and performance, and makes it extremely easy to swap to 
+different colors.
+
+Use for or in association with NFTs, Web3, blockchain technology, crypto 
+currency, machine learning, AI art, or AI aided image generation in any way is 
+not permitted, including promotional material.
+
+These textures were built for and look best in Nearest filtering.
+
+Thanks to ptoing for his LUT textures, used to convert to Quake palette more 
+effectively.
+
+~Ben "Makkon" Hale
+https://bsky.app/profile/makkon.bsky.social
+https://cara.app/makkon
+================================================================================
