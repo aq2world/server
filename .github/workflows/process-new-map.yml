@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
     inputs:
       dry_run:
-        description: 'Dry run - skip S3 uploads and commit/push'
+        description: 'Dry run - skip S3 uploads and PR creation'
         required: false
         default: true
         type: boolean
@@ -17,11 +17,11 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
         with:
+          fetch-depth: 1
           sparse-checkout: |
             new_maps
             fullmaplist.ini
             fullmaplist_crc.ini
-            uberpaks
 
       - name: Find and validate pkz file
         id: find-pkz
@@ -44,7 +44,7 @@ jobs:
       - name: Extract pkz
         run: |
           cd new_maps
-          unzip -o "${{ steps.find-pkz.outputs.pkz_name }}"
+          unzip -oq "${{ steps.find-pkz.outputs.pkz_name }}"
 
       - name: Identify map and compute CRC
         id: map-info
@@ -57,7 +57,6 @@ jobs:
           MAP_BSP=$(basename "$BSP_FILE")
           MAP_NAME="${MAP_BSP%.bsp}"
           CRC_LINE=$(cksum "$BSP_FILE")
-          # cksum outputs: CRC SIZE /path/to/file — reformat to just "CRC SIZE filename.bsp"
           CRC_VAL=$(echo "$CRC_LINE" | awk '{print $1}')
           SIZE_VAL=$(echo "$CRC_LINE" | awk '{print $2}')
           echo "map_name=$MAP_NAME" >> "$GITHUB_OUTPUT"
@@ -66,12 +65,22 @@ jobs:
           echo "Map: $MAP_NAME"
           echo "CRC entry: $CRC_VAL $SIZE_VAL $MAP_BSP"
 
+      - name: Rename workflow run
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          DRY_RUN_LABEL=""
+          if [ "${{ inputs.dry_run }}" = "true" ]; then
+            DRY_RUN_LABEL=" (dry run)"
+          fi
+          gh api -X PATCH \
+            "/repos/${{ github.repository }}/actions/runs/${{ github.run_id }}" \
+            -f "name=Process New Map: ${{ steps.map-info.outputs.map_name }}${DRY_RUN_LABEL}"
+
       - name: Update fullmaplist.ini
         run: |
           MAP_NAME="${{ steps.map-info.outputs.map_name }}"
-          # Remove if already present (handles re-processing)
           sed -i "/^${MAP_NAME}$/d" fullmaplist.ini
-          # Add and sort (remove blank lines, deduplicate)
           echo "$MAP_NAME" >> fullmaplist.ini
           sort -u fullmaplist.ini | sed '/^$/d' > fullmaplist_sorted.ini
           mv fullmaplist_sorted.ini fullmaplist.ini
@@ -81,9 +90,7 @@ jobs:
         run: |
           MAP_BSP="${{ steps.map-info.outputs.map_bsp }}"
           CRC_ENTRY="${{ steps.map-info.outputs.crc_entry }}"
-          # Remove existing entry for this map (handles re-processing)
           sed -i "/ ${MAP_BSP}$/d" fullmaplist_crc.ini
-          # Add new entry, sort by filename (field 3), deduplicate, remove blanks
           echo "$CRC_ENTRY" >> fullmaplist_crc.ini
           sort -t' ' -k3 -u fullmaplist_crc.ini | sed '/^$/d' > fullmaplist_crc_sorted.ini
           mv fullmaplist_crc_sorted.ini fullmaplist_crc.ini
@@ -93,7 +100,7 @@ jobs:
         if: ${{ inputs.dry_run }}
         run: |
           echo "============================================"
-          echo "DRY RUN — no S3 uploads or commits will occur"
+          echo "DRY RUN — no S3 uploads or PR will be created"
           echo "============================================"
           echo ""
           echo "Map: ${{ steps.map-info.outputs.map_name }}"
@@ -110,7 +117,7 @@ jobs:
           echo "  fullmaplist.ini"
           echo "  fullmaplist_crc.ini"
           echo ""
-          echo "--- Files that would be moved to uberpaks/ ---"
+          echo "--- Files that would be added to uberpaks/ via PR ---"
           for dir in maps textures env sound mapdocs; do
             if [ -d "new_maps/$dir" ]; then
               find "new_maps/$dir" -type f | sed "s|^new_maps/|  uberpaks/|"
@@ -154,8 +161,17 @@ jobs:
           s3cmd put fullmaplist.ini fullmaplist_crc.ini \
             "s3://${{ secrets.AWS_BUCKET_GAMEASSETS }}/action/server/"
 
-      - name: Move contents to uberpaks
+      - name: Create PR to merge map into uberpaks
+        if: ${{ !inputs.dry_run }}
+        env:
+          GH_TOKEN: ${{ github.token }}
         run: |
+          MAP_NAME="${{ steps.map-info.outputs.map_name }}"
+          BRANCH="map/${MAP_NAME}"
+
+          git checkout -b "$BRANCH"
+
+          # Place extracted contents into uberpaks/
           for dir in maps textures env sound mapdocs; do
             if [ -d "new_maps/$dir" ]; then
               mkdir -p "uberpaks/$dir"
@@ -163,12 +179,28 @@ jobs:
             fi
           done
 
-      - name: Commit and push
-        if: ${{ !inputs.dry_run }}
-        run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add uberpaks/ fullmaplist.ini fullmaplist_crc.ini
           git rm -rf new_maps/*
-          git commit -m "Process new map: ${{ steps.map-info.outputs.map_name }}"
-          git push
+          git commit -m "Add map: ${MAP_NAME}"
+          git push -u origin "$BRANCH"
+
+          gh pr create \
+            --title "Add map: ${MAP_NAME}" \
+            --body "$(cat <<'EOF'
+          ## New Map: ${{ steps.map-info.outputs.map_name }}
+
+          **S3 uploads completed:**
+          - `${{ steps.find-pkz.outputs.pkz_name }}` uploaded to `action/mapzips/`
+          - Extracted contents uploaded to `action/{maps,textures,env,sound,mapdocs}/`
+          - Updated `fullmaplist.ini` and `fullmaplist_crc.ini` uploaded to `action/server/`
+
+          **This PR adds to the repository:**
+          - Map files into `uberpaks/` (triggers uberpak rebuild on merge)
+          - Updated maplist ini files
+          - Cleans up `new_maps/`
+
+          Merging this PR will trigger the Client and Server Uberpak workflows.
+          EOF
+          )"
