@@ -1,0 +1,122 @@
+================================================================
+* General Information *
+
+Title                   : Box Factory - Automated production never stops.
+Filename                : boxfactory.zip
+Release Date            : February 2026
+Author                  : Nico "pauhi" Tukiainen
+Email                   : nico.tukiainen@gmail.com
+Web                     : www.nicotukiainen.com
+================================================================
+* File Information *
+
+.bsp Name               : boxfactory.bsp
+================================================================
+* Play Information *
+
+Single Player           : No
+Cooperative             : No
+Deathmatch              : No
+ActionQuake DM          : Yes
+ActionQuake Teams       : Yes
+DM Spawn Points         : No
+Max Player Load         : Unsure
+Difficulty Settings     : No
+New Sounds              : No
+New Textures            : Yes
+New Music               : No
+Demos Replaced          : None
+================================================================
+* Installation *
+
+Extract (unzip) in the *:*\quake2\action directory. All paths provided.
+================================================================
+* Construction *
+
+Programs used           : TrenchBroom, Wally, Q2 MapTools, PakScape
+                          Some textures generated with ChatGPT
+Known Bugs              : None
+Build Time              : Several evenings
+================================================================
+* Description *
+
+An automated box manufacturing facility filled with conveyor belts,
+stacked cargo, and tight industrial spaces. Designed to provide fast,
+intense close-quarters combat with multiple routes and vertical movement.
+
+================================================================
+* Special thanks to *
+
+- Everyone whose textures were used
+- Testers (add names here)
+================================================================
+* Where to get this level *
+
+www.nicotukiainen.com/boxfactory.zip
+================================================================
+* Copyright *
+
+Copyright   2026. All rights reserved.
+
+This level is the sole work of pauhi.
+================================================================
+================================================================
+* General Information *
+
+Title                   : Welcome to the Box Factory
+Filename                : boxfactory.zip
+Release Date            : February 2026
+Author                  : Nico "pauhi" Tukiainen
+Email                   : nico.tukiainen@gmail.com
+Web                     : www.nicotukiainen.com
+================================================================
+* File Information *
+
+.bsp Name               : boxfactory.bsp
+================================================================
+* Play Information *
+
+Single Player           : No
+Cooperative             : No
+Deathmatch              : No
+ActionQuake DM          : Yes
+ActionQuake Teams       : Yes
+DM Spawn Points         : No
+Max Player Load         : Unsure
+Difficulty Settings     : No
+New Sounds              : No
+New Textures            : Yes
+New Music               : No
+Demos Replaced          : None
+================================================================
+* Installation *
+
+Extract (unzip) in the *:*\quake2\action directory. All paths provided.
+================================================================
+* Construction *
+
+Programs used           : TrenchBroom, Wally, Q2 MapTools
+                          Some textures generated with ChatGPT
+Known Bugs              : None
+Build Time              : Several evenings
+================================================================
+* Description *
+
+A box manufacturing facility well suited for some good old action.
+
+================================================================
+* Special thanks to *
+
+- Everyone whose textures were used
+- Testers (Royce, Deksti, Commu, Ralle, Tuhmapoika)
+================================================================
+* Where to get this level *
+
+www.nicotukiainen.com/boxfactory.zip
+================================================================
+* Copyright *
+
+Copyright  2026. All rights reserved.
+
+This level is the sole work of pauhi.
+================================================================
