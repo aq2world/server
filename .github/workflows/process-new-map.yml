@@ -8,6 +8,10 @@ on:
         required: false
         default: true
         type: boolean
+  push:
+    branches: [master]
+    paths:
+      - 'new_maps/*.pkz'
 
 permissions:
   contents: write
