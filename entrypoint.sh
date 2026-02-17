@@ -16,6 +16,7 @@ awk '{if ($3 != "") { sub(/\.bsp$/, "", $3); print $3 }}' /aq2server/action/full
 wget "${baseUrl}/server/mapoverridelist.ini" -O "/aq2server/action/mapoverridelist.ini"
 wget "${baseUrl}/server/entoverridelist.ini" -O "/aq2server/action/entoverridelist.ini"
 else
+  > /aq2server/action/maplist.ini
   IFS=',' read -r -a rotation <<< "$ROTATION"
   for map in "${rotation[@]}"
   do
