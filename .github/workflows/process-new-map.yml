@@ -1,0 +1,174 @@
+name: Process New Map
+
+on:
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: 'Dry run - skip S3 uploads and commit/push'
+        required: false
+        default: true
+        type: boolean
+
+jobs:
+  process-map:
+    name: "Process new map from new_maps/"
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          sparse-checkout: |
+            new_maps
+            fullmaplist.ini
+            fullmaplist_crc.ini
+            uberpaks
+
+      - name: Find and validate pkz file
+        id: find-pkz
+        run: |
+          PKZ_FILE=$(find new_maps -maxdepth 1 -name '*.pkz' 2>/dev/null | head -1)
+          if [ -z "$PKZ_FILE" ]; then
+            echo "::error::No .pkz file found in new_maps/"
+            exit 1
+          fi
+          PKZ_COUNT=$(find new_maps -maxdepth 1 -name '*.pkz' | wc -l)
+          if [ "$PKZ_COUNT" -gt 1 ]; then
+            echo "::error::Multiple .pkz files found in new_maps/ — only one at a time is supported"
+            exit 1
+          fi
+          PKZ_NAME=$(basename "$PKZ_FILE")
+          echo "pkz_file=$PKZ_FILE" >> "$GITHUB_OUTPUT"
+          echo "pkz_name=$PKZ_NAME" >> "$GITHUB_OUTPUT"
+          echo "Found: $PKZ_NAME"
+
+      - name: Extract pkz
+        run: |
+          cd new_maps
+          unzip -o "${{ steps.find-pkz.outputs.pkz_name }}"
+
+      - name: Identify map and compute CRC
+        id: map-info
+        run: |
+          BSP_FILE=$(find new_maps/maps -name '*.bsp' | head -1)
+          if [ -z "$BSP_FILE" ]; then
+            echo "::error::No .bsp file found inside the pkz"
+            exit 1
+          fi
+          MAP_BSP=$(basename "$BSP_FILE")
+          MAP_NAME="${MAP_BSP%.bsp}"
+          CRC_LINE=$(cksum "$BSP_FILE")
+          # cksum outputs: CRC SIZE /path/to/file — reformat to just "CRC SIZE filename.bsp"
+          CRC_VAL=$(echo "$CRC_LINE" | awk '{print $1}')
+          SIZE_VAL=$(echo "$CRC_LINE" | awk '{print $2}')
+          echo "map_name=$MAP_NAME" >> "$GITHUB_OUTPUT"
+          echo "map_bsp=$MAP_BSP" >> "$GITHUB_OUTPUT"
+          echo "crc_entry=$CRC_VAL $SIZE_VAL $MAP_BSP" >> "$GITHUB_OUTPUT"
+          echo "Map: $MAP_NAME"
+          echo "CRC entry: $CRC_VAL $SIZE_VAL $MAP_BSP"
+
+      - name: Update fullmaplist.ini
+        run: |
+          MAP_NAME="${{ steps.map-info.outputs.map_name }}"
+          # Remove if already present (handles re-processing)
+          sed -i "/^${MAP_NAME}$/d" fullmaplist.ini
+          # Add and sort (remove blank lines, deduplicate)
+          echo "$MAP_NAME" >> fullmaplist.ini
+          sort -u fullmaplist.ini | sed '/^$/d' > fullmaplist_sorted.ini
+          mv fullmaplist_sorted.ini fullmaplist.ini
+          echo "fullmaplist.ini now has $(wc -l < fullmaplist.ini) entries"
+
+      - name: Update fullmaplist_crc.ini
+        run: |
+          MAP_BSP="${{ steps.map-info.outputs.map_bsp }}"
+          CRC_ENTRY="${{ steps.map-info.outputs.crc_entry }}"
+          # Remove existing entry for this map (handles re-processing)
+          sed -i "/ ${MAP_BSP}$/d" fullmaplist_crc.ini
+          # Add new entry, sort by filename (field 3), deduplicate, remove blanks
+          echo "$CRC_ENTRY" >> fullmaplist_crc.ini
+          sort -t' ' -k3 -u fullmaplist_crc.ini | sed '/^$/d' > fullmaplist_crc_sorted.ini
+          mv fullmaplist_crc_sorted.ini fullmaplist_crc.ini
+          echo "fullmaplist_crc.ini now has $(wc -l < fullmaplist_crc.ini) entries"
+
+      - name: Show dry-run summary
+        if: ${{ inputs.dry_run }}
+        run: |
+          echo "============================================"
+          echo "DRY RUN — no S3 uploads or commits will occur"
+          echo "============================================"
+          echo ""
+          echo "Map: ${{ steps.map-info.outputs.map_name }}"
+          echo "PKZ: ${{ steps.find-pkz.outputs.pkz_name }}"
+          echo "CRC: ${{ steps.map-info.outputs.crc_entry }}"
+          echo ""
+          echo "--- Files that would be uploaded to S3 (mapzips/) ---"
+          echo "  ${{ steps.find-pkz.outputs.pkz_name }}"
+          echo ""
+          echo "--- Files that would be uploaded to S3 (action/) ---"
+          find new_maps -type f ! -name '*.pkz' | sed 's|^new_maps/|  |'
+          echo ""
+          echo "--- Files that would be uploaded to S3 (action/server/) ---"
+          echo "  fullmaplist.ini"
+          echo "  fullmaplist_crc.ini"
+          echo ""
+          echo "--- Files that would be moved to uberpaks/ ---"
+          for dir in maps textures env sound mapdocs; do
+            if [ -d "new_maps/$dir" ]; then
+              find "new_maps/$dir" -type f | sed "s|^new_maps/|  uberpaks/|"
+            fi
+          done
+          echo ""
+          echo "--- Updated fullmaplist.ini (grep for map) ---"
+          grep "${{ steps.map-info.outputs.map_name }}" fullmaplist.ini || echo "  (not found — bug?)"
+          echo ""
+          echo "--- Updated fullmaplist_crc.ini (grep for map) ---"
+          grep "${{ steps.map-info.outputs.map_bsp }}" fullmaplist_crc.ini || echo "  (not found — bug?)"
+
+      - name: Setup S3cmd
+        if: ${{ !inputs.dry_run }}
+        uses: s3-actions/s3cmd@v1.9.0
+        with:
+          provider: aws
+          region: us-east-1
+          access_key: ${{ secrets.AWS_ACCESS_KEY }}
+          secret_key: ${{ secrets.AWS_SECRET_KEY }}
+
+      - name: Upload pkz to S3 (mapzips)
+        if: ${{ !inputs.dry_run }}
+        run: |
+          s3cmd put "new_maps/${{ steps.find-pkz.outputs.pkz_name }}" \
+            "s3://${{ secrets.AWS_BUCKET_GAMEASSETS }}/action/mapzips/"
+
+      - name: Upload extracted contents to S3
+        if: ${{ !inputs.dry_run }}
+        run: |
+          for dir in maps textures env sound mapdocs; do
+            if [ -d "new_maps/$dir" ]; then
+              s3cmd put --recursive "new_maps/$dir/" \
+                "s3://${{ secrets.AWS_BUCKET_GAMEASSETS }}/action/$dir/"
+            fi
+          done
+
+      - name: Upload maplist files to S3
+        if: ${{ !inputs.dry_run }}
+        run: |
+          s3cmd put fullmaplist.ini fullmaplist_crc.ini \
+            "s3://${{ secrets.AWS_BUCKET_GAMEASSETS }}/action/server/"
+
+      - name: Move contents to uberpaks
+        run: |
+          for dir in maps textures env sound mapdocs; do
+            if [ -d "new_maps/$dir" ]; then
+              mkdir -p "uberpaks/$dir"
+              cp -r "new_maps/$dir/"* "uberpaks/$dir/"
+            fi
+          done
+
+      - name: Commit and push
+        if: ${{ !inputs.dry_run }}
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add uberpaks/ fullmaplist.ini fullmaplist_crc.ini
+          git rm -rf new_maps/*
+          git commit -m "Process new map: ${{ steps.map-info.outputs.map_name }}"
+          git push

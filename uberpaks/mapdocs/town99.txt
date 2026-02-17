@@ -1,0 +1,30 @@
+
+6-23-99
+
+===========================================================================================
+Title                   : Town
+Filename                : Town.bsp (renamed to town99.bsp)
+Game			: AQ2
+Author                  : Richard :Enforcer" Hunter
+Email Address           : Enforzer@Hotmail.com
+Web Address             : none
+Description             : A town with a few houses and a park. 
+Additional Credits to   : thanks to Nexus-6 4 playing all the beta versions of the map, 
+                                    Shady 4 getting me interested in map making
+                                    Packet 4 giving me tips on how to use Qoole                      
+===========================================================================================
+Base                    : Scratch
+Editor(s) used          : Qoole
+Build Time              : o...3 weeks (2 on vacation) so 1 week i guees :)
+Compile Time		: hours
+Textures Used           : Gerbil!'s Urban textures
+ 	                  TTI's subway99 textures
+                          IdSoftwares Quake2 textures
+Prefabs Used            : some of my own, a plymoth (don't knbow author :(), and the q2slight
+===========================================================================================
+All these should be unzipped into your action quake2 folder
+==========================================================================================
+
+* Copyright / Permissions *
+Dont do anything to my map! Ask me! send me money too :) 
+

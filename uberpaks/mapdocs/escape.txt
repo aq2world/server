@@ -1,0 +1,54 @@
+Escape, by Trond Abusdal
+
+08/22/98
+================================================================
+Title                   : Escape
+Filename                : escape.bsp
+Game			: Action Quake 2
+Author                  : Trond Abusdal
+Email Address           : iabusdal@online.no
+Web Address             : none yet...
+Description             : A prison
+Additional Credits to   : The AQ2 guys and lotsa other folks
+
+================================================================
+
+* Play Information *
+
+Single Player           : If you wanna play w/o enemies, OK to me :)
+Cooperative             : Make a guess...
+Deathmatch              : Yes. I suppose you shouldn`t be more than 6
+Difficulty Settings     : In DM? I don`t think so...
+New Sounds              : No
+New Graphics            : This is the best part... I have not ONE
+                          of the original Q2 textures. Not in the two
+                          other maps either...
+New Music               : No
+
+* Construction *
+
+Base                    : All from scratch
+Editor(s) used          : Qoole (regged) lotsa Shadow Warrior tools, 
+                          UnrealEd, PSP, 
+Known Bugs              : Nope... Not as I have noticed.                        
+Build Time              : Lets see... I worked on it 3 days
+                          off and to.
+Compile Time		: About 1 hour... But don`t let this fool ya!
+
+Notes:
+
+This is my 3rd released map. You want the two previous ones, take
+a look at members.xoom.com/actionmaps or mail me... Give me some
+feedback!!! (I have a faster ver of village.zip!!)
+
+* Copyright / Permissions *
+
+Copyright? I think I broke a couple of rules doing this level, so feel
+free to do whatever you want... I haven`t asked the 3DRealms dudes if
+I could "borrow" some of their textures... Hope they won`t sue me!
+
+However, I would be pleased if you let me know if you used some of my
+stuff, but only if you feel for it. You see, I had a hell of time
+converting those textures!!!
+
+-Trond Abusdal

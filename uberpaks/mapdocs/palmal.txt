@@ -1,0 +1,72 @@
+   ██▓███   ▄▄▄       ██▓     ███▄ ▄███▓    ███▄ ▄███▓ ▄▄▄       ██▓     ██▓    
+  ▓██░  ██▒▒████▄    ▓██▒    ▓██▒▀█▀ ██▒   ▓██▒▀█▀ ██▒▒████▄    ▓██▒    ▓██▒    
+  ▓██░ ██▓▒▒██  ▀█▄  ▒██░    ▓██    ▓██░   ▓██    ▓██░▒██  ▀█▄  ▒██░    ▒██░    
+  ▒██▄█▓▒ ▒░██▄▄▄▄██ ▒██░    ▒██    ▒██    ▒██    ▒██ ░██▄▄▄▄██ ▒██░    ▒██░    
+  ▒██▒ ░  ░ ▓█   ▓██▒░██████▒▒██▒   ░██▒   ▒██▒   ░██▒ ▓█   ▓██▒░██████▒░██████▒
+  ▒▓▒░ ░  ░ ▒▒   ▓▒█░░ ▒░▓  ░░ ▒░   ░  ░   ░ ▒░   ░  ░ ▒▒   ▓▒█░░ ▒░▓  ░░ ▒░▓  ░
+  ░▒ ░       ▒   ▒▒ ░░ ░ ▒  ░░  ░      ░   ░  ░      ░  ▒   ▒▒ ░░ ░ ▒  ░░ ░ ▒  ░
+  ░░         ░   ▒     ░ ░   ░      ░      ░      ░     ░   ▒     ░ ░     ░ ░   
+                 ░  ░    ░  ░       ░             ░         ░  ░    ░  ░    ░  ░
+
+===========================================================================================
+:: BASIC INFO ::
+-------------------------------------------------------------------------------------------
+Title                   : Palm Mall - spend more feel less
+Filename                : palmal.bsp
+Author                  : iLPoNaToR
+Release date            : 21/09 2025
+Contact                 : Local mental health institute
+Softwares used          : Wally, Paint.net, Trenchbroom, Ericw-tools, Audacity
+===========================================================================================
+
+:: NOTES ::
+-------------------------------------------------------------------------------------------
+Who reads these map documents? And why? 
+
+Some textures are stolen from OG AQ2 maps, some of them are made by me. 
+Water with blue light example is used in 20 different maps. 
+
+So there is no way of knowing the original source. 
+
+Custom textures by me:
+ - blue_led.wal
+ - red_led.wal
+ - all the signs
+ - leaves_on_concrete.wal
+ - concrete.wal
+
+Do whatever you want with them, no restrictions.  
+
+I just wanted to make a vaporwave themed shopping mall map. Only inspiration I got
+was listening vaporwave tunes, such as Cat System Corp (especially the Palm Mall album),
+Luxury Elite, Fortune 600, bbrainz. Also binge watching google images with keywords 
+such as abandoned mall, vaporwave mall got me vibing hard.
+
+It is most likely going to be a sniper map for teamplay, but i tried to make sure there are 
+many other pathways to push the enemies with the most badass weapon in the game, handcannon!
+Some fences work as ladders, also the green support pillars.
+
+It's my first "official" map for this almost dead game, so go and try it out!
+
+===========================================================================================
+
+:: PERFORMANCE ::
+-------------------------------------------------------------------------------------------
+Compile time             : ~30s
+Engines                  : Works very well with q2pro,
+                           pretty okay with AprQ2,
+                           aQtion has some lighting issues with default settings
+r_speeds 1               : sometimes pretty high (~4500 max),
+                           but hey, it's 2025, should run fine on modern hardware.
+===========================================================================================
+
+:: AUDIO AMBIENCE ::
+-------------------------------------------------------------------------------------------
+mall_ambience.wav is a recording from a mall, with a loving touch by Cat System Corp. 
+You should check it out. 
+
+Cat System Corp [Palm Mall 2014]  
+https://catsystemcorp.bandcamp.com/album/palm-mall
+===========================================================================================
+
+Thanks.

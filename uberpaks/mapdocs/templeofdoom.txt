@@ -1,0 +1,53 @@
+================================================================================
+* ACTION QUAKE II LEVEL INFORMATION *
+--------------------------------------------------------------------------------
+TITLE                   : Temple of Doom
+AUTHOR                  : Ralle              
+DATE                    : 18.05.2025
+EMAIL ADDRESS           : smarallen@gmail.com
+TOOLS USED				: TrenchBroom, eriw-tools, AI tools such as Midjourney
+
+================================================================================
+* LEVEL DESCRIPTION *
+--------------------------------------------------------------------------------
+This is a remake of the old Cliff2 map, inspired by the epic Indiana Jones movies. Fast gameplay with a twist!
+
+Enjoy!
+
+================================================================================
+* CREDITS *
+--------------------------------------------------------------------------------	
+Special thanks to:
+ - other mappers for their textures:
+	Makkon for awesome textures.
+	Matic for help during the whole process and release video.
+	Ace 12GA for the original Cliff2 map.
+
+--------------------------------------------------------------------------------
+* MAKKON TEXTURES USAGE DISCLAIMER *
+--------------------------------------------------------------------------------
+All textures made from scratch in Substance Designer by Ben "Makkon" Hale.
+Modification is allowed and encouraged, with credit.
+Not for commercial use without express written permission.
+
+All sets come with color variations, with exception of a few. This makes for 
+many textures to import and process. As a result, I have not cut up many of the 
+trimsheets into separate trim textures, as this would result in several hundred 
+textures to process. If you need your trims separated, feel free to cut them up 
+yourself. I would otherwise encourage you to use the trims as a sheet, it's 
+better for organization and performance, and makes it extremely easy to swap to 
+different colors.
+
+Use for or in association with NFTs, Web3, blockchain technology, crypto 
+currency, machine learning, AI art, or AI aided image generation in any way is 
+not permitted, including promotional material.
+
+These textures were built for and look best in Nearest filtering.
+
+Thanks to ptoing for his LUT textures, used to convert to Quake palette more 
+effectively.
+
+~Ben "Makkon" Hale
+https://bsky.app/profile/makkon.bsky.social
+https://cara.app/makkon
+================================================================================
