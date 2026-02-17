@@ -9,6 +9,11 @@ on:
         default: true
         type: boolean
 
+permissions:
+  actions: write
+  contents: write
+  pull-requests: write
+
 jobs:
   process-map:
     name: "Process new map from new_maps/"
