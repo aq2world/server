@@ -12,7 +12,7 @@ wget "${baseUrl}/server/fullmaplist_crc.ini" -O "/aq2server/action/fullmaplist_c
 
 if [ $FULLMAPS == "TRUE" ]; then
 # Extract just the map names from fullmaplist_crc.ini for maplist.ini (remove .bsp extension)
-awk '{if ($3 != "") print $3}' /aq2server/action/fullmaplist_crc.ini | sed 's/.bsp$//' > /aq2server/action/maplist.ini
+awk '{if ($3 != "") print $3}' /aq2server/action/fullmaplist_crc.ini > /aq2server/action/maplist.ini
 wget "${baseUrl}/server/mapoverridelist.ini" -O "/aq2server/action/mapoverridelist.ini"
 wget "${baseUrl}/server/entoverridelist.ini" -O "/aq2server/action/entoverridelist.ini"
 else
