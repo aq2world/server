@@ -21,6 +21,10 @@ jobs:
   process-map:
     name: "Process new map from new_maps/"
     runs-on: ubuntu-latest
+    # Only run when a pkz was actually added (not when the merge-back removes it)
+    if: >
+      github.event_name == 'workflow_dispatch' ||
+      contains(toJSON(github.event.commits.*.added), '.pkz')
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
