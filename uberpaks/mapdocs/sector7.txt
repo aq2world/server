@@ -1,0 +1,66 @@
+================================================================
+* General Information *
+
+Title                   : SECTOR 7
+Filename                : sector7.zip
+Release Date            : March 2026
+Author                  : Nico "pauhi" Tukiainen & Roy "Royce" Roycersson
+Email                   : nico.tukiainen@gmail.com
+Web                     : www.nicotukiainen.com
+================================================================
+* File Information *
+
+.bsp Name               : sector7.bsp
+================================================================
+* Play Information *
+
+Single Player           : No
+Cooperative             : No
+Deathmatch              : No
+ActionQuake DM          : Yes
+ActionQuake Teams       : Yes
+DM Spawn Points         : No
+Max Player Load         : Unsure
+Difficulty Settings     : No
+New Sounds              : No
+New Textures            : Yes
+New Music               : No
+Demos Replaced          : None
+================================================================
+* Installation *
+
+Extract (unzip) in the *:*\quake2\action directory. All paths provided.
+================================================================
+* Construction *
+
+Programs used           : TrenchBroom, Wally, Q2 MapTools, PakScape, Krita
+                          Some textures generated with ChatGPT
+Known Bugs              : None
+Build Time              : Several evenings
+================================================================
+* Description *
+
+Sector 7 is a restricted industrial processing zone deep inside a classified facility.
+
+Dominated by towering containment columns filled with unstable green coolant, the map centers around a multi-level core chamber surrounded by control rooms, cargo platforms, and exposed catwalks. Tight corridors feed into open vertical combat spaces, creating constant pressure between elevation control and ground movement.
+
+Upper walkways provide strong sightlines across the reactor floor, while lower routes allow for fast flanks and surprise pushes. Crates and structural pillars break visibility just enough to reward positioning without turning fights into random chaos.
+
+Sector 7 is built for aggressive, fast-paced Action Quake play where controlling height and timing rotations decides the round.
+
+================================================================
+* Special thanks to *
+
+- Everyone whose textures were used
+- Testers (tuhmapoika, cheef)
+================================================================
+* Where to get this level *
+
+www.nicotukiainen.com/sector7.zip
+================================================================
+* Copyright *
+
+Copyright   2026. All rights reserved.
+
+This level is the sole work of pauhi & Royce.
+================================================================
