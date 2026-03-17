@@ -182,6 +182,8 @@ jobs:
           MAP_NAME="${{ steps.map-info.outputs.map_name }}"
           BRANCH="map/${MAP_NAME}"
 
+          # Delete stale remote branch from any prior run
+          git push origin --delete "$BRANCH" 2>/dev/null || true
           git checkout -b "$BRANCH"
 
           # Place extracted contents into uberpaks/
