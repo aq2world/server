@@ -20,7 +20,7 @@ jobs:
           ls -la ./
 
       - name: Checkout repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
         with:
           sparse-checkout: |
             bots
@@ -34,7 +34,7 @@ jobs:
           zip -r uberpak_client.pkz .
 
       - name: Setup S3cmd
-        uses: s3-actions/s3cmd@v1.9.0
+        uses: s3-actions/s3cmd@v2.4.0
         with:
           provider: aws
           region: us-east-1

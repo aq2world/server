@@ -21,7 +21,7 @@ jobs:
           ls -la ./
 
       - name: Checkout repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
         with:
           sparse-checkout: |
             /*
@@ -45,7 +45,7 @@ jobs:
           bucket-root: '/'
       
       - name: Checkout aq2-tng
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
         with:
           repository: actionquake/aq2-tng
           path: aq2-tng
