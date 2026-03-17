@@ -1,0 +1,59 @@
+================================================================
+* General Information *
+
+Title                   : Skyfall - Berqele q blummas
+Filename                : skyfall.zip
+Release Date            : March 2026
+Author                  : Nico "pauhi" Tukiainen
+Email                   : nico.tukiainen@gmail.com
+Web                     : www.nicotukiainen.com
+================================================================
+* File Information *
+
+.bsp Name               : skyfall.bsp
+================================================================
+* Play Information *
+
+Single Player           : No
+Cooperative             : No
+Deathmatch              : No
+ActionQuake DM          : Yes
+ActionQuake Teams       : Yes
+DM Spawn Points         : No
+Max Player Load         : Unsure
+Difficulty Settings     : No
+New Sounds              : No
+New Textures            : Yes
+New Music               : No
+Demos Replaced          : None
+================================================================
+* Installation *
+
+Extract (unzip) in the *:*\quake2\action directory. All paths provided.
+================================================================
+* Construction *
+
+Programs used           : TrenchBroom, Wally, Q2 MapTools
+Known Bugs              : None
+Build Time              : Several evenings
+================================================================
+* Description *
+
+A castle in the sky. Watch your step!
+
+================================================================
+* Special thanks to *
+
+- Everyone whose textures were used (mostly Makkon and WizardExt)
+- Testers (Royce, tuhmapoika, eax)
+================================================================
+* Where to get this level *
+
+www.nicotukiainen.com/skyfall.zip
+================================================================
+* Copyright *
+
+Copyright   2026. All rights reserved.
+
+This level is the sole work of pauhi.
+================================================================
