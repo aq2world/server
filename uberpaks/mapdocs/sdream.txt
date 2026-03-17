@@ -1,0 +1,46 @@
+15.09.2001
+				
+
+
+
+				Sniper's Dream
+				--------------
+
+
+
+* INFORMATION *
+	                	   
+FILENAME                : sdream.zip
+AUTHOR                  : Serpent
+EMAIL ADDRESS           : ossi666@sunpoint.net
+HOMEPAGE URL            : http://www.vitsi.org
+GAME 			: Action Quake 2 TP&DM
+SUGGESTED PLAYER LOAD   : 2 to 8
+SOUNDS                  : Never
+SKY 			: HK
+EDITORS USED            : QOOLE 2.50 SW, QOOLE 99 v0.97
+KNOWN BUGS              : None
+COMPILING MACHINE	: AMD 1200 Mhz, 256 DDR
+QBSP TIME               : 1 seconds
+QVIS TIME               : 284 seconds
+QRAD TIME               : 312 seconds
+MAKING TIME		: 1 day
+BETA TESTER		: Just me...
+NEW TEXTURES            : Nope
+OLD TEXTURES 		: Copied without permission
+			  because I don't know their E-mails.
+			  Textures in folders crcity, urban & shadow3.
+
+
+* INSTALLATION *
+
+Just unzip in the X:\quake2\action directory. All paths provided.
+
+
+* COPYRIGHT / PERMISSIONS *
+
+Authors MAY NOT use this level as a base to build additional levels
+without MY permission. I don't have permissions to use any textures. ;)
+
+sdream (c) 2001 Serpent
+All rights reserved.
