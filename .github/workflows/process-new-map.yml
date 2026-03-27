@@ -145,7 +145,7 @@ jobs:
 
       - name: Setup S3cmd
         if: ${{ !inputs.dry_run }}
-        uses: s3-actions/s3cmd@v2.4.0
+        uses: s3-actions/s3cmd@v2.1.0
         with:
           provider: aws
           region: us-east-1
