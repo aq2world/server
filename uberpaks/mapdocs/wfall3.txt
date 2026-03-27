@@ -1,0 +1,59 @@
+================================================================
+* General Information *
+
+Title                   : Wfall3 - Rauta on jäässä
+Filename                : wfall3.zip
+Release Date            : March 2026
+Author                  : Nico "pauhi" Tukiainen
+Email                   : nico.tukiainen@gmail.com
+Web                     : www.nicotukiainen.com
+================================================================
+* File Information *
+
+.bsp Name               : wfall3.bsp
+================================================================
+* Play Information *
+
+Single Player           : No
+Cooperative             : No
+Deathmatch              : No
+ActionQuake DM          : Yes
+ActionQuake Teams       : Yes
+DM Spawn Points         : No
+Max Player Load         : Unsure
+Difficulty Settings     : No
+New Sounds              : No
+New Textures            : Yes
+New Music               : No
+Demos Replaced          : None
+================================================================
+* Installation *
+
+Extract (unzip) in the *:*\quake2\action directory. All paths provided.
+================================================================
+* Construction *
+
+Programs used           : TrenchBroom, Wally, Q2 MapTools
+Known Bugs              : None
+Build Time              : Several evenings
+================================================================
+* Description *
+
+Continuination to he waterfall saga.
+
+================================================================
+* Special thanks to *
+
+- Everyone whose textures were used (mostly Makkon and WizardExt)
+- Testers (FragBait, eax, Deksti)
+================================================================
+* Where to get this level *
+
+www.nicotukiainen.com/wfall3.zip
+================================================================
+* Copyright *
+
+Copyright   2026. All rights reserved.
+
+This level is the sole work of pauhi.
+================================================================
