@@ -1,0 +1,55 @@
+================================================================================
+* ACTION QUAKE II LEVEL INFORMATION *
+--------------------------------------------------------------------------------
+TITLE                   : Tiny
+AUTHOR                  : m4tic               
+DATE                    : 06.08.2026
+EMAIL ADDRESS           : mbatfri@gmail.com
+TOOLS USED		: TrenchBroom (2024.1), eriw-tools (2.0.0-alpha10)
+
+================================================================================
+* LEVEL DESCRIPTION *
+--------------------------------------------------------------------------------
+Oh no, you're TINY! Inspired by the old map huge, you're put in an 
+Actionquaker's gaming room while being shrunk down. Map is jumpy and fast paced,
+with many easter eggs to some of the active player base during the making of the
+map.
+Hopefully you enjoy it while being tiny!
+
+================================================================================
+* CREDITS *
+--------------------------------------------------------------------------------	
+Special thanks to:
+ - other mappers for creating lovely textures:
+	makkon and WizardExt,
+ - Ralle for providing the neon sign,
+ - the community to keep it going.
+
+--------------------------------------------------------------------------------
+* MAKKON TEXTURES USAGE DISCLAIMER *
+--------------------------------------------------------------------------------
+All textures made from scratch in Substance Designer by Ben "Makkon" Hale.
+Modification is allowed and encouraged, with credit.
+Not for commercial use without express written permission.
+
+All sets come with color variations, with exception of a few. This makes for 
+many textures to import and process. As a result, I have not cut up many of the 
+trimsheets into separate trim textures, as this would result in several hundred 
+textures to process. If you need your trims separated, feel free to cut them up 
+yourself. I would otherwise encourage you to use the trims as a sheet, it's 
+better for organization and performance, and makes it extremely easy to swap to 
+different colors.
+
+Use for or in association with NFTs, Web3, blockchain technology, crypto 
+currency, machine learning, AI art, or AI aided image generation in any way is 
+not permitted, including promotional material.
+
+These textures were built for and look best in Nearest filtering.
+
+Thanks to ptoing for his LUT textures, used to convert to Quake palette more 
+effectively.
+
+~Ben "Makkon" Hale
+https://bsky.app/profile/makkon.bsky.social
+https://cara.app/makkon
+================================================================================
