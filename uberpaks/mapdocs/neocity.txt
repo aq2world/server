@@ -1,0 +1,67 @@
+================================================================
+* General Information *
+
+Title                   : NEO CITY - Where Nightlife gets dangerous
+Filename                : neocity.pkz
+Release Date            : August 2026
+Author                  : Nico "pauhi" Tukiainen
+Email                   : nico.tukiainen@gmail.com
+Web                     : www.nicotukiainen.com
+================================================================
+* File Information *
+
+.bsp Name               : neocity.bsp
+================================================================
+* Play Information *
+
+Single Player           : No
+Cooperative             : No
+Deathmatch              : No
+ActionQuake DM          : Yes
+ActionQuake Teams       : Yes
+DM Spawn Points         : 7
+Max Player Load         : Unsure
+Difficulty Settings     : No
+New Sounds              : Yes
+New Textures            : Yes
+New Music               : No
+Demos Replaced          : None
+================================================================
+* Installation *
+
+Extract (unzip) in the *:*\quake2\action directory. All paths provided.
+================================================================
+* Construction *
+
+Programs used           : TrenchBroom, Wally, Q2 MapTools
+Known Bugs              : None
+Build Time              : Several evenings
+================================================================
+* Description *
+
+A city block after dark. The cinema is still lit and the arcade is still
+open, but the good routes are the ones nobody queues for: service alleys
+behind the storefronts, ivy on the back of the buildings, and the
+rooftops above them.
+
+Three levels, all worth holding. Street for the long shots, alleys and
+interiors for the close work, rooftops for the players who know where the
+ladders come out. Nothing up there is safe for long.
+
+================================================================
+* Special thanks to *
+
+- Testers (m4tic, Royce, Afked, Lic)
+- Flunx for the van model
+- Makkon for skybox
+================================================================
+* Where to get this level *
+
+www.nicotukiainen.com/neocity.zip
+================================================================
+* Copyright *
+
+Copyright   2026. All rights reserved.
+
+This level and its textures are the work of pauhi, with the van model by Flunx.
+================================================================
