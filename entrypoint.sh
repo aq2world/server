@@ -200,14 +200,14 @@ echo "sets _admin $_ADMIN" >> /aq2server/action/config.cfg
 echo "set q2a_config $Q2A_CONFIG" >> /aq2server/action/config.cfg
 echo "set scoreboard $SCOREBOARD" >> /aq2server/action/config.cfg
 echo "set map_override_path $MAP_OVERRIDE" >> /aq2server/action/config.cfg
-echo "set sv_changemapcmd $SV_CHANGEMAPCMD" >> /aq2server/action/config.cfg
+echo "set sv_changemapcmd \"$SV_CHANGEMAPCMD\"" >> /aq2server/action/config.cfg
 echo "set round_begin $ROUND_BEGIN" >> /aq2server/action/config.cfg
 
 # Passwords
 echo "set rcon_password $RCON_PASSWORD" >> /aq2server/action/config.cfg
-echo "set sv_password $SV_PASSWORD" >> /aq2server/action/config.cfg
+echo "set sv_password \"$SV_PASSWORD\"" >> /aq2server/action/config.cfg
 echo "set sv_mvd_password $SV_MVD_PASSWORD" >> /aq2server/action/config.cfg
-echo "set sv_reserved_password $SV_RESERVED_PASSWORD" >> /aq2server/action/config.cfg
+echo "set sv_reserved_password \"$SV_RESERVED_PASSWORD\"" >> /aq2server/action/config.cfg
 echo "set needpass $NEEDPASS" >> /aq2server/action/config.cfg
 
 # Map rotation
@@ -308,7 +308,7 @@ echo "set use_balancer $USE_BALANCER" >> /aq2server/action/config.cfg
 echo "set use_oldspawns $USE_OLDSPAWNS" >> /aq2server/action/config.cfg
 echo "set sv_allow_map $SV_ALLOW_MAP" >> /aq2server/action/config.cfg
 echo "set deadtalk $DEADTALK" >> /aq2server/action/config.cfg
-echo "set force_skin $FORCE_SKIN" >> /aq2server/action/config.cfg
+echo "set force_skin \"$FORCE_SKIN\"" >> /aq2server/action/config.cfg
 echo "set ppl_idletime $PPL_IDLETIME" >> /aq2server/action/config.cfg
 echo "set sv_idleremove $SV_IDLEREMOVE" >> /aq2server/action/config.cfg
 echo "set sv_idlekick $SV_IDLEKICK" >> /aq2server/action/config.cfg
@@ -340,7 +340,7 @@ echo "set weapon_respawn $WEAPON_RESPAWN" >> /aq2server/action/config.cfg
 echo "set wave_time $WAVE_TIME" >> /aq2server/action/config.cfg
 echo "set zoom_comp $ZOOM_COMP" >> /aq2server/action/config.cfg
 echo "set item_kit_mode $ITEM_KIT_MODE" >> /aq2server/action/config.cfg
-echo "set sv_redirect_address $SV_REDIRECT_ADDRESS" >> /aq2server/action/config.cfg
+echo "set sv_redirect_address \"$SV_REDIRECT_ADDRESS\"" >> /aq2server/action/config.cfg
 echo "set sv_load_ent $SV_LOAD_ENT" >> /aq2server/action/config.cfg
 echo "set sv_status_ext $SV_STATUS_EXT" >> /aq2server/action/config.cfg
 echo "set use_buggy_ent_hitbox $USE_BUGGY_ENT_HITBOX" >> /aq2server/action/config.cfg
@@ -354,7 +354,7 @@ echo "set teamdm_respawn $TEAMDM_RESPAWN" >> /aq2server/action/config.cfg
 echo "set ctf $CTF" >> /aq2server/action/config.cfg
 echo "set ctf_mode $CTF_MODE" >> /aq2server/action/config.cfg
 echo "set ctf_rewards $CTF_REWARDS" >> /aq2server/action/config.cfg
-echo "set ctf_forcejoin $CTF_FORCEJOIN" >> /aq2server/action/config.cfg
+echo "set ctf_forcejoin \"$CTF_FORCEJOIN\"" >> /aq2server/action/config.cfg
 echo "set ctf_dropflag $CTF_DROPFLAG" >> /aq2server/action/config.cfg
 echo "set ctf_respawn $CTF_RESPAWN" >> /aq2server/action/config.cfg
 echo "set ctf_model $CTF_MODEL" >> /aq2server/action/config.cfg
@@ -512,7 +512,7 @@ if [ ${STAT_LOGS} == "1" ]; then
   echo 'set logfile_prefix "[%Y-%m-%d %H:%M] "' >> /aq2server/action/config.cfg
 fi
 # stat_log apikey
-echo "set stat_apikey $STAT_APIKEY" >> /aq2server/action/config.cfg
+echo "set stat_apikey \"$STAT_APIKEY\"" >> /aq2server/action/config.cfg
 
 ## Server/Discord announcement info
 echo "set sv_curl_enable $SV_CURL_ENABLE" >> /aq2server/action/config.cfg
