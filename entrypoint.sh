@@ -24,6 +24,22 @@ else
   done
 fi
 
+# Cold-start bulk seed: on a fresh maps/ dir with FULLMAPS, grab the whole
+# server pack in one shot instead of a wget per map. The CRC loop below then
+# runs as a verify-only pass and self-heals anything corrupt or stale.
+# Pack lives on a different host than $baseUrl, so the full URL is used.
+mkdir -p /aq2server/action/maps
+if [ "$FULLMAPS" == "TRUE" ] && [ -z "$(ls -A /aq2server/action/maps 2>/dev/null)" ]; then
+    echo "Cold start detected: fetching full server map pack..."
+    if wget -q "https://aq2world.s3.amazonaws.com/files/uberpak_server.pkz" -O /aq2server/uberpak_server.pkz; then
+        unzip -oq /aq2server/uberpak_server.pkz 'maps/*' -d /aq2server/action/
+        rm -f /aq2server/uberpak_server.pkz
+        echo "Map pack extracted; validating via CRC pass."
+    else
+        echo "Map pack download failed; falling back to per-map download."
+    fi
+fi
+
 # Process each map with CRC checking
 cat /aq2server/action/maplist.ini | while read map
 do
@@ -313,7 +329,6 @@ echo "set g_highscores_countbots $G_HIGHSCORES_COUNTBOTS" >> /aq2server/action/c
 
 # Misc
 echo "set use_buggy_bandolier $USE_BUGGY_BANDOLIER" >> /aq2server/action/config.cfg
-echo "set use_oldspawns $USE_OLDSPAWNS" >> /aq2server/action/config.cfg
 echo "set medkit_drop $MEDKIT_DROP" >> /aq2server/action/config.cfg
 echo "set medkit_time $MEDKIT_TIME" >> /aq2server/action/config.cfg
 echo "set medkit_instant $MEDKIT_INSTANT" >> /aq2server/action/config.cfg
@@ -323,7 +338,6 @@ echo "set item_respawn $ITEM_RESPAWN" >> /aq2server/action/config.cfg
 echo "set ammo_respawn $AMMO_RESPAWN" >> /aq2server/action/config.cfg
 echo "set weapon_respawn $WEAPON_RESPAWN" >> /aq2server/action/config.cfg
 echo "set wave_time $WAVE_TIME" >> /aq2server/action/config.cfg
-echo "set spectator_hud $SPECTATOR_HUD" >> /aq2server/action/config.cfg
 echo "set zoom_comp $ZOOM_COMP" >> /aq2server/action/config.cfg
 echo "set item_kit_mode $ITEM_KIT_MODE" >> /aq2server/action/config.cfg
 echo "set sv_redirect_address $SV_REDIRECT_ADDRESS" >> /aq2server/action/config.cfg
@@ -419,7 +433,6 @@ echo "set use_classic $USE_CLASSIC" >> /aq2server/action/config.cfg
 echo "set dm_choose $DM_CHOOSE" >> /aq2server/action/config.cfg
 echo "set dm_shield $DM_SHIELD" >> /aq2server/action/config.cfg
 echo "set uvtime $UVTIME" >> /aq2server/action/config.cfg
-echo "set items $ITEMS" >> /aq2server/action/config.cfg
 echo "set allow_hoarding $ALLOW_HOARDING" >> /aq2server/action/config.cfg
 echo "set medkit_drop $MEDKIT_DROP" >> /aq2server/action/config.cfg
 echo "set medkit_time $MEDKIT_TIME" >> /aq2server/action/config.cfg
