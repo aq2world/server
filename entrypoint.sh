@@ -31,7 +31,7 @@ fi
 mkdir -p /aq2server/action/maps
 if [ "$FULLMAPS" == "TRUE" ] && [ -z "$(ls -A /aq2server/action/maps 2>/dev/null)" ]; then
     echo "Cold start detected: fetching full server map pack..."
-    if wget -q "https://aq2world.s3.amazonaws.com/files/uberpak_server.pkz" -O /aq2server/uberpak_server.pkz; then
+    if wget "https://aq2world.s3.amazonaws.com/files/uberpak_server.pkz" -O /aq2server/uberpak_server.pkz; then
         unzip -oq /aq2server/uberpak_server.pkz 'maps/*' -d /aq2server/action/
         rm -f /aq2server/uberpak_server.pkz
         echo "Map pack extracted; validating via CRC pass."
