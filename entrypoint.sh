@@ -460,6 +460,7 @@ echo "set stat_logs $STAT_LOGS" >> /aq2server/action/config.cfg
 echo "addstuffcmd begin \"$ADDSTUFFCMD_BEGIN\"" >> /aq2server/action/config.cfg
 
 # MVD
+echo "set use_mvd2 $USE_MVD2" >> /aq2server/action/config.cfg
 echo "set sv_mvd_enable $SV_MVD_ENABLE" >> /aq2server/action/config.cfg
 echo "set sv_mvd_maxclients $SV_MVD_MAXCLIENTS" >> /aq2server/action/config.cfg
 echo "set sv_mvd_begincmd \"putaway; h_cycle\"" >> /aq2server/action/config.cfg
