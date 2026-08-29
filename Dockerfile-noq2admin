@@ -17,7 +17,7 @@ COPY q2a/* /aq2server/
 # # Copy bots stuff, but don't overwrite existing unless file names are the same
 # COPY ./bots/. /aq2server/action/bots/
 
-# Download and extract latest Q2Pro, TNG, and Q2Admin builds
+# Download and extract latest Q2Pro and TNG
 RUN if [ "$TARGETPLATFORM" = "linux/amd64" ]; then \
         export ARCH=x86_64; \
         wget -qnv https://github.com/actionquake/q2pro/releases/latest/download/q2pro-lin-gcc-${ARCH}.zip && \
@@ -104,7 +104,7 @@ ENV MASTER  "master.quadaver.org master.q2servers.com master.aq2world.com netdom
 ENV _ADMIN AQ2WORLD
 ENV AWS_ACCESS_KEY NONE
 ENV STAT_APIKEY ""
-ENV Q2A_CONFIG q2admin_public.lua
+ENV Q2A_CONFIG ""
 ENV SCOREBOARD TNMPKDIA
 ENV MAP_OVERRIDE "map_overrides"
 ENV SV_CHANGEMAPCMD ""
@@ -236,7 +236,6 @@ ENV G_HIGHSCORES_COUNTBOTS 0
 
 # Misc
 ENV USE_BUGGY_BANDOLIER 0
-ENV USE_OLDSPAWNS 0
 ENV MEDKIT_DROP 0
 ENV MEDKIT_TIME 30
 ENV MEDKIT_INSTANT 0
@@ -246,7 +245,6 @@ ENV ITEM_RESPAWN 59
 ENV AMMO_RESPAWN 30
 ENV WEAPON_RESPAWN 74
 ENV WAVE_TIME 5
-ENV SPECTATOR_HUD 0
 ENV ITEM_KIT_MODE 0
 ENV ZOOM_COMP 0
 ENV USE_BUGGY_ENT_HITBOX 1
