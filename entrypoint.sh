@@ -197,7 +197,6 @@ echo "set use_voice $USE_VOICE" >> /aq2server/action/config.cfg
 echo "set use_ghosts $USE_GHOSTS" >> /aq2server/action/config.cfg
 echo "setmaster $MASTER" >> /aq2server/action/config.cfg
 echo "sets _admin $_ADMIN" >> /aq2server/action/config.cfg
-echo "set q2a_config $Q2A_CONFIG" >> /aq2server/action/config.cfg
 echo "set scoreboard $SCOREBOARD" >> /aq2server/action/config.cfg
 echo "set map_override_path $MAP_OVERRIDE" >> /aq2server/action/config.cfg
 echo "set sv_changemapcmd \"$SV_CHANGEMAPCMD\"" >> /aq2server/action/config.cfg
@@ -533,7 +532,6 @@ echo "map $default_map" >> /aq2server/action/config.cfg
 # Setup S3 vars to allow for demo uploading
 sed -i "s-AWS_ACCESS_KEY-$AWS_ACCESS_KEY-g" /home/admin/.s3cfg
 sed -i "s-AWS_SECRET_KEY-$AWS_SECRET_KEY-g" /home/admin/.s3cfg
-sed -i "s%SERVERTARGETDIR%$SERVERTARGETDIR%g" /aq2server/plugins/mvd_transfer.sh
 
 # TNG IRC Bot
 echo "set ircserver $IRC_SERVER" >> /aq2server/action/config.cfg
@@ -542,4 +540,4 @@ echo "set ircuser $server_id" >> /aq2server/action/config.cfg
 echo "set ircbot $IRC_BOT" >> /aq2server/action/config.cfg
 
 # Start the server!
-/aq2server/q2proded +set game action +set net_port $PORT +exec config.cfg +set q2a_config $Q2A_CONFIG +seta server_id $server_id +seta server_ip $server_ip
+/aq2server/q2proded +set game action +set net_port $PORT +exec config.cfg +seta server_id $server_id +seta server_ip $server_ip
