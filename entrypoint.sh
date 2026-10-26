@@ -214,7 +214,7 @@ echo "set actionmaps $ACTIONMAPS" >> /aq2server/action/config.cfg
 echo "set rrot $RROT" >> /aq2server/action/config.cfg
 echo "set vrot $VROT" >> /aq2server/action/config.cfg
 echo "set empty_rotate $EMPTY_ROTATE" >> /aq2server/action/config.cfg
-echo "set empty_exec $EMPTY_EXEC" >> /aq2server/action/config.cfg
+echo "set empty_exec \"$EMPTY_EXEC\"" >> /aq2server/action/config.cfg
 
 # Lag settings
 echo "set llsound $LLSOUND" >> /aq2server/action/config.cfg
@@ -452,9 +452,9 @@ echo "set sv_waterjump_hack $SV_WATERJUMP_HACK" >> /aq2server/action/config.cfg
 echo "set sv_packetdup_hack $SV_PACKETDUP_HACK" >> /aq2server/action/config.cfg
 echo "set net_maxmsglen $NET_MAXMSGLEN" >> /aq2server/action/config.cfg
 echo "set logfile_flush $LOGFILE_FLUSH" >> /aq2server/action/config.cfg
-echo "set logfile $LOGFILE" >> /aq2server/action/config.cfg
 echo "set logfile_name $LOGFILE_NAME" >> /aq2server/action/config.cfg
-echo "set logfile_prefix $LOGFILE_PREFIX" >> /aq2server/action/config.cfg
+echo "set logfile_prefix \"$LOGFILE_PREFIX\"" >> /aq2server/action/config.cfg
+echo "set logfile $LOGFILE" >> /aq2server/action/config.cfg
 echo "set stat_logs $STAT_LOGS" >> /aq2server/action/config.cfg
 echo "addstuffcmd begin \"$ADDSTUFFCMD_BEGIN\"" >> /aq2server/action/config.cfg
 
