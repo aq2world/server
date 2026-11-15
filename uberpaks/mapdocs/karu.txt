@@ -1,0 +1,69 @@
+======================================================================
+* ACTION QUAKE II LEVEL INFORMATION *
+----------------------------------------------------------------------
+TITLE       : Holiday at Mt. Karu
+AUTHOR      : iLPo                 
+DATE        : 11-15-2026 
+----------------------------------------------------------------------
+
+aq2world's winter mapjam 2026 (not a competition)
+"make a winter themed retro map with satisying jumps" 
+
+well, it is a winter map. thats for sure.
+
+----------------------------------------------------------------------
+
+when this jam was announced i didnt even feel like making anything at 
+first. then i got some weird inspiration about a ski resort and one 
+thing led to another. the map went through a lot of changes and total 
+overhauls during development and the final layout only started coming 
+together at the very last minute. oh well good thing this wasnt a 
+competition
+
+i tried to get a retro vibe of some really bleak and depressing ski 
+resort thats why the name is karu. its finnish and means bleak or rugged. 
+which this map totally is.
+
+the map is pretty big and open so bots are probably gonna die just by 
+running off the edge lol. r_speeds peak around 3000 near the halfpipe 
+but otherwise wpoly is like 1500 to 2000 sometimes even lower
+
+custom textures made and edited with paint.net and wally.
+that table with the open umbrella was inspired by wizardext from bwcity. 
+still made it myself. 
+
+deadline came way faster than i thought so i had to rush everything. 
+been pulling 12 hour shifts at work and only had like 4 weeks to make 
+this so yeah.. if u feel like modding the map and fixing stuff go right 
+ahead. hmu on discord and i can send u the map files
+
+i think karu is still playable. happy holidays and hope u enjoy this
+ 
+thanks,
+iLPo
+
+----------------------------------------------------------------------
+
+DM Spawns   : 10
+
+ammo_bullets    4  pistols     2
+ammo_cells      4  sniper      2
+ammo_grenades   3  handcannon  2 
+ammo_rockets    6  m4          2
+ammo_shells     4  shotgun     2
+ammo_slugs      4  mp5         2
+
+----------------------------------------------------------------------
+Trenchbroom 2026.2
+
+BSP	QBSP3 1.09    1 s
+VIS	ericw-tools   30,34 s
+RAD     qbism q2tool  215 s
+
+Paint.net
+Wally 1.55B
+Color quantizer 0.7.4.4
+----------------------------------------------------------------------
+
+
+
